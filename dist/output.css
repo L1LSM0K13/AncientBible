@@ -549,13 +549,12 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.my-1 {
-  margin-top: 0.25rem;
+.mb-1 {
   margin-bottom: 0.25rem;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
 .ml-52 {
@@ -566,36 +565,48 @@ video {
   margin-right: 0.25rem;
 }
 
-.ml-1 {
-  margin-left: 0.25rem;
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .block {
   display: block;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
-.inline {
-  display: inline;
-}
-
 .flex {
   display: flex;
+}
+
+.table {
+  display: table;
 }
 
 .grid {
   display: grid;
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+.border-collapse {
+  border-collapse: collapse;
 }
 
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-rows-1 {
@@ -634,19 +645,14 @@ video {
   border-color: rgb(53 84 136 / var(--tw-border-opacity));
 }
 
-.border-\[\#575f6a\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(87 95 106 / var(--tw-border-opacity));
-}
-
-.border-\[\#2d3137\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(45 49 55 / var(--tw-border-opacity));
-}
-
 .border-\[\#434952\] {
   --tw-border-opacity: 1;
   border-color: rgb(67 73 82 / var(--tw-border-opacity));
+}
+
+.border-slate-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(100 116 139 / var(--tw-border-opacity));
 }
 
 .bg-\[\#51688e\] {
@@ -654,14 +660,9 @@ video {
   background-color: rgb(81 104 142 / var(--tw-bg-opacity));
 }
 
-.bg-white {
+.bg-\[\#575f6a\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-slate-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+  background-color: rgb(87 95 106 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#e9eef1\] {
@@ -669,17 +670,9 @@ video {
   background-color: rgb(233 238 241 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#\] {
-  background-color: #;
-}
-
-.bg-\[\#575f6a\] {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(87 95 106 / var(--tw-bg-opacity));
-}
-
-.bg-\[\] {
-  background-color: ;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .p-1 {
@@ -694,6 +687,14 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-top {
+  vertical-align: top;
 }
 
 .text-2xl {
