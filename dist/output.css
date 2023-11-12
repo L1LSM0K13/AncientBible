@@ -549,6 +549,16 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -591,10 +601,6 @@ video {
 
 .grid-rows-1 {
   grid-template-rows: repeat(1, minmax(0, 1fr));
-}
-
-.justify-center {
-  justify-content: center;
 }
 
 .rounded-md {
@@ -686,11 +692,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -699,4 +700,41 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .sm\:text-center {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mx-28 {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mx-52 {
+    margin-left: 13rem;
+    margin-right: 13rem;
+  }
+
+  .lg\:mx-40 {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mx-52 {
+    margin-left: 13rem;
+    margin-right: 13rem;
+  }
 }
