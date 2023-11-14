@@ -534,14 +534,18 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.relative {
+  position: relative;
+}
+
 .mx-1 {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
 }
 
-.mx-52 {
-  margin-left: 13rem;
-  margin-right: 13rem;
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .my-6 {
@@ -549,14 +553,14 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mx-16 {
-  margin-left: 4rem;
-  margin-right: 4rem;
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .mb-1 {
@@ -579,8 +583,20 @@ video {
   margin-right: 0.25rem;
 }
 
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+}
+
 .block {
   display: block;
+}
+
+.inline {
+  display: inline;
 }
 
 .flex {
@@ -703,13 +719,41 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:mx-16 {
-    margin-left: 4rem;
-    margin-right: 4rem;
+  .sm\:mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
-  .sm\:text-center {
-    text-align: center;
+  .sm\:ml-1 {
+    margin-left: 0.25rem;
+  }
+
+  .sm\:mr-1 {
+    margin-right: 0.25rem;
+  }
+
+  .sm\:ml-8 {
+    margin-left: 2rem;
+  }
+
+  .sm\:mr-8 {
+    margin-right: 2rem;
+  }
+
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:inline {
+    display: inline;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:grid {
+    display: grid;
   }
 }
 
@@ -718,14 +762,21 @@ video {
     margin-left: 7rem;
     margin-right: 7rem;
   }
+
+  .md\:ml-1 {
+    margin-left: 0.25rem;
+  }
+
+  .md\:inline {
+    display: inline;
+  }
+
+  .md\:grid {
+    display: grid;
+  }
 }
 
 @media (min-width: 1024px) {
-  .lg\:mx-52 {
-    margin-left: 13rem;
-    margin-right: 13rem;
-  }
-
   .lg\:mx-40 {
     margin-left: 10rem;
     margin-right: 10rem;
