@@ -6,4 +6,4 @@ const Omar = {
   friends: ["Seth", "Matt", "Ian"],
 };
 
-console.log(Omar.friends[0]);
+console.log(Omar.friends[1]);
