@@ -11,9 +11,7 @@
     <header>
       <h1 class="text-2xl ml-52 mb-1">OpenCanon.net</h1>
 
-      <nav
-        class="xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12 p-1 bg-[#575f6a] text-white text-sm border border-[#434952] rounded-md"
-      >
+      <nav class="xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12 p-1 bg-[#575f6a] text-white text-sm border border-[#434952] rounded-md">
         <ul class="flex">
           <li><a href="index.html" class="mx-1">Home</a></li>
           <li><a href="biblePage.html" class="mx-1">Bible</a></li>
@@ -27,12 +25,33 @@
       <article>
         <div class="my-6 xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12">
           <div class="my-6">
-            <h2
-              class="bg-[#51688e] text-lg py-1 px-3 text-white border border-[#355488] rounded-t-md block"
-            >
+            <h2 class="bg-[#51688e] text-lg py-1 px-3 text-white border border-[#355488] rounded-t-md block">
               Jump to book:
             </h2>
-            <table
+
+            <!-- Select Menu -->
+            <div class="bg-white text-xs py-1 px-3 border-x border-b border-[#355488] block rounded-b-md">
+              <select name="selectBook" class="p-1 rounded-sm text-lg">
+                <option value="Select">Select</option>
+                <option value="Select">Select1</option>
+                <option value="Select">Select2</option>
+                <option value="Select">Select3</option>
+                <option value="Select">Select4</option>
+              </select>
+
+              <select name="selectChapter" class="p-1 rounded-sm text-lg">
+                <option value="">Select</option>
+                <option value="">Select1</option>
+                <option value="">Select2</option>
+                <option value="">Select3</option>
+              </select>
+
+              <input type="checkbox"><p class="text-red-500 p-1 inline text-lg">Red Lettering</p>
+              <input type="checkbox"><p class="p-1 inline text-lg">Parallel</p>
+            </div>
+
+
+            <!-- <table
               class="bg-white text-xs py-1 px-3 border-x border-b border-[#355488] block rounded-b-md"
             >
               <tbody class="align-top">
@@ -218,20 +237,16 @@
                   </td>
                 </tr>
               </tbody>
-            </table>
+            </table> -->
           </div>
         </div>
 
         <div class="my-6 xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12">
           <div class="mb-6">
-            <h2
-              class="bg-[#51688e] text-center text-lg py-1 px-3 text-white border border-[#355488] rounded-t-md block"
-            >
+            <h2 class="bg-[#51688e] text-center text-lg py-1 px-3 text-white border border-[#355488] rounded-t-md block">
               Book of "Insert book"
             </h2>
-            <p
-              class="bg-white py-1 px-3 border-x border-b border-[#355488] block rounded-b-md"
-            >
+            <p class="bg-white py-1 px-3 border-x border-b border-[#355488] block rounded-b-md">
               This is a placeholder for the eventual text that will be here.
             </p>
           </div>
@@ -239,6 +254,8 @@
       </article>
     </main>
 
-    <footer></footer>
+    <footer>
+
+    </footer>
   </body>
 </html>
