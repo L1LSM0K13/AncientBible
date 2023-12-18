@@ -24,24 +24,23 @@
 
     <main>
       <article>
-        <div class="my-6 w-72 justify-center">
+        <div class="my-6 h-10">
           <div class="mb-6">
             <h2 class="bg-[#51688e] text-lg py-1 px-3 text-white text-center border border-[#355488] rounded-t-md block">
               Login or Sign-In
             </h2>
               <div class="bg-white py-2 px-3 border border-[#355488] block rounded-b-md">
-                <div class="align-middle">
-                  <div>
-                    <input type="email" name="email" placeholder="Email" class="mb-1 border border-[#51688e] rounded-sm">
-                    <input type="password" name="email" placeholder="Password" class="mb-1 border border-[#51688e] rounded-sm">
+                <div class="grid grid-rows-3 grid-cols-3 gap-1">
+                  
+                    <input type="email" name="email" placeholder="Email" class="border border-[#51688e] rounded-sm text-sm col-span-2">
+                    <button class="bg-gray-200 border border-[#51688e] rounded-sm text-sm">Login</button>
+                    
+                    <input type="password" name="email" placeholder="Password" class="border border-[#51688e] rounded-sm text-sm col-span-2">
+                    <button class="bg-gray-200 border border-[#51688e] rounded-sm text-sm">Sign Up</button>
+                  
+                    <a href="#" class="text-sm text-[#51688e] col-start-2">Forgot Password?</a>
                   </div>
-    
-                  <div>
-                    <button class="bg-gray-200 border border-[#51688e] px-1 rounded-sm">Login</button>
-                    <button class="bg-gray-200 border border-[#51688e] px-1 rounded-sm">Sign Up</button>
-                  </div>
-
-                  <a href="#" class="text-sm text-[#51688e]">Forgot Password?</a>
+              </div>
           </div>
         </div>
       </article>
