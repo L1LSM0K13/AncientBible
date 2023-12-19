@@ -534,6 +534,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -542,20 +546,24 @@ video {
   grid-column-start: 2;
 }
 
-.float-right {
-  float: right;
+.col-end-2 {
+  grid-column-end: 2;
+}
+
+.col-end-5 {
+  grid-column-end: 5;
+}
+
+.col-end-6 {
+  grid-column-end: 6;
+}
+
+.row-start-1 {
+  grid-row-start: 1;
 }
 
 .float-left {
   float: left;
-}
-
-.m-1 {
-  margin: 0.25rem;
-}
-
-.m-10 {
-  margin: 2.5rem;
 }
 
 .mx-1 {
@@ -580,24 +588,12 @@ video {
   margin-left: 0.25rem;
 }
 
-.ml-24 {
-  margin-left: 6rem;
-}
-
 .ml-52 {
   margin-left: 13rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
 .block {
   display: block;
-}
-
-.inline {
-  display: inline;
 }
 
 .flex {
@@ -616,32 +612,12 @@ video {
   height: 2.5rem;
 }
 
-.w-72 {
-  width: 18rem;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-8 {
-  width: 2rem;
+.w-56 {
+  width: 14rem;
 }
 
 .w-80 {
   width: 20rem;
-}
-
-.w-60 {
-  width: 15rem;
-}
-
-.w-52 {
-  width: 13rem;
-}
-
-.w-64 {
-  width: 16rem;
 }
 
 .grid-cols-2 {
@@ -652,8 +628,12 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.grid-rows-2 {
-  grid-template-rows: repeat(2, minmax(0, 1fr));
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .grid-rows-3 {
@@ -664,18 +644,6 @@ video {
   grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
-.content-center {
-  align-content: center;
-}
-
-.content-start {
-  align-content: flex-start;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
 .gap-0 {
   gap: 0px;
 }
@@ -684,8 +652,8 @@ video {
   gap: 0.25rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-md {
@@ -796,10 +764,6 @@ video {
   vertical-align: top;
 }
 
-.align-middle {
-  vertical-align: middle;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -839,10 +803,6 @@ video {
   .sm\:mx-12 {
     margin-left: 3rem;
     margin-right: 3rem;
-  }
-
-  .sm\:ml-0 {
-    margin-left: 0px;
   }
 
   .sm\:gap-8 {
