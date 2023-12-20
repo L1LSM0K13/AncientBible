@@ -534,10 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.col-span-1 {
-  grid-column: span 1 / span 1;
-}
-
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -546,24 +542,16 @@ video {
   grid-column-start: 2;
 }
 
-.col-end-2 {
-  grid-column-end: 2;
-}
-
-.col-end-5 {
-  grid-column-end: 5;
+.col-start-1 {
+  grid-column-start: 1;
 }
 
 .col-end-6 {
   grid-column-end: 6;
 }
 
-.row-start-1 {
-  grid-row-start: 1;
-}
-
-.float-left {
-  float: left;
+.row-start-3 {
+  grid-row-start: 3;
 }
 
 .mx-1 {
@@ -612,12 +600,8 @@ video {
   height: 2.5rem;
 }
 
-.w-56 {
-  width: 14rem;
-}
-
-.w-80 {
-  width: 20rem;
+.w-96 {
+  width: 24rem;
 }
 
 .grid-cols-2 {
@@ -628,20 +612,16 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
 .grid-cols-6 {
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
-.grid-rows-3 {
-  grid-template-rows: repeat(3, minmax(0, 1fr));
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.grid-rows-4 {
-  grid-template-rows: repeat(4, minmax(0, 1fr));
+.grid-rows-3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
 .gap-0 {
