@@ -20,12 +20,12 @@ document.getElementById('parallelBtn').addEventListener('click', function() {
   // FIX THIS ASAP
   if(mainScripture.classList.contains('xl:mx-52', 'lg:mx-40', 'md:mx-28', 'sm:mx-12')) {
     mainScripture.classList.add('xl:mr-0', 'lg:mr-0', 'md:mr-0', 'sm:mr-0');
-  } else {
-    mainScripture.classList.remove('xl:mr-0', 'lg:mr-0', 'md:mr-0', 'sm:mr-0');
+  } else if (mainScripture.classList.contains('xl:mx-52', 'lg:mx-40', 'md:mx-28', 'sm:mx-12')) {
+    mainScripture.classList.remove('xl:mr-0', 'lg:mr-0', 'md:mr-0', 'sm:mr-0')
   }
 })
 
-// OLD
+// OLD, THIS IS FROM PARALLEL BRANCH
 
 // document.getElementById('parallelBtn').addEventListener('click', function() {
 //   let parallelBlock = document.getElementById('parallelBlock');
