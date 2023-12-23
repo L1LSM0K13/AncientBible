@@ -3,6 +3,7 @@
 // Toggling Parallel Bible
 document.getElementById('parallelBtn').addEventListener('click', function() {
   let scriptureBlock = document.getElementById('parallelToggle');
+  let mainScripture = document.getElementById('mainScripture');
   let parallelScripture = document.getElementById('parallelScripture')
 
   if (scriptureBlock.classList.contains('grid-cols-2')) {
@@ -16,8 +17,13 @@ document.getElementById('parallelBtn').addEventListener('click', function() {
   } else {
     parallelScripture.classList.add('hidden');
   }
+  // FIX THIS ASAP
+  if(mainScripture.classList.contains('xl:mx-52', 'lg:mx-40', 'md:mx-28', 'sm:mx-12')) {
+    mainScripture.classList.add('xl:mr-0', 'lg:mr-0', 'md:mr-0', 'sm:mr-0');
+  } else {
+    mainScripture.classList.remove('xl:mr-0', 'lg:mr-0', 'md:mr-0', 'sm:mr-0');
+  }
 })
-
 
 // OLD
 
