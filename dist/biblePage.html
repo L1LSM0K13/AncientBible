@@ -8,6 +8,7 @@
   </head>
 
   <body class="bg-[#e9eef1]">
+
     <header>
 
       <nav class="xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12 p-1 bg-[#575f6a] text-white text-sm border border-[#434952] rounded-md">
@@ -47,7 +48,7 @@
               </select>
 
                 <button  class="px-1 bg-gray-200 text-red-500 text-lg rounded-sm col-end-6">Red Lettering</button>
-                <button class="bg-gray-200 px-1 text-lg rounded-sm">Parallel</button>
+                <button id="parallelBtn" class="bg-gray-200 px-1 text-lg rounded-sm">Parallel</button>
 
             </div>
 
@@ -242,8 +243,19 @@
         </div>
 
         <!-- Scripture Block -->
-        <div class="my-6 xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12">
-          <div class="mb-6">
+        <div id="mainScripture" class="my-6 xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12">
+          <div class="mb-6 col-start-1">
+            <h2 class="bg-[#51688e] text-center text-lg py-1 px-3 text-white border border-[#355488] rounded-t-md block">
+              Book of "Insert book"
+            </h2>
+            <p class="bg-white py-1 px-3 border-x border-b border-[#355488] block rounded-b-md">
+              This is a placeholder for the eventual text that will be here.
+            </p>
+          </div>
+        </div>
+
+        <div id="parallelBlock" class="my-6 xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12 hidden">
+          <div class="mb-6 col-start-2">
             <h2 class="bg-[#51688e] text-center text-lg py-1 px-3 text-white border border-[#355488] rounded-t-md block">
               Book of "Insert book"
             </h2>
@@ -258,5 +270,7 @@
     <footer>
 
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
