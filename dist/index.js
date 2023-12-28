@@ -26,6 +26,20 @@ document.getElementById('parallelBtn').addEventListener('click', function() {
   }
 })
 
+document.getElementById('redLetterBtn').addEventListener('click', function() {
+  alert('test');
+})
+
+document.getElementById('verseBtn').addEventListener('click', function() {
+  alert('test');
+})
+
+document.getElementById('formatBtn').addEventListener('click', function() {
+  // const formatMenu = document.getElementById('');
+
+  alert('test');
+})
+
 // OLD, THIS IS FROM PARALLEL BRANCH
 
 // document.getElementById('parallelBtn').addEventListener('click', function() {

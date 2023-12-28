@@ -23,40 +23,65 @@
 
     <main>
       <article>
-        <div class="my-6 xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12">
-          <div class="my-6">
-            <h2 class="bg-[#51688e] text-lg py-1 px-3 text-white border border-[#355488] rounded-t-md block">
-              Jump to book:
-            </h2>
+        <div class="">
+          <div class="my-6 xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12">
+            <div>
+              <h2 class="bg-[#51688e] text-lg py-1 px-3 text-white border border-[#355488] rounded-t-md block">
+                Jump to book:
+              </h2>
 
-            <!-- Select Menu -->
-            <div class="overflow-hidden grid gap-1 grid-cols-6 grid-rows-2 bg-white text-xs py-1 px-3 border-x border-b border-[#355488] rounded-b-md">
+              <!-- Select Menu -->
+              <div class="overflow-hidden grid gap-1 grid-cols-6 bg-white py-1 px-3 border-x border-b border-[#355488] rounded-b-md">
 
-              <select name="selectBook" class="p-1 rounded-sm text-lg">
-                <option value="Select">Epistle of Jeremiah</option>
-                <option value="Select">Select1</option>
-                <option value="Select">Select2</option>
-                <option value="Select">Select3</option>
-                <option value="Select">Select4</option>
-              </select>
+                <select name="selectBook" class="p-1 rounded-sm text-lg">
+                  <option value="Select">Epistle of Jeremiah</option>
+                  <option value="Select">Select1</option>
+                  <option value="Select">Select2</option>
+                  <option value="Select">Select3</option>
+                  <option value="Select">Select4</option>
+                </select>
+                <select name="selectChapter" class="p-1 rounded-sm text-lg">
+                  <option value="">151</option>
+                  <option value="">Select1</option>
+                  <option value="">Select2</option>
+                  <option value="">Select3</option>
+                </select>
 
-              <select name="selectChapter" class="p-1 rounded-sm text-lg">
-                <option value="">151</option>
-                <option value="">Select1</option>
-                <option value="">Select2</option>
-                <option value="">Select3</option>
-              </select>
-
-                <button id="redLetterBtn" class="bg-gray-200 px-1 text-lg rounded-sm text-red-500 hover:bg-red-600 hover:text-white col-start-5">Red Lettering</button>
-                <button id="parallelBtn" class="bg-gray-200 px-1 text-lg rounded-sm hover:bg-gray-300 col-start-6">Parallel</button>
-
-                <button id="" class="bg-gray-200 px-1 text-lg rounded-sm hover:bg-gray-300 col-start-5 row-start-2">Verse by Verse</button>
-                <button id="" class="bg-gray-200 px-1 text-lg rounded-sm hover:bg-gray-300 col-start-6 row-start-2">Formatting</button>
-
+                <button id="formatBtn" class="bg-gray-200 px-1 text-lg rounded-sm hover:bg-gray-300 col-start-6">Formatting</button>
+              </div>
             </div>
           </div>
-        </div>
 
+        <!-- Format Menu -->
+          <div class="my-6 xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12">
+            <div>
+              <h2 class="bg-[#51688e] text-lg py-1 px-3 text-white border border-[#355488] rounded-t-md block">
+                Formatting Options
+              </h2>
+
+              <div class="overflow-hidden bg-white py-1 px-3 border-x border-b border-[#355488] rounded-b-md">
+                <div class="grid grid-rows-4 grid-cols-2 sm:gap-x-16 gap-x-1 gap-y-1">
+                  <button id="parallelBtn" class="bg-gray-200 px-1 text-lg rounded-sm hover:bg-gray-300 row-span-1">Parallel Bible</button>
+                  <button id="verseBtn" class="bg-gray-200 px-1 text-lg rounded-sm hover:bg-gray-300 row-start-2">Verse-by-Verse</button>
+                  <button id="verseBtn" class="bg-gray-200 px-1 text-lg rounded-sm hover:bg-gray-300 row-start-3">Interlinear (In Development)</button>
+                  <button id="redLetterBtn" class="bg-gray-200 px-1 text-lg rounded-sm text-red-500 hover:bg-red-600 hover:text-white row-start-2 col-start-2">Red Lettering</button>
+
+                  <div class="grid grid-cols-2 gap-x-1">
+                    <select name="fontType" id="">
+                      <option value="">Times New Roman</option>
+                      <option value="">Calibri</option>
+                    </select>
+                    <select name="fontSize" id="">
+                      <option value="">8</option>
+                      <option value="">10</option>
+                      <option value="">12</option>
+                      <option value="">14</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         <!-- Scripture Block -->
         <div class="grid grid-cols-2 sm:gap-5">
 
@@ -93,7 +118,7 @@
           </div>
         </div>
       </div>
-
+    </div>
       </article>
     </main>
 
