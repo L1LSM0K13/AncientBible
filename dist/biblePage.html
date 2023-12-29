@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="output.css" />
   </head>
 
-  <body class="bg-[#e9eef1]">
+  <body class="bg-[#e9eef1] sm:text-lg text-sm">
 
     <header>
 
@@ -23,47 +23,72 @@
 
     <main>
       <article>
-        <div class="my-6 xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12">
-          <div class="my-6">
-            <h2 class="bg-[#51688e] text-lg py-1 px-3 text-white border border-[#355488] rounded-t-md block">
-              Jump to book:
-            </h2>
+        <div class="grid grid-cols-2 gap-5">
+          <!-- Jump to Book menu -->
 
-            <!-- Select Menu -->
-            <div class="overflow-hidden grid gap-1 grid-cols-6 grid-rows-2 bg-white text-xs py-1 px-3 border-x border-b border-[#355488] rounded-b-md">
+            <div id="selectMenu" class="my-6 xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12 col-span-2">
+                <h2 class="bg-[#51688e] py-1 px-3 text-white border border-[#355488] rounded-t-md block">
+                  Jump to book:
+                </h2>
 
-              <select name="selectBook" class="p-1 rounded-sm text-lg">
-                <option value="Select">Epistle of Jeremiah</option>
-                <option value="Select">Select1</option>
-                <option value="Select">Select2</option>
-                <option value="Select">Select3</option>
-                <option value="Select">Select4</option>
-              </select>
+                <!-- Book Selection -->
+                <div class="overflow-hidden grid gap-1 grid-cols-4 bg-white py-1 px-3 border-x border-b border-[#355488] rounded-b-md">
 
-              <select name="selectChapter" class="p-1 rounded-sm text-lg">
-                <option value="">151</option>
-                <option value="">Select1</option>
-                <option value="">Select2</option>
-                <option value="">Select3</option>
-              </select>
+                  <select name="selectBook" class="p-1 rounded-sm">
+                    <option value="Select">Epistle of Jeremiah</option>
+                    <option value="Select">Select1</option>
+                    <option value="Select">Select2</option>
+                    <option value="Select">Select3</option>
+                    <option value="Select">Select4</option>
+                  </select>
+                  <select name="selectChapter" class="p-1 rounded-sm">
+                    <option value="">151</option>
+                    <option value="">Select1</option>
+                    <option value="">Select2</option>
+                    <option value="">Select3</option>
+                  </select>
 
-                <button id="redLetterBtn" class="bg-gray-200 px-1 text-lg rounded-sm text-red-500 hover:bg-red-600 hover:text-white col-start-5">Red Lettering</button>
-                <button id="parallelBtn" class="bg-gray-200 px-1 text-lg rounded-sm hover:bg-gray-300 col-start-6">Parallel</button>
-
-                <button id="" class="bg-gray-200 px-1 text-lg rounded-sm hover:bg-gray-300 col-start-5 row-start-2">Verse by Verse</button>
-                <button id="" class="bg-gray-200 px-1 text-lg rounded-sm hover:bg-gray-300 col-start-6 row-start-2">Formatting</button>
-
+                  <!-- Format Button -->
+                  <button id="formatBtn" class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 col-start-4">Formatting</button>
+                </div>
             </div>
-          </div>
-        </div>
 
+          <!-- Format Menu -->
+
+              <div id="formatMenu" class="my-6 xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12 hidden">
+                  <h2 class="bg-[#51688e] py-1 px-3 text-white border border-[#355488] rounded-t-md block">
+                    Formatting Options
+                  </h2>
+
+                  <div class="overflow-hidden bg-white py-1 px-3 border-x border-b border-[#355488] rounded-b-md">
+                    <div class="grid grid-rows-2 grid-cols-2 sm:gap-x-8 gap-x-1 gap-y-1">
+                      <button id="parallelBtn" class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 row-start-1">Parallel Bible</button>
+                      <button id="verseBtn" class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 row-start-2">Verse-by-Verse</button>
+                      <button id="redLetterBtn" class="bg-gray-200 px-1 rounded-sm text-red-500 hover:bg-red-600 hover:text-white row-start-1 col-start-2">Red Lettering</button>
+
+                      <div class="grid grid-cols-2 gap-x-1">
+                        <select name="fontType" id="">
+                          <option value="">Times New Roman</option>
+                          <option value="">Calibri</option>
+                        </select>
+                        <select name="fontSize" id="">
+                          <option value="">8</option>
+                          <option value="">10</option>
+                          <option value="">12</option>
+                          <option value="">14</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
         <!-- Scripture Block -->
         <div class="grid grid-cols-2 sm:gap-5">
 
           <!-- MAIN SCRIPTURE -->
           <div id="mainText" class="xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12 col-span-2">
             <div class="mb-6">
-              <h2 class="bg-[#51688e] text-center text-lg py-1 px-3 text-white border border-[#355488] rounded-t-md block">
+              <h2 class="bg-[#51688e] text-center py-1 px-3 text-white border border-[#355488] rounded-t-md block">
                 Book of "Insert book"
               </h2>
               <p class="bg-white py-1 px-3 border-x border-b border-[#355488] block rounded-b-md">
@@ -79,7 +104,7 @@
           <!-- PARALLEL SCRIPTURE -->
           <div id="parallelText" class="xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12 hidden">
             <div class="mb-6">
-              <h2 class="bg-[#51688e] text-center text-lg py-1 px-3 text-white border border-[#355488] rounded-t-md block">
+              <h2 class="bg-[#51688e] text-center py-1 px-3 text-white border border-[#355488] rounded-t-md block">
                 Book of "Insert book"
               </h2>
               <p class="bg-white py-1 px-3 border-x border-b border-[#355488] block rounded-b-md">
@@ -92,8 +117,6 @@
             </div>
           </div>
         </div>
-      </div>
-
       </article>
     </main>
 
