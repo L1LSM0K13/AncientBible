@@ -40,6 +40,8 @@ document.getElementById('formatBtn').addEventListener('click', function() {
 
     formatMenu.classList.add('xl:mx-52', 'lg:mx-40', 'md:mx-28', 'sm:mx-12');
     formatMenu.classList.remove('xl:mr-52', 'lg:mr-40', 'md:mr-28', 'sm:mr-12');
+
+    document.getElementById('formatBtn').textContent = 'Show Formatting'
   } else {
     selectMenu.classList.remove('col-span-2');
     formatMenu.classList.remove('hidden');
@@ -49,6 +51,8 @@ document.getElementById('formatBtn').addEventListener('click', function() {
 
     formatMenu.classList.remove('xl:mx-52', 'lg:mx-40', 'md:mx-28', 'sm:mx-12');
     formatMenu.classList.add('xl:mr-52', 'lg:mr-40', 'md:mr-28', 'sm:mr-12');
+
+    document.getElementById('formatBtn').textContent = 'Hide Formatting'
   }
 })
 
