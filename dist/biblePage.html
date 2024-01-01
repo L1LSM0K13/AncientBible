@@ -9,10 +9,8 @@
 
   <body class="bg-[#e9eef1] sm:text-lg text-sm">
     <header>
-      <nav
-        class="xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12 p-1 bg-[#575f6a] text-white text-sm border border-[#434952] rounded-md"
-      >
-        <ul class="flex">
+      <nav class="nodeMargins">
+        <ul class="navBar flex">
           <li><a href="index.html" class="mx-1">Home</a></li>
           <li><a href="biblePage.html" class="mx-1">Bible</a></li>
           <li><a href="fathers.html" class="mx-1">Church Fathers</a></li>
@@ -25,20 +23,11 @@
         <div class="grid grid-cols-2 gap-5">
           <!-- Jump to Book menu -->
 
-          <div
-            id="selectMenu"
-            class="my-6 xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12 col-span-2"
-          >
-            <h2
-              class="bg-[#51688e] py-1 px-3 text-white border border-[#355488] rounded-t-md block"
-            >
-              Jump to book:
-            </h2>
+          <div id="selectMenu" class="nodeMargins col-span-2">
+            <h1 class="nodeTitleH1">Jump to book:</h1>
 
             <!-- Book Selection -->
-            <div
-              class="overflow-hidden grid gap-1 grid-cols-4 bg-white py-1 px-3 border-x border-b border-[#355488] rounded-b-md"
-            >
+            <div class="nodeInsideDiv overflow-hidden grid gap-1 grid-cols-4">
               <select
                 id="selectBook"
                 name="selectBook"
@@ -62,19 +51,10 @@
 
           <!-- Format Menu -->
 
-          <div
-            id="formatMenu"
-            class="my-6 xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12 hidden"
-          >
-            <h2
-              class="bg-[#51688e] py-1 px-3 text-white border border-[#355488] rounded-t-md block"
-            >
-              Formatting Options
-            </h2>
+          <div id="formatMenu" class="nodeMargins hidden">
+            <h1 class="nodeTitleH1">Formatting Options</h1>
 
-            <div
-              class="overflow-hidden bg-white py-1 px-3 border-x border-b border-[#355488] rounded-b-md"
-            >
+            <div class="nodeInsideDiv overflow-hidden">
               <div
                 class="grid grid-rows-2 grid-cols-2 sm:gap-x-8 gap-x-1 gap-y-1"
               >
@@ -97,17 +77,10 @@
                   Red Lettering
                 </button>
 
+                <!-- Font Selection -->
                 <div class="grid grid-cols-2 gap-x-1">
-                  <select name="fontType" id="">
-                    <option value="">Times New Roman</option>
-                    <option value="">Calibri</option>
-                  </select>
-                  <select name="fontSize" id="">
-                    <option value="">8</option>
-                    <option value="">10</option>
-                    <option value="">12</option>
-                    <option value="">14</option>
-                  </select>
+                  <select name="fontType"></select>
+                  <select name="fontSize"></select>
                 </div>
               </div>
             </div>
@@ -116,38 +89,18 @@
         <!-- Scripture Block -->
         <div class="grid grid-cols-2 sm:gap-5">
           <!-- MAIN SCRIPTURE -->
-          <div
-            id="mainText"
-            class="xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12 col-span-2"
-          >
+          <div id="mainText" class="nodeMargins col-span-2">
             <div class="mb-6">
-              <h2
-                id="bookTitle"
-                class="bg-[#51688e] text-center py-1 px-3 text-white border border-[#355488] rounded-t-md block"
-              ></h2>
-              <div
-                id="verseContainer0"
-                class="bg-white py-1 px-3 border-x border-b border-[#355488] block rounded-b-md"
-              ></div>
+              <h2 id="bookTitle" class="nodeTitleH1"></h2>
+              <div id="verseContainer0" class="nodeInsideDiv"></div>
             </div>
           </div>
 
           <!-- PARALLEL SCRIPTURE -->
-          <div
-            id="parallelText"
-            class="xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12 hidden"
-          >
+          <div id="parallelText" class="nodeMargins hidden">
             <div class="mb-6">
-              <h2
-                id="bookTitleNumber"
-                class="bg-[#51688e] text-center py-1 px-3 text-white border border-[#355488] rounded-t-md block"
-              >
-                Placeholder
-              </h2>
-              <div
-                id="verseContainer1"
-                class="bg-white py-1 px-3 border-x border-b border-[#355488] block rounded-b-md"
-              ></div>
+              <h2 id="bookTitleNumber" class="nodeTitleH1">Placeholder</h2>
+              <div id="verseContainer1" class="nodeInsideDiv"></div>
             </div>
           </div>
         </div>
