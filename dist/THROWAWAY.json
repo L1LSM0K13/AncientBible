@@ -1,0 +1,14 @@
+{
+  "Functions": [
+    "Arrow Functions",
+    "Function Expressions",
+    "Function Declarations"
+  ],
+  "Arrays":[
+    "Index"
+  ],
+  "Loops": [
+    "For Loop",
+    "While Loop"
+  ]
+}
