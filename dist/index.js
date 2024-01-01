@@ -6,36 +6,26 @@ document.getElementById("parallelBtn").addEventListener("click", function () {
   const parallelText = document.getElementById("parallelText");
 
   if (
-    !mainText.classList.contains("col-span-2") &&
-    !parallelText.classList.contains("hidden")
+    mainText.classList.contains("col-span-2") &&
+    parallelText.classList.contains("hidden")
   ) {
-    mainText.classList.add("col-span-2");
-    parallelText.classList.add("hidden");
-
-    mainText.classList.add("xl:mx-52", "lg:mx-40", "md:mx-28", "sm:mx-12");
-    mainText.classList.remove("xl:ml-52", "lg:ml-40", "md:ml-28", "sm:ml-12");
-
-    parallelText.classList.add("xl:mx-52", "lg:mx-40", "md:mx-28", "sm:mx-12");
-    parallelText.classList.remove(
-      "xl:mr-52",
-      "lg:mr-40",
-      "md:mr-28",
-      "sm:mr-12"
-    );
-  } else {
     mainText.classList.remove("col-span-2");
     parallelText.classList.remove("hidden");
 
-    mainText.classList.remove("xl:mx-52", "lg:mx-40", "md:mx-28", "sm:mx-12");
-    mainText.classList.add("xl:ml-52", "lg:ml-40", "md:ml-28", "sm:ml-12");
+    mainText.classList.remove("nodeMargins");
+    mainText.classList.add("nodeMarginLeft");
 
-    parallelText.classList.remove(
-      "xl:mx-52",
-      "lg:mx-40",
-      "md:mx-28",
-      "sm:mx-12"
-    );
-    parallelText.classList.add("xl:mr-52", "lg:mr-40", "md:mr-28", "sm:mr-12");
+    parallelText.classList.remove("nodeMargins");
+    parallelText.classList.add("nodeMarginRight");
+  } else {
+    mainText.classList.add("col-span-2");
+    parallelText.classList.add("hidden");
+
+    mainText.classList.add("nodeMargins");
+    mainText.classList.remove("nodeMarginLeft");
+
+    parallelText.classList.add("nodeMargins");
+    parallelText.classList.remove("nodeMarginRight");
   }
 });
 
@@ -45,30 +35,30 @@ document.getElementById("formatBtn").addEventListener("click", function () {
   const formatMenu = document.getElementById("formatMenu");
 
   if (
-    !selectMenu.classList.contains("col-span-2") &&
-    !formatMenu.classList.contains("hidden")
+    selectMenu.classList.contains("col-span-2") &&
+    formatMenu.classList.contains("hidden")
   ) {
-    selectMenu.classList.add("col-span-2");
-    formatMenu.classList.add("hidden");
-
-    selectMenu.classList.add("xl:mx-52", "lg:mx-40", "md:mx-28", "sm:mx-12");
-    selectMenu.classList.remove("xl:ml-52", "lg:ml-40", "md:ml-28", "sm:ml-12");
-
-    formatMenu.classList.add("xl:mx-52", "lg:mx-40", "md:mx-28", "sm:mx-12");
-    formatMenu.classList.remove("xl:mr-52", "lg:mr-40", "md:mr-28", "sm:mr-12");
-
-    document.getElementById("formatBtn").innerText = "Show Formatting";
-  } else {
     selectMenu.classList.remove("col-span-2");
     formatMenu.classList.remove("hidden");
 
-    selectMenu.classList.remove("xl:mx-52", "lg:mx-40", "md:mx-28", "sm:mx-12");
-    selectMenu.classList.add("xl:ml-52", "lg:ml-40", "md:ml-28", "sm:ml-12");
+    selectMenu.classList.remove("nodeMargins");
+    selectMenu.classList.add("nodeMarginLeft");
 
-    formatMenu.classList.remove("xl:mx-52", "lg:mx-40", "md:mx-28", "sm:mx-12");
-    formatMenu.classList.add("xl:mr-52", "lg:mr-40", "md:mr-28", "sm:mr-12");
+    formatMenu.classList.remove("nodeMargins");
+    formatMenu.classList.add("nodeMarginRight");
 
     document.getElementById("formatBtn").innerText = "Hide Formatting";
+  } else {
+    selectMenu.classList.add("col-span-2");
+    formatMenu.classList.add("hidden");
+
+    selectMenu.classList.add("nodeMargins");
+    selectMenu.classList.remove("nodeMarginLeft");
+
+    formatMenu.classList.add("nodeMargins");
+    formatMenu.classList.remove("nodeMarginRight");
+
+    document.getElementById("formatBtn").innerText = "Show Formatting";
   }
 });
 
@@ -447,21 +437,3 @@ chapterSelector.onchange = function () {
     container1.appendChild(createElementForVerse(verse));
   }
 };
-
-// Loads parallel text
-
-// loadParallel(books[41]).then(function (book) {
-//   console.log(book);
-
-//   const container = document.getElementById("verseContainer1");
-
-//   const verses = book.chapters[0].verses;
-//   for (const verse of verses) {
-//     const elem = document.createElement("p");
-//     elem.classList.add("p-1");
-//     elem.innerText = verse.verse + ". " + verse.text;
-//     container.appendChild(elem);
-//   }
-
-//   document.getElementById("BookTitleNumber").innerText = "";
-// });
