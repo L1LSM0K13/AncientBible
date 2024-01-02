@@ -1,7 +1,7 @@
 "use strict";
 
 // Toggling Parallel Bible
-document.getElementById("parallelBtn").addEventListener("click", function () {
+document.getElementById("parallelBtn").addEventListener("click", () => {
   const mainText = document.getElementById("mainText");
   const parallelText = document.getElementById("parallelText");
 
@@ -30,7 +30,7 @@ document.getElementById("parallelBtn").addEventListener("click", function () {
 });
 
 // Toggle Format Menu
-document.getElementById("formatBtn").addEventListener("click", function () {
+document.getElementById("formatBtn").addEventListener("click", () => {
   const selectMenu = document.getElementById("selectMenu");
   const formatMenu = document.getElementById("formatMenu");
 
