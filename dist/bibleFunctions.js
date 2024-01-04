@@ -6,26 +6,21 @@ document.getElementById("parallelBtn").addEventListener("click", () => {
   const parallelText = document.getElementById("parallelText");
 
   if (
-    mainText.classList.contains("col-span-2") &&
-    parallelText.classList.contains("hidden")
+    (mainText.classList.contains("col-span-2") &&
+      parallelText.classList.contains("hidden")) ||
+    !(
+      mainText.classList.contains("col-span-2") &&
+      parallelText.classList.contains("hidden")
+    )
   ) {
-    mainText.classList.remove("col-span-2");
-    parallelText.classList.remove("hidden");
+    mainText.classList.toggle("col-span-2");
+    parallelText.classList.toggle("hidden");
 
-    mainText.classList.remove("nodeMargins");
-    mainText.classList.add("nodeMarginLeft");
+    mainText.classList.toggle("nodeMargins");
+    mainText.classList.toggle("nodeMarginLeft");
 
-    parallelText.classList.remove("nodeMargins");
-    parallelText.classList.add("nodeMarginRight");
-  } else {
-    mainText.classList.add("col-span-2");
-    parallelText.classList.add("hidden");
-
-    mainText.classList.add("nodeMargins");
-    mainText.classList.remove("nodeMarginLeft");
-
-    parallelText.classList.add("nodeMargins");
-    parallelText.classList.remove("nodeMarginRight");
+    parallelText.classList.toggle("nodeMargins");
+    parallelText.classList.toggle("nodeMarginRight");
   }
 });
 
@@ -38,24 +33,18 @@ document.getElementById("formatBtn").addEventListener("click", () => {
     selectMenu.classList.contains("col-span-2") &&
     formatMenu.classList.contains("hidden")
   ) {
-    selectMenu.classList.remove("col-span-2");
-    formatMenu.classList.remove("hidden");
+    selectMenu.classList.remove("col-span-2", "nodeMargins");
+    formatMenu.classList.remove("hidden", "nodeMargins");
 
-    selectMenu.classList.remove("nodeMargins");
     selectMenu.classList.add("nodeMarginLeft");
-
-    formatMenu.classList.remove("nodeMargins");
     formatMenu.classList.add("nodeMarginRight");
 
     document.getElementById("formatBtn").innerText = "Hide Formatting";
   } else {
-    selectMenu.classList.add("col-span-2");
-    formatMenu.classList.add("hidden");
+    selectMenu.classList.add("col-span-2", "nodeMargins");
+    formatMenu.classList.add("hidden", "nodeMargins");
 
-    selectMenu.classList.add("nodeMargins");
     selectMenu.classList.remove("nodeMarginLeft");
-
-    formatMenu.classList.add("nodeMargins");
     formatMenu.classList.remove("nodeMarginRight");
 
     document.getElementById("formatBtn").innerText = "Show Formatting";
@@ -408,13 +397,13 @@ for (let i = 0; i < books.length; i++) {
   bookSelector.appendChild(optionElem);
 }
 
-bookSelector.onchange = function () {
+bookSelector.onchange = () => {
   const filename = bookSelector.value;
 
   selectBookByFileName(filename);
 };
 
-chapterSelector.onchange = function () {
+chapterSelector.onchange = () => {
   if (currentBook == null) {
     return;
   }
@@ -440,15 +429,7 @@ chapterSelector.onchange = function () {
   }
 
   document.getElementById("verseBtn").addEventListener("click", () => {
-    if (
-      container0.classList.contains("grid") &&
-      container1.classList.contains("grid")
-    ) {
-      container0.classList.remove("grid");
-      container1.classList.remove("grid");
-    } else {
-      container0.classList.add("grid");
-      container1.classList.add("grid");
-    }
+    container0.classList.toggle("grid");
+    container1.classList.toggle("grid");
   });
 };
