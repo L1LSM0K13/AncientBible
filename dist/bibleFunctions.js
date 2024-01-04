@@ -62,6 +62,25 @@ document.getElementById("formatBtn").addEventListener("click", () => {
   }
 });
 
+/**
+ * List of books in an array and its order
+ * @typedef {{
+ *   book: string,
+ *   chapters: {
+ *     chapter: string,
+ *     verses: {
+ *       verse: string,
+ *       text: string,
+ *     }[],
+ *   }[],
+ * }} Book
+ *
+ * Loads a book based on its filename (e.g. "Luke.json")
+ * @param {string} filename The book filename
+ * @returns {Promise<Book>} The book that was read from JSON
+ */
+
+// List of Books
 const books = [
   {
     filename: "Genesis.json",
@@ -329,24 +348,6 @@ const books = [
   },
 ];
 
-/**
- * @typedef {{
- *   book: string,
- *   chapters: {
- *     chapter: string,
- *     verses: {
- *       verse: string,
- *       text: string,
- *     }[],
- *   }[],
- * }} Book
- */
-
-/**
- * Loads a book based on its filename (e.g. "Luke.json")
- * @param {string} filename The book filename
- * @returns {Promise<Book>} The book that was read from JSON
- */
 async function loadBook(filename) {
   const resp = await fetch("/dist/books/" + filename);
 
@@ -374,13 +375,13 @@ async function selectBookByFileName(fileName) {
   const book = await loadBook(fileName);
 
   // Set book title text
-  const title = document.getElementById("bookTitle");
-  title.innerText = "Book of " + book.book;
+  const bookTitle = document.getElementById("bookTitle");
+  bookTitle.textContent = `Book of ${book.book}`;
 
   currentBook = book;
 
   // Clear existing chapters
-  chapterSelector.textContent = "";
+  chapterSelector.innerText = "";
 
   // Populate chapters
   for (let i = 0; i < book.chapters.length; i++) {
@@ -395,6 +396,7 @@ async function selectBookByFileName(fileName) {
   }
 }
 
+// Populate titles
 for (let i = 0; i < books.length; i++) {
   const book = books[i];
 
@@ -424,7 +426,7 @@ chapterSelector.onchange = function () {
   const verses = chapter.verses;
 
   function createElementForVerse(verse) {
-    const elem = document.createElement("p");
+    const elem = document.createElement("span");
     elem.classList.add("p-1");
     elem.innerText = verse.verse + ". " + verse.text;
 
@@ -436,4 +438,17 @@ chapterSelector.onchange = function () {
     container0.appendChild(createElementForVerse(verse));
     container1.appendChild(createElementForVerse(verse));
   }
+
+  document.getElementById("verseBtn").addEventListener("click", () => {
+    if (
+      container0.classList.contains("grid") &&
+      container1.classList.contains("grid")
+    ) {
+      container0.classList.remove("grid");
+      container1.classList.remove("grid");
+    } else {
+      container0.classList.add("grid");
+      container1.classList.add("grid");
+    }
+  });
 };
