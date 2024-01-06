@@ -1,1 +1,266 @@
-["Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", "Joshua", "Judges", "Ruth", "1 Samuel", "2 Samuel", "1 Kings", "2 Kings", "1 Chronicles", "2 Chronicles", "Ezra", "Nehemiah", "Esther", "Job", "Psalms", "Proverbs", "Ecclesiastes", "Song of Solomon", "Isaiah", "Jeremiah", "Lamentations", "Ezekiel", "Daniel", "Hosea", "Joel", "Amos", "Obadiah", "Jonah", "Micah", "Nahum", "Habakkuk", "Zephaniah", "Haggai", "Zechariah", "Malachi", "Matthew", "Mark", "Luke", "John", "Acts", "Romans", "1 Corinthians", "2 Corinthians", "Galatians", "Ephesians", "Philippians", "Colossians", "1 Thessalonians", "2 Thessalonians", "1 Timothy", "2 Timothy", "Titus", "Philemon", "Hebrews", "James", "1 Peter", "2 Peter", "1 John", "2 John", "3 John", "Jude", "Revelation"]
+[
+  {
+    "filename": "Genesis.json",
+    "title": "Genesis"
+  },
+  {
+    "filename": "Exodus.json",
+    "title": "Exodus"
+  },
+  {
+    "filename": "Leviticus.json",
+    "title": "Leviticus"
+  },
+  {
+    "filename": "Numbers.json",
+    "title": "Numbers"
+  },
+  {
+    "filename": "Deuteronomy.json",
+    "title": "Deuteronomy"
+  },
+  {
+    "filename": "Joshua.json",
+    "title": "Joshua"
+  },
+  {
+    "filename": "Ruth.json",
+    "title": "Ruth"
+  },
+  {
+    "filename": "Judges.json",
+    "title": "Judges"
+  },
+  {
+    "filename": "1Samuel.json",
+    "title": "1Samuel"
+  },
+  {
+    "filename": "2Samuel.json",
+    "title": "2Samuel"
+  },
+  {
+    "filename": "1Kings.json",
+    "title": "1 Kings"
+  },
+  {
+    "filename": "2Kings.json",
+    "title": "2 Kings"
+  },
+  {
+    "filename": "1Chronicles.json",
+    "title": "1 Chronicles"
+  },
+  {
+    "filename": "2Chronicles.json",
+    "title": "2 Chronicles"
+  },
+  {
+    "filename": "Ezra.json",
+    "title": "Ezra"
+  },
+  {
+    "filename": "Nehemiah.json",
+    "title": "Nehemiah"
+  },
+  {
+    "filename": "Esther.json",
+    "title": "Esther"
+  },
+  {
+    "filename": "Job.json",
+    "title": "Job"
+  },
+  {
+    "filename": "Psalms.json",
+    "title": "Psalms"
+  },
+  {
+    "filename": "Proverbs.json",
+    "title": "Proverbs"
+  },
+  {
+    "filename": "Ecclesiastes.json",
+    "title": "Ecclesiastes"
+  },
+  {
+    "filename": "SongofSolomon.json",
+    "title": "Song of Solomon"
+  },
+  {
+    "filename": "Isaiah.json",
+    "title": "Isaiah"
+  },
+  {
+    "filename": "Jeremiah.json",
+    "title": "Jeremiah"
+  },
+  {
+    "filename": "Lamentations.json",
+    "title": "Lamentations"
+  },
+  {
+    "filename": "Ezekiel.json",
+    "title": "Ezekiel"
+  },
+  {
+    "filename": "Daniel.json",
+    "title": "Daniel"
+  },
+  {
+    "filename": "Hosea.json",
+    "title": "Hosea"
+  },
+  {
+    "filename": "Joel.json",
+    "title": "Joel"
+  },
+  {
+    "filename": "Amos.json",
+    "title": "Amos"
+  },
+  {
+    "filename": "Obadiah.json",
+    "title": "Obadiah"
+  },
+  {
+    "filename": "Jonah.json",
+    "title": "Jonah"
+  },
+  {
+    "filename": "Micah.json",
+    "title": "Micah"
+  },
+  {
+    "filename": "Nahum.json",
+    "title": "Nahum"
+  },
+  {
+    "filename": "Habakkuk.json",
+    "title": "Habakkuk"
+  },
+  {
+    "filename": "Zephaniah.json",
+    "title": "Zephaniah"
+  },
+  {
+    "filename": "Haggai.json",
+    "title": "Haggai"
+  },
+  {
+    "filename": "Zechariah.json",
+    "title": "Zechariah"
+  },
+  {
+    "filename": "Malachi.json",
+    "title": "Malachi"
+  },
+  {
+    "filename": "Matthew.json",
+    "title": "Matthew"
+  },
+  {
+    "filename": "Mark.json",
+    "title": "Mark"
+  },
+  {
+    "filename": "Luke.json",
+    "title": "Luke"
+  },
+  {
+    "filename": "John.json",
+    "title": "John"
+  },
+  {
+    "filename": "Acts.json",
+    "title": "Acts"
+  },
+  {
+    "filename": "Romans.json",
+    "title": "Romans"
+  },
+  {
+    "filename": "1Corinthians.json",
+    "title": "1 Corinthians"
+  },
+  {
+    "filename": "2Corinthians.json",
+    "title": "2 Corinthians"
+  },
+  {
+    "filename": "Galatians.json",
+    "title": "Galatians"
+  },
+  {
+    "filename": "Ephesians.json",
+    "title": "Ephesians"
+  },
+  {
+    "filename": "Philippians.json",
+    "title": "Philippians"
+  },
+  {
+    "filename": "Colossians.json",
+    "title": "Colossians"
+  },
+  {
+    "filename": "1Thessalonians.json",
+    "title": "1 Thessalonians"
+  },
+  {
+    "filename": "2Thessalonians.json",
+    "title": "2 Thessalonians"
+  },
+  {
+    "filename": "1Timothy.json",
+    "title": "1 Timothy"
+  },
+  {
+    "filename": "2Timothy.json",
+    "title": "2 Timothy"
+  },
+  {
+    "filename": "Titus.json",
+    "title": "Titus"
+  },
+  {
+    "filename": "Philemon.json",
+    "title": "Philemon"
+  },
+  {
+    "filename": "Hebrews.json",
+    "title": "Hebrews"
+  },
+  {
+    "filename": "James.json",
+    "title": "James"
+  },
+  {
+    "filename": "1Peter.json",
+    "title": "1 Peter"
+  },
+  {
+    "filename": "2Peter.json",
+    "title": "2 Peter"
+  },
+  {
+    "filename": "1John.json",
+    "title": "1 John"
+  },
+  {
+    "filename": "2John.json",
+    "title": "2 John"
+  },
+  {
+    "filename": "3John.json",
+    "title": "3 John"
+  },
+  {
+    "filename": "Jude.json",
+    "title": "Jude"
+  },
+  {
+    "filename": "Revelation.json",
+    "title": "Revelation"
+  }
+]

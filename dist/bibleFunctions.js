@@ -1,6 +1,9 @@
 "use strict";
 
-// Toggling Parallel Bible
+/**
+ * Toggles parallel Bible
+ * @returns {parallelText}
+ */
 document.getElementById("parallelBtn").addEventListener("click", () => {
   const mainText = document.getElementById("mainText");
   const parallelText = document.getElementById("parallelText");
@@ -24,7 +27,10 @@ document.getElementById("parallelBtn").addEventListener("click", () => {
   }
 });
 
-// Toggle Format Menu
+/**
+ * Toggles format menu
+ * @returns {formatMenu}
+ */
 document.getElementById("formatBtn").addEventListener("click", () => {
   const selectMenu = document.getElementById("selectMenu");
   const formatMenu = document.getElementById("formatMenu");
@@ -384,7 +390,6 @@ async function selectBookByFileName(fileName) {
     chapterSelector.appendChild(optionChapt);
   }
 }
-
 // Populate titles
 for (let i = 0; i < books.length; i++) {
   const book = books[i];
@@ -415,11 +420,17 @@ chapterSelector.onchange = () => {
   const verses = chapter.verses;
 
   function createElementForVerse(verse) {
-    const elem = document.createElement("span");
-    elem.classList.add("p-1");
-    elem.innerText = verse.verse + ". " + verse.text;
+    const superscript = document.createElement("sup");
+    const textElem = document.createElement("span");
 
-    return elem;
+    superscript.innerText = verse.verse;
+    textElem.appendChild(superscript);
+    superscript.classList.add("mr-1");
+
+    textElem.classList.add("p-1");
+    textElem.appendChild(document.createTextNode(verse.text));
+
+    return textElem;
   }
 
   for (const verse of verses) {
