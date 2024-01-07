@@ -111,11 +111,11 @@ const books = [
   },
   {
     filename: "1Samuel.json",
-    title: "1Samuel",
+    title: "1 Samuel",
   },
   {
     filename: "2Samuel.json",
-    title: "2Samuel",
+    title: "2 Samuel",
   },
   {
     filename: "1Kings.json",
@@ -371,14 +371,15 @@ async function selectBookByFileName(fileName) {
 
   // Set book title text
   const bookTitle = document.getElementById("bookTitle");
-  bookTitle.textContent = `Book of ${book.book}`;
+
+  bookTitle.innerText = `Book of ${book.book}`;
 
   currentBook = book;
 
   // Clear existing chapters
   chapterSelector.innerText = "";
 
-  // Populate chapters
+  // Populate chapterNumbers
   for (let i = 0; i < book.chapters.length; i++) {
     const chapter = book.chapters[i];
 
@@ -409,12 +410,15 @@ bookSelector.onchange = () => {
 };
 
 chapterSelector.onchange = () => {
+  const container0 = document.getElementById("verseContainer0");
+  const container1 = document.getElementById("verseContainer1");
+
   if (currentBook == null) {
     return;
   }
 
-  const container0 = document.getElementById("verseContainer0");
-  const container1 = document.getElementById("verseContainer1");
+  container0.innerText = "";
+  container1.innerText = "";
 
   const chapter = currentBook.chapters[chapterSelector.value];
   const verses = chapter.verses;
@@ -444,3 +448,32 @@ chapterSelector.onchange = () => {
     container1.classList.toggle("grid");
   });
 };
+
+/**
+ * FONT SIZE DROPDOWN
+ * @param {Array} fontSizes - Select list of font sizes
+ * @returns {fontSizeElem} - Populates dropdown of font sizes
+ *
+ * FONT TYPE DROPDOWN
+ * @param {Array} fontTypes - Select list of font types
+ * @returns {fontTypeElem} - Populates dropdown of font types
+ */
+const fontSizeElem = document.getElementById("fontSize");
+const fontTypeElem = document.getElementById("fontType");
+
+const fontSizes = [16, 18, 20, 22];
+const fontTypes = ["Arial", "Times New Roman", "Courier New"];
+
+for (let i = 0; i < fontSizes.length; i++) {
+  const optionSize = document.createElement("option");
+
+  optionSize.innerText = fontSizes[i];
+  fontSizeElem.appendChild(optionSize);
+}
+
+for (let i = 0; i < fontTypes.length; i++) {
+  const optionType = document.createElement("option");
+
+  optionType.innerText = fontTypes[i];
+  fontTypeElem.appendChild(optionType);
+}
