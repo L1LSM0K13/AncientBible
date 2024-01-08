@@ -1,5 +1,4 @@
-"use strict";
-
+"use strict";;
 /**
  * Toggles parallel Bible
  * @returns {parallelText}
@@ -353,100 +352,7 @@ async function loadBook(filename) {
   return await resp.json();
 }
 
-/**
- * The currently selected book, or null if none
- * @type {Book | null}
- */
-let currentBook = null;
 
-const bookSelector = document.getElementById("selectBook");
-const chapterSelector = document.getElementById("selectChapter");
-
-/**
- * Loads and displays a book by its filename
- * @param {string} fileName The book's filename (e.g. "James.json")
- */
-async function selectBookByFileName(fileName) {
-  const book = await loadBook(fileName);
-
-  // Set book title text
-  const bookTitle = document.getElementById("bookTitle");
-
-  bookTitle.innerText = `Book of ${book.book}`;
-
-  currentBook = book;
-
-  // Clear existing chapters
-  chapterSelector.innerText = "";
-
-  // Populate chapterNumbers
-  for (let i = 0; i < book.chapters.length; i++) {
-    const chapter = book.chapters[i];
-
-    const optionChapt = document.createElement("option");
-
-    optionChapt.innerText = chapter.chapter;
-    optionChapt.value = i;
-
-    chapterSelector.appendChild(optionChapt);
-  }
-}
-// Populate titles
-for (let i = 0; i < books.length; i++) {
-  const book = books[i];
-
-  const optionElem = document.createElement("option");
-
-  optionElem.innerText = book.title;
-  optionElem.value = book.filename;
-
-  bookSelector.appendChild(optionElem);
-}
-
-bookSelector.onchange = () => {
-  const filename = bookSelector.value;
-  selectBookByFileName(filename);
-};
-
-chapterSelector.onchange = () => {
-  const container0 = document.getElementById("verseContainer0");
-  const container1 = document.getElementById("verseContainer1");
-
-  if (currentBook == null) {
-    return;
-  }
-
-  container0.innerText = "";
-  container1.innerText = "";
-
-  const chapter = currentBook.chapters[chapterSelector.value];
-  const verses = chapter.verses;
-
-  function createElementForVerse(verse) {
-    const superscript = document.createElement("sup");
-    const textElem = document.createElement("span");
-
-    superscript.innerText = verse.verse;
-    textElem.appendChild(superscript);
-    superscript.classList.add("mr-1");
-
-    textElem.classList.add("p-1");
-    textElem.appendChild(document.createTextNode(verse.text));
-
-    return textElem;
-  }
-
-  for (const verse of verses) {
-    // Append to both containers
-    container0.appendChild(createElementForVerse(verse));
-    container1.appendChild(createElementForVerse(verse));
-  }
-
-  document.getElementById("verseBtn").addEventListener("click", () => {
-    container0.classList.toggle("grid");
-    container1.classList.toggle("grid");
-  });
-};
 
 /**
  * FONT SIZE DROPDOWN
