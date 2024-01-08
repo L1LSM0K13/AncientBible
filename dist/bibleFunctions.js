@@ -361,7 +361,6 @@ let currentBook = null;
 
 const bookSelector = document.getElementById("selectBook");
 const chapterSelector = document.getElementById("selectChapter");
-
 /**
  * Loads and displays a book by its filename
  * @param {string} fileName The book's filename (e.g. "James.json")
