@@ -74,7 +74,6 @@ document.getElementById("formatBtn").addEventListener("click", () => {
  * @param {string} filename The book filename
  * @returns {Promise<Book>} The book that was read from JSON
  */
-
 // List of Books
 const books = [
   {
@@ -350,6 +349,7 @@ async function loadBook(filename) {
     throw new Error("Failed to fetch book, got HTTP status " + resp.status);
   }
 
+  
   return await resp.json();
 }
 
