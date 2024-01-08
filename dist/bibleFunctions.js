@@ -405,7 +405,6 @@ for (let i = 0; i < books.length; i++) {
 
 bookSelector.onchange = () => {
   const filename = bookSelector.value;
-
   selectBookByFileName(filename);
 };
 
