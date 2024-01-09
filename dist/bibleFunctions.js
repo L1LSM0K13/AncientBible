@@ -1,5 +1,4 @@
 "use strict";
-
 /**
  * Toggles parallel Bible
  * @returns {parallelText}
@@ -56,6 +55,34 @@ document.getElementById("formatBtn").addEventListener("click", () => {
     document.getElementById("formatBtn").innerText = "Show Formatting";
   }
 });
+
+/**
+ * FONT SIZE DROPDOWN
+ * @param {Array} fontSizes - Select list of font sizes
+ * @returns {fontSizeElem} - Populates dropdown of font sizes
+ *
+ * FONT TYPE DROPDOWN
+ * @param {Array} fontTypes - Select list of font types
+ * @returns {fontTypeElem} - Populates dropdown of font types
+ */
+const fontSizeElem = document.getElementById("fontSize");
+const fontTypeElem = document.getElementById("fontType");
+
+const fontSizes = [16, 18, 20, 22];
+const fontTypes = ["Arial", "Times New Roman", "Courier New"];
+
+for (let i = 0; i < fontSizes.length; i++) {
+  const optionSize = document.createElement("option");
+
+  optionSize.innerText = fontSizes[i];
+  fontSizeElem.appendChild(optionSize);
+}
+for (let i = 0; i < fontTypes.length; i++) {
+  const optionType = document.createElement("option");
+
+  optionType.innerText = fontTypes[i];
+  fontTypeElem.appendChild(optionType);
+}
 
 /**
  * List of books in an array and its order
@@ -343,136 +370,84 @@ const books = [
   },
 ];
 
+/**
+ *
+ * @param {string} filename
+ * @returns {resp} fetches book
+ */
 async function loadBook(filename) {
   const resp = await fetch("/dist/books/" + filename);
 
   if (resp.status !== 200) {
     throw new Error("Failed to fetch book, got HTTP status " + resp.status);
+  } else {
+    console.log("data fetched");
   }
 
   return await resp.json();
 }
 
-/**
- * The currently selected book, or null if none
- * @type {Book | null}
- */
-let currentBook = null;
+let currentBook = loadBook("John.json");
 
-const bookSelector = document.getElementById("selectBook");
-const chapterSelector = document.getElementById("selectChapter");
-/**
- * Loads and displays a book by its filename
- * @param {string} fileName The book's filename (e.g. "James.json")
- */
-async function selectBookByFileName(fileName) {
-  const book = await loadBook(fileName);
+const container0 = document.getElementById("verseContainer0");
+const container1 = document.getElementById("verseContainer1");
 
-  // Set book title text
-  const bookTitle = document.getElementById("bookTitle");
+const bSelector = document.getElementById("selectBook");
+const cSelector = document.getElementById("selectChapter");
 
-  bookTitle.innerText = `Book of ${book.book}`;
+function defaultBook() {}
+defaultBook();
+console.log(loadBook("john.json"));
 
-  currentBook = book;
-
-  // Clear existing chapters
-  chapterSelector.innerText = "";
-
-  // Populate chapterNumbers
-  for (let i = 0; i < book.chapters.length; i++) {
-    const chapter = book.chapters[i];
-
-    const optionChapt = document.createElement("option");
-
-    optionChapt.innerText = chapter.chapter;
-    optionChapt.value = i;
-
-    chapterSelector.appendChild(optionChapt);
-  }
-}
-// Populate titles
-for (let i = 0; i < books.length; i++) {
-  const book = books[i];
-
-  const optionElem = document.createElement("option");
-
-  optionElem.innerText = book.title;
-  optionElem.value = book.filename;
-
-  bookSelector.appendChild(optionElem);
-}
-
-bookSelector.onchange = () => {
-  const filename = bookSelector.value;
-
-  selectBookByFileName(filename);
-};
-
-chapterSelector.onchange = () => {
-  const container0 = document.getElementById("verseContainer0");
-  const container1 = document.getElementById("verseContainer1");
-
-  if (currentBook == null) {
-    return;
-  }
+function createElementForVerse(verse) {
+  const chapter = currentBook.chapters[cSelector.value];
+  const verses = chapter.verses;
 
   container0.innerText = "";
   container1.innerText = "";
 
-  const chapter = currentBook.chapters[chapterSelector.value];
-  const verses = chapter.verses;
+  const superscript = document.createElement("sup");
+  const spanElem = document.createElement("span");
 
-  function createElementForVerse(verse) {
-    const superscript = document.createElement("sup");
-    const textElem = document.createElement("span");
+  superscript.innerText = verse.verse;
+  spanElem.appendChild(superscript);
+  superscript.classList.add("mr-1");
 
-    superscript.innerText = verse.verse;
-    textElem.appendChild(superscript);
-    superscript.classList.add("mr-1");
-
-    textElem.classList.add("p-1");
-    textElem.appendChild(document.createTextNode(verse.text));
-
-    return textElem;
-  }
+  spanElem.classList.add("p-1");
+  spanElem.appendChild(document.createTextNode(verse.text));
 
   for (const verse of verses) {
-    // Append to both containers
     container0.appendChild(createElementForVerse(verse));
     container1.appendChild(createElementForVerse(verse));
   }
+  return spanElem;
+}
 
-  document.getElementById("verseBtn").addEventListener("click", () => {
-    container0.classList.toggle("grid");
-    container1.classList.toggle("grid");
-  });
+const SelectBookByFile = (filename) => {
+  const book = loadBook(filename);
+
+  cSelector.innerText = currentBook;
+
+  // Populates chapter numbers
+  for (let i = 0; i < book.chapters.length; i++) {
+    const chapter = book.chapter[i];
+
+    const chaptOpt = document.createElement("option");
+
+    chaptOpt.innerText = chapter.chapter;
+    chaptOpt.value = i;
+
+    cSelector.appendChild(chaptOpt);
+  }
+
+  // Populates book titles
+  for (let i = 0; i < books.length; i++) {
+    const book = books[i];
+    const bookOpt = document.createElement("option");
+
+    bookOpt.innerText = book.title;
+    bookOpt.value = book.filename;
+
+    bSelector.appendChild(bookOpt);
+  }
 };
-
-/**
- * FONT SIZE DROPDOWN
- * @param {Array} fontSizes - Select list of font sizes
- * @returns {fontSizeElem} - Populates dropdown of font sizes
- *
- * FONT TYPE DROPDOWN
- * @param {Array} fontTypes - Select list of font types
- * @returns {fontTypeElem} - Populates dropdown of font types
- */
-const fontSizeElem = document.getElementById("fontSize");
-const fontTypeElem = document.getElementById("fontType");
-
-const fontSizes = [16, 18, 20, 22];
-const fontTypes = ["Arial", "Times New Roman", "Courier New"];
-
-for (let i = 0; i < fontSizes.length; i++) {
-  const optionSize = document.createElement("option");
-
-  optionSize.innerText = fontSizes[i];
-  fontSizeElem.appendChild(optionSize);
-}
-
-for (let i = 0; i < fontTypes.length; i++) {
-  const optionType = document.createElement("option");
-
-  optionType.innerText = fontTypes[i];
-  fontTypeElem.appendChild(optionType);
-}
