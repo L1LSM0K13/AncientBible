@@ -58,6 +58,35 @@ document.getElementById("formatBtn").addEventListener("click", () => {
 });
 
 /**
+ * FONT SIZE DROPDOWN
+ * @param {Array} fontSizes - Select list of font sizes
+ * @returns {fontSizeElem} - Populates dropdown of font sizes
+ *
+ * FONT TYPE DROPDOWN
+ * @param {Array} fontTypes - Select list of font types
+ * @returns {fontTypeElem} - Populates dropdown of font types
+ */
+const fontSizeElem = document.getElementById("fontSize");
+const fontTypeElem = document.getElementById("fontType");
+
+const fontSizes = [16, 18, 20, 22];
+const fontTypes = ["Arial", "Times New Roman", "Courier New"];
+
+for (let i = 0; i < fontSizes.length; i++) {
+  const optionSize = document.createElement("option");
+
+  optionSize.innerText = fontSizes[i];
+  fontSizeElem.appendChild(optionSize);
+}
+
+for (let i = 0; i < fontTypes.length; i++) {
+  const optionType = document.createElement("option");
+
+  optionType.innerText = fontTypes[i];
+  fontTypeElem.appendChild(optionType);
+}
+
+/**
  * List of books in an array and its order
  * @typedef {{
  *   book: string,
@@ -391,6 +420,7 @@ async function selectBookByFileName(fileName) {
     chapterSelector.appendChild(optionChapt);
   }
 }
+
 // Populate titles
 for (let i = 0; i < books.length; i++) {
   const book = books[i];
@@ -403,16 +433,33 @@ for (let i = 0; i < books.length; i++) {
   bookSelector.appendChild(optionElem);
 }
 
+const container0 = document.getElementById("verseContainer0");
+const container1 = document.getElementById("verseContainer1");
+
 bookSelector.onchange = () => {
   const filename = bookSelector.value;
+
+  container0.innerText = "";
+  container1.innerText = "";
 
   selectBookByFileName(filename);
 };
 
-chapterSelector.onchange = () => {
-  const container0 = document.getElementById("verseContainer0");
-  const container1 = document.getElementById("verseContainer1");
+function createElementForVerse(verse) {
+  const superscript = document.createElement("sup");
+  const textElem = document.createElement("span");
 
+  superscript.innerText = verse.verse;
+  textElem.appendChild(superscript);
+  superscript.classList.add("mr-1");
+
+  textElem.classList.add("p-1");
+  textElem.appendChild(document.createTextNode(verse.text));
+
+  return textElem;
+}
+
+chapterSelector.onchange = () => {
   if (currentBook == null) {
     return;
   }
@@ -423,57 +470,15 @@ chapterSelector.onchange = () => {
   const chapter = currentBook.chapters[chapterSelector.value];
   const verses = chapter.verses;
 
-  function createElementForVerse(verse) {
-    const superscript = document.createElement("sup");
-    const textElem = document.createElement("span");
-
-    superscript.innerText = verse.verse;
-    textElem.appendChild(superscript);
-    superscript.classList.add("mr-1");
-
-    textElem.classList.add("p-1");
-    textElem.appendChild(document.createTextNode(verse.text));
-
-    return textElem;
-  }
-
   for (const verse of verses) {
     // Append to both containers
     container0.appendChild(createElementForVerse(verse));
     container1.appendChild(createElementForVerse(verse));
   }
-
-  document.getElementById("verseBtn").addEventListener("click", () => {
-    container0.classList.toggle("grid");
-    container1.classList.toggle("grid");
-  });
 };
 
-/**
- * FONT SIZE DROPDOWN
- * @param {Array} fontSizes - Select list of font sizes
- * @returns {fontSizeElem} - Populates dropdown of font sizes
- *
- * FONT TYPE DROPDOWN
- * @param {Array} fontTypes - Select list of font types
- * @returns {fontTypeElem} - Populates dropdown of font types
- */
-const fontSizeElem = document.getElementById("fontSize");
-const fontTypeElem = document.getElementById("fontType");
-
-const fontSizes = [16, 18, 20, 22];
-const fontTypes = ["Arial", "Times New Roman", "Courier New"];
-
-for (let i = 0; i < fontSizes.length; i++) {
-  const optionSize = document.createElement("option");
-
-  optionSize.innerText = fontSizes[i];
-  fontSizeElem.appendChild(optionSize);
-}
-
-for (let i = 0; i < fontTypes.length; i++) {
-  const optionType = document.createElement("option");
-
-  optionType.innerText = fontTypes[i];
-  fontTypeElem.appendChild(optionType);
-}
+//Toggles verse by verse
+document.getElementById("verseBtn").addEventListener("click", () => {
+  container0.classList.toggle("grid");
+  container1.classList.toggle("grid");
+});
