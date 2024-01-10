@@ -59,28 +59,32 @@
                 class="grid grid-rows-2 grid-cols-2 sm:gap-x-8 gap-x-1 gap-y-1"
               >
                 <button
-                  id="parallelBtn"
-                  class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 row-start-1"
-                >
-                  Parallel Bible
-                </button>
-                <button
                   id="verseBtn"
-                  class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 row-start-2"
+                  class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 row-start-1"
                 >
                   Verse-by-Verse
                 </button>
                 <button
                   id="redLetterBtn"
-                  class="bg-gray-200 px-1 rounded-sm text-red-500 hover:bg-red-600 hover:text-white row-start-1 col-start-2"
+                  class="bg-gray-200 px-1 rounded-sm text-red-500 hover:bg-red-600 hover:text-white col-start-2"
                 >
                   Red Lettering
                 </button>
 
                 <!-- Font Selection -->
-                <div class="grid grid-cols-2 gap-x-1">
-                  <select id="fontType" name="fontType"></select>
-                  <select id="fontSize" name="fontSize"></select>
+                <div class="grid">
+                  <select id="fontType" name="fontType" class="border">
+                    <option value="Arial">Arial</option>
+                    <option value="Times New Roman">Times New Roman</option>
+                    <option value="Courier New">Courier New</option>
+                  </select>
+                </div>
+                <div class="grid">
+                  <select id="fontSize" name="fontSize" class="border">
+                    <option value="18px">Font Small</option>
+                    <option value="22px">Font Medium</option>
+                    <option value="24px">Font Large</option>
+                  </select>
                 </div>
               </div>
             </div>
@@ -88,19 +92,10 @@
         </div>
         <!-- Scripture Block -->
         <div class="grid grid-cols-2 sm:gap-5">
-          <!-- MAIN SCRIPTURE -->
           <div id="mainText" class="nodeMargins col-span-2">
             <div class="mb-6">
               <h1 id="bookTitle" class="nodeTitleH1"></h1>
-              <div id="verseContainer0" class="nodeInsideDiv px-5"></div>
-            </div>
-          </div>
-
-          <!-- PARALLEL SCRIPTURE -->
-          <div id="parallelText" class="nodeMargins hidden">
-            <div class="mb-6">
-              <h1 id="bookNumber" class="nodeTitleH1"></h1>
-              <div id="verseContainer1" class="nodeInsideDiv"></div>
+              <div id="verseContainer" class="nodeInsideDiv px-5"></div>
             </div>
           </div>
         </div>

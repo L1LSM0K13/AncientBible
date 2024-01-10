@@ -1,32 +1,5 @@
 "use strict";
 /**
- * Toggles parallel Bible
- * @returns {parallelText}
- */
-document.getElementById("parallelBtn").addEventListener("click", () => {
-  const mainText = document.getElementById("mainText");
-  const parallelText = document.getElementById("parallelText");
-
-  if (
-    (mainText.classList.contains("col-span-2") &&
-      parallelText.classList.contains("hidden")) ||
-    !(
-      mainText.classList.contains("col-span-2") &&
-      parallelText.classList.contains("hidden")
-    )
-  ) {
-    mainText.classList.toggle("col-span-2");
-    parallelText.classList.toggle("hidden");
-
-    mainText.classList.toggle("nodeMargins");
-    mainText.classList.toggle("nodeMarginLeft");
-
-    parallelText.classList.toggle("nodeMargins");
-    parallelText.classList.toggle("nodeMarginRight");
-  }
-});
-
-/**
  * Toggles format menu
  * @returns {formatMenu}
  */
@@ -56,33 +29,18 @@ document.getElementById("formatBtn").addEventListener("click", () => {
   }
 });
 
-/**
- * FONT SIZE DROPDOWN
- * @param {Array} fontSizes - Select list of font sizes
- * @returns {fontSizeElem} - Populates dropdown of font sizes
- *
- * FONT TYPE DROPDOWN
- * @param {Array} fontTypes - Select list of font types
- * @returns {fontTypeElem} - Populates dropdown of font types
- */
+// Font size and type
 const fontSizeElem = document.getElementById("fontSize");
 const fontTypeElem = document.getElementById("fontType");
 
-const fontSizes = [16, 18, 20, 22];
-const fontTypes = ["Arial", "Times New Roman", "Courier New"];
-
-for (let i = 0; i < fontSizes.length; i++) {
-  const optionSize = document.createElement("option");
-
-  optionSize.innerText = fontSizes[i];
-  fontSizeElem.appendChild(optionSize);
-}
-for (let i = 0; i < fontTypes.length; i++) {
-  const optionType = document.createElement("option");
-
-  optionType.innerText = fontTypes[i];
-  fontTypeElem.appendChild(optionType);
-}
+fontSizeElem.addEventListener("change", () => {
+  const selectedValue = fontSizeElem.value;
+  vContainer.style.fontSize = selectedValue;
+});
+fontTypeElem.addEventListener("change", () => {
+  const selectedValue = fontTypeElem.value;
+  vContainer.style.fontFamily = selectedValue;
+});
 
 /**
  * List of books in an array and its order
@@ -387,24 +345,45 @@ async function loadBook(filename) {
   return await resp.json();
 }
 
-let currentBook = loadBook("John.json");
+let currentBook = null;
 
-const container0 = document.getElementById("verseContainer0");
-const container1 = document.getElementById("verseContainer1");
-
+const vContainer = document.getElementById("verseContainer");
 const bSelector = document.getElementById("selectBook");
 const cSelector = document.getElementById("selectChapter");
 
-function defaultBook() {}
-defaultBook();
-console.log(loadBook("john.json"));
+async function SelectBookByFile(filename) {
+  const book = await loadBook(filename);
+
+  cSelector.innerText = currentBook;
+
+  // Populates chapter numbers
+  for (let i = 0; i < book.chapters.length; i++) {
+    const chapter = book.chapter[i];
+    const chaptOpt = document.createElement("option");
+
+    chaptOpt.innerText = chapter.chapter;
+    chaptOpt.value = i;
+
+    cSelector.appendChild(chaptOpt);
+  }
+
+  // Populates book titles
+  for (let i = 0; i < book.length; i++) {
+    const bookValue = book[i];
+    const bookOpt = document.createElement("option");
+
+    bookOpt.innerText = bookValue.book;
+    bookOpt.value = i;
+
+    bSelector.appendChild(bookOpt);
+  }
+}
 
 function createElementForVerse(verse) {
   const chapter = currentBook.chapters[cSelector.value];
   const verses = chapter.verses;
 
-  container0.innerText = "";
-  container1.innerText = "";
+  vContainer.innerText = "";
 
   const superscript = document.createElement("sup");
   const spanElem = document.createElement("span");
@@ -417,37 +396,7 @@ function createElementForVerse(verse) {
   spanElem.appendChild(document.createTextNode(verse.text));
 
   for (const verse of verses) {
-    container0.appendChild(createElementForVerse(verse));
-    container1.appendChild(createElementForVerse(verse));
+    vContainer.appendChild(createElementForVerse(verse));
   }
   return spanElem;
 }
-
-const SelectBookByFile = (filename) => {
-  const book = loadBook(filename);
-
-  cSelector.innerText = currentBook;
-
-  // Populates chapter numbers
-  for (let i = 0; i < book.chapters.length; i++) {
-    const chapter = book.chapter[i];
-
-    const chaptOpt = document.createElement("option");
-
-    chaptOpt.innerText = chapter.chapter;
-    chaptOpt.value = i;
-
-    cSelector.appendChild(chaptOpt);
-  }
-
-  // Populates book titles
-  for (let i = 0; i < books.length; i++) {
-    const book = books[i];
-    const bookOpt = document.createElement("option");
-
-    bookOpt.innerText = book.title;
-    bookOpt.value = book.filename;
-
-    bSelector.appendChild(bookOpt);
-  }
-};
