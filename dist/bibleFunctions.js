@@ -1,33 +1,6 @@
 "use strict";
 
 /**
- * Toggles parallel Bible
- * @returns {parallelText}
- */
-document.getElementById("parallelBtn").addEventListener("click", () => {
-  const mainText = document.getElementById("mainText");
-  const parallelText = document.getElementById("parallelText");
-
-  if (
-    (mainText.classList.contains("col-span-2") &&
-      parallelText.classList.contains("hidden")) ||
-    !(
-      mainText.classList.contains("col-span-2") &&
-      parallelText.classList.contains("hidden")
-    )
-  ) {
-    mainText.classList.toggle("col-span-2");
-    parallelText.classList.toggle("hidden");
-
-    mainText.classList.toggle("nodeMargins");
-    mainText.classList.toggle("nodeMarginLeft");
-
-    parallelText.classList.toggle("nodeMargins");
-    parallelText.classList.toggle("nodeMarginRight");
-  }
-});
-
-/**
  * Toggles format menu
  * @returns {formatMenu}
  */
@@ -57,34 +30,18 @@ document.getElementById("formatBtn").addEventListener("click", () => {
   }
 });
 
-/**
- * FONT SIZE DROPDOWN
- * @param {Array} fontSizes - Select list of font sizes
- * @returns {fontSizeElem} - Populates dropdown of font sizes
- *
- * FONT TYPE DROPDOWN
- * @param {Array} fontTypes - Select list of font types
- * @returns {fontTypeElem} - Populates dropdown of font types
- */
+// Font size and type
 const fontSizeElem = document.getElementById("fontSize");
 const fontTypeElem = document.getElementById("fontType");
 
-const fontSizes = [16, 18, 20, 22];
-const fontTypes = ["Arial", "Times New Roman", "Courier New"];
-
-for (let i = 0; i < fontSizes.length; i++) {
-  const optionSize = document.createElement("option");
-
-  optionSize.innerText = fontSizes[i];
-  fontSizeElem.appendChild(optionSize);
-}
-
-for (let i = 0; i < fontTypes.length; i++) {
-  const optionType = document.createElement("option");
-
-  optionType.innerText = fontTypes[i];
-  fontTypeElem.appendChild(optionType);
-}
+fontSizeElem.addEventListener("change", () => {
+  const selectedValue = fontSizeElem.value;
+  vContainer.style.fontSize = selectedValue;
+});
+fontTypeElem.addEventListener("change", () => {
+  const selectedValue = fontTypeElem.value;
+  vContainer.style.fontFamily = selectedValue;
+});
 
 /**
  * List of books in an array and its order
@@ -103,8 +60,6 @@ for (let i = 0; i < fontTypes.length; i++) {
  * @param {string} filename The book filename
  * @returns {Promise<Book>} The book that was read from JSON
  */
-
-// List of Books
 const books = [
   {
     filename: "Genesis.json",
@@ -372,6 +327,12 @@ const books = [
   },
 ];
 
+let currentBook = null;
+
+const bSelector = document.getElementById("selectBook");
+const cSelector = document.getElementById("selectChapter");
+const vContainer = document.getElementById("verseContainer");
+
 async function loadBook(filename) {
   const resp = await fetch("/dist/books/" + filename);
 
@@ -382,103 +343,76 @@ async function loadBook(filename) {
   return await resp.json();
 }
 
-/**
- * The currently selected book, or null if none
- * @type {Book | null}
- */
-let currentBook = null;
+async function selectBookByFileName(filename) {
+  currentBook = await loadBook(filename);
 
-const bookSelector = document.getElementById("selectBook");
-const chapterSelector = document.getElementById("selectChapter");
-
-/**
- * Loads and displays a book by its filename
- * @param {string} fileName The book's filename (e.g. "James.json")
- */
-async function selectBookByFileName(fileName) {
-  const book = await loadBook(fileName);
-
-  // Set book title text
-  const bookTitle = document.getElementById("bookTitle");
-
-  bookTitle.innerText = `Book of ${book.book}`;
-
-  currentBook = book;
+  document.getElementById(
+    "bookTitle"
+  ).innerText = `Book of ${currentBook.book}`;
 
   // Clear existing chapters
-  chapterSelector.innerText = "";
+  cSelector.innerText = currentBook.book.chapter;
 
   // Populate chapterNumbers
-  for (let i = 0; i < book.chapters.length; i++) {
-    const chapter = book.chapters[i];
-
+  for (let i = 0; i < currentBook.chapters.length; i++) {
+    const chapter = currentBook.chapters[i];
     const optionChapt = document.createElement("option");
 
     optionChapt.innerText = chapter.chapter;
     optionChapt.value = i;
 
-    chapterSelector.appendChild(optionChapt);
+    cSelector.appendChild(optionChapt);
   }
 }
+bSelector.innerText = "";
 
-// Populate titles
+console.log(loadBook("genesis.json"));
+
+// Populate book titles
 for (let i = 0; i < books.length; i++) {
   const book = books[i];
-
   const optionElem = document.createElement("option");
 
   optionElem.innerText = book.title;
   optionElem.value = book.filename;
 
-  bookSelector.appendChild(optionElem);
+  bSelector.appendChild(optionElem);
 }
 
-const container0 = document.getElementById("verseContainer0");
-const container1 = document.getElementById("verseContainer1");
+// currently selected book index
+bSelector.selectedIndex = 0;
+cSelector.selectedIndex = 0;
 
-bookSelector.onchange = () => {
-  const filename = bookSelector.value;
+bSelector.onchange = () => {
+  const filename = bSelector.value;
 
-  container0.innerText = "";
-  container1.innerText = "";
-
+  cSelector.innerText = ""; // Clear chapter dropdown
+  vContainer.innerText = ""; // Clear verse container
   selectBookByFileName(filename);
 };
 
-function createElementForVerse(verse) {
-  const superscript = document.createElement("sup");
-  const textElem = document.createElement("span");
-
-  superscript.innerText = verse.verse;
-  textElem.appendChild(superscript);
-  superscript.classList.add("mr-1");
-
-  textElem.classList.add("p-1");
-  textElem.appendChild(document.createTextNode(verse.text));
-
-  return textElem;
-}
-
-chapterSelector.onchange = () => {
-  if (currentBook == null) {
-    return;
-  }
-
-  container0.innerText = "";
-  container1.innerText = "";
-
-  const chapter = currentBook.chapters[chapterSelector.value];
+cSelector.onchange = () => {
+  const chapterIndex = cSelector.value;
+  const chapter = currentBook.chapters[chapterIndex];
   const verses = chapter.verses;
 
+  vContainer.innerText = ""; // Clear verse container
+
   for (const verse of verses) {
-    // Append to both containers
-    container0.appendChild(createElementForVerse(verse));
-    container1.appendChild(createElementForVerse(verse));
+    let superscript = document.createElement("sup");
+    const spanElem = document.createElement("span");
+
+    spanElem.classList.add("p-1");
+    spanElem.appendChild(superscript);
+    spanElem.appendChild(document.createTextNode(verse.text));
+
+    superscript.innerText = verse.verse;
+    superscript.classList.add("mr-1");
+
+    vContainer.appendChild(spanElem);
+
+    document.getElementById("verseBtn").onclick = () => {
+      vContainer.classList.toggle("grid");
+    };
   }
 };
-
-//Toggles verse by verse
-document.getElementById("verseBtn").addEventListener("click", () => {
-  container0.classList.toggle("grid");
-  container1.classList.toggle("grid");
-});
