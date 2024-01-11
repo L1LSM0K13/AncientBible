@@ -1,4 +1,5 @@
 "use strict";
+
 /**
  * Toggles format menu
  * @returns {formatMenu}
@@ -59,8 +60,6 @@ fontTypeElem.addEventListener("change", () => {
  * @param {string} filename The book filename
  * @returns {Promise<Book>} The book that was read from JSON
  */
-
-// List of Books
 const books = [
   {
     filename: "Genesis.json",
@@ -328,75 +327,107 @@ const books = [
   },
 ];
 
-/**
- *
- * @param {string} filename
- * @returns {resp} fetches book
- */
+let currentBook = null;
+
+const bSelector = document.getElementById("selectBook");
+const cSelector = document.getElementById("selectChapter");
+const vContainer = document.getElementById("verseContainer");
+
 async function loadBook(filename) {
   const resp = await fetch("/dist/books/" + filename);
 
   if (resp.status !== 200) {
     throw new Error("Failed to fetch book, got HTTP status " + resp.status);
-  } else {
-    console.log("data fetched");
   }
 
   return await resp.json();
 }
 
-let currentBook = null;
+async function selectBookByFileName(filename) {
+  currentBook = await loadBook(filename);
 
-const vContainer = document.getElementById("verseContainer");
-const bSelector = document.getElementById("selectBook");
-const cSelector = document.getElementById("selectChapter");
+  document.getElementById(
+    "bookTitle"
+  ).innerText = `Book of ${currentBook.book}`;
 
-async function SelectBookByFile(filename) {
-  const book = await loadBook(filename);
+  // Clear existing chapters
+  cSelector.innerText = "";
 
-  cSelector.innerText = currentBook;
+  // Populate chapterNumbers
+  for (let i = 0; i < currentBook.chapters.length; i++) {
+    const chapter = currentBook.chapters[i];
+    const optionChapt = document.createElement("option");
 
-  // Populates chapter numbers
-  for (let i = 0; i < book.chapters.length; i++) {
-    const chapter = book.chapter[i];
-    const chaptOpt = document.createElement("option");
+    optionChapt.innerText = chapter.chapter;
+    optionChapt.value = i;
 
-    chaptOpt.innerText = chapter.chapter;
-    chaptOpt.value = i;
-
-    cSelector.appendChild(chaptOpt);
-  }
-
-  // Populates book titles
-  for (let i = 0; i < book.length; i++) {
-    const bookValue = book[i];
-    const bookOpt = document.createElement("option");
-
-    bookOpt.innerText = bookValue.book;
-    bookOpt.value = i;
-
-    bSelector.appendChild(bookOpt);
+    cSelector.appendChild(optionChapt);
   }
 }
 
-function createElementForVerse(verse) {
-  const chapter = currentBook.chapters[cSelector.value];
+// Populate book titles
+for (let i = 0; i < books.length; i++) {
+  const book = books[i];
+  const optionElem = document.createElement("option");
+
+  optionElem.innerText = book.title;
+  optionElem.value = book.filename;
+
+  bSelector.appendChild(optionElem);
+}
+
+bSelector.onchange = () => {
+  const filename = bSelector.value;
+
+  cSelector.innerText = ""; // Clear chapter dropdown
+  vContainer.innerText = ""; // Clear verse container
+  selectBookByFileName(filename);
+};
+
+cSelector.onchange = () => {
+  const chapterIndex = cSelector.value;
+  const chapter = currentBook.chapters[chapterIndex];
   const verses = chapter.verses;
 
-  vContainer.innerText = "";
-
-  const superscript = document.createElement("sup");
-  const spanElem = document.createElement("span");
-
-  superscript.innerText = verse.verse;
-  spanElem.appendChild(superscript);
-  superscript.classList.add("mr-1");
-
-  spanElem.classList.add("p-1");
-  spanElem.appendChild(document.createTextNode(verse.text));
+  vContainer.innerText = ""; // Clear verse container
 
   for (const verse of verses) {
-    vContainer.appendChild(createElementForVerse(verse));
+    const superscript = document.createElement("sup");
+    const spanElem = document.createElement("span");
+
+    spanElem.classList.add("p-1");
+    spanElem.appendChild(superscript);
+    spanElem.appendChild(document.createTextNode(verse.text));
+
+    superscript.innerText = verse.verse;
+    superscript.classList.add("mr-1");
+
+    vContainer.appendChild(spanElem);
+
+    // document.getElementById("verseBtn").onclick = () => {
+    //   spanElem.classList.toggle("grid");
+    // };
   }
-  return spanElem;
-}
+};
+
+// function createElementForVerse(verse) {
+//   const chapter = currentBook.chapters[cSelector.value];
+//   const verses = chapter.verses;
+
+//   vContainer.innerText = "";
+
+//   const superscript = document.createElement("sup");
+//   const spanElem = document.createElement("span");
+
+//   superscript.innerText = verse.verse;
+//   superscript.classList.add("mr-1");
+
+//   spanElem.appendChild(superscript);
+//   spanElem.classList.add("p-1");
+//   spanElem.appendChild(document.createTextNode(verse.text));
+
+//   for (const verse of verses) {
+//     vContainer.appendChild(createElementForVerse(verse));
+//   }
+//   return spanElem;
+// }
