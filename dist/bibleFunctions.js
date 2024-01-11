@@ -351,7 +351,7 @@ async function selectBookByFileName(filename) {
   ).innerText = `Book of ${currentBook.book}`;
 
   // Clear existing chapters
-  cSelector.innerText = "";
+  cSelector.innerText = currentBook.book.chapter;
 
   // Populate chapterNumbers
   for (let i = 0; i < currentBook.chapters.length; i++) {
@@ -364,6 +364,9 @@ async function selectBookByFileName(filename) {
     cSelector.appendChild(optionChapt);
   }
 }
+bSelector.innerText = "";
+
+console.log(loadBook("genesis.json"));
 
 // Populate book titles
 for (let i = 0; i < books.length; i++) {
@@ -375,6 +378,10 @@ for (let i = 0; i < books.length; i++) {
 
   bSelector.appendChild(optionElem);
 }
+
+// currently selected book index
+bSelector.selectedIndex = 0;
+cSelector.selectedIndex = 0;
 
 bSelector.onchange = () => {
   const filename = bSelector.value;
@@ -392,7 +399,7 @@ cSelector.onchange = () => {
   vContainer.innerText = ""; // Clear verse container
 
   for (const verse of verses) {
-    const superscript = document.createElement("sup");
+    let superscript = document.createElement("sup");
     const spanElem = document.createElement("span");
 
     spanElem.classList.add("p-1");
@@ -404,30 +411,8 @@ cSelector.onchange = () => {
 
     vContainer.appendChild(spanElem);
 
-    // document.getElementById("verseBtn").onclick = () => {
-    //   spanElem.classList.toggle("grid");
-    // };
+    document.getElementById("verseBtn").onclick = () => {
+      vContainer.classList.toggle("grid");
+    };
   }
 };
-
-// function createElementForVerse(verse) {
-//   const chapter = currentBook.chapters[cSelector.value];
-//   const verses = chapter.verses;
-
-//   vContainer.innerText = "";
-
-//   const superscript = document.createElement("sup");
-//   const spanElem = document.createElement("span");
-
-//   superscript.innerText = verse.verse;
-//   superscript.classList.add("mr-1");
-
-//   spanElem.appendChild(superscript);
-//   spanElem.classList.add("p-1");
-//   spanElem.appendChild(document.createTextNode(verse.text));
-
-//   for (const verse of verses) {
-//     vContainer.appendChild(createElementForVerse(verse));
-//   }
-//   return spanElem;
-// }
