@@ -94,20 +94,20 @@ const books = [
     title: "Judges",
   },
   {
-    filename: "1Samuel.json",
-    title: "1 Samuel",
+    filename: "1Kingdoms.json",
+    title: "1 Kingdoms (1 Samuel)",
   },
   {
-    filename: "2Samuel.json",
-    title: "2 Samuel",
+    filename: "2Kingdoms.json",
+    title: "2 Kingdoms (2 Samuel)",
   },
   {
-    filename: "1Kings.json",
-    title: "1 Kings",
+    filename: "3Kingdoms.json",
+    title: "3 Kingdoms (1 Kings)",
   },
   {
-    filename: "2Kings.json",
-    title: "2 Kings",
+    filename: "4Kingdoms.json",
+    title: "4 Kingdoms (2 Kings)",
   },
   {
     filename: "1Chronicles.json",
@@ -118,24 +118,48 @@ const books = [
     title: "2 Chronicles",
   },
   {
-    filename: "Ezra.json",
-    title: "Ezra",
+    filename: "1Ezra.json",
+    title: "1 Ezra (2 Esdras)",
+  },
+  {
+    filename: "2Ezra.json",
+    title: "2 Ezra (Ezra/2 Esdras)",
   },
   {
     filename: "Nehemiah.json",
     title: "Nehemiah",
   },
   {
+    filename: "Tobit.json",
+    title: "Tobit",
+  },
+  {
+    filename: "Judith.json",
+    title: "Judith",
+  },
+  {
     filename: "Esther.json",
     title: "Esther",
   },
   {
-    filename: "Job.json",
-    title: "Job",
+    filename: "1Maccabees.json",
+    title: "1 Maccabees",
+  },
+  {
+    filename: "2Maccabees.json",
+    title: "2 Maccabees",
+  },
+  {
+    filename: "3Maccabees.json",
+    title: "3 Maccabees",
   },
   {
     filename: "Psalms.json",
     title: "Psalms",
+  },
+  {
+    filename: "Job.json",
+    title: "Job",
   },
   {
     filename: "Proverbs.json",
@@ -150,24 +174,12 @@ const books = [
     title: "Song of Solomon",
   },
   {
-    filename: "Isaiah.json",
-    title: "Isaiah",
+    filename: "Wisdom of Solomon.json",
+    title: "Wisdom of Solomon",
   },
   {
-    filename: "Jeremiah.json",
-    title: "Jeremiah",
-  },
-  {
-    filename: "Lamentations.json",
-    title: "Lamentations",
-  },
-  {
-    filename: "Ezekiel.json",
-    title: "Ezekiel",
-  },
-  {
-    filename: "Daniel.json",
-    title: "Daniel",
+    filename: "Wisdom of Sirach.json",
+    title: "Wisdom of Sirach",
   },
   {
     filename: "Hosea.json",
@@ -216,6 +228,34 @@ const books = [
   {
     filename: "Malachi.json",
     title: "Malachi",
+  },
+  {
+    filename: "Isaiah.json",
+    title: "Isaiah",
+  },
+  {
+    filename: "Jeremiah.json",
+    title: "Jeremiah",
+  },
+  {
+    filename: "Lamentations.json",
+    title: "Lamentations",
+  },
+  {
+    filename: "Epistle of Jeremiah.json",
+    title: "Epistle of Jeremiah",
+  },
+  {
+    filename: "Ezekiel.json",
+    title: "Ezekiel",
+  },
+  {
+    filename: "Baruch.json",
+    title: "Baruch",
+  },
+  {
+    filename: "Daniel.json",
+    title: "Daniel",
   },
   {
     filename: "Matthew.json",
@@ -378,10 +418,6 @@ for (let i = 0; i < books.length; i++) {
 
   bSelector.appendChild(optionElem);
 }
-
-// currently selected book index
-bSelector.selectedIndex = 0;
-cSelector.selectedIndex = 0;
 
 bSelector.onchange = () => {
   const filename = bSelector.value;
