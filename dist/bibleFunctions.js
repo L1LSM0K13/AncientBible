@@ -383,53 +383,8 @@ async function loadBook(filename) {
   return await resp.json();
 }
 
-async function selectBookByFileName(filename) {
-  currentBook = await loadBook(filename);
-
-  document.getElementById(
-    "bookTitle"
-  ).innerText = `Book of ${currentBook.book}`;
-
-  // Clear existing chapters
-  cSelector.innerText = currentBook.book.chapter;
-
-  // Populate chapterNumbers
-  for (let i = 0; i < currentBook.chapters.length; i++) {
-    const chapter = currentBook.chapters[i];
-    const optionChapt = document.createElement("option");
-
-    optionChapt.innerText = chapter.chapter;
-    optionChapt.value = i;
-
-    cSelector.appendChild(optionChapt);
-  }
-}
-bSelector.innerText = "";
-
-console.log(loadBook("genesis.json"));
-
-// Populate book titles
-for (let i = 0; i < books.length; i++) {
-  const book = books[i];
-  const optionElem = document.createElement("option");
-
-  optionElem.innerText = book.title;
-  optionElem.value = book.filename;
-
-  bSelector.appendChild(optionElem);
-}
-
-bSelector.onchange = () => {
-  const filename = bSelector.value;
-
-  cSelector.innerText = ""; // Clear chapter dropdown
-  vContainer.innerText = ""; // Clear verse container
-  selectBookByFileName(filename);
-};
-
-cSelector.onchange = () => {
-  const chapterIndex = cSelector.value;
-  const chapter = currentBook.chapters[chapterIndex];
+function selectChapterByIndex(index) {
+  const chapter = currentBook.chapters[index];
   const verses = chapter.verses;
 
   vContainer.innerText = ""; // Clear verse container
@@ -451,4 +406,55 @@ cSelector.onchange = () => {
       vContainer.classList.toggle("grid");
     };
   }
+}
+
+async function selectBookByFileName(filename) {
+  currentBook = await loadBook(filename);
+
+  document.getElementById(
+    "bookTitle"
+  ).innerText = `Book of ${currentBook.book}`;
+
+  // Clear existing chapters
+  cSelector.innerText = currentBook.book.chapter;
+
+  // Populate chapterNumbers
+  for (let i = 0; i < currentBook.chapters.length; i++) {
+    const chapter = currentBook.chapters[i];
+    const optionChapt = document.createElement("option");
+
+    optionChapt.innerText = chapter.chapter;
+    optionChapt.value = i;
+
+    cSelector.appendChild(optionChapt);
+  }
+
+  selectChapterByIndex(0);
+}
+
+selectBookByFileName("john.json");
+
+bSelector.innerText = "";
+
+// Populate book titles
+for (let i = 0; i < books.length; i++) {
+  const book = books[i];
+  const optionElem = document.createElement("option");
+
+  optionElem.innerText = book.title;
+  optionElem.value = book.filename;
+
+  bSelector.appendChild(optionElem);
+}
+
+bSelector.onchange = () => {
+  const filename = bSelector.value;
+
+  cSelector.innerText = ""; // Clear chapter dropdown
+  vContainer.innerText = ""; // Clear verse container
+  selectBookByFileName(filename);
+};
+
+cSelector.onchange = () => {
+  selectChapterByIndex(cSelector.value);
 };
