@@ -432,7 +432,7 @@ async function selectBookByFileName(filename) {
   selectChapterByIndex(0);
 }
 
-selectBookByFileName("john.json");
+selectBookByFileName("genesis.json");
 
 bSelector.innerText = "";
 
