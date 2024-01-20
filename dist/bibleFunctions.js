@@ -119,7 +119,7 @@ const books = [
   },
   {
     filename: "1Ezra.json",
-    title: "1 Ezra (2 Esdras)",
+    title: "1 Ezra (1 Esdras)",
   },
   {
     filename: "2Ezra.json",
@@ -432,7 +432,7 @@ async function selectBookByFileName(filename) {
   selectChapterByIndex(0);
 }
 
-selectBookByFileName("john.json");
+selectBookByFileName("genesis.json");
 
 bSelector.innerText = "";
 
