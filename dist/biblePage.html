@@ -10,92 +10,93 @@
   <body class="bg-[#e9eef1] sm:text-lg text-sm">
     <header>
       <nav class="nodeMargins">
-        <ul class="navBar flex">
+        <ul class="navBar flex mb-5">
           <li><a href="index.html" class="mx-1">Home</a></li>
           <li><a href="biblePage.html" class="mx-1">Bible</a></li>
-          <li><a href="fathers.html" class="mx-1">Church Fathers</a></li>
+          <li>
+            <a href="fathers.html" class="mx-1 cursor-not-allowed"
+              >Church Fathers (coming soon)</a
+            >
+          </li>
+          <li class="grow text-right">
+            <a href="#" class="mx-1">Login or Sign Up</a>
+          </li>
         </ul>
       </nav>
     </header>
 
     <main>
       <article>
-        <div class="grid grid-cols-2 gap-5">
-          <!-- Jump to Book menu -->
+        <div class="2xl:flex gap-5 nodeMargins">
+          <!-- Menu Block -->
+          <div class="2xl:shrink-0">
+            <!-- Jump to Book menu -->
+            <div id="selectMenu" class="mb-5">
+              <h1 class="nodeTitleH1">Jump to book:</h1>
 
-          <div id="selectMenu" class="nodeMargins col-span-2">
-            <h1 class="nodeTitleH1">Jump to book:</h1>
-
-            <!-- Book Selection -->
-            <div class="nodeInsideDiv overflow-hidden grid gap-1 grid-cols-4">
-              <select
-                id="selectBook"
-                name="selectBook"
-                class="p-1 rounded-sm"
-              ></select>
-              <select
-                id="selectChapter"
-                name="selectChapter"
-                class="p-1 rounded-sm"
-              ></select>
-
-              <!-- Format Button -->
-              <button
-                id="formatBtn"
-                class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 sm:col-start-4 sm:col-span-1 col-span-2 overflow-hidden"
-              >
-                Show Formatting
-              </button>
+              <!-- Book Selection -->
+              <div class="nodeInsideDiv overflow-hidden grid gap-1 grid-cols-2">
+                <select
+                  id="selectBook"
+                  name="selectBook"
+                  class="p-1 rounded-sm"
+                ></select>
+                <select
+                  id="selectChapter"
+                  name="selectChapter"
+                  class="p-1 rounded-sm"
+                ></select>
+              </div>
             </div>
-          </div>
 
-          <!-- Format Menu -->
+            <!-- Format Menu -->
+            <div id="formatMenu" class="mb-5">
+              <h1 class="nodeTitleH1">Formatting Options</h1>
 
-          <div id="formatMenu" class="nodeMargins hidden">
-            <h1 class="nodeTitleH1">Formatting Options</h1>
-
-            <div class="nodeInsideDiv overflow-hidden">
-              <div
-                class="grid grid-rows-2 grid-cols-2 sm:gap-x-8 gap-x-1 gap-y-1"
-              >
-                <button
-                  id="verseBtn"
-                  class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 row-start-1"
+              <div class="nodeInsideDiv overflow-hidden">
+                <div
+                  class="grid grid-rows-2 grid-cols-2 sm:gap-x-8 gap-x-1 gap-y-1"
                 >
-                  Verse-by-Verse
-                </button>
-                <button
-                  id="redLetterBtn"
-                  class="bg-gray-200 px-1 rounded-sm text-red-500 hover:bg-red-600 hover:text-white col-start-2"
-                >
-                  Red Lettering
-                </button>
+                  <button
+                    id="verseBtn"
+                    class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 row-start-1"
+                  >
+                    Verse-by-Verse
+                  </button>
+                  <button
+                    id="redLetterBtn"
+                    class="bg-gray-200 px-1 rounded-sm text-red-500 hover:bg-red-600 hover:text-white col-start-2"
+                  >
+                    Red Lettering
+                  </button>
 
-                <!-- Font Selection -->
-                <div class="grid">
-                  <select id="fontType" name="fontType" class="border">
-                    <option value="">Default</option>
-                    <option value="Times New Roman">Times New Roman</option>
-                    <option value="Arial">Arial</option>
-                  </select>
-                </div>
-                <div class="grid">
-                  <select id="fontSize" name="fontSize" class="border">
-                    <option value="18px">Font Small</option>
-                    <option value="22px">Font Medium</option>
-                    <option value="24px">Font Large</option>
-                  </select>
+                  <!-- Font Selection -->
+                  <div class="grid">
+                    <select id="fontType" name="fontType" class="border">
+                      <option value="">Default</option>
+                      <option value="Times New Roman">Times New Roman</option>
+                      <option value="Arial">Arial</option>
+                    </select>
+                  </div>
+                  <div class="grid">
+                    <select id="fontSize" name="fontSize" class="border">
+                      <option value="18px">Font Small</option>
+                      <option value="22px">Font Medium</option>
+                      <option value="24px">Font Large</option>
+                    </select>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- Scripture Block -->
-        <div class="grid grid-cols-2 sm:gap-5">
-          <div id="mainText" class="nodeMargins col-span-2">
-            <div class="mb-6">
-              <h1 id="bookTitle" class="nodeTitleH1"></h1>
-              <div id="verseContainer" class="nodeInsideDiv px-5"></div>
+
+          <!-- Scripture Block -->
+          <div>
+            <div id="mainText">
+              <div class="mb-5">
+                <h1 id="bookTitle" class="nodeTitleH1"></h1>
+                <div id="verseContainer" class="nodeInsideDiv px-5"></div>
+              </div>
             </div>
           </div>
         </div>

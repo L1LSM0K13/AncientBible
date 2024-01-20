@@ -736,6 +736,10 @@ video {
   margin-right: 0.25rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -746,6 +750,14 @@ video {
 
 .hidden {
   display: none;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
 }
 
 .grid-cols-2 {
@@ -840,6 +852,10 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -895,5 +911,15 @@ video {
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:flex {
+    display: flex;
+  }
+
+  .\32xl\:shrink-0 {
+    flex-shrink: 0;
   }
 }

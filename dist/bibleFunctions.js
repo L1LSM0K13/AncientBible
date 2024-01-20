@@ -1,35 +1,5 @@
 "use strict";
 
-/**
- * Toggles format menu
- * @returns {formatMenu}
- */
-document.getElementById("formatBtn").addEventListener("click", () => {
-  const selectMenu = document.getElementById("selectMenu");
-  const formatMenu = document.getElementById("formatMenu");
-
-  if (
-    selectMenu.classList.contains("col-span-2") &&
-    formatMenu.classList.contains("hidden")
-  ) {
-    selectMenu.classList.remove("col-span-2", "nodeMargins");
-    formatMenu.classList.remove("hidden", "nodeMargins");
-
-    selectMenu.classList.add("nodeMarginLeft");
-    formatMenu.classList.add("nodeMarginRight");
-
-    document.getElementById("formatBtn").innerText = "Hide Formatting";
-  } else {
-    selectMenu.classList.add("col-span-2", "nodeMargins");
-    formatMenu.classList.add("hidden", "nodeMargins");
-
-    selectMenu.classList.remove("nodeMarginLeft");
-    formatMenu.classList.remove("nodeMarginRight");
-
-    document.getElementById("formatBtn").innerText = "Show Formatting";
-  }
-});
-
 // Font size and type
 const fontSizeElem = document.getElementById("fontSize");
 const fontTypeElem = document.getElementById("fontType");
