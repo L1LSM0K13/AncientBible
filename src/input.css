@@ -17,7 +17,7 @@
     @apply bg-white py-1 px-3 border-x border-b border-[#355488] block rounded-b-md;
   }
   .navBar {
-    @apply p-1 bg-[#575f6a] text-white text-sm border border-[#434952] rounded-md;
+    @apply p-2 bg-[#51688e] text-white text-sm border border-[#355488];
   }
 
   /* Margin Class Set */
