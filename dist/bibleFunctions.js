@@ -402,7 +402,8 @@ async function selectBookByFileName(filename) {
   selectChapterByIndex(0);
 }
 
-selectBookByFileName("genesis.json");
+currentBook = "genesis.json";
+selectBookByFileName(currentBook);
 
 bSelector.innerText = "";
 
@@ -417,6 +418,7 @@ for (let i = 0; i < books.length; i++) {
   bSelector.appendChild(optionElem);
 }
 
+// Refresh verse container
 bSelector.onchange = () => {
   const filename = bSelector.value;
 
