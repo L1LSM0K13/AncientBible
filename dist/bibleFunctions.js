@@ -338,13 +338,17 @@ const books = [
 ];
 
 let currentBook = null;
-
 const bSelector = document.getElementById("selectBook");
 const cSelector = document.getElementById("selectChapter");
 const vContainer = document.getElementById("verseContainer");
 
+currentBook = "genesis.json";
+selectBookByFileName(currentBook);
+bSelector.innerText = "";
+
+// Fetches book
 async function loadBook(filename) {
-  const resp = await fetch("/dist/books/" + filename);
+  const resp = await fetch(`/dist/books/${filename}`);
 
   if (resp.status !== 200) {
     throw new Error("Failed to fetch book, got HTTP status " + resp.status);
@@ -353,6 +357,7 @@ async function loadBook(filename) {
   return await resp.json();
 }
 
+// Selected chapter by its index
 function selectChapterByIndex(index) {
   const chapter = currentBook.chapters[index];
   const verses = chapter.verses;
@@ -378,6 +383,7 @@ function selectChapterByIndex(index) {
   }
 }
 
+// Selects book by file name
 async function selectBookByFileName(filename) {
   currentBook = await loadBook(filename);
 
@@ -402,11 +408,6 @@ async function selectBookByFileName(filename) {
   selectChapterByIndex(0);
 }
 
-currentBook = "genesis.json";
-selectBookByFileName(currentBook);
-
-bSelector.innerText = "";
-
 // Populate book titles
 for (let i = 0; i < books.length; i++) {
   const book = books[i];
@@ -422,11 +423,10 @@ for (let i = 0; i < books.length; i++) {
 bSelector.onchange = () => {
   const filename = bSelector.value;
 
-  cSelector.innerText = ""; // Clear chapter dropdown
-  vContainer.innerText = ""; // Clear verse container
+  cSelector.innerText = "";
+  vContainer.innerText = "";
   selectBookByFileName(filename);
 };
-
 cSelector.onchange = () => {
   selectChapterByIndex(cSelector.value);
 };

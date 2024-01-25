@@ -711,20 +711,12 @@ video {
   flex-grow: 1;
 }
 
-.cursor-not-allowed {
-  cursor: not-allowed;
-}
-
-.cursor-pointer {
-  cursor: pointer;
-}
-
-.cursor-auto {
-  cursor: auto;
-}
-
 .cursor-default {
   cursor: default;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
 }
 
 .grid-cols-2 {
@@ -795,10 +787,6 @@ video {
   padding: 0.25rem;
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -829,11 +817,6 @@ video {
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
-.hover\:bg-\[\#29374c\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(41 55 76 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gray-300:hover {
