@@ -342,7 +342,7 @@ const bSelector = document.getElementById("selectBook");
 const cSelector = document.getElementById("selectChapter");
 const vContainer = document.getElementById("verseContainer");
 
-currentBook = "genesis.json";
+currentBook = books[0].filename;
 selectBookByFileName(currentBook);
 bSelector.innerText = "";
 
@@ -362,8 +362,10 @@ function selectChapterByIndex(index) {
   const chapter = currentBook.chapters[index];
   const verses = chapter.verses;
 
-  vContainer.innerText = ""; // Clear verse container
+  vContainer.innerText = "";
 
+  // Toggles verse by verse
+  // Appends superscript to verse numbers
   for (const verse of verses) {
     let superscript = document.createElement("sup");
     const spanElem = document.createElement("span");
@@ -380,6 +382,12 @@ function selectChapterByIndex(index) {
     document.getElementById("verseBtn").onclick = () => {
       vContainer.classList.toggle("grid");
     };
+
+    const redLetterBtn = document.getElementById("redLetterBtn");
+
+    redLetterBtn.onclick = () => {
+      spanElem.classList.add("text-red-600");
+    };
   }
 }
 
@@ -387,6 +395,7 @@ function selectChapterByIndex(index) {
 async function selectBookByFileName(filename) {
   currentBook = await loadBook(filename);
 
+  // Displays title of the book
   document.getElementById(
     "bookTitle"
   ).innerText = `Book of ${currentBook.book}`;
@@ -394,7 +403,7 @@ async function selectBookByFileName(filename) {
   // Clear existing chapters
   cSelector.innerText = currentBook.book.chapter;
 
-  // Populate chapterNumbers
+  // Populate chapter numbers
   for (let i = 0; i < currentBook.chapters.length; i++) {
     const chapter = currentBook.chapters[i];
     const optionChapt = document.createElement("option");
