@@ -369,6 +369,27 @@ function selectChapterByIndex(index) {
   for (const verse of verses) {
     let superscript = document.createElement("sup");
     const spanElem = document.createElement("span");
+    const redLetterBtn = document.getElementById("redLetterBtn");
+    const verseBtn = document.getElementById("verseBtn");
+
+    // Toggles Red Lettering
+    redLetterBtn.onclick = () => {
+      async function redLettering(filename) {
+        const Matthew = await loadBook(filename);
+
+        const chapterToToggle = Matthew.chapters[4];
+        for (let i = 0; i < 48; i++) {
+          const verseToToggle = chapterToToggle.verses[i];
+          const redSpan = document.getElementById(
+            `verse_${verseToToggle.verse}`
+          );
+          if (redSpan) {
+            redSpan.classList.toggle("text-red-600");
+          }
+        }
+      }
+      redLettering("matthew.json");
+    };
 
     spanElem.classList.add("p-1");
     spanElem.appendChild(superscript);
@@ -377,16 +398,11 @@ function selectChapterByIndex(index) {
     superscript.innerText = verse.verse;
     superscript.classList.add("mr-1");
 
+    spanElem.id = `verse_${verse.verse}`;
     vContainer.appendChild(spanElem);
 
-    document.getElementById("verseBtn").onclick = () => {
+    verseBtn.onclick = () => {
       vContainer.classList.toggle("grid");
-    };
-
-    const redLetterBtn = document.getElementById("redLetterBtn");
-
-    redLetterBtn.onclick = () => {
-      spanElem.classList.add("text-red-600");
     };
   }
 }
@@ -416,7 +432,6 @@ async function selectBookByFileName(filename) {
 
   selectChapterByIndex(0);
 }
-
 // Populate book titles
 for (let i = 0; i < books.length; i++) {
   const book = books[i];
