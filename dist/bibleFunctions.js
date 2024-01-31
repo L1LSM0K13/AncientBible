@@ -369,27 +369,7 @@ function selectChapterByIndex(index) {
   for (const verse of verses) {
     let superscript = document.createElement("sup");
     const spanElem = document.createElement("span");
-    const redLetterBtn = document.getElementById("redLetterBtn");
     const verseBtn = document.getElementById("verseBtn");
-
-    // Toggles Red Lettering
-    redLetterBtn.onclick = () => {
-      async function redLettering(filename) {
-        const Matthew = await loadBook(filename);
-
-        const chapterToToggle = Matthew.chapters[4];
-        for (let i = 0; i < 48; i++) {
-          const verseToToggle = chapterToToggle.verses[i];
-          const redSpan = document.getElementById(
-            `verse_${verseToToggle.verse}`
-          );
-          if (redSpan) {
-            redSpan.classList.toggle("text-red-600");
-          }
-        }
-      }
-      redLettering("matthew.json");
-    };
 
     spanElem.classList.add("p-1");
     spanElem.appendChild(superscript);
@@ -398,11 +378,35 @@ function selectChapterByIndex(index) {
     superscript.innerText = verse.verse;
     superscript.classList.add("mr-1");
 
-    spanElem.id = `verse_${verse.verse}`;
     vContainer.appendChild(spanElem);
 
     verseBtn.onclick = () => {
       vContainer.classList.toggle("grid");
+    };
+
+    // Red Lettering
+    const redLetterBtn = document.getElementById("redLetterBtn");
+
+    redLetterBtn.onclick = async () => {
+      async function redLettering(
+        filename,
+        chapterIndex,
+        verseStart,
+        verseEnd
+      ) {
+        const matthew = await loadBook(filename);
+        for (let i = verseStart - 1; i < verseEnd; i++) {
+          const redLetters = matthew.chapters[chapterIndex - 1].verses[i];
+          const spanElem = vContainer.children[i];
+          if (spanElem) {
+            spanElem.classList.toggle("dark:text-red-500");
+            spanElem.classList.toggle("text-red-600");
+          }
+          console.log(redLetters);
+          console.clear(redLetters);
+        }
+      }
+      redLettering("matthew.json", 5, 1, 48);
     };
   }
 }
@@ -454,3 +458,22 @@ bSelector.onchange = () => {
 cSelector.onchange = () => {
   selectChapterByIndex(cSelector.value);
 };
+
+// redLettering("matthew.json", 6, 1, 34);
+// redLettering("matthew.json", 7, 1, 48);
+// redLettering("matthew.json", 10, 1, 48);
+// redLettering("matthew.json", 13, 1, 48);
+// redLettering("matthew.json", 15, 1, 48);
+// redLettering("matthew.json", 16, 13, 28);
+// redLettering("matthew.json", 17, 1, 27);
+// redLettering("matthew.json", 18, 1, 35);
+// redLettering("matthew.json", 19, 1, 30);
+// redLettering("matthew.json", 20, 1, 34);
+// redLettering("matthew.json", 21, 1, 46);
+// redLettering("matthew.json", 22, 1, 46);
+// redLettering("matthew.json", 23, 1, 39);
+// redLettering("matthew.json", 24, 1, 51);
+// redLettering("matthew.json", 25, 1, 46);
+// redLettering("matthew.json", 26, 1, 75);
+// redLettering("matthew.json", 27, 1, 66);
+// redLettering("matthew.json", 28, 1, 20);
