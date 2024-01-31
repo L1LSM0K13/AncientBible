@@ -1,35 +1,12 @@
 "use strict";
 
-// Font size and type
-const fontSizeElem = document.getElementById("fontSize");
-const fontTypeElem = document.getElementById("fontType");
+const bSelector = document.getElementById("selectBook");
+const cSelector = document.getElementById("selectChapter");
+const vContainer = document.getElementById("verseContainer");
+const redLetterBtn = document.getElementById("redLetterBtn");
+const bTitle = document.getElementById("bookTitle");
 
-fontSizeElem.addEventListener("change", () => {
-  const selectedValue = fontSizeElem.value;
-  vContainer.style.fontSize = selectedValue;
-});
-fontTypeElem.addEventListener("change", () => {
-  const selectedValue = fontTypeElem.value;
-  vContainer.style.fontFamily = selectedValue;
-});
-
-/**
- * List of books in an array and its order
- * @typedef {{
- *   book: string,
- *   chapters: {
- *     chapter: string,
- *     verses: {
- *       verse: string,
- *       text: string,
- *     }[],
- *   }[],
- * }} Book
- *
- * Loads a book based on its filename (e.g. "Luke.json")
- * @param {string} filename The book filename
- * @returns {Promise<Book>} The book that was read from JSON
- */
+let currentBook = null;
 const books = [
   {
     filename: "Genesis.json",
@@ -337,17 +314,8 @@ const books = [
   },
 ];
 
-let currentBook = null;
-const bSelector = document.getElementById("selectBook");
-const cSelector = document.getElementById("selectChapter");
-const vContainer = document.getElementById("verseContainer");
-
-currentBook = "genesis.json";
-selectBookByFileName(currentBook);
-bSelector.innerText = "";
-
 // Fetches book
-async function loadBook(filename) {
+async function fetchBook(filename) {
   const resp = await fetch(`/dist/books/${filename}`);
 
   if (resp.status !== 200) {
@@ -356,26 +324,26 @@ async function loadBook(filename) {
 
   return await resp.json();
 }
+loadBook("genesis.json");
 
-// Selected chapter by its index
-function selectChapterByIndex(index) {
-  const chapter = currentBook.chapters[index];
+// Loads the verse container with the current chapter
+async function loadChapter(chapterIndex) {
+  const chapter = currentBook.chapters[chapterIndex];
   const verses = chapter.verses;
 
-  vContainer.innerText = ""; // Clear verse container
+  // Clears verse container for new chapter or book
+  vContainer.innerHTML = "";
 
   for (const verse of verses) {
-    let superscript = document.createElement("sup");
-    const spanElem = document.createElement("span");
+    const verseNumber = document.createElement("sup");
+    const verseText = document.createElement("span");
 
-    spanElem.classList.add("p-1");
-    spanElem.appendChild(superscript);
-    spanElem.appendChild(document.createTextNode(verse.text));
+    verseText.appendChild(verseNumber);
+    verseText.appendChild(document.createTextNode(verse.text));
 
-    superscript.innerText = verse.verse;
-    superscript.classList.add("mr-1");
+    verseNumber.innerText = verse.verse;
 
-    vContainer.appendChild(spanElem);
+    vContainer.appendChild(verseText);
 
     document.getElementById("verseBtn").onclick = () => {
       vContainer.classList.toggle("grid");
@@ -383,50 +351,76 @@ function selectChapterByIndex(index) {
   }
 }
 
-// Selects book by file name
-async function selectBookByFileName(filename) {
-  currentBook = await loadBook(filename);
+// Red Lettering
+redLetterBtn.onclick = async () => {
+  async function redLettering(filename, chapterIndex, verseStart, verseEnd) {
+    const matthew = await fetchBook(filename);
+    for (let i = verseStart - 1; i < verseEnd; i++) {
+      const redLetters = matthew.chapters[chapterIndex - 1].verses[i];
+      const spanElem = vContainer.children[i];
+      if (spanElem) {
+        spanElem.classList.toggle("dark:text-red-500");
+        spanElem.classList.toggle("text-red-600");
+      }
+      console.log(redLetters);
+      console.clear(redLetters);
+    }
+  }
+  redLettering("matthew.json", 5, 1, 48);
+};
 
-  document.getElementById(
-    "bookTitle"
-  ).innerText = `Book of ${currentBook.book}`;
+// Loads chapters of the selected book
+async function loadBook(filename) {
+  currentBook = await fetchBook(filename);
 
-  // Clear existing chapters
+  bTitle.innerText = `Book of ${currentBook.book}`;
+
+  // Clears existing chapters
   cSelector.innerText = currentBook.book.chapter;
 
-  // Populate chapterNumbers
   for (let i = 0; i < currentBook.chapters.length; i++) {
     const chapter = currentBook.chapters[i];
-    const optionChapt = document.createElement("option");
+    const chapterOption = document.createElement("option");
 
-    optionChapt.innerText = chapter.chapter;
-    optionChapt.value = i;
+    chapterOption.innerText = chapter.chapter;
+    chapterOption.value = i;
 
-    cSelector.appendChild(optionChapt);
+    cSelector.appendChild(chapterOption);
   }
-
-  selectChapterByIndex(0);
+  loadChapter(0);
 }
 
-// Populate book titles
+// Populates book titles
 for (let i = 0; i < books.length; i++) {
-  const book = books[i];
-  const optionElem = document.createElement("option");
+  const bookTitles = books[i];
+  const bookOptions = document.createElement("option");
 
-  optionElem.innerText = book.title;
-  optionElem.value = book.filename;
+  bookOptions.innerText = bookTitles.title;
+  bookOptions.value = bookTitles.filename;
 
-  bSelector.appendChild(optionElem);
+  bSelector.appendChild(bookOptions);
 }
 
-// Refresh verse container
+// Refreshes verse container and chapter list
 bSelector.onchange = () => {
   const filename = bSelector.value;
 
   cSelector.innerText = "";
-  vContainer.innerText = "";
-  selectBookByFileName(filename);
+  vContainer.innertext = "";
+  loadBook(filename);
 };
 cSelector.onchange = () => {
-  selectChapterByIndex(cSelector.value);
+  loadChapter(cSelector.value);
+};
+
+// Font Size and Type
+const fontSizeElem = document.getElementById("fontSize");
+const fontTypeElem = document.getElementById("fontType");
+fontSizeElem.onchange = () => {
+  const selectedValue = fontSizeElem.value;
+  vContainer.style.fontSize = selectedValue;
+};
+fontTypeElem.onchange = () => {
+  const selectedValue = fontTypeElem.value;
+  vContainer.style.fontFamily = selectedValue;
 };
