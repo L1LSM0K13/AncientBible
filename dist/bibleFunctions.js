@@ -413,8 +413,6 @@ cSelector.onchange = () => {
   loadChapter(cSelector.value);
 };
 
-async function redLettering(bookIndex, chapterIndex, startVerse, endVerse) {}
-
 // Font Size and Type
 const fontSizeElem = document.getElementById("fontSize");
 const fontTypeElem = document.getElementById("fontType");
