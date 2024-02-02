@@ -1,0 +1,67 @@
+<mxfile host="Electron" modified="2024-01-31T00:52:23.729Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="ZPAKCfEtqfGLK3DMkq6F" version="22.1.16" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1195" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kQSE0KYJN6h1k0c9Swpy-0" target="kQSE0KYJN6h1k0c9Swpy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-0" value="&lt;br&gt;&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-mermaid&quot;&gt;A[Fetch Bible Book]&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="334" y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kQSE0KYJN6h1k0c9Swpy-3" target="kQSE0KYJN6h1k0c9Swpy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kQSE0KYJN6h1k0c9Swpy-3" target="kQSE0KYJN6h1k0c9Swpy-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-3" value="&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-mermaid&quot;&gt;B{Fetch loads default&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;book with chapter 1}&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="328" y="130" width="172" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kQSE0KYJN6h1k0c9Swpy-4" target="kQSE0KYJN6h1k0c9Swpy-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-4" value="&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-mermaid&quot;&gt;C[Populate dropdown with books]&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="284" y="220" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kQSE0KYJN6h1k0c9Swpy-7" target="kQSE0KYJN6h1k0c9Swpy-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kQSE0KYJN6h1k0c9Swpy-7" target="kQSE0KYJN6h1k0c9Swpy-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-7" value="&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-mermaid&quot;&gt;E[Change book selected]&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="328" y="310" width="172" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-8" value="&lt;br&gt;&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-mermaid&quot;&gt;[Populate dropdown &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-mermaid&quot;&gt;with chapters of &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-mermaid&quot;&gt;default book]&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="210" width="168" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-11" value="&lt;br&gt;&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-mermaid&quot;&gt;F[Clear chapter dropdown list&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-mermaid&quot;&gt;and verse container]&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="298" y="400" width="232" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kQSE0KYJN6h1k0c9Swpy-13" target="kQSE0KYJN6h1k0c9Swpy-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-13" value="&#xa;&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-mermaid&quot;&gt;G[Fetch chapters of new book]&lt;/code&gt;&lt;/pre&gt;&#xa;&#xa;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="538" y="310" width="232" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kQSE0KYJN6h1k0c9Swpy-15" target="kQSE0KYJN6h1k0c9Swpy-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-15" value="&lt;br&gt;&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-mermaid&quot;&gt;H[Populate dropdown with &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-mermaid&quot;&gt;chapters of new book]&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="400" width="208" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-17" value="&lt;br&gt;&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-mermaid&quot;&gt;I{Chapter 1 of &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-mermaid&quot;&gt;new book}&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="520" width="172" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kQSE0KYJN6h1k0c9Swpy-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="550" as="sourcePoint" />
+            <mxPoint x="414" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
