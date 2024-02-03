@@ -1,5 +1,6 @@
 "use strict";
 
+// Bible function declarations
 const bSelector = document.getElementById("selectBook");
 const cSelector = document.getElementById("selectChapter");
 const vContainer = document.getElementById("verseContainer");
@@ -340,7 +341,11 @@ async function loadChapter(chapterIndex) {
 
 		verseText.appendChild(verseNumber);
 		verseText.appendChild(document.createTextNode(verse.text));
+		verseText.classList.add("p-1");
+		verseText.classList.add("dark:hover:bg-[#202124]");
+		verseText.classList.add("hover:bg-gray-200");
 
+		verseNumber.classList.add("pr-1");
 		verseNumber.innerText = verse.verse;
 
 		vContainer.appendChild(verseText);
@@ -352,22 +357,22 @@ async function loadChapter(chapterIndex) {
 }
 
 // Red Lettering
-// redLetterBtn.onclick = async () => {
-//   async function redLettering(filename, chapterIndex, verseStart, verseEnd) {
-//     const matthew = await fetchBook(filename);
-//     for (let i = verseStart - 1; i < verseEnd; i++) {
-//       const redLetters = matthew.chapters[chapterIndex - 1].verses[i];
-//       const spanElem = vContainer.children[i];
-//       if (spanElem) {
-//         spanElem.classList.toggle("dark:text-red-500");
-//         spanElem.classList.toggle("text-red-600");
-//       }
-//       console.log(redLetters);
-//       // console.clear(redLetters);
-//     }
-//   }
-//   redLettering("matthew.json", 5, 1, 48);
-// };
+redLetterBtn.onclick = async () => {
+	async function redLettering(filename, chapterIndex, verseStart, verseEnd) {
+		const matthew = await fetchBook(filename);
+		for (let i = verseStart - 1; i < verseEnd; i++) {
+			const redLetters = matthew.chapters[chapterIndex - 1].verses[i];
+			const spanElem = vContainer.children[i];
+			if (spanElem) {
+				spanElem.classList.toggle("dark:text-red-400");
+				spanElem.classList.toggle("text-red-500");
+			}
+			console.log(redLetters);
+			// console.clear(redLetters);
+		}
+	}
+	redLettering("matthew.json", 5, 1, 48);
+};
 
 // Loads chapters of the selected book
 async function loadBook(filename) {

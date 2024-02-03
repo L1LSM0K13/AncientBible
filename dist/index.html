@@ -19,6 +19,18 @@
               >Church Fathers (coming soon)</a
             >
           </li>
+          <li>
+						<img
+							class="sunEnabled cursor-pointer"
+							src="./images/brightness-high-fill.svg"
+							alt="BrightModeEnabled" />
+					</li>
+					<li>
+						<img
+							class="sunDisabled cursor-pointer"
+							src="./images/brightness-high.svg"
+							alt="BrightModeDisabled" />
+					</li>
           <li class="grow text-right">
             <a href="#" class="mx-1">Login or Sign Up</a>
           </li>
@@ -33,7 +45,8 @@
       </div>
 
       <article>
-        <div class="nodeMargins">
+
+        <div class="nodeMargins shadow-xl">
             <h1 class="nodeTitleH1">About Orthodox Canon</h1>
             <p class="nodeInsideDiv mb-5">
               This is a Bible website that contains all books of the typical
@@ -45,7 +58,7 @@
             </p>
           </div>
 
-          <div class="nodeMargins">
+          <div class="nodeMargins shadow-xl">
             <h1 class="nodeTitleH1">Whats included</h1>
             <div class="nodeInsideDiv mb-5 pb-5">
 
@@ -90,7 +103,24 @@
     </main>
 
     <footer>
-      <div></div>
+      <!-- Updates Node -->
+      <div class="flex justify-center">
+        <div class="nodeMargins">
+          <h1 class="nodeTitleH1">Whats New to Orthodox Canon?</h1>
+          <div class="nodeInsideDiv mb-5 shadow-xl">
+            <div>
+              <ul>
+                <li>Orthodox Canon.org (beta v1.0) 2/3/2024</li>
+
+                <li>+ Added a toggle to dark mode.</li>
+                <li>+ Added a small highlight when hovering over the verses.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
+
+    <script src="darkModeToggle.js"></script>
   </body>
 </html>

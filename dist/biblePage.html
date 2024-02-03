@@ -8,7 +8,7 @@
 	</head>
 
 	<body
-		class="bg-[#e9eef1] sm:text-lg text-sm dark:bg-[#202124] dark:text-[#d9dde0]">
+		class="bg-[#e9eef1] sm:text-lg text-sm dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
 		<header>
 			<nav>
 				<ul class="navBar flex mb-5">
@@ -18,6 +18,18 @@
 						<a href="#" class="mx-1 cursor-not-allowed"
 							>Church Fathers (coming soon)</a
 						>
+					</li>
+					<li>
+						<img
+							class="sunEnabled cursor-pointer"
+							src="./images/brightness-high-fill.svg"
+							alt="BrightModeEnabled" />
+					</li>
+					<li>
+						<img
+							class="sunDisabled cursor-pointer"
+							src="./images/brightness-high.svg"
+							alt="BrightModeDisabled" />
 					</li>
 					<li class="grow text-right">
 						<a href="#" class="mx-1">Login or Sign Up</a>
@@ -72,9 +84,9 @@
 											id="fontType"
 											name="fontType"
 											class="dark:bg-[#202124]">
-											<option value="">Default</option>
+											<option value="">Font Default</option>
 											<option value="Times New Roman">Times New Roman</option>
-											<option value="Arial">Arial</option>
+											<option value="Courier New">Courier New</option>
 										</select>
 									</div>
 									<div class="grid">
@@ -107,6 +119,8 @@
 
 		<footer></footer>
 
+		<!-- Functions -->
+		<script src="darkModeToggle.js"></script>
 		<script src="bibleFunctions.js"></script>
 	</body>
 </html>
