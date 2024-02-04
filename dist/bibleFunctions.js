@@ -336,8 +336,8 @@ async function loadChapter(chapterIndex) {
 	vContainer.innerHTML = "";
 
 	for (const verse of verses) {
-		const verseNumber = document.createElement("sup");
 		const verseText = document.createElement("span");
+		const verseNumber = document.createElement("sup");
 
 		verseText.appendChild(verseNumber);
 		verseText.appendChild(document.createTextNode(verse.text));
@@ -353,26 +353,19 @@ async function loadChapter(chapterIndex) {
 		document.getElementById("verseBtn").onclick = () => {
 			vContainer.classList.toggle("grid");
 		};
+		// Red Lettering
+		document.getElementById("redLetterBtn").onclick = () => {
+			for (const verse of verses) {
+				const isRed = verse.isRed;
+				if (isRed === true) {
+					verseText.classList.add("text-red-600");
+					console.log("worked");
+					console.log(isRed);
+				}
+			}
+		};
 	}
 }
-
-// Red Lettering
-redLetterBtn.onclick = async () => {
-	async function redLettering(filename, chapterIndex, verseStart, verseEnd) {
-		const matthew = await fetchBook(filename);
-		for (let i = verseStart - 1; i < verseEnd; i++) {
-			const redLetters = matthew.chapters[chapterIndex - 1].verses[i];
-			const spanElem = vContainer.children[i];
-			if (spanElem) {
-				spanElem.classList.toggle("dark:text-red-400");
-				spanElem.classList.toggle("text-red-500");
-			}
-			console.log(redLetters);
-			// console.clear(redLetters);
-		}
-	}
-	redLettering("matthew.json", 5, 1, 48);
-};
 
 // Loads chapters of the selected book
 async function loadBook(filename) {

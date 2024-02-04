@@ -33,6 +33,7 @@
 					"text": "Behold, he cometh with clouds; and every eye shall see him, and they also which pierced him: and all kindreds of the earth shall wail because of him. Even so, Amen."
 				},
 				{
+					"isRed": true,
 					"verse": "8",
 					"text": "I am Alpha and Omega, the beginning and the ending, saith the Lord, which is, and which was, and which is to come, the Almighty."
 				},
@@ -45,6 +46,7 @@
 					"text": "I was in the Spirit on the Lord\u2019s day, and heard behind me a great voice, as of a trumpet,"
 				},
 				{
+					"isRed": true,
 					"verse": "11",
 					"text": "Saying, I am Alpha and Omega, the first and the last: and, What thou seest, write in a book, and send it unto the seven churches which are in Asia; unto Ephesus, and unto Smyrna, and unto Pergamos, and unto Thyatira, and unto Sardis, and unto Philadelphia, and unto Laodicea."
 				},
@@ -69,18 +71,22 @@
 					"text": "And he had in his right hand seven stars: and out of his mouth went a sharp twoedged sword: and his countenance was as the sun shineth in his strength."
 				},
 				{
+					"isRed": true,
 					"verse": "17",
 					"text": "And when I saw him, I fell at his feet as dead. And he laid his right hand upon me, saying unto me, Fear not; I am the first and the last:"
 				},
 				{
+					"isRed": true,
 					"verse": "18",
 					"text": "I am he that liveth, and was dead; and, behold, I am alive for evermore, Amen; and have the keys of hell and of death."
 				},
 				{
+					"isRed": true,
 					"verse": "19",
 					"text": "Write the things which thou hast seen, and the things which are, and the things which shall be hereafter;"
 				},
 				{
+					"isRed": true,
 					"verse": "20",
 					"text": "The mystery of the seven stars which thou sawest in my right hand, and the seven golden candlesticks. The seven stars are the angels of the seven churches: and the seven candlesticks which thou sawest are the seven churches."
 				}
@@ -90,115 +96,147 @@
 			"chapter": "2",
 			"verses": [
 				{
+					"isRed": true,
 					"verse": "1",
 					"text": "Unto the angel of the church of Ephesus write; These things saith he that holdeth the seven stars in his right hand, who walketh in the midst of the seven golden candlesticks;"
 				},
 				{
+					"isRed": true,
 					"verse": "2",
 					"text": "I know thy works, and thy labour, and thy patience, and how thou canst not bear them which are evil: and thou hast tried them which say they are apostles, and are not, and hast found them liars:"
 				},
 				{
+					"isRed": true,
 					"verse": "3",
 					"text": "And hast borne, and hast patience, and for my name\u2019s sake hast laboured, and hast not fainted."
 				},
 				{
+					"isRed": true,
 					"verse": "4",
 					"text": "Nevertheless I have somewhat against thee, because thou hast left thy first love."
 				},
 				{
+					"isRed": true,
 					"verse": "5",
 					"text": "Remember therefore from whence thou art fallen, and repent, and do the first works; or else I will come unto thee quickly, and will remove thy candlestick out of his place, except thou repent."
 				},
 				{
+					"isRed": true,
 					"verse": "6",
 					"text": "But this thou hast, that thou hatest the deeds of the Nicolaitanes, which I also hate."
 				},
 				{
+					"isRed": true,
 					"verse": "7",
 					"text": "He that hath an ear, let him hear what the Spirit saith unto the churches; To him that overcometh will I give to eat of the tree of life, which is in the midst of the paradise of God."
 				},
 				{
+					"isRed": true,
 					"verse": "8",
 					"text": "And unto the angel of the church in Smyrna write; These things saith the first and the last, which was dead, and is alive;"
 				},
 				{
+					"isRed": true,
 					"verse": "9",
 					"text": "I know thy works, and tribulation, and poverty, (but thou art rich) and I know the blasphemy of them which say they are Jews, and are not, but are the synagogue of Satan."
 				},
 				{
+					"isRed": true,
 					"verse": "10",
 					"text": "Fear none of those things which thou shalt suffer: behold, the devil shall cast some of you into prison, that ye may be tried; and ye shall have tribulation ten days: be thou faithful unto death, and I will give thee a crown of life."
 				},
 				{
+					"isRed": true,
 					"verse": "11",
 					"text": "He that hath an ear, let him hear what the Spirit saith unto the churches; He that overcometh shall not be hurt of the second death."
 				},
 				{
+					"isRed": true,
 					"verse": "12",
 					"text": "And to the angel of the church in Pergamos write; These things saith he which hath the sharp sword with two edges;"
 				},
 				{
+					"isRed": true,
 					"verse": "13",
 					"text": "I know thy works, and where thou dwellest, even where Satan\u2019s seat is: and thou holdest fast my name, and hast not denied my faith, even in those days wherein Antipas was my faithful martyr, who was slain among you, where Satan dwelleth."
 				},
 				{
+					"isRed": true,
 					"verse": "14",
 					"text": "But I have a few things against thee, because thou hast there them that hold the doctrine of Balaam, who taught Balac to cast a stumblingblock before the children of Israel, to eat things sacrificed unto idols, and to commit fornication."
 				},
 				{
+					"isRed": true,
 					"verse": "15",
 					"text": "So hast thou also them that hold the doctrine of the Nicolaitanes, which thing I hate."
 				},
 				{
+					"isRed": true,
 					"verse": "16",
 					"text": "Repent; or else I will come unto thee quickly, and will fight against them with the sword of my mouth."
 				},
 				{
+					"isRed": true,
 					"verse": "17",
 					"text": "He that hath an ear, let him hear what the Spirit saith unto the churches; To him that overcometh will I give to eat of the hidden manna, and will give him a white stone, and in the stone a new name written, which no man knoweth saving he that receiveth it."
 				},
 				{
+					"isRed": true,
 					"verse": "18",
 					"text": "And unto the angel of the church in Thyatira write; These things saith the Son of God, who hath his eyes like unto a flame of fire, and his feet are like fine brass;"
 				},
 				{
+					"isRed": true,
 					"verse": "19",
 					"text": "I know thy works, and charity, and service, and faith, and thy patience, and thy works; and the last to be more than the first."
 				},
 				{
+					"isRed": true,
 					"verse": "20",
 					"text": "Notwithstanding I have a few things against thee, because thou sufferest that woman Jezebel, which calleth herself a prophetess, to teach and to seduce my servants to commit fornication, and to eat things sacrificed unto idols."
 				},
 				{
+					"isRed": true,
 					"verse": "21",
 					"text": "And I gave her space to repent of her fornication; and she repented not."
 				},
 				{
+					"isRed": true,
 					"verse": "22",
 					"text": "Behold, I will cast her into a bed, and them that commit adultery with her into great tribulation, except they repent of their deeds."
 				},
 				{
+					"isRed": true,
 					"verse": "23",
 					"text": "And I will kill her children with death; and all the churches shall know that I am he which searcheth the reins and hearts: and I will give unto every one of you according to your works."
 				},
 				{
+					"isRed": true,
 					"verse": "24",
 					"text": "But unto you I say, and unto the rest in Thyatira, as many as have not this doctrine, and which have not known the depths of Satan, as they speak; I will put upon you none other burden."
 				},
 				{
+					"isRed": true,
 					"verse": "25",
 					"text": "But that which ye have already hold fast till I come."
 				},
 				{
+					"isRed": true,
 					"verse": "26",
 					"text": "And he that overcometh, and keepeth my works unto the end, to him will I give power over the nations:"
 				},
 				{
+					"isRed": true,
 					"verse": "27",
 					"text": "And he shall rule them with a rod of iron; as the vessels of a potter shall they be broken to shivers: even as I received of my Father."
 				},
-				{ "verse": "28", "text": "And I will give him the morning star." },
 				{
+					"isRed": true,
+					"verse": "28",
+					"text": "And I will give him the morning star."
+				},
+				{
+					"isRed": true,
 					"verse": "29",
 					"text": "He that hath an ear, let him hear what the Spirit saith unto the churches."
 				}
@@ -208,90 +246,112 @@
 			"chapter": "3",
 			"verses": [
 				{
+					"isRed": true,
 					"verse": "1",
 					"text": "And unto the angel of the church in Sardis write; These things saith he that hath the seven Spirits of God, and the seven stars; I know thy works, that thou hast a name that thou livest, and art dead."
 				},
 				{
+					"isRed": true,
 					"verse": "2",
 					"text": "Be watchful, and strengthen the things which remain, that are ready to die: for I have not found thy works perfect before God."
 				},
 				{
+					"isRed": true,
 					"verse": "3",
 					"text": "Remember therefore how thou hast received and heard, and hold fast, and repent. If therefore thou shalt not watch, I will come on thee as a thief, and thou shalt not know what hour I will come upon thee."
 				},
 				{
+					"isRed": true,
 					"verse": "4",
 					"text": "Thou hast a few names even in Sardis which have not defiled their garments; and they shall walk with me in white: for they are worthy."
 				},
 				{
+					"isRed": true,
 					"verse": "5",
 					"text": "He that overcometh, the same shall be clothed in white raiment; and I will not blot out his name out of the book of life, but I will confess his name before my Father, and before his angels."
 				},
 				{
+					"isRed": true,
 					"verse": "6",
 					"text": "He that hath an ear, let him hear what the Spirit saith unto the churches."
 				},
 				{
+					"isRed": true,
 					"verse": "7",
 					"text": "And to the angel of the church in Philadelphia write; These things saith he that is holy, he that is true, he that hath the key of David, he that openeth, and no man shutteth; and shutteth, and no man openeth;"
 				},
 				{
+					"isRed": true,
 					"verse": "8",
 					"text": "I know thy works: behold, I have set before thee an open door, and no man can shut it: for thou hast a little strength, and hast kept my word, and hast not denied my name."
 				},
 				{
+					"isRed": true,
 					"verse": "9",
 					"text": "Behold, I will make them of the synagogue of Satan, which say they are Jews, and are not, but do lie; behold, I will make them to come and worship before thy feet, and to know that I have loved thee."
 				},
 				{
+					"isRed": true,
 					"verse": "10",
 					"text": "Because thou hast kept the word of my patience, I also will keep thee from the hour of temptation, which shall come upon all the world, to try them that dwell upon the earth."
 				},
 				{
+					"isRed": true,
 					"verse": "11",
 					"text": "Behold, I come quickly: hold that fast which thou hast, that no man take thy crown."
 				},
 				{
+					"isRed": true,
 					"verse": "12",
 					"text": "Him that overcometh will I make a pillar in the temple of my God, and he shall go no more out: and I will write upon him the name of my God, and the name of the city of my God, which is new Jerusalem, which cometh down out of heaven from my God: and I will write upon him my new name."
 				},
 				{
+					"isRed": true,
 					"verse": "13",
 					"text": "He that hath an ear, let him hear what the Spirit saith unto the churches."
 				},
 				{
+					"isRed": true,
 					"verse": "14",
 					"text": "And unto the angel of the church of the Laodiceans write; These things saith the Amen, the faithful and true witness, the beginning of the creation of God;"
 				},
 				{
+					"isRed": true,
 					"verse": "15",
 					"text": "I know thy works, that thou art neither cold nor hot: I would thou wert cold or hot."
 				},
 				{
+					"isRed": true,
 					"verse": "16",
 					"text": "So then because thou art lukewarm, and neither cold nor hot, I will spue thee out of my mouth."
 				},
 				{
+					"isRed": true,
 					"verse": "17",
 					"text": "Because thou sayest, I am rich, and increased with goods, and have need of nothing; and knowest not that thou art wretched, and miserable, and poor, and blind, and naked:"
 				},
 				{
+					"isRed": true,
 					"verse": "18",
 					"text": "I counsel thee to buy of me gold tried in the fire, that thou mayest be rich; and white raiment, that thou mayest be clothed, and that the shame of thy nakedness do not appear; and anoint thine eyes with eyesalve, that thou mayest see."
 				},
 				{
+					"isRed": true,
 					"verse": "19",
 					"text": "As many as I love, I rebuke and chasten: be zealous therefore, and repent."
 				},
 				{
+					"isRed": true,
 					"verse": "20",
 					"text": "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, and will sup with him, and he with me."
 				},
 				{
+					"isRed": true,
 					"verse": "21",
 					"text": "To him that overcometh will I grant to sit with me in my throne, even as I also overcame, and am set down with my Father in his throne."
 				},
 				{
+					"isRed": true,
 					"verse": "22",
 					"text": "He that hath an ear, let him hear what the Spirit saith unto the churches."
 				}
@@ -1660,6 +1720,7 @@
 					"text": "And he said unto me, These sayings are faithful and true: and the Lord God of the holy prophets sent his angel to shew unto his servants the things which must shortly be done."
 				},
 				{
+					"isRed": true,
 					"verse": "7",
 					"text": "Behold, I come quickly: blessed is he that keepeth the sayings of the prophecy of this book."
 				},
@@ -1680,10 +1741,12 @@
 					"text": "He that is unjust, let him be unjust still: and he which is filthy, let him be filthy still: and he that is righteous, let him be righteous still: and he that is holy, let him be holy still."
 				},
 				{
+					"isRed": true,
 					"verse": "12",
 					"text": "And, behold, I come quickly; and my reward is with me, to give every man according as his work shall be."
 				},
 				{
+					"isRed": true,
 					"verse": "13",
 					"text": "I am Alpha and Omega, the beginning and the end, the first and the last."
 				},
@@ -1696,6 +1759,7 @@
 					"text": "For without are dogs, and sorcerers, and whoremongers, and murderers, and idolaters, and whosoever loveth and maketh a lie."
 				},
 				{
+					"isRed": true,
 					"verse": "16",
 					"text": "I Jesus have sent mine angel to testify unto you these things in the churches. I am the root and the offspring of David, and the bright and morning star."
 				},
@@ -1712,6 +1776,7 @@
 					"text": "And if any man shall take away from the words of the book of this prophecy, God shall take away his part out of the book of life, and out of the holy city, and from the things which are written in this book."
 				},
 				{
+					"isRed": true,
 					"verse": "20",
 					"text": "He which testifieth these things saith, Surely I come quickly. Amen. Even so, come, Lord Jesus."
 				},
