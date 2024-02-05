@@ -353,17 +353,22 @@ async function loadChapter(chapterIndex) {
 		document.getElementById("verseBtn").onclick = () => {
 			vContainer.classList.toggle("grid");
 		};
-		// Red Lettering
-		document.getElementById("redLetterBtn").onclick = () => {
-			for (const verse of verses) {
-				const isRed = verse.isRed;
-				if (isRed === true) {
-					verseText.classList.add("text-red-600");
-					console.log("worked");
-					console.log(isRed);
-				}
-			}
-		};
+
+		const isRed = verse.isRed;
+		if (isRed === true) {
+			verseText.classList.add("text-red-600");
+			console.log("worked");
+			console.log(isRed);
+		}
+		// // Red Lettering
+		// document.getElementById("redLetterBtn").onclick = () => {
+		// 	for (const verse of verses) {
+		// 		const isRed = verse.isRed;
+		// 		if (isRed === true) {
+
+		// 		}
+		// 	}
+		// };
 	}
 }
 
