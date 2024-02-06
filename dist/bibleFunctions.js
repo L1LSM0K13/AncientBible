@@ -341,11 +341,23 @@ async function loadChapter(chapterIndex) {
 
 		verseText.appendChild(verseNumber);
 		verseText.appendChild(document.createTextNode(verse.text));
-		verseText.classList.add("p-1");
-		verseText.classList.add("dark:hover:bg-[#202124]");
-		verseText.classList.add("hover:bg-gray-200");
+		verseText.classList.add(
+			"m-1",
+			"p-1",
+			"dark:hover:bg-[#202124]",
+			"hover:bg-[#f8f8da]",
+			"hover:border",
+			"border-[#c4c4ad]",
+			"dark:border-[#000000]",
+			"rounded-sm"
+		);
 
-		verseNumber.classList.add("pr-1");
+		verseNumber.classList.add(
+			"pr-1",
+			"font-semibold",
+			"text-gray-800",
+			"dark:text-[#d9dde0]"
+		);
 		verseNumber.innerText = verse.verse;
 
 		vContainer.appendChild(verseText);
@@ -354,21 +366,11 @@ async function loadChapter(chapterIndex) {
 			vContainer.classList.toggle("grid");
 		};
 
+		// Red lettering
 		const isRed = verse.isRed;
 		if (isRed === true) {
-			verseText.classList.add("text-red-600");
-			console.log("worked");
-			console.log(isRed);
+			verseText.classList.toggle("text-red-500", "dark:text-red-400");
 		}
-		// // Red Lettering
-		// document.getElementById("redLetterBtn").onclick = () => {
-		// 	for (const verse of verses) {
-		// 		const isRed = verse.isRed;
-		// 		if (isRed === true) {
-
-		// 		}
-		// 	}
-		// };
 	}
 }
 
