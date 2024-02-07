@@ -369,7 +369,7 @@ async function loadChapter(chapterIndex) {
 		// Red lettering
 		const isRed = verse.isRed;
 		if (isRed === true) {
-			verseText.classList.toggle("text-red-500", "dark:text-red-400");
+			verseText.classList.add("text-red-500", "dark:text-red-400");
 		}
 	}
 }
