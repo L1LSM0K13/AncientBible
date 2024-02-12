@@ -7,7 +7,7 @@ const vContainer = document.getElementById("verseContainer");
 const redLetterBtn = document.getElementById("redLetterBtn");
 const bTitle = document.getElementById("bookTitle");
 
-let currentBook = null;
+let currentBook;
 const books = [
 	{
 		filename: "Genesis.json",
@@ -416,16 +416,4 @@ bSelector.onchange = () => {
 };
 cSelector.onchange = () => {
 	loadChapter(cSelector.value);
-};
-
-// Font Size and Type
-const fontSizeElem = document.getElementById("fontSize");
-const fontTypeElem = document.getElementById("fontType");
-fontSizeElem.onchange = () => {
-	const selectedValue = fontSizeElem.value;
-	vContainer.style.fontSize = selectedValue;
-};
-fontTypeElem.onchange = () => {
-	const selectedValue = fontTypeElem.value;
-	vContainer.style.fontFamily = selectedValue;
 };
