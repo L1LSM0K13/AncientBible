@@ -42,19 +42,19 @@ const books = [
 		title: "Judges",
 	},
 	{
-		filename: "1Kingdoms.json",
+		filename: "1samuel.json",
 		title: "1 Kingdoms (1 Samuel)",
 	},
 	{
-		filename: "2Kingdoms.json",
+		filename: "2samuel.json",
 		title: "2 Kingdoms (2 Samuel)",
 	},
 	{
-		filename: "3Kingdoms.json",
+		filename: "1kings.json",
 		title: "3 Kingdoms (1 Kings)",
 	},
 	{
-		filename: "4Kingdoms.json",
+		filename: "2kings.json",
 		title: "4 Kingdoms (2 Kings)",
 	},
 	{
@@ -102,6 +102,10 @@ const books = [
 		title: "3 Maccabees",
 	},
 	{
+		filename: "4Maccabees.json",
+		title: "4 Maccabees",
+	},
+	{
 		filename: "Psalms.json",
 		title: "Psalms",
 	},
@@ -118,15 +122,15 @@ const books = [
 		title: "Ecclesiastes",
 	},
 	{
-		filename: "SongofSolomon.json",
-		title: "Song of Solomon",
+		filename: "songs.json",
+		title: "Songs of Solomon",
 	},
 	{
-		filename: "Wisdom of Solomon.json",
+		filename: "wisdom.json",
 		title: "Wisdom of Solomon",
 	},
 	{
-		filename: "Wisdom of Sirach.json",
+		filename: "sirach.json",
 		title: "Wisdom of Sirach",
 	},
 	{
@@ -190,7 +194,7 @@ const books = [
 		title: "Lamentations",
 	},
 	{
-		filename: "Epistle of Jeremiah.json",
+		filename: "epistle.json",
 		title: "Epistle of Jeremiah",
 	},
 	{
@@ -317,7 +321,7 @@ const books = [
 
 // Fetches book
 async function fetchBook(filename) {
-	const resp = await fetch(`/dist/books/${filename}`);
+	const resp = await fetch(`/dist/books_NEW_TRANSLATION/${filename}`);
 
 	if (resp.status !== 200) {
 		throw new Error("Failed to fetch book, got HTTP status " + resp.status);
