@@ -329,7 +329,7 @@ async function fetchBook(filename) {
 
 	return await resp.json();
 }
-loadBook("Genesis.json");
+loadBook("genesis.json");
 
 // Loads the verse container with the current chapter
 async function loadChapter(chapterIndex) {
