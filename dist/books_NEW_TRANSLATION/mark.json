@@ -75,7 +75,7 @@
 					"text": "After John was put in prison, Jesus went to Galilee, preaching the gospel of the kingdom of God"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 15,
 					"text": "and saying, “The time is fulfilled, and the kingdom of God has drawn near. Repent and believe in the gospel.”"
 				},
@@ -85,7 +85,7 @@
 					"text": "As Jesus was walking by the Sea of Galilee, he saw Simon and Andrew his brother (that is, Simon's brother) casting a net in the sea, for they were fishermen."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 17,
 					"text": "Jesus said to them, “Follow me, and I will make you become fishers of men.”"
 				},
@@ -125,7 +125,7 @@
 					"text": "“Leave us alone! What do you have to do with us, Jesus of Nazareth? Have you come to destroy us? I know who you are—the Holy One of God.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 25,
 					"text": "But Jesus rebuked him, saying, “Be silent, and come out of him!”"
 				},
@@ -190,7 +190,7 @@
 					"text": "and when they found him, they said to him, “Everyone is looking for you.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 38,
 					"text": "Jesus said to them, “Let us go into the neighboring towns so that I may preach there also, for that is why I have come.”"
 				},
@@ -205,7 +205,7 @@
 					"text": "Then a leper came up and knelt before him, begging him, “If you are willing, you can make me clean.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 41,
 					"text": "Moved with compassion, Jesus stretched out his hand, touched the man, and said to him, “I am willing; be made clean.”"
 				},
@@ -220,7 +220,7 @@
 					"text": "Then Jesus sternly warned him and immediately sent him away,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 44,
 					"text": "saying to him, “See that you say nothing to anyone, but go show yourself to the priest and offer for your cleansing what Moses commanded, as a testimony to them.”"
 				},
@@ -255,7 +255,7 @@
 					"text": "Since they were not able to come near Jesus because of the crowd, they uncovered the roof where he was. After digging through it, they let down the mat on which the paralytic was lying."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 5,
 					"text": "When Jesus saw their faith, he said to the paralytic, “Son, your sins are forgiven you.”"
 				},
@@ -270,22 +270,22 @@
 					"text": "“Why does this man speak such blasphemies? Who can forgive sins but God alone?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 8,
 					"text": "Immediately Jesus knew in his spirit that they were discussing these questions among themselves, so he said to them, “Why are you questioning these things in your hearts?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 9,
 					"text": "Which is easier, to say to the paralytic, ‘Your sins are forgiven,’ or to say, ‘Rise, take up your mat, and walk’?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 10,
 					"text": "But so that you may know that the Son of Man has authority on earth to forgive sins”—he said to the paralytic—"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 11,
 					"text": "“I say to you, rise, pick up your mat, and go to your house.”"
 				},
@@ -315,7 +315,7 @@
 					"text": "When the scribes and the Pharisees saw Jesus eating with tax collectors and sinners, they said to his disciples, “Why is he eating and drinking with tax collectors and sinners?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 17,
 					"text": "When Jesus heard this, he said to them, “It is not those who are healthy who have need of a physician, but those who are sick. I did not come to call the righteous, but sinners to repentance.”"
 				},
@@ -325,22 +325,22 @@
 					"text": "Now the disciples of John and the disciples of the Pharisees were fasting. So some people came and said to Jesus, “Why do the disciples of John and the disciples of the Pharisees fast, but your disciples do not fast?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 19,
 					"text": "Jesus said to them, “Can the bridegroom's attendants fast while the bridegroom is with them? As long as they have the bridegroom with them they cannot fast."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 20,
 					"text": "But the days are coming when the bridegroom will be taken away from them, and then they will fast in those days."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 21,
 					"text": "“No one sews a piece of unshrunk cloth on an old garment. Otherwise, the garment's new patch pulls away from the old cloth, and a worse tear is made."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 22,
 					"text": "And no one puts new wine into old wineskins. Otherwise, the new wine bursts the wineskins, and the wine is spilled, and the wineskins are destroyed. But new wine must be put into new wineskins.”"
 				},
@@ -355,12 +355,12 @@
 					"text": "So the Pharisees said to him, “Behold, why are they doing what is not lawful to do on the Sabbath?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 25,
 					"text": "He said to them, “Have you never read what David did when he had need and was hungry, he and those who were with him,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 26,
 					"text": "how he entered the house of God, in the time of Abiathar the high priest, and ate the bread of the Presence, which is not lawful for anyone to eat except for the priests, and how he also gave it to those who were with him?”"
 				},
@@ -390,12 +390,12 @@
 					"text": "Now the Pharisees were watching Jesus closely to see if he would heal the man on the Sabbath, so that they could accuse him."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 3,
 					"text": "And he said to the man with the withered hand, “Rise and come forward.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 4,
 					"text": "Then Jesus said to them, “Is it lawful on the Sabbath to do good or to do evil, to save life or to kill?” But they were silent."
 				},
@@ -490,37 +490,37 @@
 					"text": "But the scribes who had come down from Jerusalem said, “He has Beelzebul,” and, “By the ruler of demons he casts out demons.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 23,
 					"text": "So Jesus called them over and said to them in parables, “How can Satan cast out Satan?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 24,
 					"text": "If a kingdom is divided against itself, that kingdom cannot stand."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 25,
 					"text": "And if a house is divided against itself, that house cannot stand."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 26,
 					"text": "And if Satan has risen up against himself and is divided, he cannot stand, but has come to an end."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 27,
 					"text": "No one can enter the house of a strong man and plunder his goods unless he first binds the strong man. Then he can plunder his house."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 28,
 					"text": "“Truly I say to you, all sins will be forgiven the sons of men, and whatever blasphemies they utter."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 29,
 					"text": "But whoever blasphemes against the Holy Spirit never has forgiveness, but is subject to eternal judgment.”"
 				},
@@ -540,17 +540,17 @@
 					"text": "There was a crowd sitting around Jesus, and they said to him, “Behold, your mother, your brothers, and your sisters are outside looking for you.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 33,
 					"text": "But he answered them, “Who is my mother, or my brothers?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 34,
 					"text": "And looking around in a circle at the people sitting there, he said, “Behold, these are my mother and my brothers!"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 35,
 					"text": "For whoever does the will of God is my brother and my sister and mother.”"
 				}
@@ -570,37 +570,37 @@
 					"text": "Then he taught them many things in parables, and in his teaching he said to them,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 3,
 					"text": "“Listen! A sower went out to sow."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 4,
 					"text": "As he sowed, some seed fell along the path, and the birds came and devoured it."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 5,
 					"text": "Other seed fell on rocky ground, where it did not have much soil, and it sprang up immediately because it had no depth of soil."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 6,
 					"text": "But when the sun rose, it was scorched; and because it had no root, it withered away."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 7,
 					"text": "Other seed fell among the thorns, and the thorns grew up and choked it, and it produced no fruit."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 8,
 					"text": "But other seed fell into good soil and produced fruit that grew and increased; some bore thirty, some sixty, and some a hundred times more than what was sown.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 9,
 					"text": "Then he said, “He who has ears to hear, let him hear.”"
 				},
@@ -610,112 +610,112 @@
 					"text": "When he was alone, those who were around him, along with the twelve, asked him about the parable."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 11,
 					"text": "So he said to them, “To you it has been given to know the mystery of the kingdom of God, but to those who are outside everything is said in parables,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 12,
 					"text": "so that ‘they may see but not perceive, and hear but not understand, lest they should turn back and their sins be forgiven them.’ ”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 13,
 					"text": "Then he said to them, “Do you not understand this parable? How then will you understand all the other parables?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 14,
 					"text": "The sower sows the word."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 15,
 					"text": "Now some people are like the seed along the path, where the word is sown. When they hear, Satan immediately comes and takes away the word that is sown in their hearts."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 16,
 					"text": "Likewise, some people are like the seed sown on rocky ground. When they hear the word, they immediately receive it with joy."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 17,
 					"text": "Yet they have no root in themselves, but are only temporary. When tribulation or persecution arises on account of the word, they immediately fall away."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 18,
 					"text": "Others are like the seed sown among the thorns. They hear the word,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 19,
 					"text": "but the cares of this world, the deceitfulness of riches, and the desire for other things enter in and choke the word, and it becomes unfruitful."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 20,
 					"text": "But others are like the seed sown on the good soil. They hear the word, receive it, and bear fruit—some thirty, some sixty, and some a hundred times more than what was sown.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 21,
 					"text": "He also said to them, “Is a lamp brought in to be put under a basket, or under a bed? Is it not brought in to be set on a lampstand?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 22,
 					"text": "For there is nothing hidden that will not be made manifest, nor has anything been made secret, but that it may come to light."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 23,
 					"text": "If anyone has ears to hear, let him hear.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 24,
 					"text": "Then he said to them, “Consider what you hear. With the measure you use it will be measured to you, and more will be added to you who hear."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 25,
 					"text": "For whoever has will be given more, but whoever does not have, even what he has will be taken away from him.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 26,
 					"text": "He also said, “The kingdom of God is like a man who scatters seed on the ground."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 27,
 					"text": "He sleeps and rises night and day, and the seed sprouts and grows; he does not know how."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 28,
 					"text": "For the earth produces a crop by itself, first the stalk, then the head, then the full grain in the head."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 29,
 					"text": "When the crop is ready, the man immediately sends in the sickle, for the harvest has come.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 30,
 					"text": "Then Jesus said, “To what can we compare the kingdom of God? Or what parable can we use to describe it?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 31,
 					"text": "It is like a grain of mustard seed, which, when it is sown on the ground, is smaller than all the seeds on earth."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 32,
 					"text": "Yet when it is sown, it grows and becomes larger than all the garden plants and produces large branches, so that the birds of the sky can nest in its shade.”"
 				},
@@ -730,7 +730,7 @@
 					"text": "He did not speak to them without using a parable, but privately he explained everything to his disciples."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 35,
 					"text": "On that day, when evening came, Jesus said to his disciples, “Let us cross over to the other side of the sea.”"
 				},
@@ -805,12 +805,12 @@
 					"text": "Then he cried out with a loud voice and said, “What do you have to do with me, Jesus, Son of the Most High God? I adjure you by God, do not torment me.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 8,
 					"text": "For Jesus had said to him, “Come out of the man, you unclean spirit!”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 9,
 					"text": "Then Jesus asked him, “What is your name?” He answered, “My name is Legion, for we are many.”"
 				},
@@ -860,7 +860,7 @@
 					"text": "When Jesus got into the boat, the man who had been possessed by demons begged to go with him."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 19,
 					"text": "But Jesus did not permit him to do so. Instead, he said to him, “Go to your house and to your people, and report to them all that the Lord has done for you and how he has had mercy on you.”"
 				},
@@ -915,12 +915,12 @@
 					"text": "Immediately her flow of blood was dried up, and she knew in her body that she had been healed from her affliction."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 30,
 					"text": "Jesus immediately perceived in himself that power had gone out from him, so he turned around in the crowd and said, “Who touched my garments?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 31,
 					"text": "His disciples said to him, “You see the crowd pressing in on you, and yet you say, ‘Who touched me?’ ”"
 				},
@@ -935,7 +935,7 @@
 					"text": "Now the woman was frightened and trembling, knowing what had happened to her, so she came and fell down before him and told him the whole truth."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 34,
 					"text": "Then Jesus said to her, “Daughter, your faith has healed you. Go in peace, and be healed of your affliction.”"
 				},
@@ -945,7 +945,7 @@
 					"text": "While he was still speaking, some people came from the ruler of the synagogue's house and said, “Your daughter has died; why trouble the teacher any further?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 36,
 					"text": "But when Jesus heard what they said, he immediately said to the ruler of the synagogue, “Do not be afraid; only believe.”"
 				},
@@ -960,7 +960,7 @@
 					"text": "When he came to the ruler of the synagogue's house, he saw a commotion, people weeping and wailing loudly."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 39,
 					"text": "Then he went in and said to them, “Why are you making a commotion and weeping? The child is not dead but sleeping.”"
 				},
@@ -970,7 +970,7 @@
 					"text": "And they began laughing at him. But he put them all outside, took the child's father and mother and those who were with him, and went in to where the child was lying down."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 41,
 					"text": "Then he took hold of the child's hand and said to her, “Talitha koumi,” which means, “Little girl, I say to you, arise.”"
 				},
@@ -1005,7 +1005,7 @@
 					"text": "Is this not the carpenter, the son of Mary, and the brother of James, Joses, Judas, and Simon? Are not his sisters here with us?” And they took offense at him."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 4,
 					"text": "Then Jesus said to them, “A prophet is not without honor except in his hometown, among his relatives, and in his own household.”"
 				},
@@ -1035,12 +1035,12 @@
 					"text": "He told them to wear sandals but not an extra tunic."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 10,
 					"text": "He also said to them, “Whenever you enter a house, stay there until you leave that place."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 11,
 					"text": "If anyone will not receive you or listen to you, shake the dust off your feet as you leave that place, as a testimony against them. Truly I say to you, it will be more tolerable for Sodom and Gomorrah on the day of judgment than for that city.”"
 				},
@@ -1140,7 +1140,7 @@
 					"text": "Meanwhile, the apostles gathered around Jesus and told him about all they had done and taught."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 31,
 					"text": "Then he said to them, “Come away by yourselves to a desolate place and rest for a little while.” For many people were coming and going, and Jesus and his apostles did not even have an opportunity to eat."
 				},
@@ -1170,12 +1170,12 @@
 					"text": "Send the people away so that they may go into the surrounding countryside and villages and buy themselves bread, for they have nothing to eat.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 37,
 					"text": "But Jesus answered them, “You give them something to eat.” They said to him, “Are we to go and buy two hundred denarii worth of bread and give it to them to eat?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 38,
 					"text": "He said to them, “How many loaves do you have? Go and see.” When they found out, they said, “Five, and two fish.”"
 				},
@@ -1235,7 +1235,7 @@
 					"text": "But when they saw him walking on the sea, they thought it was a ghost and cried out."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 50,
 					"text": "For they all saw him and were terrified. But Jesus immediately said to them, “Take courage! It is I; do not be afraid.”"
 				},
@@ -1300,57 +1300,57 @@
 					"text": "Now the Pharisees and the scribes asked Jesus, “Why do your disciples not walk according to the tradition of the elders, but eat bread with unwashed hands?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 6,
 					"text": "He answered them, “Isaiah prophesied rightly about you hypocrites, as it is written, ‘This people honors me with their lips, but their heart is far from me."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 7,
 					"text": "They worship me in vain, teaching as doctrines the commandments of men.’"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 8,
 					"text": "For you have neglected the commandment of God and are holding to the tradition of men, such as various washings of pots and cups. And you do many other similar things such as these.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 9,
 					"text": "Then he said to them, “You have a fine way of setting aside the commandment of God so that you may keep your tradition!"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 10,
 					"text": "For Moses said, ‘Honor your father and your mother,’ and, ‘Whoever speaks evil of his father or mother must surely die.’"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 11,
 					"text": "But you teach that it is acceptable for a man to say to his father or mother, ‘Whatever benefit you might have received from me is Corban’ ” (that is, a gift to God)."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 12,
 					"text": "“In this way you no longer permit him to do anything for his father or his mother,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 13,
 					"text": "thus nullifying the word of God by your tradition that you have handed down. And you do many similar things such as these.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 14,
 					"text": "Then Jesus called over the entire crowd and said to them, “Listen to me, all of you, and understand:"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 15,
 					"text": "There is nothing outside of a person that can defile him by going into him, but the things that come out of a person are what defile him."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 16,
 					"text": "If anyone has ears to hear, let him hear.”"
 				},
@@ -1360,32 +1360,32 @@
 					"text": "After Jesus had left the crowd and gone into a house, his disciples asked him about the parable."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 18,
 					"text": "He said to them, “So are you also without understanding? Do you not understand that whatever goes into a person from the outside cannot defile him?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 19,
 					"text": "For it does not go into his heart but into his stomach; then it goes out into the latrine, thus purifying all foods.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 20,
 					"text": "He also said, “It is what comes out of a person that defiles a person."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 21,
 					"text": "For from within, from the hearts of men, come evil thoughts, adultery, fornication, murder,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 22,
 					"text": "theft, covetousness, wickedness, deceit, sensuality, envy, slander, pride, and foolishness."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 23,
 					"text": "All these evil things come from within and defile a person.”"
 				},
@@ -1405,7 +1405,7 @@
 					"text": "(This woman was a Greek, a Syrophoenician by birth.) She asked Jesus to cast the demon out of her daughter."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 27,
 					"text": "But Jesus said to her, “Let the children first be filled, for it is not good to take the children's bread and throw it to the dogs.”"
 				},
@@ -1415,7 +1415,7 @@
 					"text": "She answered him, “Yes, Lord, yet even the dogs under the table eat the children's crumbs.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 29,
 					"text": "Then he said to her, “Because of this reply, you may go; the demon has come out of your daughter.”"
 				},
@@ -1440,7 +1440,7 @@
 					"text": "So Jesus took him aside privately, away from the crowd. Then he put his fingers into the man's ears, spit, and touched the man's tongue."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 34,
 					"text": "And looking up to heaven, he sighed and said to him, “Ephphatha” (that is, “Be opened”)."
 				},
@@ -1470,12 +1470,12 @@
 					"text": "In those days, when there was a very large crowd that had nothing to eat, Jesus called his disciples over and said to them,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 2,
 					"text": "“I have compassion on the crowd because they have stayed with me now for three days and have nothing to eat."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 3,
 					"text": "If I send them away to their homes without having eaten, they will faint on the way, for some of them have come from far away.”"
 				},
@@ -1485,7 +1485,7 @@
 					"text": "His disciples answered him, “How can anyone feed these people with bread here in the wilderness?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 5,
 					"text": "He asked them, “How many loaves do you have?” They said, “Seven.”"
 				},
@@ -1520,7 +1520,7 @@
 					"text": "Then the Pharisees came and began to argue with Jesus, asking him for a sign from heaven, to test him."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 12,
 					"text": "Sighing deeply in his spirit, he said, “Why does this generation ask for a sign? Truly I say to you, no sign will be given to this generation.”"
 				},
@@ -1535,7 +1535,7 @@
 					"text": "Now the disciples had forgotten to bring bread, and they had nothing with them in the boat except for one loaf."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 15,
 					"text": "Then Jesus gave them strict orders, saying, “Watch out! Beware of the leaven of the Pharisees and the leaven of Herod.”"
 				},
@@ -1545,27 +1545,27 @@
 					"text": "So they discussed this with one another, saying, “He must have said this because we have no bread.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 17,
 					"text": "Aware of this, Jesus said to them, “Why are you discussing the fact that you have no bread? Do you not yet perceive or understand? Are your hearts still hardened?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 18,
 					"text": "Having eyes do you not see, and having ears do you not hear? Do you not remember?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 19,
 					"text": "When I broke the five loaves for the five thousand, how many baskets full of broken pieces did you pick up?” They said to him, “Twelve.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 20,
 					"text": "“And when I broke the seven loaves for the four thousand, how many baskets full of broken pieces did you pick up?” They said, “Seven.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 21,
 					"text": "Then he said to them, “How is it that you do not understand?”"
 				},
@@ -1590,12 +1590,12 @@
 					"text": "So Jesus put his hands on the man's eyes again and had him look up. Then the man's sight was restored, and he saw everyone clearly."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 26,
 					"text": "And Jesus sent him away to his house, saying, “Do not go into the village or tell anyone in the village what has happened.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 27,
 					"text": "Then Jesus went on to the villages of Caesarea Philippi along with his disciples. On the way he asked his disciples, “Who do people say that I am?”"
 				},
@@ -1605,7 +1605,7 @@
 					"text": "They answered, “Some say John the Baptist, others say Elijah, and others say that you are one of the prophets.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 29,
 					"text": "He said to them, “But who do you say that I am?” Peter answered him, “You are the Christ.”"
 				},
@@ -1625,32 +1625,32 @@
 					"text": "He was stating the matter plainly, so Peter took him aside and began to rebuke him."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 33,
 					"text": "But turning around and looking at his disciples, he rebuked Peter, saying, “Get behind me, Satan! For you are not thinking about the things of God, but the things of men.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 34,
 					"text": "Then he called the crowd over, along with his disciples, and said to them, “If anyone wants to follow me, he must deny himself, take up his cross, and follow me."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 35,
 					"text": "For whoever wants to save his life will lose it, but whoever loses his life for my sake and for the sake of the gospel will save it."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 36,
 					"text": "For what will it benefit a person if he gains the whole world but forfeits his soul?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 37,
 					"text": "Or what can a person give in exchange for his soul?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 38,
 					"text": "If anyone is ashamed of me and my words in this adulterous and sinful generation, the Son of Man will also be ashamed of him when he comes in the glory of his Father with the holy angels.”"
 				}
@@ -1660,7 +1660,7 @@
 			"chapter": 9,
 			"verses": [
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 1,
 					"text": "And he said to them, “Truly I say to you, there are some standing here who will certainly not taste death until they see the kingdom of God come with power.”"
 				},
@@ -1715,12 +1715,12 @@
 					"text": "Then they asked him, “Why do the scribes say that Elijah must come first?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 12,
 					"text": "He answered them, “Elijah does indeed come first to restore all things. How then is it written that the Son of Man must suffer many things and be treated with contempt?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 13,
 					"text": "But I tell you that Elijah has indeed come, and they did to him whatever they wished, just as it is written about him.”"
 				},
@@ -1735,7 +1735,7 @@
 					"text": "When the whole crowd saw him, they were greatly amazed and immediately ran up and greeted him."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 16,
 					"text": "Then he asked the scribes, “What are you arguing with them about?”"
 				},
@@ -1750,7 +1750,7 @@
 					"text": "Whenever it seizes him, it throws him down, and he foams at the mouth, grinds his teeth, and becomes rigid. I asked your disciples to cast it out, but they were not able to do so.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 19,
 					"text": "Jesus answered him, “O faithless generation, how long shall I be with you? How long shall I bear with you? Bring him to me.”"
 				},
@@ -1760,7 +1760,7 @@
 					"text": "So they brought the boy to him. When the spirit saw Jesus, it immediately threw the boy into convulsions, and he fell on the ground and rolled around, foaming at the mouth."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 21,
 					"text": "Then Jesus asked the boy's father, “How long has this been happening to him?” The father said, “From childhood."
 				},
@@ -1770,7 +1770,7 @@
 					"text": "It often throws him into the fire and into the water, to destroy him. But if you are able to do anything, help us and have compassion on us.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 23,
 					"text": "Jesus said to him, “The question is whether you are able to believe. All things are possible for the one who believes.”"
 				},
@@ -1780,7 +1780,7 @@
 					"text": "Immediately the child's father cried out and said with tears, “I believe, Lord; help my unbelief!”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 25,
 					"text": "When Jesus saw that a crowd came running together, he rebuked the unclean spirit and said to it, “You spirit that makes this boy mute and deaf, I command you, come out of him and never enter him again!”"
 				},
@@ -1800,7 +1800,7 @@
 					"text": "Now when Jesus came into the house, his disciples asked him privately, “Why could we not cast it out?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 29,
 					"text": "He said to them, “This kind cannot come out by anything except prayer and fasting.”"
 				},
@@ -1810,7 +1810,7 @@
 					"text": "Then they went away from there and passed through Galilee, but Jesus did not want anyone to know it."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 31,
 					"text": "For he was teaching his disciples and telling them, “The Son of Man is going to be delivered up into the hands of men, and they will kill him. Yet after he has been killed, he will rise on the third day.”"
 				},
@@ -1820,7 +1820,7 @@
 					"text": "But they did not understand what this meant, and they were afraid to ask him about it."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 33,
 					"text": "Then Jesus came to Capernaum, and when he was in the house, he asked the disciples, “What were you discussing among yourselves on the way?”"
 				},
@@ -1830,7 +1830,7 @@
 					"text": "But they were silent, because on the way they had been arguing with one another about who was greater."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 35,
 					"text": "So Jesus sat down, called the twelve over, and said to them, “If anyone wants to be first, he must be last of all and a servant to all.”"
 				},
@@ -1840,7 +1840,7 @@
 					"text": "Then he took a child and placed him before them. And taking the child in his arms, he said to them,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 37,
 					"text": "“Whoever receives one child such as this in my name receives me; and whoever receives me, receives not me, but him who sent me.”"
 				},
@@ -1850,62 +1850,62 @@
 					"text": "John said to him in response, “Teacher, we saw someone who does not follow us casting out demons in your name, and we told him to stop because he does not follow us.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 39,
 					"text": "But Jesus said, “Do not stop him, for no one who does a miracle in my name will be able to speak evil of me soon afterward."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 40,
 					"text": "For whoever is not against you is for you."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 41,
 					"text": "Truly I say to you, whoever gives you a cup of water to drink in my name, because you belong to Christ, will certainly not lose his reward."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 42,
 					"text": "“If anyone causes one of these little ones who believe in me to stumble, it would be better for him if a millstone were hung around his neck and he were thrown into the sea."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 43,
 					"text": "If your hand causes you to stumble, cut it off. It is better for you to enter life crippled than to have two hands and go into hell, into the unquenchable fire,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 44,
 					"text": "‘where their worm does not die and the fire is not quenched.’"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 45,
 					"text": "And if your foot causes you to stumble, cut it off. It is better for you to enter life lame than to have two feet and be thrown into hell, into the unquenchable fire,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 46,
 					"text": "‘where their worm does not die and the fire is not quenched.’"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 47,
 					"text": "And if your eye causes you to stumble, tear it out. It is better for you to enter the kingdom of God with one eye than to have two eyes and be thrown into the fires of hell,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 48,
 					"text": "‘where their worm does not die and the fire is not quenched.’"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 49,
 					"text": "For everyone will be salted with fire, and every sacrifice will be seasoned with salt."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 50,
 					"text": "Salt is good, but if it becomes unsalty, with what shall you season it? Have salt in yourselves, and be at peace with one another.”"
 				}
@@ -1925,7 +1925,7 @@
 					"text": "Then some Pharisees came up to Jesus and tested him by asking, “Is it lawful for a man to divorce his wife?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 3,
 					"text": "He answered them, “What did Moses command you?”"
 				},
@@ -1935,42 +1935,42 @@
 					"text": "They said, “Moses allowed a man to write a certificate of divorce and send her away.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 5,
 					"text": "But Jesus answered them, “Because of your hardness of heart he wrote you this commandment."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 6,
 					"text": "But from the beginning of creation, God ‘made them male and female.’"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 7,
 					"text": "‘For this reason a man will leave his father and mother and be joined to his wife,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 8,
 					"text": "and the two will become one flesh.’ So then, they are no longer two, but one flesh."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 9,
 					"text": "Therefore what God has joined together, let no man separate.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 10,
 					"text": "In the house Jesus' disciples asked him again about the same matter."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 11,
 					"text": "So he said to them, “Whoever divorces his wife and marries another commits adultery against her."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 12,
 					"text": "And if a woman divorces her husband and gets married to another, she commits adultery.”"
 				},
@@ -1980,12 +1980,12 @@
 					"text": "Now people were bringing children to Jesus so that he might touch them, but the disciples rebuked those who were bringing them."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 14,
 					"text": "When Jesus saw this, he was indignant and said to them, “Let the little children come to me; do not hinder them, for the kingdom of God belongs to such as these."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 15,
 					"text": "Truly I say to you, whoever does not receive the kingdom of God like a little child will certainly not enter it.”"
 				},
@@ -2000,12 +2000,12 @@
 					"text": "As he was setting out on the road, a man ran up, knelt before him, and asked him, “Good Teacher, what must I do to inherit eternal life?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 18,
 					"text": "Jesus said to him, “Why do you call me good? No one is good except God alone."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 19,
 					"text": "You know the commandments: ‘Do not commit adultery, Do not murder, Do not steal, Do not give false testimony, Do not defraud, Honor your father and mother.’ ”"
 				},
@@ -2015,7 +2015,7 @@
 					"text": "The man answered him, “Teacher, all these I have kept from my youth.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 21,
 					"text": "As Jesus looked at him, he felt love for the man and said to him, “One thing you lack: Go and sell all that you have and give to the poor, and you will have treasure in heaven; and take up your cross and come follow me.”"
 				},
@@ -2025,17 +2025,17 @@
 					"text": "But the man was dejected by what Jesus said and went away sorrowful, for he had many possessions."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 23,
 					"text": "Then Jesus looked around and said to his disciples, “How difficult it will be for those who have riches to enter the kingdom of God!”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 24,
 					"text": "The disciples were amazed at his words. But Jesus said to them again, “Children, how difficult it is for those who trust in riches to enter the kingdom of God!"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 25,
 					"text": "It is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God.”"
 				},
@@ -2045,7 +2045,7 @@
 					"text": "They were completely astonished at this and said to one another, “Who then can be saved?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 27,
 					"text": "Jesus looked at them and said, “With men it is impossible, but not with God. For all things are possible with God.”"
 				},
@@ -2055,17 +2055,17 @@
 					"text": "Peter began to say to him, “Behold, we have left everything and followed you.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 29,
 					"text": "Jesus answered, “Truly I say to you, there is no one who has left house, brothers, sisters, father, mother, wife, children, or fields, for my sake and for the sake of the gospel,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 30,
 					"text": "who will not receive now in this age a hundred times as many houses, brothers, sisters, mothers, children, and fields—along with persecutions—and in the age to come eternal life."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 31,
 					"text": "But many who are first will be last, and many who are last will be first.”"
 				},
@@ -2075,12 +2075,12 @@
 					"text": "Now they were on the road going up to Jerusalem. Jesus was walking ahead of them, and they were amazed. But as they followed they were afraid. Again he took the twelve aside and began to tell them what was going to happen to him:"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 33,
 					"text": "“Behold, we are going up to Jerusalem, and the Son of Man will be delivered up to the chief priests and scribes. They will condemn him to death and hand him over to the Gentiles."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 34,
 					"text": "They will mock him, flog him, spit on him, and kill him. But on the third day he will rise again.”"
 				},
@@ -2090,7 +2090,7 @@
 					"text": "Then James and John, the sons of Zebedee, came to him and said, “Teacher, we want you to do for us whatever we ask.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 36,
 					"text": "So he said to them, “What do you want me to do for you?”"
 				},
@@ -2100,17 +2100,17 @@
 					"text": "They said to him, “Grant to us that we may sit, one on your right and one on your left, in your glory.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 38,
 					"text": "But Jesus said to them, “You do not know what you are asking. Are you able to drink the cup that I drink, and to be baptized with the baptism that I am baptized with?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 39,
 					"text": "They said to him, “We are able.” Then Jesus said to them, “You will indeed drink the cup that I drink, and be baptized with the baptism that I am baptized with,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 40,
 					"text": "but to sit on my right and on my left is not mine to give, but it is for those for whom it has been prepared.”"
 				},
@@ -2120,22 +2120,22 @@
 					"text": "When the ten heard this, they began to be indignant with James and John."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 42,
 					"text": "So Jesus called them over and said to them, “You know that those who are recognized as rulers of the Gentiles lord it over them, and their great men exercise authority over them."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 43,
 					"text": "But it shall not be so among you. Instead, whoever wants to be great among you must be your servant,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 44,
 					"text": "and whoever wants to be first among you must be a slave to all."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 45,
 					"text": "For even the Son of Man came not to be served but to serve, and to give his life as a ransom for many.”"
 				},
@@ -2165,12 +2165,12 @@
 					"text": "Throwing off his cloak, he rose and came to Jesus."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 51,
 					"text": "Then Jesus said to him, “What do you want me to do for you?” The blind man said to him, “Rabboni, I want to receive my sight.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 52,
 					"text": "Jesus said to him, “Go; your faith has healed you.” Immediately he received his sight and began following Jesus on the road."
 				}
@@ -2185,12 +2185,12 @@
 					"text": "When they drew near to Jerusalem and came to Bethsphage and Bethany, at the Mount of Olives, Jesus sent two of his disciples ahead"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 2,
 					"text": "and said to them, “Go into the village ahead of you, and immediately as you enter it you will find a colt tied there, on which no one has sat. Untie it and bring it here."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 3,
 					"text": "If anyone says to you, ‘Why are you doing this?’ say, ‘The Lord has need of it.’ Then he will immediately send it here.”"
 				},
@@ -2245,7 +2245,7 @@
 					"text": "Seeing in the distance a fig tree that had leaves, he went to find out if it had any fruit. When he came to it, he found nothing but leaves, because it was not the season for figs."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 14,
 					"text": "In response Jesus said to the fig tree, “May no one ever eat fruit from you again.” And his disciples heard it."
 				},
@@ -2260,7 +2260,7 @@
 					"text": "and he would not allow anyone to carry anything through the temple courts."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 17,
 					"text": "Then he began to teach the people, saying, “Is it not written, ‘My house shall be called a house of prayer for all nations’? But you have made it a den of robbers.”"
 				},
@@ -2285,27 +2285,27 @@
 					"text": "Then Peter remembered what had happened and said to Jesus, “Rabbi, behold, the fig tree that you cursed has withered!”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 22,
 					"text": "In response Jesus said to them, “Have faith in God."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 23,
 					"text": "For truly I say to you, if anyone says to this mountain, ‘Be taken up and thrown into the sea,’ and does not doubt in his heart, but believes that what he says is going to happen, whatever he says will be granted to him."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 24,
 					"text": "Therefore I tell you, whatever you ask for in prayer, believe that you are receiving it, and it will be yours."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 25,
 					"text": "And whenever you stand praying, if you have anything against anyone, forgive him, so that your Father in heaven will also forgive you your trespasses."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 26,
 					"text": "But if you do not forgive, neither will your Father in heaven forgive your trespasses.”"
 				},
@@ -2320,12 +2320,12 @@
 					"text": "and said to him, “By what authority are you doing these things? And who gave you this authority to do them?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 29,
 					"text": "Jesus answered them, “I will also ask you one question; answer me, and I will tell you by what authority I am doing these things:"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 30,
 					"text": "Did John's authority to baptize come from heaven or from men? Answer me.”"
 				},
@@ -2340,7 +2340,7 @@
 					"text": "But shall we say, ‘From men’?”—they were afraid of the people, for everyone thought that John was truly a prophet."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 33,
 					"text": "So they answered Jesus, “We do not know.” In response Jesus said to them, “Neither will I tell you by what authority I am doing these things.”"
 				}
@@ -2350,57 +2350,57 @@
 			"chapter": 12,
 			"verses": [
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 1,
 					"text": "Then Jesus began to speak to them in parables: “A man planted a vineyard, put a fence around it, dug a pit for the winepress, built a tower, leased it to farmers, and left the country."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 2,
 					"text": "At harvest time he sent a servant to the farmers to receive from them some of the fruit of the vineyard."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 3,
 					"text": "But they took him, beat him, and sent him away empty-handed."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 4,
 					"text": "Again he sent to them another servant, and they threw stones at him, struck him on the head, and sent him away after dishonoring him."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 5,
 					"text": "Again he sent another, and that one they killed. He also sent many others, some of whom they beat, and some of whom they killed."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 6,
 					"text": "Now he still had his one beloved son. He sent him to them as well, last of all, saying, ‘They will have respect for my son.’"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 7,
 					"text": "But the farmers said to one another, ‘This is the heir. Come, let us kill him, and the inheritance will be ours.’"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 8,
 					"text": "So they took him, killed him, and threw him out of the vineyard."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 9,
 					"text": "What then will the owner of the vineyard do? He will come and destroy those farmers and give the vineyard to others."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 10,
 					"text": "Have you not read this Scripture: ‘The stone that the builders rejected has become the cornerstone;"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 11,
 					"text": "this was the Lord's doing, and it is amazing in our eyes’?”"
 				},
@@ -2420,17 +2420,17 @@
 					"text": "They came and said to him, “Teacher, we know that you are true and defer to no one, for you do not show partiality but teach the way of God in truth. Is it lawful to pay taxes to Caesar, or not?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 15,
 					"text": "Should we give, or should we not give?” But knowing their hypocrisy, Jesus said to them, “Why are you testing me? Bring me a denarius and let me look at it.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 16,
 					"text": "So they brought one. Then he said to them, “Whose image and inscription is this?” They said to him, “Caesar's.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 17,
 					"text": "In response Jesus said to them, “Render to Caesar the things that are Caesar's, and to God the things that are God's.” And they were amazed at him."
 				},
@@ -2465,22 +2465,22 @@
 					"text": "In the resurrection, when they rise again, which of them will she be the wife of? For the seven all had her as a wife.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 24,
 					"text": "Jesus answered them, “Is this not why you are in error, because you know neither the Scriptures nor the power of God?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 25,
 					"text": "For when people rise from the dead, they neither marry nor are they given in marriage. Instead, they are like the angels in heaven."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 26,
 					"text": "But as for the dead being raised, have you not read in the Book of Moses, in the passage about the burning bush, how God said to him, ‘I am the God of Abraham, the God of Isaac, and the God of Jacob’?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 27,
 					"text": "He is not the God of the dead, but the God of the living. You have therefore made a serious error.”"
 				},
@@ -2490,17 +2490,17 @@
 					"text": "Now one of the scribes came up and heard them debating, and when he realized that Jesus had answered them well, he asked him, “Which is the most important commandment of all?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 29,
 					"text": "Jesus answered him, “The most important of all the commandments is this: ‘Hear, O Israel: The Lord our God, the Lord is one."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 30,
 					"text": "And you shall love the Lord your God with all your heart, with all your soul, with all your mind, and with all your strength.’ This is the most important commandment."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 31,
 					"text": "And a second like it is this: ‘You shall love your neighbor as yourself.’ There is no other commandment greater than these.”"
 				},
@@ -2515,37 +2515,37 @@
 					"text": "and that to love him with all your heart, with all your understanding, with all your soul, and with all your strength, and to love your neighbor as yourself is greater than every whole burnt offering and sacrifice.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 34,
 					"text": "When Jesus saw that the man had answered wisely, he said to him, “You are not far from the kingdom of God.” And no one dared to ask him questions anymore."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 35,
 					"text": "As Jesus taught in the temple courts, he said, “How can the scribes say that the Christ is the Son of David?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 36,
 					"text": "For David himself said in the Holy Spirit, ‘The Lord said to my Lord, “Sit at my right hand until I make your enemies a footstool for your feet.” ’"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 37,
 					"text": "David himself calls him ‘Lord,’ so how is he his son?” And the large crowd was listening to him gladly."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 38,
 					"text": "Jesus also said to them in his teaching, “Beware of the scribes, who like to walk around in long robes, and to receive greetings in the marketplaces,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 39,
 					"text": "and to have the best seats in the synagogues and the places of honor at banquets,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 40,
 					"text": "who devour widows' houses and for a pretense make long prayers. They will receive a more severe judgment.”"
 				},
@@ -2560,12 +2560,12 @@
 					"text": "Then a poor widow came and put in two small copper coins, which are worth a penny."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 43,
 					"text": "So Jesus called his disciples over and said to them, “Truly I say to you, this poor widow has put more money into the treasury than all the others."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 44,
 					"text": "For they have all put in money out of their abundance, but she, out of her poverty, has put in all that she had, her entire livelihood.”"
 				}
@@ -2580,7 +2580,7 @@
 					"text": "As Jesus was coming out from the temple courts, one of his disciples said to him, “Teacher, look! What wonderful stones and what wonderful buildings!”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 2,
 					"text": "Jesus answered him, “Do you see these great buildings? There will certainly not be left one stone upon another that will not be thrown down.”"
 				},
@@ -2595,167 +2595,167 @@
 					"text": "“Tell us, when will these things happen? And what will be the sign when all these things are about to be fulfilled?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 5,
 					"text": "Jesus began to say to them in response, “See that no one leads you astray."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 6,
 					"text": "For many will come in my name, saying, ‘I am he,’ and will lead many astray."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 7,
 					"text": "When you hear of wars and rumors of wars, do not be alarmed, for these things must take place, but the end is not yet."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 8,
 					"text": "For nation will rise up against nation, and kingdom against kingdom. There will be earthquakes in various places, along with famines and riots. These are the beginning of the labor pains."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 9,
 					"text": "“You must watch out for yourselves, for they will deliver you up to councils, and you will be beaten in synagogues. For my sake you will even be set before governors and kings as witnesses to them."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 10,
 					"text": "And the gospel must first be proclaimed to all nations."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 11,
 					"text": "When they lead you away and hand you over, do not be anxious beforehand about what you should say. Do not give it much thought, but say whatever is given to you in that hour, for it will not be you speaking, but the Holy Spirit."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 12,
 					"text": "Brother will deliver up brother to death, and a father his child, and children will rise up against their parents and have them put to death."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 13,
 					"text": "You will be hated by all because of my name, but he who endures to the end will be saved."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 14,
 					"text": "“When you see the abomination of desolation, which was spoken of by Daniel the prophet, standing where it should not be” (let the reader understand), “then those who are in Judea must flee to the mountains."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 15,
 					"text": "He who is on the housetop must not come down into his house or go inside to get anything out of his house."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 16,
 					"text": "And he who is in the field must not turn back to get his cloak."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 17,
 					"text": "Woe to those who are with child and to those who are nursing infants in those days!"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 18,
 					"text": "Pray that your flight will not happen in winter."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 19,
 					"text": "For those days will be a time of tribulation unlike any other from the beginning of God's creation until now, and it will never be equaled again."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 20,
 					"text": "If the Lord had not cut those days short, no flesh would be saved. But for the sake of the chosen, whom he has selected, he has cut those days short."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 21,
 					"text": "If anyone says to you at that time, ‘Behold, here is the Christ!’ or, ‘Behold, there he is!’ do not believe him."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 22,
 					"text": "For false christs and false prophets will rise up and perform signs and wonders to lead astray, if possible, even the chosen."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 23,
 					"text": "So you must watch out! Behold, I have told you everything in advance."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 24,
 					"text": "“But in those days, after that time of tribulation, the sun will be darkened, and the moon will not give its light."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 25,
 					"text": "The stars of heaven will be falling, and the powers that are in the heavens will be shaken."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 26,
 					"text": "Then people will see the Son of Man coming in the clouds with great power and glory."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 27,
 					"text": "And he will send his angels and gather together his chosen from the four winds, from the ends of the earth to the ends of heaven."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 28,
 					"text": "“Now learn this lesson from the fig tree: As soon as its branches become tender and put out leaves, you know that summer is near."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 29,
 					"text": "So also, when you see these things taking place, know that he is near, at the very gates."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 30,
 					"text": "Truly I say to you, this generation will certainly not pass away until all these things have taken place."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 31,
 					"text": "Heaven and earth will pass away, but my words will certainly not pass away."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 32,
 					"text": "“No one knows about that day or hour, not even the angels in heaven or the Son, but only the Father."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 33,
 					"text": "Be on guard; stay alert and pray! For you do not know when the time is coming."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 34,
 					"text": "It is like a man away on a journey: When he leaves his house and gives authority to his servants, assigning to each one his task, he also commands the doorkeeper to keep watch."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 35,
 					"text": "Therefore keep watch, for you do not know when the master of the house is coming—in the evening, at midnight, when the rooster crows, or in the morning."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 36,
 					"text": "Otherwise, he may come suddenly and find you sleeping."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 37,
 					"text": "What I say to you, I say to everyone: Keep watch!”"
 				}
@@ -2790,22 +2790,22 @@
 					"text": "It could have been sold for more than three hundred denarii, and the money could have been given to the poor.” So they began scolding her."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 6,
 					"text": "But Jesus said, “Leave her alone. Why are you causing trouble for her? She has done a good deed to me."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 7,
 					"text": "For you always have the poor with you, and you can do good to them whenever you wish, but you do not always have me."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 8,
 					"text": "She has done what she could; she has anointed my body beforehand to prepare me for burial."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 9,
 					"text": "Truly I say to you, wherever this gospel is preached in the whole world, what this woman has done will also be spoken of as a memorial to her.”"
 				},
@@ -2825,17 +2825,17 @@
 					"text": "On the first day of the Feast of Unleavened Bread, when the Passover lamb is sacrificed, Jesus' disciples said to him, “Where do you want us to go and make preparations for you to eat the Passover?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 13,
 					"text": "So he sent two of his disciples and said to them, “Go into the city, and a man carrying a jug of water will meet you. Follow him."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 14,
 					"text": "Wherever he enters, tell the master of the house, ‘The Teacher asks, “Where is the guest room where I may eat the Passover with my disciples?” ’"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 15,
 					"text": "He will then show you a large upper room, furnished and prepared; make preparations for us there.”"
 				},
@@ -2850,7 +2850,7 @@
 					"text": "When it was evening, Jesus came with the twelve."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 18,
 					"text": "As they were reclining at the table and eating, Jesus said, “Truly I say to you, one of you who is eating with me will betray me.”"
 				},
@@ -2860,17 +2860,17 @@
 					"text": "So they began to be sorrowful and to say one after another, “Surely not I?” and, “Surely not I?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 20,
 					"text": "Jesus answered them, “It is one of the twelve, one who is dipping bread with me into the dish."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 21,
 					"text": "The Son of Man indeed goes just as it is written of him, but woe to that man by whom the Son of Man is betrayed. It would have been better for that man if he had not been born.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 22,
 					"text": "As they were eating, Jesus took bread, and when he had blessed it, he broke it, gave it to them, and said, “Take and eat this bread; this is my body.”"
 				},
@@ -2880,12 +2880,12 @@
 					"text": "Then he took the cup, and when he had given thanks, he gave it to them, and they all drank of it."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 24,
 					"text": "He said to them, “This is my blood of the new covenant, which is poured out for many."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 25,
 					"text": "Truly I say to you, I will certainly not drink again from the fruit of the vine until that day when I drink it anew in the kingdom of God.”"
 				},
@@ -2895,12 +2895,12 @@
 					"text": "And after singing a hymn, they went out to the Mount of Olives."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 27,
 					"text": "Then Jesus said to them, “All of you will fall away because of me this night. For it is written, ‘I will strike the shepherd, and the sheep will be scattered.’"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 28,
 					"text": "However, after I have been raised up, I will go ahead of you to Galilee.”"
 				},
@@ -2910,7 +2910,7 @@
 					"text": "But Peter said to him, “Even if everyone else falls away, I will not.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 30,
 					"text": "Jesus said to him, “Truly I say to you that today, on this night, before a rooster crows twice, you will deny me three times.”"
 				},
@@ -2920,7 +2920,7 @@
 					"text": "But Peter said all the more vehemently, “Even if I must die with you, I will certainly not deny you.” And they all said the same thing."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 32,
 					"text": "Then they went to a place called Gethsemane, and Jesus said to his disciples, “Sit here while I go and pray.”"
 				},
@@ -2930,7 +2930,7 @@
 					"text": "He took with him Peter, James, and John, and began to be greatly disturbed and distressed."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 34,
 					"text": "He said to them, “My soul is very sorrowful, even to the point of death; stay here and keep watch.”"
 				},
@@ -2940,17 +2940,17 @@
 					"text": "Going a little farther, he fell on the ground and prayed that, if it were possible, the hour might pass from him."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 36,
 					"text": "He said, “Abba, Father, all things are possible for you. Take this cup away from me; nevertheless, not what I will, but what you will.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 37,
 					"text": "Then he came and found them sleeping, and said to Peter, “Simon, are you sleeping? Could you not keep watch for one hour?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 38,
 					"text": "Keep watch and pray, lest you enter into temptation. The spirit indeed is willing, but the flesh is weak.”"
 				},
@@ -2965,12 +2965,12 @@
 					"text": "When he returned, he found them sleeping again, for their eyes were heavy, and they did not know what to say in response."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 41,
 					"text": "Then he came a third time and said to them, “Sleep on now and take your rest! It is enough; the hour has come. Behold, the Son of Man is delivered up into the hands of sinners."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 42,
 					"text": "Rise, let us go! Behold, my betrayer has drawn near.”"
 				},
@@ -3000,12 +3000,12 @@
 					"text": "But one of the bystanders drew his sword, struck the servant of the high priest, and cut off his ear."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 48,
 					"text": "Then Jesus said to them, “Have you come out to arrest me with swords and clubs as you would against a robber?"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 49,
 					"text": "I was with you daily, teaching in the temple courts, and you did not arrest me. But these things are happening so that the Scriptures may be fulfilled.”"
 				},
@@ -3070,7 +3070,7 @@
 					"text": "But he was silent and made no answer. Again the high priest asked him, “Are you the Christ, the Son of the Blessed One?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 62,
 					"text": "Jesus said, “I am. And you will see the Son of Man sitting at the right hand of Power and coming with the clouds of heaven.”"
 				},
@@ -3120,7 +3120,7 @@
 					"text": "But he began to invoke curses and to swear: “I do not know this man of whom you speak.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 72,
 					"text": "Then a rooster crowed a second time, and Peter remembered what Jesus had said to him: “Before a rooster crows twice, you will deny me three times.” And he broke down and wept."
 				}
@@ -3135,7 +3135,7 @@
 					"text": "As soon as it was morning, the chief priests took counsel with the elders, scribes, and the whole Sanhedrin. They bound Jesus, led him away, and handed him over to Pilate."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 2,
 					"text": "So Pilate asked him, “Are you the king of the Jews?” Jesus answered him, “You have said it yourself.”"
 				},
@@ -3295,7 +3295,7 @@
 					"text": "From the sixth hour until the ninth hour, there was darkness over the whole land."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 34,
 					"text": "And at the ninth hour Jesus cried out with a loud voice, “Eloi, Eloi, lima sabachthani?” which means, “My God, my God, why have you forsaken me?”"
 				},
@@ -3440,22 +3440,22 @@
 					"text": "Later Jesus appeared to the eleven as they were reclining at the table, and he rebuked them for their unbelief and hardness of heart, because they had not believed those who had seen him after he had risen."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 15,
 					"text": "He said to them, “Go into all the world and preach the gospel to all creation."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 16,
 					"text": "Whoever believes and is baptized will be saved, but whoever does not believe will be condemned."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 17,
 					"text": "And these signs will accompany those who believe: They will cast out demons in my name, they will speak in new tongues,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 18,
 					"text": "they will pick up serpents, and if they drink any deadly poison, it will certainly not harm them; they will lay hands on the sick, and they will get well.”"
 				},

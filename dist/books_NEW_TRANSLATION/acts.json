@@ -20,12 +20,12 @@
 					"text": "He presented himself alive to them, after his suffering, by many convincing proofs, appearing to them over the course of forty days and speaking about the kingdom of God."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 4,
 					"text": "While he was with them, he commanded them not to depart from Jerusalem, but to wait for the promise of the Father, “Which,” he said, “you heard about from me."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 5,
 					"text": "For John baptized with water, but you will be baptized with the Holy Spirit not many days from now.”"
 				},
@@ -35,12 +35,12 @@
 					"text": "So when they had come together, they asked him, “Lord, are you going to restore the kingdom to Israel at this time?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 7,
 					"text": "He said to them, “It is not for you to know the times or seasons that the Father has set by his own authority,"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 8,
 					"text": "but you will receive power when the Holy Spirit comes upon you, and you will be witnesses to me in Jerusalem, in all Judea and Samaria, and to the ends of the earth.”"
 				},
@@ -1520,17 +1520,17 @@
 					"text": "As he was going along, he drew near to Damascus, and suddenly a light from heaven flashed around him."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 4,
 					"text": "Falling to the ground, he heard a voice saying to him, “Saul, Saul, why are you persecuting me?”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 5,
 					"text": "Saul said, “Who are you, Lord?” The Lord said, “I am Jesus, whom you are persecuting."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 6,
 					"text": "But rise and enter the city, and you will be told what you must do.”"
 				},
@@ -1555,7 +1555,7 @@
 					"text": "Now there was a disciple in Damascus named Ananias. The Lord said to him in a vision, “Ananias.” He said, “Behold, here I am, Lord.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 11,
 					"text": "Then the Lord said to him, “Get up and go to the street called Straight, and at the house of Judas look for a man of Tarsus named Saul. For behold, he is praying,"
 				},
@@ -1575,12 +1575,12 @@
 					"text": "And here he has authority from the chief priests to arrest all who call upon your name.”"
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 15,
 					"text": "But the Lord said to him, “Go, for he is a vessel chosen by me to bring my name before Gentiles, kings, and the sons of Israel."
 				},
 				{
-					"isRed": false,
+					"isRed": true,
 					"verse": 16,
 					"text": "I will show him how much he must suffer for my name's sake.”"
 				},
