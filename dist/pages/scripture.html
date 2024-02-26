@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link
+			rel="shortcut icon"
+			type="x-icon"
+			href="/dist/images/miniorthodoxlogo.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bible</title>
+		<link rel="stylesheet" href="../output.css" />
+	</head>
+
+	<body
+		class="bg-[#e9eef1] sm:text-lg text-sm dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
+		<header>
+			<nav>
+				<ul class="navBar flex mb-5">
+					<li>
+						<a href="../../index.html">
+							<img
+								src="../images/miniorthodoxlogo.png"
+								alt="Orthodox logo text"
+								class="w-[50px]" />
+						</a>
+					</li>
+					<li>
+						<a href="../../index.html" class="mx-1">Home</a>
+					</li>
+					<li><a href="scripture.html" class="mx-1">Bible</a></li>
+					<li>
+						<a href="#" class="mx-1 cursor-not-allowed"
+							>Church Fathers (coming soon)</a
+						>
+					</li>
+					<li class="grow text-right">
+						<a href="#" class="mx-1">Login or Sign Up</a>
+					</li>
+					<li class="flex">
+						<img
+							class="sunEnabled cursor-pointer justify-center"
+							src="../images/brightness-high-fill.svg"
+							alt="BrightModeEnabled" />
+					</li>
+					<li class="flex">
+						<img
+							class="sunDisabled cursor-pointer justify-center"
+							src="../images/brightness-high.svg"
+							alt="BrightModeDisabled" />
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<article>
+				<div class="2xl:flex gap-5 nodeMargins">
+					<!-- Menu Block -->
+					<div class="2xl:shrink-0">
+						<!-- Jump to Book menu -->
+						<div id="selectMenu" class="mb-5 shadow-xl">
+							<h1 class="nodeTitleH1">Jump to book:</h1>
+
+							<!-- Book Selection -->
+							<div class="nodeInsideDiv overflow-hidden grid gap-1 grid-cols-2">
+								<select
+									id="selectBook"
+									name="selectBook"
+									class="p-1 rounded-sm dark:bg-[#202124]"></select>
+								<select
+									id="selectChapter"
+									name="selectChapter"
+									class="p-1 rounded-sm dark:bg-[#202124]"></select>
+							</div>
+						</div>
+
+						<!-- Format Menu -->
+						<div class="mb-5 shadow-xl">
+							<h1 class="nodeTitleH1">Formatting Options</h1>
+
+							<div class="nodeInsideDiv overflow-hidden">
+								<div
+									class="grid grid-rows-2 grid-cols-2 sm:gap-x-8 gap-x-1 gap-y-1">
+									<button
+										id="verseBtn"
+										class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 dark:hover:bg-[#0f0f0f] row-start-1 dark:bg-[#202124]">
+										Verse-by-Verse
+									</button>
+									<button
+										id="redLetterBtn"
+										class="bg-gray-200 px-1 rounded-sm text-red-600 hover:bg-red-600 hover:text-white col-start-2 active:bg-red-600 dark:bg-[#202124]">
+										Red Lettering (Coming Soon)
+									</button>
+
+									<!-- Font Selection -->
+									<div class="grid">
+										<select
+											id="fontType"
+											name="fontType"
+											class="dark:bg-[#202124]">
+											<option value="">Font Default</option>
+											<option value="Times New Roman">Times New Roman</option>
+											<option value="Courier New">Courier New</option>
+										</select>
+									</div>
+									<div class="grid">
+										<select
+											id="fontSize"
+											name="fontSize"
+											class="dark:bg-[#202124]">
+											<option value="18px">Font Small</option>
+											<option value="22px">Font Medium</option>
+											<option value="24px">Font Large</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Scripture Block -->
+					<div>
+						<div id="mainText">
+							<div class="mb-5 shadow-xl">
+								<h1 id="bookTitle" class="nodeTitleH1"></h1>
+								<div id="verseContainer" class="nodeInsideDiv px-5"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+		</main>
+
+		<footer></footer>
+
+		<!-- Functions -->
+		<script src="../../scripts/darkModeToggle.js"></script>
+		<script src="../../scripts/bibleFunctions.js"></script>
+		<script src="../../scripts/bibleFont.js"></script>
+	</body>
+</html>
