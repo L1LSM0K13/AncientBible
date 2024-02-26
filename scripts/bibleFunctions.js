@@ -10,35 +10,35 @@ const bTitle = document.getElementById("bookTitle");
 let currentBook;
 const books = [
 	{
-		filename: "Genesis.json",
+		filename: "genesis.json",
 		title: "Genesis",
 	},
 	{
-		filename: "Exodus.json",
+		filename: "exodus.json",
 		title: "Exodus",
 	},
 	{
-		filename: "Leviticus.json",
+		filename: "leviticus.json",
 		title: "Leviticus",
 	},
 	{
-		filename: "Numbers.json",
+		filename: "numbers.json",
 		title: "Numbers",
 	},
 	{
-		filename: "Deuteronomy.json",
+		filename: "deuteronomy.json",
 		title: "Deuteronomy",
 	},
 	{
-		filename: "Joshua.json",
+		filename: "joshua.json",
 		title: "Joshua",
 	},
 	{
-		filename: "Ruth.json",
+		filename: "ruth.json",
 		title: "Ruth",
 	},
 	{
-		filename: "Judges.json",
+		filename: "judges.json",
 		title: "Judges",
 	},
 	{
@@ -58,67 +58,67 @@ const books = [
 		title: "4 Kingdoms (2 Kings)",
 	},
 	{
-		filename: "1Chronicles.json",
+		filename: "1chronicles.json",
 		title: "1 Chronicles",
 	},
 	{
-		filename: "2Chronicles.json",
+		filename: "2chronicles.json",
 		title: "2 Chronicles",
 	},
 	{
-		filename: "1Ezra.json",
+		filename: "1ezra.json",
 		title: "1 Ezra (1 Esdras)",
 	},
 	{
-		filename: "2Ezra.json",
+		filename: "2ezra.json",
 		title: "2 Ezra (Ezra/2 Esdras)",
 	},
 	{
-		filename: "Nehemiah.json",
+		filename: "nehemiah.json",
 		title: "Nehemiah",
 	},
 	{
-		filename: "Tobit.json",
+		filename: "tobit.json",
 		title: "Tobit",
 	},
 	{
-		filename: "Judith.json",
+		filename: "judith.json",
 		title: "Judith",
 	},
 	{
-		filename: "Esther.json",
+		filename: "esther.json",
 		title: "Esther",
 	},
 	{
-		filename: "1Maccabees.json",
+		filename: "1maccabees.json",
 		title: "1 Maccabees",
 	},
 	{
-		filename: "2Maccabees.json",
+		filename: "2maccabees.json",
 		title: "2 Maccabees",
 	},
 	{
-		filename: "3Maccabees.json",
+		filename: "3maccabees.json",
 		title: "3 Maccabees",
 	},
 	{
-		filename: "4Maccabees.json",
+		filename: "4maccabees.json",
 		title: "4 Maccabees",
 	},
 	{
-		filename: "Psalms.json",
+		filename: "psalms.json",
 		title: "Psalms",
 	},
 	{
-		filename: "Job.json",
+		filename: "job.json",
 		title: "Job",
 	},
 	{
-		filename: "Proverbs.json",
+		filename: "proverbs.json",
 		title: "Proverbs",
 	},
 	{
-		filename: "Ecclesiastes.json",
+		filename: "ecclesiastes.json",
 		title: "Ecclesiastes",
 	},
 	{
@@ -134,63 +134,63 @@ const books = [
 		title: "Wisdom of Sirach",
 	},
 	{
-		filename: "Hosea.json",
+		filename: "hosea.json",
 		title: "Hosea",
 	},
 	{
-		filename: "Joel.json",
+		filename: "joel.json",
 		title: "Joel",
 	},
 	{
-		filename: "Amos.json",
+		filename: "amos.json",
 		title: "Amos",
 	},
 	{
-		filename: "Obadiah.json",
+		filename: "obadiah.json",
 		title: "Obadiah",
 	},
 	{
-		filename: "Jonah.json",
+		filename: "jonah.json",
 		title: "Jonah",
 	},
 	{
-		filename: "Micah.json",
+		filename: "micah.json",
 		title: "Micah",
 	},
 	{
-		filename: "Nahum.json",
+		filename: "nahum.json",
 		title: "Nahum",
 	},
 	{
-		filename: "Habakkuk.json",
+		filename: "habakkuk.json",
 		title: "Habakkuk",
 	},
 	{
-		filename: "Zephaniah.json",
+		filename: "zephaniah.json",
 		title: "Zephaniah",
 	},
 	{
-		filename: "Haggai.json",
+		filename: "haggai.json",
 		title: "Haggai",
 	},
 	{
-		filename: "Zechariah.json",
+		filename: "zechariah.json",
 		title: "Zechariah",
 	},
 	{
-		filename: "Malachi.json",
+		filename: "malachi.json",
 		title: "Malachi",
 	},
 	{
-		filename: "Isaiah.json",
+		filename: "isaiah.json",
 		title: "Isaiah",
 	},
 	{
-		filename: "Jeremiah.json",
+		filename: "jeremiah.json",
 		title: "Jeremiah",
 	},
 	{
-		filename: "Lamentations.json",
+		filename: "lamentations.json",
 		title: "Lamentations",
 	},
 	{
@@ -198,123 +198,123 @@ const books = [
 		title: "Epistle of Jeremiah",
 	},
 	{
-		filename: "Ezekiel.json",
+		filename: "ezekiel.json",
 		title: "Ezekiel",
 	},
 	{
-		filename: "Baruch.json",
+		filename: "baruch.json",
 		title: "Baruch",
 	},
 	{
-		filename: "Daniel.json",
+		filename: "daniel.json",
 		title: "Daniel",
 	},
 	{
-		filename: "Matthew.json",
+		filename: "matthew.json",
 		title: "Matthew",
 	},
 	{
-		filename: "Mark.json",
+		filename: "mark.json",
 		title: "Mark",
 	},
 	{
-		filename: "Luke.json",
+		filename: "luke.json",
 		title: "Luke",
 	},
 	{
-		filename: "John.json",
+		filename: "john.json",
 		title: "John",
 	},
 	{
-		filename: "Acts.json",
+		filename: "acts.json",
 		title: "Acts",
 	},
 	{
-		filename: "Romans.json",
+		filename: "romans.json",
 		title: "Romans",
 	},
 	{
-		filename: "1Corinthians.json",
+		filename: "1corinthians.json",
 		title: "1 Corinthians",
 	},
 	{
-		filename: "2Corinthians.json",
+		filename: "2corinthians.json",
 		title: "2 Corinthians",
 	},
 	{
-		filename: "Galatians.json",
+		filename: "galatians.json",
 		title: "Galatians",
 	},
 	{
-		filename: "Ephesians.json",
+		filename: "ephesians.json",
 		title: "Ephesians",
 	},
 	{
-		filename: "Philippians.json",
+		filename: "philippians.json",
 		title: "Philippians",
 	},
 	{
-		filename: "Colossians.json",
+		filename: "colossians.json",
 		title: "Colossians",
 	},
 	{
-		filename: "1Thessalonians.json",
+		filename: "1thessalonians.json",
 		title: "1 Thessalonians",
 	},
 	{
-		filename: "2Thessalonians.json",
+		filename: "2thessalonians.json",
 		title: "2 Thessalonians",
 	},
 	{
-		filename: "1Timothy.json",
+		filename: "1timothy.json",
 		title: "1 Timothy",
 	},
 	{
-		filename: "2Timothy.json",
+		filename: "2timothy.json",
 		title: "2 Timothy",
 	},
 	{
-		filename: "Titus.json",
+		filename: "titus.json",
 		title: "Titus",
 	},
 	{
-		filename: "Philemon.json",
+		filename: "philemon.json",
 		title: "Philemon",
 	},
 	{
-		filename: "Hebrews.json",
+		filename: "hebrews.json",
 		title: "Hebrews",
 	},
 	{
-		filename: "James.json",
+		filename: "james.json",
 		title: "James",
 	},
 	{
-		filename: "1Peter.json",
+		filename: "1peter.json",
 		title: "1 Peter",
 	},
 	{
-		filename: "2Peter.json",
+		filename: "2peter.json",
 		title: "2 Peter",
 	},
 	{
-		filename: "1John.json",
+		filename: "1john.json",
 		title: "1 John",
 	},
 	{
-		filename: "2John.json",
+		filename: "2john.json",
 		title: "2 John",
 	},
 	{
-		filename: "3John.json",
+		filename: "3john.json",
 		title: "3 John",
 	},
 	{
-		filename: "Jude.json",
+		filename: "jude.json",
 		title: "Jude",
 	},
 	{
-		filename: "Revelation.json",
+		filename: "revelation.json",
 		title: "Revelation",
 	},
 ];
