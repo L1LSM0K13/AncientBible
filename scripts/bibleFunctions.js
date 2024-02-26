@@ -321,7 +321,7 @@ const books = [
 
 // Fetches book
 async function fetchBook(filename) {
-	const resp = await fetch(`/dist/books_NEW_TRANSLATION/${filename}`);
+	const resp = await fetch(`/dist/books/${filename}`);
 
 	if (resp.status !== 200) {
 		throw new Error("Failed to fetch book, got HTTP status " + resp.status);
