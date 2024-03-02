@@ -337,7 +337,7 @@ async function loadChapter(chapterIndex) {
 	const verses = chapter.verses;
 
 	// Clears verse container for new chapter or book
-	vContainer.innerHTML = "";
+	vContainer.innerText = "";
 
 	for (const verse of verses) {
 		const verseText = document.createElement("span");
@@ -369,10 +369,8 @@ async function loadChapter(chapterIndex) {
 		document.getElementById("verseBtn").onclick = () => {
 			vContainer.classList.toggle("grid");
 		};
-
 		// Red lettering
-		const isRed = verse.isRed;
-		if (isRed === true) {
+		if (verse.isRed === true) {
 			verseText.classList.add("text-red-500", "dark:text-red-400");
 		}
 	}
@@ -381,6 +379,8 @@ async function loadChapter(chapterIndex) {
 // Loads chapters of the selected book
 async function loadBook(filename) {
 	currentBook = await fetchBook(filename);
+
+	localStorage.setItem("currentBook", filename);
 
 	bTitle.innerText = `Book of ${currentBook.book}`;
 
@@ -420,4 +420,14 @@ bSelector.onchange = () => {
 };
 cSelector.onchange = () => {
 	loadChapter(cSelector.value);
+};
+
+window.onload = () => {
+	const lastBook = localStorage.getItem("lastBook");
+	if (lastBook) {
+		loadBook(lastBook);
+		bSelector.value = lastBook;
+	} else {
+		loadBook("genesis.json");
+	}
 };
