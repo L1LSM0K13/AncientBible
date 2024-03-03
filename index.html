@@ -8,83 +8,29 @@
     <link rel="stylesheet" href="dist/output.css" />
   </head>
 
-  <body class="bg-[#e9eef1] text-lg dark:bg-[#202124] dark:text-[#d9dde0]">
-		<header class="bg-[#51688e]">
-      <div class="max-w-2xl mx-auto">
-        <nav class=" px-2 mb-10">
-          <div class="flex flex-wrap items-center justify-between">
-          <a href="index.html" class="flex">
-              <img class="hidden md:flex md:h-14 m-2" src="dist/images/orthodoxLogoJustText.png" alt="orthodox logo linear">
-              <img class="md:hidden w-20 m-2" src="dist/images/orthodoxcanonlogoNEW.png" alt="orthodox logo mini">
-          </a>
-          <div class="flex">
-              <div class="relative mr-3 md:mr-0 hidden md:block">
-                </div>
-              </div>
-              <button data-collapse-toggle="mobile-menu-3" type="button" class="md:hidden text-white hover:text-[#253247] focus:outline-none rounded-lg inline-flex items-center justify-center" aria-controls="mobile-menu-3" aria-expanded="false">
-              <span class="sr-only">Open main menu</span>
-              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-            </button>
-          </div>
+  <body class="bg-[#e9eef1] dark:bg-[#202124] dark:text-[#d9dde0]">
+		<header class="sticky top-0 text-md sm:text-lg mb-5">
+      <nav class="bg-[#51688e] p-2 flex">
+        <a href="index.html">
+          <img class="w-14" src="/dist/images/orthodoxcanonlogoNEW.png" alt="icon">
+        </a>
 
-          <div class="hidden md:flex" id="mobile-menu-3">
-            <ul class="flex-col md:flex-row flex md:space-x-4 mt-4 md:mt-0 md:text-lg">
-              <li>
-                <a href="#" class="md:bg-transparent hover:bg-[#3c4e6d] text-white block pl-3 pr-4 py-2 md:p-2 rounded" aria-current="page">Home</a>
-              </li>
-              <li>
-                <a href="#" class="md:bg-transparent hover:bg-[#3c4e6d] text-white block pl-3 pr-4 py-2 md:p-2 rounded" aria-current="page">Bible</a>
-              </li>
-              <li>
-                <a href="#" class="md:bg-transparent hover:bg-[#3c4e6d] text-white block pl-3 pr-4 py-2 md:p-2 rounded" aria-current="page">Church Fathers</a>
-              </li>
-              <li>
-                <a href="#" class="md:bg-transparent hover:bg-[#3c4e6d] text-white block pl-3 pr-4 py-2 md:p-2 rounded mb-2" aria-current="page">Log In or Sign Up</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        </div>
+        <ul class="flex items-center p-1 ">
+          <li><a class="text-white duration-150 hover:bg-[#2e3e58] p-2 mx-1 rounded-md" href="index.html">Home</a></li>
+          <li><a class="text-white duration-150 hover:bg-[#2e3e58] p-2 mx-1 rounded-md" href="/dist/pages/scripture.html">Bible</a></li>
+          <li><a class="text-white duration-150 hover:bg-[#2e3e58] p-2 mx-1 rounded-md" href="/dist/pages/fathers.html">Fathers</a></li>
+        </ul>
 
-			<!-- <nav>
-				<ul class="navBar flex mb-5">
-					<li>
-						<a href="index.html">
-							<img
-								src="dist/images/orthodoxcanonlogoNEW.png"
-								alt="Orthodox logo text"
-								class="w-[50px]" />
-						</a>
-					</li>
-					<li><a href="dist/pages/scripture.html" class="mx-1">Bible</a></li>
-					<li>
-						<a href="#" class="mx-1 cursor-not-allowed"
-							>Church Fathers (coming soon)</a
-						>
-					</li>
-					<li class="grow text-right">
-						<a href="#" class="mx-1">Login or Sign Up</a>
-					</li>
-					<li class="flex">
-						<img
-							class="sunEnabled cursor-pointer justify-center"
-							src="dist/images/brightness-high-fill.svg"
-							alt="BrightModeEnabled" />
-					</li>
-					<li class="flex">
-						<img
-							class="sunDisabled cursor-pointer justify-center"
-							src="dist/images/brightness-high.svg"
-							alt="BrightModeDisabled" />
-					</li>
-				</ul>
-			</nav> -->
+        <ul class="flex items-center p-1 grow justify-end">
+          <li class="text-white duration-150 hover:bg-[#2e3e58] py-1 px-2 mx-1 rounded-md">Login or Sign Up</li>
+        </ul>
+      </nav>
 		</header>
 
-    <main>
+    <main class="text-lg">
       <!-- Logo -->
       <div class="flex justify-center">
-      <img src="dist/images/orthodoxcanonlogo.png" alt="Orthodox Logo" class="w-1/2 sm:w-1/3">
+      <img src="dist/images/orthodoxcanonlogo.png" alt="Orthodox Logo" class="w-1/2 sm:w-1/3 md:1/2 lg:w-1/4">
       </div>
 
       <article>
@@ -119,7 +65,7 @@
                       <p>1 Maccabees</p>
                       <p>2 Maccabees</p>
                       <p>3 Maccabees</p>
-                      <p>4 Maccabees as an appendix</p>
+                      <p>4 Maccabees</p>
                       <p>Wisdom of Solomon</p>
                       <p>Wisdom of Sirach</p>
                       <p>Baruch</p>
@@ -145,7 +91,7 @@
       </article>
     </main>
 
-    <footer>
+    <footer class="text-lg">
       <!-- Updates Node -->
       <div class="flex justify-center">
         <div class="nodeMargins">
@@ -157,6 +103,12 @@
 
                 <li>+ Added a toggle to dark mode.</li>
                 <li>+ Added a small highlight when hovering over the verses.</li>
+
+                <br>
+                <li>Orthodox Canon.org (beta v1.1) 3/2/24</li>
+                <li>+ New translation (2012 Brenton Septuigant and Byzantine text for New Testament)</li>
+                <li class="text-red-600 dark:text-red-500">+ Red Lettering added</li>
+                <li>+ Improvements to hover highlights</li>
               </ul>
             </div>
           </div>
@@ -164,8 +116,6 @@
       </div>
     </footer>
 
-    <script src="scripts/dropdown.js"></script>
     <script src="scripts/darkModeToggle.js"></script>
-    <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
   </body>
 </html>
