@@ -370,11 +370,17 @@ async function loadChapter(chapterIndex) {
 			vContainer.classList.toggle("grid");
 		};
 		// Red lettering
-		if (verse.isRed === true) {
+		if (verse.isRed === true && isRed) {
 			verseText.classList.add("text-red-500", "dark:text-red-400");
 		}
 	}
 }
+// Red lettering CONTINUED
+let isRed = false;
+redLetterBtn.onclick = async () => {
+	isRed = !isRed;
+	await loadChapter(cSelector.value);
+};
 
 // Loads chapters of the selected book
 async function loadBook(filename) {
@@ -420,14 +426,4 @@ bSelector.onchange = () => {
 };
 cSelector.onchange = () => {
 	loadChapter(cSelector.value);
-};
-
-window.onload = () => {
-	const lastBook = localStorage.getItem("lastBook");
-	if (lastBook) {
-		loadBook(lastBook);
-		bSelector.value = lastBook;
-	} else {
-		loadBook("genesis.json");
-	}
 };
