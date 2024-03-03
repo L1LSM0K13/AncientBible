@@ -14,8 +14,9 @@
 	<body
 		class="bg-[#e9eef1] sm:text-lg text-sm dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
 		<header class="sticky top-0 text-md sm:text-lg mb-5">
-			<nav class="bg-[#51688e] p-2 flex">
-				<a href="index.html">
+			<nav
+				class="bg-[#51688e] dark:bg-[#303134] border border-[#355488] dark:border-[#474747] p-2 flex">
+				<a href="../../index.html">
 					<img
 						class="w-14"
 						src="/dist/images/orthodoxcanonlogoNEW.png"
@@ -25,21 +26,21 @@
 				<ul class="flex items-center p-1">
 					<li>
 						<a
-							class="text-white duration-150 hover:bg-[#2e3e58] p-2 mx-1 rounded-md"
+							class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] p-2 mx-1 rounded-md"
 							href="../../index.html"
 							>Home</a
 						>
 					</li>
 					<li>
 						<a
-							class="text-white duration-150 hover:bg-[#2e3e58] p-2 mx-1 rounded-md"
+							class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] p-2 mx-1 rounded-md"
 							href="scripture.html"
 							>Bible</a
 						>
 					</li>
 					<li>
 						<a
-							class="text-white duration-150 hover:bg-[#2e3e58] p-2 mx-1 rounded-md"
+							class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] p-2 mx-1 rounded-md"
 							href="fathers.html"
 							>Fathers</a
 						>
@@ -48,8 +49,20 @@
 
 				<ul class="flex items-center p-1 grow justify-end">
 					<li
-						class="text-white duration-150 hover:bg-[#2e3e58] py-1 px-2 mx-1 rounded-md">
+						class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] py-1 px-2 mx-1 rounded-md">
 						Login or Sign Up
+					</li>
+					<li>
+						<img
+							class="sunDisabled cursor-pointer justify-center"
+							src="../images/brightness-high.svg"
+							alt="BrightModeDisabled" />
+					</li>
+					<li>
+						<img
+							class="sunEnabled cursor-pointer justify-center hidden"
+							src="../images/brightness-high-fill.svg"
+							alt="BrightModeEnabled" />
 					</li>
 				</ul>
 			</nav>
