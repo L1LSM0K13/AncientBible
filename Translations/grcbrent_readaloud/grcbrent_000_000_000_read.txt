@@ -1,0 +1,4 @@
+﻿This set of files contains a script of canonical text, chapter by chapter,
+for the purpose of reading to make an audio recording.
+All footnotes, introductions, and verse numbers have been stripped out.
+
