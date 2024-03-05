@@ -663,12 +663,24 @@ video {
   }
 }
 
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+}
+
 .sticky {
   position: sticky;
 }
 
 .top-0 {
   top: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .col-span-1 {
@@ -695,6 +707,10 @@ video {
   margin: 0.25rem;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .mx-1 {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
@@ -706,6 +722,10 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-auto {
+  margin-top: auto;
 }
 
 .flex {
@@ -722,6 +742,14 @@ video {
 
 .hidden {
   display: none;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.min-h-full {
+  min-height: 100%;
 }
 
 .w-1\/2 {
@@ -748,6 +776,10 @@ video {
   grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .items-center {
   align-items: center;
 }
@@ -758,6 +790,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .gap-1 {
@@ -818,6 +854,11 @@ video {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -854,6 +895,10 @@ video {
   padding-right: 0.25rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -886,6 +931,16 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .shadow-xl {
@@ -952,6 +1007,16 @@ video {
   background-color: rgb(48 49 52 / var(--tw-bg-opacity));
 }
 
+:is(.dark .dark\:bg-gray-900) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-black) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 :is(.dark .dark\:text-\[\#d9dde0\]) {
   --tw-text-opacity: 1;
   color: rgb(217 221 224 / var(--tw-text-opacity));
@@ -965,6 +1030,11 @@ video {
 :is(.dark .dark\:text-red-500) {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-gray-900) {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:hover\:bg-\[\#0f0f0f\]:hover) {
