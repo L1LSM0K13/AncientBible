@@ -96,16 +96,25 @@
 
 							<div class="nodeInsideDiv overflow-hidden">
 								<div
-									class="grid grid-rows-2 grid-cols-2 sm:gap-x-8 gap-x-1 gap-y-1">
+									class="grid grid-rows-3 grid-cols-2 sm:gap-x-8 gap-x-1 gap-y-1">
 									<button
 										id="verseBtn"
-										class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 dark:hover:bg-[#0f0f0f] row-start-1 dark:bg-[#202124]">
+										class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 dark:hover:bg-[#0f0f0f] col-start-1 dark:bg-[#202124]">
 										Verse-by-Verse
 									</button>
 									<button
 										id="redLetterBtn"
-										class="bg-gray-200 px-1 rounded-sm text-red-600 hover:bg-red-600 hover:text-white col-start-2 active:bg-red-600 dark:bg-[#202124]">
+										class="bg-gray-200 px-1 rounded-sm text-red-600 hover:bg-red-600 dark:hover:bg-red-600 hover:text-white col-start-2 active:bg-red-600 dark:bg-[#202124]">
 										Red Lettering
+									</button>
+									<button
+										id="greekBtn"
+										class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 dark:hover:bg-[#0f0f0f] col-start-1 row-start-2 dark:bg-[#202124]">
+										Greek parallel
+									</button>
+									<button
+										class="bg-gray-200 px-1 rounded-sm hover:bg-[#f8f8da] hover:border border-[#c4c4ad] dark:border-[#000000] dark:hover:bg-[#0f0f0f] col-start-2 row-start-2 dark:bg-[#202124]">
+										Hover Highlight
 									</button>
 
 									<!-- Font Selection -->
@@ -139,7 +148,12 @@
 						<div id="mainText">
 							<div class="mb-5 shadow-xl">
 								<h1 id="bookTitle" class="nodeTitleH1"></h1>
-								<div id="verseContainer" class="nodeInsideDiv px-5"></div>
+								<div id="doubleContainer" class="grid-cols-2">
+									<div id="verseContainer" class="nodeInsideDiv px-5"></div>
+									<div
+										id="greekVerseContainer"
+										class="nodeInsideDiv px-5 hidden"></div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -153,5 +167,6 @@
 		<script src="../../scripts/darkModeToggle.js"></script>
 		<script src="../../scripts/bibleFunctions.js"></script>
 		<script src="../../scripts/bibleFont.js"></script>
+		<script src="../../scripts/greekToggle.js"></script>
 	</body>
 </html>

@@ -386,8 +386,6 @@ redLetterBtn.onclick = async () => {
 async function loadBook(filename) {
 	currentBook = await fetchBook(filename);
 
-	localStorage.setItem("currentBook", filename);
-
 	bTitle.innerText = `Book of ${currentBook.book}`;
 
 	// Clears existing chapters
