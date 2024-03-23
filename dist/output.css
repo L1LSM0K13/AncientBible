@@ -683,6 +683,10 @@ video {
   margin: 0.25rem;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-1 {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
@@ -840,6 +844,10 @@ video {
 
 .pr-1 {
   padding-right: 0.25rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-lg {
