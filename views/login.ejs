@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../dist/output.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h1 class="text-red-500">Login</h1>
+
+		<form action="/users/login" method="POST">
+			<div>
+				<input
+					type="email"
+					placeholder="Email"
+					id="email"
+					name="email"
+					required />
+			</div>
+			<div>
+				<input
+					type="password"
+					placeholder="Password"
+					id="password"
+					name="password"
+					required />
+			</div>
+			<div>
+				<input type="submit" value="Login" />
+			</div>
+			<p>Don't have an account?<a href="/users/register">Register here</a></p>
+		</form>
+	</body>
+</html>
