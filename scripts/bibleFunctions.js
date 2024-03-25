@@ -1,12 +1,13 @@
 "use strict";
 
-// Bible function declarations
+// Function declarations
 const bSelector = document.getElementById("selectBook");
 const cSelector = document.getElementById("selectChapter");
 const vContainer = document.getElementById("verseContainer");
 const redLetterBtn = document.getElementById("redLetterBtn");
 const bTitle = document.getElementById("bookTitle");
 
+//Stores book into an array
 let currentBook;
 const books = [
 	{
@@ -336,7 +337,7 @@ async function loadChapter(chapterIndex) {
 	const chapter = currentBook.chapters[chapterIndex];
 	const verses = chapter.verses;
 
-	// Clears verse container for new chapter or book
+	//* Clears verse container for new chapter or book
 	vContainer.innerText = "";
 
 	for (const verse of verses) {
@@ -369,18 +370,30 @@ async function loadChapter(chapterIndex) {
 		document.getElementById("verseBtn").onclick = () => {
 			vContainer.classList.toggle("grid");
 		};
-		// Red lettering
+		//* Red lettering
 		if (verse.isRed === true && isRed) {
 			verseText.classList.add("text-red-500", "dark:text-red-400");
 		}
 	}
 }
-// Red lettering CONTINUED
-let isRed = false;
+/**
+ * *Declares red lettering as true by default
+ * *Saves the state of the red lettering
+ */
+let isRed = true;
 redLetterBtn.onclick = async () => {
 	isRed = !isRed;
 	await loadChapter(cSelector.value);
+
+	localStorage.setItem("isRed", JSON.stringify(isRed));
 };
+
+async function isRedOnLoad() {
+	const savedRedLettering = JSON.parse(localStorage.getItem("isRed"));
+
+	isRed = savedRedLettering;
+}
+isRedOnLoad();
 
 // Loads chapters of the selected book
 async function loadBook(filename) {
