@@ -6,6 +6,7 @@ const cSelector = document.getElementById("selectChapter");
 const vContainer = document.getElementById("verseContainer");
 const redLetterBtn = document.getElementById("redLetterBtn");
 const bTitle = document.getElementById("bookTitle");
+const verseBtn = document.getElementById("verseBtn");
 
 //Stores book into an array
 let currentBook;
@@ -332,18 +333,22 @@ async function fetchBook(filename) {
 }
 loadBook("genesis.json");
 
+// Declares verse-by-verse option
+let verseByVerse = false;
+
 // Loads the verse container with the current chapter
 async function loadChapter(chapterIndex) {
 	const chapter = currentBook.chapters[chapterIndex];
 	const verses = chapter.verses;
 
-	//* Clears verse container for new chapter or book
+	// Clears verse container for new chapter or book
 	vContainer.innerText = "";
 
 	for (const verse of verses) {
 		const verseText = document.createElement("span");
 		const verseNumber = document.createElement("sup");
 
+		// Verse text classes
 		verseText.appendChild(verseNumber);
 		verseText.appendChild(document.createTextNode(verse.text));
 		verseText.classList.add(
@@ -356,7 +361,7 @@ async function loadChapter(chapterIndex) {
 			"dark:border-[#000000]",
 			"rounded-sm"
 		);
-
+		// Verse number classes
 		verseNumber.classList.add(
 			"pr-1",
 			"font-semibold",
@@ -364,21 +369,36 @@ async function loadChapter(chapterIndex) {
 			"dark:text-[#d9dde0]"
 		);
 		verseNumber.innerText = verse.verse;
-
 		vContainer.appendChild(verseText);
 
-		document.getElementById("verseBtn").onclick = () => {
-			vContainer.classList.toggle("grid");
+		// Toggles verse-by-verse
+		verseBtn.onclick = () => {
+			verseByVerse = !verseByVerse;
+			vContainer.classList.toggle("grid", verseByVerse);
+
+			localStorage.setItem("verseGrid", JSON.stringify(verseByVerse));
 		};
-		//* Red lettering
+
+		// Red lettering
 		if (verse.isRed === true && isRed) {
 			verseText.classList.add("text-red-500", "dark:text-red-400");
 		}
 	}
 }
+
+// Call verse by verse
+function loadSavedVerseByVerse() {
+	const savedVerseByVerse = JSON.parse(localStorage.getItem("verseGrid"));
+	if (savedVerseByVerse !== null) {
+		verseByVerse = savedVerseByVerse;
+		vContainer.classList.toggle("grid", verseByVerse);
+	}
+}
+loadSavedVerseByVerse();
+
 /**
- * *Declares red lettering as true by default
- * *Saves the state of the red lettering
+ * Declares red lettering as true by default
+ * Saves the state of the red lettering
  */
 let isRed = true;
 redLetterBtn.onclick = async () => {
@@ -388,18 +408,21 @@ redLetterBtn.onclick = async () => {
 	localStorage.setItem("isRed", JSON.stringify(isRed));
 };
 
-async function isRedOnLoad() {
+// Stores red lettering option
+async function loadSavedRedLettering() {
 	const savedRedLettering = JSON.parse(localStorage.getItem("isRed"));
 
 	isRed = savedRedLettering;
 }
-isRedOnLoad();
+loadSavedRedLettering();
 
 // Loads chapters of the selected book
 async function loadBook(filename) {
 	currentBook = await fetchBook(filename);
 
-	localStorage.setItem("currentBook", filename);
+	// Store Book info
+	localStorage.setItem("currentBook", JSON.stringify(currentBook));
+	localStorage.setItem("bTitle", JSON.stringify(currentBook.book));
 
 	bTitle.innerText = `Book of ${currentBook.book}`;
 
