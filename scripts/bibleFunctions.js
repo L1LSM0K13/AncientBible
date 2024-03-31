@@ -1,13 +1,14 @@
 "use strict";
 
-// Bible function declarations
+// Function declarations
 const bSelector = document.getElementById("selectBook");
 const cSelector = document.getElementById("selectChapter");
 const vContainer = document.getElementById("verseContainer");
 const redLetterBtn = document.getElementById("redLetterBtn");
 const bTitle = document.getElementById("bookTitle");
+const verseBtn = document.getElementById("verseBtn");
 
-let currentBook;
+//Stores book into an array
 const books = [
 	{
 		filename: "genesis.json",
@@ -329,7 +330,12 @@ async function fetchBook(filename) {
 
 	return await resp.json();
 }
-loadBook("genesis.json");
+
+// Declares a current book
+let currentBook = null;
+
+// Declares verse-by-verse option
+let verseByVerse = false;
 
 // Loads the verse container with the current chapter
 async function loadChapter(chapterIndex) {
@@ -343,6 +349,7 @@ async function loadChapter(chapterIndex) {
 		const verseText = document.createElement("span");
 		const verseNumber = document.createElement("sup");
 
+		// Verse text classes
 		verseText.appendChild(verseNumber);
 		verseText.appendChild(document.createTextNode(verse.text));
 		verseText.classList.add(
@@ -355,7 +362,7 @@ async function loadChapter(chapterIndex) {
 			"dark:border-[#000000]",
 			"rounded-sm"
 		);
-
+		// Verse number classes
 		verseNumber.classList.add(
 			"pr-1",
 			"font-semibold",
@@ -363,30 +370,57 @@ async function loadChapter(chapterIndex) {
 			"dark:text-[#d9dde0]"
 		);
 		verseNumber.innerText = verse.verse;
-
 		vContainer.appendChild(verseText);
 
-		document.getElementById("verseBtn").onclick = () => {
-			vContainer.classList.toggle("grid");
+		// Toggles verse-by-verse
+		verseBtn.onclick = () => {
+			verseByVerse = !verseByVerse;
+			vContainer.classList.toggle("grid", verseByVerse);
+
+			localStorage.setItem("verseGrid", JSON.stringify(verseByVerse));
 		};
+
 		// Red lettering
 		if (verse.isRed === true && isRed) {
 			verseText.classList.add("text-red-500", "dark:text-red-400");
 		}
 	}
+	localStorage.setItem("chapterIndex", JSON.stringify(cSelector.value));
 }
-// Red lettering CONTINUED
-let isRed = false;
+
+// Call verse by verse
+function loadSavedVerseByVerse() {
+	const savedVerseByVerse = JSON.parse(localStorage.getItem("verseGrid"));
+	if (savedVerseByVerse !== null) {
+		verseByVerse = savedVerseByVerse;
+		vContainer.classList.toggle("grid", verseByVerse);
+	}
+}
+loadSavedVerseByVerse();
+
+/**
+ * Declares red lettering as true by default
+ * Saves the state of the red lettering
+ */
+let isRed = true;
 redLetterBtn.onclick = async () => {
 	isRed = !isRed;
 	await loadChapter(cSelector.value);
+
+	localStorage.setItem("isRed", JSON.stringify(isRed));
 };
+
+// Stores red lettering option
+function loadSavedRedLettering() {
+	const savedRedLettering = JSON.parse(localStorage.getItem("isRed"));
+
+	isRed = savedRedLettering;
+}
+loadSavedRedLettering();
 
 // Loads chapters of the selected book
 async function loadBook(filename) {
 	currentBook = await fetchBook(filename);
-
-	localStorage.setItem("currentBook", filename);
 
 	bTitle.innerText = `Book of ${currentBook.book}`;
 
@@ -402,19 +436,40 @@ async function loadBook(filename) {
 
 		cSelector.appendChild(chapterOption);
 	}
-	loadChapter(0);
+
+	const storedChapter = JSON.parse(localStorage.getItem("chapterIndex"));
+	if (storedChapter === null) {
+		loadChapter(0);
+	} else {
+		loadChapter(storedChapter);
+	}
 }
 
 // Populates book titles
-for (let i = 0; i < books.length; i++) {
-	const bookTitles = books[i];
-	const bookOptions = document.createElement("option");
+function loadBookTitles() {
+	for (let i = 0; i < books.length; i++) {
+		const bookTitles = books[i];
+		const bookOptions = document.createElement("option");
 
-	bookOptions.innerText = bookTitles.title;
-	bookOptions.value = bookTitles.filename;
+		bookOptions.innerText = bookTitles.title;
+		bookOptions.value = bookTitles.filename;
 
-	bSelector.appendChild(bookOptions);
+		bSelector.appendChild(bookOptions);
+	}
 }
+loadBookTitles();
+
+function loadStoredBook() {
+	const storedBook = JSON.parse(localStorage.getItem("bookIndex"));
+	currentBook = storedBook;
+
+	if (storedBook !== null) {
+		loadBook(storedBook);
+	} else {
+		loadBook("john.json");
+	}
+}
+loadStoredBook();
 
 // Refreshes verse container and chapter list
 bSelector.onchange = () => {
@@ -423,6 +478,7 @@ bSelector.onchange = () => {
 	cSelector.innerText = "";
 	vContainer.innertext = "";
 	loadBook(filename);
+	localStorage.setItem("bookIndex", JSON.stringify(bSelector.value));
 };
 cSelector.onchange = () => {
 	loadChapter(cSelector.value);
