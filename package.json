@@ -1,17 +1,24 @@
 {
 	"dependencies": {
 		"bcrypt": "^5.1.1",
+		"dotenv": "^16.4.5",
+		"ejs": "^3.1.9",
 		"express": "^4.18.2",
+		"express-flash": "^0.0.2",
+		"express-session": "^1.18.0",
 		"nodemon": "^3.0.3",
+		"passport": "^0.7.0",
+		"passport-local": "^1.0.0",
+		"pg": "^8.11.5",
 		"tailwindcss": "^3.4.1"
 	},
 	"name": "orthodoxbible-dot-net",
 	"description": "---\r This bible website also serves as a hub for the early church fathers.\r This website contains all of the 66 protocanonical books of the Bible and 10 deuterocanonical books from the orthodox canon. For those who don't know the Orthodox canon, these are the books that are in the canon:",
 	"version": "1.0.0",
 	"main": "tailwind.config.js",
-	"devDependencies": {},
 	"scripts": {
-		"dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+		"dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+		"nodemon": "nodemon ./server/server.js"
 	},
 	"keywords": [],
 	"author": "",
