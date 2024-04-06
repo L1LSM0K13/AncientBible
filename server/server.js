@@ -1,12 +1,14 @@
 const express = require("express");
-const app = express();
 const { pool } = require("../config/dbConfig");
-const PORT = process.env.PORT || 4000;
 const bcrypt = require("bcrypt");
 const session = require("express-session");
 const flash = require("express-flash");
 const passport = require("passport");
 const initializePassport = require("../config/passportConfig");
+
+const PORT = process.env.PORT || 4000;
+
+const app = express();
 require("dotenv").config();
 
 initializePassport(passport);
