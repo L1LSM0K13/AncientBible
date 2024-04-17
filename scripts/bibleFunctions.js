@@ -11,6 +11,10 @@ const verseBtn = document.getElementById("verseBtn");
 //Stores book into an array
 const books = [
 	{
+		filename: "epistleToPolycarp.json",
+		title: "DUMMY BOOK",
+	},
+	{
 		filename: "genesis.json",
 		title: "Genesis",
 	},
