@@ -5,7 +5,6 @@ const session = require("express-session");
 const flash = require("express-flash");
 const passport = require("passport");
 const initializePassport = require("../config/passportConfig");
-import { cfg } from "../config/sessionSecretConfig.js";
 
 const PORT = process.env.PORT || 4000;
 
@@ -22,7 +21,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(
 	session({
-		secret: cfg.securedKey,
+		secret: process.env.SESSION_SECRET,
 		resave: false,
 		saveUninitialized: false,
 	})
