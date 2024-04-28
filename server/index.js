@@ -143,5 +143,5 @@ function checkNotAuthenticated(req, res, next) {
 }
 
 app.listen(PORT, () => {
-	console.log(`Listening on port: ${PORT}`);
+	console.log(`Listening on: localhost:${PORT}`);
 });

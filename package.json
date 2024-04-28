@@ -18,7 +18,7 @@
 	"main": "tailwind.config.js",
 	"scripts": {
 		"dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-		"nodemon": "nodemon ./server/server.js"
+		"nodemon": "nodemon ./server/index.js"
 	},
 	"keywords": [],
 	"author": "",
