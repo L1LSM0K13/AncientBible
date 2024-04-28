@@ -21,7 +21,6 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(
 	session({
-		// secret: "WRHdRP6DZCw1eAVfb9ADoyr6ma13d4Mv",
 		resave: false,
 		saveUninitialized: false,
 	})
