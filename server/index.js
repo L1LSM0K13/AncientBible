@@ -5,6 +5,7 @@ const session = require("express-session");
 const flash = require("express-flash");
 const passport = require("passport");
 const initializePassport = require("../config/passportConfig");
+require("dotenv").config();
 
 const PORT = process.env.PORT || 4000;
 
@@ -12,15 +13,12 @@ const app = express();
 
 initializePassport(passport);
 
-if (process.env !== "production") {
-	require("dotenv").config();
-}
-
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: false }));
 
 app.use(
 	session({
+		secret: process.env.SECRET_SESSION,
 		resave: false,
 		saveUninitialized: false,
 	})
