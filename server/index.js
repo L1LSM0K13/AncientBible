@@ -13,7 +13,7 @@ const app = express();
 initializePassport(passport);
 
 if (process.env !== "production") {
-	require("dotenv").config();
+	require("dotenv").config("../.env");
 }
 
 app.set("view engine", "ejs");
