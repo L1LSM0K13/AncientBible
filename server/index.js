@@ -4,7 +4,6 @@ const bcrypt = require("bcrypt");
 const session = require("express-session");
 const flash = require("express-flash");
 const passport = require("passport");
-require("dotenv").config();
 const initializePassport = require("../config/passportConfig");
 
 const PORT = process.env.PORT || 4000;
@@ -13,12 +12,16 @@ const app = express();
 
 initializePassport(passport);
 
+if (process.env !== "production") {
+	require("dotenv").config();
+}
+
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: false }));
 
 app.use(
 	session({
-		secret: process.env.SESSION_SECRET,
+		secret: "string",
 		resave: false,
 		saveUninitialized: false,
 	})
