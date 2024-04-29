@@ -7,7 +7,7 @@ const passport = require("passport");
 const initializePassport = require("../config/passportConfig");
 
 if (process.env !== "production") {
-	require("dotenv").config();
+	require("dotenv").config({ path: "../.env" });
 }
 
 const PORT = process.env.PORT || 4000;
