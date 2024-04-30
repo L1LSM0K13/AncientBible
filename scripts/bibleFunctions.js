@@ -10,6 +10,10 @@ const bTitle = document.getElementById("bookTitle");
 let currentBook;
 const books = [
 	{
+		filename: "SAMPLE.json",
+		title: "DUMMY BOOK",
+	},
+	{
 		filename: "genesis.json",
 		title: "Genesis",
 	},
