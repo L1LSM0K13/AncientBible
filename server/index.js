@@ -61,8 +61,6 @@ app.get("/users/logout", (req, res) => {
 app.post("/users/register", async (req, res) => {
 	let { name, email, password, password2 } = req.body;
 
-	console.log({ name, email, password, password2 });
-
 	let errors = [];
 
 	if (!name || !email || !password || !password) {
@@ -83,7 +81,6 @@ app.post("/users/register", async (req, res) => {
 		// Form validation has passed
 
 		let hashedPassword = await bcrypt.hash(password, 10);
-		console.log(hashedPassword);
 
 		pool.query(
 			`SELECT * FROM users
@@ -93,7 +90,6 @@ app.post("/users/register", async (req, res) => {
 				if (err) {
 					throw err;
 				}
-				console.log(results.rows);
 
 				if (results.rows.length > 0) {
 					errors.push({ message: "User with this email already exists" });
