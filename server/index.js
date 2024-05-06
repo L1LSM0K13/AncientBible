@@ -5,7 +5,6 @@ const session = require("express-session");
 const flash = require("express-flash");
 const passport = require("passport");
 const initializePassport = require("../config/passportConfig");
-const path = require("path");
 
 if (process.env !== "production") {
 	require("dotenv").config({ path: "../.env" });
@@ -30,7 +29,6 @@ app.use(
 
 app.use(passport.initialize());
 app.use(passport.session());
-app.use(path.join(__dirname, "../dist"));
 
 app.use(flash());
 
