@@ -5,6 +5,7 @@ const session = require("express-session");
 const flash = require("express-flash");
 const passport = require("passport");
 const initializePassport = require("../config/passportConfig");
+const path = require("path");
 
 if (process.env !== "production") {
 	require("dotenv").config({ path: "../.env" });
@@ -18,6 +19,7 @@ initializePassport(passport);
 
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: false }));
+app.use(express.static(path.join(__dirname, "css")));
 
 app.use(
 	session({
