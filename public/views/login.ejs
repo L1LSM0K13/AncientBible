@@ -4,6 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="../css/output.css" />
+
+		<script src="/scripts/darkModeToggle.js" defer></script>
 		<title>Login</title>
 	</head>
 	<body></body>
@@ -100,27 +102,30 @@
 			<h1 class="nodeTitleH1 nodeMargins">Login</h1>
 			<div class="nodeInsideDiv nodeMargins">
 				<form action="/users/login" method="POST">
-					<div class="input">
+					<div>
 						<input
+							class="input"
 							type="email"
 							id="email"
 							name="email"
 							placeholder="Email"
 							required />
 					</div>
-					<div class="input">
+					<div>
 						<input
+							class="input"
 							type="password"
 							id="password"
 							name="password"
 							placeholder="Password"
 							required />
 					</div>
-					<div class="input">
-						<input type="submit" value="Login" />
+					<div>
+						<input type="submit" value="Login" class="input" />
 					</div>
 					<p class="m-4">
-						Dont have an Account? Sign up <a href="/users/register">Here</a>
+						Dont have an Account? Sign up
+						<a class="text-blue-600" href="/users/register">Here</a>
 					</p>
 				</form>
 			</div>
