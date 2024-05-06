@@ -2,8 +2,328 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<link
+			rel="shortcut icon"
+			type="x-icon"
+			href="/dist/images/orthodoxcanonlogoNEW.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Bible</title>
+		<link rel="stylesheet" href="../output.css" />
 	</head>
-	<body></body>
+
+	<body
+		class="bg-[#e9eef1] sm:text-lg text-sm dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
+		<header class="sticky top-0 text-md sm:text-lg mb-5">
+			<nav
+				class="bg-[#51688e] dark:bg-[#303134] border border-[#355488] dark:border-[#474747] p-2 flex">
+				<a href="/">
+					<img
+						class="w-14"
+						src="/dist/images/orthodoxcanonlogoNEW.png"
+						alt="icon" />
+				</a>
+
+				<ul class="flex items-center p-1">
+					<li>
+						<a
+							class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] p-2 mx-1 rounded-md"
+							href="/"
+							>Home</a
+						>
+					</li>
+					<li>
+						<a
+							class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] p-2 mx-1 rounded-md"
+							href="/users/bible"
+							>Bible</a
+						>
+					</li>
+					<li>
+						<a
+							class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] p-2 mx-1 rounded-md"
+							href="/users/fathers"
+							>Fathers</a
+						>
+					</li>
+				</ul>
+
+				<ul class="flex items-center p-1 grow justify-end">
+					<li
+						class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] py-1 px-2 mx-1 rounded-md">
+						Login or Sign Up
+					</li>
+					<li>
+						<img
+							class="sunDisabled cursor-pointer justify-center"
+							src="../images/brightness-high.svg"
+							alt="BrightModeDisabled" />
+					</li>
+					<li>
+						<img
+							class="sunEnabled cursor-pointer justify-center hidden"
+							src="../images/brightness-high-fill.svg"
+							alt="BrightModeEnabled" />
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<!-- Volume Set -->
+			<nav>
+				<div class="nodeMargins my-6">
+					<h1 class="nodeTitleH1">Jump to volume:</h1>
+					<div class="nodeInsideDiv">
+						<!-- Volumes div -->
+						<div class="flex justify-center">
+							<ul class="flex flex-wrap gap-1 m-2">
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<a href="#">
+										<img
+											src="../images/books_numbered/ante_series_01.png"
+											alt="ante_nicene_series" />
+									</a>
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/ante_series_02.png"
+										alt="ante_nicene_series" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/ante_series_03.png"
+										alt="ante_nicene_series" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/ante_series_04.png"
+										alt="ante_nicene_series" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/ante_series_05.png"
+										alt="ante_nicene_series" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/ante_series_06.png"
+										alt="ante_nicene_series" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/ante_series_07.png"
+										alt="ante_nicene_series" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/ante_series_08.png"
+										alt="ante_nicene_series" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/ante_series_09.png"
+										alt="ante_nicene_series" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/ante_series_10.png"
+										alt="ante_nicene_series" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_1_01.png"
+										alt="nicene_series_1" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_1_02.png"
+										alt="nicene_series_1" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_1_03.png"
+										alt="nicene_series_1" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_1_04.png"
+										alt="nicene_series_1" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_1_05.png"
+										alt="nicene_series_1" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_1_06.png"
+										alt="nicene_series_1" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_1_07.png"
+										alt="nicene_series_1" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_1_08.png"
+										alt="nicene_series_1" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_1_09.png"
+										alt="nicene_series_1" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_1_10.png"
+										alt="nicene_series_1" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_1_11.png"
+										alt="nicene_series_1" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_1_12.png"
+										alt="nicene_series_1" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_1_13.png"
+										alt="nicene_series_1" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_1_14.png"
+										alt="nicene_series_1" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_2_01.png"
+										alt="nicene_series_2.png" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_2_02.png"
+										alt="nicene_series_2.png" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_2_03.png"
+										alt="nicene_series_2.png" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_2_04.png"
+										alt="nicene_series_2.png" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_2_05.png"
+										alt="nicene_series_2.png" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_2_06.png"
+										alt="nicene_series_2.png" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_2_07.png"
+										alt="nicene_series_2.png" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_2_08.png"
+										alt="nicene_series_2.png" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_2_09.png"
+										alt="nicene_series_2.png" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_2_10.png"
+										alt="nicene_series_2.png" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_2_11.png"
+										alt="nicene_series_2.png" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_2_12.png"
+										alt="nicene_series_2.png" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_2_13.png"
+										alt="nicene_series_2.png" />
+								</li>
+								<li
+									class="w-6 2xl:w-8 hover:cursor-pointer transition ease-in-out duration-200 hover:scale-125">
+									<img
+										src="../images/books_numbered/series_2_14.png"
+										alt="nicene_series_2.png" />
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+			<article>
+				<div class="nodeMargins my-6">
+					<h1 class="nodeTitleH1">Fathers</h1>
+					<div class="nodeInsideDiv">Church Fathers Page</div>
+				</div>
+			</article>
+		</main>
+
+		<footer></footer>
+
+		<!-- Functions -->
+		<script src="../../scripts/darkModeToggle.js"></script>
+	</body>
 </html>
