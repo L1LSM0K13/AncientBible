@@ -87,21 +87,21 @@
 		</header>
 
 		<main>
-			<ul class="successMsg">
+			<ul>
 				<% if(messages.success_msg) { %>
-				<li><%= messages.success_msg %></li>
+				<li class="successMsg"><%= messages.success_msg %></li>
 				<% } %>
 			</ul>
 
-			<ul class="errorMsg">
+			<ul>
 				<% if(messages.error) { %>
-				<li><%= messages.error %></li>
+				<li class="errorMsg"><%= messages.error %></li>
 				<% } %>
 			</ul>
 
 			<h1 class="nodeTitleH1 nodeMargins">Login</h1>
 			<div class="nodeInsideDiv nodeMargins">
-				<form action="/users/login" method="POST">
+				<form action="/users/login" method="POST" class="text-center">
 					<div class="m-4">
 						<input
 							class="input"

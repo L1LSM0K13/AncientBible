@@ -688,6 +688,15 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.input:is(.dark *) {
+  --tw-border-opacity: 1;
+  border-color: rgb(71 71 71 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(32 33 36 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(217 221 224 / var(--tw-text-opacity));
+}
+
 /* Margin Class Set */
 
 @media (min-width: 640px) {

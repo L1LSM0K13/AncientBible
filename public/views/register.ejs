@@ -9,15 +9,15 @@
 		<title>Register</title>
 	</head>
 	<body>
-		<ul class="successMsg">
+		<ul>
 			<% if (typeof errors != 'undefined') { %> <% errors.forEach(error =>{ %>
-			<li><%= error.message %></li>
+			<li class="errorMsg"><%= error.message %></li>
 			<% }) %> <% } %>
 		</ul>
 
 		<h1 class="nodeTitleH1 nodeMargins">Sign Up</h1>
 		<div class="nodeInsideDiv nodeMargins">
-			<form action="/users/register" method="POST">
+			<form action="/users/register" method="POST" class="text-center">
 				<div class="m-4">
 					<input
 						class="input"
