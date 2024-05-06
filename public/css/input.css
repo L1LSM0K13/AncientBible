@@ -20,6 +20,19 @@
 		@apply p-2 bg-[#51688e] text-white text-sm border border-[#355488] dark:border-[#474747] dark:bg-[#303134];
 	}
 
+	/* Message Class Set */
+	.successMsg {
+		@apply m-4 border-2 border-green-500 bg-green-300 p-2 text-lg text-green-900;
+	}
+	.errorMsg {
+		@apply m-4 border-2 border-red-500 bg-red-300 p-2 text-lg text-red-900;
+	}
+
+	/* Button Class Set */
+	.input {
+		@apply rounded-sm border border-gray-500 bg-gray-200 px-2 py-1;
+	}
+
 	/* Margin Class Set */
 	.nodeMargins {
 		@apply xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12;
