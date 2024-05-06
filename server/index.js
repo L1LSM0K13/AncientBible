@@ -19,7 +19,7 @@ initializePassport(passport);
 
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: false }));
-app.use(express.static(path.join(__dirname, "css")));
+app.use(express.static(__dirname + "../dist"));
 
 app.use(
 	session({
@@ -36,6 +36,7 @@ app.use(flash());
 
 app.get("/", (req, res) => {
 	res.render("../dist/views/index");
+	res.sendFile(path.join(__dirname + "../dist/views/index.ejs"));
 });
 
 app.get("/users/register", checkAuthenticated, (req, res) => {
