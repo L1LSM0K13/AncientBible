@@ -18,9 +18,14 @@
 	"main": "tailwind.config.js",
 	"scripts": {
 		"dev": "tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch",
+		"postcss": "postcss ./public/css/input.css -o ./public/css/output.css --watch",
 		"nodemon": "nodemon ./server/index.js"
 	},
 	"keywords": [],
 	"author": "",
-	"license": "ISC"
+	"license": "ISC",
+	"devDependencies": {
+		"autoprefixer": "^10.4.19",
+		"postcss": "^8.4.38"
+	}
 }
