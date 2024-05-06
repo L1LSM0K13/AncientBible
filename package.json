@@ -17,7 +17,7 @@
 	"version": "1.0.0",
 	"main": "tailwind.config.js",
 	"scripts": {
-		"dev": "tailwindcss -i ./dist/css/input.css -o ./dist/css/output.css --watch",
+		"dev": "tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch",
 		"nodemon": "nodemon ./server/index.js"
 	},
 	"keywords": [],

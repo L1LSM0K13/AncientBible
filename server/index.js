@@ -19,7 +19,7 @@ initializePassport(passport);
 
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: false }));
-app.use(express.static(__dirname + "../dist"));
+app.use(express.static(__dirname + "../public"));
 
 app.use(
 	session({
@@ -35,28 +35,28 @@ app.use(passport.session());
 app.use(flash());
 
 app.get("/", (req, res) => {
-	res.render("../dist/views/index");
-	res.sendFile(path.join(__dirname + "../dist/views/index.ejs"));
+	res.render("../public/views/index");
+	res.sendFile(path.join(__dirname + "../public/views/index.ejs"));
 });
 
 app.get("/users/register", checkAuthenticated, (req, res) => {
-	res.render("../dist/views/register");
+	res.render("../public/views/register");
 });
 
 app.get("/users/login", checkAuthenticated, (req, res) => {
-	res.render("../dist/views/login");
+	res.render("../public/views/login");
 });
 
 app.get("/users/dashboard", checkNotAuthenticated, (req, res) => {
-	res.render("../dist/views/dashboard", { user: req.user.name });
+	res.render("../public/views/dashboard", { user: req.user.name });
 });
 
 app.get("/users/bible", (req, res) => {
-	res.render("../dist/views/scripture");
+	res.render("../public/views/scripture");
 });
 
 app.get("/users/fathers", (req, res) => {
-	res.render("../dist/views/fathers");
+	res.render("../public/views/fathers");
 });
 
 app.get("/users/logout", (req, res) => {
@@ -87,7 +87,7 @@ app.post("/users/register", async (req, res) => {
 	}
 
 	if (errors.length > 0) {
-		res.render("../dist/views/register", { errors });
+		res.render("../public/views/register", { errors });
 	} else {
 		// Form validation has passed
 
@@ -104,7 +104,7 @@ app.post("/users/register", async (req, res) => {
 
 				if (results.rows.length > 0) {
 					errors.push({ message: "User with this email already exists" });
-					res.render("../dist/views/register", { errors });
+					res.render("../public/views/register", { errors });
 				} else {
 					pool.query(
 						`INSERT INTO users (name, email, password)
