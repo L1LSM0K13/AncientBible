@@ -35,7 +35,7 @@ app.use(passport.session());
 app.use(flash());
 
 app.get("/", (req, res) => {
-	res.render("../public/views/index.ejs");
+	res.render("../public/views/index");
 });
 
 app.get("/users/register", checkAuthenticated, (req, res) => {
