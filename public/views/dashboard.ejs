@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="shortcut icon" type="x-icon" href="/public/images/orthodoxcanonlogoNEW.png">
+    <link rel="shortcut icon" type="x-icon" href="../images/orthodoxcanonlogoNEW.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
 
@@ -14,7 +14,7 @@
 		<header class="sticky top-0 text-md sm:text-lg mb-5">
       <nav class="bg-[#51688e] dark:bg-[#303134] border border-[#355488] dark:border-[#474747] p-2 flex">
         <a href="/">
-          <img class="w-14" src="/public/images/orthodoxcanonlogoNEW.png" alt="icon">
+          <img class="w-14" src="../images/orthodoxcanonlogoNEW.png" alt="icon">
         </a>
 
         <ul class="flex items-center p-1 ">
@@ -29,13 +29,13 @@
           <li>
 						<img
 							class="sunDisabled cursor-pointer justify-center"
-							src="/public/images/brightness-high.svg"
+							src="../images/brightness-high.svg"
 							alt="BrightModeDisabled" />
 					</li>
           <li>
 						<img
             class="sunEnabled cursor-pointer justify-center"
-            src="/public/images/brightness-high-fill.svg"
+            src="../images/brightness-high-fill.svg"
             alt="BrightModeEnabled">
 					</li>
         </ul>
@@ -45,13 +45,13 @@
     <main class="text-lg">
       <!-- Logo -->
       <div class="flex justify-center">
-      <img src="/public/images/orthodoxcanonlogo.png" alt="Orthodox Logo" class="w-1/2 sm:w-1/3 md:1/2 lg:w-1/4">
+      <img src="../images/orthodoxcanonlogo.png" alt="Orthodox Logo" class="w-1/2 sm:w-1/3 md:1/2 lg:w-1/4">
       </div>
 
       <article>
 
 
-				<ps class="successMsg">Hello <%= user.charAt(0).toUpperCase() + user.slice(1) %></ps>
+				<p class="successMsg m-auto">Welcome <%= user.charAt(0).toUpperCase() + user.slice(1) %>!</p>
 
         <div class="nodeMargins shadow-xl">
             <h1 class="nodeTitleH1">About Orthodox Canon</h1>
