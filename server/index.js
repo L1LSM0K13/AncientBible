@@ -34,7 +34,7 @@ app.use(passport.session());
 app.use(flash());
 
 app.get("/", (req, res) => {
-	res.render("../public/views/index");
+	res.render("/");
 	res.sendFile(path.join(__dirname + "../public/views/index.ejs"));
 });
 
