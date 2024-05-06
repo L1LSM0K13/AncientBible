@@ -48,6 +48,14 @@ app.get("/users/dashboard", checkNotAuthenticated, (req, res) => {
 	res.render("../dist/views/dashboard", { user: req.user.name });
 });
 
+app.get("/users/bible", (req, res) => {
+	res.render("../dist/views/scripture");
+});
+
+app.get("/users/fathers", (req, res) => {
+	res.render("../dist/views/fathers");
+});
+
 app.get("/users/logout", (req, res) => {
 	req.logOut((err) => {
 		if (err) {
