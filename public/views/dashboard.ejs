@@ -42,6 +42,11 @@
       </nav>
 		</header>
 
+        <!-- Welcome Message -->
+        <div class="flex justify-end">
+          <p class="successMsg">Welcome <%= user.charAt(0).toUpperCase() + user.slice(1) %>!</p>
+        </div>
+
     <main class="text-lg">
       <!-- Logo -->
       <div class="flex justify-center">
@@ -49,10 +54,6 @@
       </div>
 
       <article>
-
-        <div class="flex justify-center">
-          <p class="successMsg">Welcome <%= user.charAt(0).toUpperCase() + user.slice(1) %>!</p>
-        </div>
 
         <div class="nodeMargins shadow-xl">
             <h1 class="nodeTitleH1">About Orthodox Canon</h1>
