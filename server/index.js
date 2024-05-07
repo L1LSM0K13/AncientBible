@@ -23,7 +23,8 @@ app.use(express.static(path.join(__dirname, "../public")));
 
 app.use(
 	session({
-		secret: process.env.SESSION_SECRET,
+		// process.env.SESSION_SECRET
+		secret: "1234",
 		resave: false,
 		saveUninitialized: false,
 	})
