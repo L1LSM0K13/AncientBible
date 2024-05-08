@@ -13,12 +13,12 @@
   <body class="bg-[#e9eef1] dark:bg-[#202124] dark:text-[#d9dde0]">
 		<header class="sticky top-0 text-md sm:text-lg mb-5">
       <nav class="bg-[#51688e] dark:bg-[#303134] border border-[#355488] dark:border-[#474747] p-2 flex">
-        <a href="/">
+        <a href="/users/dashboard">
           <img class="w-14" src="../images/orthodoxcanonlogoNEW.png" alt="icon">
         </a>
 
         <ul class="flex items-center p-1 ">
-          <li><a class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] p-2 mx-1 rounded-md" href="/">Home</a></li>
+          <li><a class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] p-2 mx-1 rounded-md" href="/users/dashboard">Home</a></li>
           <li><a class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] p-2 mx-1 rounded-md" href="/users/bible">Bible</a></li>
           <li><a class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] p-2 mx-1 rounded-md" href="/users/fathers">Fathers (Coming Soon)</a></li>
         </ul>
@@ -113,36 +113,7 @@
 
     <footer class="text-lg">
       <!-- Updates Node -->
-      <div class="flex justify-center">
-        <div class="nodeMargins">
-          <h1 class="nodeTitleH1">Whats New to Orthodox Canon?</h1>
-          <div class="nodeInsideDiv mb-5 shadow-xl">
-            <div>
-              <ul>
-                <li>Orthodox Canon.org (beta v1.2) 3/31/24</li>
-                <li>You can now close your tab, and have the book where you left off loaded back.</li>
-                <br>
-
-                <li>Orthodox Canon.org (beta v1.11) 3/23/24</li>
-                <li>This website will go on hiatus for a while, stay tuned!</li>
-                <br>
-
-                <li>Orthodox Canon.org (beta v1.1) 3/2/24</li>
-                <li>+ New translation (2012 Brenton Septuigant and Byzantine text for New Testament.)</li>
-                <li class="text-red-600 dark:text-red-500">+ Red Lettering added.</li>
-                <li>+ Improvements to hover highlights.</li>
-                <br>
-
-                <li>Orthodox Canon.org (beta v1.0) 2/3/2024</li>
-                <li>+ Added a toggle to dark mode.</li>
-                <li>+ Added a small highlight when hovering over the verses.</li>
-
-
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+      <%- include('partals/whatsNew') %>
     </footer>
 
 
