@@ -14,6 +14,13 @@
 
     <%- include('partials/navBar')  %>
 
+    <% if ({loggedIn}) { %>
+     <!-- Welcome Message -->
+<div class="flex justify-end">
+  <p class="successMsg">Welcome <%= user.charAt(0).toUpperCase() + user.slice(1) %>!</p>
+</div>
+    <% }  else { return %><% } %>
+
     <main class="text-lg">
       <!-- Logo -->
       <div class="flex justify-center">

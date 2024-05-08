@@ -143,7 +143,7 @@ app.post("/users/register", async (req, res) => {
 app.post(
 	"/users/login",
 	passport.authenticate("local", {
-		successRedirect: "/users/dashboard",
+		successRedirect: "/",
 		failureRedirect: "/users/login",
 		failureFlash: true,
 	})
@@ -151,7 +151,7 @@ app.post(
 
 function checkAuthenticated(req, res, next) {
 	if (req.isAuthenticated()) {
-		return res.redirect("/users/dashboard");
+		return res.redirect("/");
 	}
 	next();
 }
