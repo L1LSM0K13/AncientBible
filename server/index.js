@@ -35,7 +35,11 @@ app.use(passport.session());
 app.use(flash());
 
 app.get("/", (req, res) => {
-	res.render("../public/views/index");
+	if (req.isAuthenticated()) {
+		res.render("../public/views/index", { loggedIn: true });
+	} else {
+		res.render("../public/views/index", { loggedIn: false });
+	}
 });
 
 app.get("/users/register", checkAuthenticated, (req, res) => {
@@ -51,11 +55,19 @@ app.get("/users/dashboard", checkNotAuthenticated, (req, res) => {
 });
 
 app.get("/users/bible", (req, res) => {
-	res.render("../public/views/scripture");
+	if (req.isAuthenticated()) {
+		res.render("../public/views/scripture", { loggedIn: true });
+	} else {
+		res.render("../public/views/scripture", { loggedIn: false });
+	}
 });
 
 app.get("/users/fathers", (req, res) => {
-	res.render("../public/views/fathers");
+	if (req.isAuthenticated()) {
+		res.render("../public/views/fathers", { loggedIn: true });
+	} else {
+		res.render("../public/views/fathers", { loggedIn: false });
+	}
 });
 
 app.get("/users/logout", (req, res) => {

@@ -32,7 +32,11 @@
 		<ul class="flex items-center p-1 grow justify-end">
 			<li
 				class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] py-1 px-2 mx-1 rounded-md">
+				<% if ({loggedIn}) { %>
+				<a href="/users/logout">Logout</a>
+				<% } else { %>
 				<a href="/users/login">Login or Sign Up</a>
+				<% } %>
 			</li>
 
 			<li>
