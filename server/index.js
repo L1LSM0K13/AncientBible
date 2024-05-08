@@ -46,11 +46,11 @@ app.get("/", checkNotAuthenticated, (req, res) => {
 });
 
 app.get("/users/register", checkAuthenticated, (req, res) => {
-	res.render("../public/views/register");
+	res.render("../public/views/register", { loggedIn: false });
 });
 
 app.get("/users/login", checkAuthenticated, (req, res) => {
-	res.render("../public/views/login");
+	res.render("../public/views/login", { loggedIn: false });
 });
 
 // app.get("/users/dashboard", checkNotAuthenticated, (req, res) => {
