@@ -163,7 +163,7 @@ function checkNotAuthenticated(req, res, next) {
 	if (req.isAuthenticated()) {
 		res.redirect("/");
 	} else {
-		return res.redirect("/users/login");
+		res.redirect("/users/login");
 	}
 	next();
 }
