@@ -35,7 +35,7 @@ app.use(passport.session());
 app.use(flash());
 
 app.get("/", checkNotAuthenticated, (req, res) => {
-	if (req.isAuthenticated()) {
+	if (!req.isAuthenticated()) {
 		res.render("../public/views/index", {
 			loggedIn: true,
 			user: req.user.name,
