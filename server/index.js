@@ -53,10 +53,6 @@ app.get("/users/login", checkAuthenticated, (req, res) => {
 	res.render("../public/views/login", { loggedIn: false });
 });
 
-// app.get("/users/dashboard", checkNotAuthenticated, (req, res) => {
-// 	res.render("../public/views/dashboard", { user: req.user.name });
-// });
-
 app.get("/users/bible", (req, res) => {
 	if (req.isAuthenticated()) {
 		res.render("../public/views/scripture", { loggedIn: true });
