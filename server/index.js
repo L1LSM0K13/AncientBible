@@ -155,13 +155,6 @@ function checkAuthenticated(req, res, next) {
 	next();
 }
 
-function checkNotAuthenticated(req, res, next) {
-	if (req.isAuthenticated()) {
-		return next();
-	}
-	res.redirect("/users/login");
-}
-
 app.listen(PORT, () => {
 	console.log(`Listening on port ${PORT}`);
 });
