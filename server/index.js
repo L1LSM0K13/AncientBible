@@ -59,6 +59,17 @@ app.get("/users/bible", (req, res) => {
 	} else {
 		res.render("../public/views/scripture", { loggedIn: false });
 	}
+
+	try {
+		const { rows } = pool.query(`SELECT * FROM englishbible`);
+
+		res.json(rows);
+	} catch {
+		console.error("Error fetching books:", error);
+		res.status(500).json({ error: "Internal Server Error" });
+	}
+
+	console.log({ rows });
 });
 
 app.get("/users/fathers", (req, res) => {
