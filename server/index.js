@@ -66,7 +66,7 @@ app.get("/users/bible", (req, res) => {
 		});
 	} else {
 		pool.query(
-			`SELECT * FROM englishbible WHERE book = 'III John'`,
+			`SELECT * FROM englishbible WHERE (book, chapter_number) = ('John', 1)`,
 			(err, results) => {
 				if (err) {
 					return console.error("Error running query", err);
