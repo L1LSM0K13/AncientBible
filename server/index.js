@@ -65,15 +65,18 @@ app.get("/users/bible", (req, res) => {
 			});
 		});
 	} else {
-		pool.query(`SELECT * FROM englishbible`, (err, results) => {
-			if (err) {
-				return console.error("Error running query", err);
+		pool.query(
+			`SELECT * FROM englishbible WHERE book = 'Genesis'`,
+			(err, results) => {
+				if (err) {
+					return console.error("Error running query", err);
+				}
+				res.render("../public/views/scripture", {
+					books: results.rows,
+					loggedIn: false,
+				});
 			}
-			res.render("../public/views/scripture", {
-				books: results.rows,
-				loggedIn: false,
-			});
-		});
+		);
 	}
 });
 
