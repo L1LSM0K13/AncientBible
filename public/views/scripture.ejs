@@ -85,22 +85,28 @@
 						</div>
 					</div>
 
-		<!-- New Block -->
-		<div class="nodeMargins">
-			<div class="mb-5 shadow-xl">
-				<h1 class="nodeTitleH1">PlaceHolder</h1>
-				<div class="nodeInsideDiv px-5">
-					<% books.forEach(book => { %>
-						<sup class="-z-10 pr-1 font-semibold text-gray-800 dark:text-[#d9dde0]"><%= book.verse_number %></sup>
-						<span class="m-1 p-1 dark:hover:bg-[#202124] hover:bg-[#f8f8da] hover:border border-[#c4c4ad] dark:border-[#000000] rounded-sm"> <%= book.verse_text %></span>
-					<% }) %>
-				</div>
-			</div>
-		</div>
-</div>
-
-					<!-- Scripture Block -->
+					<!-- New Block -->
 					<div>
+						<div class="mb-5 shadow-xl">
+							<h1 class="nodeTitleH1">PlaceHolder</h1>
+							<div class="nodeInsideDiv px-5">
+								<% books.forEach(book => { %>
+								<sup
+									class="-z-10 pr-1 font-semibold text-gray-800 dark:text-[#d9dde0]"
+									><%= book.verse_number %></sup
+								>
+								<span
+									class="m-1 p-1 dark:hover:bg-[#202124] hover:bg-[#f8f8da] hover:border border-[#c4c4ad] dark:border-[#000000] rounded-sm">
+									<%= book.verse_text %></span
+								>
+								<% }) %>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Scripture Block -->
+				<!-- <div>
 						<div id="mainText">
 							<div class="mb-5 shadow-xl">
 								<h1 id="bookTitle" class="nodeTitleH1"></h1>
@@ -108,7 +114,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</article>
 		</main>
 
