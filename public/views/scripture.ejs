@@ -103,7 +103,7 @@
 				<div class="mb-5 shadow-xl">
 					<h1 class="nodeTitleH1"></h1>
 					<div class="nodeInsideDiv px-5">
-						<% books.forEach(book => { %>
+						<% book.forEach(book => { %>
 							<span><%= book.verse_number %><%= book.verse_text %></span>
 						<% }) %>
 					</div>
