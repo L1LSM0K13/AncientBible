@@ -104,7 +104,8 @@
 					<h1 class="nodeTitleH1"></h1>
 					<div class="nodeInsideDiv px-5">
 						<% books.forEach(book => { %>
-							<span><%= book.verse_number %><%= book.verse_text %></span>
+							<span><strong><%= book.verse_number %></strong></span>
+							<span><%= book.verse_text %></span>
 						<% }) %>
 					</div>
 				</div>
