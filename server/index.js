@@ -64,7 +64,7 @@ app.get("/users/bible", (req, res) => {
 		if (err) {
 			return console.error("Error running query", err);
 		}
-		res.render("../public/views/scripture", { books: results.rows });
+		res.render("../public/views/scripture", { englishbible: results.rows });
 	});
 });
 
