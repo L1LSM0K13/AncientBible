@@ -99,12 +99,12 @@
 		</main>
 
 		<!-- New Block -->
-		<div>
+		<div class="nodeMargins">
 				<div class="mb-5 shadow-xl">
-					<h1 class="nodeTitleH1"></h1>
+					<h1 class="nodeTitleH1">PlaceHolder</h1>
 					<div class="nodeInsideDiv px-5">
 						<% books.forEach(book => { %>
-							<p><p class="font-bold text-xs"><%= book.verse_number %></p> <%= book.verse_text %></p>
+							<p><span class="font-extrabold text-xs"><%= book.verse_number %></span> <%= book.verse_text %></p>
 						<% }) %>
 					</div>
 				</div>
