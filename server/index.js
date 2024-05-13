@@ -55,17 +55,26 @@ app.get("/users/login", checkAuthenticated, (req, res) => {
 
 app.get("/users/bible", (req, res) => {
 	if (req.isAuthenticated()) {
-		res.render("../public/views/scripture", { loggedIn: true });
+		pool.query(`SELECT * FROM englishbible`, (err, results) => {
+			if (err) {
+				return console.error("Error running query", err);
+			}
+			res.render("../public/views/scripture", {
+				books: results.rows,
+				loggedIn: true,
+			});
+		});
 	} else {
-		res.render("../public/views/scripture", { loggedIn: false });
+		pool.query(`SELECT * FROM englishbible`, (err, results) => {
+			if (err) {
+				return console.error("Error running query", err);
+			}
+			res.render("../public/views/scripture", {
+				books: results.rows,
+				loggedIn: false,
+			});
+		});
 	}
-
-	pool.query(`SELECT * FROM englishbible`, (err, results) => {
-		if (err) {
-			return console.error("Error running query", err);
-		}
-		res.render("../public/views/scripture", { englishbible: results.rows });
-	});
 });
 
 app.get("/users/fathers", (req, res) => {
