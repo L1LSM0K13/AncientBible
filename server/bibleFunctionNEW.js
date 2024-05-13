@@ -27,4 +27,4 @@ function bibleFunction() {
 	});
 }
 
-export default bibleFunction();
+module.exports = bibleFunction();
