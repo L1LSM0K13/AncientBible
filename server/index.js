@@ -66,7 +66,7 @@ app.get("/users/bible", (req, res) => {
 		});
 	} else {
 		pool.query(
-			`SELECT * FROM englishbible WHERE book = 'Genesis'`,
+			`SELECT * FROM englishbible WHERE is_red = true`,
 			(err, results) => {
 				if (err) {
 					return console.error("Error running query", err);
