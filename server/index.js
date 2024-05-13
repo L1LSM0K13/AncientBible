@@ -63,9 +63,8 @@ app.get("/users/bible", (req, res) => {
 	pool.query(`SELECT * FROM englishbible`, (err, results) => {
 		if (err) {
 			return console.error("Error running query", err);
-		} else {
-			res.render("../public/views/scripture", { books: results.rows });
 		}
+		res.render("../public/views/scripture", { books: results.rows });
 	});
 });
 
