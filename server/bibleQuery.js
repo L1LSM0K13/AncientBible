@@ -1,4 +1,4 @@
-export const bibleFunction = () => {
+export function bibleFunction() {
 	app.get("/users/bible", (req, res) => {
 		if (req.isAuthenticated()) {
 			pool.query(`SELECT * FROM englishbible`, (err, results) => {
@@ -25,4 +25,4 @@ export const bibleFunction = () => {
 			);
 		}
 	});
-};
+}

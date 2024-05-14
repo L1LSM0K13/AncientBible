@@ -81,11 +81,7 @@ app.get("/users/login", checkAuthenticated, (req, res) => {
 // 		);
 // 	}
 // });
-if (err) {
-	console.error("could not run function", err);
-} else {
-	bibleFunction();
-}
+bibleFunction();
 
 app.get("/users/fathers", (req, res) => {
 	if (req.isAuthenticated()) {
