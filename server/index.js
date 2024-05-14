@@ -11,7 +11,7 @@ const passport = require("passport");
 
 const { bibleQuery } = require("./bibleQuery");
 const { fathersQuery } = require("./fathersQuery");
-const { register } = require("module");
+const { register } = require("./register");
 
 if (process.env !== "production") {
 	require("dotenv").config({ path: "../.env" });
