@@ -7,7 +7,7 @@ const passport = require("passport");
 const initializePassport = require("../config/passportConfig");
 const path = require("path");
 
-import { bibleQuery } from "./bibleQuery.js";
+const { bibleQuery } = require("./bibleQuery");
 
 if (process.env !== "production") {
 	require("dotenv").config({ path: "../.env" });
@@ -81,7 +81,7 @@ app.get("/users/login", checkAuthenticated, (req, res) => {
 // 		);
 // 	}
 // });
-bibleQuery();
+bibleQuery(app, pool);
 
 app.get("/users/fathers", (req, res) => {
 	if (req.isAuthenticated()) {
