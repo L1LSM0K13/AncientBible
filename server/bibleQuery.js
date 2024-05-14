@@ -1,4 +1,4 @@
-function bibleQuery() {
+function bibleQuery(app, pool) {
 	app.get("/users/bible", (req, res) => {
 		if (req.isAuthenticated()) {
 			pool.query(`SELECT * FROM englishbible`, (err, results) => {
@@ -27,4 +27,4 @@ function bibleQuery() {
 	});
 }
 
-module.exports = bibleQuery;
+module.exports = { bibleQuery };
