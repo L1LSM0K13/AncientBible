@@ -7,7 +7,7 @@ const passport = require("passport");
 const initializePassport = require("../config/passportConfig");
 const path = require("path");
 
-import { bibleQuery } from "./bibleQuery";
+import { bibleQuery } from "./bibleQuery.js";
 
 if (process.env !== "production") {
 	require("dotenv").config({ path: "../.env" });
