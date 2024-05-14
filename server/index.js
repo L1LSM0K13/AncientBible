@@ -1,28 +1,37 @@
+// Imports
+const path = require("path");
 const express = require("express");
-const { pool } = require("../config/dbConfig");
-const bcrypt = require("bcrypt");
 const session = require("express-session");
 const flash = require("express-flash");
-const passport = require("passport");
+const app = express();
+const { pool } = require("../config/dbConfig");
 const initializePassport = require("../config/passportConfig");
-const path = require("path");
+const bcrypt = require("bcrypt");
+const passport = require("passport");
 
 const { bibleQuery } = require("./bibleQuery");
+const { fathersQuery } = require("./fathersQuery");
+const { register } = require("module");
 
 if (process.env !== "production") {
 	require("dotenv").config({ path: "../.env" });
 }
 
+// Port Listening
 const PORT = process.env.PORT || 4000;
-
-const app = express();
+app.listen(PORT, () => {
+	console.log(`Listening on port ${PORT}`);
+});
 
 initializePassport(passport);
 
+// Middleware
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "../public")));
-
+app.use(passport.initialize());
+app.use(passport.session());
+app.use(flash());
 app.use(
 	session({
 		secret: process.env.SESSION_SECRET,
@@ -30,11 +39,6 @@ app.use(
 		saveUninitialized: false,
 	})
 );
-
-app.use(passport.initialize());
-app.use(passport.session());
-
-app.use(flash());
 
 app.get("/", (req, res) => {
 	if (req.isAuthenticated()) {
@@ -56,14 +60,8 @@ app.get("/users/login", checkAuthenticated, (req, res) => {
 });
 
 bibleQuery(app, pool);
-
-app.get("/users/fathers", (req, res) => {
-	if (req.isAuthenticated()) {
-		res.render("../public/views/fathers", { loggedIn: true });
-	} else {
-		res.render("../public/views/fathers", { loggedIn: false });
-	}
-});
+fathersQuery(app);
+register(app);
 
 app.get("/users/logout", (req, res) => {
 	req.logOut((err) => {
@@ -150,7 +148,3 @@ function checkAuthenticated(req, res, next) {
 	}
 	next();
 }
-
-app.listen(PORT, () => {
-	console.log(`Listening on port ${PORT}`);
-});
