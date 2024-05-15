@@ -11,8 +11,6 @@
 		<link rel="stylesheet" href="/css/output.css" />
 
 		<script src="/scripts/darkModeToggle.js" defer></script>
-		<!-- <script src="/scripts/bibleFunctions.js" defer></script>
-		<script src="/scripts/bibleFont.js" defer></script> -->
 	</head>
 
 	<body
@@ -33,7 +31,11 @@
 								<select
 									id="selectBook"
 									name="selectBook"
-									class="p-1 rounded-sm dark:bg-[#202124]"></select>
+									class="p-1 rounded-sm dark:bg-[#202124]">
+									<% for( let i = 0; i < bookTitles.length; i++ ) { %>
+									<option value=""><%= bookTitles %></option>
+									<% } %>
+								</select>
 								<select
 									id="selectChapter"
 									name="selectChapter"
@@ -88,7 +90,7 @@
 					<!-- New Block -->
 					<div>
 						<div class="mb-5 shadow-xl">
-							<h1 class="nodeTitleH1">PlaceHolder</h1>
+							<h1 class="nodeTitleH1">Book of <%= books.name %></h1>
 							<div class="nodeInsideDiv px-5">
 								<% books.forEach(book => { %>
 								<span
@@ -103,17 +105,6 @@
 						</div>
 					</div>
 				</div>
-
-				<!-- Scripture Block -->
-				<!-- <div>
-						<div id="mainText">
-							<div class="mb-5 shadow-xl">
-								<h1 id="bookTitle" class="nodeTitleH1"></h1>
-								<div id="verseContainer" class="nodeInsideDiv px-5"></div>
-							</div>
-						</div>
-					</div>
-				</div> -->
 			</article>
 		</main>
 
