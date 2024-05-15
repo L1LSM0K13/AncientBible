@@ -1,6 +1,6 @@
 const bookChapters = `SELECT chapter_number FROM englishbible WHERE (book, verse_number) = ($1, 1)`;
 const bookTitleOptions = `SELECT book FROM englishbible WHERE (chapter_number, verse_number) = (1,1)`;
-const bookText = `SELECT * FROM englishbible WHERE (book, chapter_number) = ($1, 1)`;
+const bookText = `SELECT * FROM englishbible WHERE (book, chapter_number) = ('John', 1)`;
 
 const loggedIn = req.isAuthenticated();
 
