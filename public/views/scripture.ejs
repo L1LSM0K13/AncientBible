@@ -88,22 +88,6 @@
 					</div>
 
 					<!-- New Block -->
-					<div>
-						<div class="mb-5 shadow-xl">
-							<h1 class="nodeTitleH1">Book of <%= books.name %></h1>
-							<div class="nodeInsideDiv px-5">
-								<% books.forEach(book => { %>
-								<span
-									class="m-1 p-1 dark:hover:bg-[#202124] hover:bg-[#f8f8da] hover:border border-[#c4c4ad] dark:border-[#000000] rounded-sm">
-									<span class="font-semibold text-gray-800 dark:text-[#d9dde0]"
-										><%= book.verse_number %></span
-									>
-									<%= book.verse_text %></span
-								>
-								<% }) %>
-							</div>
-						</div>
-					</div>
 				</div>
 			</article>
 		</main>
