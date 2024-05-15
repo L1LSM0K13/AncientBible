@@ -15,17 +15,43 @@ async function bibleQuery(app, pool) {
 			);
 		} else {
 			await pool.query(
-				`SELECT book FROM englishbible WHERE (chapter_number, verse_number) = (1,1)`,
+				`SELECT * FROM englishbible WHERE (book, chapter_number) = ('John', 1)`,
 				(err, results) => {
 					if (err) {
 						return console.error("Error running query", err);
 					}
 					res.render("../public/views/scripture", {
-						bookTitles: results.rows,
+						books: results.rows,
 						loggedIn: false,
 					});
 				}
 			);
+
+			// await pool.query(
+			// 	`SELECT book FROM englishbible WHERE (chapter_number, verse_number) = (1,1)`,
+			// 	(err, results) => {
+			// 		if (err) {
+			// 			return console.error("Error running query", err);
+			// 		}
+			// 		res.render("../public/views/scripture", {
+			// 			bookTitles: results.rows,
+			// 			loggedIn: false,
+			// 		});
+			// 	}
+			// );
+
+			// pool.query(
+			// 	`SELECT chatper_number FROM englishbible WHERE (book, verse_number) = ('Genesis', 1)`
+			// ),
+			// 	(err, results) => {
+			// 		if (err) {
+			// 			return console.error("Error running query", err);
+			// 		}
+			// 		res.render("../public/views/scripture.ejs", {
+			// 			chapterNumbers: results.rows,
+			// 			loggedIn: false,
+			// 		});
+			// 	};
 		}
 	});
 }
