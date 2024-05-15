@@ -1,4 +1,4 @@
-function bibleQuery(app, pool) {
+async function bibleQuery(app, pool) {
 	app.get("/users/bible", (req, res) => {
 		if (req.isAuthenticated()) {
 			pool.query(

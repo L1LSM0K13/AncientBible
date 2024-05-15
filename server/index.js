@@ -54,7 +54,7 @@ app.get("/users/login", checkAuthenticated, (req, res) => {
 	res.render("../public/views/login", { loggedIn: false });
 });
 
-bibleQuery(app, pool);
+await bibleQuery(app, pool);
 fathersQuery(app);
 register(app, pool);
 
