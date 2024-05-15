@@ -24,7 +24,6 @@ async function bibleQuery(app, pool) {
 						bookTitles: results.rows,
 						loggedIn: false,
 					});
-					console.log(bookTitles);
 				}
 			);
 		}
