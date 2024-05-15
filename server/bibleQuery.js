@@ -1,12 +1,12 @@
 async function bibleQuery(app, pool) {
-	const bookChapters = `SELECT chapter_number FROM englishbible WHERE (book, verse_number) = ($1, 1)`;
-	const bookTitleOptions = `SELECT book FROM englishbible WHERE (chapter_number, verse_number) = (1,1)`;
+	// const bookChapters = `SELECT chapter_number FROM englishbible WHERE (book, verse_number) = ($1, 1)`;
+	// const bookTitleOptions = `SELECT book FROM englishbible WHERE (chapter_number, verse_number) = (1,1)`;
 	const bookText = `SELECT * FROM englishbible WHERE (book, chapter_number) = ('John', 1)`;
 
-	const loggedIn = req.isAuthenticated();
+	const isAuth = req.isAuthenticated();
 
 	app.get("/users/bible", async (req, res) => {
-		if (loggedIn) {
+		if (isAuth) {
 			await pool.query(bookText, (err, results) => {
 				if (err) {
 					return console.error("Error running query", err);
