@@ -41,7 +41,7 @@ async function bibleQuery(app, pool) {
 			// );
 
 			// pool.query(
-			// 	`SELECT chatper_number FROM englishbible WHERE (book, verse_number) = ('Genesis', 1)`
+			// 	`SELECT chapter_number FROM englishbible WHERE (book, verse_number) = ('Genesis', 1)`
 			// ),
 			// 	(err, results) => {
 			// 		if (err) {
