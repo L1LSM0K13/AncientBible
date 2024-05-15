@@ -21,6 +21,7 @@ function bibleQuery(app, pool) {
 						return console.error("Error running query", err);
 					}
 					res.render("../public/views/scripture", {
+						bookTitles: results.rows,
 						books: results.rows,
 						loggedIn: false,
 					});
@@ -34,7 +35,6 @@ function bibleQuery(app, pool) {
 						return console.error("Error running query", err);
 					}
 					res.render("../public/views/scripture", {
-						bookTitles: results.rows,
 						loggedIn: false,
 					});
 				}
