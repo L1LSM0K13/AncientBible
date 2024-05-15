@@ -1,7 +1,7 @@
 async function bibleQuery(app, pool) {
-	app.get("/users/bible", (req, res) => {
+	app.get("/users/bible", async (req, res) => {
 		if (req.isAuthenticated()) {
-			pool.query(
+			await pool.query(
 				`SELECT * FROM englishbible WHERE (book, chapter_number) = ('John', 1)`,
 				(err, results) => {
 					if (err) {
@@ -14,20 +14,7 @@ async function bibleQuery(app, pool) {
 				}
 			);
 		} else {
-			// pool.query(
-			// 	`SELECT * FROM englishbible WHERE (book, chapter_number) = ('John', 1)`,
-			// 	(err, results) => {
-			// 		if (err) {
-			// 			return console.error("Error running query", err);
-			// 		}
-			// 		res.render("../public/views/scripture", {
-			// 			books: results.rows,
-			// 			loggedIn: false,
-			// 		});
-			// 	}
-			// );
-
-			pool.query(
+			await pool.query(
 				`SELECT book FROM englishbible WHERE (chapter_number, verse_number) = (1,1)`,
 				(err, results) => {
 					if (err) {
