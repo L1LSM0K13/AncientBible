@@ -27,19 +27,32 @@ async function bibleQuery(app, pool) {
 			// 	}
 			// );
 
-			const { rows } = await pool.query(
-				`SELECT book FROM englishbible WHERE (chapter_number, verse_number) = (1,1)`,
-				(err, results) => {
-					if (err) {
-						return console.error("Error running query", err);
-					}
-					const bookTitles = rows.map((row) => row.book);
-					res.render("../public/views/scripture", {
-						bookTitles: bookTitles,
-						loggedIn: false,
-					});
-				}
-			);
+			// await pool.query(
+			// 	`SELECT book FROM englishbible WHERE (chapter_number, verse_number) = (1,1)`,
+			// 	(err, results) => {
+			// 		if (err) {
+			// 			return console.error("Error running query", err);
+			// 		}
+			// 		res.render("../public/views/scripture", {
+			// 			bookTitles: results.rows,
+			// 			loggedIn: false,
+			// 		});
+			// 	}
+			// );
+
+			try {
+				const { rows } = await pool.query(
+					`SELECT book FROM englishbible WHERE (chapter_number, verse_number) = (1,1)`
+				);
+				const bookTitles = rows.map((row) => row.book); // Extracting just the book titles from the rows
+				res.render("../public/views/scripture", {
+					bookTitles: bookTitles,
+					loggedIn: false,
+				});
+			} catch (err) {
+				console.error("Error running query", err);
+				res.status(500).send("Internal Server Error");
+			}
 
 			// await pool.query(
 			// 	`SELECT chapter_number FROM englishbible WHERE (book, verse_number) = ('Genesis', 1)`
