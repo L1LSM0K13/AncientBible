@@ -47,4 +47,4 @@ async function bibleQuery(app, pool) {
 	});
 }
 
-module.exports = { bibleQuery };
+module.exports = { bibleQuery, bookText, loggedIn };
