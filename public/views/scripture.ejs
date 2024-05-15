@@ -33,7 +33,9 @@
 									name="selectBook"
 									class="p-1 rounded-sm dark:bg-[#202124]">
 									<% for( let i = 0; i < bookTitles.length; i++ ) { %>
-									<option value=""><%= bookTitles %></option>
+									<option value="<%= bookTitles[i] %>">
+										<%= bookTitles[i] %>
+									</option>
 									<% } %>
 								</select>
 								<select
