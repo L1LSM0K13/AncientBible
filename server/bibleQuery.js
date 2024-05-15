@@ -14,19 +14,18 @@ function bibleQuery(app, pool) {
 				}
 			);
 		} else {
-			pool.query(
-				`SELECT * FROM englishbible WHERE (book, chapter_number) = ('John', 1)`,
-				(err, results) => {
-					if (err) {
-						return console.error("Error running query", err);
-					}
-					res.render("../public/views/scripture", {
-						bookTitles: results.rows,
-						books: results.rows,
-						loggedIn: false,
-					});
-				}
-			);
+			// pool.query(
+			// 	`SELECT * FROM englishbible WHERE (book, chapter_number) = ('John', 1)`,
+			// 	(err, results) => {
+			// 		if (err) {
+			// 			return console.error("Error running query", err);
+			// 		}
+			// 		res.render("../public/views/scripture", {
+			// 			books: results.rows,
+			// 			loggedIn: false,
+			// 		});
+			// 	}
+			// );
 
 			pool.query(
 				`SELECT book FROM englishbible WHERE (chapter_number, verse_number) = (1,1)`,
@@ -35,6 +34,7 @@ function bibleQuery(app, pool) {
 						return console.error("Error running query", err);
 					}
 					res.render("../public/views/scripture", {
+						bookTitles: results.rows,
 						loggedIn: false,
 					});
 				}
