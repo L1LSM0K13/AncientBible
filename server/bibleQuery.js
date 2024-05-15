@@ -1,49 +1,39 @@
 async function bibleQuery(app, pool) {
-	// const bookChapters = `SELECT chapter_number FROM englishbible WHERE (book, verse_number) = ($1, 1)`;
-	// const bookTitleOptions = `SELECT book FROM englishbible WHERE (chapter_number, verse_number) = (1,1)`;
-
 	app.get("/users/bible", async (req, res) => {
 		const bookText = `SELECT * FROM englishbible WHERE (book, chapter_number) = ('John', 1)`;
+		const bookChapters = `SELECT chapter_number FROM englishbible WHERE (book, verse_number) = ($1, 1)`;
+		const bookTitleOptions = `SELECT book FROM englishbible WHERE (chapter_number, verse_number) = (1,1)`;
 
 		const isAuth = req.isAuthenticated();
 
 		if (isAuth) {
-			await pool.query(bookText, (err, results) => {
-				if (err) {
-					return console.error("Error running query", err);
-				}
-				res.render("../public/views/scripture", {
-					books: results.rows,
-					loggedIn: true,
-				});
+			const [bookTextRes, bookChaptersRes, bookTitleOptionsRes] =
+				await Promise.all([
+					pool.query(bookText),
+					pool.query(bookChapters, ["John"]),
+					pool.query(bookTitleOptions),
+				]);
+
+			res.render("../public/views/scripture", {
+				bookText: bookTextRes.rows,
+				bookChapters: bookChaptersRes.rows.map((row) => row, chapter_number),
+				bookTitleOptions: bookTitleOptionsRes.rows.map((row) => row.book),
+				loggedIn: true,
 			});
 		} else {
-			await pool.query(bookText, (err, results) => {
-				if (err) {
-					return console.error("Error running query", err);
-				}
-				res.render("../public/views/scripture", {
-					books: results.rows,
-					loggedIn: false,
-				});
+			const [bookTextRes, bookChaptersRes, bookTitleOptionsRes] =
+				await Promise.all([
+					pool.query(bookText),
+					pool.query(bookChapters, ["John"]),
+					pool.query(bookTitleOptions),
+				]);
+
+			res.render("../public/views/scripture", {
+				bookText: bookTextRes.rows,
+				bookChapters: bookChaptersRes.rows.map((row) => row, chapter_number),
+				bookTitleOptions: bookTitleOptionsRes.rows.map((row) => row.book),
+				loggedIn: false,
 			});
-
-			// await pool.query(bookChapters, (err, results) => {
-			// 	if (err) {
-			// 		return console.error("Error running query", err);
-			// 	}
-			// 	res.render("../public/views/scripture", {
-			// 		bookTitles: results.rows,
-			// 		loggedIn: false,
-			// 	});
-			// });
-
-			// const { rows } = await pool.query(bookTitleOptions);
-			// const bookTitles = rows.map((row) => row.book);
-			// res.render("../public/views/scripture", {
-			// 	bookTitles: bookTitles,
-			// 	loggedIn: false,
-			// });
 		}
 	});
 }
