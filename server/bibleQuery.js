@@ -27,14 +27,15 @@ async function bibleQuery(app, pool) {
 			// 	}
 			// );
 
-			await pool.query(
+			const { rows } = await pool.query(
 				`SELECT book FROM englishbible WHERE (chapter_number, verse_number) = (1,1)`,
 				(err, results) => {
 					if (err) {
 						return console.error("Error running query", err);
 					}
+					const bookTitles = rows.map((row) => row.book);
 					res.render("../public/views/scripture", {
-						bookTitles: results.rows,
+						bookTitles: bookTitles,
 						loggedIn: false,
 					});
 				}
