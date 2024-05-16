@@ -41,10 +41,13 @@
 async function bibleQuery(app, pool) {
 	app.get("/users/bible", async (req, res) => {
 		if (!req.isAuthenticated()) {
-			pool.query(`SELECT * FROM englishbible WHERE book = 'John'`);
+			pool.query(
+				`SELECT * FROM englishbible WHERE book = 'John'`,
+				(results, err)
+			);
 
 			res.render("../public/views/scripture.ejs", {
-				bookText: response.rows,
+				bookText: results.rows,
 				loggedIn: false,
 			});
 		}
