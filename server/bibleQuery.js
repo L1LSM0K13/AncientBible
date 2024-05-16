@@ -42,7 +42,7 @@ async function bibleQuery(app, pool) {
 	app.get("/users/bible", async (req, res) => {
 		if (!req.isAuthenticated()) {
 			await pool.query(
-				`SELECT * FROM englishbible WHERE book = 'John'`,
+				`SELECT verse_number, is_red, verse_text FROM englishbible WHERE book = 'John'`,
 				(err, results) => {
 					res.render("../public/views/scripture.ejs", {
 						bookText: results.rows,
