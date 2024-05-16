@@ -46,7 +46,6 @@ async function bibleQuery(app, pool) {
 				(err, results) => {
 					res.render("../public/views/scripture.ejs", {
 						bookText: results.rows,
-						isRed: bookText.is_red,
 						loggedIn: false,
 					});
 				}
