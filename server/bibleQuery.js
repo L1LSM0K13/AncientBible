@@ -1,6 +1,6 @@
 async function bibleQuery(app, pool) {
 	app.get("/users/bible", async (req, res) => {
-		const { bookName } = req.query;
+		const { bookName, chapterNumber } = req.query;
 		const bookText = `SELECT * FROM englishbible WHERE (book, chapter_number) = ($1, 1)`;
 		const bookChapters = `SELECT chapter_number FROM englishbible WHERE (book, verse_number) = ($1, 1)`;
 		const bookTitleOptions = `SELECT book FROM englishbible WHERE (chapter_number, verse_number) = (1,1)`;
@@ -10,7 +10,7 @@ async function bibleQuery(app, pool) {
 		if (isAuth) {
 			const [bookTextRes, bookChaptersRes, bookTitleOptionsRes] =
 				await Promise.all([
-					pool.query(bookText, [bookName]),
+					pool.query(bookText, [bookName, chapterNumber]),
 					pool.query(bookChapters, [bookName]),
 					pool.query(bookTitleOptions),
 				]);
