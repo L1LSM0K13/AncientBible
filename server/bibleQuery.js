@@ -43,13 +43,13 @@ async function bibleQuery(app, pool) {
 		if (!req.isAuthenticated()) {
 			pool.query(
 				`SELECT * FROM englishbible WHERE book = 'John'`,
-				(results, err)
+				(err, results) => {
+					res.render("../public/views/scripture.ejs", {
+						bookText: results.rows,
+						loggedIn: false,
+					});
+				}
 			);
-
-			res.render("../public/views/scripture.ejs", {
-				bookText: results.rows,
-				loggedIn: false,
-			});
 		}
 	});
 }
