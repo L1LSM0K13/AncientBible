@@ -27,7 +27,7 @@
 						<div class="mb-5 shadow-xl">
 							<h1 class="nodeTitleH1">Book of <%= bookText.name %></h1>
 							<div class="nodeInsideDiv px-5">
-								<% bookText.forEach(book => { if (bookText.is_red === true) { %>
+								<% bookText.forEach(book => { if (isRed === true) { %>
 								<span
 									class="m-1 p-1 dark:hover:bg-[#202124] hover:bg-[#f8f8da] hover:border border-[#c4c4ad] dark:border-[#000000] rounded-sm dark:text-red-500 text-red-600">
 									<span class="font-semibold text-gray-800 dark:text-[#d9dde0]"
