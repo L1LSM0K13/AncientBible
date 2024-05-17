@@ -29,8 +29,8 @@ async function bibleQuery(app, pool) {
 			const [bookTitleOptionsRes, bookChaptersRes, bookTextRes] =
 				await Promise.all([
 					pool.query(bookTitleOptions),
-					pool.query(bookChapters, [book]),
-					pool.query(bookText, [book, chapter]),
+					pool.query(bookChapters, [defaultBook]),
+					pool.query(bookText, [defaultBook, defaultChapter]),
 				]);
 
 			res.render("../public/views/scripture", {
