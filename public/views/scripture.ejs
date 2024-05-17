@@ -21,30 +21,88 @@
 			<article>
 				<div class="2xl:flex gap-5 nodeMargins">
 					<!-- Menu Block -->
+					<div class="2xl:shrink-0">
+						<!-- Jump to Book menu -->
+
+						<div class="nodeInsideDiv overflow-hidden grid gap-1 grid-cols-2">
+							<form id="selectForm" action="/users/bible" method="GET">
+								<select name="book" class="p-1 rounded-sm dark:bg-[#202124]" onchange="this.form.submit()">
+									<% bookTitleOptions.forEach(option => { %>
+										<option value="<%= option %>" <%= option === selectedBook ? 'selected' : '' %>><%= option %></option>
+									<% }) %>
+								</select>
+								<select name="chapter" class="p-1 rounded-sm dark:bg-[#202124]" onchange="this.form.submit()">
+									<% bookChapters.forEach(chapter => { %>
+										<option value="<%= chapter %>" <%= chapter == selectedChapter ? 'selected' : '' %>><%= chapter %></option>
+									<% }) %>
+								</select>
+							</form>
+						</div>
+
+
+						<!-- Format Menu -->
+						<div class="mb-5 shadow-xl">
+							<h1 class="nodeTitleH1">Formatting Options</h1>
+
+							<div class="nodeInsideDiv overflow-hidden">
+								<div
+									class="grid grid-rows-2 grid-cols-2 sm:gap-x-8 gap-x-1 gap-y-1">
+									<button
+										id="verseBtn"
+										class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 dark:hover:bg-[#0f0f0f] row-start-1 dark:bg-[#202124]">
+										Verse-by-Verse
+									</button>
+									<button
+										id="redLetterBtn"
+										class="bg-gray-200 px-1 rounded-sm text-red-600 hover:bg-red-600 hover:text-white col-start-2 active:bg-red-600 dark:bg-[#202124]">
+										Red Lettering
+									</button>
+
+									<!-- Font Selection -->
+									<div class="grid">
+										<select
+											id="fontType"
+											name="fontType"
+											class="dark:bg-[#202124]">
+											<option value="">Font Default</option>
+											<option value="Times New Roman">Times New Roman</option>
+											<option value="Courier New">Courier New</option>
+										</select>
+									</div>
+									<div class="grid">
+										<select
+											id="fontSize"
+											name="fontSize"
+											class="dark:bg-[#202124]">
+											<option value="18px">Font Small</option>
+											<option value="22px">Font Medium</option>
+											<option value="24px">Font Large</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
 					<!-- New Block -->
 					<div>
 						<div class="mb-5 shadow-xl">
-							<h1 class="nodeTitleH1">Book of <%= bookText.name %></h1>
-							<div class="nodeInsideDiv px-5">
-								<% bookText.forEach(book => { if (book.is_red === true) { %>
-								<span class="m-1 p-1 dark:text-red-500 text-red-600">
-									<span class="font-semibold text-gray-800 dark:text-[#d9dde0]"
-										><%= book.verse_number %>
-									</span>
-									<%= book.verse_text %></span
-								>
-								<% } else { %>
-								<span class="m-1 p-1">
-									<span class="font-semibold text-gray-800 dark:text-[#d9dde0]"
-										><%= book.verse_number %>
-									</span>
-									<%= book.verse_text %></span
-								>
-								<% }}) %>
-							</div>
+								<h1 class="nodeTitleH1">Book of <%= selectedBook %></h1>
+								<div class="nodeInsideDiv px-5">
+										<% bookText.forEach(book => { if (book.is_red) { %>
+										<span class="m-1 p-1 dark:text-red-500 text-red-600">
+												<span class="font-semibold text-gray-800 dark:text-[#d9dde0]"><%= book.verse_number %></span>
+												<%= book.verse_text %>
+										</span>
+										<% } else { %>
+										<span class="m-1 p-1">
+												<span class="font-semibold text-gray-800 dark:text-[#d9dde0]"><%= book.verse_number %></span>
+												<%= book.verse_text %>
+										</span>
+										<% }}) %>
+								</div>
 						</div>
-					</div>
+				</div>
 				</div>
 			</article>
 		</main>
