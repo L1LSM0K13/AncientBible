@@ -34,6 +34,12 @@
 										</option>
 										<% } %>
 								</select>
+								<select name="chapter" class="p-1 rounded-sm dark:bg-[#202124]" onchange="this.form.submit()">
+									<% for( let i = 0; i < bookChapters.length; i++ ) { %>
+										<option value="<%= bookChapters[i] %> " <%= selectedChapter === bookChapters[i] ? 'selected' : '' %>>
+										<%= bookChapters[i] %></option>
+									<% } %>
+								</select>
 							</form>
 						</div>
 
