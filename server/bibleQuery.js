@@ -3,7 +3,7 @@ async function bibleQuery(app, pool) {
 		const defaultBook = req.query.book || "John";
 		const defaultChapter = req.query.chapter || 1;
 
-		const bookTitleOptions = `SELECT DISTINCT book FROM bible_verses ORDER BY book`;
+		const bookTitleOptions = `SELECT DISTINCT book FROM verse_text ORDER BY book`;
 		const bookChapters = `SELECT DISTINCT chapter_number FROM verse_text WHERE book = $1 ORDER BY chapter_number`;
 		const bookText = `SELECT * FROM englishbible WHERE book = $1 AND chapter_number = $2 ORDER BY verse_number`;
 
@@ -46,19 +46,3 @@ async function bibleQuery(app, pool) {
 }
 
 module.exports = { bibleQuery };
-
-// async function bibleQuery(app, pool) {
-// 	app.get("/users/bible", async (req, res) => {
-// 		if (!req.isAuthenticated()) {
-// 			await pool.query(
-// 				`SELECT verse_number, is_red, verse_text FROM englishbible WHERE book = 'John'`,
-// 				(err, results) => {
-// 					res.render("../public/views/scripture.ejs", {
-// 						bookText: results.rows,
-// 						loggedIn: false,
-// 					});
-// 				}
-// 			);
-// 		}
-// 	});
-// }
