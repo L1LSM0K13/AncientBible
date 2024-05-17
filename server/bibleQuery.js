@@ -38,8 +38,8 @@ async function bibleQuery(app, pool) {
 				bookText: bookTextRes.rows,
 				bookChapters: bookChaptersRes.rows.map((row) => row.chapter_number),
 				bookTitleOptions: bookTitleOptionsRes.rows.map((row) => row.book),
-				selectedBook: book,
-				selectedChapter: chapter,
+				selectedBook: defaultBook,
+				selectedChapter: defaultChapter,
 			});
 		}
 	});
