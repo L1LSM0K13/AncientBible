@@ -264,7 +264,7 @@
 							<select name="book" onchange="this.form.submit()">
 								<% for( let i = 0; i < bookTitleOptions.length; i++ ) { %>
 								<option value="<%= booktitleOptions[i] %>" <%= selectedBook === booktitleOptions ? 'selected' : '' %>>
-									<%= booktitleOptions[i] %>
+									<%= bookTitleOptions[i] %>
 								</option>
 								<% } %>
 							</select>
