@@ -14,7 +14,7 @@ async function fathersQuery(app, pool) {
 				await Promise.all([
 					pool.query(bookTitleOptions),
 					pool.query(bookChapters, [book]),
-					poo.query(bookText, [defaultBook, defaultChapter]),
+					pool.query(bookText, [defaultBook, defaultChapter]),
 				]);
 			res.render("../public/views/fathers", {
 				loggedIn: true,
@@ -29,7 +29,7 @@ async function fathersQuery(app, pool) {
 				await Promise.all([
 					pool.query(bookTitleOptions),
 					pool.query(bookChapters, [defaultBook]),
-					poo.query(bookText, [defaultBook, defaultChapter]),
+					pool.query(bookText, [defaultBook, defaultChapter]),
 				]);
 			res.render("../public/views/fathers", {
 				loggedIn: false,
