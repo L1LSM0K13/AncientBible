@@ -3,7 +3,7 @@ async function fathersQuery(app, pool) {
 		const defaultBook = req.query.book || "I Clement";
 		const defaultChapter = req.query.chapter || 1;
 
-		const bookTitleOptions = `SELECT DISTINCT book FROM fathersandwritings ORDER BY id`;
+		const bookTitleOptions = `SELECT book FROM fathersandwritings ORDER BY id`;
 		const bookChapters = `SELECT DISTINCT chapter_number FROM fathersandwritings WHERE book = $1 ORDER BY chapter_number`;
 		const bookText = `SELECT * FROM fathersandwritings WHERE book = $1 AND chapter_number = $2 ORDER BY id`;
 
