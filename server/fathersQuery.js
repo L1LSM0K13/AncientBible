@@ -1,6 +1,6 @@
 async function fathersQuery(app, pool) {
 	app.get("/users/fathers", async (req, res) => {
-		const defaultBook = req.query.book || "I Clement";
+		const defaultBook = req.query.book || "1 Clement";
 		const defaultChapter = req.query.chapter || 1;
 
 		const bookTitleOptions = `SELECT book FROM fathersandwritings ORDER BY id`;
