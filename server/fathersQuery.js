@@ -1,9 +1,44 @@
-function fathersQuery(app) {
-	app.get("/users/fathers", (req, res) => {
-		if (req.isAuthenticated()) {
-			res.render("../public/views/fathers", { loggedIn: true });
+async function fathersQuery(app, pool) {
+	app.get("/users/fathers", async (req, res) => {
+		const defaultBook = req.query.book || "I Clement";
+		const defaultChapter = req.query.chapter || 1;
+
+		const bookTitleOptions = `SELECT DISTINCT book, id FROM fathersandwritings ORDER BY id`;
+		const bookChapters = `SELECT DISTINCT chapter_number FROM fathersandwritings WHERE book = $1 ORDER BY chapter_number`;
+		const bookText = `SELECT * FROM fathersandwritings WHERE book = $1 AND chapter_number = $2 ORDER BY id`;
+
+		const isAuth = req.isAuthenticated();
+
+		if (isAuth) {
+			const [bookTitleOptionRes, bookChaptersRes, bookTextRes] =
+				await Promise.all([
+					pool.query(bookTitleOptions),
+					pool.query(bookChapters, [book]),
+					poo.query(bookText, [book, chapter]),
+				]);
+			res.render("../public/views/fathers", {
+				loggedIn: true,
+				bookText: bookTextRes.rows,
+				bookChapters: bookChaptersRes.rows.map((row) => row.chapter_number),
+				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
+				selectedBook: book,
+				selectedChapter: chapter,
+			});
 		} else {
-			res.render("../public/views/fathers", { loggedIn: false });
+			const [bookTitleOptionRes, bookChaptersRes, bookTextRes] =
+				await Promise.all([
+					pool.query(bookTitleOptions),
+					pool.query(bookChapters, [book]),
+					poo.query(bookText, [book, chapter]),
+				]);
+			res.render("../public/views/fathers", {
+				loggedIn: false,
+				bookText: bookTextRes.rows,
+				bookChapters: bookChaptersRes.rows.map((row) => row.chapter_number),
+				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
+				selectedBook: book,
+				selectedChapter: chapter,
+			});
 		}
 	});
 }

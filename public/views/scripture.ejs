@@ -24,23 +24,26 @@
 					<div class="2xl:shrink-0">
 						<!-- Jump to Book menu -->
 
-						<div class="nodeTitleH1">— Jump to Book —</div>
-						<div class="nodeInsideDiv overflow-hidden grid gap-1 grid-cols-2 mb-5">
-							<form id="selectForm" action="/users/bible" method="GET">
-								<select name="book" class="p-1 rounded-sm dark:bg-[#202124]" onchange="this.form.submit()">
-									<% for( let i = 0; i < bookTitleOptions.length; i++ ) { %>
-										<option value="<%= bookTitleOptions[i] %>" <%= selectedBook === bookTitleOptions[i] ? 'selected' : '' %>>
-											<%= bookTitleOptions[i] %>
+						<div class="shadow-xl">
+							<div class="nodeTitleH1">— Jump to Book —</div>
+							<div class="nodeInsideDiv overflow-hidden grid gap-1 grid-cols-2 mb-5">
+								<form id="selectForm" action="/users/bible" method="GET">
+									<select name="book" class="p-1 rounded-sm dark:bg-[#202124]" onchange="this.form.submit()">
+										<% for( let i = 0; i < bookTitleOptions.length; i++ ) { %>
+											<option value="<%= bookTitleOptions[i] %>" <%= selectedBook === bookTitleOptions[i] ? 'selected' : '' %>>
+												<%= bookTitleOptions[i] %>
+											</option>
+											<% } %>
+									</select>
+									<select name="chapter" class="p-1 rounded-sm dark:bg-[#202124]" onchange="this.form.submit()">
+										<% for( let i = 0; i < bookChapters.length; i++ ) { %>
+											<option value="<%= bookChapters[i] %> " <%= selectedChapter === bookChapters[i] ? 'selected' : '' %>>
+											<%= bookChapters[i] %>
 										</option>
 										<% } %>
-								</select>
-								<select name="chapter" class="p-1 rounded-sm dark:bg-[#202124]" onchange="this.form.submit()">
-									<% for( let i = 0; i < bookChapters.length; i++ ) { %>
-										<option value="<%= bookChapters[i] %> " <%= selectedChapter === bookChapters[i] ? 'selected' : '' %>>
-										<%= bookChapters[i] %></option>
-									<% } %>
-								</select>
-							</form>
+									</select>
+								</form>
+							</div>
 						</div>
 
 						<!-- Format Menu -->

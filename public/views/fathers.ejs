@@ -20,7 +20,7 @@
 
 			<!-- Volume Set -->
 			<nav>
-				<div class="nodeMargins my-6">
+				<div class="nodeMargins my-6 shadow-xl">
 					<h1 class="nodeTitleH1">Jump to volume:</h1>
 					<div class="nodeInsideDiv">
 						<!-- Volumes div -->
@@ -257,12 +257,43 @@
 			</nav>
 
 			<article>
-				<div class="nodeMargins my-6">
+				<div class="nodeMargins my-6 shadow-xl">
 					<h1 class="nodeTitleH1">Fathers</h1>
-					<div class="nodeInsideDiv">Church Fathers Page</div>
+					<div class="nodeInsideDiv">
+						<form action="/users/fathers" method="GET" id="selectFormFathers">
+							<select name="book" onchange="this.form.submit()">
+								<% for( let i = 0; i < booktitleOptions.length; i++ ) { %>
+								<option value="<%= booktitleOptions[i] %>" <%= selectedBook === booktitleOptions ? 'selected' : '' %>>
+									<%= booktitleOptions[i] %>
+								</option>
+								<% } %>
+							</select>
+							<select name="chapter" onchange="this.form.submit()">
+								<% for( let i = 0; i < bookChapters.length; i++ ) { %>
+								<option value="<%= bookChapters[i] %>" <%= selectedChapter === bookChapters[i] ? 'selected' : '' %>>
+									<%= bookChapters[i] %>
+								</option>
+								<% } %>
+							</select>
+						</form>
+					</div>
 				</div>
 			</article>
 		</main>
+
+		<div>
+			<div class="mb-5 shadow-xl">
+				<h1 class="nodeTitleH1"><%= selectedBook %></h1>
+				<div class="nodeInsideDiv px-5">
+					<% bookText.forEach(book => { %>
+					 <span class="m-1 p-1">
+						<%= book.text_content %>
+					 </span>
+					<% }) %>
+				</div>
+			</div>
+		</div>
+
 
 		<footer></footer>
 
