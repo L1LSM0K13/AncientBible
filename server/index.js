@@ -55,7 +55,7 @@ app.get("/users/login", checkAuthenticated, (req, res) => {
 });
 
 bibleQuery(app, pool);
-fathersQuery(app);
+fathersQuery(app, pool);
 register(app, pool);
 
 app.get("/users/logout", (req, res) => {
