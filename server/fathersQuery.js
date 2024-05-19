@@ -21,8 +21,8 @@ async function fathersQuery(app, pool) {
 				bookText: bookTextRes.rows,
 				bookChapters: bookChaptersRes.rows.map((row) => row.chapter_number),
 				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
-				selectedBook: book,
-				selectedChapter: chapter,
+				selectedBook: defaultBook,
+				selectedChapter: defaultChapter,
 			});
 		} else {
 			const [bookTitleOptionRes, bookChaptersRes, bookTextRes] =
@@ -36,8 +36,8 @@ async function fathersQuery(app, pool) {
 				bookText: bookTextRes.rows,
 				bookChapters: bookChaptersRes.rows.map((row) => row.chapter_number),
 				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
-				selectedBook: book,
-				selectedChapter: chapter,
+				selectedBook: defaultBook,
+				selectedChapter: defaultChapter,
 			});
 		}
 	});
