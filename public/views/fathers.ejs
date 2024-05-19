@@ -263,7 +263,7 @@
 						<form action="/users/fathers" method="GET" id="selectFormFathers">
 							<select name="book" onchange="this.form.submit()">
 								<% for( let i = 0; i < bookTitleOptions.length; i++ ) { %>
-								<option value="<%= booktitleOptions[i] %>" <%= selectedBook === booktitleOptions ? 'selected' : '' %>>
+								<option value="<%= bookTitleOptions[i] %>" <%= selectedBook === booktitleOptions ? 'selected' : '' %>>
 									<%= bookTitleOptions[i] %>
 								</option>
 								<% } %>
