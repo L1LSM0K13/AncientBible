@@ -270,7 +270,7 @@
 							</select>
 							<select name="chapter" onchange="this.form.submit()" class="p-1 rounded-sm dark:bg-[#202124]">
 								<% for( let i = 0; i < bookChapters.length; i++ ) { %>
-								<option value="<%= bookChapters[i] %>" <%= selectedChapter === bookChapters[i] ? 'selected' : '' %>>
+								<option value="<%= bookChapters[i] %>" <%= selectedChapter == bookChapters[i] ? 'selected' : '' %>>
 									<%= bookChapters[i] %>
 								</option>
 								<% } %>
