@@ -30,7 +30,7 @@
 								<form class="grid gap-1 grid-cols-2" id="selectForm" action="/users/bible" method="GET">
 									<select name="book" class="p-1 rounded-sm dark:bg-[#202124]" onchange="this.form.submit()">
 										<% for( let i = 0; i < bookTitleOptions.length; i++ ) { %>
-											<option value="<%= bookTitleOptions[i] %>" <%= selectedBook === bookTitleOptions[i] ? 'selected' : '' %>>
+											<option value="<%= bookTitleOptions[i] %>" <%= selectedBook == bookTitleOptions[i] ? 'selected' : '' %>>
 												<%= bookTitleOptions[i] %>
 											</option>
 											<% } %>
