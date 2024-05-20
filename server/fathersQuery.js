@@ -7,7 +7,7 @@ async function fathersQuery(app, pool) {
 		// const bookChapters = `SELECT DISTINCT chapter_number FROM fathersandwritings WHERE book = $1 ORDER BY chapter_number`;
 		// const bookText = `SELECT * FROM fathersandwritings WHERE book = $1 AND chapter_number = $2 ORDER BY id`;
 
-		const bookTitleOptions = `SELECT DISTINCT book FROM fathersandwritings`;
+		const bookTitleOptions = `SELECT DISTINCT book FROM fathersandwritings ORDER BY book`;
 		const bookChapters = `SELECT DISTINCT chapter_number FROM fathersandwritings WHERE book = $1 ORDER BY chapter_number`;
 		const bookText = `SELECT * FROM fathersandwritings WHERE book = $1 AND chapter_number = $2 ORDER BY id`;
 
