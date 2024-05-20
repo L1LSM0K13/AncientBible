@@ -261,14 +261,14 @@
 					<h1 class="nodeTitleH1">Fathers</h1>
 					<div class="nodeInsideDiv">
 						<form action="/users/fathers" method="GET" id="selectFormFathers">
-							<select name="book" onchange="this.form.submit()">
+							<select name="book" onchange="this.form.submit()" class="p-1 rounded-sm dark:bg-[#202124]">
 								<% for( let i = 0; i < bookTitleOptions.length; i++ ) { %>
 								<option value="<%= bookTitleOptions[i] %>" <%= selectedBook === bookTitleOptions ? 'selected' : '' %>>
 									<%= bookTitleOptions[i] %>
 								</option>
 								<% } %>
 							</select>
-							<select name="chapter" onchange="this.form.submit()">
+							<select name="chapter" onchange="this.form.submit()" class="p-1 rounded-sm dark:bg-[#202124]">
 								<% for( let i = 0; i < bookChapters.length; i++ ) { %>
 								<option value="<%= bookChapters[i] %>" <%= selectedChapter === bookChapters[i] ? 'selected' : '' %>>
 									<%= bookChapters[i] %>
