@@ -20,7 +20,10 @@ async function bibleQuery(app, pool) {
 			if (!req.query.chapter && bookChapters.length > 0) {
 				defaultChapter = bookChapters[0];
 			}
-			const bookTextRes = pool.query(bookText, [defaultBook, defaultChapter]);
+			const bookTextRes = await pool.query(bookText, [
+				defaultBook,
+				defaultChapter,
+			]);
 
 			res.render("../public/views/scripture", {
 				loggedIn: true,
@@ -41,7 +44,10 @@ async function bibleQuery(app, pool) {
 			if (!req.query.chapter && bookChapters.length > 0) {
 				defaultChapter = bookChapters[0];
 			}
-			const bookTextRes = pool.query(bookText, [defaultBook, defaultChapter]);
+			const bookTextRes = await pool.query(bookText, [
+				defaultBook,
+				defaultChapter,
+			]);
 
 			res.render("../public/views/scripture", {
 				loggedIn: false,
