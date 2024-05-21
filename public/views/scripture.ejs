@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="/css/output.css" />
 
 		<script src="/scripts/darkModeToggle.js" defer></script>
-		<script src="../scripts/verseByVerse.js" defer></script>
+		<script src="/scripts/verseByVerse.js" defer></script>
 	</head>
 
 	<body
@@ -95,7 +95,7 @@
 					<div>
 						<div class="mb-5 shadow-xl">
 								<h1 class="nodeTitleH1">Book of <%= selectedBook %></h1>
-								<div class="nodeInsideDiv px-5">
+								<div id="vContainer" class="nodeInsideDiv px-5">
 										<% bookText.forEach(book => { if (book.is_red) { %>
 										<span class="m-1 p-1 dark:text-red-500 text-red-600">
 												<span class="font-semibold text-gray-800 dark:text-[#d9dde0]"><%= book.verse_number %></span>

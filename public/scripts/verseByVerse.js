@@ -1,7 +1,6 @@
 const verseBtn = document.getElementById("verseBtn");
+const vContainer = document.getElementById("vContainer");
 
-document.addEventListener("DOMContentLoaded", () => {
-	verseBtn.addEventListener("click", () => {
-		verseBtn.classList.toggle("grid");
-	});
+verseBtn.addEventListener("click", () => {
+	vContainer.classList.toggle("grid");
 });
