@@ -41,25 +41,6 @@ async function bibleQuery(app, pool) {
 			});
 		}
 	});
-
-	app.post("/is_red", async (req, res) => {
-		try {
-			// First, check the current state of is_red
-			const result = await pool.query(
-				"SELECT DISTINCT is_red FROM englishbible"
-			);
-			const isCurrentlyRed = result.rows.some((row) => row.is_red);
-
-			// Determine the new state to set
-			const newState = isCurrentlyRed ? false : true;
-			await client.query("UPDATE englishbible SET is_red = $1", [newState]);
-
-			res.json({ success: true, newState });
-		} catch (err) {
-			console.error(err);
-			res.status(500).json({ success: false, error: err.message });
-		}
-	});
 }
 
 module.exports = { bibleQuery };
