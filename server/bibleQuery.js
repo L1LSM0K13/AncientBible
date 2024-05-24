@@ -10,20 +10,38 @@ async function bibleQuery(app, pool) {
 		const isAuth = req.isAuthenticated();
 
 		if (isAuth) {
+			let nextBook = defaultBook;
+			let nextChapter = defaultChapter + 1;
+
+			if (nextChapter > bookChapters[bookChapters.length - 1]) {
+				const currentBookIndex = bookTitleOptions.indexOf(defaultBook);
+				if (currentBookIndex < bookTitleOptions.length - 1) {
+					nextBook = bookTitleOptions[currentBookIndex + 1];
+					const nextBookChapterRes = await pool.query(bookChapters, [nextBook]);
+					nextChapter = nextBookChapterRes.rows[0].chapter_number;
+				} else {
+					nextBook = bookTitleOptions[0];
+					const nextBookChapterRes = await pool.query(bookChapters, [nextBook]);
+					nextChapter = nextBookChapterRes.rows[0].chapter_number;
+				}
+			}
+
+			const renderedData = {
+				loggedIn: isAuth,
+				bookText: bookTextRes.rows,
+				bookChapters: bookChaptersRes.rows.map((row) => row.chapter_number),
+				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
+				selectedBook: defaultBook,
+				selectedChapter: defaultChapter,
+			};
+
 			const [bookTitleOptionRes, bookChaptersRes, bookTextRes] =
 				await Promise.all([
 					pool.query(bookTitleOptions),
 					pool.query(bookChapters, [defaultBook]),
 					pool.query(bookText, [defaultBook, defaultChapter]),
 				]);
-			res.render("../public/views/scripture", {
-				loggedIn: true,
-				bookText: bookTextRes.rows,
-				bookChapters: bookChaptersRes.rows.map((row) => row.chapter_number),
-				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
-				selectedBook: defaultBook,
-				selectedChapter: defaultChapter,
-			});
+			res.render("../public/views/scripture", renderedData);
 		} else {
 			const [bookTitleOptionRes, bookChaptersRes, bookTextRes] =
 				await Promise.all([
@@ -31,14 +49,17 @@ async function bibleQuery(app, pool) {
 					pool.query(bookChapters, [defaultBook]),
 					pool.query(bookText, [defaultBook, defaultChapter]),
 				]);
-			res.render("../public/views/scripture", {
-				loggedIn: false,
+
+			const renderedData = {
+				loggedIn: isAuth,
 				bookText: bookTextRes.rows,
 				bookChapters: bookChaptersRes.rows.map((row) => row.chapter_number),
 				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
 				selectedBook: defaultBook,
 				selectedChapter: defaultChapter,
-			});
+			};
+
+			res.render("../public/views/scripture", renderedData);
 		}
 	});
 }

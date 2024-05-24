@@ -113,13 +113,13 @@
 
 						<div class="mb-5 shadow-xl">
 					<h1 class="nodeTitleH1">
-						<div class="grid gap-5">
+						<div class="grid gap-5 grid-cols-2">
 							<a>Previous</a>
 							<a>Next</a>
 						</div>
 					</h1>
 					<div class="nodeInsideDiv px-5">
-						Chapter <%= bookText.chapter_number %>
+						<a href="/users/bible?book=<%= nextBook %>&chapter=<%nextChapter%>">Next Chapter</a>
 						</div>
 					</div>
 
