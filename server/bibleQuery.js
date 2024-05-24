@@ -8,11 +8,10 @@ async function bibleQuery(app, pool) {
 		const bookText = `SELECT * FROM bible_eng WHERE book = $1 AND chapter_number = $2 ORDER BY verse_number`;
 
 		const isAuth = req.isAuthenticated();
+		let nextBook = defaultBook;
+		let nextChapter = defaultChapter + 1;
 
 		if (isAuth) {
-			let nextBook = defaultBook;
-			let nextChapter = defaultChapter + 1;
-
 			if (nextChapter > bookChapters[bookChapters.length - 1]) {
 				const currentBookIndex = bookTitleOptions.indexOf(defaultBook);
 				if (currentBookIndex < bookTitleOptions.length - 1) {
