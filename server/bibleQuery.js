@@ -34,7 +34,7 @@ async function bibleQuery(app, pool) {
 					]);
 					nextChapter = parseInt(nextChapterRes.rows[0].chapter_number);
 				} else {
-					nextBook = bookTitles[0];
+					nextBook = bookTitles[nextBook + 1];
 					const nextChapterRes = await pool.query(bookChaptersQuery, [
 						nextBook,
 					]);
