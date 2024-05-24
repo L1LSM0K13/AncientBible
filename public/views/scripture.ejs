@@ -30,9 +30,9 @@
 							<div class="nodeInsideDiv overflow-hidden mb-5">
 								<form class="grid gap-1 grid-cols-2" id="selectForm" action="/users/bible" method="GET">
 									<select name="book" class="p-1 rounded-sm dark:bg-[#202124]" onchange="this.form.submit()">
-										<% for( let i = 0; i < bookTitleOptions.length; i++ ) { %>
-											<option value="<%= bookTitleOptions[i] %>" <%= selectedBook == bookTitleOptions[i] ? 'selected' : '' %>>
-												<%= bookTitleOptions[i] %>
+										<% for( let i = 0; i < bookTitleOptionsQuery.length; i++ ) { %>
+											<option value="<%= bookTitleOptionsQuery[i] %>" <%= selectedBook == bookTitleOptionsQuery[i] ? 'selected' : '' %>>
+												<%= bookTitleOptionsQuery[i] %>
 											</option>
 											<% } %>
 									</select>
