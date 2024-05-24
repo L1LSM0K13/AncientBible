@@ -46,7 +46,7 @@ async function bibleQuery(app, pool) {
 				loggedIn: isAuth,
 				bookText: bookText,
 				bookChapters: chapters,
-				bookTitleOptions: bookTitles,
+				bookTitleOptionsQuery: bookTitles,
 				selectedBook: defaultBook,
 				selectedChapter: defaultChapter,
 				nextBook: nextBook,
