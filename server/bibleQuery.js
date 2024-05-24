@@ -46,7 +46,7 @@ async function bibleQuery(app, pool) {
 				loggedIn: isAuth,
 				bookText: bookText,
 				bookChapters: chapters,
-				bookTitleOptionsQuery: bookTitles,
+				bookTitleOptions: bookTitles,
 				selectedBook: defaultBook,
 				selectedChapter: defaultChapter,
 				nextBook: nextBook,
@@ -57,16 +57,41 @@ async function bibleQuery(app, pool) {
 		} else {
 			const [bookTitleOptionRes, bookChaptersRes, bookTextRes] =
 				await Promise.all([
-					pool.query(bookTitleOptions),
-					pool.query(bookChapters, [defaultBook]),
-					pool.query(bookText, [defaultBook, defaultChapter]),
+					pool.query(bookTitleOptionsQuery),
+					pool.query(bookChaptersQuery, [defaultBook]),
+					pool.query(bookTextQuery, [defaultBook, defaultChapter]),
 				]);
+
+			const bookTitles = bookTitleOptionRes.rows.map((row) => row.book);
+			const chapters = bookChaptersRes.rows.map((row) => row.chapter_number);
+			const bookText = bookTextRes.rows;
+
+			let nextBook = defaultBook;
+			let nextChapter = defaultChapter + 1;
+
+			if (nextChapter > chapters.length) {
+				const currentBookIndex = bookTitleOptionsQuery.indexOf(defaultBook);
+
+				if (currentBookIndex < bookTitles.length - 1) {
+					nextBook = bookTitles[currentBookIndex + 1];
+					const nextChapterRes = await pool.query(bookChaptersQuery, [
+						nextBook,
+					]);
+					nextChapter = parseInt(nextChapterRes.rows[0].chapter_number);
+				} else {
+					nextBook = bookTitles[0];
+					const nextChapterRes = await pool.query(bookChaptersQuery, [
+						nextBook,
+					]);
+					nextChapter = parseInt(nextChapterRes.rows[0].chapter_number);
+				}
+			}
 
 			const renderedData = {
 				loggedIn: isAuth,
-				bookText: bookTextRes.rows,
-				bookChapters: bookChaptersRes.rows.map((row) => row.chapter_number),
-				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
+				bookText: bookText,
+				bookChapters: chapters,
+				bookTitleOptions: bookTitles,
 				selectedBook: defaultBook,
 				selectedChapter: defaultChapter,
 				nextBook: nextBook,
