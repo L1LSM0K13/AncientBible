@@ -33,6 +33,8 @@ async function bibleQuery(app, pool) {
 				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
 				selectedBook: defaultBook,
 				selectedChapter: defaultChapter,
+				nextBook: nextBook,
+				nextChapter: nextChapter,
 			};
 
 			const [bookTitleOptionRes, bookChaptersRes, bookTextRes] =
@@ -57,6 +59,8 @@ async function bibleQuery(app, pool) {
 				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
 				selectedBook: defaultBook,
 				selectedChapter: defaultChapter,
+				nextBook: nextBook,
+				nextChapter: nextChapter,
 			};
 
 			res.render("../public/views/scripture", renderedData);
