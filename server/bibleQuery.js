@@ -14,16 +14,17 @@ async function bibleQuery(app, pool) {
 		let nextChapter = defaultChapter + 1;
 
 		if (isAuth) {
-			if (nextChapter > bookChapters[bookChapters.length - 1]) {
+			if (nextChapter > bookChapters[bookChapters.length]) {
 				const currentBookIndex = bookTitleOptions.indexOf(defaultBook);
+
 				if (currentBookIndex < bookTitleOptions.length - 1) {
 					nextBook = bookTitleOptions[currentBookIndex + 1];
-					const nextBookChapterRes = await pool.query(bookChapters, [nextBook]);
-					nextChapter = parseInt(nextBookChapterRes.rows[0].chapter_number);
+					const nextChapterRes = await pool.query(bookChapters, [nextBook]);
+					nextChapter = parseInt(nextChapterRes.rows[0].chapter_number);
 				} else {
 					nextBook = bookTitleOptions[0];
-					const nextBookChapterRes = await pool.query(bookChapters, [nextBook]);
-					nextChapter = parseInt(nextBookChapterRes.rows[0].chapter_number);
+					const nextChapterRes = await pool.query(bookChapters, [nextBook]);
+					nextChapter = parseInt(nextChapterRes.rows[0].chapter_number);
 				}
 			}
 
