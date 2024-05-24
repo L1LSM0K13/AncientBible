@@ -1,3 +1,5 @@
+const { parse } = require("dotenv");
+
 async function bibleQuery(app, pool) {
 	app.get("/users/bible", async (req, res) => {
 		const defaultBook = req.query.book || "John";
@@ -17,11 +19,11 @@ async function bibleQuery(app, pool) {
 				if (currentBookIndex < bookTitleOptions.length - 1) {
 					nextBook = bookTitleOptions[currentBookIndex + 1];
 					const nextBookChapterRes = await pool.query(bookChapters, [nextBook]);
-					nextChapter = nextBookChapterRes.rows[0].chapter_number;
+					nextChapter = parseInt(nextBookChapterRes.rows[0].chapter_number);
 				} else {
 					nextBook = bookTitleOptions[0];
 					const nextBookChapterRes = await pool.query(bookChapters, [nextBook]);
-					nextChapter = nextBookChapterRes.rows[0].chapter_number;
+					nextChapter = parseInt(nextBookChapterRes.rows[0].chapter_number);
 				}
 			}
 
