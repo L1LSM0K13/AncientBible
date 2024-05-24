@@ -1,7 +1,7 @@
 async function bibleQuery(app, pool) {
 	app.get("/users/bible", async (req, res) => {
 		const defaultBook = req.query.book || "John";
-		const defaultChapter = req.query.chapter || 1;
+		const defaultChapter = parseInt(req.query.chapter) || 1;
 
 		const bookTitleOptions = `SELECT DISTINCT book, book_order FROM bible_eng ORDER BY book_order;`;
 		const bookChapters = `SELECT DISTINCT chapter_number FROM bible_eng WHERE book = $1 ORDER BY chapter_number`;
