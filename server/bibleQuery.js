@@ -48,13 +48,14 @@ async function bibleQuery(app, pool) {
 					previousBook,
 				]);
 				previousChapter = previousChapterRes.rows[0].chapter_number;
-			} else {
-				previousBook = bookTitles[currentBookIndex - 1];
-				const previousChapterRes = await pool.query(bookChaptersQuery, [
-					previousBook,
-				]);
-				previousChapter = previousChapterRes.rows[0].chapter_number;
 			}
+			// else {
+			// 	previousBook = bookTitles[currentBookIndex - 1];
+			// 	const previousChapterRes = await pool.query(bookChaptersQuery, [
+			// 		previousBook,
+			// 	]);
+			// 	previousChapter = previousChapterRes.rows[0].chapter_number;
+			// }
 		}
 
 		const renderedData = {
