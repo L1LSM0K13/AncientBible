@@ -22,6 +22,9 @@ async function bibleQuery(app, pool) {
 		let nextBook = defaultBook;
 		let nextChapter = defaultChapter + 1;
 
+		let previousBook = defaultBook;
+		let previousChapter = defaultBook - 1;
+
 		if (nextChapter > chapters.length) {
 			const currentBookIndex = bookTitles.indexOf(defaultBook);
 
@@ -36,6 +39,24 @@ async function bibleQuery(app, pool) {
 			}
 		}
 
+		if (previousChapter < chapters.length) {
+			const currentBookIndex = bookTitles.indexOf(defaultBook);
+
+			if (currentBookIndex > bookTitles.length + 1) {
+				previousBook = bookTitles[currentBookIndex - 1];
+				const previousChapterRes = await pool.query(bookChaptersQuery, [
+					previousBook,
+				]);
+				previousChapter = previousChapterRes.rows[0].chapter_number;
+			} else {
+				previousBook = bookTitles[-1];
+				const previousChapterRes = await pool.query(bookChaptersQuery, [
+					previousBook,
+				]);
+				previousChapter = previousChapterRes.rows[0].chapter_number;
+			}
+		}
+
 		const renderedData = {
 			loggedIn: isAuth,
 			bookText: bookText,
@@ -45,6 +66,8 @@ async function bibleQuery(app, pool) {
 			selectedChapter: defaultChapter,
 			nextBook: nextBook,
 			nextChapter: nextChapter,
+			previousBook: previousBook,
+			previousChapter: previousChapter,
 		};
 
 		res.render("../public/views/scripture", renderedData);
