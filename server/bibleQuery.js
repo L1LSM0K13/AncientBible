@@ -45,7 +45,7 @@ async function bibleQuery(app, pool) {
 			if (currentBookIndex > bookTitles.length + 1) {
 				previousBook = bookTitles[currentBookIndex - 1];
 				const previousChapterRes = await pool.query(bookChaptersQuery, [
-					previousBook,
+					previousChapter,
 				]);
 				previousChapter = previousChapterRes.rows[0].chapter_number;
 			}
