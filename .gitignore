@@ -1,6 +1,5 @@
 node_modules/
 package-lock.json
 .env
-dumpcode.txt
 Translations/
-SCRAP.js
+test/
