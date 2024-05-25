@@ -23,7 +23,7 @@ async function bibleQuery(app, pool) {
 		let nextChapter = defaultChapter + 1;
 
 		let previousBook = defaultBook;
-		let previousChapter = defaultBook - 1;
+		let previousChapter = defaultChapter - 1;
 
 		if (nextChapter > chapters.length) {
 			const currentBookIndex = bookTitles.indexOf(defaultBook);
@@ -49,7 +49,7 @@ async function bibleQuery(app, pool) {
 				]);
 				previousChapter = previousChapterRes.rows[0].chapter_number;
 			} else {
-				previousBook = bookTitles[0] - 1;
+				previousBook = bookTitles[0];
 				const previousChapterRes = await pool.query(bookChaptersQuery, [
 					previousBook,
 				]);
