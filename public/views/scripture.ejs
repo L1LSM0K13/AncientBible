@@ -13,127 +13,108 @@
 		<script src="/scripts/darkModeToggle.js" defer></script>
 		<script src="/scripts/bibleFormattingOptions.js" defer></script>
 	</head>
-
 	<body
 		class="bg-[#e9eef1] sm:text-lg text-sm dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
 		<%- include('partials/navBar') %>
 
-		<main>
-			<article>
-				<div class="2xl:flex gap-5 nodeMargins">
-					<!-- Menu Block -->
-					<div class="2xl:shrink-0">
-						<!-- Jump to Book menu -->
-
-						<div class="shadow-xl">
-							<div class="nodeTitleH1">— Jump to Book —</div>
-							<div class="nodeInsideDiv overflow-hidden mb-5">
-								<form class="grid gap-1 grid-cols-2" id="selectForm" action="/users/bible" method="GET">
-									<select name="book" class="p-1 rounded-sm dark:bg-[#202124]" onchange="this.form.submit()">
-										<% for( let i = 0; i < bookTitleOptions.length; i++ ) { %>
-											<option value="<%= bookTitleOptions[i] %>" <%= selectedBook === bookTitleOptions[i] ? 'selected' : '' %>>
-												<%= bookTitleOptions[i] %>
-											</option>
-											<% } %>
-									</select>
-									<select name="chapter" class="p-1 rounded-sm dark:bg-[#202124]" onchange="this.form.submit()">
-										<% for( let i = 0; i < bookChapters.length; i++ ) { %>
-											<option value="<%= bookChapters[i] %>" <%= selectedChapter == bookChapters[i] ? 'selected' : '' %>>
-											<%= bookChapters[i] %>
-										</option>
-										<% } %>
-									</select>
-								</form>
-							</div>
-						</div>
-
-						<!-- Format Menu -->
-						<div class="mb-5 shadow-xl">
-							<h1 class="nodeTitleH1">Formatting Options</h1>
-
-							<div class="nodeInsideDiv overflow-hidden">
-								<div
-									class="grid grid-rows-2 grid-cols-2 sm:gap-x-8 gap-x-1 gap-y-1">
-									<button
-										id="verseBtn"
-										class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 dark:hover:bg-[#0f0f0f] row-start-1 dark:bg-[#202124]">
-										Verse-by-Verse
-									</button>
-									<button
-										id="redLetterBtn"
-										class="bg-gray-200 px-1 rounded-sm text-red-600 hover:bg-red-600 hover:text-white col-start-2 active:bg-red-600 dark:bg-[#202124]">
-										Red Lettering
-									</button>
-
-									<!-- Font Selection -->
-									<div class="grid">
-										<select
-											id="fontType"
-											name="fontType"
-											class="dark:bg-[#202124]">
-											<option value="">Font Default</option>
-											<option value="Times New Roman">Times New Roman</option>
-											<option value="Courier New">Courier New</option>
-										</select>
-									</div>
-									<div class="grid">
-										<select
-											id="fontSize"
-											name="fontSize"
-											class="dark:bg-[#202124]">
-											<option value="18px">Font Small</option>
-											<option value="22px">Font Medium</option>
-											<option value="24px">Font Large</option>
-										</select>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
+		<main class="grid grid-cols-4 grid-rows-2 gap-5">
+			<article class="col-start-1">
+				<!-- Navige Book -->
+				<div class="text-lg nodeMarginLeft">
+					<h1 class="nodeTitleH1">— Navigate —</h1>
+					<div class="nodeInsideDiv">
+						<form
+							class="grid gap-1"
+							id="selectForm"
+							action="/users/bible"
+							method="GET">
+							<select
+								name="book"
+								class="p-1 rounded-sm dark:bg-[#202124]"
+								onchange="this.form.submit()">
+								<% for( let i = 0; i < bookTitleOptions.length; i++ ) { %>
+									<option value="<%= bookTitleOptions[i] %>" <%= selectedBook === bookTitleOptions[i] ? 'selected' : '' %>>
+										<%= bookTitleOptions[i] %>
+									</option>
+									<% } %>
+							</select>
+							<select
+								name="chapter"
+								class="p-1 rounded-sm dark:bg-[#202124]"
+								onchange="this.form.submit()">
+								<% for( let i = 0; i < bookChapters.length; i++ ) { %>
+									<option value="<%= bookChapters[i] %>" <%= selectedChapter == bookChapters[i] ? 'selected' : '' %>>
+									<%= bookChapters[i] %>
+								</option>
+								<% } %>
+							</select>
+						</form>
 					</div>
 				</div>
 
-					<div>
-						<div class="mb-5 shadow-xl nodeMargins">
-								<h1 class="nodeTitleH1 flex justify-center gap-5">
-									<a  href="/users/bible?book=<%= previousBook %>&chapter=<%= previousChapter %>">
-									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-										<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
-									</svg>
-								</a>
-								<%= selectedBook %> Chapter <%= selectedChapter %>
-								<a href="/users/bible?book=<%= nextBook %>&chapter=<%= nextChapter %>">
-									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-										<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-									</svg>
-								</a>
-							</h1>
-								<div id="vContainer" class="nodeInsideDiv px-5">
-										<% bookText.forEach(book => {
-											if (book.is_red) { %>
-										<span id="redLettering" class="m-1 p-1 dark:text-red-500 text-red-600">
-												<span class="font-semibold text-gray-800 dark:text-[#d9dde0]"><%= book.verse_number %></span>
-												<%= book.verse_text %>
-										</span>
-										<% } else { %>
-										<span class="m-1 p-1">
-												<span class="font-semibold text-gray-800 dark:text-[#d9dde0]"><%= book.verse_number %></span>
-												<%= book.verse_text %>
-										</span>
-										<% }}) %>
-								</div>
+				<!-- Formatting -->
+				<div class="text-lg nodeMarginLeft">
+					<h1 class="nodeTitleH1">Formatting Options</h1>
+					<div class="nodeInsideDiv">
+						<div class="grid gap-1">
+							<button
+								id="verseBtn"
+								class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 dark:hover:bg-[#0f0f0f] dark:bg-[#202124]">
+								Verse-By-Verse
+							</button>
+							<button
+								id="redLetterBtn"
+								class="bg-gray-200 px-1 rounded-sm text-red-600 hover:bg-red-600 hover:text-white active:bg-red-600 dark:bg-[#202124]">
+								Red Lettering
+							</button>
+							<select
+								name="fontType"
+								id="fontType"
+								class="dark:bg-[#202124] bg-gray-200 p-1">
+								<option value="">Arial</option>
+								<option value="Times New Roman">Times New Roman</option>
+								<option value="Courier New">Courier New</option>
+							</select>
+							<select
+								name="fontSize"
+								id="fontSize"
+								class="dark:bg-[#202124] bg-gray-200 p-1">
+								<option value="18px">Default Size</option>
+								<option value="22px">Medium Size</option>
+								<option value="24px">Large Size</option>
+							</select>
 						</div>
-
-
-
-				</div>
+					</div>
 				</div>
 			</article>
+			<!-- Book Text and pagination -->
+			<div class="col-start-2 col-span-3 row-start-1 row-span-full">
+				<div class="text-lg nodeMarginRight">
+					<h1 class="nodeTitleH1 flex justify-center gap-5 align-middle">
+						<a class="text-xl" href="/users/bible?book=<%= previousBook %>&chapter=<%= previousChapter %>">
+							&#8592;
+						</a>
+						<%= selectedBook %> Chapter <%= selectedChapter %>
+						<a class="text-xl" href="/users/bible?book=<%= nextBook %>&chapter=<%= nextChapter %>">
+							&#8594;
+						</a>
+					</h1>
+					<div id="vContainer" class="nodeInsideDiv px-5">
+						<% booText.forEach(book => {
+							if (book.is_red) { %>
+								<span id="redLettering" class="m-1 p-1 dark:text-red-500 text-red-600">
+									<span class="font-semibold text-gray-800 dark:text-[#d9dde0]"><%= book.verse_number %></span>
+									<%= book.verse_text %>
+								</span>
+							<% } else { %>
+								<span class="m-1 p-1">
+									<span class="font-semibold text-gray-800 dark:text-[#d9dde0]"><%= book.verse_number %></span>
+									<%= book.verse_text %>
+								</span>
+								<% }}) %>
+					</div>
+				</div>
+			</div>
 		</main>
-
-		<footer></footer>
-
-		<!-- Functions -->
 	</body>
 </html>
