@@ -1048,6 +1048,56 @@ video {
   }
 }
 
+@media (min-width: 1536px) {
+  @media (min-width: 640px) {
+    .\32xl\:nodeMarginLeft {
+      margin-left: 3rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .\32xl\:nodeMarginLeft {
+      margin-left: 7rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .\32xl\:nodeMarginLeft {
+      margin-left: 10rem;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .\32xl\:nodeMarginLeft {
+      margin-left: 13rem;
+    }
+  }
+
+  @media (min-width: 640px) {
+    .\32xl\:nodeMarginRight {
+      margin-right: 3rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .\32xl\:nodeMarginRight {
+      margin-right: 7rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .\32xl\:nodeMarginRight {
+      margin-right: 10rem;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .\32xl\:nodeMarginRight {
+      margin-right: 13rem;
+    }
+  }
+}
+
 .hover\:scale-125:hover {
   --tw-scale-x: 1.25;
   --tw-scale-y: 1.25;
