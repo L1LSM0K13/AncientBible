@@ -37,8 +37,8 @@ app.use(flash());
 app.get("/", (req, res) => {
 	if (req.isAuthenticated()) {
 		res.render("../public/views/index", {
-			loggedIn: true,
-			user: req.user.name,
+			loggedIn: req.isAuthenticated(),
+			user: req.isAuthenticated() ? req.user.name : null,
 		});
 	} else {
 		res.render("../public/views/index", { loggedIn: false });
