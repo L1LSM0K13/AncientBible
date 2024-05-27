@@ -32,29 +32,24 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
-app.use((req, res, next) => {
-	res.locals.loggedIn = req.isAuthenticated ? req.isAuthenticated() : false;
-	res.locals.user = req.isAuthenticated
-		? req.isAuthenticated()
-			? req.user.name
-			: null
-		: null;
-});
 
 app.get("/", (req, res) => {
-	res.render("../public/views/index", {
-		loggedIn: loggedIn,
-		user: loggedIn ? user.name: null;
-
-	});
+	if (req.isAuthenticated()) {
+		res.render("../public/views/index", {
+			loggedIn: true,
+			user: req.isAuthenticated() ? req.user.name : null,
+		});
+	} else {
+		res.render("../public/views/index", { loggedIn: false });
+	}
 });
 
 app.get("/users/register", checkAuthenticated, (req, res) => {
-	res.render("../public/views/register");
+	res.render("../public/views/register", { loggedIn: false });
 });
 
 app.get("/users/login", checkAuthenticated, (req, res) => {
-	res.render("../public/views/login");
+	res.render("../public/views/login", { loggedIn: false });
 });
 
 bibleQuery(app, pool);

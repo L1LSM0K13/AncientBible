@@ -5,9 +5,6 @@
 function register(app, pool) {
 	const bcrypt = require("bcrypt");
 
-	const user = (user = req.user);
-	const loggedIn = user ? true : false;
-
 	app.post("/users/register", async (req, res) => {
 		let { name, email, password, password2 } = req.body;
 
