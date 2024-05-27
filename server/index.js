@@ -58,7 +58,7 @@ fathersQuery(app, pool);
 register(app, pool);
 
 app.get("/users/logout", (req, res, next) => {
-	req.logOut((err) => {
+	req.logout((err) => {
 		if (err) {
 			return next(err);
 		}
