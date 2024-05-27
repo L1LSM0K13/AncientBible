@@ -46,7 +46,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/users/register", checkAuthenticated, (req, res) => {
-	res.render("../public/views/register", { loggedIn: false });
+	res.render("../public/views/register", { ISLOGGEDIN: false });
 });
 
 app.get("/users/login", checkAuthenticated, (req, res) => {
