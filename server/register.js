@@ -31,7 +31,7 @@ function register(app, pool) {
 
 			let hashedPassword = await bcrypt.hash(password, 10);
 
-			pool.query(
+			await pool.query(
 				`SELECT * FROM users
         WHERE email = $1`,
 				[email],
@@ -44,7 +44,7 @@ function register(app, pool) {
 						errors.push({ message: "User with this email already exists" });
 						res.render("../public/views/register", { errors });
 					} else {
-						pool.query(
+						await pool.query(
 							`INSERT INTO users (name, email, password)
               VALUES ($1, $2, $3)
               RETURNING id, password`,
