@@ -69,9 +69,7 @@ async function bibleQuery(app, pool) {
 			previousChapter: previousChapter,
 		};
 
-		res.render("../public/views/scripture", renderedData, () => {
-			console.log(renderedData);
-		});
+		res.render("../public/views/scripture", renderedData);
 	});
 }
 
