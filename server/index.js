@@ -77,6 +77,11 @@ app.post(
 	})
 );
 
+/**
+ * @param {{ isAuthenticated: () => any; }} req
+ * @param {{ redirect: (arg0: string) => any; }} res
+ * @param {() => void} next
+ */
 function checkAuthenticated(req, res, next) {
 	if (req.isAuthenticated()) {
 		return res.redirect("/");

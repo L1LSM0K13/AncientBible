@@ -1,3 +1,7 @@
+/**
+ * @param {{ get: (arg0: string, arg1: (req: any, res: any) => Promise<void>) => void; }} app
+ * @param {{ query: (arg0: string, arg1: any[] | undefined) => any; }} pool
+ */
 async function bibleQuery(app, pool) {
 	app.get("/users/bible", async (req, res) => {
 		const defaultBook = req.query.book || "John";
@@ -10,13 +14,18 @@ async function bibleQuery(app, pool) {
 		const isAuth = req.isAuthenticated();
 		const [bookTitleOptionRes, bookChaptersRes, bookTextRes] =
 			await Promise.all([
+				// @ts-ignore
 				pool.query(bookTitleOptionsQuery),
 				pool.query(bookChaptersQuery, [defaultBook]),
 				pool.query(bookTextQuery, [defaultBook, defaultChapter]),
 			]);
 
-		const bookTitles = bookTitleOptionRes.rows.map((row) => row.book);
-		const chapters = bookChaptersRes.rows.map((row) => row.chapter_number);
+		const bookTitles = bookTitleOptionRes.rows.map(
+			(/** @type {{ book: any; }} */ row) => row.book
+		);
+		const chapters = bookChaptersRes.rows.map(
+			(/** @type {{ chapter_number: any; }} */ row) => row.chapter_number
+		);
 		const bookText = bookTextRes.rows;
 
 		let nextBook = defaultBook;
