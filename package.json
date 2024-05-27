@@ -18,7 +18,6 @@
 	"main": "tailwind.config.js",
 	"scripts": {
 		"dev": "tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch",
-		"postcss": "postcss ./public/css/input.css -o ./public/css/output.css --watch",
 		"nodemon": "nodemon ./server/index.js"
 	},
 	"keywords": [],
@@ -33,7 +32,6 @@
 		"@types/passport": "^1.0.16",
 		"@types/passport-local": "^1.0.38",
 		"@types/pg": "^8.11.6",
-		"autoprefixer": "^10.4.19",
-		"postcss": "^8.4.38"
+		"autoprefixer": "^10.4.19"
 	}
 }
