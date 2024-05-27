@@ -34,7 +34,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
 
-app.get("/", (req, res) => {
+app.get("/", checkNotAuthenticated(), (req, res) => {
 	if (req.isAuthenticated()) {
 		res.render("../public/views/index", {
 			loggedIn: req.isAuthenticated(),
@@ -86,6 +86,13 @@ function checkAuthenticated(req, res, next) {
 		return res.redirect("/");
 	}
 	next();
+}
+
+function checkNotAuthenticated(req, res, next) {
+	if (req.isAuthenticated()) {
+		return next();
+	}
+	res.redirect("/users/login");
 }
 
 app.listen(PORT, () => {
