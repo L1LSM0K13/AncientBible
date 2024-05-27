@@ -70,7 +70,7 @@ async function bibleQuery(app, pool) {
 		};
 
 		res.render("../public/views/scripture", renderedData, () => {
-			console.log(selectedBook, selectedChapter, previousBook, previousChapter);
+			console.log(renderedData);
 		});
 	});
 }
