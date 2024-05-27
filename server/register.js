@@ -44,7 +44,7 @@ function register(app, pool) {
 						errors.push({ message: "User with this email already exists" });
 						res.render("../public/views/register", { errors });
 					} else {
-						await pool.query(
+						pool.query(
 							`INSERT INTO users (name, email, password)
               VALUES ($1, $2, $3)
               RETURNING id, password`,
