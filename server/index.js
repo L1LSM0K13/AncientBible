@@ -46,7 +46,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/users/register", checkAuthenticated, (req, res) => {
-	res.render("../public/views/register", { loggedIn: req.isAuthenticated() });
+	res.render("../public/views/register", { loggedIn: false });
 });
 
 app.get("/users/login", checkAuthenticated, (req, res) => {
@@ -55,7 +55,11 @@ app.get("/users/login", checkAuthenticated, (req, res) => {
 
 bibleQuery(app, pool);
 fathersQuery(app, pool);
-register(app, pool);
+try {
+	register(app, pool);
+} catch (error) {
+	console.error(error);
+}
 
 app.get("/users/logout", (req, res, next) => {
 	req.logout((err) => {
