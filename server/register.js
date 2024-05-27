@@ -5,7 +5,7 @@
 function register(app, pool) {
 	const bcrypt = require("bcrypt");
 
-	app.post("/users/register", async (req, res) => {
+	app.post("/users/login", async (req, res) => {
 		let { name, email, password, password2 } = req.body;
 
 		let errors = [];
@@ -25,7 +25,7 @@ function register(app, pool) {
 		}
 
 		if (errors.length > 0) {
-			res.render("../public/views/register", { errors });
+			res.render("../public/views/login", { errors });
 		} else {
 			// Form validation has passed
 
@@ -42,7 +42,7 @@ function register(app, pool) {
 
 					if (results.rows.length > 0) {
 						errors.push({ message: "User with this email already exists" });
-						res.render("../public/views/register", { errors });
+						res.render("../public/views/login", { errors });
 					} else {
 						pool.query(
 							`INSERT INTO users (name, email, password)
