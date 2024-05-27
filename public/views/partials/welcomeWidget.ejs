@@ -1,0 +1,21 @@
+<div
+	id="widget"
+	class="flex justify-end opacity-100 transition-opacity duration-1000">
+	<span class="successMsg"
+		>Welcome <%= user.charA(0).toUpperCase() + user.slice(1)%>!</span
+	>
+</div>
+
+<script>
+	document.addEventListener("DOMContentLoaded", (event) => {
+		setTimeout(() => {
+			const widget = document.getElementById("widget");
+			widget.classList.add("opacity-0");
+			widget.classList.remove("opacity-100");
+		}, 1000);
+		setTimeout(() => {
+			const widget = document.getElementById("widget");
+			widget.classList.add("hidden");
+		}, 2000);
+	});
+</script>
