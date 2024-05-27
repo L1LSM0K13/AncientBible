@@ -1,15 +1,14 @@
 // Imports
 const path = require("path");
+
 const express = require("express");
 const session = require("express-session");
 const flash = require("express-flash");
-const { pool } = require("../config/dbConfig");
-const initializePassport = require("../config/passportConfig");
 const bcrypt = require("bcrypt");
 const passport = require("passport");
-const app = express();
-const PORT = process.env.PORT || 4000;
 
+const { pool } = require("../config/dbConfig");
+const initializePassport = require("../config/passportConfig");
 const { bibleQuery } = require("./bibleQuery");
 const { fathersQuery } = require("./fathersQuery");
 const { register } = require("./register");
@@ -17,6 +16,9 @@ const { register } = require("./register");
 if (process.env !== "production") {
 	require("dotenv").config({ path: "../.env" });
 }
+
+const app = express();
+const PORT = process.env.PORT || 4000;
 
 initializePassport(passport);
 
