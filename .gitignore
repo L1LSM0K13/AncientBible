@@ -3,3 +3,4 @@ package-lock.json
 .env
 Translations/
 test/
+tsconfig.json
