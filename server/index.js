@@ -4,7 +4,6 @@ const path = require("path");
 const express = require("express");
 const session = require("express-session");
 const flash = require("express-flash");
-const bcrypt = require("bcrypt");
 const passport = require("passport");
 require("dotenv").config({ path: "../.env" });
 
