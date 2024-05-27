@@ -72,11 +72,4 @@ async function bibleQuery(app, pool) {
 		res.render("../public/views/scripture", renderedData);
 	});
 }
-
-async function resetChapterAndSubmit() {
-	document.getElementById("chapterSelect").value = 1;
-	document.getElementById("selectForm").submit();
-}
-
 module.exports = { bibleQuery };
-module.exports = { resetChapterAndSubmit };
