@@ -43,7 +43,6 @@ function register(app, pool) {
 					if (results.rows.length > 0) {
 						errors.push({ message: "User with this email already exists" });
 						res.render("../public/views/register", {
-							loggedIn: req.isAuthenticated(),
 							errors,
 						});
 					} else {
