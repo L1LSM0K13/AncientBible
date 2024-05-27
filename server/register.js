@@ -1,3 +1,5 @@
+const bcrypt = require("bcrypt");
+
 function register(app, pool) {
 	app.post("/users/register", async (req, res) => {
 		let { name, email, password, password2 } = req.body;
@@ -25,7 +27,7 @@ function register(app, pool) {
 
 			let hashedPassword = await bcrypt.hash(password, 10);
 
-			pool.query(
+			await pool.query(
 				`SELECT * FROM users
         WHERE email = $1`,
 				[email],
