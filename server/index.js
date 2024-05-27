@@ -58,7 +58,7 @@ bibleQuery(app, pool);
 fathersQuery(app, pool);
 register(app, pool);
 
-app.get("/users/logout", (req, res) => {
+app.get("/users/logout", (req, res, next) => {
 	req.logOut((err) => {
 		if (err) {
 			return next(err);
