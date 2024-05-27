@@ -3,6 +3,8 @@
  * @param {{ query: (arg0: string, arg1: any[], arg2: { (err: any, results: any): void; (err: any, results: any): void; }) => void; }} pool
  */
 function register(app, pool) {
+	const bcrypt = require("bcrypt");
+
 	app.post("/users/register", async (req, res) => {
 		let { name, email, password, password2 } = req.body;
 
