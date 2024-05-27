@@ -25,7 +25,7 @@ function register(app, pool) {
 		}
 
 		if (errors.length > 0) {
-			res.render("../public/views/register", { errors });
+			res.render("../public/views/register", { errors, loggedIn: false });
 		} else {
 			// Form validation has passed
 
