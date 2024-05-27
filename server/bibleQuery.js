@@ -73,4 +73,10 @@ async function bibleQuery(app, pool) {
 	});
 }
 
+async function resetChapterAndSubmit() {
+	document.getElementById("chapterSelect").value = 1;
+	document.getElementById("selectForm").submit();
+}
+
 module.exports = { bibleQuery };
+module.exports = { resetChapterAndSubmit };
