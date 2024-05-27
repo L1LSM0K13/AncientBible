@@ -1,6 +1,7 @@
 node_modules/
 package-lock.json
 .env
-dumpcode.txt
 Translations/
+test/
+tsconfig.json
 test/
