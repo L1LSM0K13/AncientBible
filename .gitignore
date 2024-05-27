@@ -3,3 +3,4 @@ package-lock.json
 .env
 dumpcode.txt
 Translations/
+test/

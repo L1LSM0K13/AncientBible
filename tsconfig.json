@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"strict": true,
+		"noImplicitAny": true,
+		"preserveConstEnums": true,
+		"allowJs": true,
+		"resolveJsonModule": true,
+		"checkJs": true,
+		"esModuleInterop": true,
+		"target": "ES2022",
+		"noEmit": true
+	},
+	"include": ["./**/*"],
+	"exclude": ["**/*.spec.ts"]
+}
