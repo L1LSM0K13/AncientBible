@@ -33,25 +33,24 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
-const loggedIn = req.isAuthenticated();
 
 app.get("/", (req, res) => {
-	if (loggedIn) {
+	if (req.isAuthenticated()) {
 		res.render("../public/views/index", {
-			loggedIn: loggedIn,
+			loggedIn: true,
 			user: req.isAuthenticated() ? req.user.name : null,
 		});
 	} else {
-		res.render("../public/views/index", { loggedIn: !loggedIn });
+		res.render("../public/views/index", { loggedIn: false });
 	}
 });
 
 app.get("/users/register", checkAuthenticated, (req, res) => {
-	res.render("../public/views/register", { loggedIn: !loggedIn });
+	res.render("../public/views/register", { loggedIn: false });
 });
 
 app.get("/users/login", checkAuthenticated, (req, res) => {
-	res.render("../public/views/login", { loggedIn: !loggedIn });
+	res.render("../public/views/login", { loggedIn: false });
 });
 
 bibleQuery(app, pool);
@@ -87,7 +86,7 @@ app.post(
  * @param {() => void} next
  */
 function checkAuthenticated(req, res, next) {
-	if (loggedIn) {
+	if (req.isAuthenticated()) {
 		return res.redirect("/");
 	}
 	next();
