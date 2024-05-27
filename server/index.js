@@ -35,8 +35,10 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
 
+const isAuth = req.isAuthenticated();
+
 app.get("/", (req, res) => {
-	if (req.isAuthenticated()) {
+	if (isAuth) {
 		res.render("../public/views/index", {
 			loggedIn: true,
 			user: req.user.name,
@@ -78,7 +80,7 @@ app.post(
 );
 
 function checkAuthenticated(req, res, next) {
-	if (req.isAuthenticated()) {
+	if (isAuth) {
 		return res.redirect("/");
 	}
 	next();
