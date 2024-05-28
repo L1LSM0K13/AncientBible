@@ -21,7 +21,7 @@
 		<main class="xl:grid grid-cols-4 gap-5">
 			<article class="col-start-1">
 				<!-- Navige Book -->
-				<div class="text-lg nodeMargins">
+				<div class="text-lg nodeMargins 2xl:nodeMarginLeft">
 					<h1 class="nodeTitleH1">— Navigate —</h1>
 					<div class="nodeInsideDiv">
 						<form
@@ -53,7 +53,7 @@
 												<option value="<%= bookChapters[i] %>" <%= selectedChapter === bookChapters[i] ? 'selected' : '' %>>
 														<%= bookChapters[i] %>
 												</option>
-										<% }}%>
+										<% }} %>
 						</select>
 				</form>
 
@@ -61,7 +61,7 @@
 				</div>
 
 				<!-- Formatting -->
-				<div class="text-lg nodeMargins">
+				<div class="text-lg nodeMargins 2xl:nodeMarginLeft">
 					<h1 class="nodeTitleH1">Formatting Options</h1>
 					<div class="nodeInsideDiv">
 						<div class="grid gap-1">
