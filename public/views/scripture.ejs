@@ -18,10 +18,10 @@
 		class="bg-[#e9eef1] sm:text-lg text-sm dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
 		<%- include('partials/navBar')  %>
 
-		<main class="xl:grid grid-cols-4 gap-5">
-			<article class="col-start-1">
+		<main class="grid grid-cols-4 grid-rows-2 xl:grid-rows-1 gap-5 nodeMargins">
+			<article class="xl:col-start-1 xl:col-span-1 sm:col-start-2 sm:col-span-2 col-start-1 col-span-full">
 				<!-- Navige Book -->
-				<div class="text-lg nodeMargins 2xl:nodeMarginLeft">
+				<div class="text-lg">
 					<h1 class="nodeTitleH1">— Navigate —</h1>
 					<div class="nodeInsideDiv">
 						<form
@@ -39,7 +39,7 @@
 										</option>
 								<% } %>
 						</select>
-						<select
+							<select
 								name="chapter"
 								id="chapterSelect"
 								class="p-1 mx-2 rounded-sm dark:bg-[#202124]"
@@ -54,14 +54,13 @@
 														<%= bookChapters[i] %>
 												</option>
 										<% }} %>
-						</select>
-				</form>
-
+							</select>
+						</form>
 					</div>
 				</div>
 
 				<!-- Formatting -->
-				<div class="text-lg nodeMargins 2xl:nodeMarginLeft">
+				<div class="text-lg">
 					<h1 class="nodeTitleH1">Formatting Options</h1>
 					<div class="nodeInsideDiv">
 						<div class="grid gap-1">
@@ -96,8 +95,8 @@
 				</div>
 			</article>
 			<!-- Book Text and pagination -->
-			<div class="col-start-2 col-span-3">
-				<div class="text-lg nodeMargins 2xl:nodeMarginRight">
+			<div class="xl:col-start-2 col-span-full row-start-2 col-start-1 xl:col-span-3 xl:row-start-1">
+				<div class="text-lg">
 					<h1 class="nodeTitleH1 flex justify-center gap-5 align-middle">
 						<a class="text-xl" href="/users/bible?book=<%= previousBook %>&chapter=<%= previousChapter %>">
 							&#8592;
