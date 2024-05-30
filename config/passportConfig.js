@@ -13,7 +13,7 @@ function initialize(passport) {
 				if (err) {
 					throw err;
 				}
-				console.table([results.rows]);
+				console.table(results.rows);
 
 				if (results.rows.length > 0) {
 					const user = results.rows[0];
