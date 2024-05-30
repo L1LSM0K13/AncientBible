@@ -55,7 +55,7 @@ function register(app, pool) {
 								if (err) {
 									throw err;
 								}
-								console.log(results.rows);
+								console.table([results.rows]);
 								req.flash(
 									"success_msg",
 									`You are now registered as ${name}. Please log in.`
