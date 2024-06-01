@@ -27,6 +27,17 @@
 		@apply rounded-sm border border-gray-500 bg-gray-200 px-2 py-1 dark:bg-[#202124] dark:border-[#474747] dark:text-[#d9dde0];
 	}
 
+	/* Notes node class set */
+	.noteNodeTitleH1 {
+		@apply py-1 px-3 bg-yellow-200 text-yellow-600 border border-yellow-600 block text-center;
+	}
+	.noteNodeInsideDiv {
+		@apply bg-yellow-100 py-1 px-3 mb-5 border-x border-b border-yellow-600 block shadow-xl;
+	}
+	.noteDiv {
+		@apply bg-yellow-100 py-1 px-3 mb-5 border border-yellow-600 block shadow-xl;
+	}
+
 	/* Margin Class Set */
 	.nodeMargins {
 		@apply xl:mx-52 lg:mx-40 md:mx-28 sm:mx-12;
