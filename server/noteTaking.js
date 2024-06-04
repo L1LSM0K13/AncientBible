@@ -1,9 +1,9 @@
 async function takeNote(app, pool) {
-	app.get("/notes", (req, res) => {
+	app.get("/users/bible", (req, res) => {
 		res.render("../public/views/scripture", { errors: [] });
 	});
 
-	app.post("/notes", async (req, res) => {
+	app.post("/users/bible", async (req, res) => {
 		let { noteText } = req.body;
 		let errors = [];
 
@@ -12,7 +12,7 @@ async function takeNote(app, pool) {
 		}
 
 		if (errors.length > 0) {
-			res.render("index", { errors });
+			res.render("../public/views/scripture", { errors });
 		} else {
 			const result = await pool.query(
 				`INSERT INTO notes (text)
