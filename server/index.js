@@ -12,6 +12,7 @@ const initializePassport = require("../config/passportConfig");
 const { bibleQuery } = require("./bibleQuery");
 const { fathersQuery } = require("./fathersQuery");
 const { register } = require("./register");
+const { takeNote } = require("./noteTaking");
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -54,11 +55,8 @@ app.get("/users/login", checkAuthenticated, (req, res) => {
 
 bibleQuery(app, pool);
 fathersQuery(app, pool);
-try {
-	register(app, pool);
-} catch (error) {
-	console.error(error);
-}
+register(app, pool);
+takeNote(app, pool);
 
 app.get("/users/logout", (req, res, next) => {
 	req.logout((err) => {
@@ -79,11 +77,6 @@ app.post(
 	})
 );
 
-/**
- * @param {{ isAuthenticated: () => any; }} req
- * @param {{ redirect: (arg0: string) => any; }} res
- * @param {() => void} next
- */
 function checkAuthenticated(req, res, next) {
 	if (req.isAuthenticated()) {
 		return res.redirect("/");

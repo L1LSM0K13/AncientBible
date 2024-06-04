@@ -1,7 +1,3 @@
-/**
- * @param {{ get: (arg0: string, arg1: (req: any, res: any) => Promise<void>) => void; }} app
- * @param {{ query: (arg0: string, arg1: any[] | undefined) => any; }} pool
- */
 async function fathersQuery(app, pool) {
 	app.get("/users/fathers", async (req, res) => {
 		const defaultBook = req.query.book || "1 Clement";
@@ -16,7 +12,6 @@ async function fathersQuery(app, pool) {
 		if (isAuth) {
 			const [bookTitleOptionRes, bookChaptersRes, bookTextRes] =
 				await Promise.all([
-					// @ts-ignore
 					pool.query(bookTitleOptions),
 					pool.query(bookChapters, [defaultBook]),
 					pool.query(bookText, [defaultBook, defaultChapter]),
@@ -24,19 +19,14 @@ async function fathersQuery(app, pool) {
 			res.render("../public/views/fathers", {
 				loggedIn: true,
 				bookText: bookTextRes.rows,
-				bookChapters: bookChaptersRes.rows.map(
-					(/** @type {{ chapter_number: any; }} */ row) => row.chapter_number
-				),
-				bookTitleOptions: bookTitleOptionRes.rows.map(
-					(/** @type {{ book: any; }} */ row) => row.book
-				),
+				bookChapters: bookChaptersRes.rows.map((row) => row.chapter_number),
+				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
 				selectedBook: defaultBook,
 				selectedChapter: defaultChapter,
 			});
 		} else {
 			const [bookTitleOptionRes, bookChaptersRes, bookTextRes] =
 				await Promise.all([
-					// @ts-ignore
 					pool.query(bookTitleOptions),
 					pool.query(bookChapters, [defaultBook]),
 					pool.query(bookText, [defaultBook, defaultChapter]),
@@ -44,12 +34,8 @@ async function fathersQuery(app, pool) {
 			res.render("../public/views/fathers", {
 				loggedIn: false,
 				bookText: bookTextRes.rows,
-				bookChapters: bookChaptersRes.rows.map(
-					(/** @type {{ chapter_number: any; }} */ row) => row.chapter_number
-				),
-				bookTitleOptions: bookTitleOptionRes.rows.map(
-					(/** @type {{ book: any; }} */ row) => row.book
-				),
+				bookChapters: bookChaptersRes.rows.map((row) => row.chapter_number),
+				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
 				selectedBook: defaultBook,
 				selectedChapter: defaultChapter,
 			});
