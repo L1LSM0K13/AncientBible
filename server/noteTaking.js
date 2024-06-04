@@ -1,6 +1,6 @@
 async function takeNote(app, pool) {
 	app.get("/notes", (req, res) => {
-		res.render("../public/views/notesTest", { errors: [] });
+		res.render("../public/views/scripture", { errors: [] });
 	});
 
 	app.post("/notes", async (req, res) => {
@@ -21,7 +21,7 @@ async function takeNote(app, pool) {
 				[noteText]
 			);
 			console.table([result.rows]);
-			res.render("../public/views/notesTest", { errors });
+			res.render("../public/views/scripture", { errors });
 		}
 	});
 }
