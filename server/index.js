@@ -13,7 +13,6 @@ const { bibleQuery } = require("./bibleQuery");
 const { fathersQuery } = require("./fathersQuery");
 const { register } = require("./register");
 const { takeNote } = require("./noteTaking");
-const renderedData = require("./commonVariables/renderedData");
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -34,7 +33,6 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
-app.use(renderedData);
 
 app.get("/", (req, res) => {
 	if (req.isAuthenticated()) {

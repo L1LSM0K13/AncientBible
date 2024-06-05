@@ -1,5 +1,4 @@
 async function bibleQuery(app, pool) {
-	const renderedData = require("./commonVariables/renderedData");
 	app.get("/users/bible", async (req, res) => {
 		const defaultBook = req.query.book || "John";
 		const defaultChapter = parseInt(req.query.chapter) || 1;
@@ -10,7 +9,7 @@ async function bibleQuery(app, pool) {
 		const bookChaptersQuery = `SELECT DISTINCT chapter_number FROM bible_eng WHERE book = $1 ORDER BY chapter_number`;
 		const bookTextQuery = `SELECT * FROM bible_eng WHERE book = $1 AND chapter_number = $2 ORDER BY verse_number`;
 
-		// const isAuth = req.isAuthenticated();
+		const isAuth = req.isAuthenticated();
 		const [bookTitleOptionRes, bookChaptersRes, bookTextRes] =
 			await Promise.all([
 				pool.query(bookTitleOptionsQuery),
@@ -58,6 +57,20 @@ async function bibleQuery(app, pool) {
 				previousChapterRes.rows[previousChapterRes.rows.length - 1]
 					.chapter_number;
 		}
+
+		const renderedData = {
+			loggedIn: isAuth,
+			bookText: bookText,
+			bookChapters: chapters,
+			bookTitleOptions: bookTitles,
+			selectedBook: defaultBook,
+			selectedChapter: defaultChapter,
+			nextBook: nextBook,
+			nextChapter: nextChapter,
+			previousBook: previousBook,
+			previousChapter: previousChapter,
+			errors: errors,
+		};
 
 		res.render("../public/views/scripture", renderedData);
 	});
