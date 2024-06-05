@@ -13,6 +13,7 @@ const { bibleQuery } = require("./bibleQuery");
 const { fathersQuery } = require("./fathersQuery");
 const { register } = require("./register");
 const { takeNote } = require("./noteTaking");
+const { renderedData } = require("./commonVariables/renderedData");
 
 const app = express();
 const PORT = process.env.PORT || 4000;

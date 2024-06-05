@@ -1,3 +1,5 @@
+const { renderedData } = require("./commonVariables/renderedData");
+
 async function fathersQuery(app, pool) {
 	app.get("/users/fathers", async (req, res) => {
 		const defaultBook = req.query.book || "1 Clement";
@@ -31,14 +33,7 @@ async function fathersQuery(app, pool) {
 					pool.query(bookChapters, [defaultBook]),
 					pool.query(bookText, [defaultBook, defaultChapter]),
 				]);
-			res.render("../public/views/fathers", {
-				loggedIn: false,
-				bookText: bookTextRes.rows,
-				bookChapters: bookChaptersRes.rows.map((row) => row.chapter_number),
-				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
-				selectedBook: defaultBook,
-				selectedChapter: defaultChapter,
-			});
+			res.render("../public/views/fathers", renderedData);
 		}
 	});
 }

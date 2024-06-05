@@ -58,20 +58,6 @@ async function bibleQuery(app, pool) {
 					.chapter_number;
 		}
 
-		const renderedData = {
-			loggedIn: isAuth,
-			bookText: bookText,
-			bookChapters: chapters,
-			bookTitleOptions: bookTitles,
-			selectedBook: defaultBook,
-			selectedChapter: defaultChapter,
-			nextBook: nextBook,
-			nextChapter: nextChapter,
-			previousBook: previousBook,
-			previousChapter: previousChapter,
-			errors: errors,
-		};
-
 		res.render("../public/views/scripture", renderedData);
 	});
 }
