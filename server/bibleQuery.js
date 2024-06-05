@@ -10,7 +10,7 @@ async function bibleQuery(app, pool) {
 		const bookChaptersQuery = `SELECT DISTINCT chapter_number FROM bible_eng WHERE book = $1 ORDER BY chapter_number`;
 		const bookTextQuery = `SELECT * FROM bible_eng WHERE book = $1 AND chapter_number = $2 ORDER BY verse_number`;
 
-		const isAuth = req.isAuthenticated();
+		// const isAuth = req.isAuthenticated();
 		const [bookTitleOptionRes, bookChaptersRes, bookTextRes] =
 			await Promise.all([
 				pool.query(bookTitleOptionsQuery),

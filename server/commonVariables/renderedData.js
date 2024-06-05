@@ -1,5 +1,5 @@
 const renderedData = {
-	loggedIn: isAuth,
+	loggedIn: req.isAuthenticated(),
 	bookText: bookText,
 	bookChapters: chapters,
 	bookTitleOptions: bookTitles,
