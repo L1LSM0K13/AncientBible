@@ -34,6 +34,7 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
+app.use(renderedData);
 
 app.get("/", (req, res) => {
 	if (req.isAuthenticated()) {
