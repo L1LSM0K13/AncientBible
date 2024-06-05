@@ -1,5 +1,5 @@
-const { renderedData } = require("./commonVariables/renderedData");
 async function fathersQuery(app, pool) {
+	const renderedData = require("./commonVariables/renderedData");
 	app.get("/users/fathers", async (req, res) => {
 		const defaultBook = req.query.book || "1 Clement";
 		const defaultChapter = req.query.chapter || 1;

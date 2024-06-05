@@ -1,4 +1,5 @@
 async function bibleQuery(app, pool) {
+	const renderedData = require("./commonVariables/renderedData");
 	app.get("/users/bible", async (req, res) => {
 		const defaultBook = req.query.book || "John";
 		const defaultChapter = parseInt(req.query.chapter) || 1;

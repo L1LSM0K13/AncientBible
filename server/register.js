@@ -1,4 +1,5 @@
 function register(app, pool) {
+	const renderedData = require("./commonVariables/renderedData");
 	const bcrypt = require("bcrypt");
 
 	app.post("/users/register", async (req, res) => {
