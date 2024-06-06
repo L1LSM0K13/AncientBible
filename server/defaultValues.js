@@ -1,4 +1,4 @@
-export async function defaultRender(req, res, isAuth, template, data) {
+async function defaultRender(req, res, isAuth, template, data) {
 	const loggedIn = isAuth;
 	try {
 		res.render(template, {
@@ -9,3 +9,5 @@ export async function defaultRender(req, res, isAuth, template, data) {
 		console.log(err);
 	}
 }
+
+module.exports = { defaultRender };
