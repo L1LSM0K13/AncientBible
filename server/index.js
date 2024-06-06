@@ -13,9 +13,12 @@ const { bibleQuery } = require("./bibleQuery");
 const { fathersQuery } = require("./fathersQuery");
 const { register } = require("./register");
 const { takeNote } = require("./noteTaking");
+const { defaultRender } = require("./defaultValues");
 
 const app = express();
 const PORT = process.env.PORT || 4000;
+
+const isAuth = req.isAuthenticated();
 
 initializePassport(passport);
 
@@ -35,22 +38,21 @@ app.use(passport.session());
 app.use(flash());
 
 app.get("/", (req, res) => {
-	if (req.isAuthenticated()) {
-		res.render("../public/views/index", {
-			loggedIn: true,
-			user: req.isAuthenticated() ? req.user.name : null,
+	if (isAuth) {
+		defaultRender(req, res, true, "../public/views/index", {
+			user: isAuth ? req.user.name : null,
 		});
 	} else {
-		res.render("../public/views/index", { loggedIn: false });
+		defaultRender(req, res, false, "../public/views/index", {});
 	}
 });
 
 app.get("/users/register", checkAuthenticated, (req, res) => {
-	res.render("../public/views/register", { loggedIn: false });
+	defaultRender(req, res, false, "../public/views/register", {});
 });
 
 app.get("/users/login", checkAuthenticated, (req, res) => {
-	res.render("../public/views/login", { loggedIn: false });
+	defaultRender(req, res, false, "../public/views/login", {});
 });
 
 bibleQuery(app, pool);
