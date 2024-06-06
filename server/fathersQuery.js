@@ -1,5 +1,5 @@
+const defaultRender = require("./defaultValues");
 async function fathersQuery(app, pool) {
-	const defaultRender = require("./defaultValues");
 	app.get("/users/fathers", async (req, res) => {
 		const defaultBook = req.query.book || "1 Clement";
 		const defaultChapter = req.query.chapter || 1;
