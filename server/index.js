@@ -18,8 +18,6 @@ const { defaultRender } = require("./defaultValues");
 const app = express();
 const PORT = process.env.PORT || 4000;
 
-const isAuth = req.isAuthenticated();
-
 initializePassport(passport);
 
 // Middleware
@@ -38,7 +36,7 @@ app.use(passport.session());
 app.use(flash());
 
 app.get("/", (req, res) => {
-	if (isAuth) {
+	if (req.isAuthenticated()) {
 		defaultRender(req, res, true, "../public/views/index", {
 			user: req.isAuthenticated() ? req.user.name : null,
 		});
