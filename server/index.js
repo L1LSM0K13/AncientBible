@@ -39,20 +39,20 @@ app.use(flash());
 
 app.get("/", (req, res) => {
 	if (isAuth) {
-		defaultRender(req, res, true, "../public/views/index", {
+		defaultRender(res, true, "../public/views/index", {
 			user: isAuth ? req.user.name : null,
 		});
 	} else {
-		defaultRender(req, res, false, "../public/views/index", {});
+		defaultRender(res, false, "../public/views/index", {});
 	}
 });
 
 app.get("/users/register", checkAuthenticated, (req, res) => {
-	defaultRender(req, res, false, "../public/views/register", {});
+	defaultRender(res, false, "../public/views/register", {});
 });
 
 app.get("/users/login", checkAuthenticated, (req, res) => {
-	defaultRender(req, res, false, "../public/views/login", {});
+	defaultRender(res, false, "../public/views/login", {});
 });
 
 bibleQuery(app, pool);
