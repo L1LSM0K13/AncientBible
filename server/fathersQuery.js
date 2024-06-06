@@ -17,7 +17,7 @@ async function fathersQuery(app, pool) {
 					pool.query(bookChapters, [defaultBook]),
 					pool.query(bookText, [defaultBook, defaultChapter]),
 				]);
-			defaultRender(req, res, true, "../public/views/fathers", {
+			await defaultRender(req, res, true, "../public/views/fathers", {
 				bookText: bookTextRes.rows,
 				bookChapters: bookChaptersRes.rows.map((row) => row.chapter_number),
 				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
@@ -31,7 +31,7 @@ async function fathersQuery(app, pool) {
 					pool.query(bookChapters, [defaultBook]),
 					pool.query(bookText, [defaultBook, defaultChapter]),
 				]);
-			defaultRender(req, res, false, "../public/views/fathers", {
+			await defaultRender(req, res, false, "../public/views/fathers", {
 				bookText: bookTextRes.rows,
 				bookChapters: bookChaptersRes.rows.map((row) => row.chapter_number),
 				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
