@@ -1,4 +1,4 @@
-async function defaultRender(req, res, isAuth, template, data) {
+async function defaultRender(res, isAuth, template, data) {
 	const loggedIn = isAuth;
 	try {
 		res.render(template, {

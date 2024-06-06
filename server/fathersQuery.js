@@ -24,21 +24,9 @@ async function fathersQuery(app, pool) {
 			selectedChapter: defaultChapter,
 		};
 		if (isAuth) {
-			await defaultRender(
-				req,
-				res,
-				true,
-				"../public/views/fathers",
-				renderData
-			);
+			await defaultRender(res, true, "../public/views/fathers", renderData);
 		} else {
-			await defaultRender(
-				req,
-				res,
-				false,
-				"../public/views/fathers",
-				renderData
-			);
+			await defaultRender(res, false, "../public/views/fathers", renderData);
 		}
 	});
 }
