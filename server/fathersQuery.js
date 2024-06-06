@@ -1,4 +1,5 @@
 async function fathersQuery(app, pool) {
+	const defaultRender = require("./defaultValues");
 	app.get("/users/fathers", async (req, res) => {
 		const defaultBook = req.query.book || "1 Clement";
 		const defaultChapter = req.query.chapter || 1;
@@ -16,8 +17,7 @@ async function fathersQuery(app, pool) {
 					pool.query(bookChapters, [defaultBook]),
 					pool.query(bookText, [defaultBook, defaultChapter]),
 				]);
-			res.render("../public/views/fathers", {
-				loggedIn: true,
+			defaultRender(req, res, true, "../public/views/fathers", {
 				bookText: bookTextRes.rows,
 				bookChapters: bookChaptersRes.rows.map((row) => row.chapter_number),
 				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
@@ -31,8 +31,7 @@ async function fathersQuery(app, pool) {
 					pool.query(bookChapters, [defaultBook]),
 					pool.query(bookText, [defaultBook, defaultChapter]),
 				]);
-			res.render("../public/views/fathers", {
-				loggedIn: false,
+			defaultRender(req, res, false, "../public/views/fathers", {
 				bookText: bookTextRes.rows,
 				bookChapters: bookChaptersRes.rows.map((row) => row.chapter_number),
 				bookTitleOptions: bookTitleOptionRes.rows.map((row) => row.book),
