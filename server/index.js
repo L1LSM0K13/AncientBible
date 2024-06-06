@@ -37,7 +37,7 @@ app.use(flash());
 
 app.get("/", (req, res) => {
 	if (req.isAuthenticated()) {
-		defaultRender(req, res, true, "../public/views/index", {
+		defaultRender(req, res, "../public/views/index", {
 			user: req.isAuthenticated() ? req.user.name : null,
 		});
 	} else {
