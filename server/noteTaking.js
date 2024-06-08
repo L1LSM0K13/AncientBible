@@ -1,27 +1,7 @@
 async function takeNote(app, pool) {
-	var bookText = bookText;
-	var bookChapters = chapters;
-	var bookTitleOptions = bookTitles;
-	var selectedBook = defaultBook;
-	var selectedChapter = defaultChapter;
-	var nextBook = nextBook;
-	var nextChapter = nextChapter;
-	var previousBook = previousBook;
-	var previousChapter = previousChapter;
-
 	app.get("/users/bible", async (req, res) => {
 		const { defaultRender } = require("./defaultValues");
-		await defaultRender(req, res, true, "../public/views/scripture", {
-			bookText,
-			bookChapters,
-			bookTitleOptions,
-			selectedBook,
-			selectedChapter,
-			nextBook,
-			nextChapter,
-			previousBook,
-			previousChapter,
-		});
+		await defaultRender(req, res, true, "../public/views/scripture", {});
 	});
 
 	app.post("/users/bible", async (req, res) => {
@@ -34,17 +14,7 @@ async function takeNote(app, pool) {
 		}
 
 		if (errors.length > 0) {
-			await defaultRender(req, res, true, "../public/views/scripture", {
-				bookText,
-				bookChapters,
-				bookTitleOptions,
-				selectedBook,
-				selectedChapter,
-				nextBook,
-				nextChapter,
-				previousBook,
-				previousChapter,
-			});
+			await defaultRender(req, res, true, "../public/views/scripture", {});
 		} else {
 			const result = await pool.query(
 				`INSERT INTO notes (text)
@@ -53,17 +23,7 @@ async function takeNote(app, pool) {
 				[noteText]
 			);
 			console.table([result.rows]);
-			await defaultRender(req, res, true, "../public/views/scripture", {
-				bookText,
-				bookChapters,
-				bookTitleOptions,
-				selectedBook,
-				selectedChapter,
-				nextBook,
-				nextChapter,
-				previousBook,
-				previousChapter,
-			});
+			await defaultRender(req, res, true, "../public/views/scripture", {});
 		}
 	});
 }
