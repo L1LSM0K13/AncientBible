@@ -75,6 +75,7 @@ async function bibleQuery(app, pool) {
 				renderData
 			);
 		}
+		module.exports = { renderData };
 	});
 }
 
