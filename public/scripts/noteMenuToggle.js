@@ -27,11 +27,11 @@
 
 const toggleNoteMenu = (noteMenuId) => {
 	// Close any currently open menus
-	const openMenus = document.querySelectorAll(".noteMenu.flex");
+	const openMenus = document.querySelectorAll(".flex:not(.hidden)");
 	openMenus.forEach((menu) => {
 		if (menu.id !== noteMenuId) {
-			menu.classList.remove("flex");
 			menu.classList.add("hidden");
+			menu.classList.remove("flex");
 		}
 	});
 
