@@ -13,6 +13,7 @@
 		<script src="/scripts/darkModeToggle.js" defer></script>
 		<script src="/scripts/bibleFormattingOptions.js" defer></script>
 		<script src="/scripts/resetChapterAndSubmit.js" defer></script>
+		<script src="/scripts/noteMenuToggle.js" defer></script>
 	</head>
 	<body
 		class="bg-[#e9eef1] sm:text-lg text-sm dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
@@ -109,13 +110,13 @@
 					<div id="vContainer" class="nodeInsideDiv px-5">
 						<% bookText.forEach(book => {
 							if (book.is_red) { %>
-								<span id="redLettering" class="m-1 p-1 dark:text-red-500 text-red-600 cursor-pointer">
-									<span class="font-semibold text-gray-800 dark:text-[#d9dde0]"><%= book.verse_number %></span>
+								<span id="redLettering" class="m-1 p-1 dark:text-red-500 text-red-600 cursor-pointer select-none" onclick="toggleNoteMenu()">
+									<span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none"><%= book.verse_number %></span>
 									<%= book.verse_text %>
 								</span>
 							<% } else { %>
-								<span class="m-1 p-1">
-									<span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer"><%= book.verse_number %></span>
+								<span class="m-1 p-1 cursor-pointer select-none" onclick="toggleNoteMenu()">
+									<span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none"><%= book.verse_number %></span>
 									<%= book.verse_text %>
 								</span>
 								<% }}) %>
@@ -123,7 +124,7 @@
 						<%- include('partials/noteCreated')%>
 				</div>
 			</div>
-			<%- include('partials/noteTaking')%>
+			<div><%- include('partials/noteTaking')%></div>
 		</main>
 	</body>
 </html>
