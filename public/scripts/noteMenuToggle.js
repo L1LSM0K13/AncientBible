@@ -13,8 +13,8 @@ const toggleNoteMenu = (noteMenuId) => {
 	openMenus.forEach((menu) => {
 		if (menu.id !== noteMenuId) {
 			console.log("this worked");
-			noteMenu.classList.toggle("hidden");
-			noteMenu.classList.toggle("flex");
+			menu.classList.toggle("hidden");
+			menu.classList.toggle("flex");
 		}
 	});
 
