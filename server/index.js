@@ -57,7 +57,6 @@ try {
 	bibleQuery(app, pool);
 	fathersQuery(app, pool);
 	register(app, pool);
-	takeNote(app, pool);
 } catch (err) {
 	console.log("error during init", err);
 }
@@ -71,7 +70,6 @@ app.get("/users/logout", (req, res, next) => {
 	req.flash("success_msg", "You have logged out");
 	res.redirect("/");
 });
-
 app.post(
 	"/users/login",
 	passport.authenticate("local", {
@@ -80,14 +78,12 @@ app.post(
 		failureFlash: true,
 	})
 );
-
 function checkAuthenticated(req, res, next) {
 	if (req.isAuthenticated()) {
 		return res.redirect("/");
 	}
 	next();
 }
-
 app.listen(PORT, () => {
 	console.log(`Listening on port ${PORT}`);
 });

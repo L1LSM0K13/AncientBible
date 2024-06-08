@@ -1,4 +1,5 @@
 function register(app, pool) {
+	const { defaultRender } = require("./defaultValues");
 	const bcrypt = require("bcrypt");
 
 	app.post("/users/register", async (req, res) => {
@@ -21,7 +22,7 @@ function register(app, pool) {
 		}
 
 		if (errors.length > 0) {
-			res.render("../public/views/register", { errors, loggedIn: false });
+			defaultRender(req, res, false, "../public/views/register", { errors });
 		} else {
 			// Form validation has passed
 
@@ -38,7 +39,7 @@ function register(app, pool) {
 
 					if (results.rows.length > 0) {
 						errors.push({ message: "User with this email already exists" });
-						res.render("../public/views/register", {
+						defaultRender(req, res, false, "../public/views/register", {
 							errors,
 						});
 					} else {
