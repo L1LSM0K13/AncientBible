@@ -114,13 +114,13 @@
 									<span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none"><%= book.verse_number %></span>
 									<%= book.verse_text %>
 								</span>
-								<div><%- include('partials/noteTaking')%></div>
+								<%- include('partials/noteTaking')%>
 							<% } else { %>
 								<span class="m-1 p-1 cursor-pointer select-none" onclick="toggleNoteMenu()">
 									<span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none"><%= book.verse_number %></span>
 									<%= book.verse_text %>
 								</span>
-								<div><%- include('partials/noteTaking')%></div>
+								<%- include('partials/noteTaking')%>
 								<% }}) %>
 					</div>
 						<%- include('partials/noteCreated')%>
