@@ -1,7 +1,7 @@
 async function takeNote(app, pool) {
 	app.get("/users/notes", async (req, res) => {
 		const { defaultRender } = require("./defaultValues");
-		res.render("../public/views/notes", console.log("this worked"));
+		res.render("notes", console.log("this worked"));
 
 		// await defaultRender(req, res, true, "../public/views/notes", { noteText });
 	});
@@ -17,7 +17,7 @@ async function takeNote(app, pool) {
 			[noteText]
 		);
 		console.table([result.rows]);
-		res.render("../public/views/notes", console.log("this worked"));
+		res.render("notes", console.log("this worked"));
 
 		// await defaultRender(req, res, true, "../public/views/notes", { noteText });
 	});
