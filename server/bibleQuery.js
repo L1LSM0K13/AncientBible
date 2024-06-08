@@ -63,7 +63,7 @@ async function bibleQuery(app, pool) {
 				req,
 				res,
 				true,
-				"../public/views/scripture.ejs",
+				"../public/views/scripture",
 				renderData
 			);
 		} else {
@@ -71,7 +71,7 @@ async function bibleQuery(app, pool) {
 				req,
 				res,
 				false,
-				"../public/views/scripture.ejs",
+				"../public/views/scripture",
 				renderData
 			);
 		}
