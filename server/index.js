@@ -57,6 +57,7 @@ try {
 	bibleQuery(app, pool);
 	fathersQuery(app, pool);
 	register(app, pool);
+	takeNote(app, pool);
 } catch (err) {
 	console.log("error during init", err);
 }
