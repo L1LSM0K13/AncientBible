@@ -7,7 +7,17 @@
 // };
 
 const toggleNoteMenu = (noteMenuId) => {
+	const openMenus = document.querySelectorAll(".noteMenu.flex");
 	const noteMenu = document.getElementById(noteMenuId);
+
+	openMenus.forEach((menu) => {
+		if (menu.id !== noteMenuId) {
+			console.log("this worked");
+			noteMenu.classList.toggle("hidden");
+			noteMenu.classList.toggle("flex");
+		}
+	});
+
 	if (noteMenu) {
 		console.log("this worked");
 		noteMenu.classList.toggle("hidden");
