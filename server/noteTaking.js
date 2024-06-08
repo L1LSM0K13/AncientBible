@@ -1,9 +1,14 @@
 async function takeNote(app, pool) {
-	app.get("/users/bible", (req, res) => {
-		res.render("../public/views/scripture", { errors: [] });
+	app.get("/users/bible", async (req, res) => {
+		const { defaultRender } = require("./defaultValues");
+
+		await defaultRender(req, res, true, "../public/views/scripture", {
+			errors: [],
+		});
 	});
 
 	app.post("/users/bible", async (req, res) => {
+		const { defaultRender } = require("./defaultValues");
 		let { noteText } = req.body;
 		let errors = [];
 
@@ -12,7 +17,9 @@ async function takeNote(app, pool) {
 		}
 
 		if (errors.length > 0) {
-			res.render("../public/views/scripture", { errors });
+			await defaultRender(req, res, true, "../public/views/scripture", {
+				errors,
+			});
 		} else {
 			const result = await pool.query(
 				`INSERT INTO notes (text)
@@ -21,7 +28,9 @@ async function takeNote(app, pool) {
 				[noteText]
 			);
 			console.table([result.rows]);
-			res.render("../public/views/scripture", { errors });
+			await defaultRender(req, res, true, "../public/views/scripture", {
+				errors,
+			});
 		}
 	});
 }
