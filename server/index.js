@@ -53,13 +53,13 @@ app.get("/users/login", checkAuthenticated, (req, res) => {
 	defaultRender(req, res, false, "../public/views/login", {});
 });
 
-bibleQuery(app, pool);
-fathersQuery(app, pool);
-register(app, pool);
 try {
+	bibleQuery(app, pool);
+	fathersQuery(app, pool);
+	register(app, pool);
 	takeNote(app, pool);
 } catch (err) {
-	console.log(err);
+	console.log("error during init", err);
 }
 
 app.get("/users/logout", (req, res, next) => {
