@@ -7,7 +7,7 @@ async function takeNote(app, pool) {
 			res,
 			true,
 			"../public/views/scripture",
-			bibleQuery(app, pool)
+			await bibleQuery(app, pool)
 		);
 	});
 
@@ -28,7 +28,7 @@ async function takeNote(app, pool) {
 			res,
 			true,
 			"../public/views/scripture",
-			bibleQuery(app, pool)
+			await bibleQuery(app, pool)
 		);
 	});
 }
