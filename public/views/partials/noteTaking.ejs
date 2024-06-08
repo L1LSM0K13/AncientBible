@@ -1,10 +1,4 @@
 <%= errors %>
-<form action="/users/bible" method="POST">
-	<label for="noteText" id="noteText" name="noteText" required></label>
-	<input type="text" id="text" name="noteText" placeholder="insert text" />
-	<input type="submit" value="text" />
-</form>
-
 <div class="nodeMargins flex">
 	<div>
 		<div class="noteNodeTitleH1">
@@ -44,19 +38,29 @@
 					<u>U</u>
 				</button>
 			</div>
-			<form>
-				<label for="notes"></label>
-				<textarea
-					name="notes"
+			<form action="/users/bible" method="POST">
+				<label for="notes" id="noteText" name="notes" required></label>
+				<input
+					type="text"
+					id="text"
+					name="noteText"
+					placeholder="Insert text here."
 					rows="5"
 					cols="25"
-					id=""
-					class="bg-yellow-200 border border-yellow-600 resize-none p-1 m-1"></textarea>
-			</form>
-			<button
+					class="bg-yellow-200 border border-yellow-600 resize-none p-1 m-1"></input>
+				<input
+				type="submit"
+				value="text"
 				class="p-1 bg-gray-100 border border-gray-300 rounded-md active:bg-gray-200">
-				Take note
-			</button>
+					Post Note
+				</input>
+			</form>
 		</div>
 	</div>
 </div>
+
+<form action="/users/bible" method="POST">
+	<label for="noteText" id="noteText" name="noteText" required></label>
+	<input type="text" id="text" name="noteText" placeholder="insert text" />
+	<input type="submit" value="text" />
+</form>
