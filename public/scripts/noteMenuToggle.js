@@ -8,16 +8,16 @@
 
 const toggleNoteMenu = (noteMenuId) => {
 	const openMenus = document.querySelectorAll(".noteMenu.flex");
-	const noteMenu = document.getElementById(noteMenuId);
 
 	openMenus.forEach((menu) => {
 		if (menu.id !== noteMenuId) {
 			console.log("this worked");
-			menu.classList.toggle("hidden");
-			menu.classList.toggle("flex");
+			menu.classList.add("hidden");
+			menu.classList.remove("flex");
 		}
 	});
 
+	const noteMenu = document.getElementById(noteMenuId);
 	if (noteMenu) {
 		console.log("this worked");
 		noteMenu.classList.toggle("hidden");
