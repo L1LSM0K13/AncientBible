@@ -4,6 +4,7 @@ async function takeNote(app, pool) {
 
 	// 	await defaultRender(req, res, true, "../public/views/scripture", {});
 	// });
+	const { bibleQuery } = require("./bibleQuery");
 
 	app.post("/users/bible", async (req, res) => {
 		const { defaultRender } = require("./defaultValues");
@@ -24,7 +25,8 @@ async function takeNote(app, pool) {
 				[noteText]
 			);
 			console.table([result.rows]);
-			await defaultRender(req, res, true, "../public/views/scripture", {});
+			await bibleQuery(app, pool);
+			// await defaultRender(req, res, true, "../public/views/scripture", {});
 		}
 	});
 }
