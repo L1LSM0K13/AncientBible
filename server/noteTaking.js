@@ -25,7 +25,11 @@ async function takeNote(app, pool) {
 				[noteText]
 			);
 			console.table([result.rows]);
-			await bibleQuery(app, pool);
+			try {
+				await bibleQuery(app, pool);
+			} catch (err) {
+				console.log(err);
+			}
 			// await defaultRender(req, res, true, "../public/views/scripture", {});
 		}
 	});
