@@ -1,11 +1,9 @@
 async function takeNote(app, pool) {
-	app.get("/users/bible", async (req, res) => {
-		const { defaultRender } = require("./defaultValues");
+	// app.get("/users/bible", async (req, res) => {
+	// 	const { defaultRender } = require("./defaultValues");
 
-		await defaultRender(req, res, true, "../public/views/scripture", {
-			errors: [],
-		});
-	});
+	// 	await defaultRender(req, res, true, "../public/views/scripture", {});
+	// });
 
 	app.post("/users/bible", async (req, res) => {
 		const { defaultRender } = require("./defaultValues");
