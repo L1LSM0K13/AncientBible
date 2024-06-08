@@ -45,6 +45,8 @@ async function bibleQuery(app, pool) {
 					.chapter_number;
 		}
 
+		let { noteText } = req.body;
+
 		const isAuth = req.isAuthenticated();
 		const renderData = {
 			bookText: bookText,

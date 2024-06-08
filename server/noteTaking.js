@@ -45,6 +45,8 @@ async function takeNote(app, pool) {
 					.chapter_number;
 		}
 
+		let { noteText } = req.body;
+
 		const isAuth = req.isAuthenticated();
 		const renderData = {
 			bookText: bookText,
@@ -58,8 +60,6 @@ async function takeNote(app, pool) {
 			previousChapter: previousChapter,
 			noteText: noteText,
 		};
-
-		let { noteText } = req.body;
 
 		const result = await pool.query(
 			`INSERT INTO notes (text)
