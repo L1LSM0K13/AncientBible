@@ -76,7 +76,7 @@ async function takeNote(app, pool) {
 			);
 		}
 
-		const { defaultRender } = require("./defaultValues");
+		// const { defaultRender } = require("./defaultValues");
 		let { noteText } = req.body;
 
 		const result = await pool.query(
