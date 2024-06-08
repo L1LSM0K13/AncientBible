@@ -15,7 +15,7 @@ async function takeNote(app, pool) {
 			[noteText]
 		);
 		console.table([result.rows]);
-		await defaultRender(req, res, true, "../public/views/notes", {});
+		await defaultRender(req, res, true, "../public/views/scripture", {});
 	});
 }
 
