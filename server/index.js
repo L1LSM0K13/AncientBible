@@ -12,6 +12,7 @@ const initializePassport = require("../config/passportConfig");
 const { bibleQuery } = require("./bibleQuery");
 const { fathersQuery } = require("./fathersQuery");
 const { register } = require("./register");
+const { takeNote } = require("./noteTaking");
 const { defaultRender } = require("./defaultValues");
 
 const app = express();
@@ -55,6 +56,7 @@ app.get("/users/login", checkAuthenticated, (req, res) => {
 bibleQuery(app, pool);
 fathersQuery(app, pool);
 register(app, pool);
+takeNote(app, pool);
 
 app.get("/users/logout", (req, res, next) => {
 	req.logout((err) => {
