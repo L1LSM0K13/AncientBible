@@ -59,21 +59,13 @@ async function bibleQuery(app, pool) {
 		};
 
 		if (isAuth) {
-			await defaultRender(
-				req,
-				res,
-				true,
-				"../public/views/scripture.ejs",
-				renderData
-			);
+			await defaultRender(req, res, true, "../public/views/scripture.ejs", {
+				renderData,
+			});
 		} else {
-			await defaultRender(
-				req,
-				res,
-				false,
-				"../public/views/scripture.ejs",
-				renderData
-			);
+			await defaultRender(req, res, false, "../public/views/scripture.ejs", {
+				renderData,
+			});
 		}
 	});
 }
