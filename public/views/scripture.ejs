@@ -108,7 +108,7 @@
 						</a>
 					</h1>
 					<div id="vContainer" class="nodeInsideDiv px-5">
-						<% bookText.forEach(book, index => {
+						<% bookText.forEach((book, index) => {
 							const noteMenuId = `createNoteMenu-${index}`
 							if (book.is_red) { %>
 								<span id="redLettering" class="m-1 p-1 dark:text-red-500 text-red-600 cursor-pointer select-none" onclick="toggleNoteMenu()">
