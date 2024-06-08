@@ -56,7 +56,11 @@ app.get("/users/login", checkAuthenticated, (req, res) => {
 bibleQuery(app, pool);
 fathersQuery(app, pool);
 register(app, pool);
-takeNote(app, pool);
+try {
+	takeNote(app, pool);
+} catch (err) {
+	console.log(err);
+}
 
 app.get("/users/logout", (req, res, next) => {
 	req.logout((err) => {
