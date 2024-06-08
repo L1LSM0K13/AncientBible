@@ -53,10 +53,10 @@ app.get("/users/login", checkAuthenticated, (req, res) => {
 	defaultRender(req, res, false, "../public/views/login", {});
 });
 
-takeNote(app, pool);
 bibleQuery(app, pool);
 fathersQuery(app, pool);
 register(app, pool);
+takeNote(app, pool);
 
 app.get("/users/logout", (req, res, next) => {
 	req.logout((err) => {
