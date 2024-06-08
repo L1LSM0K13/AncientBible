@@ -1,7 +1,7 @@
+const { renderData } = require("./bibleQuery");
 async function takeNote(app, pool) {
 	app.get("/users/bible", async (req, res) => {
 		const { defaultRender } = require("./defaultValues");
-		const { renderData } = require("./bibleQuery");
 		await defaultRender(req, res, true, "../public/views/scripture", {});
 	});
 
