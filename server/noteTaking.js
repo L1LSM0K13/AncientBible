@@ -18,7 +18,7 @@ async function takeNote(app, pool) {
 
 		if (errors.length > 0) {
 			await defaultRender(req, res, true, "../public/views/scripture", {
-				errors,
+				errors: [],
 			});
 		} else {
 			const result = await pool.query(
@@ -29,7 +29,7 @@ async function takeNote(app, pool) {
 			);
 			console.table([result.rows]);
 			await defaultRender(req, res, true, "../public/views/scripture", {
-				errors,
+				errors: [],
 			});
 		}
 	});
