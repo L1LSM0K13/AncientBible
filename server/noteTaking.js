@@ -17,9 +17,7 @@ async function takeNote(app, pool) {
 		}
 
 		if (errors.length > 0) {
-			await defaultRender(req, res, true, "../public/views/scripture", {
-				errors: [],
-			});
+			await defaultRender(req, res, true, "../public/views/scripture", {});
 		} else {
 			const result = await pool.query(
 				`INSERT INTO notes (text)
@@ -28,9 +26,7 @@ async function takeNote(app, pool) {
 				[noteText]
 			);
 			console.table([result.rows]);
-			await defaultRender(req, res, true, "../public/views/scripture", {
-				errors: [],
-			});
+			await defaultRender(req, res, true, "../public/views/scripture", {});
 		}
 	});
 }
