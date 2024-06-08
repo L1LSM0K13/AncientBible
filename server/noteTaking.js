@@ -58,25 +58,6 @@ async function takeNote(app, pool) {
 			previousChapter: previousChapter,
 		};
 
-		// if (isAuth) {
-		// 	await defaultRender(
-		// 		req,
-		// 		res,
-		// 		true,
-		// 		"../public/views/scripture",
-		// 		renderData
-		// 	);
-		// } else {
-		// 	await defaultRender(
-		// 		req,
-		// 		res,
-		// 		false,
-		// 		"../public/views/scripture",
-		// 		renderData
-		// 	);
-		// }
-
-		// const { defaultRender } = require("./defaultValues");
 		let { noteText } = req.body;
 
 		const result = await pool.query(
