@@ -56,6 +56,7 @@ async function bibleQuery(app, pool) {
 			nextChapter: nextChapter,
 			previousBook: previousBook,
 			previousChapter: previousChapter,
+			noteText: noteText,
 		};
 
 		if (isAuth) {

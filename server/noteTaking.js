@@ -56,6 +56,7 @@ async function takeNote(app, pool) {
 			nextChapter: nextChapter,
 			previousBook: previousBook,
 			previousChapter: previousChapter,
+			noteText: noteText,
 		};
 
 		let { noteText } = req.body;
