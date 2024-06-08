@@ -1,17 +1,7 @@
 async function takeNote(app, pool) {
 	app.get("/users/bible", async (req, res) => {
 		const { defaultRender } = require("./defaultValues");
-		const renderData = {
-			bookText: bookText,
-			bookChapters: chapters,
-			bookTitleOptions: bookTitles,
-			selectedBook: defaultBook,
-			selectedChapter: defaultChapter,
-			nextBook: nextBook,
-			nextChapter: nextChapter,
-			previousBook: previousBook,
-			previousChapter: previousChapter,
-		};
+		const { renderData } = require("./bibleQuery");
 
 		await defaultRender(req, res, true, "../public/views/scripture", {
 			errors: [],
@@ -21,19 +11,9 @@ async function takeNote(app, pool) {
 
 	app.post("/users/bible", async (req, res) => {
 		const { defaultRender } = require("./defaultValues");
+		const { renderData } = require("./bibleQuery");
 		let { noteText } = req.body;
 		let errors = [];
-		const renderData = {
-			bookText: bookText,
-			bookChapters: chapters,
-			bookTitleOptions: bookTitles,
-			selectedBook: defaultBook,
-			selectedChapter: defaultChapter,
-			nextBook: nextBook,
-			nextChapter: nextChapter,
-			previousBook: previousBook,
-			previousChapter: previousChapter,
-		};
 
 		if (!noteText) {
 			errors.push({ message: "Note cannot be blank." });
