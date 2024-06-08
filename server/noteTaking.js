@@ -1,21 +1,7 @@
 async function takeNote(app, pool) {
-	// const renderData = {
-	// 	bookText: bookText,
-	// 	bookChapters: chapters,
-	// 	bookTitleOptions: bookTitles,
-	// 	selectedBook: defaultBook,
-	// 	selectedChapter: defaultChapter,
-	// 	nextBook: nextBook,
-	// 	nextChapter: nextChapter,
-	// 	previousBook: previousBook,
-	// 	previousChapter: previousChapter,
-	// };
-
 	app.get("/users/bible", async (req, res) => {
 		const { defaultRender } = require("./defaultValues");
-		await defaultRender(req, res, true, "../public/views/scripture", {
-			// renderData,
-		});
+		await defaultRender(req, res, true, "../public/views/scripture", {});
 	});
 
 	try {
@@ -30,7 +16,7 @@ async function takeNote(app, pool) {
 
 			if (errors.length > 0) {
 				await defaultRender(req, res, true, "../public/views/scripture", {
-					// renderData,
+					errors,
 				});
 			} else {
 				const result = await pool.query(
@@ -40,9 +26,7 @@ async function takeNote(app, pool) {
 					[noteText]
 				);
 				console.table([result.rows]);
-				await defaultRender(req, res, true, "../public/views/scripture", {
-					// renderData,
-				});
+				await defaultRender(req, res, true, "../public/views/scripture", {});
 			}
 		});
 	} catch (err) {
