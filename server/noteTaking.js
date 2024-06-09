@@ -45,8 +45,9 @@ async function takeNote(app, pool) {
 					.chapter_number;
 		}
 
-		let { noteText } = req.body;
+		let { noteText, verseId, fathersId } = req.body;
 
+		const userId = req.user.id;
 		const isAuth = req.isAuthenticated();
 		const renderData = {
 			bookText: bookText,
@@ -58,24 +59,22 @@ async function takeNote(app, pool) {
 			nextChapter: nextChapter,
 			previousBook: previousBook,
 			previousChapter: previousChapter,
-			noteText: noteText,
 		};
 
 		const result = await pool.query(
 			`INSERT INTO user_notes (text)
-				VALUES ($1)
+				VALUES ($1, $2, $3, $4)
 				RETURNING id, text, user_id, verse_id, fathers_id`,
-			[noteText]
+			[noteText, userId, verse_id, fathers_id]
 		);
 		console.table([result.rows]);
 		if (isAuth) {
-			await defaultRender(
-				req,
-				res,
-				true,
-				"../public/views/scripture",
-				renderData
-			);
+			await defaultRender(req, res, true, "../public/views/scripture", {
+				renderData,
+				noteText: noteText,
+				verseId: verseId,
+				fathersId: fathersId,
+			});
 		} else {
 			await defaultRender(
 				req,
