@@ -62,7 +62,7 @@ async function takeNote(app, pool) {
 		};
 
 		const result = await pool.query(
-			`INSERT INTO user_notes (text)
+			`INSERT INTO user_notes (text, user_id, verse_id, fathers_id)
 				VALUES ($1, $2, $3, $4)
 				RETURNING id, text, user_id, verse_id, fathers_id`,
 			[noteText, userId, verseId, fathersId]
