@@ -65,7 +65,7 @@ async function takeNote(app, pool) {
 			`INSERT INTO user_notes (text)
 				VALUES ($1, $2, $3, $4)
 				RETURNING id, text, user_id, verse_id, fathers_id`,
-			[noteText, userId, verse_id, fathers_id]
+			[noteText, userId, verseId, fathersId]
 		);
 		console.table([result.rows]);
 		if (isAuth) {
