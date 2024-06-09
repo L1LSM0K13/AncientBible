@@ -47,7 +47,7 @@ async function takeNote(app, pool) {
 
 		let { noteText, verseId, fathersId } = req.body;
 
-		const userId = req.user.id;
+		const userId = req.isAuthenticated() ? req.user.id : null;
 		const isAuth = req.isAuthenticated();
 		const renderData = {
 			bookText: bookText,
