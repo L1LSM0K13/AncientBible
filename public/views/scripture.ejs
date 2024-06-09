@@ -126,7 +126,7 @@
 							<% if(loggedIn) { %>
 								<%- include('partials/noteTaking', { noteMenuId: noteMenuId })%>
 							<% } else { %>
-								<% return null %>
+								<% return %>
 							 <% } %>
 						<% }) %>
 					</div>
@@ -134,7 +134,7 @@
 					<% if(loggedIn) { %>
 							<%- include('partials/noteCreated')%>
 							<% } else { %>
-								<% return null %>
+								<% return %>
 							<% } %>
 
 				</div>
