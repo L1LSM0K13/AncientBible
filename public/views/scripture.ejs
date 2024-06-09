@@ -123,19 +123,19 @@
 
 							<% } %>
 
-							<% if(loggedIn) {
+							<% if(loggedIn) { %>
 								<%- include('partials/noteTaking', { noteMenuId: noteMenuId })%>
-							} else {
+							<% } else { %>
 								return;
-							}%>
+							 <% } %>
 						<% }) %>
 					</div>
 
-					<% if(loggedIn) {
+					<% if(loggedIn) { %>
 							<%- include('partials/noteCreated')%>
-							} else {
+							<% } else { %>
 								return;
-							}%>
+							<% } %>
 
 				</div>
 			</div>
