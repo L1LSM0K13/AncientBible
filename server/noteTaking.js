@@ -1,11 +1,12 @@
 async function takeNote(app, pool) {
 	app.post("/users/bible", async (req, res) => {
 		const { defaultRender } = require("./defaultValues");
+		const user_id = req.user.id;
 		let { noteText } = req.body;
 
 		const result = await pool.query(
-			`INSERT INTO user_notes (text) VALUES ($1) RETURNING id, text`,
-			[noteText]
+			`INSERT INTO user_notes (text, user_id) VALUES ($1, $2) RETURNING id, text, user_id`,
+			[noteText, user_id]
 		);
 		console.table([result.rows]);
 
