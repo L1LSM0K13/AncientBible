@@ -4,7 +4,7 @@ async function takeNote(app, pool) {
 		let { noteText } = req.body;
 
 		const result = await pool.query(
-			`INSERT INTO notes (text) VALUES ($1) RETURNING id, text`,
+			`INSERT INTO user_notes (text) VALUES ($1) RETURNING id, text`,
 			[noteText]
 		);
 		console.table([result.rows]);
