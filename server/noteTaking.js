@@ -1,5 +1,6 @@
 async function takeNote(app, pool) {
 	app.post("/users/bible", async (req, res) => {
+		const isAuth = req.isAuthenticated();
 		const { defaultRender } = require("./defaultValues");
 		const user_id = req.user.id;
 		let { noteText } = req.body;
