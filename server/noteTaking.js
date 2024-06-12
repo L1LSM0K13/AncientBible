@@ -11,31 +11,6 @@ async function takeNote(app, pool) {
 		);
 		console.table(result.rows);
 
-		fetch("/users/bible", {
-			method: "POST",
-			headers: {
-				"Content-Type": "application/json",
-			},
-			body: JSON.stringify({
-				noteText: noteText,
-				verse_id: verse_id,
-				fathers_id: fathers_id,
-			}),
-		})
-			.then((res) => {
-				if (response.ok) {
-					return response.json();
-				} else {
-					throw new Error("Failed to save note");
-				}
-			})
-			.then((data) => {
-				console.log("Note Saved: ", data);
-			})
-			.catch((err) => {
-				console.error("Error:", err);
-			});
-
 		if (isAuth) {
 			await defaultRender(req, res, true, "../public/views/scripture", {
 				noteText,

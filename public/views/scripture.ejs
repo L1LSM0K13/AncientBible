@@ -161,9 +161,7 @@ var loggedIn = loggedIn;
 					</h1>
 					<div id="vContainer" class="nodeInsideDiv px-5">
 						<% bookText.forEach((book, index) => {
-							const verseId = `verse-${book.verse_id}`
 							const noteMenuId = `createNoteMenu-${index}`;
-
 							if (book.is_red) { %>
 								<span id="redLettering" class="m-1 p-1 dark:text-red-500 text-red-600 cursor-pointer select-none" onclick="toggleNoteMenu(`<%= noteMenuId %>`)">
 									<span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none" id="<%= book.id %>"><%= book.verse_number %></span>
