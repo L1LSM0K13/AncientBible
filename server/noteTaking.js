@@ -1,6 +1,9 @@
+const { render } = require("ejs");
+
 async function takeNote(app, pool) {
 	app.post("/users/bible", async (req, res) => {
 		const { defaultRender } = require("./defaultValues");
+		const { bibleQuery } = require("./bibleQuery");
 		const user_id = req.user.id;
 		let { noteText, verse_id, fathers_id } = req.body;
 
@@ -10,7 +13,11 @@ async function takeNote(app, pool) {
 		);
 		console.table(result.rows);
 
-		await defaultRender(req, res, true, "../public/views/scripture", {});
+		const renderData = await bibleQuery(app, pool);
+
+		await defaultRender(req, res, true, "../public/views/scripture", {
+			renderData,
+		});
 	});
 }
 
