@@ -14,7 +14,6 @@ async function takeNote(app, pool) {
 		if (isAuth) {
 			await defaultRender(req, res, true, "../public/views/scripture", {
 				noteText,
-				verse_id,
 			});
 		} else {
 			await defaultRender(req, res, false, "../public/views/scripture", {});
