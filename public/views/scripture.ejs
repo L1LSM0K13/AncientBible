@@ -160,6 +160,11 @@ var loggedIn = loggedIn;
 						</a>
 					</h1>
 					<div id="vContainer" class="nodeInsideDiv px-5">
+
+						<% const bookId = bookText.forEach((book) => {
+							return book.id
+						})%>
+
 						<% bookText.forEach((book, index) => {
 							const noteMenuId = `createNoteMenu-${index}`;
 							if (book.is_red) { %>
