@@ -161,11 +161,7 @@ var loggedIn = loggedIn;
 					</h1>
 					<div id="vContainer" class="nodeInsideDiv px-5">
 
-						<% const bookId = bookText.forEach((book) => {
-							return [book.id]
-						})%>
-
-						<% console.table(bookId)%>
+						<% const bookId = bookText.forEach((book) => { return [book.id] }) console.table([bookId]) %>
 
 						<% bookText.forEach((book, index) => {
 							const noteMenuId = `createNoteMenu-${index}`;
