@@ -161,13 +161,13 @@ var loggedIn = loggedIn;
 					</h1>
 					<div id="vContainer" class="nodeInsideDiv px-5">
 
-						<% async function returnId() {
+						<% function returnId() {
 								const bookId = bookText.map((book) => {
 								return book;
 							});
 							return bookId;
 						}
-						console.table([returnId()]); %>
+						console.table(returnId()); %>
 
 						<% bookText.forEach((book, index) => {
 							const noteMenuId = `createNoteMenu-${index}`;
