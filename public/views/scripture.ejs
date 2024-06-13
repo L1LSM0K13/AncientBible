@@ -161,7 +161,7 @@ var loggedIn = loggedIn;
 					</h1>
 					<div id="vContainer" class="nodeInsideDiv px-5">
 
-						<% const bookId = bookText.forEach(await (book) => { return [book.id] }) %>
+						<% const bookId = bookText.forEach(async (book) => { return [book.id] }) %>
 						<% console.table([bookId]) %>
 
 						<% bookText.forEach((book, index) => {
