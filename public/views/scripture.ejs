@@ -162,7 +162,8 @@ var loggedIn = loggedIn;
 					<div id="vContainer" class="nodeInsideDiv px-5">
 
 						<% const bookId = bookText.forEach((book) => {
-							console.table(book.id)
+							console.table([book.id])
+							return [book.id]
 						})%>
 
 						<% bookText.forEach((book, index) => {
