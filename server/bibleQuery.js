@@ -52,7 +52,7 @@ async function bibleQuery(app, pool) {
 			return bookId;
 		}
 
-		let noteText;
+		let noteText = req.body;
 		const isAuth = req.isAuthenticated();
 		const renderData = {
 			bookText: bookText,
@@ -65,7 +65,6 @@ async function bibleQuery(app, pool) {
 			previousBook: previousBook,
 			previousChapter: previousChapter,
 			noteText: noteText,
-			verse_id: returnId(),
 		};
 
 		if (isAuth) {

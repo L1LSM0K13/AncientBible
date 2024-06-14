@@ -48,7 +48,6 @@ var is_red = is_red;
 var verse_number = verse_number;
 var verse_text = verse_text;
 var loggedIn = loggedIn;
-var verse_id = verse_id;
 %>
 
 <!DOCTYPE html>
@@ -161,8 +160,6 @@ var verse_id = verse_id;
 						</a>
 					</h1>
 					<div id="vContainer" class="nodeInsideDiv px-5">
-
-						<% verse_id %>
 
 						<% bookText.forEach((book, index) => {
 							const noteMenuId = `createNoteMenu-${index}`;
