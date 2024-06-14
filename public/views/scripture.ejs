@@ -48,6 +48,7 @@ var is_red = is_red;
 var verse_number = verse_number;
 var verse_text = verse_text;
 var loggedIn = loggedIn;
+var verse_id = verse_id;
 %>
 
 <!DOCTYPE html>
@@ -161,18 +162,12 @@ var loggedIn = loggedIn;
 					</h1>
 					<div id="vContainer" class="nodeInsideDiv px-5">
 
-						<% function returnId() {
-								const bookId = bookText.map((book) => {
-								return book.id;
-							});
-							return bookId;
-						}
-						console.table(returnId()); %>
+						<% verse_id %>
 
 						<% bookText.forEach((book, index) => {
 							const noteMenuId = `createNoteMenu-${index}`;
 							if (book.is_red) { %>
-								<span id="redLettering" class="m-1 p-1 dark:text-red-500 text-red-600 cursor-pointer select-none" onclick="toggleNoteMenu(`<%= noteMenuId %>`)">
+								<span id="redLettering" class="m-1 p-1 dark:text-red-500 text-red-600 cursor-pointer select-none" onclick="toggleNoteMenu(`<%= noteMenuId %>`)" >
 									<span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none" id="<%= book.id %>"><%= book.verse_number %></span>
 									<%= book.verse_text %>
 								</span>
@@ -196,12 +191,6 @@ var loggedIn = loggedIn;
 				</div>
 			</div>
 		</main>
-
-		<script>
-			function setVerseId(verseId) {
-				document.getElementById('verse_id').value = verseId
-			}
-		</script>
 
 	</body>
 </html>
