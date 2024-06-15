@@ -8,7 +8,9 @@ async function takeNote(app, pool) {
 				`INSERT INTO user_notes (text, user_id, verse_id, fathers_id) VALUES ($1, $2, $3, $4) RETURNING id, text, user_id, verse_id, fathers_id`,
 				[noteText, user_id, verse_id, fathers_id]
 			);
-			console.table(result.rows);
+
+			const user_notes = result.rows;
+			console.table(user_notes);
 
 			res.redirect("/users/bible");
 		} catch (err) {

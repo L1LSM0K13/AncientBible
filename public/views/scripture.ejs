@@ -179,11 +179,21 @@ var loggedIn = loggedIn;
 
 							<% if(loggedIn) { %>
 								<%- include('partials/noteTaking', { noteMenuId: noteMenuId, verse_id: verse_id})%>
+								const fetchUserNotes = user_notes.filer((note) => {
+									note.verse_id === verse_id
+								})
+
+								fetchUserNotes.forEach(note => {
+									<%- include('partials/noteCreated', {noteText: noteText})%>
+
+								});
 							<% }}) %>
 					</div>
 
+
+
+
 					<% if(loggedIn) { %>
-							<%- include('partials/noteCreated', {noteText: noteText})%>
 							<% } %>
 
 				</div>
