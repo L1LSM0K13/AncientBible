@@ -179,9 +179,15 @@ var verse_id = bookText.book;
 							<% } %>
 
 							<% if(loggedIn) { %>
-								<%- include('partials/noteTaking', { noteMenuId: noteMenuId, verse_id: verse_id })%>
+								<%- include('partials/noteTaking', { noteMenuId: noteMenuId})%>
 							<% }}) %>
 					</div>
+
+					<script>
+						function getVerseId(verse_id) {
+							return document.getElementById(verse_id);
+						}
+					</script>
 
 					<% if(loggedIn) { %>
 							<%- include('partials/noteCreated')%>

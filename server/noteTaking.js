@@ -9,6 +9,8 @@ async function takeNote(app, pool) {
 		);
 		console.table(result.rows);
 
+		const InsertedNote = result.rows[0];
+
 		res.redirect("/users/bible");
 	});
 }
