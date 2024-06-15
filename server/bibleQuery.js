@@ -57,7 +57,7 @@ async function bibleQuery(app, pool) {
 			previousBook: previousBook,
 			previousChapter: previousChapter,
 			noteText: req.body.noteText,
-			verse_id: verse_id,
+			verse_id: req.body.verse_id,
 		};
 
 		if (isAuth) {
