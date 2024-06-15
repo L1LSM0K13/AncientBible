@@ -23,7 +23,12 @@ async function bibleQuery(app, pool) {
 		const chapters = bookChaptersRes.rows.map((row) => row.chapter_number);
 		const bookText = bookTextRes.rows;
 
-		const userNotes = userNoteRes.rows.map(async (row) => row.text);
+		const userNotes = userNoteRes.rows.map((row) => row.text);
+
+		console.log("bookTitleOptionRes:", bookTitleOptionRes.rows);
+		console.log("bookChaptersRes:", bookChaptersRes.rows);
+		console.log("bookTextRes:", bookTextRes.rows);
+		console.log("userNoteRes:", userNoteRes.rows);
 
 		let nextBook = defaultBook;
 		let nextChapter = defaultChapter + 1;
