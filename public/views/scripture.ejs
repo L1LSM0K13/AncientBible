@@ -164,16 +164,19 @@ var loggedIn = loggedIn;
 						<% bookText.map((book, index) => {
 							const noteMenuId = `createNoteMenu-${index}`;
 							const verse_id = book.id;
+							const is_red = book.is_red;
+							const verse_number = book.verse_number;
+							const verse_text = book.verse_text;
 
-							if (book.is_red) { %>
+							if (is_red) { %>
 								<span id="redLettering" class="m-1 p-1 dark:text-red-500 text-red-600 cursor-pointer select-none" onclick="toggleNoteMenu(`<%= noteMenuId %>`)" >
-									<span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none" id="<%= verse_id %>"><%= book.verse_number %></span>
-									<%= book.verse_text %>
+									<span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none" id="<%= verse_id %>"><%= verse_number %></span>
+									<%= verse_text %>
 								</span>
 							<% } else { %>
 								<span class="m-1 p-1 cursor-pointer select-none" onclick="toggleNoteMenu(`<%= noteMenuId %>`)">
-									<span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none" id="<%= verse_id %>"><%= book.verse_number %></span>
-									<%= book.verse_text %>
+									<span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none" id="<%= verse_id %>"><%= verse_number %></span>
+									<%= verse_text %>
 								</span>
 							<% } %>
 
