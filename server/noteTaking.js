@@ -1,7 +1,3 @@
-async function getVerseId(verse_id) {
-	return document.getElementById(verse_id);
-}
-
 async function takeNote(app, pool) {
 	app.post("/users/bible", async (req, res) => {
 		const user_id = req.user.id;
