@@ -183,10 +183,14 @@ var loggedIn = loggedIn;
 									note.verse_id === verse_id
 								})
 
-								fetchUserNotes.forEach((note) => {
-									<%- include('partials/noteCreated', {noteText: noteText})%>
+								<div>
+									<% fetchUserNotes.forEach((note) => { %>
+										<div id="note - <%= note.id %>">
+											<span><%= note.text %></span>
+										</div>
+									}) %>
+								</div>
 
-								});
 							<% }}) %>
 					</div>
 
