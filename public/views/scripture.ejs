@@ -179,7 +179,7 @@ var verse_id = bookText.book;
 							<% } %>
 
 							<% if(loggedIn) { %>
-								<%- include('partials/noteTaking', { noteMenuId: noteMenuId })%>
+								<%- include('partials/noteTaking', { noteMenuId: noteMenuId, verse_id: verse_id })%>
 							<% }}) %>
 					</div>
 
