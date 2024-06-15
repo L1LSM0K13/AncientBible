@@ -164,8 +164,8 @@ var loggedIn = loggedIn;
 						<% bookText.map((book, index) => {
 							const noteMenuId = `createNoteMenu-${index}`;
 							const verse_id = book.id;
-							const user_notes = user_notes;
 							const fetchUserNotes = user_notes.filter((note) => note.verse_id === verse_id)
+							const user_notes = user_notes;
 
 							if (book.is_red) { %>
 								<span id="redLettering" class="m-1 p-1 dark:text-red-500 text-red-600 cursor-pointer select-none" onclick="toggleNoteMenu(`<%= noteMenuId %>`)" >
