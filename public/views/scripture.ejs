@@ -164,7 +164,6 @@ var loggedIn = loggedIn;
 						<% bookText.map((book, index) => {
 							const noteMenuId = `createNoteMenu-${index}`;
 							const verse_id = book.id;
-							const user_notes = user_notes;
 							if (book.is_red) { %>
 								<span id="redLettering" class="m-1 p-1 dark:text-red-500 text-red-600 cursor-pointer select-none" onclick="toggleNoteMenu(`<%= noteMenuId %>`)" >
 									<span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none" id="<%= verse_id %>"><%= book.verse_number %></span>
@@ -180,6 +179,7 @@ var loggedIn = loggedIn;
 
 							<% if(loggedIn) { %>
 								<%- include('partials/noteTaking', { noteMenuId: noteMenuId, verse_id: verse_id})%>
+								<% const user_notes = user_notes %>
 								<% const fetchUserNotes = user_notes.filter((note) => {note.verse_id === verse_id}) %>
 								<div><% fetchUserNotes.forEach((note) => { %><div id="note - <%= note.id %>"><span><%= note.text %></span></div> <% }) %></div>
 
