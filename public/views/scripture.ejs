@@ -183,7 +183,7 @@ var loggedIn = loggedIn;
 					</div>
 
 					<% if(loggedIn) { %>
-							<%- include('partials/noteCreated', noteText: noteText)%>
+							<%- include('partials/noteCreated', {noteText: noteText})%>
 							<% } %>
 
 				</div>
