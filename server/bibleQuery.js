@@ -45,13 +45,6 @@ async function bibleQuery(app, pool) {
 					.chapter_number;
 		}
 
-		function returnId() {
-			const bookId = bookText.map((book) => {
-				return book.id;
-			});
-			return bookId;
-		}
-
 		const isAuth = req.isAuthenticated();
 		const renderData = {
 			bookText: bookText,
