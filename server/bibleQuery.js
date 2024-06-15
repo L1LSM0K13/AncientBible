@@ -45,8 +45,8 @@ async function bibleQuery(app, pool) {
 					.chapter_number;
 		}
 
-		const user_notesRes = `SELECT id, text, verse_id FROM user_notes WHERE user_id = $1`;
-		const user_notes = user_notesRes.rows;
+		// const user_notesRes = `SELECT id, text, verse_id FROM user_notes WHERE user_id = $1`;
+		// const user_notes = user_notesRes.rows;
 
 		const isAuth = req.isAuthenticated();
 		const renderData = {
@@ -59,9 +59,7 @@ async function bibleQuery(app, pool) {
 			nextChapter: nextChapter,
 			previousBook: previousBook,
 			previousChapter: previousChapter,
-			// noteText: req.body.noteText,
-			// verse_id: req.body.verse_id,
-			user_notes: user_notes,
+			// user_notes: user_notes,
 		};
 
 		if (isAuth) {
