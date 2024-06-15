@@ -4,20 +4,26 @@ async function bibleQuery(app, pool) {
 		const defaultBook = req.query.book || "John";
 		const defaultChapter = parseInt(req.query.chapter) || 1;
 
+		const notes = req.query.text;
+
 		const bookTitleOptionsQuery = `SELECT DISTINCT book, book_order FROM bible_eng ORDER BY book_order;`;
 		const bookChaptersQuery = `SELECT DISTINCT chapter_number FROM bible_eng WHERE book = $1 ORDER BY chapter_number`;
 		const bookTextQuery = `SELECT * FROM bible_eng WHERE book = $1 AND chapter_number = $2 ORDER BY verse_number`;
+		const userNoteQuery = `SELECT * FROM user_notes WHERE id = $1 ORDER BY verse_id`;
 
-		const [bookTitleOptionRes, bookChaptersRes, bookTextRes] =
+		const [bookTitleOptionRes, bookChaptersRes, bookTextRes, userNoteRes] =
 			await Promise.all([
 				pool.query(bookTitleOptionsQuery),
 				pool.query(bookChaptersQuery, [defaultBook]),
 				pool.query(bookTextQuery, [defaultBook, defaultChapter]),
+				pool.query(userNoteQuery, [notes]),
 			]);
 
 		const bookTitles = bookTitleOptionRes.rows.map((row) => row.book);
 		const chapters = bookChaptersRes.rows.map((row) => row.chapter_number);
 		const bookText = bookTextRes.rows;
+
+		const userNotes = userNoteRes.rows.map((row) => row.text);
 
 		let nextBook = defaultBook;
 		let nextChapter = defaultChapter + 1;
@@ -56,6 +62,7 @@ async function bibleQuery(app, pool) {
 			nextChapter: nextChapter,
 			previousBook: previousBook,
 			previousChapter: previousChapter,
+			userNotes: userNotes,
 		};
 
 		if (isAuth) {
