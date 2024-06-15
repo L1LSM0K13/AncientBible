@@ -9,8 +9,8 @@ async function takeNote(app, pool) {
 				[noteText, user_id, verse_id, fathers_id]
 			);
 
-			const user_notes = result.rows;
-			console.table(user_notes);
+			// const user_notes = result.rows;
+			// console.table(user_notes);
 
 			res.redirect("/users/bible");
 		} catch (err) {
