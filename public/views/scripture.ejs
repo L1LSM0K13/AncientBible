@@ -183,8 +183,8 @@ var loggedIn = loggedIn;
 									note.verse_id === verse_id
 								})
 
-								fetchUserNotes.forEach(note => {
-									<%- include('partials/noteCreated', {noteText: note.text})%>
+								fetchUserNotes.forEach((note) => {
+									<%- include('partials/noteCreated', {noteText: noteText})%>
 
 								});
 							<% }}) %>
