@@ -185,7 +185,7 @@ var loggedIn = loggedIn;
 								<% if (filterNotes.length > 0) { %>
 									<% filterNotes.forEach(note => {
 										<%- include('partials/noteCreated', {note: note}) %>
-									})}; %>
+									<% })} %>
 
 								<%- include('partials/noteTaking', { noteMenuId: noteMenuId, verse_id: verse_id})%>
 						 <%	}}) %>
