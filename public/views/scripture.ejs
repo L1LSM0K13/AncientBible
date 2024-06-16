@@ -181,9 +181,9 @@ var loggedIn = loggedIn;
 							<% } %>
 
 							<% if(loggedIn) { %>
-								<% const filterNotes = userNotes.filter(async (note) => note.verse_id === verse_id); %>
+								<% const filterNotes = userNotes.filter((note) => note.verse_id === verse_id); %>
 								<% if (filterNotes.length > 0) { %>
-									<% filterNotes.map((note) => { %>
+									<% filterNotes.map(async (note) => { %>
 										<%- include('partials/noteCreated', {userNotes: note}) %>
 									<% })} %>
 
