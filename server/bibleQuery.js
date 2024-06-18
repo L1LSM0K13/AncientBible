@@ -25,8 +25,6 @@ async function bibleQuery(app, pool) {
 
 		const userNotes = userNoteRes.rows;
 
-		console.log("userNoteRes:", [userNoteRes.rows]);
-
 		let nextBook = defaultBook;
 		let nextChapter = defaultChapter + 1;
 		let previousBook = defaultBook;
