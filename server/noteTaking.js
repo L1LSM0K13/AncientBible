@@ -20,7 +20,7 @@ async function takeNote(app, pool) {
 }
 
 async function deleteNote(app, pool) {
-	app.delete("/users/bible", async (req, res) => {
+	app.post("/users/bible", async (req, res) => {
 		const user_id = req.user.id;
 		let { verse_id, fathers_id } = req.body;
 
@@ -41,4 +41,4 @@ async function deleteNote(app, pool) {
 }
 
 module.exports = { takeNote };
-// module.exports = { deleteNote };
+module.exports = { deleteNote };

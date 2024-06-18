@@ -58,7 +58,7 @@ try {
 	fathersQuery(app, pool);
 	register(app, pool);
 	takeNote(app, pool);
-	// deleteNote(app, pool);
+	deleteNote(app, pool);
 } catch (err) {
 	console.log("error during init", err);
 }
