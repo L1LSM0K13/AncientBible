@@ -41,4 +41,4 @@ async function deleteNote(app, pool) {
 }
 
 module.exports = { takeNote };
-module.exports = { deleteNote };
+// module.exports = { deleteNote };
