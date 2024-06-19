@@ -1,7 +1,7 @@
 async function takeNote(app, pool) {
 	app.post("/users/bible", async (req, res) => {
 		const user_id = req.user.id;
-		let { noteText, verse_id, fathers_id } = req.body;
+		let { note_id, noteText, verse_id, fathers_id } = req.body;
 
 		if (noteText) {
 			try {
