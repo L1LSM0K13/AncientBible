@@ -19,10 +19,11 @@ async function takeNote(app, pool) {
 
 		try {
 			const results = await pool.query(
-				`DELETE FROM user_notes WHERE (id, text, user_id, fathers_id) = ($1, $2, $3, $4)`,
+				`DELETE FROM user_notes WHERE (id, user_id, fathers_id) = ($1, $2, $3)`,
 				[noteText, user_id, verse_id, fathers_id]
 			);
 			console.table(results.rows);
+
 			res.redirect("/users/bible");
 		} catch (err) {
 			console.log(err);
