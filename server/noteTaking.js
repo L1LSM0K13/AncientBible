@@ -1,5 +1,5 @@
 async function takeNote(app, pool) {
-	app.post("/users/bible/insert", async (req, res) => {
+	app.post("/users/bible", async (req, res) => {
 		const user_id = req.user.id;
 		let { noteText, verse_id, fathers_id } = req.body;
 
@@ -20,7 +20,7 @@ async function takeNote(app, pool) {
 }
 
 async function deleteNote(app, pool) {
-	app.post("/users/bible/delete", async (req, res) => {
+	app.post("/users/bible", async (req, res) => {
 		const user_id = req.user.id;
 		let { note_id, verse_id, fathers_id } = req.body;
 
