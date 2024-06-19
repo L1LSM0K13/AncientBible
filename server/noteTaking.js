@@ -19,8 +19,8 @@ async function takeNote(app, pool) {
 
 		try {
 			const results = await pool.query(
-				`DELETE FROM user_notes WHERE (id, user_id, fathers_id) = ($1, $2, $3)`,
-				[user_id, verse_id, fathers_id]
+				`DELETE FROM user_notes WHERE (id, text, user_id, fathers_id) = ($1, $2, $3, $4)`,
+				[noteText, user_id, verse_id, fathers_id]
 			);
 			console.table(results.rows);
 		} catch (err) {
