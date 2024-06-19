@@ -23,6 +23,7 @@ async function takeNote(app, pool) {
 				[noteText, user_id, verse_id, fathers_id]
 			);
 			console.table(results.rows);
+			res.redirect("/users/bible");
 		} catch (err) {
 			console.log(err);
 			res.status(500).send("Could not send request");
