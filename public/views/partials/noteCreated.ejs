@@ -1,6 +1,13 @@
 <div class="flex">
 	<div class="noteDiv p-5">
-		<div class="flex justify-between">
+		<span
+			><strong
+				>On <%= book.book %> <%= book.chapter_number %>:<%= book.verse_number %>
+				-</strong
+			>
+			<%= note.text %></span
+		>
+		<div class="flex justify-end">
 			<form action="/users/bible" method="POST">
 				<button
 					type="submit"
@@ -19,12 +26,5 @@
 				<input type="hidden" name="note_id" value="<%= note.id %>" />
 			</form>
 		</div>
-		<span
-			><strong
-				>On <%= book.book %> <%= book.chapter_number %>:<%= book.verse_number %>
-				-</strong
-			>
-			<%= note.text %></span
-		>
 	</div>
 </div>
