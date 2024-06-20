@@ -184,7 +184,7 @@ var loggedIn = loggedIn;
 								<% const filterNotes = userNotes.filter((note) => note.verse_id === verse_id); %>
 								<% if (filterNotes.length > 0) { %>
 									<% filterNotes.map((note) => { %>
-										<%- include('partials/noteCreated', {note: note}) %>
+										<%- include('partials/noteCreated', {note: note, book: book}) %>
 									<% })} %>
 
 								<%- include('partials/noteTaking', { noteMenuId: noteMenuId, verse_id: verse_id})%>
