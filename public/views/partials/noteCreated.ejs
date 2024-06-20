@@ -1,10 +1,10 @@
-<div class="sm:w-1/5 nodeMargins flex">
+<div class="flex">
 	<div class="noteDiv p-5">
 		<div class="flex justify-between">
 			<form action="/users/bible" method="POST">
 				<button
 					type="submit"
-					class="p-1 m-1 bg-gray-100 border border-gray-300 rounded-md active:bg-red-300 hover:bg-red-400">
+					class="align-middle p-1 m-1 bg-gray-100 border border-gray-300 rounded-md active:bg-red-300 hover:bg-red-400">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="16"
@@ -19,7 +19,9 @@
 				<input type="hidden" name="note_id" value="<%= note.id %>" />
 			</form>
 		</div>
-
-		<span><%= note.text %></span>
+		<span
+			>On <%= book %> <%= book.chapter_number %>:<%= book.verse_number %> - <%=
+			note.text %></span
+		>
 	</div>
 </div>
