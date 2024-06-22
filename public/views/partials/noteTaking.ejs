@@ -45,6 +45,7 @@
 				function setHighlightColor(color) {
 					document.getElementById('highlightColor').value = color;
 					document.getElementById('verse_' + document.getElementById('verse_id').value).classList.add(color);
+					document.getElementById('highlightForm').submit();
 				}
 			</script>
 
