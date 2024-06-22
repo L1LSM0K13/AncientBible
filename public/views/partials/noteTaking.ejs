@@ -9,7 +9,7 @@
 		<div class="noteNodeInsideDiv">
 			<span class="text-yellow-600 flex justify-center">Highlight Verse</span>
 				<form action="/users/bible" method="POST">
-					<label for="userHighlights"></label>
+					<label for="highlightColor"></label>
 					<div class="m-2 grid gap-2 grid-cols-6">
 						<button
 						value="bg-yellow-400"
@@ -44,7 +44,6 @@
 				</div>
 
 				<input type="hidden" name='verse_id' id="verse_id" value="<%= verse_id %>">
-				<input type="hidden" value="<%= userHighlights %>">
 
 			</form>
 
