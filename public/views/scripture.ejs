@@ -169,15 +169,16 @@ var loggedIn = loggedIn;
             <% const verse_text = book.verse_text; %>
 
             <% const filterHighlights = userHighlights.filter((highlight) => highlight.verse_id === verse_id); %>
+						<% const hasHighlight = filterHighlights.length > 0 ? filterHighlights[0].highlight_color : ''  %>
 
             <% if (loggedIn) { %>
                 <% if (is_red) { %>
-                    <span id="redLettering" class="m-1 p-1 dark:text-red-500 text-red-600 cursor-pointer select-none <%= filterHighlights %>" onclick="toggleNoteMenu('<%= noteMenuId %>')">
+                    <span id="redLettering" class="m-1 p-1 dark:text-red-500 text-red-600 cursor-pointer select-none <%= hasHighlight %>" onclick="toggleNoteMenu('<%= noteMenuId %>')">
                         <span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none" id="<%= verse_id %>"><%= verse_number %></span>
                         <%= verse_text %>
                     </span>
                 <% } else { %>
-                    <span class="m-1 p-1 cursor-pointer select-none <%= filterHighlights %>" onclick="toggleNoteMenu('<%= noteMenuId %>')">
+                    <span class="m-1 p-1 cursor-pointer select-none <%= filterHighlights %>" onclick="toggleNoteMenu('<%= hasHighlight %>')">
                         <span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none" id="<%= verse_id %>"><%= verse_number %></span>
                         <%= verse_text %>
                     </span>
