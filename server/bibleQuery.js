@@ -10,20 +10,28 @@ async function bibleQuery(app, pool) {
 		const bookChaptersQuery = `SELECT DISTINCT chapter_number FROM bible_eng WHERE book = $1 ORDER BY chapter_number`;
 		const bookTextQuery = `SELECT * FROM bible_eng WHERE book = $1 AND chapter_number = $2 ORDER BY verse_number`;
 		const userNoteQuery = `SELECT * FROM user_notes WHERE user_id = $1 ORDER BY verse_id`;
+		const userHighlightQuery = `SELECT * FROM user_highlights WHERE user_id = $1 ORDER BY verse_id`;
 
-		const [bookTitleOptionRes, bookChaptersRes, bookTextRes, userNoteRes] =
-			await Promise.all([
-				pool.query(bookTitleOptionsQuery),
-				pool.query(bookChaptersQuery, [defaultBook]),
-				pool.query(bookTextQuery, [defaultBook, defaultChapter]),
-				pool.query(userNoteQuery, [user_id]),
-			]);
+		const [
+			bookTitleOptionRes,
+			bookChaptersRes,
+			bookTextRes,
+			userNoteRes,
+			userHighlightRes,
+		] = await Promise.all([
+			pool.query(bookTitleOptionsQuery),
+			pool.query(bookChaptersQuery, [defaultBook]),
+			pool.query(bookTextQuery, [defaultBook, defaultChapter]),
+			pool.query(userNoteQuery, [user_id]),
+			pool.query(userHighlightQuery, [user_id]),
+		]);
 
 		const bookTitles = bookTitleOptionRes.rows.map((row) => row.book);
 		const chapters = bookChaptersRes.rows.map((row) => row.chapter_number);
 		const bookText = bookTextRes.rows;
 
 		const userNotes = userNoteRes.rows;
+		const userHighlights = userHighlightRes.rows;
 
 		let nextBook = defaultBook;
 		let nextChapter = defaultChapter + 1;
@@ -63,6 +71,7 @@ async function bibleQuery(app, pool) {
 			previousBook: previousBook,
 			previousChapter: previousChapter,
 			userNotes: userNotes,
+			userHighlights: userHighlights,
 		};
 
 		if (isAuth) {

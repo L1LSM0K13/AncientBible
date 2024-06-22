@@ -8,20 +8,46 @@
 		</div>
 		<div class="noteNodeInsideDiv">
 			<span class="text-yellow-600 flex justify-center">Highlight Verse</span>
-			<div class="m-2 grid gap-2 grid-cols-6">
-				<button
-					class="bg-yellow-400 p-4 text-yellow-400 border border-yellow-500"></button>
-				<button
-					class="bg-purple-400 p-4 text-purple-400 border border-purple-500"></button>
-				<button
-					class="bg-green-400 p-4 text-green-400 border border-green-500"></button>
-				<button
-					class="bg-blue-400 p-4 text-blue-400 border border-blue-500"></button>
-				<button
-					class="bg-red-400 p-4 text-red-400 border border-red-500"></button>
-				<button
-					class="bg-orange-400 p-4 text-orange-400 border border-orange-500"></button>
-			</div>
+				<form action="/users/bible" method="POST">
+					<div class="m-2 grid gap-2 grid-cols-6">
+						<button
+						onclick="setHighlightColor('bg-yellow-400')"
+						type="submit"
+						class="bg-yellow-400 p-4 text-yellow-400 border border-yellow-500"></button>
+					<button
+						onclick="setHighlightColor('bg-purple-400')"
+						type="submit"
+						class="bg-purple-400 p-4 text-purple-400 border border-purple-500"></button>
+					<button
+						onclick="setHighlightColor('bg-green-400')"
+						type="submit"
+						class="bg-green-400 p-4 text-green-400 border border-green-500"></button>
+					<button
+						onclick="setHighlightColor('bg-blue-400')"
+						type="submit"
+						class="bg-blue-400 p-4 text-blue-400 border border-blue-500"></button>
+					<button
+						onclick="setHighlightColor('bg-red-400')"
+						type="submit"
+						class="bg-red-400 p-4 text-red-400 border border-red-500"></button>
+					<button
+						onclick="setHighlightColor('bg-orange-400')"
+						type="submit"
+						class="bg-orange-400 p-4 text-orange-400 border border-orange-500"></button>
+				</div>
+
+				<input type="hidden" name="highlightColor" id="highlightColor" value="">
+				<input type="hidden" name='verse_id' id="verse_id" value="<%= verse_id %>">
+
+			</form>
+
+			<script>
+				function setHighlightColor(color) {
+					document.getElementById('highlightColor').value = color;
+					document.getElementById('verse_' + document.getElementById('verse_id').value).classList.add(color);
+				}
+			</script>
+
 
 			<div class="m-1 grid gap-1 grid-cols-3">
 				<button

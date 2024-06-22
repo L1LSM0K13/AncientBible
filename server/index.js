@@ -12,8 +12,9 @@ const initializePassport = require("../config/passportConfig");
 const { bibleQuery } = require("./bibleQuery");
 const { fathersQuery } = require("./fathersQuery");
 const { register } = require("./register");
-const { takeNote, deleteNote } = require("./noteTaking");
+const { takeNote } = require("./noteTaking");
 const { defaultRender } = require("./defaultValues");
+const { highlightVerse } = require("./highlights");
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -58,6 +59,7 @@ try {
 	fathersQuery(app, pool);
 	register(app, pool);
 	takeNote(app, pool);
+	highlightVerse(app, pool);
 } catch (err) {
 	console.log("error during init", err);
 }
