@@ -178,7 +178,7 @@ var loggedIn = loggedIn;
                         <%= verse_text %>
                     </span>
                 <% } else { %>
-                    <span class="m-1 p-1 cursor-pointer select-none <%= filterHighlights %>" onclick="toggleNoteMenu('<%= hasHighlight %>')">
+                    <span class="m-1 p-1 cursor-pointer select-none <%= hasHighlight %>" onclick="toggleNoteMenu('<%= noteMenuId %>')">
                         <span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none" id="<%= verse_id %>"><%= verse_number %></span>
                         <%= verse_text %>
                     </span>
