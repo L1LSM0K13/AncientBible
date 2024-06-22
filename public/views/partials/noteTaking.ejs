@@ -9,9 +9,10 @@
 		<div class="noteNodeInsideDiv">
 			<form action="/users/bible" method="POST">
 				<span class="text-yellow-600 flex justify-center">Highlight Verse</span>
+				<label for="userHighlights"></label>
 				<div class="m-2 grid gap-2 grid-cols-6" id="userHighlights">
 					<input type="hidden" name="verse_id" value="<%= verse_id %>" />
-					<input type="hidden" value="bg-yellow-400" />
+					<input id="userHighlights" type="hidden" value="bg-yellow-400" />
 
 					<button
 						type="submit"
