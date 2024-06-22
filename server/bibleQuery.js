@@ -33,6 +33,9 @@ async function bibleQuery(app, pool) {
 		const userNotes = userNoteRes.rows;
 		const userHighlights = userHighlightRes.rows;
 
+		const filterHighlights = userHighlights.filter((highlight) => highlight.verse_id === verse_id);
+		const hasHighlight = filterHighlights.length > 0 ? filterHighlights[0].highlight_color : ''
+
 		let nextBook = defaultBook;
 		let nextChapter = defaultChapter + 1;
 		let previousBook = defaultBook;
@@ -71,7 +74,7 @@ async function bibleQuery(app, pool) {
 			previousBook: previousBook,
 			previousChapter: previousChapter,
 			userNotes: userNotes,
-			userHighlights: userHighlights,
+			userHighlights: hasHighlight,
 		};
 
 		if (isAuth) {
