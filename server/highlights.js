@@ -1,12 +1,12 @@
 async function highlightVerse(app, pool) {
 	app.post("/users/bible", async (req, res) => {
 		const user_id = req.user.id;
-		let { verse_id, fathers_id, filterHighlights } = req.body;
+		let { verse_id, fathers_id } = req.body;
 
 			try {
 				const results = await pool.query(
-					`INSERT INTO user_highlights (user_id, verse_id, fathers_id, highlight_color) VALUES ($1, $2, $3, $4) RETURNING id, user_id, verse_id, fathers_id, highlight_color`,
-					[user_id, verse_id, fathers_id, filterHighlights]
+					`INSERT INTO user_highlights (user_id, verse_id, fathers_id) VALUES ($1, $2, $3) RETURNING id, user_id, verse_id, fathers_id`,
+					[user_id, verse_id, fathers_id]
 				);
 
 				console.table(results.rows);
