@@ -6,7 +6,7 @@ async function highlightVerse(app, pool) {
 		try {
 			const results = await pool.query(
 				`INSERT INTO user_highlights (user_id, verse_id, fathers_id, highlight_color) VALUES ($1, $2, $3, $4) RETURNING id, user_id, verse_id, fathers_id, highlight_color`,
-				[user_id, highlightColor, verse_id, fathers_id]
+				[user_id, verse_id, fathers_id, highlightColor]
 			);
 
 			console.table(results.rows);

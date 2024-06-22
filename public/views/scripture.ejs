@@ -169,7 +169,6 @@ var loggedIn = loggedIn;
             <% const verse_text = book.verse_text; %>
 
             <% const filterHighlights = userHighlights.filter((highlight) => highlight.verse_id === verse_id); %>
-            <% const highlightColor = filterHighlights.length > 0 ? filterHighlights[0].highlight_color : ''; %>
 
             <% if (loggedIn) { %>
                 <% if (is_red) { %>
