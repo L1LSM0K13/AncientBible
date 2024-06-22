@@ -44,20 +44,9 @@
 				</div>
 
 				<input type="hidden" name='verse_id' id="verse_id" value="<%= verse_id %>">
+				<input type="hidden" value="<%= highlightColor %>">
 
 			</form>
-
-			<script>
-				document.querySelectorAll('button[name="highlightColor"]').forEach(button => {
-						button.addEventListener('click', function() {
-								const highlightColor = this.value;
-								document.getElementById('highlightColor').value = highlightColor;
-								document.querySelector('form').submit();
-						});
-				});
-		</script>
-
-
 
 			<div class="m-1 grid gap-1 grid-cols-3">
 				<button
