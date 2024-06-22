@@ -168,6 +168,8 @@ var loggedIn = loggedIn;
 					<% const verse_number = book.verse_number; %>
 					<% const verse_text = book.verse_text; %>
 
+					<div><%= userHighlights %></div>
+
 					<% if (loggedIn) { %>
 						<% const filterHighlights = userHighlights.filter((highlight) => highlight.verse_id === verse_id); %>
 						<% const hasHighlight = filterHighlights.length > 0 ? filterHighlights[0].highlight_color : ''  %>
