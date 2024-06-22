@@ -3,7 +3,7 @@ async function highlightVerse(app, pool) {
 		const user_id = req.user.id;
 		let { userHighlights, verse_id, fathers_id } = req.body;
 
-		if (userHighlights && verse_id) {
+		if (userHighlights) {
 			try {
 				const results = await pool.query(
 					`INSERT INTO user_highlights (user_id, verse_id, fathers_id, highlight_color) VALUES ($1, $2, $3, $4) RETURNING id, user_id, verse_id, fathers_id, highlight_color`,
