@@ -8,13 +8,26 @@
 		</div>
 		<div class="noteNodeInsideDiv">
 			<span class="text-yellow-600 flex justify-center">Highlight Verse</span>
-    <form action="/users/bible" method="POST">
-        <div class="m-2 grid gap-2 grid-cols-6" id="userHighlights">
-			<input type="hidden" name="verse_id" value="<%= verse_id %>">
-			<input type="hidden" name="userHighlights" value="bg_yellow_400">
-			<button type="submit" class="bg-yellow-400 p-4 text-yellow-400 border border-yellow-500"></button>
-		</div>
-    </form>
+<!--			<form action="/users/bible" method="POST">-->
+<!--				<div class="m-2 grid gap-2 grid-cols-6" id="userHighlights">-->
+<!--					<input type="hidden" name="verse_id" value="<%= verse_id %>">-->
+<!--					<input type="hidden" name="userHighlights" value="bg_yellow_400">-->
+<!--					<button type="submit" class="bg-yellow-400 p-4 text-yellow-400 border border-yellow-500"></button>-->
+<!--				</div>-->
+<!--			</form>-->
+
+			<form action="/users/bible" method="POST">
+				<input type="hidden" name="verse_id" value="<%= verse_id %>">
+<!--				<input type="hidden" name="fathers_id" value="<%= fathers_id %>">-->
+				<select name="userHighlights" class="bg-gray-100 text-black px-2 py-1">
+					<option value="bg-yellow-400" class="bg-yellow-400">Yellow</option>
+					<option value="bg-blue-400" class="bg-blue-400">Blue</option>
+					<option value="bg-green-400" class="bg-green-400">Green</option>
+				</select>
+				<button type="submit" class="bg-gray-200 text-black px-2 py-1">Highlight</button>
+			</form>
+
+
 
 			<!-- <div class="m-1 grid gap-1 grid-cols-3">
 				<button
