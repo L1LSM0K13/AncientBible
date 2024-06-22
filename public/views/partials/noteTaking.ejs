@@ -22,8 +22,10 @@
 <!--			</form>-->
 
 			<form action="/users/bible" method="POST" class="grid gap-4">
+				<label for="userHighlights"></label>
 				<input type="hidden" name="verse_id" value="<%= verse_id %>">
 				<input type="hidden" name="highlight_color" value="bg-yellow-400">
+				<input type="hidden" name="userHighlight" value="<%userHighlights%>">
 				<input type="submit" value="Highlight Verse">
 			</form>
 
