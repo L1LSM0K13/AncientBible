@@ -172,8 +172,6 @@ var loggedIn = loggedIn;
 						<% const filterHighlights = userHighlights.filter((highlight) => highlight.verse_id === verse_id); %>
 						<% const hasHighlight = filterHighlights.length > 0 ? filterHighlights[0].highlight_color : ''  %>
 
-						<div><%= filterHighlights %></div>
-
 						<% if (is_red) { %>
 							<span id="redLettering" class="m-1 p-1 dark:text-red-500 text-red-600 cursor-pointer select-none <%= hasHighlight %>" onclick="toggleNoteMenu('<%= noteMenuId %>')">
 								<span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none" id="<%= verse_id %>"><%= verse_number %></span>
