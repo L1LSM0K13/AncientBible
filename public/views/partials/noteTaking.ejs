@@ -47,6 +47,18 @@
 
 			</form>
 
+			<script>
+				document.querySelectorAll('button[name="highlightColor"]').forEach(button => {
+						button.addEventListener('click', function() {
+								const highlightColor = this.value;
+								document.getElementById('highlightColor').value = highlightColor;
+								document.querySelector('form').submit();
+						});
+				});
+		</script>
+
+
+
 			<div class="m-1 grid gap-1 grid-cols-3">
 				<button
 					class="px-1 bg-gray-100 border border-gray-300 rounded-md active:bg-gray-200">
