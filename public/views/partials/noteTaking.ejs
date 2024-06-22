@@ -21,13 +21,14 @@
 <!--				</div>-->
 <!--			</form>-->
 
-			<form action="/users/bible" method="POST" class="highlight-form">
+			<form action="/users/bible" method="POST">
+				<input type="hidden" name="userHighlights" value="<%= userHighlights %>">
 				<input type="hidden" name="verse_id" value="<%= verse_id %>">
-				<input type="hidden" name="highlight_color" value="bg-yellow-400">
-				<button type="submit" class="bg-yellow-400 text-white px-4 py-2 rounded">
+				<button type="submit" name="highlight_color" value="bg-yellow-400" class="bg-yellow-400 text-white px-4 py-2 rounded">
 					Highlight Yellow
 				</button>
 			</form>
+
 
 
 			<!-- <div class="m-1 grid gap-1 grid-cols-3">
