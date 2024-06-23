@@ -1,5 +1,5 @@
 async function takeNote(app, pool) {
-	app.post("/users/bible", async (req, res) => {
+	app.post("/users/bible/action/note", async (req, res) => {
 		const user_id = req.user.id;
 		let { note_id, noteText, verse_id, fathers_id } = req.body;
 
@@ -13,6 +13,7 @@ async function takeNote(app, pool) {
 				console.table(results.rows);
 
 				res.redirect("/users/bible");
+				return;
 			}
 
 			if (note_id) {
@@ -23,7 +24,10 @@ async function takeNote(app, pool) {
 				console.table(results.rows);
 
 				res.redirect("/users/bible");
+				return;
 			}
+
+			res.status(400).send("Neither noteText nor note_id were specified");
 		} catch (err) {
 			console.log(err);
 			res.status(500).send("Could not send request");

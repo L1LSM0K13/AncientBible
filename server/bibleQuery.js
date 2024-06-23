@@ -33,6 +33,7 @@ async function bibleQuery(app, pool) {
 		const userNotes = userNoteRes.rows;
 		const userHighlights = userHighlightRes.rows;
 
+
 		let nextBook = defaultBook;
 		let nextChapter = defaultChapter + 1;
 		let previousBook = defaultBook;

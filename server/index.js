@@ -36,6 +36,11 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
 
+app.use(function (req, res, next) {
+	console.log(`${req.method} ${req.path}`);
+	next();
+});
+
 app.get("/", (req, res) => {
 	if (req.isAuthenticated()) {
 		defaultRender(req, res, true, "../public/views/index", {
