@@ -1,0 +1,77 @@
+<div class="nodeMargins mt-2 hidden relative" id="<%= noteMenuId %>">
+    <div>
+        <div class="noteNodeTitleH1">
+            <div class="flex justify-between align-middle gap-1">
+                <span>Create Note</span>
+                <button onclick="toggleNoteMenu(`<%= noteMenuId %>`)">X</button>
+            </div>
+        </div>
+        <div class="noteNodeInsideDiv">
+
+            <% if (hasHighlight) { %>
+                <span class="text-yellow-600 flex justify-center">Change Highlight</span>
+
+                <div class="flex justify-center">
+                    <form action="/users/fathers/action/highlight" method="POST">
+                        <input type="hidden" name="fathers_id" value="<%= fathers_id %>" />
+                        <input type="hidden" name="hasHighlight" value="<%= hasHighlight %>">
+
+                        <button type="submit" class="p-1 bg-gray-100 border border-gray-300 rounded-md active:bg-red-300 hover:bg-red-400 dark:text-black text-sm">Remove Highlight</button>
+                    </form>
+                </div>
+            <% } else { %>
+                <span class="text-yellow-600 flex justify-center">Highlight Verse</span>
+                <div class="m-2 grid gap-2 grid-cols-6">
+                    <form id="highlightForm" action="/users/fathers/action/highlight" method="POST">
+                        <input type="hidden" name="fathers_id" value="<%= fathers_id %>" />
+                        <input type="hidden" name="highlight_color" id="userHighlights" value="bg-yellow-400 dark:text-black"/>
+                        <button type="submit" class="bg-yellow-400 p-4 border border-yellow-500"></button>
+                    </form>
+                    <form id="highlightForm" action="/users/fathers/action/highlight" method="POST">
+                        <input type="hidden" name="fathers_id" value="<%= fathers_id %>" />
+                        <input type="hidden" name="highlight_color" id="userHighlights" value="bg-blue-400 dark:text-black"/>
+                        <button type="submit" class="bg-blue-400 p-4 border border-blue-500"></button>
+                    </form>
+                    <form id="highlightForm" action="/users/fathers/action/highlight" method="POST">
+                        <input type="hidden" name="fathers_id" value="<%= fathers_id %>" />
+                        <input type="hidden" name="highlight_color" id="userHighlights" value="bg-red-400 dark:text-black"/>
+                        <button type="submit" class="bg-red-400 p-4 border border-red-500"></button>
+                    </form>
+                    <form id="highlightForm" action="/users/fathers/action/highlight" method="POST">
+                        <input type="hidden" name="fathers_id" value="<%= fathers_id %>" />
+                        <input type="hidden" name="highlight_color" id="userHighlights" value="bg-green-400 dark:text-black"/>
+                        <button type="submit" class="bg-green-400 p-4 border border-green-500"></button>
+                    </form>
+                    <form id="highlightForm" action="/users/fathers/action/highlight" method="POST">
+                        <input type="hidden" name="fathers_id" value="<%= fathers_id %>" />
+                        <input type="hidden" name="highlight_color" id="userHighlights" value="bg-purple-400 dark:text-black"/>
+                        <button type="submit" class="bg-purple-400 p-4 border border-purple-500"></button>
+                    </form>
+                    <form id="highlightForm" action="/users/fathers/action/highlight" method="POST">
+                        <input type="hidden" name="fathers_id" value="<%= fathers_id %>" />
+                        <input type="hidden" name="highlight_color" id="userHighlights" value="bg-orange-400 dark:text-black"/>
+                        <button type="submit" class="bg-orange-400 p-4 border border-orange-500"></button>
+                    </form>
+                </div>
+            <% } %>
+
+            <form action="/users/fathers/action/note" method="POST" class="grid gap-4">
+                <label for="noteText"></label>
+                <textarea
+                        type="text"
+                        id="noteText"
+                        name="noteText"
+                        placeholder="Insert text here."
+                        class="bg-yellow-200 border border-yellow-600 resize-none p-1 m-1 h-[120px] placeholder:text-yellow-600"
+                        required></textarea>
+
+                <input type="hidden" name="fathers_id" value="<%= fathers_id %>" />
+
+                <input
+                        type="submit"
+                        value="Post Note"
+                        class="p-1 m-1 bg-gray-100 border border-gray-300 rounded-md active:bg-gray-200 dark:text-black" />
+            </form>
+        </div>
+    </div>
+</div>

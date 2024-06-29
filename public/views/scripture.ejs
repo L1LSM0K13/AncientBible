@@ -69,7 +69,7 @@ var loggedIn = loggedIn;
 	</head>
 	<body
 		class="bg-[#e9eef1] sm:text-lg text-sm dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
-		<%- include('partials/navBar')  %>
+	<%- include('partials/navBar')  %>
 
 		<main class="grid grid-cols-4 grid-rows-1 gap-5 nodeMargins">
 			<article class="xl:col-start-1 xl:col-span-1 sm:col-start-2 sm:col-span-2 col-start-1 col-span-full">
@@ -78,12 +78,13 @@ var loggedIn = loggedIn;
 					<h1 class="nodeTitleH1">— Navigate —</h1>
 					<div class="nodeInsideDiv">
 						<form
-						class="grid gap-1"
+						class="grid gap-1 grid-cols-2"
 						id="selectForm"
 						action="/users/bible"
 						method="GET">
 						<select
 								name="book"
+								id="bookSelect"
 								class="p-1 mx-2 rounded-sm dark:bg-[#202124]"
 								onchange="resetChapterAndSubmit()">
 								<% for( let i = 0; i < bookTitleOptions.length; i++ ) { %>
@@ -150,15 +151,27 @@ var loggedIn = loggedIn;
 			<!-- Book Text and pagination -->
 			<div class="xl:col-start-2 col-span-full row-start-2 col-start-1 xl:col-span-3 xl:row-start-1">
 				<div class="text-lg">
-					<h1 class="nodeTitleH1 flex justify-center gap-5 align-middle">
-						<a class="text-xl" href="/users/bible?book=<%= previousBook %>&chapter=<%= previousChapter %>">
+					<h1 class="nodeTitleH1 flex justify-center gap-5 align-middle" id="pagination">
+						<a id="prevLinkPag" class="text-xl" href="/users/bible?book=<%= previousBook %>&chapter=<%= previousChapter %>">
 							&#8592;
 						</a>
 						<%= selectedBook %> Chapter <%= selectedChapter %>
-						<a class="text-xl" href="/users/bible?book=<%= nextBook %>&chapter=<%= nextChapter %>">
+						<a id="nextLinkPag" class="text-xl" href="/users/bible?book=<%= nextBook %>&chapter=<%= nextChapter %>">
 							&#8594;
 						</a>
 					</h1>
+
+					<script>
+						document.getElementById('nextLinkPag').addEventListener('click', () => {
+							localStorage.setItem('selectedBook', '<%= selectedBook %>');
+							localStorage.setItem('selectedChapter', <%= selectedChapter %>)
+						})
+						document.getElementById('prevLinkPag').addEventListener('click', () => {
+							localStorage.setItem('selectedBook', '<%= selectedBook %>');
+							localStorage.setItem('selectedChapter', <%= selectedChapter %>)
+						})
+						</script>
+
 					<div id="vContainer" class="nodeInsideDiv px-5">
 
 					<% bookText.map((book, index) => { %>
@@ -172,8 +185,6 @@ var loggedIn = loggedIn;
 
 						<% const filterHighlights = userHighlights.filter((highlight) => highlight.verse_id === verse_id); %>
 						<% const hasHighlight = filterHighlights.length > 0 ? filterHighlights[0].highlight_color : null; %>
-
-
 
 						<% if (is_red) { %>
 							<span id="redLettering" class="m-1 p-1 dark:text-red-500 text-red-600 cursor-pointer select-none <%= hasHighlight %>" onclick="toggleNoteMenu('<%= noteMenuId %>')">
@@ -202,7 +213,7 @@ var loggedIn = loggedIn;
 								<%= verse_text %>
 							</span>
 						<% } else { %>
-							<span class="m-1 p-1 cursor-pointer select-none" onclick="toggleNoteMenu('<%= noteMenuId %>')">
+							<span class="m-1 p-1">
 								<span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none" id="<%= verse_id %>"><%= verse_number %></span>
 								<%= verse_text %>
 							</span>

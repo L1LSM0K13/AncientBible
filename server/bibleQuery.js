@@ -1,12 +1,12 @@
 async function bibleQuery(app, pool) {
-	app.get("/users/bible", async (req, res) => {
+	app.get(`/users/bible`, async (req, res) => {
 		const { defaultRender } = require("./defaultValues");
 		const defaultBook = req.query.book || "John";
 		const defaultChapter = parseInt(req.query.chapter) || 1;
 
 		const user_id = req.user ? req.user.id : null;
 
-		const bookTitleOptionsQuery = `SELECT DISTINCT book, book_order FROM bible_eng ORDER BY book_order;`;
+		const bookTitleOptionsQuery = `SELECT DISTINCT book, book_order FROM bible_eng ORDER BY book_order`;
 		const bookChaptersQuery = `SELECT DISTINCT chapter_number FROM bible_eng WHERE book = $1 ORDER BY chapter_number`;
 		const bookTextQuery = `SELECT * FROM bible_eng WHERE book = $1 AND chapter_number = $2 ORDER BY verse_number`;
 		const userNoteQuery = `SELECT * FROM user_notes WHERE user_id = $1 ORDER BY verse_id`;
@@ -73,7 +73,11 @@ async function bibleQuery(app, pool) {
 			previousChapter: previousChapter,
 			userNotes: userNotes,
 			userHighlights: userHighlights,
+			isAuth: isAuth
 		};
+
+		res.cookie('selectedBook', defaultBook, {maxAge: 900000, httpOnly: true});
+		res.cookie('selectedChapter', defaultChapter, {maxAge: 900000, httpOnly: true});
 
 		if (isAuth) {
 			await defaultRender(
@@ -91,6 +95,7 @@ async function bibleQuery(app, pool) {
 				"../public/views/scripture",
 				renderData
 			);
+
 		}
 		return renderData;
 	});

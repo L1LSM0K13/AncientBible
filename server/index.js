@@ -36,10 +36,10 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
 
-// app.use(function (req, res, next) {
-// 	console.log(`${req.method} ${req.path}`);
-// 	next();
-// });
+app.use(function (req, res, next) {
+	console.log(`${req.method} ${req.path}`);
+	next();
+});
 
 app.get("/", (req, res) => {
 	if (req.isAuthenticated()) {
@@ -70,6 +70,8 @@ try {
 }
 
 app.get("/users/logout", (req, res, next) => {
+	res.clearCookie('selectedBook');
+	res.clearCookie('selectedChapter');
 	req.logout((err) => {
 		if (err) {
 			return next(err);
