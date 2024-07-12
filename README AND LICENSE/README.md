@@ -1,10 +1,6 @@
 # Bible and Early Church Fathers Resource
 
-Welcome to my comprehensive Bible and Early Church Fathers resource website! This site is dedicated to providing access to the Orthodox Canon of Scripture and the complete works of the Early Church Fathers, translated by Philip Schaff.
-
-## Features
-
-### Orthodox Canon of Scripture
+Welcome to my comprehensive Bible and Early Church Fathers resource website! This site is dedicated to providing access to the Septuigant and the complete works of the Early Church Fathers, translated by Philip Schaff.
 
 Our website includes the Orthodox Canon of Scripture, which consists of:
 
@@ -89,8 +85,6 @@ Our website includes the Orthodox Canon of Scripture, which consists of:
 26. Jude
 27. Revelation
 
-Please note that we follow the Orthodox Christian tradition in the arrangement and recognition of the canonical books of both the Old and New Testaments.
-
 ## Usage
 
 Our website is user-friendly and designed for easy navigation. You can:
@@ -100,7 +94,7 @@ Our website is user-friendly and designed for easy navigation. You can:
 
 ## Contact Me
 
-If you have any questions, feedback, or suggestions, feel free to reach out to me @ omar@orthodoxcanon.org.
+If you have any questions, feedback, or suggestions, feel free to reach out to me @ nico@ancientbible.org.
 
 ## License
 
