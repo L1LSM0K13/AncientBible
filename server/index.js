@@ -59,6 +59,16 @@ app.get("/users/login", checkAuthenticated, (req, res) => {
 	defaultRender(req, res, false, "../public/views/login", {});
 });
 
+app.get("/users/about", (req, res) => {
+	if (req.isAuthenticated()) {
+		defaultRender(req, res, true, "../public/views/about", {
+			user: req.isAuthenticated() ? req.user.name : null,
+		});
+	} else {
+		defaultRender(req, res, false, "../public/views/about", {});
+	}
+})
+
 try {
 	bibleQuery(app, pool);
 	fathersQuery(app, pool);
