@@ -1,6 +1,6 @@
 const fs = require('node:fs/promises')
 const pathUtil = require('node:path')
-const {pool} = require('../../config/dbConfig')
+const {pool} = require('./config/dbConfig')
 
 function helpCmd() {
     console.log(`<node> <migrate> [apply | revert] use \"apply\" to apply the migration. use \"revert\" to revert the migration.\n`)
@@ -31,11 +31,11 @@ async function createMigration(fileName) {
   }
 }`
 
-    await fs.writeFile(`./migrations/${fileName + '_' + formattedDate}.js`, template, (err) => {
-        if (err) {
-            console.error(err, 'could not write migrations')
-        }
-    })
+    try {
+        await fs.writeFile(`./migrations/${fileName + '_' + formattedDate}.js`, template)
+    } catch (err) {
+        console.error(err, 'could not write migrations')
+    }
 }
 
 async function fetchMigrations() {
@@ -153,21 +153,46 @@ async function main(args) {
             }
 
             // If arg is null, print all. If arg > 0, print that number.
-            if (numToApply > 0) {
-                console.log(`Reverting ${numToApply} migrations`)
-            } else {
-                console.log(`Reverting all migrations`)
+            if (numToRevert === null) {
+                console.error('Please specify how many migrations to revert')
+                process.exit(1)
             }
 
-            const revertMigration = [...appliedMigrationsRes.rows].reverse().slice(0, numToApply || appliedMigrationsRes.rows.length);
-            for (const migrationRow of revertMigration) {
+            // If not a valid number
+            if (isNaN(numToRevert)) {
+                console.error('Invalid integer')
+                process.exit(1)
+            }
+
+            if (numToRevert < 1) {
+                console.error('Must specify at least 1')
+                process.exit(1)
+            }
+
+            const totalCanBeReverted = Math.min(numToRevert, appliedMigrationsRes.rows.length)
+            console.log(`Reverting ${totalCanBeReverted} migration(s)`)
+
+            // Start on last index
+            // Count backward until we reach the last index minus the number to revert (minimum of 0)
+            for (let i = appliedMigrationsRes.rows.length - 1; i >= appliedMigrationsRes.rows.length - totalCanBeReverted; i--) {
+                const migrationRow = appliedMigrationsRes.rows[i];
+                console.log({
+                    migrationRow,
+                    i,
+                })
+
                 const migration = migrations.find(row => row.name === migrationRow.name);
+
+                if (migration == null) {
+                    console.error(`Couldn't find migration with name ${migrationRow.name}`);
+                    process.exit(1)
+                }
 
                 await migration.revert(pool);
                 await pool.query(`DELETE FROM migrations WHERE name = $1`, [migration.name]);
-            }
 
-            console.log(`${revertMigration.length} migrations reverted.`);
+                console.log(`${totalCanBeReverted} migrations reverted`)
+            }
 
             break;
 

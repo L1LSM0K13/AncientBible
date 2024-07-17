@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link
+            rel="shortcut icon"
+            type="x-icon"
+            href="../images/orthodoxcanonlogoNEW.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <script src="/scripts/darkModeToggle.js" defer></script>
+    <link rel="stylesheet" href="../css/output.css" />
+</head>
+
+<body class="bg-[#e9eef1] sm:text-lg text-sm dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
+    <%- include('partials/navBar') %>
+
+<main>
+
+    <article class="nodeMargins">
+        <h1 class="nodeTitleH1 ">About Me and this website.</h1>
+        <div class="nodeInsideDiv grid grid-cols-2">
+
+            <div class="p-5">
+                <img src="../images/profilePic.png" alt="" class="col-start-1 shadow-2xl shrink-0 w-1/3">
+            </div>
+
+            <div class="grid grid-rows-3 p-5 col-start-2">
+                <span class="row-start-1 col-start-2">My name is Nicolas, this is my first website. I've been making this website since November 2023. My original intention was to just make a personal note-taking bible app, but quickly became an opportunity to share very first online english orthodox bible in the world.</span>
+                <span class="row-start-2 col-start-2">This website uses the Brenton's English Septuigant 2012 Edition for the old testament, And the Byzantine Text for the new testament. These translations are in the public domain.</span>
+                <span class="row-start-3 col-start-2">You can contact me on either <a class="text-blue-500 dark:text-yellow-400 hover:font-bold" href="https://github.com/L1LSM0K13">GitHub</a>
+            or my email at <span class="text-blue-500 dark:text-yellow-400 hover:font-bold">nico@ancientbible.org</span>
+            </span>
+            </div>
+        </div>
+    </article>
+</main>
+</body>
+</html>
