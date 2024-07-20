@@ -1,6 +1,6 @@
 const fs = require('node:fs/promises')
 const pathUtil = require('node:path')
-const {pool} = require('./config/dbConfig')
+const {pool} = require('../../config/dbConfig')
 
 function helpCmd() {
     console.log(`

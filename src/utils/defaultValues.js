@@ -1,6 +1,19 @@
+/**
+ *
+ * @param {any} req
+ * @param {any} res
+ * @param {boolean} isAuth
+ * @param {string} template
+ * @param {any} data
+ * @returns {Promise<void>}
+ */
 async function defaultRender(req, res, isAuth, template, data) {
-	const loggedIn = isAuth;
+
+	/**
+     * @type {string[]}
+     */
 	let errors = [];
+	const loggedIn = isAuth;
 	try {
 		res.render(template, {
 			loggedIn,
