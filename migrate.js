@@ -3,8 +3,19 @@ const pathUtil = require('node:path')
 const {pool} = require('./config/dbConfig')
 
 function helpCmd() {
-    console.log(`<node> <migrate> [apply | revert] use \"apply\" to apply the migration. use \"revert\" to revert the migration.\n`)
-    console.log(`To write a file use this command: node migrate create <migration-name>`)
+    console.log(`
+node migrate <command>
+
+Commands:
+ - help: Displays this message
+ - create <name>: Creates a new migration with the specified name
+ - apply [number]: Applies all migrations, or a specific number of migrations
+ - revert <number>: Applies a specific number of migrations
+
+Example:
+
+node migration create my-migration
+`.trim())
 }
 
 /**
@@ -18,12 +29,20 @@ async function createMigration(fileName) {
     const template = `module.exports = {
   name: '${fileName}',
 
+  /**
+   * Applies the migration
+   * @param {import('pg').Pool} pool
+   */
   apply: async function (pool) {
     const results = await pool.query(\`\`)
 
     console.table(results.rows)
   },
 
+  /**
+   * Reverts the migration
+   * @param {import('pg').Pool} pool
+   */
   revert: async function (pool) {
     const results = await pool.query(\`\`)
 
@@ -92,8 +111,6 @@ async function main(args) {
     `)
 
     const command = args[0]
-    let numToApply = args.length >= 2 ? parseInt(args[1]) : null
-    let fileNameTemplate = args.length >= 2 ? args[1] : null
 
     const appliedMigrationsRes = await pool.query(
         `SELECT name FROM migrations ORDER BY created_ts ASC`);
@@ -105,16 +122,24 @@ async function main(args) {
             break
 
         case 'create':
+            if (args.length < 2) {
+                console.error('Specify a name for your migration')
+                process.exit(1)
+            }
+
+            const fileNameTemplate = args[1]
+
             await createMigration(fileNameTemplate);
             break
 
         case 'apply':
-
+            let numToApply = args.length >= 2 ? parseInt(args[1]) : 0
             let appliedCount = 0;
 
             // If not a valid number
             if (isNaN(numToApply)) {
                 console.error('Invalid integer')
+                process.exit(1)
             }
 
             // If arg is null, print all. If arg > 0, print that number.
@@ -137,7 +162,7 @@ async function main(args) {
                 appliedMigrations.push(migration.name);
                 appliedCount++;
 
-                if (numToApply && appliedCount >= numToApply) {
+                if (numToApply !== 0 && appliedCount >= numToApply) {
                     break
                 }
             }
@@ -146,11 +171,7 @@ async function main(args) {
             break
 
         case 'revert':
-
-            // If not a valid number
-            if (isNaN(numToApply)) {
-                console.error('Invalid integer')
-            }
+            let numToRevert = args.length >= 2 ? parseInt(args[1]) : null
 
             // If arg is null, print all. If arg > 0, print that number.
             if (numToRevert === null) {
@@ -200,6 +221,8 @@ async function main(args) {
             helpCmd()
             break
     }
+
+    await pool.end()
 }
 
 main(process.argv.slice(2)).catch(console.error)
