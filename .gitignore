@@ -4,7 +4,7 @@ node_modules/
 package-lock.json
 
 # Tailwind Config
-config/tailwind.config.js
+tailwind.config.js
 
 # dotenv enviroment variable file
 config/.env
@@ -14,4 +14,7 @@ config/.env
 .vscode/
 
 # Scratch files
-tests/SCRATCH.md
+tests/migration.md
+
+# Shell files
+tests/openTunnel.sh

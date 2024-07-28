@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link
+            rel="shortcut icon"
+            type="x-icon"
+            href="../images/orthodoxcanonlogoNEW.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <script src="/scripts/darkModeToggle.js" defer></script>
+    <link rel="stylesheet" href="../css/output.css" />
+</head>
+
+<body
+        class="bg-[#e9eef1] sm:text-lg text-sm dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
+<%- include('partials/navBar') %>
+
+<main>
+    <ul>
+        <% if(messages.success_msg) { %>
+            <li class="successMsg"><%= messages.success_msg %></li>
+        <% } %>
+    </ul>
+
+    <ul>
+        <% if(messages.error) { %>
+            <li class="errorMsg"><%= messages.error %></li>
+        <% } %>
+    </ul>
+
+    <h1 class="nodeTitleH1 nodeMargins">Success!</h1>
+    <div class="nodeInsideDiv nodeMargins">
+        <div class="flex justify-center gap-2 items-center">
+            <p>You successfully registered with us! We've sent you an email for verification.</p>
+
+            <button class="input"><a href="/users/login">Back to login</a></button>
+        </div>
+    </div>
+</main>
+</body>
+</html>

@@ -41,7 +41,7 @@ redLetterBtn.addEventListener("click", () => {
 	localStorage.setItem('isRed', JSON.stringify(isRed));
 })
 
-// TODO
+// TODO need to store red lettering locally
 async function loadSavedRedLettering() {
 	const savedRedLettering = JSON.parse(localStorage.getItem("isRed"));
 

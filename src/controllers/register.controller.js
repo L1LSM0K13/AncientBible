@@ -1,4 +1,5 @@
 const { checkEmailAvailability, createUser } = require('../models/register.model')
+const { sendVerificationEmail } = require("../models/verifyEmail.model");
 const { defaultRender } = require('../utils/defaultValues')
 
 /**
@@ -40,16 +41,16 @@ const registerUser = async (req, res) => {
         // Creates user
         const newUser = await createUser(name, email, password);
         const userName = newUser[0].name;
+        const verificationToken = newUser.email_token;
 
-        console.log(newUser)
         req.flash(
             "success_msg",
-            `You are now registered as ${userName}. Please log in.`
+            `You are now registered as ${userName}!`
         );
 
-        console.log(userName)
+        await sendVerificationEmail(email, verificationToken)
 
-        res.redirect("/users/login");
+        res.redirect("/users/verify");
 
     } catch (/** @type {any} */   err) {
         res.status(500).send({ message: err.message });

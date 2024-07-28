@@ -1,6 +1,7 @@
 const LocalStrategy = require("passport-local").Strategy;
 const { pool } = require("./dbConfig");
 const bcrypt = require("bcrypt");
+const nodemailer = require("nodemailer");
 
 /**
  *
@@ -28,20 +29,26 @@ function initialize(passport) {
 				if (results.rows.length > 0) {
 					const user = results.rows[0];
 
-					bcrypt.compare(password, user.password, (err, isMatch) => {
-						if (err) {
-							throw err;
-						}
+					// TODO make sure this email verification works
+					if (user.is_verified) {
+						bcrypt.compare(password, user.password, (err, isMatch) => {
+							if (err) {
+								throw err;
+							}
 
-						if (isMatch) {
-							return done(null, user);
-						} else {
-							return done(null, false, { message: "Password is incorrect" });
-						}
-					});
+							if (isMatch) {
+								return done(null, user);
+							} else {
+								return done(null, false, { message: "Password is incorrect" });
+							}
+						});
+					} else {
+						return done(null, false, { message: "This email is not verified" });
+					}
 				} else {
 					return done(null, false, { message: "This email is not registered" });
 				}
+
 			}
 		);
 	};
@@ -55,7 +62,6 @@ function initialize(passport) {
 			authenticateUser
 		)
 	);
-
 
 	passport.serializeUser((/** @type {any} */  user, /** @type {any} */ done) => done(null, user.id));
 
