@@ -16,13 +16,14 @@ const passport = require('passport');
 const initializePassport = require('./config/passportConfig');
 
 // Routes
-const userRoutes = require('./src/routes/users.route');
+const userRoutes = require('./src/routes/loginAndRegister.route');
 const homeRoutes = require('./src/routes/home.route');
 const bibleRoutes = require('./src/routes/bible.route');
 const fathersRoutes = require('./src/routes/fathers.route');
 const noteRoutes = require('./src/routes/notes.route');
 const highlightRoutes = require('./src/routes/highlights.route');
-const verifyRoutes = require('./src/routes/users.route');
+const verifyRoutes = require('./src/routes/token.route');
+const accountRoutes = require('./src/routes/userSettings.route');
 
 initializePassport(passport);
 
@@ -54,6 +55,7 @@ app.use('/users', bibleRoutes);
 app.use('/users', fathersRoutes);
 app.use('/users', noteRoutes);
 app.use('/users', highlightRoutes);
+app.use('/users', accountRoutes);
 app.use('/', homeRoutes);
 app.use('/', verifyRoutes);
 

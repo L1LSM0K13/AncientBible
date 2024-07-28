@@ -4,7 +4,6 @@ const passport = require('passport');
 const { registerUser } = require('../controllers/register.controller');
 const { checkAuth } = require ('../controllers/checkAuth.controller');
 const { defaultRender } = require('../utils/defaultValues');
-const { verifyUser } = require("../controllers/verifyUser.controller");
 
 // Registering and logging in
 router.post('/register', registerUser);
@@ -33,13 +32,5 @@ router.post('/login', passport.authenticate('local', {
     failureRedirect: '/users/login',
     failureFlash: true,
 }))
-
-router.get('/verify/:token', verifyUser, (req, res) => {
-    defaultRender(req, res, false, '../public/views/verified', {})
-})
-
-router.get('/verify', checkAuth, (req, res) => {
-    defaultRender(req, res, false, '../public/views/verify', {})
-})
 
 module.exports = router;

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link
+            rel="shortcut icon"
+            type="x-icon"
+            href="../images/orthodoxcanonlogoNEW.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <script src="/scripts/darkModeToggle.js" defer></script>
+    <link rel="stylesheet" href="../css/output.css" />
+</head>
+
+<body class="bg-[#e9eef1] sm:text-lg text-sm dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
+<%- include('partials/navBar') %>
+
+<main>
+
+    <article class="nodeMargins">
+        <h1 class="nodeTitleH1 ">Your account</h1>
+        <div class="nodeInsideDiv">
+
+            <div>
+                <p>Your Name: user.name </p>
+                <p>Your Email: user.email </p>
+                <p>Your total notes: note.length </p>
+                <p>Your total highlights: higlight.length </p>
+            </div>
+
+            <div class="flex justify-end">
+                <button class="bg-red-500 border border-red-900 p-1 rounded-sm text-red-900">Delete Account</button>
+            </div>
+
+        </div>
+    </article>
+</main>
+</body>
+</html>
