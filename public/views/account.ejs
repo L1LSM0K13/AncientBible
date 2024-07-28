@@ -10,6 +10,7 @@
     <title>Login</title>
 
     <script src="/scripts/darkModeToggle.js" defer></script>
+    <script src="/scripts/dialogElem.js" defer></script>
     <link rel="stylesheet" href="../css/output.css" />
 </head>
 
@@ -18,22 +19,62 @@
 
 <main>
 
-    <article class="nodeMargins">
-        <h1 class="nodeTitleH1 ">Your account</h1>
-        <div class="nodeInsideDiv">
+    <article class="flex justify-center">
 
-            <div>
-                <p>Your Name: user.name </p>
-                <p>Your Email: user.email </p>
-                <p>Your total notes: note.length </p>
-                <p>Your total highlights: higlight.length </p>
+        <div>
+            <h1 class="nodeTitleH1 ">Your account</h1>
+            <div class="nodeInsideDiv grid grid-cols-2 gap-4">
+
+                <div>
+                    <p>Your Name: <strong>user.name</strong> </p>
+                    <p>Your Email: <strong>user.email</strong> </p>
+                    <p>Your total notes: <strong>note.length</strong> </p>
+                    <p>Your total highlights: <strong>higlight.length</strong> </p>
+                </div>
+                
+                <div class="grid gap-2">
+                    <form action="/users/account" method="POST" class="grid grid-rows-2 gap-2">
+                        <input type="text" name="changeName" class="border-[#355488] border rounded-sm p-1" placeholder="Change your name">
+                        <input type="text" name="changeEmail" class="border-[#355488] border rounded-sm p-1" placeholder="Change your email">
+                    </form>
+
+                    <form action="/users/account" method="POST" class="grid grid-rows-2 gap-2">
+                        <input type="text" name="changePass" class="border-[#355488] border rounded-sm p-1" placeholder="Change your password" required>
+                        <input type="text" name="changePass2" class="border-[#355488] border rounded-sm p-1" placeholder="Confirm change" required>
+                    </form>
+
+                    <form action="/users/account" method="POST">
+                        <input type="submit" class="input cursor-pointer" value="Submit">
+                    </form>
+                </div>
+
+                <div>
+                    <button data-open-modal class="bg-red-500 border border-red-900 p-1 rounded-md text-red-900">Delete Account</button>
+                </div>
+
+                <dialog data-modal class="border border-[#355488] rounded-md">
+                    <div class="m-2 p-5">
+                        <p class="">WARNING!!! YOU ARE ABOUT TO <strong>DELETE</strong> YOUR ANCIENT BIBLE ACCOUNT!!!</p>
+                        <p class="">ALL OF YOUR NOTES AND HIGHLIGHTS WILL BE DELETED <strong>FOREVER</strong>!!!</p>
+
+                        <br><br>
+
+                        <div class="flex justify-center gap-1">
+                            <div class="block p-1">
+                                <p><strong><i>CONTINUE?</i></strong></p>
+                                <div class="flex justify-center">
+                                    <button class="bg-red-500 border border-red-900 p-1 rounded-md text-red-900">DELETE</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button data-close-modal class="input">Close</button>
+                    </div>
+                </dialog>
+
             </div>
-
-            <div class="flex justify-end">
-                <button class="bg-red-500 border border-red-900 p-1 rounded-sm text-red-900">Delete Account</button>
-            </div>
-
         </div>
+
     </article>
 </main>
 </body>
