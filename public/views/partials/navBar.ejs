@@ -1,56 +1,28 @@
-<header class="sticky top-0 text-md sm:text-lg mb-5">
-	<nav
-		class="bg-[#51688e] dark:bg-[#303134] border border-[#355488] dark:border-[#474747] p-2 flex">
-		<a href="/">
-			<img class="w-14" src="../images/orthodoxcanonlogoNEW.png" alt="icon" />
-		</a>
+<nav class="sticky top-0 flex flex-col items-start bg-[#51688e] dark:bg-[#303134] border border-[#355488] dark:border-[#474747] p-2 text-white mb-5">
+	<a href="/" class="hover:shadow-2xl">
+		<img class="w-14" src="../images/orthodoxcanonlogoNEW.png" alt="icon" />
+	</a>
 
-		<ul class="flex items-center p-1">
-			<li>
-				<a
-					class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] p-2 mx-1 rounded-md"
-					href="/"
-					>Home</a
-				>
-			</li>
-			<li>
-				<a
-					class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] p-2 mx-1 rounded-md"
-					href="/users/bible"
-					>Bible</a
-				>
-			</li>
-			<li>
-				<a
-					class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] p-2 mx-1 rounded-md"
-					href="/users/fathers"
-					>Fathers</a
-				>
-			</li>
-		</ul>
-
-		<ul class="flex items-center p-1 grow justify-end">
-			<li
-				class="text-white duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] py-1 px-2 mx-1 rounded-md">
+	<button id="toggleBtn">
+		<div class="sm:hidden input">
+			<img src="../../images/svgs/hamburger-lg-svgrepo-com.svg" alt="iconForMenu" width="30px">
+		</div>
+	</button>
+	
+	<div class="w-full">
+		<ul class="p-0 m-0 flex sm:flex-row flex-col">
+			<li class="text-center"><a id="option1" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden active:flex sm:block" href="/">Home</a></li>
+			<li class="text-center"><a id="option2" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden active:flex sm:block" href="/users/bible">Bible</a></li>
+			<li class="text-center"><a id="option3" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden active:flex sm:block" href="/users/fathers">Church Fathers</a></li>
+			<li class="text-center"><a id="option4" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden active:flex sm:block" href="/about">About</a></li>
+			<li class="text-center"><a id="option5" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden active:flex sm:block" href="/users/account">My account</a></li>
+			<li class="text-center">
 				<% if (loggedIn) { %>
-				<a href="/users/logout">Logout</a>
+					<a id="option6" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden active:flex sm:block" href="/users/logout">Logout</a>
 				<% } else { %>
-				<a href="/users/login">Login or Sign Up</a>
+					<a id="option7" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden active:flex sm:block" href="/users/login">Login or Sign Up</a>
 				<% }%>
 			</li>
-
-			<li>
-				<img
-					class="sunDisabled cursor-pointer justify-center"
-					src="../images/brightness-high.svg"
-					alt="BrightModeDisabled" />
-			</li>
-			<li>
-				<img
-					class="sunEnabled cursor-pointer justify-center"
-					src="../images/brightness-high-fill.svg"
-					alt="BrightModeEnabled" />
-			</li>
 		</ul>
-	</nav>
-</header>
+	</div>
+</nav>
