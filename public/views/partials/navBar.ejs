@@ -11,16 +11,21 @@
 	
 	<div class="w-full">
 		<ul class="p-0 m-0 flex sm:flex-row flex-col">
-			<li class="text-center"><a id="option1" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden active:flex sm:block" href="/">Home</a></li>
-			<li class="text-center"><a id="option2" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden active:flex sm:block" href="/users/bible">Bible</a></li>
-			<li class="text-center"><a id="option3" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden active:flex sm:block" href="/users/fathers">Church Fathers</a></li>
-			<li class="text-center"><a id="option4" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden active:flex sm:block" href="/about">About</a></li>
-			<li class="text-center"><a id="option5" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden active:flex sm:block" href="/users/account">My account</a></li>
+			<li class="text-center"><a id="option1" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden sm:block" href="/">Home</a></li>
+			<li class="text-center"><a id="option2" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden sm:block" href="/users/bible">Bible</a></li>
+			<li class="text-center"><a id="option3" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden sm:block" href="/users/fathers">Church Fathers</a></li>
+			<li class="text-center"><a id="option4" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden sm:block" href="/about">About</a></li>
 			<li class="text-center">
 				<% if (loggedIn) { %>
-					<a id="option6" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden active:flex sm:block" href="/users/logout">Logout</a>
+					<a id="option5" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden sm:block" href="/users/account">My Account</a>
+				<% } else { %><% } %>
+
+			</li>
+			<li class="text-center">
+				<% if (loggedIn) { %>
+					<a id="option6" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden sm:block" href="/users/logout">Logout</a>
 				<% } else { %>
-					<a id="option7" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden active:flex sm:block" href="/users/login">Login or Sign Up</a>
+					<a id="option7" class="p-1 w-full mx-1 duration-150 hover:bg-[#2e3e58] dark:hover:dark:bg-[#202124] rounded-md hidden sm:block" href="/users/login">Login or Sign Up</a>
 				<% }%>
 			</li>
 		</ul>

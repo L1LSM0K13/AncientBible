@@ -60,6 +60,7 @@ var loggedIn = loggedIn;
 	<title>Bible</title>
 	<link rel="stylesheet" href="../css/output.css" />
 
+	<script src="/scripts/darkModeToggle.js" defer></script>
 	<script src="/scripts/bibleFormattingOptions.js" defer></script>
 	<script src="/scripts/resetChapterAndSubmit.js" defer></script>
 	<script src="/scripts/noteMenuToggle.js" defer></script>
@@ -210,6 +211,18 @@ var loggedIn = loggedIn;
 			</div>
 		</div>
 	</div>
+
+	<div class="hidden">
+		<img
+				class="sunDisabled cursor-pointer justify-center"
+				src="../images/brightness-high.svg"
+				alt="BrightModeDisabled" />
+		<img
+				class="sunEnabled cursor-pointer justify-center"
+				src="../images/brightness-high-fill.svg"
+				alt="BrightModeEnabled" />
+	</div>
+
 </main>
 
 </body>

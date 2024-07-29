@@ -11,10 +11,11 @@
 
     <script src="/scripts/darkModeToggle.js" defer></script>
     <script src="/scripts/dialogElem.js" defer></script>
+    <script src="/scripts/hamburgerMenu.js" defer></script>
     <link rel="stylesheet" href="../css/output.css" />
 </head>
 
-<body class="bg-[#e9eef1] sm:text-lg text-sm dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
+<body class="bg-[#e9eef1] text-lg dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
 <%- include('partials/navBar') %>
 
 <main>
@@ -34,13 +35,13 @@
                 
                 <div class="grid gap-2">
                     <form action="/users/account" method="POST" class="grid grid-rows-2 gap-2">
-                        <input type="text" name="changeName" class="border-[#355488] border rounded-sm p-1" placeholder="Change your name">
-                        <input type="text" name="changeEmail" class="border-[#355488] border rounded-sm p-1" placeholder="Change your email">
+                        <input type="text" name="changeName" class="border-[#355488] border rounded-sm p-1 dark:bg-[#202124] dark:border-[#474747]" placeholder="Change your name">
+                        <input type="text" name="changeEmail" class="border-[#355488] border rounded-sm p-1 dark:bg-[#202124] dark:border-[#474747]" placeholder="Change your email">
                     </form>
 
                     <form action="/users/account" method="POST" class="grid grid-rows-2 gap-2">
-                        <input type="text" name="changePass" class="border-[#355488] border rounded-sm p-1" placeholder="Change your password" required>
-                        <input type="text" name="changePass2" class="border-[#355488] border rounded-sm p-1" placeholder="Confirm change" required>
+                        <input type="text" name="changePass" class="border-[#355488] border rounded-sm p-1 dark:bg-[#202124] dark:border-[#474747]" placeholder="Change your password" required>
+                        <input type="text" name="changePass2" class="border-[#355488] border rounded-sm p-1 dark:bg-[#202124] dark:border-[#474747]" placeholder="Confirm change" required>
                     </form>
 
                     <form action="/users/account" method="POST">
@@ -52,7 +53,7 @@
                     <button data-open-modal class="bg-red-500 border border-red-900 p-1 rounded-md text-red-900">Delete Account</button>
                 </div>
 
-                <dialog data-modal class="border border-[#355488] rounded-md">
+                <dialog data-modal class="border border-[#355488] rounded-md dark:text-[#d9dde0] dark:bg-[#303134] dark:border-[#474747]">
                     <div class="m-2 p-5">
                         <p class="">WARNING!!! YOU ARE ABOUT TO <strong>DELETE</strong> YOUR ANCIENT BIBLE ACCOUNT!!!</p>
                         <p class="">ALL OF YOUR NOTES AND HIGHLIGHTS WILL BE DELETED <strong>FOREVER</strong>!!!</p>
@@ -72,14 +73,17 @@
                     </div>
                 </dialog>
 
+                <div class="flex gap-2 items-center">
+                    <span>Toggle dark mode =></span>
                     <img
                             class="sunDisabled cursor-pointer justify-center"
-                            src="../images/brightness-high.svg"
-                            alt="BrightModeDisabled" />
+                            src="../images/svgs/brightness-high.svg"
+                            alt="Dark Mode" />
                     <img
                             class="sunEnabled cursor-pointer justify-center"
-                            src="../images/brightness-high-fill.svg"
-                            alt="BrightModeEnabled" />
+                            src="../images/svgs/brightness-high-fill.svg"
+                            alt="Bright Mode" />
+                </div>
 
             </div>
         </div>

@@ -1,5 +1,6 @@
 const { getBookTitles, getBookChapters, getBookText } = require('../models/bibleFunction.model');
 const { getUserNotes, getUserHighlights } = require('../models/fetchNotesAndHighlights.model');
+const {defaultRender} = require("../utils/defaultValues");
 
 /**
  *

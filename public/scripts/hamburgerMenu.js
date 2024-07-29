@@ -4,7 +4,7 @@ const option2 = document.getElementById('option2');
 const option3 = document.getElementById('option3');
 const option4 = document.getElementById('option4');
 const option5 = document.getElementById('option5');
-const option6 = document.getElementById('option7');
+const option6 = document.getElementById('option6');
 const option7 = document.getElementById('option7');
 
 // TODO improve this ungodly code

@@ -10,6 +10,7 @@
     <title>Login</title>
 
     <script src="/scripts/hamburgerMenu.js" defer></script>
+    <script src="/scripts/darkModeToggle.js" defer></script>
     <link rel="stylesheet" href="../css/output.css" />
 </head>
 
@@ -38,6 +39,18 @@
             <button class="input"><a href="/users/login">Back to login</a></button>
         </div>
     </div>
+
+    <div class="hidden">
+        <img
+                class="sunDisabled cursor-pointer justify-center"
+                src="../images/brightness-high.svg"
+                alt="BrightModeDisabled" />
+        <img
+                class="sunEnabled cursor-pointer justify-center"
+                src="../images/brightness-high-fill.svg"
+                alt="BrightModeEnabled" />
+    </div>
+
 </main>
 </body>
 </html>

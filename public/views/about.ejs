@@ -9,7 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
 
+    <script src="/scripts/darkModeToggle.js" defer></script>
     <script src="/scripts/hamburgerMenu.js" defer></script>
+    <script src="/scripts/darkModeToggle.js" defer></script>
     <link rel="stylesheet" href="../css/output.css" />
 </head>
 
@@ -29,12 +31,25 @@
             <div class="grid grid-rows-3 p-5 col-start-2">
                 <span class="row-start-1 col-start-2">My name is Nicolas, this is my first website. I've been making this website since November 2023. My original intention was to just make a personal note-taking bible app, but quickly became an opportunity to share very first online english orthodox bible in the world.</span>
                 <span class="row-start-2 col-start-2">This website uses the Brenton's English Septuigant 2012 Edition for the old testament, And the Byzantine Text for the new testament. These translations are in the public domain.</span>
-                <span class="row-start-3 col-start-2">You can contact me on either <a class="text-blue-500 dark:text-yellow-400 hover:font-bold" href="https://github.com/L1LSM0K13">GitHub</a>
-            or my email at <span class="text-blue-500 dark:text-yellow-400 hover:font-bold">nico@ancientbible.org</span>
+                <span class="row-start-3 col-start-2">You can contact me on either <a class="text-blue-500 dark:text-yellow-400" target="_blank" href="https://github.com/L1LSM0K13">GitHub</a>
+            or my email at <span class="text-blue-500 dark:text-yellow-400"><a href="mailto:nico@ancientbible.org">nico@ancientbible.org</a></span>
             </span>
             </div>
         </div>
     </article>
+
 </main>
+
+<div class="hidden">
+        <img
+                class="sunDisabled cursor-pointer justify-center"
+                src="../images/brightness-high.svg"
+                alt="BrightModeDisabled" />
+        <img
+                class="sunEnabled cursor-pointer justify-center"
+                src="../images/brightness-high-fill.svg"
+                alt="BrightModeEnabled" />
+    </div>
+
 </body>
 </html>
