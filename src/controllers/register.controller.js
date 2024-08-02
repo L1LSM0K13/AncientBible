@@ -39,6 +39,7 @@ const registerUser = async (req, res) => {
         }
 
         // Creates user
+        /** @type  {any} */
         const newUser = await createUser(name, email, password);
         const userName = newUser[0].name;
         const verificationToken = newUser.email_token;
