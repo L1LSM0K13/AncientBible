@@ -27,34 +27,34 @@ const registerUser = async (req, res) => {
     }
     if (errors.length > 0) {
         await defaultRender(req, res, false, "../public/views/register", { errors });
-    }
+    } else {
+        try {
+            // Checks if user already exists
+            const users = await checkEmailAvailability(email);
+            if (users.length > 0) {
+                errors.push({ message: "User with this email already exists" });
+                return await defaultRender(req, res, false, "../public/views/register", { errors });
+            }
 
-    try {
+            // Creates user
+            /** @type  {any} */
+            const newUser = await createUser(name, email, password);
+            const userName = newUser[0].name;
+            const verificationToken = await newUser[0].email_token;
 
-        // Checks if user already exists
-        const users = await checkEmailAvailability(email);
-        if (users.length > 0) {
-            errors.push({ message: "User with this email already exists" });
-            return await defaultRender(req, res, false, "../public/views/register", { errors });
+            req.flash(
+                "success_msg",
+                `You are now registered as ${userName}!`
+            );
+
+            await sendVerificationEmail(email, verificationToken)
+            console.log({message: '3: EMAIL SENT'})
+
+            res.redirect("/users/register");
+
+        } catch (/** @type {any} */   err) {
+            res.status(500).send({ message: err.message });
         }
-
-        // Creates user
-        /** @type  {any} */
-        const newUser = await createUser(name, email, password);
-        const userName = newUser[0].name;
-        const verificationToken = newUser.email_token;
-
-        req.flash(
-            "success_msg",
-            `You are now registered as ${userName}!`
-        );
-
-        await sendVerificationEmail(email, verificationToken)
-
-        res.redirect("/users/verify");
-
-    } catch (/** @type {any} */   err) {
-        res.status(500).send({ message: err.message });
     }
 }
 
