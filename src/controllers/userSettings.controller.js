@@ -1,5 +1,7 @@
 const { deleteUser, updateName, updateEmail, updatePassword } = require('../models/accountSettings.model')
-const { defaultRender } = require("../utils/defaultValues");
+const { defaultRender } = require("../utils/defaultValues")
+const {checkEmailAvailability} = require("../models/register.model");
+
 
 /**
  *
@@ -8,80 +10,88 @@ const { defaultRender } = require("../utils/defaultValues");
  * @returns {Promise<any>}
  */
 const deleteAccount = async (req, res) => {
-
     const user_id = req.user.id
-
-    await deleteUser(user_id);
-};
-
-/**
- *
- * @param {any} req
- * @param {any} res
- * @returns {Promise<any>}
- */
-const updateNameAndRedirect = async (req, res) => {
-    const { name } = req.body
-    const user_id = req.user.id
-
-    if (name === null) {
-        return
-    }
-
-    await updateName(name, user_id)
-    res.redirect('/users/account')
+    await deleteUser(user_id)
 }
 
-/**
- *
- * @param {any} req
- * @param {any} res
- * @returns {Promise<any>}
- */
-const updateEmailAndRedirect = async (req, res) => {
-    const { email } = req.body
-    const user_id = req.user.id
-
-    if (email === null) {
-        return
-    }
-
-    await updateEmail(email, user_id)
-    res.redirect('/users/account')
-}
-
-// TODO make sure this does not mess up password encryption
 /**
  *
  * @param {any} req
  * @param {any} res
  * @returns {Promise<void>}
  */
-const updatePasswordAndRedirect = async (req, res) => {
-    const { password, confirmPass } = req.body
+const updateUserInfo = async (req, res) => {
     const user_id = req.user.id
+    let { name, email, password, confirmPass } = req.body
 
-    // Checks for password matches these criteria, renders the proper errors
-    let errors = []
-    if (password.length < 8) {
-        errors.push({
-            message: "password should be at least 8 characters long.",
-        });
-    }
-    if (password !== confirmPass) {
-        errors.push({ message: "passwords must match." });
-    }
-    if (errors.length > 0) {
-        await defaultRender(req, res, false, "../public/views/account", { errors });
-    }
+    const updates = []
+    const errors = []
+
+    name = name ? name.trim() : ''
+    email = email ? email.trim() : ''
+    password = password ? password.trim() : ''
+    confirmPass = confirmPass ? confirmPass.trim() : ''
 
     try {
-        await updatePassword(password, user_id)
-        res.redirect('/users/account')
-    } catch (err) {
-        res.status(400).send(err, "Didn't work, check console...")
-    }
+        // Checks if user already exists
+        const users = await checkEmailAvailability(email);
+        if (users.length > 0) {
+            errors.push({ message: "User with this email already exists" });
+            await defaultRender(req, res, true, "../public/views/account", { errors });
 
+        } else {
+
+        // Pushes the update operations into an array and then uses that Promise.all() to execute them
+        switch (true) {
+            case !!name && !!email && !!password && !!confirmPass:
+                updates.push(updateName(name, user_id))
+                updates.push(updateEmail(email, user_id))
+
+                // Checks if user meets all the criteria for password
+                if (password.length < 8) {
+                    errors.push({
+                        message: "password should be at least 8 characters long.",
+                    })
+                }
+                if (password !== confirmPass) {
+                    errors.push({ message: "passwords must match." })
+                }
+                if (errors.length > 0) {
+                    await defaultRender(req, res, true, "../public/views/account", { errors })
+                } else {
+                    await updatePassword(password, user_id)
+                }
+                break
+            case !!name:
+                updates.push(updateName(name, user_id))
+                break
+            case !!email:
+                updates.push(updateEmail(email, user_id))
+                break
+            case !!password && !! confirmPass:
+
+                // Checks if user meets all the criteria for password
+                if (password.length < 8) {
+                    errors.push({
+                        message: "password should be at least 8 characters long.",
+                    })
+                }
+                if (password !== confirmPass) {
+                    errors.push({ message: "passwords must match." })
+                }
+                if (errors.length > 0) {
+                    await defaultRender(req, res, true, "../public/views/account", { errors })
+                } else {
+                    await updatePassword(password, user_id)
+                }
+                break
+        }
+            await Promise.all(updates)
+            res.redirect('/users/account')
+        }
+    } catch (err) {
+        console.log(err)
+    }
 }
 
-module.exports = { deleteAccount, updatePasswordAndRedirect, updateNameAndRedirect, updateEmailAndRedirect }
+module.exports = { deleteAccount, updateUserInfo }

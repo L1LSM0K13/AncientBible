@@ -10,7 +10,6 @@ const deleteUser = async (id) => {
         [id]);
 }
 
-// TODO Fix this logic of null values
 /**
  *
  * @param {string} name
@@ -18,13 +17,8 @@ const deleteUser = async (id) => {
  * @returns {Promise<void>}
  */
 const updateName = async (name, id) => {
-
-    console.log('CHANGING...')
-
-    const results = await pool.query(`UPDATE users SET name = $1 WHERE id = $2 RETURNING name, id`,
+    await pool.query(`UPDATE users SET name = $1 WHERE id = $2`,
         [name, id])
-
-    console.log(results.rows)
 }
 
 /**
@@ -34,14 +28,8 @@ const updateName = async (name, id) => {
  * @returns {Promise<void>}
  */
 const updateEmail = async (email, id) => {
-
-    console.log('CHANGING...')
-
-    const results = await pool.query(`UPDATE users SET email = $1 WHERE id = $2 RETURNING email, id`,
+    await pool.query(`UPDATE users SET email = $1 WHERE id = $2`,
         [email, id])
-
-    console.log(results.rows)
-
 }
 
 /**
@@ -56,7 +44,6 @@ const updatePassword = async (password, id) => {
 
     await pool.query(`UPDATE users SET password = $1 WHERE id = $2`,
         [newHashedPassword, id])
-
 }
 
 module.exports = { deleteUser, updateName, updateEmail, updatePassword };

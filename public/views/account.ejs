@@ -6,8 +6,9 @@ var password = password
 var confirmPass = confirmPass
 var numOfNotes = numOfNotes
 var numOfHighlights = numOfHighlights
+var errors = errors
+var success_msg = success_msg
 %>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -29,6 +30,13 @@ var numOfHighlights = numOfHighlights
 <body class="bg-[#e9eef1] text-lg dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
 <%- include('partials/navBar') %>
 
+<ul>
+    <% if (typeof errors != 'undefined') { %> <% errors.forEach(error =>{ %>
+        <li class="errorMsg"><%= error.message %></li>
+    <% }) %> <% } %>
+</ul>
+
+
 <main>
 
     <article class="flex justify-center">
@@ -37,30 +45,41 @@ var numOfHighlights = numOfHighlights
             <h1 class="nodeTitleH1 ">Your account</h1>
             <div class="nodeInsideDiv grid grid-cols-2 gap-4">
 
+                <div class="grid grid-rows-4 items-center sm:text-lg text-sm">
+                    <p>Your Name - <strong><% name %></strong> </p>
+                    <p>Your Email - <strong><% email %></strong> </p>
+                    <p>Your total notes taken - <strong><% numOfNotes %></strong> </p>
+                    <p>Your total highlights - <strong><% numOfHighlights %></strong> </p>
+                </div>
+
                 <div>
-                    <p>Your Name: <strong><% name %></strong> </p>
-                    <p>Your Email: <strong><% email %></strong> </p>
-                    <p>Your total notes: <strong><% numOfNotes %></strong> </p>
-                    <p>Your total highlights: <strong><% numOfHighlights %></strong> </p>
-                </div>
-                
-                <div class="grid gap-1">
-                    <form action="/users/account/action/changeName" method="POST">
+                    <form action="/users/account" method="POST" class="grid grid-rows-4 gap-1 sm:text-lg text-sm">
                         <input type="text" name="name" class="border-[#355488] border rounded-sm p-1 dark:bg-[#202124] dark:border-[#474747]" placeholder="Change your name">
-                        <input type="submit" class="input cursor-pointer" value="Change Name">
-                    </form>
-
-                    <form action="/users/account/action/changeEmail" method="POST" >
                         <input type="email" name="email" class="border-[#355488] border rounded-sm p-1 dark:bg-[#202124] dark:border-[#474747]" placeholder="Change your email">
-                        <input type="submit" class="input cursor-pointer" value="Change Email">
-                    </form>
-
-                    <form action="/users/account/action/password" method="POST" class="grid grid-rows-3 gap-2">
-                        <input type="text" name="password" class="border-[#355488] border rounded-sm p-1 dark:bg-[#202124] dark:border-[#474747]" placeholder="Change your password" required>
-                        <input type="text" name="confirmPass" class="border-[#355488] border rounded-sm p-1 dark:bg-[#202124] dark:border-[#474747]" placeholder="Confirm new password" required>
-                        <input type="submit" class="input cursor-pointer" value="Change Password">
+                        <input type="password" name="password" class="border-[#355488] border rounded-sm p-1 dark:bg-[#202124] dark:border-[#474747]" placeholder="Change your password">
+                        <input type="password" name="confirmPass" class="border-[#355488] border rounded-sm p-1 dark:bg-[#202124] dark:border-[#474747]" placeholder="Confirm new password">
+                        <input type="submit" value="Submit" class="input cursor-pointer">
                     </form>
                 </div>
+
+                <!-- Save for later -->
+<!--                <div class="grid gap-1">-->
+<!--                    <form action="/users/account/action/changeName" method="POST">-->
+<!--                        <input type="text" name="name" class="border-[#355488] border rounded-sm p-1 dark:bg-[#202124] dark:border-[#474747]" placeholder="Change your name" required>-->
+<!--                        <input type="submit" class="input cursor-pointer" value="Change Name">-->
+<!--                    </form>-->
+
+<!--                    <form action="/users/account/action/changeEmail" method="POST" >-->
+<!--                        <input type="email" name="email" class="border-[#355488] border rounded-sm p-1 dark:bg-[#202124] dark:border-[#474747]" placeholder="Change your email" required>-->
+<!--                        <input type="submit" class="input cursor-pointer" value="Change Email">-->
+<!--                    </form>-->
+
+<!--                    <form action="/users/account/action/changePassword" method="POST" class="grid grid-rows-3 gap-2">-->
+<!--                        <input type="password" name="password" class="border-[#355488] border rounded-sm p-1 dark:bg-[#202124] dark:border-[#474747]" placeholder="Change your password" required>-->
+<!--                        <input type="password" name="confirmPass" class="border-[#355488] border rounded-sm p-1 dark:bg-[#202124] dark:border-[#474747]" placeholder="Confirm new password" required>-->
+<!--                        <input type="submit" class="input cursor-pointer" value="Change Password">-->
+<!--                    </form>-->
+<!--                </div>-->
 
                 <div>
                     <button data-open-modal class="bg-red-500 border border-red-900 p-1 rounded-md text-red-900">Delete Account</button>

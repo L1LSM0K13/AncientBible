@@ -27,6 +27,7 @@ const accountRoutes = require('./src/routes/userSettings.route');
 const deleteAccountRoutes = require('./src/routes/userSettings.route')
 const changeNameRoutes = require('./src/routes/userSettings.route')
 const changeEmailRoutes = require('./src/routes/userSettings.route')
+const changePasswordRoutes = require('./src/routes/userSettings.route')
 
 initializePassport(passport);
 
@@ -53,17 +54,15 @@ app.use((req, res, next) => {
 	next();
 });
 
+app.use('/', homeRoutes);
+app.use('/', verifyRoutes);
 app.use('/users', userRoutes);
 app.use('/users', bibleRoutes);
 app.use('/users', fathersRoutes);
 app.use('/users', noteRoutes);
 app.use('/users', highlightRoutes);
 app.use('/users', accountRoutes);
-app.use('/users', deleteAccountRoutes)
-app.use('/users', changeNameRoutes);
-app.use('/users', changeEmailRoutes);
-app.use('/', homeRoutes);
-app.use('/', verifyRoutes);
+
 
 app.listen(PORT, () => {
 	console.log(`It's live on http://localhost:${PORT}`);
