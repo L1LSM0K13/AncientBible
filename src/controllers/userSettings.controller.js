@@ -1,6 +1,18 @@
-const { deleteUser, updateName, updateEmail, updatePassword } = require('../models/accountSettings.model')
+const { deleteUser, updateName, updateEmail, updatePassword, fetchUserInfo} = require('../models/accountSettings.model')
 const { defaultRender } = require("../utils/defaultValues")
 const { checkEmailAvailability } = require("../models/register.model");
+
+/**
+ *
+ * @param {any} req
+ * @param {any} res
+ * @returns {Promise<{userInfo: *, user_id: number}>}
+ */
+const displayUserInfo = async (req, res) => {
+    const user_id = req.user.id
+    const userInfo = await fetchUserInfo(user_id)
+    return { userInfo, user_id }
+}
 
 /**
  *
@@ -36,7 +48,8 @@ const updateUserInfo = async (req, res) => {
         const users = await checkEmailAvailability(email);
         if (users.length > 0) {
             errors.push({ message: "User with this email already exists" });
-            await defaultRender(req, res, true, "../public/views/account", { errors });
+            const { userInfo } = await displayUserInfo(req, res)
+            await defaultRender(req, res, true, "../public/views/account", { errors, userInfo, user_id });
 
         } else {
 
@@ -56,7 +69,8 @@ const updateUserInfo = async (req, res) => {
                     errors.push({ message: "passwords must match." })
                 }
                 if (errors.length > 0) {
-                    await defaultRender(req, res, true, "../public/views/account", { errors })
+                    const { userInfo } = await displayUserInfo(req, res)
+                    await defaultRender(req, res, true, "../public/views/account", { errors, userInfo, user_id });
                 } else {
                     await updatePassword(password, user_id)
                 }
@@ -79,7 +93,8 @@ const updateUserInfo = async (req, res) => {
                     errors.push({ message: "passwords must match." })
                 }
                 if (errors.length > 0) {
-                    await defaultRender(req, res, true, "../public/views/account", { errors })
+                    const { userInfo } = await displayUserInfo(req, res)
+                    await defaultRender(req, res, true, "../public/views/account", { errors, userInfo, user_id });
                 } else {
                     await updatePassword(password, user_id)
                 }
@@ -93,4 +108,4 @@ const updateUserInfo = async (req, res) => {
     }
 }
 
-module.exports = { deleteAccount, updateUserInfo }
+module.exports = { deleteAccount, updateUserInfo, displayUserInfo }

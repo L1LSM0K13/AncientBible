@@ -46,4 +46,20 @@ const updatePassword = async (password, id) => {
         [newHashedPassword, id])
 }
 
-module.exports = { deleteUser, updateName, updateEmail, updatePassword };
+/**
+ *
+ * @param {number} id
+ * @returns {Promise<any>}
+ */
+const fetchUserInfo = async (id) => {
+    const results = await pool.query(`select name, email, user_highlights.id 
+        as highlight_id, user_notes.id 
+        as note_id, users.id 
+        as user_id from user_notes, 
+        user_highlights inner join users on user_highlights.user_id = users.id where users.id = $1;`,
+        [id])
+
+    return results.rows
+}
+
+module.exports = { deleteUser, updateName, updateEmail, updatePassword, fetchUserInfo };

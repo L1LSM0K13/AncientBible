@@ -1,11 +1,14 @@
 const express = require('express');
 const router = express.Router();
 const { defaultRender } = require('../utils/defaultValues');
-const { deleteAccount, updateUserInfo } = require("../controllers/userSettings.controller");
+const { deleteAccount, updateUserInfo, displayUserInfo } = require("../controllers/userSettings.controller");
 
 // GET account settings
-router.get('/account', (req, res) => {
-    defaultRender(req, res, true, '../public/views/account', {})
+router.get('/account', async (req, res) => {
+
+    const { userInfo, user_id } = await displayUserInfo(req, res)
+
+    defaultRender(req, res, true, '../public/views/account', { userInfo, user_id })
 })
 
 // Deletes account, deleting all of its child info with it, then runs the logout function.
