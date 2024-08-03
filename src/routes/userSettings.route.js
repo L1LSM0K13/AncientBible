@@ -21,7 +21,8 @@ router.post('/account/action/delete', (req, res) => {
 })
 
 /**
- * Updates name or email address, if either one is null it will skip it from being queried.
+ * Updates name, email address, and password, if either one is null it will skip it from being queried
+ * into the database
  *
  * Updating password will re-encrypt the password via bcyrpt.
  * this will use the same password criteria for the register model.

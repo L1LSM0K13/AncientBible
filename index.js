@@ -24,10 +24,6 @@ const noteRoutes = require('./src/routes/notes.route');
 const highlightRoutes = require('./src/routes/highlights.route');
 const verifyRoutes = require('./src/routes/token.route');
 const accountRoutes = require('./src/routes/userSettings.route');
-const deleteAccountRoutes = require('./src/routes/userSettings.route')
-const changeNameRoutes = require('./src/routes/userSettings.route')
-const changeEmailRoutes = require('./src/routes/userSettings.route')
-const changePasswordRoutes = require('./src/routes/userSettings.route')
 
 initializePassport(passport);
 

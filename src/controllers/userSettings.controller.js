@@ -1,7 +1,6 @@
 const { deleteUser, updateName, updateEmail, updatePassword } = require('../models/accountSettings.model')
 const { defaultRender } = require("../utils/defaultValues")
-const {checkEmailAvailability} = require("../models/register.model");
-
+const { checkEmailAvailability } = require("../models/register.model");
 
 /**
  *
