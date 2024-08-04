@@ -5,7 +5,7 @@ const { defaultRender } = require("../utils/defaultValues");
 const { checkAuth } = require("../controllers/checkAuth.controller");
 
 
-router.post('/verified', async (req, res) => {
+router.get('/verified', async (req, res) => {
     await verifyUser(req, res)
 })
 
