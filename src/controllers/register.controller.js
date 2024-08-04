@@ -48,9 +48,8 @@ const registerUser = async (req, res) => {
             );
 
             await sendVerificationEmail(email, verificationToken)
-            console.log({message: '3: EMAIL SENT'})
 
-            res.redirect("/users/register");
+            res.redirect("/verify");
 
         } catch (/** @type {any} */   err) {
             res.status(500).send({ message: err.message });

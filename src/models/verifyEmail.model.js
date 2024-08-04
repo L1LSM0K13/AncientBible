@@ -22,8 +22,6 @@ const sendVerificationEmail = async (email, verificationToken) => {
         }
     });
 
-    console.log({message: '1: TRANSPORT CREATED'})
-
     const info = await transporter.sendMail({
         from: `"Nico M ☦️" <${process.env.EMAIL_USER}>`,
         to: email,
@@ -31,7 +29,6 @@ const sendVerificationEmail = async (email, verificationToken) => {
         text: `Thank you for signing up with us! Verify your email by clicking this link: ${verificationLink}`,
     });
 
-    console.log({message: '2: EMAIL GENERATED'})
     console.log(info.messageId)
 }
 
