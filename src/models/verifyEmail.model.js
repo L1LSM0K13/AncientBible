@@ -4,15 +4,17 @@ const nodemailer = require("nodemailer");
  *
  * @param {string} email
  * @param {string} verificationToken
- * @returns {(function(*, *): Promise<any>)|*}
+ * @returns {Promise<any>}
  */
 const sendVerificationEmail = async (email, verificationToken) => {
 
-    // let verificationLink = `https://${process.env.APP_DOMAIN}/verify?token=${verificationToken}`;
+    // TODO replace local with launch version of the link
+    // let verificationLinkLaunch = `https://${process.env.APP_DOMAIN}/verify?token=${verificationToken}`;
     let verificationLink = `http://localhost:4000/verified?token=${verificationToken}`;
 
     // Creates transporter
     const transporter = nodemailer.createTransport({
+        // @ts-ignore
         host: process.env.EMAIL_HOST,
         port: process.env.EMAIL_PORT,
         secure: true,
