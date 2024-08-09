@@ -21,13 +21,10 @@ const insertTokenToUser = async (email, generatedToken) => {
  * @returns {Promise<any>}
  */
 const updatePassword = async (password, email) => {
-    console.log({message: 'CHANGING PASSWORD...'})
     const newHashedPassword = await bcrypt.hash(password, 10)
 
     await pool.query(`UPDATE users SET passwordreset_token = $1 WHERE email = $2`, [null, email])
     await pool.query(`UPDATE users SET password = $1 WHERE email = $2`, [newHashedPassword, email])
-
-    console.log({message: 'PASSWORD CHANGED...'})
 }
 
 /**

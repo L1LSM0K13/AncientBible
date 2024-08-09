@@ -38,7 +38,7 @@ const sendPasswordEmail = async (req, res) => {
  */
 const changePassword = async (req, res) => {
     let { password, confirmPass } = req.body
-    let { email } = req.body
+    let { email, token } = req.body
     let errors = []
 
     if (!generatedToken) {
@@ -54,7 +54,7 @@ const changePassword = async (req, res) => {
             errors.push({ message: "passwords must match." });
         }
         if (errors.length > 0) {
-            return await defaultRender(req, res, false, "../public/views/passwordResetPages/enterNewPassword", { errors });
+            return await defaultRender(req, res, false, "../public/views/passwordResetPages/enterNewPassword", { errors, token, email });
         } else {
             await updatePassword(password, email)
 
