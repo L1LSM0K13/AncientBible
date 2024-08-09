@@ -24,6 +24,7 @@ const noteRoutes = require('./src/routes/notes.route');
 const highlightRoutes = require('./src/routes/highlights.route');
 const verifyRoutes = require('./src/routes/token.route');
 const accountRoutes = require('./src/routes/userSettings.route');
+const passwordResetRoutes = require('./src/routes/passwordReset.route');
 
 initializePassport(passport);
 
@@ -33,6 +34,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, './public')));
 app.use(
 	session({
+		// @ts-ignore
 		secret: process.env.SESSION_SECRET,
 		resave: false,
 		saveUninitialized: false,
@@ -58,6 +60,7 @@ app.use('/users', fathersRoutes);
 app.use('/users', noteRoutes);
 app.use('/users', highlightRoutes);
 app.use('/users', accountRoutes);
+app.use('/users', passwordResetRoutes);
 
 
 app.listen(PORT, () => {

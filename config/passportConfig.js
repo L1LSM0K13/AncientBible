@@ -27,8 +27,7 @@ function initialize(passport) {
 
 				if (results.rows.length > 0) {
 					const user = results.rows[0];
-
-					// TODO make sure this email verification works
+					
 					if (user.is_verified) {
 						bcrypt.compare(password, user.password, (err, isMatch) => {
 							if (err) {

@@ -8,12 +8,12 @@ const { defaultRender } = require('../utils/defaultValues');
 // Registering and logging in
 router.post('/register', registerUser);
 
-router.get('/register', checkAuth, (req, res) => {
-    defaultRender(req, res, false, '../public/views/register', {})
+router.get('/register', checkAuth, async (req, res) => {
+    await defaultRender(req, res, false, '../public/views/register', {})
 });
 
-router.get('/login', checkAuth, (req, res) => {
-    defaultRender(req, res, false, '../public/views/login', {})
+router.get('/login', checkAuth, async (req, res) => {
+    await defaultRender(req, res, false, '../public/views/login', {})
 });
 
 // Logging out

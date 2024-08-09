@@ -24,7 +24,6 @@
 				<li class="successMsg"><%= messages.success_msg %></li>
 				<% } %>
 			</ul>
-
 			<ul>
 				<% if(messages.error) { %>
 				<li class="errorMsg"><%= messages.error %></li>
@@ -32,33 +31,35 @@
 			</ul>
 
 			<h1 class="nodeTitleH1 nodeMargins">Login</h1>
-			<div class="nodeInsideDiv nodeMargins">
-				<form action="/users/login" method="POST" class="text-center">
+			<div class="nodeInsideDiv nodeMargins flex justify-center">
+				<form action="/users/login" method="POST">
 					<div class="m-4">
-						<input
-							class="input"
-							type="email"
-							id="email"
-							name="email"
-							placeholder="Email"
-							required />
+
+						<div class="flex flex-col justify-center">
+							<input
+									class="input mb-2"
+									type="email"
+									id="email"
+									name="email"
+									placeholder="Email"
+									required />
+
+							<input
+									class="input mb-2"
+									type="password"
+									id="password"
+									name="password"
+									placeholder="Password"
+									required />
+						</div>
+
+						<div class="flex justify-between items-baseline">
+							<span class="text-sm">Forgot <a href="/users/resetPassword" class="text-blue-600 dark:text-yellow-500 underline">password?</a></span>
+							<input type="submit" value="Login" class="input" />
+						</div>
 					</div>
-					<div class="m-4">
-						<input
-							class="input"
-							type="password"
-							id="password"
-							name="password"
-							placeholder="Password"
-							required />
-					</div>
-					<div class="m-4">
-						<input type="submit" value="Login" class="input" />
-					</div>
-					<p class="m-4">
-						Dont have an Account? Sign up
-						<a class="text-blue-600" href="/users/register">Here</a>
-					</p>
+
+					<p class="m-4">Don't have an Account? Sign up <a class="text-blue-600 dark:text-yellow-500" href="/users/register">Here</a></p>
 				</form>
 			</div>
 		</main>
