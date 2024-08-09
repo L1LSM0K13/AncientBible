@@ -14,7 +14,7 @@ router.get('/enterNewPassword', async (req, res) => {
 
     await defaultRender(req, res, false, '../public/views/passwordResetPages/enterNewPassword', {token, email})
 })
-router.post('/enterNewPassword/action/passwordReset', changePassword)
+router.post('/enterNewPassword', changePassword)
 
 
 module.exports = router;

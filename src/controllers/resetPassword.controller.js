@@ -2,11 +2,8 @@ const {defaultRender} = require("../utils/defaultValues");
 const {checkEmailAvailability} = require("../models/register.model");
 const {insertTokenToUser, updatePassword, sendPasswordResetEmail} = require("../models/resetPassword.model");
 const crypto = require("crypto");
-const {parseArgs} = require("node:util");
 
 const generatedToken = crypto.randomBytes(32).toString('hex');
-
-let errors = []
 
 /**
  *
@@ -16,17 +13,15 @@ let errors = []
  */
 const sendPasswordEmail = async (req, res) => {
     let { email } = req.body
+    let errors = []
 
     const users = await checkEmailAvailability(email);
 
     if (users.length <= 0) {
         errors.push({ message: "No user with that email exists" });
-    }
-    // @ts-ignore
-    if (users.is_verified === false) {
+        await defaultRender(req, res, false, "../public/views/passwordResetPages/resetPassword", { errors });
+    } else if (users[0].is_verified === false) {
         errors.push({message: "This user is not verified yet"});
-    }
-    if (errors.length > 0) {
         await defaultRender(req, res, false, "../public/views/passwordResetPages/resetPassword", { errors });
     } else {
         await insertTokenToUser(email, generatedToken)
@@ -44,6 +39,7 @@ const sendPasswordEmail = async (req, res) => {
 const changePassword = async (req, res) => {
     let { password, confirmPass } = req.body
     let { email } = req.body
+    let errors = []
 
     if (!generatedToken) {
         return res.status(400).send('Invalid token.')
@@ -58,7 +54,7 @@ const changePassword = async (req, res) => {
             errors.push({ message: "passwords must match." });
         }
         if (errors.length > 0) {
-            await defaultRender(req, res, false, "../public/views/passwordResetPages/enterNewPassword", { errors });
+            return await defaultRender(req, res, false, "../public/views/passwordResetPages/enterNewPassword", { errors });
         } else {
             await updatePassword(password, email)
 
@@ -66,7 +62,6 @@ const changePassword = async (req, res) => {
             res.redirect('/users/login')
         }
     }
-            console.log({message: email})
 }
 
 module.exports = {

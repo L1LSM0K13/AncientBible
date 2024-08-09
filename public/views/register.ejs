@@ -17,11 +17,7 @@
 	<body
 		class="bg-[#e9eef1] text-lg dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
 		<%- include('partials/navBar') %>
-		<ul>
-			<% if (typeof errors != 'undefined') { %> <% errors.forEach(error =>{ %>
-			<li class="errorMsg"><%= error.message %></li>
-			<% }) %> <% } %>
-		</ul>
+		<%- include('partials/errorHandler') %>
 
 		<h1 class="nodeTitleH1 nodeMargins">Sign Up</h1>
 		<div class="nodeInsideDiv nodeMargins">
