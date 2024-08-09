@@ -35,7 +35,8 @@ const updatePassword = async (password, email) => {
  */
 const sendPasswordResetEmail = async (email, generatedToken) => {
     const encodedEmail = encodeURIComponent(email)
-    let verificationLink = `http://localhost:4000/users/enterNewPassword?token=${generatedToken}&email=${encodedEmail}`;
+    // let verificationLink = `http://localhost:4000/users/enterNewPassword?token=${generatedToken}&email=${encodedEmail}`;
+    let verificationLink = `https://${process.env.APP_DOMAIN}/users/enterNewPassword?token=${generatedToken}&email=${encodedEmail}`;
 
     console.log({message: '1 CREATING TRANSPORTER...'})
 
