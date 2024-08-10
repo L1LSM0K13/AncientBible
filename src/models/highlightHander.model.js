@@ -26,11 +26,10 @@ const createHighlight = async (user_id, verse_id, fathers_id, highlight_color) =
  * @returns {Promise<any[]>}
  */
 const deleteHighlight = async (user_id, verse_id, fathers_id) => {
-    // Deletes the highlight
-
-    // Checks for highlight with a fathers id
-
-    // TODO make sure this is compatible once the fathers highlights are fixed
+    /**
+     * Deletes the highlight
+     * Checks for highlight with a fathers id
+     */
     let results;
     if (fathers_id === null) {
         results = await pool.query(

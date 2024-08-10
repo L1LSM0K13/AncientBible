@@ -1,5 +1,5 @@
 const { getBookTitles, getBookChapters, getBookText } = require('../models/churchFathersFunction.model')
-const { getUserNotes, getUserHighlights } = require('../models/fetchNotesAndHighlights.model')
+const { getUserNotesFathers, getUserHighlightsFathers} = require('../models/fetchNotesAndHighlights.model')
 
 /**
  *
@@ -25,8 +25,8 @@ const fathersQueryController = async (req, res, pool) => {
         getBookTitles(pool),
         getBookChapters(pool, defaultBook),
         getBookText(pool, defaultBook, defaultChapter),
-        getUserNotes(pool, user_id),
-        getUserHighlights(pool, user_id),
+        getUserNotesFathers(pool, user_id),
+        getUserHighlightsFathers(pool, user_id),
     ]);
 
     const bookTitles = bookTitleRes.map((row) => row.book);
@@ -35,7 +35,6 @@ const fathersQueryController = async (req, res, pool) => {
 
     const userNotes = userNotesRes;
     const userHighlights = userHighlightsRes;
-
 
     let nextBook = defaultBook;
     let nextChapter = defaultChapter + 1;
@@ -72,6 +71,7 @@ const fathersQueryController = async (req, res, pool) => {
         userHighlightsFathers: userHighlights,
         isAuth: isAuth
     };
+
 
     // Rendering the page
     if (isAuth) {

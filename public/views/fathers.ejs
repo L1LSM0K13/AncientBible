@@ -61,7 +61,7 @@ var loggedIn = loggedIn;
 	<link rel="stylesheet" href="../css/output.css" />
 
 	<script src="/scripts/darkModeToggle.js" defer></script>
-	<script src="/scripts/bibleFormattingOptions.js" defer></script>
+	<script src="/scripts/churchFathersFormattingOptions.js" defer></script>
 	<script src="/scripts/resetChapterAndSubmit.js" defer></script>
 	<script src="/scripts/noteMenuToggle.js" defer></script>
 	<script src="/scripts/hamburgerMenu.js" defer></script>
@@ -124,11 +124,6 @@ var loggedIn = loggedIn;
 							class="bg-gray-200 px-1 rounded-sm dark:hover:bg-blue-600 hover:bg-blue-600 dark:bg-[#202124]">
 						Verse-By-Verse
 					</button>
-					<button
-							id="redLetterBtn"
-							class="bg-gray-200 px-1 rounded-sm text-red-600 dark:hover:bg-red-600 hover:bg-red-600 hover:text-white active:bg-red-600 dark:bg-[#202124]">
-						Red Lettering
-					</button>
 					<select
 							name="fontType"
 							id="fontType"
@@ -163,17 +158,6 @@ var loggedIn = loggedIn;
 				</a>
 			</h1>
 
-			<script>
-				document.getElementById('nextLinkPag').addEventListener('click', () => {
-					localStorage.setItem('selectedBook', '<%= selectedBook %>');
-					localStorage.setItem('selectedChapter', <%= selectedChapter %>)
-				})
-				document.getElementById('prevLinkPag').addEventListener('click', () => {
-					localStorage.setItem('selectedBook', '<%= selectedBook %>');
-					localStorage.setItem('selectedChapter', <%= selectedChapter %>)
-				})
-			</script>
-
 			<div id="vContainer" class="nodeInsideDiv px-5">
 
 				<% bookText.map((book, index) => { %>
@@ -183,15 +167,16 @@ var loggedIn = loggedIn;
 
 					<% if (loggedIn) { %>
 
-						<% const filterHighlights = userHighlightsFathers.filter((highlight) => highlight.fathers_id === fathers_id); %>
+						<% const filterHighlights = userHighlightsFathers.filter((highlight) => highlight.fathers_id == fathers_id); %>
 						<% const hasHighlight = filterHighlights.length > 0 ? filterHighlights[0].highlight_color : null; %>
+
 
 							<span class="m-1 p-1 cursor-pointer select-none <%= hasHighlight %>" onclick="toggleNoteMenu('<%= noteMenuId %>')">
 								<span class="text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none  <%= hasHighlight %>" id="<%= fathers_id %>"></span>
 								<%= text_content %>
 							</span>
 
-						<% const filterNotes = userNotesFathers.filter((note) => note.fathers_id === fathers_id); %>
+						<% const filterNotes = userNotesFathers.filter((note) => note.fathers_id == fathers_id); %>
 						<% if (filterNotes.length > 0) { %>
 							<% filterNotes.map((note) => { %>
 								<%- include('partials/noteCreatedFathers', {note: note, book: book}) %>
