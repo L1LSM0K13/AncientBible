@@ -84,7 +84,7 @@ var loggedIn = loggedIn;
 				<!-- Navigate Book -->
 				<div class="text-lg">
 					<h1 class="nodeTitleH1">— Navigate —</h1>
-					<div class="nodeInsideDiv grid gap-1 grid-cols-2 grid-rows-2">
+					<div class="nodeInsideDiv grid gap-1 grid-cols-2">
 						<form
 						class="grid grid-cols-2 col-span-2"
 						id="selectForm"
@@ -118,14 +118,7 @@ var loggedIn = loggedIn;
 												</option>
 										<% }} %>
 							</select>
-
 						</form>
-
-						<button
-							id="verseBtn"
-							class="bg-gray-200 px-1 rounded-sm hover:bg-gray-300 dark:hover:bg-[#0f0f0f] dark:bg-[#202124] mx-2 row-start-2 col-span-full">
-							Verse-By-Verse
-						</button>
 					</div>
 				</div>
 
@@ -136,17 +129,22 @@ var loggedIn = loggedIn;
 						<div class="grid gap-1">
 
 							<button
+									id="verseBtn"
+									class="bg-gray-200 px-1 rounded-sm dark:hover:bg-blue-600 hover:bg-blue-600 dark:bg-[#202124]">
+								Verse-By-Verse
+							</button>
+							<button
 								id="redLetterBtn"
-								class="bg-gray-200 px-1 rounded-sm text-red-600 hover:bg-red-600 hover:text-white active:bg-red-600 dark:bg-[#202124]">
+								class="bg-gray-200 px-1 rounded-sm text-red-600 dark:hover:bg-red-600 hover:bg-red-600 hover:text-white active:bg-red-600 dark:bg-[#202124]">
 								Red Lettering
 							</button>
 							<select
 								name="fontType"
 								id="fontType"
 								class="dark:bg-[#202124] bg-gray-200 p-1">
-								<option value="">Arial</option>
+								<option value="">Default</option>
+								<option value="Arial">Arial</option>
 								<option value="Times New Roman">Times New Roman</option>
-								<option value="Courier New">Courier New</option>
 							</select>
 							<select
 								name="fontSize"
@@ -188,12 +186,12 @@ var loggedIn = loggedIn;
 						<% const hasHighlight = filterHighlights.length > 0 ? filterHighlights[0].highlight_color : null; %>
 
 						<% if (is_red) { %>
-							<span id="redLettering" class="m-1 p-1 dark:text-red-500 text-red-600 cursor-pointer select-none <%= hasHighlight %>" onclick="toggleNoteMenu('<%= noteMenuId %>')">
+							<span id="redLettering" class="m-1 dark:text-red-500 text-red-600 cursor-pointer select-none <%= hasHighlight %>" onclick="toggleNoteMenu('<%= noteMenuId %>')">
 								<span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none <%= hasHighlight %>" id="<%= verse_id %>"><%= verse_number %></span>
 								<%= verse_text %>
 							</span>
 						<% } else { %>
-							<span class="m-1 p-1 cursor-pointer select-none <%= hasHighlight %>" onclick="toggleNoteMenu('<%= noteMenuId %>')">
+							<span class="m-1 cursor-pointer select-none <%= hasHighlight %>" onclick="toggleNoteMenu('<%= noteMenuId %>')">
 								<span class="font-semibold text-gray-800 dark:text-[#d9dde0] cursor-pointer select-none <%= hasHighlight %>" id="<%= verse_id %>"><%= verse_number %></span>
 								<%= verse_text %>
 							</span>
