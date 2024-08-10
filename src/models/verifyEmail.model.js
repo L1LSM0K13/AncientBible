@@ -8,7 +8,6 @@ const nodemailer = require("nodemailer");
  */
 const sendVerificationEmail = async (email, verificationToken) => {
 
-    // TODO replace local with launch version of the link
     let verificationLink = `https://${process.env.APP_DOMAIN}/verify?token=${verificationToken}`;
     // let verificationLink = `http://localhost:4000/verified?token=${verificationToken}`;
 

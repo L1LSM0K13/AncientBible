@@ -1,52 +1,59 @@
-<% /**
- * bookTitleOptions
- * @type {string[]}
- *
- * selectedBook
- * @type {string}
- *
- * bookChapters
- * @type {number[]}
- *
- * selectedChapter
- * @type {number}
- *
- * previousBook
- * @type {string}
- *
- * previousChapter
- * @type {number}
- *
- * nextBook
- * @type {string}
- *
- * nextChapter
- * @type {number}
- *
- * bookText
- * @type {Array<{is_red: boolean, verse_number: number, verse_text: string }>}
- *
- * noteMenuId
- * @type {number}
- *
- * loggedIn
- * @type {boolean}
- */%>
-
 <%
+/**
+ * @type {string[]}
+ */
 var bookTitleOptions = bookTitleOptions;
+/**
+ * @type {string}
+ */
 var selectedBook = selectedBook;
+/**
+ * @type {number[]}
+ */
 var bookChapters = bookChapters;
+/**
+ * @type {number}
+ */
 var selectedChapter = selectedChapter;
+/**
+ * @type {string}
+ */
 var previousBook = previousBook;
+/**
+ * @type {number}
+ */
 var previousChapter = previousChapter;
+/**
+ * @type {string}
+ */
 var nextBook = nextBook;
+/**
+ * @type {number}
+ */
 var nextChapter = nextChapter;
+/**
+ * @type {Array<{is_red: boolean, verse_number: number, verse_text: string }>}
+ */
 var bookText = bookText;
+/**
+ * @type {number}
+ */
 var noteMenuId = noteMenuId;
+/**
+ * @type {boolean}
+ */
 var is_red = is_red;
+/**
+ * @type {number}
+ */
 var verse_number = verse_number;
+/**
+ * @type {string}
+ */
 var verse_text = verse_text;
+/**
+ * @type {boolean}
+ */
 var loggedIn = loggedIn;
 %>
 
@@ -165,17 +172,6 @@ var loggedIn = loggedIn;
 							&#8594;
 						</a>
 					</h1>
-
-					<script>
-						document.getElementById('nextLinkPag').addEventListener('click', () => {
-							localStorage.setItem('selectedBook', '<%= selectedBook %>');
-							localStorage.setItem('selectedChapter', <%= selectedChapter %>)
-						})
-						document.getElementById('prevLinkPag').addEventListener('click', () => {
-							localStorage.setItem('selectedBook', '<%= selectedBook %>');
-							localStorage.setItem('selectedChapter', <%= selectedChapter %>)
-						})
-						</script>
 
 					<div id="vContainer" class="nodeInsideDiv px-5">
 
