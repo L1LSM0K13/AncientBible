@@ -38,8 +38,8 @@ const deleteHighlight = async (user_id, verse_id, fathers_id) => {
         )
     } else {
         results = await pool.query(
-            `DELETE FROM user_highlights WHERE (user_id, verse_id) = ($1, $2) RETURNING id, user_id, verse_id, fathers_id, highlight_color`,
-            [user_id, verse_id]
+            `DELETE FROM user_highlights WHERE (user_id, fathers_id) = ($1, $2) RETURNING id, user_id, verse_id, fathers_id, highlight_color`,
+            [user_id, fathers_id]
         )
     }
 
