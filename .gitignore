@@ -18,3 +18,6 @@ tests/migration.md
 
 # Shell files
 tests/openTunnel.sh
+
+# Load test
+tests/loadTest.js
