@@ -611,26 +611,6 @@ video {
   background-color: rgb(48 49 52 / var(--tw-bg-opacity));
 }
 
-.navBar {
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(53 84 136 / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(81 104 142 / var(--tw-bg-opacity));
-  padding: 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.navBar:is(.dark *) {
-  --tw-border-opacity: 1;
-  border-color: rgb(71 71 71 / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(48 49 52 / var(--tw-bg-opacity));
-}
-
 /* Message Class Set */
 
 .successMsg {
@@ -842,10 +822,6 @@ video {
   margin: 1rem;
 }
 
-.m-auto {
-  margin: auto;
-}
-
 .m-5 {
   margin: 1.25rem;
 }
@@ -868,6 +844,11 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .mb-2 {
@@ -958,10 +939,6 @@ video {
 
 .grid-rows-4 {
   grid-template-rows: repeat(4, minmax(0, 1fr));
-}
-
-.grid-rows-11 {
-  grid-template-rows: repeat(11, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1191,8 +1168,17 @@ video {
   line-height: 1.75rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-black {
