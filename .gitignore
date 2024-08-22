@@ -1,4 +1,3 @@
-
 # Dependency directories
 node_modules/
 package-lock.json
@@ -12,12 +11,3 @@ config/.env
 # IDE
 .idea/
 .vscode/
-
-# Scratch files
-tests/migration.md
-
-# Shell files
-tests/openTunnel.sh
-
-# Load test
-tests/loadTest.js

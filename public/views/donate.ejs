@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link
+            rel="shortcut icon"
+            type="x-icon"
+            href="../images/orthodoxcanonlogoNEW.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate</title>
+
+    <script src="/scripts/darkModeToggle.js" defer></script>
+    <script src="/scripts/hamburgerMenu.js" defer></script>
+    <script src="/scripts/darkModeToggle.js" defer></script>
+    <link rel="stylesheet" href="../css/output.css" />
+</head>
+
+<body class="bg-[#e9eef1] text-lg dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
+<%- include('partials/navBar') %>
+
+<main>
+    <div>
+        <h1 class="nodeTitleH1 nodeMargins">Support the project</h1>
+        <div class="nodeInsideDiv nodeMargins grid grid-cols-3">
+            <span class="col-start-2 my-2">If you would like to support the website and keep it running. And even help upgrade the website so that you can have a better user experience, go to this link <a
+                        href="https://www.paypal.com/donate/?hosted_button_id=G3B7HVGRCCC7Q" class="text-blue-500 dark:text-yellow-500" target="_blank">here</a>.</span>
+        </div>
+    </div>
+
+</main>
+
+<div class="hidden">
+    <img
+            class="sunDisabled cursor-pointer justify-center"
+            src="../images/brightness-high.svg"
+            alt="BrightModeDisabled" />
+    <img
+            class="sunEnabled cursor-pointer justify-center"
+            src="../images/brightness-high-fill.svg"
+            alt="BrightModeEnabled" />
+</div>
+
+</body>
+</html>
