@@ -1,0 +1,2707 @@
+{
+  "book": "I Corinthians",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Paul, called to be an apostle of Jesus Christ by the will of God, and Sosthenes our brother,",
+          "id": 33565
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "to the church of God in Corinth, to those who are sanctified in Christ Jesus and called to be saints, together with all who in every place call upon the name of our Lord Jesus Christ, both their Lord and ours:",
+          "id": 33566
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+          "id": 33567
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "I always give thanks to my God for you because of the grace of God that has been given to you in Christ Jesus.",
+          "id": 33568
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "For you have been enriched in him in every way, in all speech and all knowledge,",
+          "id": 33569
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "just as the testimony of Christ was confirmed among you,",
+          "id": 33570
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "so that you are not lacking in any gift as you eagerly await the revelation of our Lord Jesus Christ.",
+          "id": 33571
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "He will strengthen you to the end, so that you will be blameless on the day of our Lord Jesus Christ.",
+          "id": 33572
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "God is faithful, by whom you were called into the fellowship of his Son, Jesus Christ our Lord.",
+          "id": 33573
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Now I urge you, brothers, in the name of our Lord Jesus Christ, that you all agree in what you say and that there be no divisions among you, but that you be knit together in the same mind and in the same purpose.",
+          "id": 33574
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "For it has been disclosed to me about you, my brothers, by those of Chloe''s household, that there are quarrels among you.",
+          "id": 33575
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "What I mean is this: One of you says, \"I follow Paul,\" while another says, \"I follow Apollos,\" or, \"I follow Cephas,\" or, \"I follow Christ.\"",
+          "id": 33576
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Has Christ been divided? Was Paul crucified for you, or were you baptized into the name of Paul?",
+          "id": 33577
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "I give thanks to God that I baptized none of you, except Crispus and Gaius,",
+          "id": 33578
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "so that no one may say that I baptized into my own name.",
+          "id": 33579
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "(I also baptized the household of Stephanas. Beyond that, I do not recall if I baptized anyone else.)",
+          "id": 33580
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "For Christ did not send me to baptize, but to preach the gospel, and not with cleverness of speech, so that the cross of Christ would not be deprived of its power.",
+          "id": 33581
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "For the message of the cross is foolishness to those who are perishing, but to us who are being saved it is the power of God.",
+          "id": 33582
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "For it is written, \"I will destroy the wisdom of the wise, and the intelligence of the intelligent I will nullify.\"",
+          "id": 33583
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "Where is the wise man? Where is the scribe? Where is the debater of this age? Has not God made the wisdom of this world foolish?",
+          "id": 33584
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "For since, in the wisdom of God, the world through its wisdom did not know God, it pleased God through the foolishness of our proclamation to save those who believe.",
+          "id": 33585
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "For Jews ask for a sign and Greeks seek wisdom,",
+          "id": 33586
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "but we preach Christ crucified, a stumbling block to Jews and foolishness to Greeks,",
+          "id": 33587
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "but to those who are called, both Jews and Greeks, Christ is the power of God and the wisdom of God.",
+          "id": 33588
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "For the foolishness of God is wiser than men, and the weakness of God is stronger than men.",
+          "id": 33589
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "Consider your calling, brothers, that not many of you were wise according to the flesh, not many were powerful, not many were of noble birth.",
+          "id": 33590
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "But God chose the foolish things of the world to shame the wise, and God chose the weak things of the world to shame the strong.",
+          "id": 33591
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "God chose what is lowly and despised in the world, things that are regarded as nothing, to nullify the things that are regarded as something,",
+          "id": 33592
+        },
+        {
+          "isRed": false,
+          "verse": 29,
+          "text": "so that no flesh might boast before God.",
+          "id": 33593
+        },
+        {
+          "isRed": false,
+          "verse": 30,
+          "text": "It is because of him that you are in Christ Jesus, who has become for us wisdom from God, and in whom we have righteousness, sanctification, and redemption.",
+          "id": 33594
+        },
+        {
+          "isRed": false,
+          "verse": 31,
+          "text": "Therefore, as it is written, \"Let him who boasts, boast in the Lord.\"",
+          "id": 33595
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "When I came to you, brothers, I did not come proclaiming to you the testimony of God with lofty speech or wisdom.",
+          "id": 33596
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "For I resolved to know nothing among you except Jesus Christ and him crucified.",
+          "id": 33597
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "I came to you in weakness and fear, and with much trembling.",
+          "id": 33598
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "And my word and my preaching were not with persuasive words of human wisdom, but with a demonstration of the Spirit and of power,",
+          "id": 33599
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "so that your faith would not be based on the wisdom of men, but on the power of God.",
+          "id": 33600
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Now we speak wisdom among the mature, but not a wisdom of this age or of the rulers of this age, who are being brought to nothing.",
+          "id": 33601
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "On the contrary, we speak the hidden wisdom of God in a mystery, which God foreordained for our glory before time began.",
+          "id": 33602
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "None of the rulers of this age understood this wisdom, for if they had understood it, they would not have crucified the Lord of glory.",
+          "id": 33603
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "But, as it is written, \"No eye has seen, no ear has heard, and no heart has imagined what God has prepared for those who love him.\"",
+          "id": 33604
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Now God has revealed these things to us through his Spirit. For the Spirit searches everything, even the depths of God.",
+          "id": 33605
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "For who among men knows the thoughts of a man except the man''s spirit within him? In the same way, no one knows the thoughts of God except the Spirit of God.",
+          "id": 33606
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Now we did not receive the spirit of the world, but the Spirit who is from God, so that we might understand what God has freely given us.",
+          "id": 33607
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "We speak about this, not with words taught by human wisdom but with words taught by the Holy Spirit, interpreting spiritual things to spiritual people.",
+          "id": 33608
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "The natural man does not accept what comes from the Spirit of God, because it is foolishness to him; he is not able to understand it because it is spiritually discerned.",
+          "id": 33609
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "But he who is spiritual makes judgments about all things, and yet he himself is not subject to any man''s judgment.",
+          "id": 33610
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "\"For who has known the mind of the Lord so as to advise him?\" But we have the mind of Christ.",
+          "id": 33611
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "And so, brothers, I could not address you as spiritual men, but as men of the flesh, as infants in Christ.",
+          "id": 33612
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "I fed you milk, not solid food, for you were not yet able to receive it. Even now you are still not able,",
+          "id": 33613
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "for you are still of the flesh. For where there is jealousy, strife, and division among you, are you not of the flesh and behaving like mere men?",
+          "id": 33614
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "For when one says, \"I follow Paul,\" and another says, \"I follow Apollos,\" are you not of the flesh?",
+          "id": 33615
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Who then is Paul, and who is Apollos, but servants through whom you believed, as the Lord has assigned to each?",
+          "id": 33616
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "I planted, Apollos watered, but God gave the growth.",
+          "id": 33617
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "So then, neither he who plants is anything, nor he who waters, but only God who gives the growth.",
+          "id": 33618
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "He who plants and he who waters are one, and each will receive his own reward according to his own labor.",
+          "id": 33619
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "For we are fellow workers of God; you are God''s field, God''s building.",
+          "id": 33620
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "According to the grace of God given to me, like a wise master builder I have laid a foundation, and another builds upon it. But each person must be careful how he builds upon it.",
+          "id": 33621
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "For no one can lay a foundation other than the one that has been laid, which is Jesus Christ.",
+          "id": 33622
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "If anyone builds upon this foundation with gold, silver, precious stones, wood, hay, or straw,",
+          "id": 33623
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "his work will become evident, for the Day will make it clear, because it is revealed by fire. And the fire will test each person''s work and reveal what sort of work it is.",
+          "id": 33624
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "If the work that anyone has built remains, he will receive a reward.",
+          "id": 33625
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "If anyone''s work is burned up, he will suffer loss; yet he himself will be saved, but only as through fire.",
+          "id": 33626
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Do you not know that you are the temple of God and that the Spirit of God dwells in you?",
+          "id": 33627
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "If anyone destroys the temple of God, God will destroy him. For the temple of God is holy, which is what you are.",
+          "id": 33628
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Let no one deceive himself. If anyone among you thinks he is wise in this age, he should become foolish so that he may become truly wise.",
+          "id": 33629
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "For the wisdom of this world is foolishness with God. As it is written, \"He catches the wise in their craftiness,\"",
+          "id": 33630
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "and again, \"The Lord knows the thoughts of the wise, that they are futile.\"",
+          "id": 33631
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "So then, let no one boast in men. For everything belongs to you,",
+          "id": 33632
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "whether Paul or Apollos or Cephas, or the world, or life or death, or things present or things to come—everything belongs to you,",
+          "id": 33633
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "and you belong to Christ, and Christ belongs to God.",
+          "id": 33634
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "People ought to regard us as servants of Christ and stewards of the mysteries of God.",
+          "id": 33635
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Now it is required of stewards that they be found faithful.",
+          "id": 33636
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "But for me it is a very small thing if I am judged by you, or by any human court. Indeed, I do not even judge myself.",
+          "id": 33637
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "For I am conscious of nothing against myself, yet I am not thereby acquitted; but he who judges me is the Lord.",
+          "id": 33638
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "So then, do not judge anything before the appointed time. Wait until the Lord comes, who will bring to light what is hidden in darkness and reveal the intentions of the heart. At that time each person will receive his praise from God.",
+          "id": 33639
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Now, brothers, I have applied these things to myself and Apollos for your sake, so that through us you may learn not to think beyond what is written, so that you may not be puffed up, with each one of you supporting one man against another.",
+          "id": 33640
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "For who regards you as superior? What do you have that you did not receive? And if you received it, why do you boast as though you did not receive it?",
+          "id": 33641
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "You are already full! You have already become rich! You have begun to reign without us! And how I wish that you really were reigning, so that we could reign with you!",
+          "id": 33642
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "For I think that God has put us apostles on display at the end of the procession, as sentenced to death, because we have become a spectacle to the world, both to angels and men.",
+          "id": 33643
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "We are fools for the sake of Christ, but you are wise in Christ. We are weak, but you are strong. You are esteemed, but we are dishonored.",
+          "id": 33644
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "To the present hour we hunger and thirst; we are poorly clothed and beaten down, with no home of our own.",
+          "id": 33645
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "We labor, working with our own hands. When we are reviled, we bless; when we are persecuted, we endure;",
+          "id": 33646
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "when we are slandered, we encourage. We have become like the refuse of the world, the scum of all things, even to this present time.",
+          "id": 33647
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "I am not writing this to shame you, but rather I am admonishing you as my beloved children.",
+          "id": 33648
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "For even if you had ten thousand guardians in Christ, you would not have many fathers. For in Christ Jesus I became a father to you through the gospel.",
+          "id": 33649
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Therefore I urge you to be imitators of me.",
+          "id": 33650
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "That is why I have sent you Timothy, who is my beloved and faithful child in the Lord. He will remind you of my ways in Christ, just as I teach them everywhere in every church.",
+          "id": 33651
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "But some of you have become puffed up, as though I were not coming to you.",
+          "id": 33652
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "But I will come to you soon, if the Lord wills, and I will find out not the talk of those who have become puffed up, but their power.",
+          "id": 33653
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "For the kingdom of God is demonstrated not by talk but by power.",
+          "id": 33654
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "What do you prefer? Shall I come to you with a rod, or with love and a spirit of gentleness?",
+          "id": 33655
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "It is actually reported that there is fornication among you, a kind of fornication that is not even named among the Gentiles, for a man has his father''s wife.",
+          "id": 33656
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "And you are puffed up! You should have mourned instead and removed the man who did this from among you.",
+          "id": 33657
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "For though I am absent in body, I am present in spirit. And I have already judged the man who did this, just as though I were present.",
+          "id": 33658
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "So when you are gathered together in the name of our Lord Jesus Christ and I am with you in spirit, along with the power of our Lord Jesus Christ,",
+          "id": 33659
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "hand this man over to Satan for the destruction of his flesh, so that his spirit may be saved in the day of the Lord Jesus.",
+          "id": 33660
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Your boasting is not good. Do you not know that a little leaven leavens the whole lump?",
+          "id": 33661
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Purge out the old leaven so that you may be a new lump of dough, since you really are unleavened. For Christ, our Passover lamb, has been sacrificed for us.",
+          "id": 33662
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "So then, let us celebrate the feast, not with old leaven, nor with the leaven of malice and evil, but with the unleavened bread of sincerity and truth.",
+          "id": 33663
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "I wrote to you in my letter not to associate with fornicators.",
+          "id": 33664
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Yet I certainly did not mean the fornicators of this world or the greedy or swindlers or idolaters, since you would then need to go out of the world.",
+          "id": 33665
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "But now I am writing to you not to associate with anyone who is named as a brother if he is a fornicator or greedy, an idolater or a reviler, a drunkard or a swindler; do not even eat with such a man.",
+          "id": 33666
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "For what have I to do with judging those who are outside the church? Do you not judge those who are inside the church?",
+          "id": 33667
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "God will judge those who are outside the church. \"Therefore you must remove the evil person from among you.\"",
+          "id": 33668
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "When any of you have a dispute against another, do you dare to go to court before the unrighteous and not before the saints?",
+          "id": 33669
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Do you not know that the saints will judge the world? And if the world is to be judged by you, are you not competent to judge trivial cases?",
+          "id": 33670
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Do you not know that we will judge angels, not to mention matters of this life?",
+          "id": 33671
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "If then you have disputes about such matters, do you seat as judges those who have no standing in the church?",
+          "id": 33672
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "I say this to your shame. Is there not a wise man among you, not even one, who would be able to decide between a man and his brother,",
+          "id": 33673
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "but one brother goes to court against another, and they do so before unbelievers?",
+          "id": 33674
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "As it is, to have lawsuits with one another is already a defeat for you. Why not rather be wronged? Why not rather be defrauded?",
+          "id": 33675
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "But you yourselves wrong, and you yourselves defraud, and you do these things to your own brothers!",
+          "id": 33676
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Do you not know that the unrighteous will not inherit the kingdom of God? Do not be deceived! Neither fornicators, nor idolaters, nor adulterers, nor homosexuals, nor sodomites,",
+          "id": 33677
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "nor the greedy, nor thieves, nor drunkards, nor revilers, nor swindlers will inherit the kingdom of God.",
+          "id": 33678
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "And that is what some of you were. But you were washed, you were sanctified, you were justified in the name of the Lord Jesus and by the Spirit of our God.",
+          "id": 33679
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "\"All things are lawful for me,\" but not all things are beneficial. \"All things are lawful for me,\" but I will not be mastered by anything.",
+          "id": 33680
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Food is for the stomach and the stomach for food, but God will do away with them both. The body is not meant for fornication but for the Lord, and the Lord for the body.",
+          "id": 33681
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Now God raised the Lord and will also raise us up by his power.",
+          "id": 33682
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Do you not know that your bodies are members of Christ? Shall I then take the members of Christ and make them members of a prostitute? Certainly not!",
+          "id": 33683
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Do you not know that he who is joined to a prostitute is one with her in body? For it says, \"The two will become one flesh.\"",
+          "id": 33684
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "But he who is joined to the Lord is one with him in spirit.",
+          "id": 33685
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Flee fornication. Every other sin that a person commits is outside the body, but he who commits fornication sins against his own body.",
+          "id": 33686
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "Do you not know that your body is a temple of the Holy Spirit within you, whom you have received from God? You are not your own,",
+          "id": 33687
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "for you were bought with a price. Therefore glorify God with your body and with your spirit, which belong to God.",
+          "id": 33688
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Now concerning the matters about which you wrote to me: \"It is good for a man not to touch a woman.\"",
+          "id": 33689
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "But because of the cases of fornication, each man should have his own wife, and each woman should have her own husband.",
+          "id": 33690
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "The husband should fulfill his marital duty to his wife, and likewise the wife to her husband.",
+          "id": 33691
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "The wife does not have authority over her own body, but the husband does. Likewise the husband does not have authority over his own body, but the wife does.",
+          "id": 33692
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Do not deprive one another, except by mutual consent for a time, so that you may devote yourselves to fasting and prayer and then come together again so that Satan may not tempt you because of your lack of self-control.",
+          "id": 33693
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Now I say this as a concession, not as a command.",
+          "id": 33694
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "For I wish that all people were as I am. But each has his own gift from God, one person in this manner and another in that manner.",
+          "id": 33695
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Now to the unmarried and the widows I say: It is good for them if they remain even as I am.",
+          "id": 33696
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "But if they cannot exercise self-control, they should marry. For it is better to marry than to burn with passion.",
+          "id": 33697
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Now to the married I give this command (not I, but the Lord): A wife must not separate from her husband",
+          "id": 33698
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "(but if she does separate, she must remain unmarried or else be reconciled to her husband), and a husband must not divorce his wife.",
+          "id": 33699
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Now to the rest I say this (I, not the Lord): If any brother has an unbelieving wife, and she consents to dwell with him, he must not divorce her.",
+          "id": 33700
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "And if a woman has an unbelieving husband and he consents to dwell with her, she must not divorce him.",
+          "id": 33701
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "For the unbelieving husband is sanctified through his wife, and the unbelieving wife is sanctified through her husband. Otherwise your children would be unclean, but as it is, they are holy.",
+          "id": 33702
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "But if the unbelieving spouse separates, let it be so. The brother or the sister is not enslaved in such cases. God has called us to live in peace.",
+          "id": 33703
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "For how do you know, O wife, whether you will save your husband? Or how do you know, O husband, whether you will save your wife?",
+          "id": 33704
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Nevertheless, each person should live the life that God has assigned to him and to which the Lord has called him. This is the rule I lay down in all the churches.",
+          "id": 33705
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Was any man already circumcised when he was called? He should not remove the marks of circumcision. Was any man uncircumcised when he was called? He should not become circumcised.",
+          "id": 33706
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "Circumcision is nothing, and uncircumcision is nothing, but what matters is keeping the commandments of God.",
+          "id": 33707
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "Each person should remain in the calling in which he was called.",
+          "id": 33708
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "Were you a slave when you were called? Do not be concerned about it, but if you are able to become free, make the most of the opportunity.",
+          "id": 33709
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "For he who was called in the Lord as a slave is the Lord''s freedman. In the same way, he who was called as a free man is Christ''s slave.",
+          "id": 33710
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "You were bought with a price; do not become slaves of men.",
+          "id": 33711
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "Brothers, each person should remain with God in the condition in which he was called.",
+          "id": 33712
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "Now concerning virgins, I do not have a command from the Lord, but I give my judgment as one who has been shown mercy by the Lord to be trustworthy.",
+          "id": 33713
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "I think it is good then, on account of the present distress, for a man to remain as he is.",
+          "id": 33714
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "Are you pledged to marry a woman? Do not seek to be released. Are you free from such a commitment? Do not seek a wife.",
+          "id": 33715
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "But even if you do marry, you have not sinned. And if a virgin marries, she has not sinned. But those who marry will have tribulation in the flesh, and I am trying to spare you.",
+          "id": 33716
+        },
+        {
+          "isRed": false,
+          "verse": 29,
+          "text": "But I say this, brothers: The time is short. From now on those who have wives should live as though they had none,",
+          "id": 33717
+        },
+        {
+          "isRed": false,
+          "verse": 30,
+          "text": "and those who weep as though they were not weeping, and those who rejoice as though they were not rejoicing, and those who buy as though they did not possess,",
+          "id": 33718
+        },
+        {
+          "isRed": false,
+          "verse": 31,
+          "text": "and those who use this world as though they were not making full use of it. For the form of this world is passing away.",
+          "id": 33719
+        },
+        {
+          "isRed": false,
+          "verse": 32,
+          "text": "But I want you to be free from concern. The unmarried man is concerned about the affairs of the Lord, how he will please the Lord.",
+          "id": 33720
+        },
+        {
+          "isRed": false,
+          "verse": 33,
+          "text": "But the married man is concerned about the affairs of the world, how he will please his wife.",
+          "id": 33721
+        },
+        {
+          "isRed": false,
+          "verse": 34,
+          "text": "There is a difference between a wife and a virgin. The unmarried woman is concerned about the affairs of the Lord, how she may be holy both in body and in spirit. But the married woman is concerned about the affairs of the world, how she will please her husband.",
+          "id": 33722
+        },
+        {
+          "isRed": false,
+          "verse": 35,
+          "text": "I say this for your own benefit, not to lay any restraint upon you, but to promote proper behavior and devotion to the Lord without distraction.",
+          "id": 33723
+        },
+        {
+          "isRed": false,
+          "verse": 36,
+          "text": "Now if any man thinks that he is acting improperly toward his virgin daughter by not letting her marry, if she is past the bloom of her youth and it seems necessary to do so, he should do what he wants. He is not sinning by letting her get married.",
+          "id": 33724
+        },
+        {
+          "isRed": false,
+          "verse": 37,
+          "text": "But the man who stands firm in his heart, who is under no compulsion but has control over his own will, and has determined in his heart to keep his virgin daughter from marrying, does well.",
+          "id": 33725
+        },
+        {
+          "isRed": false,
+          "verse": 38,
+          "text": "So then, he who gives her in marriage does well, but he who does not give her in marriage does better.",
+          "id": 33726
+        },
+        {
+          "isRed": false,
+          "verse": 39,
+          "text": "A wife is bound by the law to her husband for as long as he lives. But if her husband dies, she is free to be married to anyone she wishes, but only in the Lord.",
+          "id": 33727
+        },
+        {
+          "isRed": false,
+          "verse": 40,
+          "text": "Yet in my judgment she is happier if she remains as she is. And I think that I too have the Spirit of God.",
+          "id": 33728
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Now concerning food sacrificed to idols, we know that \"we all have knowledge.\" Knowledge puffs up, but love builds up.",
+          "id": 33729
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "If anyone thinks he knows something, he has not yet come to know anything as he ought to know it.",
+          "id": 33730
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "But if anyone loves God, he is known by God.",
+          "id": 33731
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "With regard then to eating food sacrificed to idols, we know that \"an idol is nothing in the world,\" and that \"there is no other God but one.\"",
+          "id": 33732
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "For even if there are so-called gods, whether in heaven or on earth (as indeed there are many \"gods\" and many \"lords\"),",
+          "id": 33733
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "for us there is one God, the Father, from whom are all things, and we exist for him; and there is one Lord, Jesus Christ, through whom are all things, and we exist through him.",
+          "id": 33734
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "However, not everyone possesses this knowledge. But some have idols in their conscience even now and eat such food as something sacrificed to idols, and since their conscience is weak, it is defiled.",
+          "id": 33735
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "But food does not bring us close to God. For we are no better off if we eat, and no worse off if we do not eat.",
+          "id": 33736
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "But be careful that this right of yours does not somehow become a stumbling block to the weak.",
+          "id": 33737
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "For if someone sees you, who have knowledge, reclining for a meal in the temple of an idol, will not his weak conscience be emboldened to eat food sacrificed to idols?",
+          "id": 33738
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Should the weak brother, for whose sake Christ died, perish because of your knowledge?",
+          "id": 33739
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "When you sin in this way against your brothers and wound their weak conscience, you sin against Christ.",
+          "id": 33740
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Therefore, if food causes my brother to stumble, I will certainly never eat meat, so that I will not cause my brother to stumble.",
+          "id": 33741
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Am I not an apostle? Am I not free? Have I not seen Jesus Christ our Lord? Are you not my work in the Lord?",
+          "id": 33742
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "If to others I am not an apostle, at least I am to you, for you are the seal of my apostleship in the Lord.",
+          "id": 33743
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "This is my defense to those who examine me.",
+          "id": 33744
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Do we not have a right to eat and to drink?",
+          "id": 33745
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Do we not have a right to take along a wife who is a sister in Christ, as do the other apostles, the brothers of the Lord, and Cephas?",
+          "id": 33746
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Or is it only Barnabas and I who must work to support ourselves?",
+          "id": 33747
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Who at any time serves as a soldier while supplying his own provisions? Who plants a vineyard and does not eat of its fruit? Or who tends a flock and does not drink of its milk?",
+          "id": 33748
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Do I say this on human authority? Does not the law also say the same thing?",
+          "id": 33749
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "For in the law of Moses it is written, \"You shall not muzzle an ox while it is threshing.\" Is it for oxen that God is concerned?",
+          "id": 33750
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Or does he speak entirely for our sake? Yes, this was written for our sake, because he who plows ought to plow in hope, and he who threshes in hope ought to partake of his hope.",
+          "id": 33751
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "If we have sown spiritual blessings among you, is it too much if we reap material benefits from you?",
+          "id": 33752
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "If others have a share in this right over you, do not we have it even more? Nevertheless, we have not made use of this right, but we endure everything so that we may not give any hindrance to the gospel of Christ.",
+          "id": 33753
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Do you not know that those who perform sacred services eat of the temple sacrifices, and those who attend to the altar have a share in the altar sacrifices?",
+          "id": 33754
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "In the same way, the Lord has commanded that those who proclaim the gospel should earn their living by the gospel.",
+          "id": 33755
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "But I have not used any of these rights, and I am not writing this so that such may be done in my case. For I would rather die than have anyone deprive me of my reason for boasting.",
+          "id": 33756
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "If I preach the gospel, I have no reason to boast, because I am compelled to preach, and woe to me if I do not preach the gospel.",
+          "id": 33757
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "If I do this voluntarily, I have a reward; but if I do it under compulsion, it is because I have been entrusted with a responsibility.",
+          "id": 33758
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "What then is my reward? That when I preach, I may present the gospel of Christ free of charge, so as not to make full use of my right in the gospel.",
+          "id": 33759
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "For though I am free from all, I have made myself a servant to all, in order to win as many as possible.",
+          "id": 33760
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "To the Jews I became like a Jew, so that I might win the Jews. To those under the law I became like one under the law, so that I might win those under the law.",
+          "id": 33761
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "To those outside the law I became like one outside the law (though I am not outside the law of God but under the law of Christ), so that I might win those outside the law.",
+          "id": 33762
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "To the weak I became like one who is weak, so that I might win the weak. I have become all things to all people, so that by all means I might save some.",
+          "id": 33763
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "I do this for the sake of the gospel, so that I may share in its blessings.",
+          "id": 33764
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "Do you not know that those who run in a race all run, but only one receives the prize? Run in such a way that you may obtain it.",
+          "id": 33765
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "Every athlete who competes exercises self-control in all things. They do so to receive a perishable wreath, but we do so to receive an imperishable crown.",
+          "id": 33766
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "Therefore I do not run aimlessly, nor do I box as though beating the air;",
+          "id": 33767
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "but I discipline my body and make it my slave, lest somehow after preaching to others I myself should be disqualified.",
+          "id": 33768
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Now I do not want you to be unaware, brothers, that our fathers were all under the cloud, and all passed through the sea,",
+          "id": 33769
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "and all were baptized into Moses in the cloud and in the sea,",
+          "id": 33770
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "and all ate the same spiritual food,",
+          "id": 33771
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "and all drank the same spiritual drink. For they were drinking from the spiritual rock that followed them, and that rock was Christ.",
+          "id": 33772
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Nevertheless, God was not pleased with most of them, for their bodies were scattered in the wilderness.",
+          "id": 33773
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Now these things happened as examples for us, so that we would not crave evil things as they did.",
+          "id": 33774
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "So do not be idolaters, as some of them were; as it is written, \"The people sat down to eat and drink, and rose up to play.\"",
+          "id": 33775
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "We must not commit fornication as some of them did, and in a single day twenty-three thousand of them died.",
+          "id": 33776
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "We must not put Christ to the test, as some of them did and were killed by serpents.",
+          "id": 33777
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "And do not grumble as some of them did and were killed by the destroyer.",
+          "id": 33778
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Now all these things happened to them as examples, and they were written down for our instruction, upon whom the end of the ages has come.",
+          "id": 33779
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Therefore whoever thinks he stands must be careful not to fall.",
+          "id": 33780
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "No temptation has overtaken you except what is common to man. God is faithful; he will not allow you to be tempted beyond what you can bear, but with the temptation he will also provide the way out so that you can endure it.",
+          "id": 33781
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Therefore, my beloved friends, flee from idolatry.",
+          "id": 33782
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "I am speaking as I would to sensible people; judge for yourselves what I am saying.",
+          "id": 33783
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Is not the cup of blessing that we bless the communion of the blood of Christ? Is not the bread that we break the communion of the body of Christ?",
+          "id": 33784
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Because we, who are many, are one bread and one body; for we all partake of the one bread.",
+          "id": 33785
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Consider those who belong to Israel according to the flesh: Are they not united by eating the sacrifices of the altar?",
+          "id": 33786
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "What am I saying then? That an idol is anything, or that food sacrificed to an idol is anything?",
+          "id": 33787
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "No, I am saying that what the pagans sacrifice, they sacrifice to demons and not to God. I do not want you to be participants with demons.",
+          "id": 33788
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "You cannot drink both the cup of the Lord and the cup of demons. You cannot share in both the table of the Lord and the table of demons.",
+          "id": 33789
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "Or are we trying to provoke the Lord to jealousy? Are we stronger than he is?",
+          "id": 33790
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "\"All things are lawful for me,\" but not all things are beneficial. \"All things are lawful for me,\" but not all things edify.",
+          "id": 33791
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "No one should seek his own good, but each person should seek the good of others.",
+          "id": 33792
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "Eat whatever is sold in the meat market, questioning nothing for the sake of conscience,",
+          "id": 33793
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "for \"the earth is the Lord''s and the fullness thereof.\"",
+          "id": 33794
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "If one of the unbelievers invites you to dinner and you want to go, eat whatever is set before you, questioning nothing for the sake of conscience.",
+          "id": 33795
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "But if someone says to you, \"This meat was sacrificed to an idol,\" do not eat it, for the sake of the one who informed you and for the sake of conscience; for \"the earth is the Lord''s and the fullness thereof.\"",
+          "id": 33796
+        },
+        {
+          "isRed": false,
+          "verse": 29,
+          "text": "But when I say \"conscience,\" I am not speaking about your own conscience, but the other person''s conscience. For why is my freedom judged by another''s conscience?",
+          "id": 33797
+        },
+        {
+          "isRed": false,
+          "verse": 30,
+          "text": "If I partake with thankfulness, why should I be criticized because of something for which I give thanks?",
+          "id": 33798
+        },
+        {
+          "isRed": false,
+          "verse": 31,
+          "text": "So whether you eat or drink or do anything, do it all for the glory of God.",
+          "id": 33799
+        },
+        {
+          "isRed": false,
+          "verse": 32,
+          "text": "Give no offense to Jews or Greeks or the church of God,",
+          "id": 33800
+        },
+        {
+          "isRed": false,
+          "verse": 33,
+          "text": "just as I also try to please everyone in everything I do, not seeking my own benefit, but the benefit of many, so that they may be saved.",
+          "id": 33801
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Be imitators of me, just as I also am of Christ.",
+          "id": 33802
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Now I praise you, brothers, because you remember me in everything and hold fast to the teachings that have been handed down, just as I delivered them to you.",
+          "id": 33803
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "But I want you to know that the head of every man is Christ, and the head of woman is man, and the head of Christ is God.",
+          "id": 33804
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Every man who prays or prophesies with his head veiled disgraces his head,",
+          "id": 33805
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "and every woman who prays or prophesies with her head unveiled disgraces her head, for it is one and the same as having her head shaved.",
+          "id": 33806
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "If a woman will not veil herself, she should cut off her hair. But if it is disgraceful for a woman to cut off her hair or shave her head, she should wear a veil.",
+          "id": 33807
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "For a man ought not to have his head veiled, since he is the image and glory of God, but woman is the glory of man.",
+          "id": 33808
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "For man did not come from woman, but woman from man.",
+          "id": 33809
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Neither was man created for the sake of woman, but woman for the sake of man.",
+          "id": 33810
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "That is why a woman ought to have a symbol of authority on her head, because of the angels.",
+          "id": 33811
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Nevertheless, in the Lord neither is man independent of woman nor woman independent of man.",
+          "id": 33812
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "For just as woman came from man, so also man is born of woman, but all things come from God.",
+          "id": 33813
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Judge for yourselves: Is it proper for a woman to pray to God with her head unveiled?",
+          "id": 33814
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Does not even nature itself teach you that if a man has long hair it is a disgrace to him,",
+          "id": 33815
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "but if a woman has long hair it is her glory? For her long hair is given for a covering.",
+          "id": 33816
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "But if anyone is inclined to be contentious, we have no such custom, and neither do the churches of God.",
+          "id": 33817
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Now in giving the following instructions, I do not praise you, since you come together not for the better, but for the worse.",
+          "id": 33818
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "For in the first place, I hear that there are divisions among you when you come together as a church, and in some part I believe it.",
+          "id": 33819
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "For there must be factions among you to show which of you are approved.",
+          "id": 33820
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "Now when you come together, it is not to eat the Lord''s supper.",
+          "id": 33821
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "For when you eat, some of you eat your own supper without waiting for others. So one person is hungry while another gets drunk.",
+          "id": 33822
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "What! Do you not have houses for eating and drinking? Or do you despise the church of God and put to shame those who do not have anything? What should I say to you? Should I praise you for this? I do not praise you.",
+          "id": 33823
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "For I received from the Lord what I also delivered to you, that the Lord Jesus on the night in which he was betrayed took bread,",
+          "id": 33824
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "and when he had given thanks, he broke it and said, \"Take and eat this bread; this is my body, which is broken for you. Do this in remembrance of me.\"",
+          "id": 33825
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "In the same way, he also took the cup after supper, saying, \"This cup is the new covenant in my blood. Do this, as often as you drink it, in remembrance of me.\"",
+          "id": 33826
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "For as often as you eat this bread and drink this cup, you proclaim the Lord''s death until he comes.",
+          "id": 33827
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "So then, whoever eats this bread or drinks the cup of the Lord in a manner unworthy of the Lord will be guilty of the body and blood of the Lord.",
+          "id": 33828
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "So a person should examine himself before he eats of the bread and drinks of the cup.",
+          "id": 33829
+        },
+        {
+          "isRed": false,
+          "verse": 29,
+          "text": "For he who eats and drinks in an unworthy manner eats and drinks judgment on himself, since he does not discern the body of the Lord.",
+          "id": 33830
+        },
+        {
+          "isRed": false,
+          "verse": 30,
+          "text": "That is why many among you are weak and sick, and a considerable number have fallen asleep.",
+          "id": 33831
+        },
+        {
+          "isRed": false,
+          "verse": 31,
+          "text": "If we would evaluate ourselves, we would not be judged.",
+          "id": 33832
+        },
+        {
+          "isRed": false,
+          "verse": 32,
+          "text": "But when we are judged by the Lord, we are disciplined so that we will not be condemned with the world.",
+          "id": 33833
+        },
+        {
+          "isRed": false,
+          "verse": 33,
+          "text": "So then, my brothers, when you come together to eat, wait for one another.",
+          "id": 33834
+        },
+        {
+          "isRed": false,
+          "verse": 34,
+          "text": "If anyone is hungry, he should eat at home, so that when you come together it will not result in condemnation. I will set the remaining matters in order when I come.",
+          "id": 33835
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Now concerning spiritual gifts, brothers, I do not want you to be uninformed.",
+          "id": 33836
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "You know that when you were pagans you were somehow enticed and led astray to mute idols.",
+          "id": 33837
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Therefore I make known to you that no one speaking by the Spirit of God calls Jesus accursed, and no one can call Jesus Lord except by the Holy Spirit.",
+          "id": 33838
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Now there are varieties of gifts, but the same Spirit;",
+          "id": 33839
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "and there are varieties of ministries, but the same Lord;",
+          "id": 33840
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "and there are varieties of activities, but it is the same God who empowers all of them in everyone.",
+          "id": 33841
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "A manifestation of the Spirit is given to each person for the benefit of all.",
+          "id": 33842
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "To one person there is given a word of wisdom through the Spirit, to another a word of knowledge according to the same Spirit,",
+          "id": 33843
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "to another faith by the same Spirit, to another gifts of healing by the same Spirit,",
+          "id": 33844
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "to another the working of miracles, to another prophecy, to another the discernment of spirits, to another various kinds of tongues, and to another the interpretation of tongues.",
+          "id": 33845
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "All these gifts are empowered by one and the same Spirit, who distributes to each person individually just as he wills.",
+          "id": 33846
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "For just as the body is one and has many members, and all the members constitute one body even though they are many, so it is with Christ.",
+          "id": 33847
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "For by one Spirit we were all baptized into one body—whether Jews or Greeks, slave or free—and we have all been given to drink into one Spirit.",
+          "id": 33848
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Even so the body does not consist of one member, but many.",
+          "id": 33849
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "If the foot should say, \"Because I am not a hand, I am not a part of the body,\" is it for that reason not a part of the body?",
+          "id": 33850
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "And if the ear should say, \"Because I am not an eye, I am not a part of the body,\" is it for that reason not a part of the body?",
+          "id": 33851
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "If the whole body were an eye, where would the sense of hearing be? If the whole body were an ear, where would the sense of smell be?",
+          "id": 33852
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "But as it is, God has placed each one of the members in the body just as he desired.",
+          "id": 33853
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "If they were all one member, where would the body be?",
+          "id": 33854
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "As it is, there are many members, yet one body.",
+          "id": 33855
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "The eye cannot say to the hand, \"I have no need of you,\" nor in turn can the head say to the feet, \"I have no need of you.\"",
+          "id": 33856
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "On the contrary, the members of the body that seem to be weaker are essential,",
+          "id": 33857
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "and the members of the body that we consider to be less honorable are clothed with more abundant honor. And our unpresentable parts are treated with greater modesty,",
+          "id": 33858
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "but our presentable parts have no need of it. Instead, God has put the body together, giving more abundant honor to the part that lacked it,",
+          "id": 33859
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "so that there would be no divisions in the body, but that the members would have the same concern for one another.",
+          "id": 33860
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "If one member suffers, all the other members suffer with it; if one member is honored, all the other members rejoice with it.",
+          "id": 33861
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "Now you are the body of Christ, and individually members of it.",
+          "id": 33862
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "And those whom God has appointed in the church are as follows: first apostles, second prophets, third teachers, next miracles, then gifts of healing, helping, leading, and various kinds of tongues.",
+          "id": 33863
+        },
+        {
+          "isRed": false,
+          "verse": 29,
+          "text": "Are all apostles? Are all prophets? Are all teachers? Do all work miracles?",
+          "id": 33864
+        },
+        {
+          "isRed": false,
+          "verse": 30,
+          "text": "Do all have gifts of healing? Do all speak in tongues? Do all interpret?",
+          "id": 33865
+        },
+        {
+          "isRed": false,
+          "verse": 31,
+          "text": "No, but earnestly desire the better gifts. And now I will show you a far more excellent way.",
+          "id": 33866
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "If I speak in the tongues of men and of angels, but do not have love, I am a noisy gong or a clanging cymbal.",
+          "id": 33867
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "If I have the gift of prophecy and know all mysteries and all knowledge, and if I have all faith, so as to move mountains, but do not have love, I am nothing.",
+          "id": 33868
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "If I give away all my possessions to feed others, and if I deliver up my body to be burned, but do not have love, I receive no benefit.",
+          "id": 33869
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Love is patient and kind. Love does not envy or boast. It is not puffed up",
+          "id": 33870
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "or rude. It does not seek its own way, it is not irritable, and it keeps no record of wrongs.",
+          "id": 33871
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "It does not rejoice over unrighteousness, but rejoices with the truth.",
+          "id": 33872
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "It bears all things, believes all things, hopes all things, and endures all things.",
+          "id": 33873
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Love never fails. But as for prophecies, they will come to an end; as for tongues, they will cease; as for knowledge, it will come to an end.",
+          "id": 33874
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Now we know in part, and we prophesy in part.",
+          "id": 33875
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Yet when the perfect comes, the partial will come to an end.",
+          "id": 33876
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "When I was a child, I spoke like a child, I thought like a child, and I reasoned like a child. But when I became a man, I set aside childish ways.",
+          "id": 33877
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "For now we see in a mirror by means of an obscure image, but then we will see face to face. Now I know in part, but then I will know fully, just as I have been fully known.",
+          "id": 33878
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "And now faith, hope, and love abide, these three; but the greatest of these is love.",
+          "id": 33879
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Pursue love, and earnestly desire spiritual gifts, but even more that you may prophesy.",
+          "id": 33880
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "For he who speaks in a tongue speaks not to men but to God; for no one understands him, but he speaks mysteries in the Spirit.",
+          "id": 33881
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "But he who prophesies speaks edification, encouragement, and comfort to others.",
+          "id": 33882
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "He who speaks in a tongue edifies himself, but he who prophesies edifies the church.",
+          "id": 33883
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Now I would like all of you to speak in tongues, but even more that you would prophesy. For greater is he who prophesies than he who speaks in tongues, unless someone interprets, so that the church may be edified.",
+          "id": 33884
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Now, brothers, if I come to you speaking in tongues, how will I benefit you unless I speak to you with a revelation or knowledge or prophecy or teaching?",
+          "id": 33885
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "It is the same way with lifeless instruments that produce sound, such as the flute or harp. If they do not produce distinct notes, how will anyone recognize what is being played?",
+          "id": 33886
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "And if the trumpet does not produce a distinct sound, who will prepare himself for battle?",
+          "id": 33887
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "It is the same with you. If you do not produce intelligible speech with your tongue, how will anyone know what you are saying? You will just be speaking into the air.",
+          "id": 33888
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "There are undoubtedly many kinds of languages in the world, and none of them is without meaning.",
+          "id": 33889
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "If then I do not know the meaning of a particular language, I will be a foreigner to him who is speaking, and he who is speaking will be a foreigner to me.",
+          "id": 33890
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "It is the same with you. Since you earnestly desire spiritual gifts, seek to abound in them for the edification of the church.",
+          "id": 33891
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Therefore anyone who speaks in a tongue should pray for the ability to interpret what he says.",
+          "id": 33892
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "For if I pray in a tongue, my spirit prays, but my mind is unfruitful.",
+          "id": 33893
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "What then should I do? I will pray with my spirit, but I will pray with my mind also. I will sing praise with my spirit, but I will sing praise with my mind also.",
+          "id": 33894
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Otherwise, if you bless with your spirit, how will anyone in the position of an outsider say \"Amen\" when you give thanks, since he does not know what you are saying?",
+          "id": 33895
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "For you may very well be giving thanks, but the other person is not edified.",
+          "id": 33896
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "I give thanks to my God speaking in tongues more than you all.",
+          "id": 33897
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "Nevertheless, in church I would rather speak five words with my mind to instruct others, than ten thousand words in a tongue.",
+          "id": 33898
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "Brothers, do not be childish in your way of thinking. Rather, as to malice be infants, but in your way of thinking be mature.",
+          "id": 33899
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "In the law it is written, \"With foreign tongues and with foreign lips I will speak to this people, and even then they will not listen to me, says the Lord.\"",
+          "id": 33900
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "So then, tongues are a sign not for believers but for unbelievers, while prophecy is a sign not for unbelievers but for believers.",
+          "id": 33901
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "So if the whole church comes together and everyone is speaking in tongues, and outsiders or unbelievers come in, will they not say that you are out of your minds?",
+          "id": 33902
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "But if an unbeliever or outsider comes in while everyone is prophesying, he will be convicted by all and called to account by all.",
+          "id": 33903
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "The secrets of his heart will thus be revealed, and he will fall on his face and worship God, declaring that God is truly among you.",
+          "id": 33904
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "What then should you do, brothers? When you come together, each one of you has a psalm, a teaching, a tongue, a revelation, or an interpretation. Everything must be done for edification.",
+          "id": 33905
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "If any speak in a tongue, only two, or at the most three, should speak; they should each speak in turn, and someone must interpret.",
+          "id": 33906
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "But if there is no interpreter, they should keep quiet in the church and speak in tongues privately to God.",
+          "id": 33907
+        },
+        {
+          "isRed": false,
+          "verse": 29,
+          "text": "Two or three prophets should speak, and the others should evaluate what they say.",
+          "id": 33908
+        },
+        {
+          "isRed": false,
+          "verse": 30,
+          "text": "But if something is revealed to another who is seated, the first speaker should be silent.",
+          "id": 33909
+        },
+        {
+          "isRed": false,
+          "verse": 31,
+          "text": "For you can all prophesy one by one, so that all may learn and all may be encouraged.",
+          "id": 33910
+        },
+        {
+          "isRed": false,
+          "verse": 32,
+          "text": "Remember that the spirits of prophets are subject to the prophets.",
+          "id": 33911
+        },
+        {
+          "isRed": false,
+          "verse": 33,
+          "text": "For God is not a God of disorder but of peace; this is true in all the churches of the saints.",
+          "id": 33912
+        },
+        {
+          "isRed": false,
+          "verse": 34,
+          "text": "Your women should be silent in the churches, for they have not been permitted to speak, but must be in submission, just as the law says.",
+          "id": 33913
+        },
+        {
+          "isRed": false,
+          "verse": 35,
+          "text": "If they want to learn anything, they should ask their own husbands at home; for it is shameful for women to speak in church.",
+          "id": 33914
+        },
+        {
+          "isRed": false,
+          "verse": 36,
+          "text": "Or was it from you that the word of God came? Or are you the only ones it has reached?",
+          "id": 33915
+        },
+        {
+          "isRed": false,
+          "verse": 37,
+          "text": "If anyone thinks that he is a prophet or spiritual person, he should acknowledge that the things I am writing to you are commandments of the Lord.",
+          "id": 33916
+        },
+        {
+          "isRed": false,
+          "verse": 38,
+          "text": "But if anyone ignores this, let him be ignorant.",
+          "id": 33917
+        },
+        {
+          "isRed": false,
+          "verse": 39,
+          "text": "So then, brothers, earnestly desire to prophesy and do not forbid speaking in tongues.",
+          "id": 33918
+        },
+        {
+          "isRed": false,
+          "verse": 40,
+          "text": "Let all things be done decently and in order.",
+          "id": 33919
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Now I make known to you, brothers, the gospel that I preached to you, which you received, in which you stand,",
+          "id": 33920
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "and by which you are being saved, if you hold fast to the message that I preached to you—unless you believed in vain.",
+          "id": 33921
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "For I delivered to you as of first importance what I also received: that Christ died for our sins according to the Scriptures,",
+          "id": 33922
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "that he was buried, that he was raised on the third day according to the Scriptures,",
+          "id": 33923
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "and that he appeared to Cephas, and then to the twelve.",
+          "id": 33924
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Next he appeared to more than five hundred brothers at once, most of whom are still living, but some have fallen asleep.",
+          "id": 33925
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Next he appeared to James, then to all the apostles.",
+          "id": 33926
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Last of all, as to one born at the wrong time, he appeared to me as well.",
+          "id": 33927
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "For I am the least of the apostles, unworthy to be called an apostle, because I persecuted the church of God.",
+          "id": 33928
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "But by the grace of God I am what I am, and his grace toward me was not in vain. On the contrary, I worked harder than all of them, yet not I, but the grace of God that was with me.",
+          "id": 33929
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Whether then it was I or they, this is what we preach, and this is what you have come to believe.",
+          "id": 33930
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Now if it is preached that Christ has been raised from the dead, how can some among you say that there is no resurrection of the dead?",
+          "id": 33931
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "If there is no resurrection of the dead, then not even Christ has been raised.",
+          "id": 33932
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "And if Christ has not been raised, then our preaching is in vain, and your faith is also in vain.",
+          "id": 33933
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "We are even found to be false witnesses about God, because we have testified against God that he raised Christ, whom he did not raise if indeed the dead are not raised.",
+          "id": 33934
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "For if the dead are not raised, not even Christ has been raised.",
+          "id": 33935
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "And if Christ has not been raised, your faith is futile; you are still in your sins.",
+          "id": 33936
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Furthermore, those who have fallen asleep in Christ have also perished.",
+          "id": 33937
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "If for this life only we have hoped in Christ, we are of all people most to be pitied.",
+          "id": 33938
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "But as it is, Christ has been raised from the dead; he has become the firstfruits of those who have fallen asleep.",
+          "id": 33939
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "For since death came through a man, the resurrection of the dead has also come through a man.",
+          "id": 33940
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "For just as all die in Adam, so all will be made alive in Christ.",
+          "id": 33941
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "But each in his own order: Christ the firstfruits, then, at his coming, those who belong to Christ.",
+          "id": 33942
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "Then comes the end, when he hands the kingdom over to God the Father, after he has abolished all rule and all authority and power.",
+          "id": 33943
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "For he must reign until he has put all his enemies under his feet.",
+          "id": 33944
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "The last enemy to be abolished is death.",
+          "id": 33945
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "For God \"has put everything in subjection under his feet.\" Now when it says that \"everything has been put in subjection,\" it is evident that it does not include God himself, who put everything in subjection to Christ.",
+          "id": 33946
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "Now when everything has been subjected to him, the Son himself will also be subjected to him who subjected everything to him, so that God may be all in all.",
+          "id": 33947
+        },
+        {
+          "isRed": false,
+          "verse": 29,
+          "text": "Otherwise, what are people doing when they get baptized for the dead? If the dead are not actually raised, why are people getting baptized for them?",
+          "id": 33948
+        },
+        {
+          "isRed": false,
+          "verse": 30,
+          "text": "And why do we put ourselves in danger every hour?",
+          "id": 33949
+        },
+        {
+          "isRed": false,
+          "verse": 31,
+          "text": "I die daily! Yes, just as surely as I boast about you in Christ Jesus our Lord.",
+          "id": 33950
+        },
+        {
+          "isRed": false,
+          "verse": 32,
+          "text": "If I fought with wild beasts at Ephesus with no more than human hopes, what did it benefit me? If the dead are not raised, \"Let us eat and drink, for tomorrow we die.\"",
+          "id": 33951
+        },
+        {
+          "isRed": false,
+          "verse": 33,
+          "text": "Do not be deceived: \"Bad company corrupts good morals.\"",
+          "id": 33952
+        },
+        {
+          "isRed": false,
+          "verse": 34,
+          "text": "Come to your senses, as is right, and stop sinning. For there are some who are ignorant of God. I say this to your shame.",
+          "id": 33953
+        },
+        {
+          "isRed": false,
+          "verse": 35,
+          "text": "But someone will say, \"How are the dead raised? With what kind of body will they come?\"",
+          "id": 33954
+        },
+        {
+          "isRed": false,
+          "verse": 36,
+          "text": "Fool! What you sow does not come to life unless it dies.",
+          "id": 33955
+        },
+        {
+          "isRed": false,
+          "verse": 37,
+          "text": "And what you sow is not the body that will be, but a bare kernel, perhaps of wheat or some other grain.",
+          "id": 33956
+        },
+        {
+          "isRed": false,
+          "verse": 38,
+          "text": "But God gives it a body just as he has determined, and he gives to each of the seeds its own body.",
+          "id": 33957
+        },
+        {
+          "isRed": false,
+          "verse": 39,
+          "text": "Not all flesh is the same flesh, but there is one kind for humans, another for animals, another for fish, and another for birds.",
+          "id": 33958
+        },
+        {
+          "isRed": false,
+          "verse": 40,
+          "text": "There are also heavenly bodies and earthly bodies, but the glory of heavenly bodies is one kind, and the glory of earthly bodies is another.",
+          "id": 33959
+        },
+        {
+          "isRed": false,
+          "verse": 41,
+          "text": "There is one glory of the sun, another glory of the moon, and another glory of the stars; for star differs from star in glory.",
+          "id": 33960
+        },
+        {
+          "isRed": false,
+          "verse": 42,
+          "text": "So it is with the resurrection of the dead. The body that is sown is perishable, but it is raised imperishable.",
+          "id": 33961
+        },
+        {
+          "isRed": false,
+          "verse": 43,
+          "text": "It is sown in dishonor; it is raised in glory. It is sown in weakness; it is raised in power.",
+          "id": 33962
+        },
+        {
+          "isRed": false,
+          "verse": 44,
+          "text": "It is sown as a natural body; it is raised as a spiritual body. There is a natural body, and there is a spiritual body.",
+          "id": 33963
+        },
+        {
+          "isRed": false,
+          "verse": 45,
+          "text": "And so it is written, \"The first man Adam became a living being.\" The last Adam became a life-giving spirit.",
+          "id": 33964
+        },
+        {
+          "isRed": false,
+          "verse": 46,
+          "text": "However, the spiritual body is not first, but the natural body, then the spiritual body.",
+          "id": 33965
+        },
+        {
+          "isRed": false,
+          "verse": 47,
+          "text": "The first man was from the earth, made of dust; the second man is the Lord from heaven.",
+          "id": 33966
+        },
+        {
+          "isRed": false,
+          "verse": 48,
+          "text": "As was the man made of dust, so are those made of dust; and as is the heavenly man, so are those who are heavenly.",
+          "id": 33967
+        },
+        {
+          "isRed": false,
+          "verse": 49,
+          "text": "Just as we have borne the image of the man made of dust, let us also bear the image of the heavenly man.",
+          "id": 33968
+        },
+        {
+          "isRed": false,
+          "verse": 50,
+          "text": "Now I tell you, brothers, that flesh and blood cannot inherit the kingdom of God, nor does what is perishable inherit what is imperishable.",
+          "id": 33969
+        },
+        {
+          "isRed": false,
+          "verse": 51,
+          "text": "Behold, I tell you a mystery: We will not all sleep, but we will all be changed,",
+          "id": 33970
+        },
+        {
+          "isRed": false,
+          "verse": 52,
+          "text": "in an instant, in the twinkling of an eye, at the last trumpet call. For the trumpet will sound, and the dead will be raised imperishable, and we will be changed.",
+          "id": 33971
+        },
+        {
+          "isRed": false,
+          "verse": 53,
+          "text": "For this perishable body must put on imperishability, and this mortal body must put on immortality.",
+          "id": 33972
+        },
+        {
+          "isRed": false,
+          "verse": 54,
+          "text": "Now when this perishable body has put on imperishability, and this mortal body has put on immortality, then this saying that is written will be fulfilled: \"Death has been swallowed up in victory.\"",
+          "id": 33973
+        },
+        {
+          "isRed": false,
+          "verse": 55,
+          "text": "\"O Death, where is your sting? O Hades, where is your victory?\"",
+          "id": 33974
+        },
+        {
+          "isRed": false,
+          "verse": 56,
+          "text": "Now the sting of death is sin, and the power of sin is the law.",
+          "id": 33975
+        },
+        {
+          "isRed": false,
+          "verse": 57,
+          "text": "But thanks be to God, who gives us victory through our Lord Jesus Christ.",
+          "id": 33976
+        },
+        {
+          "isRed": false,
+          "verse": 58,
+          "text": "So then, my beloved brothers, be steadfast and immovable, always abounding in the work of the Lord, knowing that your labor in the Lord is not in vain.",
+          "id": 33977
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Now concerning the collection for the saints, you must do what I have directed the churches of Galatia to do.",
+          "id": 33978
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "On the first day of every week, each one of you should set something aside, storing up whatever he may be prospered with, so that collections will not need to be taken when I come.",
+          "id": 33979
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "When I arrive, I will send those whom you approve by letters to carry your gift to Jerusalem.",
+          "id": 33980
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "If it is advisable for me to go as well, they will accompany me.",
+          "id": 33981
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "After I pass through Macedonia, I will come to you, for I will be passing through Macedonia,",
+          "id": 33982
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "and perhaps I will stay with you or even spend the winter, so that you may send me on my way wherever I may go.",
+          "id": 33983
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "But I do not wish to see you now only in passing; rather, I hope to stay with you for some time, if the Lord permits.",
+          "id": 33984
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "But I will stay in Ephesus until Pentecost,",
+          "id": 33985
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "for a great and effective door has been opened to me, and there are many adversaries.",
+          "id": 33986
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "If Timothy comes, see to it that he has nothing to fear while he is with you, for he is doing the work of the Lord, just as I am.",
+          "id": 33987
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Therefore let no one despise him. But send him on his way in peace so that he may come to me, for I am expecting him with the brothers.",
+          "id": 33988
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Now concerning Apollos our brother, I strongly urged him to come to you with the other brothers, but it was not at all his will to come now. He will come when he has an opportunity.",
+          "id": 33989
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Be watchful, stand firm in the faith, be men of courage, and be strong.",
+          "id": 33990
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Everything you do should be done in love.",
+          "id": 33991
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Brothers, you know that the household of Stephanas is the firstfruits of Achaia, and that they have devoted themselves to serving the saints. I urge you",
+          "id": 33992
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "to submit to such people and to everyone who joins together in the work and labors with them.",
+          "id": 33993
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "I rejoice over the coming of Stephanas, Fortunatus, and Achaicus, because these men have supplied what was lacking on your part.",
+          "id": 33994
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "For they have refreshed my spirit as well as yours. So give recognition to such men.",
+          "id": 33995
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "The churches of Asia greet you. Aquila and Priscilla greet you earnestly in the Lord, along with the church that meets in their house.",
+          "id": 33996
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "All the brothers greet you. Greet one another with a holy kiss.",
+          "id": 33997
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "I, Paul, write this greeting with my own hand.",
+          "id": 33998
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "If anyone does not love the Lord Jesus Christ, let him be accursed. Our Lord has come!",
+          "id": 33999
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "The grace of the Lord Jesus Christ be with you.",
+          "id": 34000
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "My love be with you all in Christ Jesus. Amen.",
+          "id": 34001
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,929 @@
+{
+  "book": "Galatians",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Paul, an apostle—appointed not by men nor through man, but by Jesus Christ and God the Father, who raised him from the dead—",
+          "id": 34259
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "and all the brothers with me, to the churches of Galatia:",
+          "id": 34260
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Grace to you and peace from God the Father and our Lord Jesus Christ,",
+          "id": 34261
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "who gave himself for our sins to deliver us from the present evil age, according to the will of our God and Father.",
+          "id": 34262
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "To him be the glory forever and ever. Amen.",
+          "id": 34263
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "I am astonished that you are so quickly turning away from him who called you by the grace of Christ and turning to a different gospel,",
+          "id": 34264
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "not that there is another gospel, but there are some who are troubling you and wish to pervert the gospel of Christ.",
+          "id": 34265
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "But even if we or an angel from heaven should preach to you a gospel contrary to the one we preached to you, let him be accursed!",
+          "id": 34266
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "As we have said before, so now I say again: If anyone preaches to you a gospel contrary to what you received, let him be accursed!",
+          "id": 34267
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Am I now seeking the approval of men, or of God? Or am I trying to please men? If I were still trying to please men, I would not be a servant of Christ.",
+          "id": 34268
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "But I make known to you, brothers, that the gospel I preached did not originate with man.",
+          "id": 34269
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "For I did not receive it from man, nor was I taught it, but I received it by a revelation of Jesus Christ.",
+          "id": 34270
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "For you have heard of my former way of life in Judaism, how I persecuted the church of God beyond measure and tried to destroy it.",
+          "id": 34271
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "I was advancing in Judaism beyond many of my own age among my people, being far more zealous for the traditions of my fathers.",
+          "id": 34272
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "But when God, who set me apart before I was born and called me by his grace, was pleased",
+          "id": 34273
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "to reveal his Son in me so that I could preach good news about him among the Gentiles, I did not immediately confer with flesh and blood,",
+          "id": 34274
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "nor did I go up to Jerusalem to those who were apostles before me, but I went away to Arabia and returned again to Damascus.",
+          "id": 34275
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Then after three years I went up to Jerusalem to become acquainted with Peter and stayed with him for fifteen days.",
+          "id": 34276
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "But I saw none of the other apostles except James, the brother of the Lord.",
+          "id": 34277
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "(Now in what I am writing to you, I assure you before God that I am not lying.)",
+          "id": 34278
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "Then I went into the regions of Syria and Cilicia.",
+          "id": 34279
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "But I was personally unknown to the churches of Judea that are in Christ.",
+          "id": 34280
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "They were only hearing people say, \"The man who once persecuted us is now preaching the good news of the faith he once tried to destroy.\"",
+          "id": 34281
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "So they were glorifying God because of me.",
+          "id": 34282
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Then after fourteen years I went up again to Jerusalem with Barnabas, taking Titus along also.",
+          "id": 34283
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "I went up because of a revelation and presented to them the gospel that I preach among the Gentiles, but privately to those who were esteemed, to make sure that I was not running or had not run in vain.",
+          "id": 34284
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "But not even Titus, who was with me, was compelled to be circumcised, even though he is a Greek.",
+          "id": 34285
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Now this matter arose because of the false brothers who were secretly brought in, who slipped in to spy on the freedom we have in Christ Jesus, so that they might enslave us.",
+          "id": 34286
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "But we did not yield to them in submission for even an hour, so that the truth of the gospel might be preserved for you.",
+          "id": 34287
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Now from those who were esteemed to be something (what sort of men they once were makes no difference to me; God does not show partiality)—those, I say, who were esteemed added nothing to me.",
+          "id": 34288
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "On the contrary, they saw that I had been entrusted with the gospel to the uncircumcised, just as Peter had been entrusted with the gospel to the circumcised.",
+          "id": 34289
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "For he who worked through Peter in his apostleship to the circumcised also worked through me in my apostleship to the Gentiles.",
+          "id": 34290
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "When James, Cephas, and John, who were esteemed as pillars of the church, recognized the grace given to me, they gave the right hand of fellowship to Barnabas and me, agreeing that we should go to the Gentiles and that they should go to the circumcised.",
+          "id": 34291
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "They only asked us to remember the poor, the very thing I was eager to do.",
+          "id": 34292
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "But when Peter came to Antioch, I opposed him to his face, because he was blameworthy.",
+          "id": 34293
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "For he regularly ate with the Gentiles until certain men came from James. But when they came, he drew back and separated himself because he was afraid of the circumcision faction.",
+          "id": 34294
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "And the rest of the Jews acted hypocritically along with him, so that even Barnabas was led astray by their hypocrisy.",
+          "id": 34295
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "But when I saw that they were not walking uprightly in accordance with the truth of the gospel, I said to Peter in front of them all, \"If you, though a Jew, live like a Gentile and not like a Jew, why do you compel the Gentiles to live like Jews?\"",
+          "id": 34296
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "We who are Jews by nature and not Gentile sinners",
+          "id": 34297
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "know that a person is not justified by works of the law but through faith in Jesus Christ. So we too have put our faith in Christ Jesus so that we may be justified by faith in Christ and not by works of the law, because no flesh will be justified by works of the law.",
+          "id": 34298
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "But if we ourselves have also been found to be sinners while seeking to be justified in Christ, is Christ then an agent of sin? Certainly not!",
+          "id": 34299
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "For if I build up again the very things that I tore down, I show myself to be a transgressor.",
+          "id": 34300
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "For through the law I died to the law so that I might live for God.",
+          "id": 34301
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "I have been crucified with Christ, and it is no longer I who live, but Christ who lives in me. The life that I now live in the flesh, I live by faith in the Son of God, who loved me and gave himself up for me.",
+          "id": 34302
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "I do not nullify the grace of God, for if righteousness comes through the law, then Christ died for nothing.",
+          "id": 34303
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "O foolish Galatians! Who has bewitched you to keep you from obeying the truth? In your presence, before your very eyes, Jesus Christ was publicly portrayed as crucified.",
+          "id": 34304
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Let me ask you this one question: Did you receive the Spirit by works of the law or by hearing with faith?",
+          "id": 34305
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Are you so foolish? Having begun by the Spirit, are you now trying to be perfected by the flesh?",
+          "id": 34306
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Did you suffer so much in vain?—if indeed it was in vain.",
+          "id": 34307
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Does God supply you with the Spirit and work miracles among you because you perform the works of the law or because you hear with faith?",
+          "id": 34308
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Remember, \"Abraham believed God, and it was counted to him as righteousness.\"",
+          "id": 34309
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Therefore you must understand that those who have faith are the sons of Abraham.",
+          "id": 34310
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Now the Scripture, foreseeing that God would justify the Gentiles by faith, preached the gospel beforehand to Abraham, saying, \"All the nations will be blessed in you.\"",
+          "id": 34311
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "So then, those who have faith are blessed along with Abraham, the man of faith.",
+          "id": 34312
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "For all who rely on the works of the law are under a curse, because it is written, \"Cursed is everyone who does not continue to do everything written in the Book of the Law.\"",
+          "id": 34313
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Now it is evident that no one is justified before God by the law, because \"the righteous will live by faith.\"",
+          "id": 34314
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "But the law is not based on faith; on the contrary, \"The person who does these things will live by them.\"",
+          "id": 34315
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Christ redeemed us from the curse of the law by becoming a curse for us, for it is written, \"Cursed is everyone who hangs on a tree.\"",
+          "id": 34316
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "He redeemed us so that the blessing of Abraham would come to the Gentiles in Christ Jesus, so that we could receive the promise of the Spirit through faith.",
+          "id": 34317
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Brothers, let me give an example from everyday life: When a man-made covenant is ratified, no one annuls it or adds to it.",
+          "id": 34318
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Now the promises were spoken to Abraham and to his descendant. Scripture does not say, \"And to his descendants,\" referring to many, but referring to one man it says, \"And to your descendant,\" who is Christ.",
+          "id": 34319
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "My point is this: The law, which came four hundred and thirty years later, cannot annul a covenant previously ratified by God to Christ, so as to invalidate the promise.",
+          "id": 34320
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "For if the inheritance comes by the law, it no longer comes by the promise; but God granted it to Abraham by a promise.",
+          "id": 34321
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "Why then was the law given? It was added because of transgressions, until the descendant should come to whom the promise had been made. It was ordained through angels by the hand of a mediator.",
+          "id": 34322
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "Now a mediator does not represent just one party, but God is one.",
+          "id": 34323
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "Is the law then opposed to the promises of God? Certainly not! For if a law had been given that was able to give life, truly righteousness would have come through the law.",
+          "id": 34324
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "But the Scripture has confined all under sin, so that the promise might be given on the basis of faith in Jesus Christ to those who believe.",
+          "id": 34325
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "Now before faith came, we were kept in custody under the law, confined until the faith that was to come would be revealed.",
+          "id": 34326
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "The law, then, was our guardian until Christ came, so that we could be justified by faith.",
+          "id": 34327
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "But now that faith has come, we are no longer under a guardian,",
+          "id": 34328
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "for you are all sons of God through faith in Christ Jesus.",
+          "id": 34329
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "For all of you who were baptized into Christ have put on Christ.",
+          "id": 34330
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "There is neither Jew nor Greek, there is neither slave nor free, there is neither male nor female, for you are all one in Christ Jesus.",
+          "id": 34331
+        },
+        {
+          "isRed": false,
+          "verse": 29,
+          "text": "And if you belong to Christ, then you are Abraham''s descendants and heirs according to the promise.",
+          "id": 34332
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Now I say that as long as the heir is a child, he differs in no way from a slave, though he is the master of all.",
+          "id": 34333
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "But he is under guardians and stewards until the time appointed by his father.",
+          "id": 34334
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "In the same way also, when we were children, we were enslaved to the elements of the world.",
+          "id": 34335
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "But when the fullness of time came, God sent his Son, born of a woman, born under the law,",
+          "id": 34336
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "to redeem those who were under the law, so that we might receive adoption as sons.",
+          "id": 34337
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "And because you are sons, God has sent the Spirit of his Son into your hearts, crying out, \"Abba! Father!\"",
+          "id": 34338
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "So you are no longer a slave, but a son. And if you are a son, you are also an heir of God through Christ.",
+          "id": 34339
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "At that time, however, when you did not know God, you were enslaved to beings that by nature are not gods.",
+          "id": 34340
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "But now that you have come to know God, or rather to be known by God, how is it that you are turning back again to the weak and worthless elements? Do you wish to be enslaved to them once more?",
+          "id": 34341
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "You observe days, months, seasons, and years!",
+          "id": 34342
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "I am afraid for you, lest somehow I have labored for you in vain.",
+          "id": 34343
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "I plead with you, brothers: Become as I am, because I also have become as you are. You did me no wrong.",
+          "id": 34344
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "But you know that it was because of a physical infirmity that I preached the gospel to you the first time.",
+          "id": 34345
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "And you did not despise or reject me even though my physical condition was a trial for me. On the contrary, you received me as an angel of God, as Christ Jesus.",
+          "id": 34346
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "What then has become of that sense of blessing you had? For I testify to you that, if possible, you would have plucked out your own eyes and given them to me.",
+          "id": 34347
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Have I now become your enemy by telling you the truth?",
+          "id": 34348
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Those false teachers are not zealous for you in a good way, but rather they wish to shut you out so that you will be zealous for them.",
+          "id": 34349
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Now it is good to be zealous for a good purpose, and to be so at all times and not just when I am with you.",
+          "id": 34350
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "My little children, for whom I am again suffering labor pains until Christ is formed in you,",
+          "id": 34351
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "how I wish that I could be with you now and change my tone, for I am perplexed about you!",
+          "id": 34352
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "Tell me, you who wish to be under the law, do you not listen to the law?",
+          "id": 34353
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "For it is written that Abraham had two sons, one by the slave woman and one by the free woman.",
+          "id": 34354
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "But the son of the slave woman was born according to the flesh, while the son of the free woman was born through the promise.",
+          "id": 34355
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "This can be explained allegorically, for these women are two covenants. One is from Mount Sinai, bearing children for slavery; this is Hagar.",
+          "id": 34356
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "For Hagar is Mount Sinai in Arabia and corresponds to the present Jerusalem; she is in slavery with her children.",
+          "id": 34357
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "But the Jerusalem that is above is the free woman; she is the mother of us all.",
+          "id": 34358
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "For it is written, \"Rejoice, O barren woman, who has never given birth; break forth and shout, you who have never been in labor! For many are the children of the desolate woman, more than those of the woman who has a husband.\"",
+          "id": 34359
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "Now we, brothers, like Isaac, are children of the promise.",
+          "id": 34360
+        },
+        {
+          "isRed": false,
+          "verse": 29,
+          "text": "But just as at that time the child who was born according to the flesh persecuted the child who was born according to the Spirit, so it is now also.",
+          "id": 34361
+        },
+        {
+          "isRed": false,
+          "verse": 30,
+          "text": "But what does the Scripture say? \"Cast out the slave woman and her son, for the son of the slave woman shall not inherit with the son of the free woman.\"",
+          "id": 34362
+        },
+        {
+          "isRed": false,
+          "verse": 31,
+          "text": "So, brothers, we are not children of the slave woman, but of the free woman.",
+          "id": 34363
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Stand fast therefore in the freedom with which Christ has set us free, and do not submit again to a yoke of slavery.",
+          "id": 34364
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Behold, I, Paul, say to you that if you let yourselves be circumcised, Christ will be of no benefit to you.",
+          "id": 34365
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "I testify again to every man who lets himself be circumcised that he is obligated to keep the entire law.",
+          "id": 34366
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "You who are seeking to be justified by the law are alienated from Christ; you have fallen away from grace.",
+          "id": 34367
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "For through the Spirit, by faith, we eagerly await the hope of righteousness.",
+          "id": 34368
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "For in Christ Jesus neither does circumcision have any significance, nor uncircumcision, but what matters is faith working through love.",
+          "id": 34369
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "You were running well. Who hindered you from obeying the truth?",
+          "id": 34370
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "This persuasion does not come from him who calls you.",
+          "id": 34371
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "A little leaven leavens the whole lump.",
+          "id": 34372
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "I have confidence in you in the Lord that you will adopt no other mindset. But the one who is troubling you will bear his judgment, whoever he may be.",
+          "id": 34373
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Now, brothers, if I am still preaching circumcision, why am I still being persecuted? In that case the offense of the cross has been done away with.",
+          "id": 34374
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Oh that those who are unsettling you would cut themselves off!",
+          "id": 34375
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "You were called to freedom, brothers. Only do not use your freedom as an opportunity for the flesh, but serve one another in love.",
+          "id": 34376
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "For the entire law is fulfilled in this one commandment: \"You shall love your neighbor as yourself.\"",
+          "id": 34377
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "But if you bite and devour one another, watch out, or you will be consumed by one another.",
+          "id": 34378
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "I say then, walk by the Spirit and you will certainly not gratify the desires of the flesh.",
+          "id": 34379
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "For the flesh desires what is contrary to the Spirit, and the Spirit desires what is contrary to the flesh. These are opposed to each other, to keep you from doing the very things you want to do.",
+          "id": 34380
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "But if you are led by the Spirit, you are not under the law.",
+          "id": 34381
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "Now the works of the flesh are obvious: adultery, fornication, impurity, sensuality,",
+          "id": 34382
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "idolatry, sorcery, hostilities, quarrels, jealousies, fits of rage, selfish ambitions, dissensions, factions,",
+          "id": 34383
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "envy, murder, drunkenness, revelries, and the like. I warn you, just as I warned you before, that those who practice such things will not inherit the kingdom of God.",
+          "id": 34384
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness,",
+          "id": 34385
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "gentleness, and self-control; against such things there is no law.",
+          "id": 34386
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "Now those who belong to Christ have crucified the flesh with its passions and desires.",
+          "id": 34387
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "Since we live by the Spirit, let us also keep in step with the Spirit.",
+          "id": 34388
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "Let us not become conceited, provoking one another and envying one another.",
+          "id": 34389
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Brothers, if anyone is caught in any transgression, you who are spiritual should restore him in a spirit of gentleness, paying attention to yourself so that you too are not tempted.",
+          "id": 34390
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Bear one another''s burdens, and in this way fulfill the law of Christ.",
+          "id": 34391
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "For if anyone thinks that he is something, when he is nothing, he deceives himself.",
+          "id": 34392
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "But each person should test his own work, and then he will have reason for boasting in regard to himself alone, and not in regard to another.",
+          "id": 34393
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "For each person will bear his own load.",
+          "id": 34394
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Now the one who is instructed in the word must share all good things with the one who instructs him.",
+          "id": 34395
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Do not be misled: God is not mocked. A person reaps what he sows.",
+          "id": 34396
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "For he who sows to his own flesh will reap corruption from the flesh, but he who sows to the Spirit will reap eternal life from the Spirit.",
+          "id": 34397
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "So let us not grow weary in doing good, for in due time we will reap, if we do not give up.",
+          "id": 34398
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Therefore, as we have opportunity, let us do good to all, and especially to those of the household of faith.",
+          "id": 34399
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "See what large letters I use as I write to you with my own hand.",
+          "id": 34400
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "It is those who want to make a good appearance in the flesh who compel you to be circumcised, but only so that they may not be persecuted for the cross of Christ.",
+          "id": 34401
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "For not even those who are circumcised keep the law, but they want you to be circumcised so that they can boast about your flesh.",
+          "id": 34402
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "But as for me, may I never boast except in the cross of our Lord Jesus Christ, through which the world has been crucified to me, and I to the world.",
+          "id": 34403
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "For in Christ Jesus neither does circumcision have any significance, nor uncircumcision, but what matters is whether we become a new creation.",
+          "id": 34404
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "As for all who follow this standard, peace and mercy be upon them and upon the Israel of God.",
+          "id": 34405
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "From now on let no one cause me trouble, for I bear the marks of the Lord Jesus on my body.",
+          "id": 34406
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "The grace of our Lord Jesus Christ be with your spirit, brothers. Amen.",
+          "id": 34407
+        }
+      ]
+    }
+  ]
+}

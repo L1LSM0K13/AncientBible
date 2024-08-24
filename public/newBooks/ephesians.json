@@ -1,0 +1,965 @@
+{
+  "book": "Ephesians",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Paul, an apostle of Jesus Christ through the will of God, to the saints who are in Ephesus, the faithful in Christ Jesus:",
+          "id": 34408
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+          "id": 34409
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Blessed be the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavenly places in Christ,",
+          "id": 34410
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "just as he chose us in Christ before the foundation of the world to be holy and unblemished before him in love.",
+          "id": 34411
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "He foreordained us for adoption as his sons through Jesus Christ, according to the good pleasure of his will,",
+          "id": 34412
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "to the praise of the glory of his grace, by which he bestowed favor upon us in the Beloved.",
+          "id": 34413
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "In him we have redemption through his blood, the remission of our trespasses, according to the riches of God''s grace,",
+          "id": 34414
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "which he lavished upon us, along with all wisdom and understanding.",
+          "id": 34415
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "He made known to us the mystery of his will, according to his good pleasure, which he purposed in Christ",
+          "id": 34416
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "as a plan for the fullness of times, to bring everything together in Christ, things in heaven and things on earth.",
+          "id": 34417
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "In Christ we have obtained an inheritance, having been foreordained according to the purpose of him who accomplishes all things according to the counsel of his own will,",
+          "id": 34418
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "so that we who were the first to hope in Christ, might live for the praise of his glory.",
+          "id": 34419
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "And when you heard the word of the truth, the gospel of your salvation, and believed in Christ, you were also sealed with the promised Holy Spirit,",
+          "id": 34420
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "who is the guarantee of our inheritance until the redemption of God''s own possession, to the praise of his glory.",
+          "id": 34421
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "For this reason, ever since I heard about your faith in the Lord Jesus and your love for all the saints,",
+          "id": 34422
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "I have not ceased giving thanks for you as I remember you in my prayers.",
+          "id": 34423
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "I pray that the God of our Lord Jesus Christ, the Father of glory, may give you a spirit of wisdom and revelation as you come to know him.",
+          "id": 34424
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "I pray that the eyes of your heart may be enlightened, so that you may know what is the hope of his calling, what are the riches of the glory of his inheritance in the saints,",
+          "id": 34425
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "and what is the surpassing greatness of his power toward us who believe, according to the working of his great power.",
+          "id": 34426
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "He exercised this power in Christ by raising him from the dead and seating him at his right hand in the heavenly places,",
+          "id": 34427
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "far above every ruler and authority, power and dominion, and every name that is named, not only in this age but also in the age to come.",
+          "id": 34428
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "God put all things in subjection under Christ''s feet and appointed him as head over all things for the church,",
+          "id": 34429
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "which is his body, the fullness of him who fills everything in every way.",
+          "id": 34430
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "You were dead in the trespasses and sins",
+          "id": 34431
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "in which you once walked when you followed the ways of this world and the ruler of the realm of the air, the spirit that is now at work in the sons of disobedience.",
+          "id": 34432
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Among them we all once lived in the lusts of our flesh, carrying out the desires of our flesh and our impulses, and we were by nature children of wrath, like the rest of mankind.",
+          "id": 34433
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Yet God, who is rich in mercy, because of the great love with which he loved us,",
+          "id": 34434
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "made us alive together with Christ even when we were dead in our trespasses—by grace you have been saved.",
+          "id": 34435
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "And God raised us up with Christ and seated us with him in the heavenly places in Christ Jesus,",
+          "id": 34436
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "so that in the ages to come he might show the surpassing riches of his grace through his kindness toward us in Christ Jesus.",
+          "id": 34437
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "For by grace you have been saved through faith. And this is not of yourselves; it is the gift of God,",
+          "id": 34438
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "not by works, so that no one may boast.",
+          "id": 34439
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "For we are his workmanship, created in Christ Jesus for good works, which God prepared beforehand so that we would walk in them.",
+          "id": 34440
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Therefore remember that you, once Gentiles in the flesh, who are called \"the uncircumcision\" by those who call themselves \"the circumcision,\" which is made in the flesh by hands—",
+          "id": 34441
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "remember that you were apart from Christ at that time, excluded from the citizenship of Israel and strangers to the covenants of the promise, having no hope and without God in the world.",
+          "id": 34442
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "But now in Christ Jesus you who were once far away have been brought near by the blood of Christ.",
+          "id": 34443
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "For he is our peace, who has united both the Jews and Gentiles into one people and has broken down the wall of hostility that divided us.",
+          "id": 34444
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "He did this by abolishing the law with its commandments and ordinances in order to make peace between the two groups and create in himself one new people.",
+          "id": 34445
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "He reconciled both groups to God in one body through the cross, by which he put the hostility to death.",
+          "id": 34446
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "He came and preached the good news of peace to you who were far away and to those who were near.",
+          "id": 34447
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "For through him we both have access in one Spirit to the Father.",
+          "id": 34448
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "So then you are no longer strangers and foreigners, but fellow citizens with the saints and members of the household of God,",
+          "id": 34449
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "built upon the foundation of the apostles and prophets, with Jesus Christ himself being the chief cornerstone.",
+          "id": 34450
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "In him the whole building is joined together and rises to become a holy temple in the Lord.",
+          "id": 34451
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "And in him you also are being built together into a dwelling place for God in the Spirit.",
+          "id": 34452
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "For this reason I, Paul, a prisoner for Christ Jesus for the sake of you Gentiles, bow my knees in prayer.",
+          "id": 34453
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Surely you have heard of the stewardship of God''s grace that was given to me for you,",
+          "id": 34454
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "how God made the mystery known to me by revelation, just as I have written above in a few words.",
+          "id": 34455
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "When you read what I have written, you can understand my insight into the mystery of Christ,",
+          "id": 34456
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "which in previous generations was not made known to the sons of men as it has now been revealed by the Spirit to his holy apostles and prophets.",
+          "id": 34457
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "This mystery is that the Gentiles are fellow heirs, fellow members of the body, and fellow partakers of God''s promise in Christ through the gospel.",
+          "id": 34458
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "I became a servant of this gospel according to the gift of God''s grace that was given to me by the working of his power.",
+          "id": 34459
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "This grace was given to me, the very least of all the saints, to preach among the Gentiles the good news of the boundless riches of Christ,",
+          "id": 34460
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "and to bring to light for everyone the plan of the mystery that has been hidden for ages in God, who created all things through Jesus Christ.",
+          "id": 34461
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "The purpose of bringing this to light is that, through the church, the manifold wisdom of God might now be made known to the rulers and the authorities in the heavenly realms,",
+          "id": 34462
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "according to the eternal purpose that God has carried out in Christ Jesus our Lord.",
+          "id": 34463
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Because of Christ and our faith in him, we have boldness and confident access to God.",
+          "id": 34464
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Therefore I ask you not to lose heart at my tribulations on your behalf, which will bring you glory.",
+          "id": 34465
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "For this reason I bow my knees in prayer before the Father of our Lord Jesus Christ,",
+          "id": 34466
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "from whom every family in heaven and on earth is named.",
+          "id": 34467
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "I pray that, according to the riches of his glory, he would grant you to be strengthened with power through his Spirit in your inner being,",
+          "id": 34468
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "so that Christ may dwell in your hearts through faith,",
+          "id": 34469
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "as you are being rooted and grounded in love. I pray that you may be able to fully comprehend, together with all the saints, how wide and long and deep and high",
+          "id": 34470
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "is the love of Christ, and to know this love that surpasses knowledge, so that you may be filled with all the fullness of God.",
+          "id": 34471
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "Now to him who is able to do immeasurably more than all we could ask or imagine, according to the power at work within us—",
+          "id": 34472
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "to him be glory in the church in Christ Jesus throughout all generations, forever and ever. Amen.",
+          "id": 34473
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Therefore I, a prisoner for the Lord, urge you to walk in a manner worthy of the calling you have received,",
+          "id": 34474
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "with all humility and gentleness, and with patience, bearing with one another in love,",
+          "id": 34475
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "and being diligent to keep the unity of the Spirit in the bond of peace.",
+          "id": 34476
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "There is one body and one Spirit (just as you were called to one hope at your calling),",
+          "id": 34477
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "one Lord, one faith, one baptism,",
+          "id": 34478
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "one God and Father of all, who is over all and through all and in us all.",
+          "id": 34479
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Now each one of us was given grace according to the measure of Christ''s gift.",
+          "id": 34480
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Therefore it says, \"When he ascended on high, he led captivity captive and gave gifts to men.\"",
+          "id": 34481
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "(Now what does \"he ascended\" mean except that he first also descended into the lower parts of the earth?",
+          "id": 34482
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "He who descended is the very one who ascended far above all the heavens, so that he might fill all things.)",
+          "id": 34483
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "It was he who appointed some to be apostles, some to be prophets, some to be evangelists, and some to be pastors and teachers,",
+          "id": 34484
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "to equip the saints for the work of ministry and to build up the body of Christ,",
+          "id": 34485
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "until we all reach unity in the faith and in the knowledge of the Son of God, growing into maturity with a stature measured by Christ''s fullness.",
+          "id": 34486
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "So we must no longer be infants, tossed back and forth by waves and carried about by every wind of doctrine, by the trickery of men and their craftiness in deceitful scheming.",
+          "id": 34487
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Rather, speaking the truth in love, we must grow up in every way into him who is the head, that is, Christ.",
+          "id": 34488
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "From him the whole body, joined and held together by every supporting joint, grows and builds itself up in love as each individual part does its work.",
+          "id": 34489
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Therefore, I solemnly declare in the Lord that you should no longer walk as the rest of the Gentiles do, in the futility of their minds.",
+          "id": 34490
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "They are darkened in their understanding, being excluded from the life of God because of the ignorance that is in them due to the hardness of their hearts.",
+          "id": 34491
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "They became callous and gave themselves up to lewd behavior, greedy to engage in every kind of impurity.",
+          "id": 34492
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "But you did not learn Christ in that way!",
+          "id": 34493
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "Surely you have heard about him and were taught in him, just as the truth is in Jesus,",
+          "id": 34494
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "to put off your old self, which belongs to your former way of life and is being corrupted by its deceitful desires,",
+          "id": 34495
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "to be renewed in the spirit of your minds,",
+          "id": 34496
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "and to put on the new self, created according to the image of God in true righteousness and holiness.",
+          "id": 34497
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "Therefore, having laid aside falsehood, each of you must speak the truth with his neighbor, because we are members of one another.",
+          "id": 34498
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "Do not sin in your anger. Do not let the sun go down while you are still angry,",
+          "id": 34499
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "and do not give any opportunity to the devil.",
+          "id": 34500
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "He who steals must no longer steal; rather he must labor, doing honest work with his hands, so that he may have something to contribute to anyone in need.",
+          "id": 34501
+        },
+        {
+          "isRed": false,
+          "verse": 29,
+          "text": "Let no foul word come out of your mouth, but only what is good for edification, as fits the occasion, that it may give grace to those who hear.",
+          "id": 34502
+        },
+        {
+          "isRed": false,
+          "verse": 30,
+          "text": "And do not grieve the Holy Spirit of God, by whom you were sealed for the day of redemption.",
+          "id": 34503
+        },
+        {
+          "isRed": false,
+          "verse": 31,
+          "text": "Put away all bitterness, wrath, anger, outbursts, and slander, together with all malice.",
+          "id": 34504
+        },
+        {
+          "isRed": false,
+          "verse": 32,
+          "text": "Be kind and compassionate to one another, forgiving one another, just as God in Christ has forgiven us.",
+          "id": 34505
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Therefore, be imitators of God, as beloved children,",
+          "id": 34506
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "and walk in love, just as Christ loved us and gave himself up for us as a fragrant offering and sacrifice to God.",
+          "id": 34507
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "But fornication, impurity of any kind, and covetousness must not even be mentioned among you, because such things are improper for saints.",
+          "id": 34508
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Nor should there be any obscenity, foolish talk, or coarse joking, which are not fitting, but there should be thanksgiving instead.",
+          "id": 34509
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "For you know that no one who is a fornicator, impure, or covetous (that is, an idolater) has any inheritance in the kingdom of Christ and of God.",
+          "id": 34510
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Let no one deceive you with empty words, for because of these things the wrath of God is coming upon the sons of disobedience.",
+          "id": 34511
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Therefore do not be partners with them.",
+          "id": 34512
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "For you were once darkness, but now you are light in the Lord. Walk as children of light",
+          "id": 34513
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "(for the fruit of the Spirit is found in all goodness, righteousness, and truth).",
+          "id": 34514
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Carefully determine what is pleasing to the Lord.",
+          "id": 34515
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Do not participate in the unfruitful works of darkness, but expose them instead.",
+          "id": 34516
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "For it is shameful even to mention what such people do in secret.",
+          "id": 34517
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "But everything exposed by the light becomes illuminated, and everything that is illuminated becomes a light.",
+          "id": 34518
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Therefore it says, \"Awake, O sleeper, and arise from the dead, and Christ will shine upon you.\"",
+          "id": 34519
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "See then that you walk carefully, not as unwise people but as wise,",
+          "id": 34520
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "making the best use of the time, because the days are evil.",
+          "id": 34521
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Therefore do not be foolish, but understand what the will of the Lord is.",
+          "id": 34522
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Do not be drunk with wine, which leads to debauchery, but be filled with the Spirit,",
+          "id": 34523
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "speaking to one another in psalms, hymns, and spiritual songs, singing and making melody with your hearts to the Lord,",
+          "id": 34524
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "always giving thanks for everything to our God and Father in the name of our Lord Jesus Christ,",
+          "id": 34525
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "and submitting to one another in the fear of Christ.",
+          "id": 34526
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "Wives, submit to your husbands, as to the Lord.",
+          "id": 34527
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "For the husband is the head of the wife, just as Christ is the head and Savior of the church, which is his body.",
+          "id": 34528
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "Just as the church submits to Christ, so wives should submit to their husbands in everything.",
+          "id": 34529
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "Husbands, love your wives, just as Christ loved the church and gave himself up for her",
+          "id": 34530
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "to sanctify her by cleansing her with the washing of water by the word,",
+          "id": 34531
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "so that he might present her to himself as a glorious church, without spot or wrinkle or any such thing, but holy and unblemished.",
+          "id": 34532
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "In the same way husbands ought to love their wives as their own bodies. He who loves his wife loves himself.",
+          "id": 34533
+        },
+        {
+          "isRed": false,
+          "verse": 29,
+          "text": "For no one has ever hated his own flesh, but he nourishes and cares for it, just as the Lord does for the church,",
+          "id": 34534
+        },
+        {
+          "isRed": false,
+          "verse": 30,
+          "text": "because we are members of his body, of his flesh and of his bones.",
+          "id": 34535
+        },
+        {
+          "isRed": false,
+          "verse": 31,
+          "text": "\"For this reason a man will leave his father and mother and be joined to his wife, and the two will become one flesh.\"",
+          "id": 34536
+        },
+        {
+          "isRed": false,
+          "verse": 32,
+          "text": "This is a profound mystery, but I am talking about Christ and the church.",
+          "id": 34537
+        },
+        {
+          "isRed": false,
+          "verse": 33,
+          "text": "Nevertheless, each man among you must love his own wife as he loves himself, and the wife must respect her husband.",
+          "id": 34538
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Children, obey your parents in the Lord, for this is right.",
+          "id": 34539
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "\"Honor your father and mother\" (which is the first commandment with a promise),",
+          "id": 34540
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "\"that it may be well with you and you may live long on the earth.\"",
+          "id": 34541
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Fathers, do not provoke your children to anger, but bring them up in the training and admonition of the Lord.",
+          "id": 34542
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Slaves, obey your earthly masters with fear and trembling, and with sincerity of heart, just as you would obey Christ.",
+          "id": 34543
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Do not try to please them only when they are watching you, but act like slaves of Christ, doing the will of God from your heart.",
+          "id": 34544
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Serve with a good attitude, as serving the Lord and not men,",
+          "id": 34545
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "knowing that whatever good anyone does he will receive back from the Lord, whether he is a slave or free.",
+          "id": 34546
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Masters, do the same for your slaves and stop threatening them, because you know that your own Master is in heaven, and there is no partiality with him.",
+          "id": 34547
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Finally, my brothers, be strong in the Lord and in the power of his might.",
+          "id": 34548
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Put on the full armor of God so that you may be able to stand against the schemes of the devil.",
+          "id": 34549
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "For we wrestle not against flesh and blood, but against the rulers, against the authorities, against the cosmic powers of the darkness of this age, and against the spiritual forces of evil in the heavenly places.",
+          "id": 34550
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Therefore take up the full armor of God so that you may be able to resist the enemy on the day of evil, and after you have done everything, to stand firm.",
+          "id": 34551
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Stand firm therefore by fastening the belt of truth around your waist, putting on the breastplate of righteousness,",
+          "id": 34552
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "and shodding your feet with the readiness of the gospel of peace.",
+          "id": 34553
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Above all, take up the shield of faith, with which you will be able to extinguish all the flaming arrows of the evil one.",
+          "id": 34554
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Take the helmet of salvation and the sword of the Spirit, which is the word of God.",
+          "id": 34555
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Pray in the Spirit at all times, with every prayer and supplication, and to this end, stay alert and be persistent in praying for all the saints.",
+          "id": 34556
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "Pray also for me, so that when I open my mouth to speak, a message may be given to me to make known with boldness the mystery of the gospel,",
+          "id": 34557
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "for which I am an ambassador in chains. Pray that I may declare it boldly, as I should.",
+          "id": 34558
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "Tychicus, the beloved brother and faithful servant in the Lord, will give you a full report about how I am doing so that you may be informed.",
+          "id": 34559
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "I have sent him to you for this very purpose, that you may know how we are doing and that he may encourage your hearts.",
+          "id": 34560
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "Peace be with the brothers, and love with faith, from God the Father and the Lord Jesus Christ.",
+          "id": 34561
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "Grace be with all who love our Lord Jesus Christ with an undying love. Amen.",
+          "id": 34562
+        }
+      ]
+    }
+  ]
+}

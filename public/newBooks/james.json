@@ -1,0 +1,678 @@
+{
+  "book": "James",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "James, a servant of God and of the Lord Jesus Christ, to the twelve tribes who are scattered abroad: Greetings.",
+          "id": 35468
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Count it all joy, my brothers, when you experience various trials,",
+          "id": 35469
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "because you know that the testing of your faith produces endurance.",
+          "id": 35470
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "And let endurance have its full effect, so that you may be perfect and complete, lacking in nothing.",
+          "id": 35471
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "If any of you lacks wisdom, he should ask God, who gives generously to all without reproach, and it will be given to him.",
+          "id": 35472
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "But he must ask in faith without doubting, for he who doubts is like a wave of the sea, driven by the wind and tossed about.",
+          "id": 35473
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "That person should not expect to receive anything from the Lord.",
+          "id": 35474
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "A double-minded man is unstable in all his ways.",
+          "id": 35475
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "The lowly brother should rejoice in being exalted,",
+          "id": 35476
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "and the rich man should rejoice in being made low, because he will pass away like a flower of grass.",
+          "id": 35477
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "For the sun rises with its scorching heat and withers the grass, and its flower falls, and the beauty of its appearance perishes. So also will the rich man fade away in his pursuits.",
+          "id": 35478
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Blessed is the man who endures temptation, for when he has been approved, he will receive the crown of life, which the Lord has promised to those who love him.",
+          "id": 35479
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "No one should say when he is tempted, \"I am being tempted by God,\" for God is not tempted by evil, and he himself tempts no one.",
+          "id": 35480
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "But each person is tempted when he is drawn away and enticed by his own evil desires.",
+          "id": 35481
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "And when desire has conceived, it gives birth to sin. And when sin is fully grown, it brings forth death.",
+          "id": 35482
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Do not be deceived, my beloved brothers.",
+          "id": 35483
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Every good and perfect gift is from above, coming down from the Father of lights, with whom there is no variation or shadow of turning.",
+          "id": 35484
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Of his own will he gave us birth by the word of truth so that we would be a kind of firstfruits of his creatures.",
+          "id": 35485
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "So then, my beloved brothers, everyone should be swift to hear, slow to speak, and slow to anger.",
+          "id": 35486
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "For the anger of man does not bring about the righteousness of God.",
+          "id": 35487
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "Therefore, putting aside all filthiness and rampant wickedness, humbly receive the implanted word, which is able to save your souls.",
+          "id": 35488
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "But be doers of the word and not hearers only, deceiving yourselves.",
+          "id": 35489
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "For if anyone is a hearer of the word and not a doer, he is like a man who looks at his face in a mirror.",
+          "id": 35490
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "For he looks at himself and goes away, and then immediately forgets what he looks like.",
+          "id": 35491
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "But he who looks into the perfect law, the law of liberty, and abides by it, is not a forgetful hearer but a doer who acts. He will be blessed in what he does.",
+          "id": 35492
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "If anyone among you considers himself to be religious but does not bridle his tongue, he deceives himself and his religion is worthless.",
+          "id": 35493
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "Pure and undefiled religion before God our Father is this: to look after orphans and widows in their affliction and to keep oneself unstained by the world.",
+          "id": 35494
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "My brothers, practice your faith in our Lord Jesus Christ, the Lord of glory, without showing partiality.",
+          "id": 35495
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Suppose a man in fine clothing comes into your assembly wearing a gold ring, and a poor man in filthy clothing also comes in.",
+          "id": 35496
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "If you pay attention to the man who is wearing fine clothing and say to him, \"You sit here in a good place,\" but you say to the poor man, \"You stand there, or sit here under my footstool,\"",
+          "id": 35497
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "have you not made distinctions among yourselves and become judges with evil thoughts?",
+          "id": 35498
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Listen, my beloved brothers, has not God chosen the poor of the world to be rich in faith and heirs of the kingdom that he has promised to those who love him?",
+          "id": 35499
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "But you have dishonored the poor man. Is it not the rich who oppress you? Are they not the ones who drag you into court?",
+          "id": 35500
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Do they not blaspheme the good name by which you are called?",
+          "id": 35501
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "If you really fulfill the royal law according to the Scripture, \"You shall love your neighbor as yourself,\" you do well.",
+          "id": 35502
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "But if you show partiality, you commit sin and are convicted by the law as transgressors.",
+          "id": 35503
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "For whoever keeps the entire law but stumbles in one point has become guilty of it all.",
+          "id": 35504
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "For he who said, \"You shall not commit adultery,\" also said, \"You shall not murder.\" Now if you do not commit adultery but do commit murder, you have become a transgressor of the law.",
+          "id": 35505
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Speak and act as those who will be judged by the law of liberty.",
+          "id": 35506
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "For judgment is without mercy to anyone who has not shown mercy; mercy triumphs over judgment.",
+          "id": 35507
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "What is the benefit, my brothers, if someone says he has faith but does not have works? Can that faith save him?",
+          "id": 35508
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "If a brother or sister is poorly clothed and lacks daily food,",
+          "id": 35509
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "and one of you says to them, \"Go in peace, be warmed and filled,\" without giving them anything to address their physical needs, what is the benefit?",
+          "id": 35510
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "In the same way faith by itself, if it does not have works, is dead.",
+          "id": 35511
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "But someone will say, \"You have faith, and I have works.\" Show me your faith by your works, and I, by my works, will show you my faith.",
+          "id": 35512
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "You believe that God is one; you do well. Even the demons believe—and shudder!",
+          "id": 35513
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "Do you want to be shown, O foolish man, that faith without works is dead?",
+          "id": 35514
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "Was not Abraham our father justified by works when he offered his son Isaac on the altar?",
+          "id": 35515
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "Do you see how faith was active along with his works, and by works his faith was made perfect?",
+          "id": 35516
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "And the Scripture was fulfilled that says, \"Abraham believed God, and it was counted to him as righteousness,\" and he was called a friend of God.",
+          "id": 35517
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "You see then that a person is justified by works, and not by faith alone.",
+          "id": 35518
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "In the same way, was not Rahab the prostitute also justified by works when she received the messengers and sent them out by another way?",
+          "id": 35519
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "For just as the body without the spirit is dead, so faith without works is also dead.",
+          "id": 35520
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Not many of you should become teachers, my brothers, because you know that we who teach will be judged more strictly.",
+          "id": 35521
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "For we all stumble in many ways. If anyone does not stumble in what he says, he is a perfect man, able to bridle his entire body as well.",
+          "id": 35522
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Behold, we put bits into the mouths of horses so that they will obey us, and we guide their entire bodies.",
+          "id": 35523
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Or take ships for example, though they are so large and driven by fierce winds, they are guided by a very small rudder wherever the inclination of the pilot directs.",
+          "id": 35524
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "In the same way, the tongue is a small member, yet it makes great boasts. Consider how great a forest a little fire kindles.",
+          "id": 35525
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "And the tongue is a fire. The tongue is placed among our members as a world of unrighteousness, staining the entire body, setting the course of life on fire, and itself being set on fire by hell.",
+          "id": 35526
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Every species of beast, bird, reptile, and sea creature can be tamed and has been tamed by man,",
+          "id": 35527
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "but no man can tame the tongue. It is an unruly evil, full of deadly poison.",
+          "id": 35528
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "With it we bless God our Father, and with it we curse men, who are made in God''s likeness.",
+          "id": 35529
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Out of the same mouth come blessing and cursing. My brothers, this ought not to be so.",
+          "id": 35530
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Does a spring pour out fresh water and bitter water from the same opening?",
+          "id": 35531
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Can a fig tree, my brothers, produce olives, or a grapevine figs? In the same way, no spring can produce both salt water and fresh water.",
+          "id": 35532
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Who is wise and understanding among you? By his good conduct he should show that his works are done with the gentleness that comes from wisdom.",
+          "id": 35533
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "But if you have bitter jealousy and selfish ambition in your hearts, do not boast or deny the truth.",
+          "id": 35534
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "This is not the wisdom that comes down from above, but is earthly, unspiritual, and demonic.",
+          "id": 35535
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "For where there is jealousy and selfish ambition, there is disorder and every evil practice.",
+          "id": 35536
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "But the wisdom from above is first pure, then peaceable, gentle, easily entreated, full of mercy and good fruits, impartial, and unhypocritical.",
+          "id": 35537
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "And the fruit of righteousness is sown in peace by those who make peace.",
+          "id": 35538
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Where do wars and fights among you come from? Do they not come from your passions that wage war among your members?",
+          "id": 35539
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "You desire but do not have. You murder and are jealous but cannot obtain what you want. You fight and war. You do not have, because you do not ask.",
+          "id": 35540
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "You ask and do not receive because you ask wrongly, so that you may spend what you get on your pleasures.",
+          "id": 35541
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Adulterers and adulteresses! Do you not know that friendship with the world is enmity with God? Therefore whoever wishes to be a friend of the world makes himself an enemy of God.",
+          "id": 35542
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Or do you think that the Scripture speaks in vain? The spirit that dwells in us desires to the point of envy,",
+          "id": 35543
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "but God gives greater grace. Therefore it says, \"God opposes the proud but gives grace to the humble.\"",
+          "id": 35544
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Submit yourselves therefore to God, but resist the devil, and he will flee from you.",
+          "id": 35545
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Draw near to God, and he will draw near to you. Cleanse your hands, you sinners; and purify your hearts, you double-minded.",
+          "id": 35546
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Grieve, mourn, and weep. Turn your laughter into mourning, and your joy into gloom.",
+          "id": 35547
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Humble yourselves before the Lord, and he will exalt you.",
+          "id": 35548
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Do not speak evil against one another, brothers. He who speaks evil against a brother and judges his brother, speaks evil against the law and judges the law. Now if you judge the law, you are not a doer of the law but a judge.",
+          "id": 35549
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "There is only one lawgiver, he who is able to save and destroy. But who are you to judge another?",
+          "id": 35550
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Come now, you who say, \"Today and tomorrow let us go to such and such a city, spend a year there, trade, and make a profit.\"",
+          "id": 35551
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "You do not know what will happen tomorrow. What is your life? It is a vapor that appears for a little while and then vanishes away.",
+          "id": 35552
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Instead you ought to say, \"If the Lord wills, let us live and do this or that.\"",
+          "id": 35553
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "But as it is, you boast in your arrogance; all such boasting is evil.",
+          "id": 35554
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "So whoever knows the right thing to do and does not do it, for him it is sin.",
+          "id": 35555
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Come now, you who are rich, weep and howl over the miseries that are coming upon you.",
+          "id": 35556
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Your riches have rotted, and your garments are moth-eaten.",
+          "id": 35557
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Your gold and silver have rusted, and their rust will be a testimony against you and will eat your flesh like fire. You have laid up treasure in the last days.",
+          "id": 35558
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Behold, the wages of the workers who harvested your fields, which you kept back by fraud, cry out, and the cries of the reapers have reached the ears of the Lord of hosts.",
+          "id": 35559
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "You have lived on the earth in luxury and self-indulgence. You have nourished your hearts as in a day of slaughter.",
+          "id": 35560
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "You have condemned and murdered the righteous man; he does not resist you.",
+          "id": 35561
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Therefore be patient, brothers, until the coming of the Lord. Behold, the farmer waits for the precious fruit of the earth, being patient for it until it receives the early and latter rain.",
+          "id": 35562
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "You also must be patient. Establish your hearts, for the coming of the Lord has drawn near.",
+          "id": 35563
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Do not complain against one another, brothers, so that you will not be judged. Behold, the Judge is standing at the door.",
+          "id": 35564
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "As an example of suffering and patience, my brothers, take the prophets who spoke in the name of the Lord.",
+          "id": 35565
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Behold, we regard as blessed those who endure. You have heard of the endurance of Job. Now consider the purpose of the Lord, how he is full of compassion and mercy.",
+          "id": 35566
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Above all, my brothers, do not swear, neither by heaven, nor by earth, nor by any other oath. But let your \"Yes\" be \"Yes\" and your \"No\" be \"No,\" so that you will not fall into hypocrisy.",
+          "id": 35567
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Is anyone among you suffering? He should pray. Is anyone of good cheer? He should sing praise.",
+          "id": 35568
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Is anyone among you sick? He should call for the elders of the church, and they should pray over him, anointing him with oil in the name of the Lord.",
+          "id": 35569
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "The prayer of faith will save the one who is sick, and the Lord will raise him up. And if he has committed sins, he will be forgiven.",
+          "id": 35570
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Confess your trespasses to one another and pray for one another so that you may be healed. The prayer of a righteous person is very powerful and effective.",
+          "id": 35571
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Elijah was a man with a nature like ours, and he prayed earnestly that it might not rain, and for three years and six months it did not rain on the land.",
+          "id": 35572
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Then he prayed again, and the sky gave rain, and the land produced its fruit.",
+          "id": 35573
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "Brothers, if anyone among you wanders from the truth and someone turns him back,",
+          "id": 35574
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "be assured that whoever turns a sinner back from the error of his way will save a soul from death and will cover a multitude of sins.",
+          "id": 35575
+        }
+      ]
+    }
+  ]
+}

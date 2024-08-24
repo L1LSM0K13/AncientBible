@@ -1,0 +1,1612 @@
+{
+  "book": "II Corinthians",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Paul, an apostle of Jesus Christ by the will of God, and Timothy our brother, to the church of God in Corinth, together with all the saints throughout Achaia:",
+          "id": 34002
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+          "id": 34003
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Blessed be the God and Father of our Lord Jesus Christ, the Father of mercies and God of all comfort,",
+          "id": 34004
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "who comforts us in all our affliction, so that we can comfort those experiencing any kind of affliction with the comfort we ourselves have received from God.",
+          "id": 34005
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "For just as we share abundantly in the sufferings of Christ, so also our comfort abounds through Christ.",
+          "id": 34006
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "If we are afflicted, it is for your comfort and salvation, which helps you patiently endure the same sufferings that we suffer. And our hope for you is steadfast. If we are comforted, it is also for your comfort and salvation,",
+          "id": 34007
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "because we know that just as you share in our sufferings, so also you share in our comfort.",
+          "id": 34008
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "We do not want you to be unaware, brothers, of the affliction we experienced in Asia. For we were so utterly burdened beyond our strength that we despaired of life itself.",
+          "id": 34009
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Indeed, we felt that we had received the sentence of death. But this happened so that we would not rely on ourselves, but on God, who raises the dead.",
+          "id": 34010
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "He rescued us from such a terrible death, and continues to rescue us. We have put our hope in him that he will rescue us yet again",
+          "id": 34011
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "as you join in helping us by your prayers. Then many will give thanks on your behalf for the favor granted to us through the prayers of many.",
+          "id": 34012
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Now this is the reason for our confidence: Our conscience testifies that we have conducted ourselves in the world, and especially toward you, with integrity and godly sincerity, not by worldly wisdom, but by the grace of God.",
+          "id": 34013
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "For we are not writing anything to you other than what you can read and understand. And I hope that you will understand completely—",
+          "id": 34014
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "just as you have understood us in part—that on the day of the Lord Jesus you will be proud of us just as we will be proud of you.",
+          "id": 34015
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Because I was confident of this, I intended to come to you first, so that you would be blessed by a second visit.",
+          "id": 34016
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "I wanted to visit you on my way to Macedonia and return to you from Macedonia, and then have you send me on my way to Judea.",
+          "id": 34017
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Was I vacillating when I planned to do this? Or do I make my plans in a worldly manner, ready to say \"Yes\" and \"No\" at the same time?",
+          "id": 34018
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "But as surely as God is faithful, our message to you did not waver between \"Yes\" and \"No.\"",
+          "id": 34019
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "For the Son of God, Jesus Christ, whom Silvanus, Timothy, and I preached among you, did not waver between \"Yes\" and \"No.\" On the contrary, in him God''s answer has always been \"Yes.\"",
+          "id": 34020
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "For in him every one of God''s promises is \"Yes,\" and in him we say \"Amen\" to the glory of God.",
+          "id": 34021
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "Now it is God who establishes us with you in Christ and who anointed us.",
+          "id": 34022
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "He has also sealed us and put his Spirit in our hearts as a guarantee.",
+          "id": 34023
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "But I call upon God as a witness against me, that the reason I did not return to Corinth was to spare you.",
+          "id": 34024
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "Not that we rule over your faith; rather, we work with you for your joy, because by faith you stand firm.",
+          "id": 34025
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "So I made up my mind that I would not come to you again in sorrow.",
+          "id": 34026
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "For if I make you sorrowful, who is there to make me glad but the one whom I have made sorrowful?",
+          "id": 34027
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "That is why I wrote to you as I did, so that when I came I would not have sorrow from those who ought to make me rejoice. I had confidence about you all that my joy would be yours.",
+          "id": 34028
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "For I wrote to you out of great distress and anguish of heart and with many tears, not to cause you sorrow, but to let you know the abundant love I have for you.",
+          "id": 34029
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Now if anyone has caused sorrow, he has caused it not to me, but in some measure (not to put it too severely) to all of you.",
+          "id": 34030
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "This punishment by the majority is enough for that person.",
+          "id": 34031
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "So you should forgive and comfort him instead, so that he will not be overwhelmed with excessive sorrow.",
+          "id": 34032
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Therefore I urge you to reaffirm your love for him.",
+          "id": 34033
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "I wrote to you because I wanted to test your character and see if you would be obedient in everything.",
+          "id": 34034
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Now if you forgive anyone of anything, I also forgive him. For if I have forgiven anyone of anything, I have done it for your sakes in the presence of Christ,",
+          "id": 34035
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "so that we might not be exploited by Satan. For we are not ignorant of his schemes.",
+          "id": 34036
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Now when I came to Troas to preach the gospel of Christ, a door was opened for me in the Lord.",
+          "id": 34037
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "But I had no rest in my spirit because I did not find my brother Titus. So I took leave of the people there and went on to Macedonia.",
+          "id": 34038
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "But thanks be to God, who always leads us in triumphal procession in Christ, and through us spreads the fragrance of the knowledge of Christ everywhere.",
+          "id": 34039
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "For we are a sweet fragrance of Christ ascending to God among those who are being saved and among those who are perishing;",
+          "id": 34040
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "to the latter we are a smell of death leading to death, but to the former we are a fragrance of life leading to life. And who is equal to such a task?",
+          "id": 34041
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "For we are not like others who peddle the word of God for profit. On the contrary, in Christ we speak with sincerity in the presence of God, as men sent from God.",
+          "id": 34042
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Are we beginning to commend ourselves again? Do we need, as some do, letters of recommendation to you or letters of recommendation from you?",
+          "id": 34043
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "You are our letter, written on our hearts, known and read by all.",
+          "id": 34044
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "You show that you are a letter from Christ, delivered by us, written not with ink, but with the Spirit of the living God, not on stone tablets, but on tablets of human hearts.",
+          "id": 34045
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Such is the confidence that we have in God through Christ.",
+          "id": 34046
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Not that we are competent in and of ourselves to claim that anything comes from us, but our competence comes from God.",
+          "id": 34047
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "He has made us competent to be ministers of a new covenant, not of the letter, but of the Spirit. For the letter kills, but the Spirit gives life.",
+          "id": 34048
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Now if the ministry of death, which was engraved in letters on stone, came with glory, so that the sons of Israel could not gaze at the face of Moses because of its glory (a glory that was fading away),",
+          "id": 34049
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "will not the ministry of the Spirit be even more glorious?",
+          "id": 34050
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "For if the ministry of condemnation was glorious, the ministry of righteousness abounds in glory even more.",
+          "id": 34051
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "For what was once glorious now has no glory in comparison with the glory that surpasses it.",
+          "id": 34052
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "And if what was fading away came with glory, what remains will be even more glorious.",
+          "id": 34053
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Therefore, since we have such a hope, we act with great boldness.",
+          "id": 34054
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "We are not like Moses, who would put a veil over his face so that the sons of Israel would not gaze at the end of what was fading away.",
+          "id": 34055
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "But their minds were hardened, for to this day the same veil remains unlifted when the old covenant is read. Only in Christ is this veil taken away.",
+          "id": 34056
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "But to this day, when Moses is read, a veil lies over their hearts.",
+          "id": 34057
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "But whenever someone turns to the Lord, the veil is taken away.",
+          "id": 34058
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Now the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom.",
+          "id": 34059
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "And we all, with unveiled faces reflecting the glory of the Lord, are being transformed into the same image from one degree of glory to another; this comes from the Lord, who is the Spirit.",
+          "id": 34060
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Therefore, since we have this ministry through God''s mercy, we do not lose heart.",
+          "id": 34061
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Rather, we have renounced shameful hidden deeds; we do not act deceitfully or distort the word of God, but by openly proclaiming the truth we commend ourselves to everyone''s conscience in the sight of God.",
+          "id": 34062
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "But even if our gospel is veiled, it is veiled among those who are perishing.",
+          "id": 34063
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "The god of this age has blinded the minds of unbelievers like them, so that the light of the gospel of the glory of Christ, who is the image of God, might not dawn upon them.",
+          "id": 34064
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "For what we preach is not ourselves, but Christ Jesus as Lord, and ourselves as your servants for Jesus'' sake.",
+          "id": 34065
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "For God, who commanded light to shine out of darkness, has shone in our hearts to give us the light of the knowledge of the glory of God in the face of Jesus Christ.",
+          "id": 34066
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "But we have this treasure in jars of clay, to show that this extraordinary power is from God and not from us.",
+          "id": 34067
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "We are afflicted in every way, but not crushed; perplexed, but not in despair;",
+          "id": 34068
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "persecuted, but not forsaken; struck down, but not destroyed;",
+          "id": 34069
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "always carrying about in our bodies the death of the Lord Jesus, so that the life of Jesus may also be revealed in our bodies.",
+          "id": 34070
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "For we who live are always being delivered up to death for Jesus'' sake, so that the life of Jesus may also be revealed in our mortal flesh.",
+          "id": 34071
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "So then, death is at work in us, but life is at work in you.",
+          "id": 34072
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "It is written, \"I believed, therefore I spoke.\" With that same spirit of faith we also believe, therefore we also speak.",
+          "id": 34073
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "For we know that he who raised the Lord Jesus will also raise us through Jesus and bring us with you into his presence.",
+          "id": 34074
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "All of this is for your benefit, so that grace, as it extends to more and more people, may cause thanksgiving to abound to the glory of God.",
+          "id": 34075
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Therefore we do not lose heart. Even though on the outside we are wasting away, on the inside we are being renewed day by day.",
+          "id": 34076
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "For our light and momentary affliction is bringing about for us an eternal weight of glory far beyond all measure,",
+          "id": 34077
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "as we look not to what is seen, but to what is unseen. For what is seen is temporary, but what is unseen is eternal.",
+          "id": 34078
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Now we know that if the earthly tent we live in is destroyed, we have a building from God, an eternal house in heaven, not made by human hands.",
+          "id": 34079
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "For in this tent we groan, longing to be further clothed with our heavenly dwelling,",
+          "id": 34080
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "because when we are clothed, we will not be found naked.",
+          "id": 34081
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "For while we are in this tent, we groan and are burdened, not because we want to be unclothed, but further clothed, so that what is mortal may be swallowed up by life.",
+          "id": 34082
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Now he who has prepared us for this very thing is God, who has also given us the Spirit as a guarantee.",
+          "id": 34083
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Therefore we have courage at all times, and we know that while we are at home in the body we are away from the Lord.",
+          "id": 34084
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "For we walk by faith, not by sight.",
+          "id": 34085
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Yes, we have courage and would rather be away from the body and at home with the Lord.",
+          "id": 34086
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Therefore, whether we are at home or away, we aspire to be pleasing to him.",
+          "id": 34087
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "For we must all appear before the judgment seat of Christ, so that each of us may receive his due for what he has done in the body, whether good or evil.",
+          "id": 34088
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Therefore, because we know what it is to fear the Lord, we persuade others. What we are is known to God, and I hope that it is known in your consciences as well.",
+          "id": 34089
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "For we are not commending ourselves to you again, but we are giving you an opportunity to boast about us, so that you may be able to answer those who boast about outward appearances and not about matters of the heart.",
+          "id": 34090
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "If we are out of our mind, it is for God; if we are in our right mind, it is for you.",
+          "id": 34091
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "For the love of Christ compels us, because we have concluded that if one died for all, then all have died.",
+          "id": 34092
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "And he died for all so that those who live may no longer live for themselves, but for him who died for them and was raised.",
+          "id": 34093
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "So from now on we regard no one according to the flesh. Even if we have known Christ according to the flesh, we no longer know him in that way.",
+          "id": 34094
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Therefore, if anyone is in Christ, he is a new creation. Old things have passed away; behold, all things have become new.",
+          "id": 34095
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "And all these things are from God, who reconciled us to himself through Jesus Christ and gave us the ministry of reconciliation,",
+          "id": 34096
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "namely, that God was reconciling the world to himself in Christ, not counting people''s trespasses against them. And he has committed to us the message of reconciliation.",
+          "id": 34097
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "Therefore, we are ambassadors for Christ, as though God were making an appeal through us. We plead on Christ''s behalf: \"Be reconciled to God.\"",
+          "id": 34098
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "For God made him who did not know sin to be a sin offering for us, so that in him we might become the righteousness of God.",
+          "id": 34099
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "As God''s fellow workers, we urge you not to receive the grace of God in vain.",
+          "id": 34100
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "For he says, \"At a favorable time I listened to you, and in a day of salvation I helped you.\" Behold, now is the favorable time; now is the day of salvation.",
+          "id": 34101
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "We are putting no obstacle in anyone''s way, so that our ministry may not be discredited.",
+          "id": 34102
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Rather, as servants of God we commend ourselves in every way: in great endurance, in afflictions, in hardships, in distresses,",
+          "id": 34103
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "in beatings, in imprisonments, in riots, in labors, in sleepless nights, in hunger,",
+          "id": 34104
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "in purity, in knowledge, in patience, in kindness, in the Holy Spirit, in genuine love,",
+          "id": 34105
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "in the word of truth, in the power of God; with weapons of righteousness for the right hand and the left,",
+          "id": 34106
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "through glory and dishonor, through bad report and good report; regarded as deceivers, and yet true;",
+          "id": 34107
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "as unknown, and yet well known; as dying, and behold, we live; as punished, and yet not put to death;",
+          "id": 34108
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "as sorrowful, yet always rejoicing; as poor, yet making many rich; as having nothing, yet possessing everything.",
+          "id": 34109
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "O Corinthians, we have spoken freely to you; our hearts have been opened wide.",
+          "id": 34110
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "You are not restricted by us, but by your own affections.",
+          "id": 34111
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Now in return—I am speaking as I would to my own children—open your hearts to us.",
+          "id": 34112
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Do not be unequally yoked with unbelievers. For what partnership is there between righteousness and lawlessness? What fellowship does light have with darkness?",
+          "id": 34113
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "What harmony does Christ have with Belial? What portion does a believer have with an unbeliever?",
+          "id": 34114
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "And what agreement does the temple of God have with idols? For you are the temple of the living God, just as God said, \"I will dwell in them and walk among them. I will be their God, and they will be my people.",
+          "id": 34115
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Therefore, come out from among them and be separate, says the Lord. Touch no unclean thing, and I will receive you.",
+          "id": 34116
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "I will be a father to you, and you will be sons and daughters to me, says the Lord Almighty.\"",
+          "id": 34117
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Therefore, since we have these promises, beloved, let us cleanse ourselves from every defilement of the flesh and spirit, bringing holiness to completion in the fear of God.",
+          "id": 34118
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Make room for us in your hearts. We have wronged no one, we have corrupted no one, we have taken advantage of no one.",
+          "id": 34119
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "I do not say this to condemn you, for I have said before that you are in our hearts so that we die together with you and live together with you.",
+          "id": 34120
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Great is my boldness toward you; great is my boasting on your behalf. I am filled with comfort; I am overflowing with joy in all our affliction.",
+          "id": 34121
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "For even when we came to Macedonia, our bodies had no rest, but we were afflicted at every turn, with conflicts on the outside and fears within.",
+          "id": 34122
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "But God, who comforts the downcast, comforted us by the arrival of Titus,",
+          "id": 34123
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "and not only by his arrival, but also by the comfort you had given him. He told us about your longing, your contrition, and your deep concern for me, so that I rejoiced all the more.",
+          "id": 34124
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "For even if I caused you sorrow by my letter, I do not regret it (though I did regret it, for I see that my letter caused you sorrow, though only for an hour).",
+          "id": 34125
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "But now I rejoice, not that you were made sorrowful, but that you were made sorrowful to the point of repentance. For you felt a godly sorrow, so that you suffered no loss through us.",
+          "id": 34126
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "For godly sorrow produces a repentance that leads to salvation, leaving no regret, but worldly sorrow produces death.",
+          "id": 34127
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Consider what earnestness this godly sorrow of yours has produced in you, what eagerness to clear yourselves, what indignation, what alarm, what longing, what zeal, what righting of wrong! In everything you have shown yourselves to be clear in the matter.",
+          "id": 34128
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "So although I wrote to you, it was not on account of the one who did the wrong, nor on account of the one who was wronged, but so that your earnestness for us might be revealed to you in the sight of God.",
+          "id": 34129
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "In this we find comfort. And in addition to the comfort we received from you, we rejoiced all the more at the joy of Titus, because his spirit has been refreshed by you all.",
+          "id": 34130
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "For if I made any boast to him about you, I was not put to shame. But just as everything we said to you was true, so our boasting to Titus has also proven to be true.",
+          "id": 34131
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "And his affection for you is even greater when he remembers the obedience of you all, how you received him with fear and trembling.",
+          "id": 34132
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "I rejoice, because I have complete confidence in you.",
+          "id": 34133
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Now we make known to you, brothers, the grace of God that has been given among the churches of Macedonia.",
+          "id": 34134
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "During a severe trial of affliction, their abundant joy and their deep poverty abounded in a wealth of generosity on their part.",
+          "id": 34135
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "For I testify that according to their ability, and even beyond their ability, they gave of their own accord,",
+          "id": 34136
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "urgently begging us for the privilege of contributing to the gift for the saints in Jerusalem.",
+          "id": 34137
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "And they did not do this in the way we expected, but they gave themselves first to the Lord and then to us by the will of God.",
+          "id": 34138
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "So we have urged Titus, who previously encouraged you to begin gathering money, to return and help you complete this gracious gift.",
+          "id": 34139
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "But just as you abound in everything—in faith, in speech, in knowledge, in complete earnestness, and in your love for us—see that you abound in this gracious gift as well.",
+          "id": 34140
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "I am not saying this as a command, but I want to test the sincerity of your love by comparing it with the earnestness of others.",
+          "id": 34141
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "For you know the grace of our Lord Jesus Christ, that though he was rich, yet for your sakes he became poor, so that by his poverty you could become rich.",
+          "id": 34142
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "So I am giving my advice about what is best for you in this matter. Last year you were not only the first who wanted to give, but you were also the first to begin doing so.",
+          "id": 34143
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Now finish doing it, so that your eager willingness to give may be matched by your completion of the gift, according to what you have.",
+          "id": 34144
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "For if the eager willingness is there, it is acceptable according to what one has, not according to what one does not have.",
+          "id": 34145
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "I do not mean there should be relief for others and hardship for you, but it is a matter of equality. At the present time your abundance should provide for their need,",
+          "id": 34146
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "so that in turn their abundance may provide for your need, and thus there may be equality.",
+          "id": 34147
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "As it is written, \"He who gathered much had nothing left over, and he who gathered little had no lack.\"",
+          "id": 34148
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "But thanks be to God, who has put into the heart of Titus the same earnest care for you that I have.",
+          "id": 34149
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "For Titus not only accepted our appeal, but with great enthusiasm he is coming to you of his own accord.",
+          "id": 34150
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "With him we are sending the brother who is praised by all the churches for his preaching of the gospel.",
+          "id": 34151
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "And not only that, but he has also been appointed by the churches to travel with us as we administer this gracious gift for the glory of the Lord himself and to show our eager willingness to help.",
+          "id": 34152
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "We are taking this precaution so that no one will discredit us with respect to this large sum that we are administering.",
+          "id": 34153
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "For we are giving careful thought to do what is right, not only in the sight of the Lord but also in the sight of men.",
+          "id": 34154
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "We are also sending with them our brother whom we have often tested and found to be earnest in many matters, and now he is even more earnest because of his great confidence in you.",
+          "id": 34155
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "If there is any question about Titus, he is my partner and fellow worker in your service. If there is any question about our brothers, they are delegates of the churches, the glory of Christ.",
+          "id": 34156
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "Therefore show them in front of all the churches the proof of your love and the reason for our boasting about you.",
+          "id": 34157
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "There is no need for me to write to you about this ministry of giving to the saints in Jerusalem.",
+          "id": 34158
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "For I know how eager you are to help, and I keep boasting about you to the Macedonians, saying that Achaia has been prepared to give since last year; and your zeal has stirred up most of them.",
+          "id": 34159
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "But I have sent the brothers so that our boasting about you in this matter may not prove to be empty, but that you may be prepared, just as I said you would be.",
+          "id": 34160
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Otherwise, if any of the Macedonians were to come with me and find you unprepared, we (not to mention you) would be ashamed of this confident boasting.",
+          "id": 34161
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "So I thought it necessary to urge the brothers to go on ahead to you and arrange in advance your previously announced blessing, so that this gift of yours may be ready as a blessing and not as something you feel forced to do.",
+          "id": 34162
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "My point is this: Whoever sows sparingly will also reap sparingly, and whoever sows bountifully will also reap bountifully.",
+          "id": 34163
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Each person should give as he decides in his heart, not with sadness or under compulsion, for God loves a cheerful giver.",
+          "id": 34164
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "And God is able to provide you with every blessing in abundance so that you will always have everything you need to abound in every good work.",
+          "id": 34165
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "As it is written, \"He has distributed freely, he has given to the poor; his righteousness endures forever.\"",
+          "id": 34166
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Now may he who provides seed to the sower, and bread for food, also multiply your seed for sowing and increase the harvest of your righteousness!",
+          "id": 34167
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "May you be enriched in every way to be generous on every occasion, and through us may your generosity produce thanksgiving to God!",
+          "id": 34168
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "For this ministry of giving is not only providing for the needs of the saints in Jerusalem but is also abounding through many thanksgivings to God.",
+          "id": 34169
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "By their approval of this ministry, the saints in Jerusalem will glorify God because of your submission to the gospel of Christ that you confess, and also because of your generous contribution to them and to all.",
+          "id": 34170
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "They will pray for you with deep affection because of the surpassing grace of God that is upon you.",
+          "id": 34171
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Thanks be to God for his indescribable gift!",
+          "id": 34172
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Now I, Paul, myself appeal to you by the meekness and gentleness of Christ—I who am humble when with you face to face, but bold toward you when absent!",
+          "id": 34173
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "I ask that when I am present I need not show boldness by daring to oppose those who think that we walk according to the flesh.",
+          "id": 34174
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "For though we walk in the flesh, we do not wage war according to the flesh.",
+          "id": 34175
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "For the weapons of our warfare are not of the flesh, but are powerful in God for tearing down strongholds.",
+          "id": 34176
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "We tear down arguments and every high thing that exalts itself against the knowledge of God, and we take every thought captive to the obedience of Christ.",
+          "id": 34177
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "We are ready to punish any disobedience, once your obedience is complete.",
+          "id": 34178
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Are you looking only at outward appearances? If anyone is confident that he belongs to Christ, he should remind himself that just as he belongs to Christ, so we also belong to Christ.",
+          "id": 34179
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "For even if I boast somewhat further about our authority (which the Lord has given us for building you up and not for tearing you down), I will not be ashamed.",
+          "id": 34180
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "For I do not want to seem as though I am trying to frighten you by my letters.",
+          "id": 34181
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "For, \"His letters,\" they say, \"are weighty and strong, but his bodily presence is weak, and his speech amounts to nothing.\"",
+          "id": 34182
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "The people who say such things should realize that what we say in our letters when we are absent, we will demonstrate by our actions when we are present.",
+          "id": 34183
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "For we do not dare to classify or compare ourselves with some who commend themselves. When they measure themselves with one another and compare themselves to one another, they do not show good sense.",
+          "id": 34184
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "We, however, will not boast beyond certain limits, but will confine our boasting to the area of ministry that God has assigned to us, which reaches even as far as you.",
+          "id": 34185
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "For we are not overextending ourselves, as though we did not reach you; we were the first to come all the way to you with the gospel of Christ.",
+          "id": 34186
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "We do not go beyond our limits by boasting in the labors of others. On the contrary, our hope is that, as your faith increases, our area of ministry among you will be greatly expanded,",
+          "id": 34187
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "so that we can preach the gospel in the regions beyond you, without boasting about work already done in someone else''s area of ministry.",
+          "id": 34188
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "But, \"Let him who boasts, boast in the Lord.\"",
+          "id": 34189
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "For it is not the one who commends himself who is approved, but the one whom the Lord commends.",
+          "id": 34190
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "If only you would bear with me for a bit in my foolishness! Yes, do bear with me!",
+          "id": 34191
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "I am jealous for you with a godly jealousy, because I promised you in marriage to one husband, to present you as a pure virgin to Christ.",
+          "id": 34192
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "But I am afraid that just as the serpent deceived Eve by his craftiness, so your minds will be led astray from simple devotion to Christ.",
+          "id": 34193
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "For if someone comes to you and preaches a different message about Jesus than the one we preached, or if you receive a different spirit than the one you received, or a different gospel than the one you accepted, you bear with it well enough.",
+          "id": 34194
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "For I consider myself to be in no way inferior to these \"super-apostles.\"",
+          "id": 34195
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "I may be untrained in speech, but I do not lack knowledge; indeed, in every way we have been made known to you in everything.",
+          "id": 34196
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Did I commit a sin by humbling myself so that you might be exalted, because I preached the gospel of God to you free of charge?",
+          "id": 34197
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "I \"robbed\" other churches by receiving support from them in order to serve you!",
+          "id": 34198
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "When I was with you and in need, I did not burden anyone, for the brothers who came from Macedonia supplied what I needed. I kept myself from being a burden to you in any way, and I will continue to do so.",
+          "id": 34199
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "As surely as the truth of Christ is in me, this boasting of mine will not be silenced in the regions of Achaia.",
+          "id": 34200
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Why? Because I do not love you? God knows I do!",
+          "id": 34201
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "But what I am doing I will continue to do, so that I may deny any opportunity to those who want to be regarded as our equals in what they boast about.",
+          "id": 34202
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "For such men are false apostles and deceitful workers, disguising themselves as apostles of Christ.",
+          "id": 34203
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "And no wonder, for even Satan disguises himself as an angel of light.",
+          "id": 34204
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Therefore it is no great surprise if his servants also disguise themselves as servants of righteousness. Their end will be according to their works.",
+          "id": 34205
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "I repeat: Let no one consider me to be a fool. But if you do, receive me just as you would a fool, so that I too may boast a little.",
+          "id": 34206
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "What I say in this confidence of boasting, I am not saying in accordance with the Lord, but as a fool.",
+          "id": 34207
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Since many boast according to the flesh, I too will boast.",
+          "id": 34208
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "For you gladly bear with fools since you are so wise!",
+          "id": 34209
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "You bear with it if anyone enslaves you, devours you, takes advantage of you, exalts himself, or hits you in the face.",
+          "id": 34210
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "To my shame I admit that we were too weak for that! But whatever anyone else dares to boast about—I am speaking like a fool—I also dare to boast about.",
+          "id": 34211
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "Are they Hebrews? So am I. Are they Israelites? So am I. Are they the offspring of Abraham? So am I.",
+          "id": 34212
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "Are they servants of Christ? (I am speaking like I am out of my mind!) I am even more so, with far more labors, with beatings beyond measure, with far more imprisonments, and often facing death.",
+          "id": 34213
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "Five times I received from the Jews the forty lashes minus one.",
+          "id": 34214
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "Three times I was beaten with rods. Once I was stoned. Three times I was shipwrecked; a night and a day I spent in the open sea.",
+          "id": 34215
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "I have often been on journeys, exposed to dangers from rivers, dangers from robbers, dangers from my own people, dangers from the Gentiles, dangers in the city, dangers in the wilderness, dangers at sea, and dangers among false brothers.",
+          "id": 34216
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "I have endured labor and hardship, many sleepless nights, and hunger and thirst. I have often gone without food and have been cold due to a lack of sufficient clothing.",
+          "id": 34217
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "Apart from these external things, there is my daily burden, my concern for all the churches.",
+          "id": 34218
+        },
+        {
+          "isRed": false,
+          "verse": 29,
+          "text": "Who is weak, and I am not weak? Who is made to stumble, and I do not burn with indignation?",
+          "id": 34219
+        },
+        {
+          "isRed": false,
+          "verse": 30,
+          "text": "If I must boast, I will boast about the things that show my weakness.",
+          "id": 34220
+        },
+        {
+          "isRed": false,
+          "verse": 31,
+          "text": "The God and Father of the Lord Jesus Christ, who is blessed forever, knows that I am not lying.",
+          "id": 34221
+        },
+        {
+          "isRed": false,
+          "verse": 32,
+          "text": "In Damascus the governor under King Aretas was guarding the city of the Damascenes, wanting to arrest me,",
+          "id": 34222
+        },
+        {
+          "isRed": false,
+          "verse": 33,
+          "text": "but I was let down in a basket through a window in the city wall and escaped from his hands.",
+          "id": 34223
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Surely it is not beneficial for me to boast, yet I will go on to visions and revelations from the Lord.",
+          "id": 34224
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "I know a man in Christ who fourteen years ago was caught up to the third heaven. (Whether it was in the body or out of the body I do not know; God knows.)",
+          "id": 34225
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "And I know that this man (whether in the body or out of the body I do not know; God knows)",
+          "id": 34226
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "was caught up to Paradise and heard words too sacred to be spoken, which man is not permitted to utter.",
+          "id": 34227
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "I will boast on behalf of that man, but on my own behalf I will not boast, except about my weaknesses.",
+          "id": 34228
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "But even if I wanted to boast, I would not be a fool, for I would be speaking the truth. Nevertheless, I refrain so that no one will think more of me than what he sees in me or hears from me.",
+          "id": 34229
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "And to keep me from becoming conceited because of the surpassing greatness of the revelations I received, there was given to me a thorn in the flesh, a messenger of Satan to harass me so that I would not become conceited.",
+          "id": 34230
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Three times I pleaded with the Lord to take it away from me.",
+          "id": 34231
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "But he said to me, \"My grace is sufficient for you, for my power is made perfect in weakness.\" Therefore I will boast all the more gladly about my weaknesses, so that the power of Christ may rest upon me.",
+          "id": 34232
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "So I delight in weaknesses, in insults, in hardships, in persecutions, and in distresses for the sake of Christ. For when I am weak, then I am strong.",
+          "id": 34233
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "I have become a fool by boasting; you compelled me to do it. I ought to have been commended by you, for in no way have I been inferior to these \"super-apostles,\" even though I am nothing.",
+          "id": 34234
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "The signs of a true apostle were performed among you with great perseverance, with signs, wonders, and miracles.",
+          "id": 34235
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "In what way were you treated as inferior to the rest of the churches, except that I myself did not burden you? Forgive me this injustice!",
+          "id": 34236
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Behold, I am ready to come to you a third time, and I will not burden you, for I do not seek what belongs to you, but you yourselves. For children are not obligated to save up for their parents, but parents for their children.",
+          "id": 34237
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "So I will most gladly spend and be entirely spent for the sake of your souls, even if the more I love you, the less I am loved.",
+          "id": 34238
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Be that as it may, I did not burden you. But crafty fellow that I am, I apparently took you in by deceit!",
+          "id": 34239
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Did I take advantage of you through any of the men I sent to you?",
+          "id": 34240
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "I urged Titus to visit you and sent our brother with him. Did Titus take advantage of you? Did we not walk in the same spirit and in the same footsteps?",
+          "id": 34241
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "Do you still think that we are defending ourselves to you? In the sight of God we are speaking in Christ, and everything we do, beloved, is for your edification.",
+          "id": 34242
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "For I fear that when I come I may not find you as I wish, and that you may not find me as you wish. I fear that there may be quarrels, jealousies, fits of anger, selfish ambitions, insults, words of gossip, puffed up behaviors, and disorderly actions.",
+          "id": 34243
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "I fear that when I come again my God will humble me before you, and I may have to mourn over many who have previously sinned and not repented of the impurity, fornication, and sensuality they have practiced.",
+          "id": 34244
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "This is the third time I am coming to you. Every matter must be established by the mouth of two or three witnesses.",
+          "id": 34245
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "I gave a warning when I was present the second time, and now I am giving this written warning while absent: If I come again I will not spare those who sinned previously or any of the others,",
+          "id": 34246
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "since you seek proof that Christ is speaking in me. He is not weak in dealing with you, but is powerful among you.",
+          "id": 34247
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "For though he was crucified in weakness, he lives by the power of God. Now we also are weak in him, but in dealing with you we will live with him by the power of God.",
+          "id": 34248
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Examine yourselves to see if you are in the faith; test yourselves. Or do you not realize that Jesus Christ is in you?—unless, of course, you fail to meet the test.",
+          "id": 34249
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "But I hope you will recognize that we have not failed the test.",
+          "id": 34250
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "I pray to God that you will not do anything wrong—not so that we may appear to have met the test, but so that you may do what is right, even though we may appear to have failed.",
+          "id": 34251
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "For we cannot do anything against the truth, but only for the truth.",
+          "id": 34252
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "We rejoice when we are weak and you are strong, and we pray for your restoration.",
+          "id": 34253
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "The reason I am writing these things to you while I am absent is so that, when I am present, I will not need to be harsh in my use of authority, which the Lord has given me for building up and not for tearing down.",
+          "id": 34254
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Finally, brothers, rejoice. Be restored, be comforted, be of the same mind, and live in peace, and the God of love and peace will be with you.",
+          "id": 34255
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Greet one another with a holy kiss.",
+          "id": 34256
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "All the saints greet you.",
+          "id": 34257
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "The grace of the Lord Jesus Christ, the love of God, and the fellowship of the Holy Spirit be with you all. Amen.",
+          "id": 34258
+        }
+      ]
+    }
+  ]
+}

@@ -48,9 +48,17 @@ app.use(flash());
 
 // Path logging
 app.use((req, res, next) => {
-	console.log(`${req.method} ${req.path}`);
+	const start = Date.now();
+	const originalSend = res.send;
+
+	res.send = function (body) {
+		const duration = Date.now() - start;
+		console.log(req.method, req.path, res.statusCode, `${duration}ms`);
+		return originalSend.call(this, body);
+	};
 	next();
 });
+
 
 app.use('/', homeRoutes);
 app.use('/', verifyRoutes);

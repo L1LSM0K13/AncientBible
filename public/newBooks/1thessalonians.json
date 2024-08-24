@@ -1,0 +1,564 @@
+{
+  "book": "I Thessalonians",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Paul, Silvanus, and Timothy, to the church of the Thessalonians in God the Father and the Lord Jesus Christ: Grace to you and peace from God our Father and the Lord Jesus Christ.",
+          "id": 34762
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "We always give thanks to God for you all, making mention of you in our prayers,",
+          "id": 34763
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "remembering without ceasing, in the presence of our God and Father, your work of faith, your labor of love, and your endurance of hope in our Lord Jesus Christ.",
+          "id": 34764
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "For we know, brothers beloved by God, that you have been chosen,",
+          "id": 34765
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "because our gospel did not come to you in word only, but also in power and in the Holy Spirit and with much conviction. You know what sort of men we proved to be among you for your sake.",
+          "id": 34766
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "And you became imitators of us and of the Lord when you received the word in much affliction with the joy of the Holy Spirit.",
+          "id": 34767
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "As a result you have become examples to all the believers in Macedonia and Achaia.",
+          "id": 34768
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "For not only has the word of the Lord sounded forth from you in Macedonia and Achaia, but reports of your faith in God have gone out everywhere, so that we have no need to say anything about it.",
+          "id": 34769
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "For the people themselves report what kind of reception we had among you, and how you turned to God from idols to serve the living and true God,",
+          "id": 34770
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "and to wait for his Son from heaven, whom he raised from the dead—Jesus, who rescues us from the coming wrath.",
+          "id": 34771
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "For you yourselves know, brothers, that our visit to you was not in vain.",
+          "id": 34772
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "On the contrary, even though we had previously suffered and been mistreated in Philippi, as you know, we had boldness in our God to declare to you the gospel of God in the face of strong opposition.",
+          "id": 34773
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "For our exhortation does not come from error or impurity or with deceit,",
+          "id": 34774
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "but just as we have been approved by God to be entrusted with the gospel, so we speak, not as pleasing men, but God, who examines our hearts.",
+          "id": 34775
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "God is our witness that we never came with words of flattery or with a pretext for greed, as you well know.",
+          "id": 34776
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Nor did we seek glory from men (neither from you nor from others), though as Christ''s apostles we could have asserted our authority.",
+          "id": 34777
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Instead, we were gentle among you, like a nursing mother caring for her children.",
+          "id": 34778
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "We had such strong affection for you that we were pleased to share with you not only the gospel of God but also our own selves, because you had become dear to us.",
+          "id": 34779
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "For you remember, brothers, our labor and hardship. Working night and day so as not to be a burden on any of you, we preached to you the gospel of God.",
+          "id": 34780
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "You are witnesses, and so is God, of how devoutly, righteously, and blamelessly we conducted ourselves among you who believe.",
+          "id": 34781
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "As you know, we dealt with each one of you like a father deals with his own children, exhorting you, encouraging you,",
+          "id": 34782
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "and testifying that you should walk in a manner worthy of God, who calls you into his own kingdom and glory.",
+          "id": 34783
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "We also give thanks to God without ceasing because, when you received the word of God that you heard from us, you accepted it not as the word of men, but as it truly is, the word of God, which is at work in you who believe.",
+          "id": 34784
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "For you, brothers, became imitators of the churches of God in Christ Jesus that are in Judea, because you suffered the same things from your own countrymen that they did from the Jews,",
+          "id": 34785
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "who killed the Lord Jesus and their own prophets, and who also drove us out. They displease God and are hostile to all men",
+          "id": 34786
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "by hindering us from telling the Gentiles how they can be saved. In this way they are always filling up the measure of their sins, but wrath has come upon them at last.",
+          "id": 34787
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "As for us, brothers, when we were bereaved of you for a brief hour (being physically absent, but with you in our hearts), we longed with great eagerness to see you face to face.",
+          "id": 34788
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Therefore we wanted to come to you—certainly I, Paul, tried to do so again and again—but Satan hindered us.",
+          "id": 34789
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "For what is our hope or joy or crown of boasting in the presence of our Lord Jesus at his coming? Is it not you?",
+          "id": 34790
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "Yes, you are our glory and joy!",
+          "id": 34791
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Therefore, when we could bear it no longer, we thought it best to stay in Athens alone,",
+          "id": 34792
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "and we sent Timothy, our brother, who is a servant of God and our fellow worker in the gospel of Christ, to establish you and encourage you in your faith,",
+          "id": 34793
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "so that no one would be shaken by these afflictions. For you yourselves know that we have been appointed to afflictions such as these.",
+          "id": 34794
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "In fact, when we were with you, we told you in advance that we were going to suffer affliction, and as you well know, it has now happened.",
+          "id": 34795
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "For this reason, when I could bear it no longer, I sent Timothy to find out about your faith, lest somehow the tempter had tempted you and our labor had been in vain.",
+          "id": 34796
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "But Timothy has now come back to us from you and has brought us good news of your faith and love. He reports that you always have good memories of us, longing to see us, just as we also long to see you.",
+          "id": 34797
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Therefore, brothers, in all our affliction and distress, we were encouraged about you because of your faith.",
+          "id": 34798
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "For now we really live, since you are standing firm in the Lord.",
+          "id": 34799
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "How can we thank God enough for you in return for all the joy we have in the presence of our God because of you?",
+          "id": 34800
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Night and day we pray earnestly that we may see you face to face and supply what is lacking in your faith.",
+          "id": 34801
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Now may our God and Father himself and our Lord Jesus Christ direct our way to you.",
+          "id": 34802
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "May the Lord cause you to increase and abound in your love for one another and for all, just as we abound in our love for you.",
+          "id": 34803
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "And may he strengthen your hearts to be blameless in holiness in the presence of our God and Father when our Lord Jesus Christ comes with all his saints.",
+          "id": 34804
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Finally, brothers, we ask and urge you in the Lord Jesus that, just as you learned from us how you ought to walk and to please God, you do so more and more.",
+          "id": 34805
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "For you know the commands we gave you by the authority of the Lord Jesus.",
+          "id": 34806
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "It is God''s will that you be sanctified, that you abstain from fornication,",
+          "id": 34807
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "and that each of you know how to control your own body in holiness and honor,",
+          "id": 34808
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "not in lustful passion like the Gentiles who do not know God.",
+          "id": 34809
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "In this matter no one should wrong or take advantage of his brother, because the Lord is an avenger in all these things, as we told you before and solemnly warned you.",
+          "id": 34810
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "For God did not call us to impurity but to live in holiness.",
+          "id": 34811
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Therefore whoever rejects this command does not reject man but God, who has given his Holy Spirit to you.",
+          "id": 34812
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Now concerning brotherly love, you have no need for anyone to write to you, for you yourselves have been taught by God to love one another.",
+          "id": 34813
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "And indeed you do love all the brothers throughout Macedonia. But we urge you, brothers, to do so more and more.",
+          "id": 34814
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "We urge you to aspire to lead a quiet life, to attend to your own affairs, and to work with your own hands, just as we commanded you,",
+          "id": 34815
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "so that you may walk properly toward outsiders and not be in need of anything.",
+          "id": 34816
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "But we do not want you to be uninformed, brothers, about those who have fallen asleep, so that you may not be grieved like others who do not have hope.",
+          "id": 34817
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "For since we believe that Jesus died and rose again, we also believe that God will bring with Jesus those who have fallen asleep in him.",
+          "id": 34818
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "According to the word of the Lord, we declare to you that we who are alive, who are left behind until the coming of the Lord, will certainly not precede those who have fallen asleep.",
+          "id": 34819
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "For the Lord himself will descend from heaven with a commanding shout, with the voice of an archangel, and with the trumpet call of God, and the dead in Christ will rise first.",
+          "id": 34820
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Then we who are alive, who are left behind, will be caught up together with them in the clouds to meet the Lord in the air. And so we will always be with the Lord.",
+          "id": 34821
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Therefore encourage one another with these words.",
+          "id": 34822
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Now concerning the times and seasons, brothers, you have no need for anything to be written to you.",
+          "id": 34823
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "For you yourselves know very well that the day of the Lord will come like a thief in the night.",
+          "id": 34824
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "When people are saying, \"Peace and safety,\" destruction will come upon them suddenly, like labor pains upon a woman with child, and they will certainly not escape.",
+          "id": 34825
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "But you, brothers, are not in darkness so that this day should catch you like a thief.",
+          "id": 34826
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "You are all sons of light and sons of the day; we are not of the night or of the darkness.",
+          "id": 34827
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "So then let us not sleep, as others do, but let us be watchful and sober.",
+          "id": 34828
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "For those who sleep, sleep at night; and those who get drunk, get drunk at night.",
+          "id": 34829
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "But since we are of the day, let us be sober, putting on the breastplate of faith and love, and the hope of salvation as a helmet.",
+          "id": 34830
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "For God has not appointed us to suffer wrath, but to obtain salvation through our Lord Jesus Christ,",
+          "id": 34831
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "who died for us so that whether we are awake or asleep we may live together with him.",
+          "id": 34832
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Therefore encourage one another and build each other up, even as you are doing.",
+          "id": 34833
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Now we ask you, brothers, to recognize those who labor among you, who lead you in the Lord and admonish you,",
+          "id": 34834
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "and to regard them very highly in love because of their work. Be at peace with one another.",
+          "id": 34835
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "And we urge you, brothers, to admonish those who are idle, encourage the fainthearted, support the weak, and be patient toward all.",
+          "id": 34836
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "See that no one repays anyone evil for evil, but always strive to do what is good for each other and for everyone else.",
+          "id": 34837
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Rejoice always,",
+          "id": 34838
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "pray without ceasing,",
+          "id": 34839
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "in everything give thanks; for this is God''s will for you in Christ Jesus.",
+          "id": 34840
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "Do not quench the Spirit.",
+          "id": 34841
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "Do not despise prophecies,",
+          "id": 34842
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "but test everything; hold fast to what is good.",
+          "id": 34843
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "Avoid every form of evil.",
+          "id": 34844
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "Now may the God of peace himself sanctify you completely, and may your entire spirit, soul, and body be kept blameless at the coming of our Lord Jesus Christ.",
+          "id": 34845
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "He who calls you is faithful; he will surely do it.",
+          "id": 34846
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "Brothers, pray for us.",
+          "id": 34847
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "Greet all the brothers with a holy kiss.",
+          "id": 34848
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "I charge you by the Lord to have this letter read to all the holy brothers.",
+          "id": 34849
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "The grace of our Lord Jesus Christ be with you. Amen.",
+          "id": 34850
+        }
+      ]
+    }
+  ]
+}

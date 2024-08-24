@@ -1,0 +1,302 @@
+{
+  "book": "Nahum",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "The burden of Nineve: the book of the vision of Naum the Elkesite.",
+          "id": 23145
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "God is jealous, and the Lord avenges; the Lord avenges with wrath; the Lord takes vengeance on his adversaries, and he cuts off his enemies.",
+          "id": 23146
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "The Lord is longsuffering, and his power is great, and the Lord will not hold any guiltless: his way is in destruction and in the whirlwind, and the clouds are the dust of his feet.",
+          "id": 23147
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "He threatens the sea, and dries it up, and exhausts all the rivers: the land of Basan, and Carmel are brought low, and the flourishing trees of Libanus have come to nothing.",
+          "id": 23148
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "The mountains quake at him, and the hills are shaken, and the earth recoils at his presence, even the world, and all that dwell in it.",
+          "id": 23149
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Who shall stand before his anger? and who shall withstand in the anger of his wrath? his wrath brings to nothing kingdoms, and the rocks are burst asunder by him.",
+          "id": 23150
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "The Lord is good to them that wait on him in the day of affliction; and he knows them that reverence him.",
+          "id": 23151
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "But with an overrunning flood he will make an utter end: darkness shall pursue those that rise up against him and his enemies.",
+          "id": 23152
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "What do you devise against the Lord? he will make a complete end: he will not take vengeance by affliction twice at the same time.",
+          "id": 23153
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "For the enemy shall be laid bare even to the foundation, and shall be devoured as twisted yew, and as stubble fully dry.",
+          "id": 23154
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Out of you shall proceed a device against the Lord, counselling evil things hostile to him.",
+          "id": 23155
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Thus says the Lord who rules over many waters, Even thus shall they be sent away, and the report of you shall not be heard any more.",
+          "id": 23156
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "And now will I break his rod from off you, and will burst your bonds.",
+          "id": 23157
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "And the Lord shall give a command concerning you; there shall no more of your name be scattered: I will utterly destroy the graven images out of the house of your god, and the molten images: I will make your grave; for they are swift.",
+          "id": 23158
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Behold upon the mountains the feet of him that brings glad tidings, and publishes peace! O Juda, keep your feasts, pay your vows: for they shall no more pass through you to your decay.",
+          "id": 23159
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "It is all over with him, he has been removed, one who has been delivered from affliction has come up panting into your presence, watch the way, strengthen your loins, be very valiant in your strength.",
+          "id": 23160
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "For the Lord has turned aside the pride of Jacob, as the pride of Israel: for they have utterly rejected them, and have destroyed their branches.",
+          "id": 23161
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "They have destroyed the arms of their power from amongst men, their mighty men sporting with fire: the reins of their chariots shall be destroyed in the day of his preparation, and the horsemen shall be thrown into confusion",
+          "id": 23162
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "in the ways, and the chariots shall clash together, and shall be entangled in each other in the broad ways: their appearance is as lamps of fire, and as gleaming lightnings.",
+          "id": 23163
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "And their mighty men shall bethink themselves and flee by day; and they shall be weak as they go; and they shall hasten to her walls, and shall prepare their defences.",
+          "id": 23164
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "The gates of the cities have been opened, and the palaces have fallen into ruin,",
+          "id": 23165
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "and the foundation has been exposed; and she has gone up, and her maidservants were led away as doves moaning in their hearts.",
+          "id": 23166
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "And as for Nineve, her waters shall be as a pool of water: and they fled, and staid not, and there was none to look back.",
+          "id": 23167
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "They plundered the silver, they plundered the gold, and there was no end of their adorning; they were loaded with it upon all their pleasant vessels.",
+          "id": 23168
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "There is thrusting forth, and shaking, and tumult, and heart-breaking, and loosing of knees, and pangs on all loins; and the faces of all are as the blackening of a pot.",
+          "id": 23169
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Where is the dwelling-place of the lions, and the pasture that belonged to the whelps? where did the lion go, that the lion''s whelp should enter in there, and there was none to scare him away?",
+          "id": 23170
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "The lion seized enough prey for his whelps, and strangled for his young lions, and filled his lair with prey, and his dwelling-place with spoil.",
+          "id": 23171
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Behold, I am against you, says the Lord Almighty, and I will burn up your multitude in the smoke, and the sword shall devour your lions; and I will utterly destroy your prey from off the land, and your deeds shall no more at all be heard of.",
+          "id": 23172
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "O city of blood, wholly false, full of unrighteousness; the prey shall not be handled.",
+          "id": 23173
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "The noise of whips, and the noise of the rumbling of wheels, and of the pursuing horse, and of the bounding chariot,",
+          "id": 23174
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "and of the mounting rider, and of the glittering sword, and of the gleaming arms, and of a multitude of slain, and of heavy falling: and there was no end to her nations, but they shall be weak in their bodies",
+          "id": 23175
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "because of the abundance of fornication: she is a fair harlot, and well-favoured, skilled in sorcery, that sells the nations by her fornication, and peoples by her sorceries.",
+          "id": 23176
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Behold, I am against you, says the Lord God Almighty, and I will uncover your skirts in your presence, and I will show the nations your shame, and the kingdoms your disgrace.",
+          "id": 23177
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "And I will cast abominable filth upon you according to your unclean ways, and will make you a public example.",
+          "id": 23178
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "And it shall be that every one that sees you shall go down from you, and shall say, Wretched Nineve! who shall lament for her? whence shall I seek comfort for her?",
+          "id": 23179
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Prepare you a portion, tune the chord, prepare a portion for Ammon: she that dwells amongst the rivers, water is round about her, whose dominion is the sea, and whose walls are water.",
+          "id": 23180
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "And Ethiopia is her strength, and Egypt; and there was no limit of the flight of her enemies; and the Libyans became her helpers.",
+          "id": 23181
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Yet she shall go as a prisoner into captivity, and they shall dash her infants against the ground at the top of all her ways: and they shall cast lots upon all her glorious possessions, and all her nobles shall be bound in chains.",
+          "id": 23182
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "And you shall be drunken, and shall be overlooked; and you shall seek for yourself strength because of your enemies.",
+          "id": 23183
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "All your strongholds are as fig-trees having watchers: if they be shaken, they shall fall into the mouth of the eater.",
+          "id": 23184
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Behold, your people within you are as women: the gates of your land shall surely be opened to your enemies: the fire shall devour your bars.",
+          "id": 23185
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Draw you water for a siege, and well secure your strongholds: enter into the clay, and be you trodden in the chaff, make the fortifications stronger than brick.",
+          "id": 23186
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "There the fire shall devour you; the sword shall utterly destroy you, it shall devour you as the locust, and you shall be pressed down as a palmerworm.",
+          "id": 23187
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "You have multiplied your merchandise beyond the stars of heaven: the palmerworm has attacked it, and has flown away.",
+          "id": 23188
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Your mixed multitude has suddenly departed as the grasshopper, as the locust perched on a hedge in a frosty day; the sun arises, and it flies off, and knows not its place: woe to them!",
+          "id": 23189
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Your shepherds have slumbered, the Assyrian king has laid low your mighty men: your people departed to the mountains, and there was none to receive them.",
+          "id": 23190
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "There is no healing for your bruise; your wound has rankled: all that hear the report of you shall clap their hands against you; for upon whom has not your wickedness passed continually?",
+          "id": 23191
+        }
+      ]
+    }
+  ]
+}

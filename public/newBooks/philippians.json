@@ -1,0 +1,649 @@
+{
+  "book": "Philippians",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Paul and Timothy, servants of Jesus Christ, to all the saints in Christ Jesus who are in Philippi, together with the overseers and deacons:",
+          "id": 34563
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+          "id": 34564
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "I give thanks to my God every time I remember you,",
+          "id": 34565
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "always praying with joy in every one of my prayers for you all",
+          "id": 34566
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "because of your partnership with me in the gospel from the first day until now.",
+          "id": 34567
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "I am confident that he who began a good work in you will carry it on to completion until the day of Christ Jesus.",
+          "id": 34568
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "It is right for me to think this way about you all, since I have you in my heart. For you all share with me in God''s grace, both in my imprisonment and in my defense and confirmation of the gospel.",
+          "id": 34569
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "For God is my witness that I long for you all with the affection of Jesus Christ.",
+          "id": 34570
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "And I pray that your love may abound more and more in knowledge and all discernment,",
+          "id": 34571
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "so that you may approve what is excellent in order to be pure and blameless in the day of Christ,",
+          "id": 34572
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "filled with the fruits of righteousness that come through Jesus Christ, to the glory and praise of God.",
+          "id": 34573
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Now I want you to know, brothers, that what has happened to me has actually helped advance the gospel,",
+          "id": 34574
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "so that it has become known among the entire imperial guard and to everyone else that my imprisonment is for Christ.",
+          "id": 34575
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "And the greater part of the brothers in the Lord have gained confidence through my imprisonment and are far more bold to speak the word without fear.",
+          "id": 34576
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Some preach Christ out of envy and rivalry, but others do it out of good will.",
+          "id": 34577
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "The former preach Christ out of selfish ambition, not sincerely but intending to add affliction to me in my imprisonment.",
+          "id": 34578
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "The latter do it out of love, knowing that I am appointed for the defense of the gospel.",
+          "id": 34579
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "But what does it matter? Only that in every way, whether in pretense or in truth, Christ is proclaimed, and in that I rejoice. Yes, and I will continue to rejoice.",
+          "id": 34580
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "For I know that this will result in my deliverance through your prayers and the provision of the Spirit of Jesus Christ.",
+          "id": 34581
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "My eager expectation and hope is that I will not be put to shame in anything, but will speak with complete boldness so that now, as always, Christ will be magnified in my body, whether I live or die.",
+          "id": 34582
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "For to me, to live is Christ and to die is gain.",
+          "id": 34583
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "But if I am to live in the flesh, it will mean fruit from my labor. Yet I do not know which I prefer.",
+          "id": 34584
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "I am hard pressed between the two. I long to depart and be with Christ, which is far better.",
+          "id": 34585
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "But to remain in the flesh is more necessary for your sake.",
+          "id": 34586
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "Convinced of this, I know that I will remain and continue with you all for the sake of your progress and joy in the faith,",
+          "id": 34587
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "so that your boasting may abound in Christ Jesus because of me when I come to you again.",
+          "id": 34588
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "Only live as citizens in a manner worthy of the gospel of Christ, so that whether I come and see you or am absent, I may hear that you are standing firm in one spirit, striving together with one mind for the faith of the gospel,",
+          "id": 34589
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "and not being intimidated in any way by those who oppose you. For them this is an indication of destruction, but for you it is an indication of salvation, and that from God.",
+          "id": 34590
+        },
+        {
+          "isRed": false,
+          "verse": 29,
+          "text": "For it has been granted to you on behalf of Christ not only to believe in him, but also to suffer for him,",
+          "id": 34591
+        },
+        {
+          "isRed": false,
+          "verse": 30,
+          "text": "since you are experiencing the same conflict that you saw I had and now hear that I still have.",
+          "id": 34592
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "So if there is any encouragement in Christ, if there is any comfort from love, if there is any fellowship in the Spirit, if there is any compassion or mercy,",
+          "id": 34593
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "make my joy complete by adopting the same mindset, having the same love, being united in spirit, and having one purpose.",
+          "id": 34594
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Do nothing from selfish ambition or vain conceit, but in humility regard others as more important than yourselves.",
+          "id": 34595
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "None of you should look out for your own interests, but for the interests of others.",
+          "id": 34596
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Let the same mind be in you that was in Christ Jesus,",
+          "id": 34597
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "who, though he was in the form of God, did not consider equality with God as something to be exploited,",
+          "id": 34598
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "but emptied himself by taking the form of a servant and being born in the likeness of men.",
+          "id": 34599
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "And being found in appearance as a man, he humbled himself by becoming obedient to the point of death, even death on a cross.",
+          "id": 34600
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Therefore God highly exalted him and gave him the name that is above every other name,",
+          "id": 34601
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "so that at the name of Jesus every knee should bow, in heaven and on earth and under the earth,",
+          "id": 34602
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "and every tongue confess that Jesus Christ is Lord, to the glory of God the Father.",
+          "id": 34603
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Therefore, my beloved friends, just as you have always obeyed, not only in my presence, but now much more in my absence, work out your own salvation with fear and trembling,",
+          "id": 34604
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "for it is God who works in you both to will and to work for his good pleasure.",
+          "id": 34605
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Do everything without grumbling or arguing,",
+          "id": 34606
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "so that you may be blameless and pure, children of God without blemish in the midst of a crooked and perverse generation, among whom you shine as lights in the world",
+          "id": 34607
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "as you hold firmly to the word of life. Then I will have a reason to boast in the day of Christ that I did not run or labor in vain.",
+          "id": 34608
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "But even if I am being poured out as a drink offering upon the sacrifice and service of your faith, I am glad and rejoice with you all.",
+          "id": 34609
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "In the same way you also should be glad and rejoice with me.",
+          "id": 34610
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "I hope in the Lord Jesus to send Timothy to you soon so that I too may be encouraged when I receive news about you.",
+          "id": 34611
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "I have no one else like-minded who will be genuinely concerned about your welfare.",
+          "id": 34612
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "For they all seek their own interests, not those of Christ Jesus.",
+          "id": 34613
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "But you know Timothy''s proven character, how as a son with a father he has served with me in the work of the gospel.",
+          "id": 34614
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "Therefore I hope to send him to you at once, as soon as I find out what is going to happen to me.",
+          "id": 34615
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "And I am confident in the Lord that I myself will also come soon.",
+          "id": 34616
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "But for now I thought it necessary to send back to you Epaphroditus—my brother, fellow worker, and fellow soldier, who is also your messenger and minister to my need.",
+          "id": 34617
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "For he has been longing for you all and was distressed because you heard that he was sick.",
+          "id": 34618
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "Indeed he was sick, almost to the point of death. But God had mercy on him, and not only on him but also on me, so that I would not have one sorrow after another.",
+          "id": 34619
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "Therefore I am all the more eager to send him, so that when you see him again you can rejoice and I can be less anxious.",
+          "id": 34620
+        },
+        {
+          "isRed": false,
+          "verse": 29,
+          "text": "So receive him in the Lord with all joy, and honor men like him,",
+          "id": 34621
+        },
+        {
+          "isRed": false,
+          "verse": 30,
+          "text": "because he drew near to death for the work of Christ, disregarding his own life to complete what was lacking in your service to me.",
+          "id": 34622
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Finally, my brothers, rejoice in the Lord! To write this to you again is no trouble for me, and it is safe for you.",
+          "id": 34623
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Watch out for the dogs, watch out for the evil workers, watch out for those who mutilate the flesh.",
+          "id": 34624
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "For we are the circumcision, we who worship by the Spirit of God, who boast in Christ Jesus, and who put no confidence in the flesh,",
+          "id": 34625
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "even though I myself might put confidence in the flesh. If anyone else presumes to have confidence in the flesh, I have more:",
+          "id": 34626
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "circumcised on the eighth day, of the people of Israel, of the tribe of Benjamin, a Hebrew of Hebrews; as to the law, a Pharisee;",
+          "id": 34627
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "as to zeal, a persecutor of the church; as to righteousness under the law, blameless.",
+          "id": 34628
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "But whatever was gain to me I have counted as loss for the sake of Christ.",
+          "id": 34629
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "More than that, I count all things as loss because of the surpassing value of knowing Christ Jesus my Lord. For his sake I have suffered the loss of all things and count them as rubbish so that I may gain Christ",
+          "id": 34630
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "and be found in him, not having a righteousness of my own that comes from the law, but the righteousness that is through faith in Christ, which comes from God on the basis of faith.",
+          "id": 34631
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "I want to know Christ and the power of his resurrection and the fellowship of his sufferings, becoming like him in his death,",
+          "id": 34632
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "in the hope of attaining to the resurrection from the dead.",
+          "id": 34633
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Not that I have already obtained it or have already been made perfect, but I press on to take hold of that for which Christ Jesus has taken hold of me.",
+          "id": 34634
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Brothers, I do not consider myself to have taken hold of it. But one thing I do: Forgetting what is behind and reaching forward to what is ahead,",
+          "id": 34635
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "I press on toward the goal to win the prize of the upward call of God in Christ Jesus.",
+          "id": 34636
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Therefore all of us who are mature should adopt this mindset, and if you adopt a different mindset about anything, God will reveal that to you as well.",
+          "id": 34637
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Nevertheless, let us live up to the same standard that we have already attained; let us adopt the same mindset.",
+          "id": 34638
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Join together in imitating me, brothers, and pay close attention to those who walk according to the example you have in us.",
+          "id": 34639
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "For I have often told you, and tell you now with tears, that many walk as enemies of the cross of Christ.",
+          "id": 34640
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "Their end is destruction, their god is their belly, and their glory is in their shame. Their minds are set on earthly things.",
+          "id": 34641
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "But our citizenship is in heaven, and we eagerly await a Savior from there, the Lord Jesus Christ,",
+          "id": 34642
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "who will transform our lowly bodies to be like his glorious body, by the power that enables him to subject all things to himself.",
+          "id": 34643
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Therefore, my brothers, whom I love and long for, my joy and crown, stand firm in the Lord in this way, my beloved friends.",
+          "id": 34644
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "I urge Euodia and Syntyche to be of the same mind in the Lord.",
+          "id": 34645
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Yes, I ask you also, my true companion, to assist these women, who have contended for the gospel at my side, along with Clement and the rest of my fellow workers, whose names are in the book of life.",
+          "id": 34646
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Rejoice in the Lord always, and again I say, rejoice!",
+          "id": 34647
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Let your gentleness be known to everyone. The Lord is near.",
+          "id": 34648
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Be anxious about nothing, but in everything, by prayer and supplication, with thanksgiving, make your requests known to God.",
+          "id": 34649
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "And the peace of God that surpasses all understanding will guard your hearts and minds in Christ Jesus.",
+          "id": 34650
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Finally, brothers, whatever is true, whatever is honorable, whatever is right, whatever is pure, whatever is lovely, whatever is commendable, if anything is virtuous or praiseworthy, think about such things.",
+          "id": 34651
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Practice what you have learned and received from me, and what you have heard and seen in me. And the God of peace will be with you.",
+          "id": 34652
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "I have great joy in the Lord that now at last you have revived your concern for me. Indeed, you were concerned but had no opportunity to show it.",
+          "id": 34653
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Not that I am speaking about being in need, for I have learned to be content in whatever circumstances I find myself.",
+          "id": 34654
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "I know how to be brought low, and I know how to abound. I have learned the secret of being content in any and every situation, whether well fed or hungry, whether having plenty or being in need.",
+          "id": 34655
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "I can do all things through Christ who strengthens me.",
+          "id": 34656
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Nevertheless, you did well by sharing with me in my affliction.",
+          "id": 34657
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "As you Philippians know, in the early days of the gospel, when I set out from Macedonia, no church shared with me in the matter of giving and receiving except you alone.",
+          "id": 34658
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Even when I was in Thessalonica, you sent me help for my needs more than once.",
+          "id": 34659
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Not that I seek the gift, but I seek the fruit that abounds to your account.",
+          "id": 34660
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "I have received everything in full and have an abundance. I am amply supplied, now that I have received from Epaphroditus the gifts you sent. They are an aroma of a sweet fragrance, an acceptable sacrifice, pleasing to God.",
+          "id": 34661
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "And my God will fully supply your every need through Christ Jesus according to his riches in glory.",
+          "id": 34662
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "Glory be to our God and Father forever and ever! Amen.",
+          "id": 34663
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "Greet every saint in Christ Jesus. The brothers who are with me greet you.",
+          "id": 34664
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "All the saints greet you, especially those of Caesar''s household.",
+          "id": 34665
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "The grace of the Lord Jesus Christ be with you all. Amen.",
+          "id": 34666
+        }
+      ]
+    }
+  ]
+}

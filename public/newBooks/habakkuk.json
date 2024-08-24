@@ -1,0 +1,356 @@
+{
+  "book": "Habakkuk",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "The burden which the prophet Ambacum saw.",
+          "id": 23192
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "How long, O Lord, shall I cry out, and you will not listen? how long shall I cry out to you being injured, and you will not save?",
+          "id": 23193
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Therefore have you shown me troubles and griefs to look upon, misery and ungodliness? judgement is before me, and the judge receives a reward.",
+          "id": 23194
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Therefore the law is frustrated, and judgement proceeds not effectually, for the ungodly man prevails over the just; therefore perverse judgement will proceed.",
+          "id": 23195
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Behold, you despisers, and look, and wonder marvellously, and vanish: for I work a work in your days, which you will in no wise believe, though a man declare it to you.",
+          "id": 23196
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Therefore, behold, I stir up the Chaldeans, the bitter and hasty nation, that walks upon the breadth of the earth, to inherit tabernacles not his own.",
+          "id": 23197
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "He is terrible and famous; his judgement shall proceed of himself, and his dignity shall come out of himself.",
+          "id": 23198
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "And his horses shall bound more swiftly than leopards, and they are fiercer than the wolves of Arabia: and his horsemen shall ride forth, and shall rush from far; and they shall fly as an eagle hasting to eat.",
+          "id": 23199
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Destruction shall come upon ungodly men, resisting with their adverse front, and he shall gather the captivity as the sand.",
+          "id": 23200
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "And he shall be at his ease with kings, and princes are his toys, and he shall mock at every strong-hold, and shall cast a mound, and take possession of it.",
+          "id": 23201
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Then shall he change his spirit, and he shall pass through, and make an atonement, saying, This strength belongs to my god.",
+          "id": 23202
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Are not you from the beginning, O Lord God, my Holy One? and surely we shall not die. O Lord, you have established it for judgement, and he has formed me to chasten with his correction.",
+          "id": 23203
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "His eye is too pure to behold evil doings, and to look upon grievous afflictions: therefore do you look upon despisers? will you be silent when the ungodly swallows up the just?",
+          "id": 23204
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "And will you make men as the fishes of the sea, and as the reptiles which have no guide?",
+          "id": 23205
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "He has brought up destruction with a hook, and drawn one with a casting net, and caught another in his drags: therefore shall his heart rejoice and be glad.",
+          "id": 23206
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Therefore will he sacrifice to his drag, and burn incense to his casting-net, because by them he has made his portion fat, and his meats choice.",
+          "id": 23207
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Therefore will he cast his net, and will not spare to kill the nations continually.",
+          "id": 23208
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "I will stand upon my watch, and mount upon the rock, and watch to see what he will say by me, and what I shall answer when I am reproved.",
+          "id": 23209
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "And the Lord answered me and said, Write the vision, and that plainly on a tablet, that he that reads it may run.",
+          "id": 23210
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "For the vision is yet for a time, and it shall shoot forth at the end, and not in vain: though he should wait, wait for him; for he will surely come, and will not wait.",
+          "id": 23211
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "If he should draw back, my soul has no pleasure in him: but the just shall live by my faith.",
+          "id": 23212
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "But the arrogant man and the scorner, the boastful man, shall not finish anything; who has enlarged his desire as the grave, and like death he is never satisfied, and he will gather to himself all the nations, and will receive to himself all the peoples.",
+          "id": 23213
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Shall not all these take up a parable against him? and a proverb to tell against him? and they shall say, Woe to him that multiplies to himself the possessions which are not his! how long? and who heavily loads his yoke.",
+          "id": 23214
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "For suddenly there shall arise up those that bite him, and they that plot against you shall awake, and you shall be a plunder to them.",
+          "id": 23215
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Because you have spoiled many nations, all the nations that are left shall spoil you, because of the blood of men, and the sins of the land and city, and of all that dwell in it.",
+          "id": 23216
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Woe to him that covets an evil covetousness to his house, that he may set his nest on high, that he may be delivered from the power of evils.",
+          "id": 23217
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "You have devised shame to your house, you have utterly destroyed many nations, and your soul has sinned.",
+          "id": 23218
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "For the stone shall cry out of the wall, and the beetle out of the timber shall speak.",
+          "id": 23219
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Woe to him that builds a city with blood, and establishes a city by unrighteousness.",
+          "id": 23220
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Are not these things of the Lord Almighty? surely many people have been exhausted in the fire, and many nations have fainted.",
+          "id": 23221
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "For the earth shall be filled with the knowledge of the glory of the Lord; it shall cover them as water.",
+          "id": 23222
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Woe to him that gives his neighbour to drink the thick lees of wine, and intoxicates him, that he may look upon their secret parts.",
+          "id": 23223
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Drink you also your fill of disgrace instead of glory: shake, O heart, and quake, the cup of the right hand of the Lord has come round upon you, and dishonour has gathered upon your glory.",
+          "id": 23224
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "For the ungodliness of Libanus shall cover you, and distress because of wild beasts shall dismay you, because of the blood of men, and the sins of the land and city, and of all that dwell in it.",
+          "id": 23225
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "What profit it the graven image, that they have graven it? one has made it a molten work, a false image; for the maker has trusted in his work, to make dumb idols.",
+          "id": 23226
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "Woe to him that says to the wood, Awake, arise; and to the stone, Be you exalted! whereas it is an image, and this is a casting of gold and silver, and there is no breath in it.",
+          "id": 23227
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "But the Lord is in his holy temple: let all the earth fear before him.",
+          "id": 23228
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "A PRAYER OF THE PROPHET AMBACUM, WITH A SONG.",
+          "id": 23229
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "O Lord, I have heard your report, and was afraid: I considered your works, and was amazed: you shall be known between the two living creatures, you shall be acknowledged when the years draw near; you shall be manifested when the time is come; when my soul is troubled, you will in wrath remember mercy.",
+          "id": 23230
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "God shall come from Thaeman, and the Holy One from the dark shady mount Pharan. Pause.",
+          "id": 23231
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "His excellence covered the heavens, and the earth was full of his praise. And his brightness shall be as light; there were horns in his hands, and he caused a mighty love of his strength.",
+          "id": 23232
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Before his face shall go a report, and it shall go forth into the plains,",
+          "id": 23233
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "the earth stood at his feet and trembled: he *saw, and the nations melted away: the mountains were violently burst through, the everlasting hills melted at his everlasting going forth.",
+          "id": 23234
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Because of troubles I looked upon the tents of the Ethiopians: the tabernacles also of the land of Madiam shall be dismayed.",
+          "id": 23235
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Was you angry, O Lord, with the rivers? or was your wrath against the rivers, or your anger against the sea? for you will mount on your horses, and your chariots are salvation.",
+          "id": 23236
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Surely you did bend they bow at sceptres, says the Lord. Pause. The land of rivers shall be torn asunder.",
+          "id": 23237
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "The nations shall see you and be in pain, as you do divide the moving waters: the deep uttered her voice, and raised her form on high.",
+          "id": 23238
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "The sun was exalted, and the moon stood still in her course: your darts shall go forth at the light, at the brightness of the gleaming of your arms.",
+          "id": 23239
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "You will bring low the land with threatening, and in wrath you will break down the nations.",
+          "id": 23240
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "You went forth for the salvation of your people, to save your anointed: you shall bring death on the heads of transgressors; you have brought bands upon their neck. Pause.",
+          "id": 23241
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "You did cut asunder the heads of princes with amazement, they shall tremble in it; they shall burst their bridles, they shall be as a poor man devouring in secret.",
+          "id": 23242
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "And you do cause your horses to enter the sea, disturbing much water.",
+          "id": 23243
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "I watched, and my belly trembled at the sound of the prayer of my lips, and trembling entered into my bones, and my frame was troubled within me; I will rest in the day of affliction, from going up to the people of my sojourning.",
+          "id": 23244
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "For though the fig tree shall bear no fruit, and there shall be no produce on the vines; the labour of the olive shall fail, and the fields shall produce no food: the sheep have failed from the pasture, and there are no oxen at the cribs;",
+          "id": 23245
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "yet I will exult in the Lord, I will joy in God my Saviour.",
+          "id": 23246
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "The Lord God is my strength, and he will perfectly strengthen my feet; he mounts me upon high places, that I may conquer by his song.",
+          "id": 23247
+        }
+      ]
+    }
+  ]
+}

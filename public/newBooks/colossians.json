@@ -1,0 +1,595 @@
+{
+  "book": "Colossians",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Paul, an apostle of Jesus Christ through the will of God, and Timothy our brother,",
+          "id": 34667
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "to the saints and faithful brothers in Christ who are in Colossae: Grace to you and peace from God our Father and the Lord Jesus Christ.",
+          "id": 34668
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "We always give thanks to the God and Father of our Lord Jesus Christ when we pray for you,",
+          "id": 34669
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "because we have heard of your faith in Christ Jesus and your love for all the saints,",
+          "id": 34670
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "the faith and love that spring from the hope that is laid up for you in heaven. You have already heard about this hope in the message of the truth of the gospel",
+          "id": 34671
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "that has come to you. This gospel has gone out into all the world, where it is bearing fruit and increasing, just as it has been doing among you since the day you heard it and understood the grace of God in truth.",
+          "id": 34672
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "You learned it from Epaphras, our beloved fellow servant, who is a faithful minister of Christ on your behalf",
+          "id": 34673
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "and who also told us about your love in the Spirit.",
+          "id": 34674
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "For this reason, from the day we heard this, we have not ceased praying for you and asking that you may be filled with the knowledge of God''s will in all wisdom and spiritual understanding,",
+          "id": 34675
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "so that you may walk in a manner worthy of the Lord with every desire to please him: bearing fruit in every good work and increasing in the knowledge of God;",
+          "id": 34676
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "being strengthened with all power, according to his glorious might, so that you may have great endurance and patience with joy;",
+          "id": 34677
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "giving thanks to the Father, who has enabled us to share in the inheritance of the saints in light.",
+          "id": 34678
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "He has rescued us from the dominion of darkness and transferred us into the kingdom of his beloved Son,",
+          "id": 34679
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "in whom we have redemption, the remission of sins.",
+          "id": 34680
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "He is the image of the invisible God, the firstborn of all creation.",
+          "id": 34681
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "For by him all things were created, in heaven and on earth, visible and invisible, whether thrones or dominions, rulers or authorities—all things were created through him and for him.",
+          "id": 34682
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "He is before all things, and in him all things hold together.",
+          "id": 34683
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "He is the head of the body, the church. He is the beginning, the firstborn from the dead, so that in everything he may be preeminent.",
+          "id": 34684
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "For in him all the fullness of God was pleased to dwell,",
+          "id": 34685
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "and through him to reconcile all things to himself, whether on earth or in heaven, making peace through the blood of his cross.",
+          "id": 34686
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "At one time you were alienated from God and hostile in your minds because of your evil works. But now he has reconciled you",
+          "id": 34687
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "through the death of Christ in his physical body to present you holy, unblemished, and above reproach before him,",
+          "id": 34688
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "if indeed you continue in the faith, grounded and steadfast, without shifting away from the hope of the gospel that you heard. This gospel has been preached in all creation under heaven, and of this gospel I, Paul, have become a servant.",
+          "id": 34689
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "I rejoice now in my sufferings for you, and in my flesh I am filling up what is lacking in Christ''s afflictions for the sake of his body, that is, the church.",
+          "id": 34690
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "I became a servant of the church according to the stewardship from God that was given to me for you, to make the word of God fully known,",
+          "id": 34691
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "the mystery that has been hidden for ages and generations but has now been revealed to his saints.",
+          "id": 34692
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "To them God resolved to make known how great among the Gentiles are the glorious riches of this mystery, which is Christ in you, the hope of glory.",
+          "id": 34693
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "He is the one we proclaim, admonishing everyone and teaching everyone with all wisdom, so that we may present everyone mature in Christ Jesus.",
+          "id": 34694
+        },
+        {
+          "isRed": false,
+          "verse": 29,
+          "text": "To this end I labor, striving according to his energy that is powerfully at work within me.",
+          "id": 34695
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "For I want you to know how great a struggle I have for you, for those in Laodicea, and for all who have not seen me face to face.",
+          "id": 34696
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "I want their hearts to be comforted and knit together in love, so that they may have all the riches of being fully assured in their understanding, and so that they may know the mystery of our God and Father and of Christ,",
+          "id": 34697
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "in whom all the treasures of wisdom and knowledge are hidden.",
+          "id": 34698
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "I say this so that no one will deceive you with persuasive speech.",
+          "id": 34699
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "For though I am absent in body, I am with you in spirit, rejoicing to see your good order and the firmness of your faith in Christ.",
+          "id": 34700
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Therefore, just as you received Christ Jesus the Lord, continue to walk in him,",
+          "id": 34701
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "being rooted and built up in him and established in the faith, just as you were taught, abounding in it with thanksgiving.",
+          "id": 34702
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Be careful that no one takes you captive through philosophy and empty deceit, according to the tradition of men and the elements of the world, and not according to Christ.",
+          "id": 34703
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "For all the fullness of God''s nature dwells bodily in Christ,",
+          "id": 34704
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "and you have been filled by him, who is the head over every ruler and authority.",
+          "id": 34705
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "In him you were also circumcised with a circumcision not done by hands, by putting off the body of the sins of the flesh in the circumcision of Christ.",
+          "id": 34706
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Having been buried with him in baptism, you have also been raised with him through faith in the powerful working of God, who raised him from the dead.",
+          "id": 34707
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "And although you were dead in your trespasses and the uncircumcision of your flesh, God made you alive together with Christ. He forgave us all our trespasses",
+          "id": 34708
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "by blotting out the certificate of debt that stood against us with its legal demands; he took it away by nailing it to the cross.",
+          "id": 34709
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "He stripped the rulers and authorities of their power and made a public display of them, leading a triumphal procession over them by the cross.",
+          "id": 34710
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Therefore let no one judge you in regard to food or drink, or in the matter of a feast, a New Moon celebration, or a Sabbath day.",
+          "id": 34711
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "These are a shadow of the things to come, but the substance is Christ.",
+          "id": 34712
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Let no one who delights in false humility and angelic religion disqualify you. Such a person takes his stand on things he has not seen, being puffed up without reason by the mind of his flesh,",
+          "id": 34713
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "and not holding fast to the head, from whom the entire body, being supported and knit together by its joints and tendons, grows with a growth that is from God.",
+          "id": 34714
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "If you have died with Christ to the elements of the world, why, as though you were living in the world, do you submit to regulations such as,",
+          "id": 34715
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "\"Do not handle, do not taste, do not touch\"?",
+          "id": 34716
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "Such regulations are based on the commandments and doctrines of men, and apply to things that will all decay with use.",
+          "id": 34717
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "Although these regulations have a semblance of wisdom in self-imposed piety, false humility, and severe treatment of the body, they are of no value in restraining fleshly indulgence.",
+          "id": 34718
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "If then you have been raised with Christ, seek the things above, where Christ is, seated at the right hand of God.",
+          "id": 34719
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Set your minds on the things above, not the things on earth.",
+          "id": 34720
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "For you have died, and your life is hidden with Christ in God.",
+          "id": 34721
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "When Christ, who is our life, is revealed, then you also will be revealed with him in glory.",
+          "id": 34722
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Put to death therefore whatever belongs to your earthly nature: fornication, impurity, lust, evil desire, and covetousness, which is idolatry.",
+          "id": 34723
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "On account of these things the wrath of God is coming upon the sons of disobedience.",
+          "id": 34724
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "You too once walked in these ways when you lived among them.",
+          "id": 34725
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "But now you must put them all aside: wrath, anger, malice, slander, and filthy language from your mouth.",
+          "id": 34726
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Do not lie to one another, since you have put off the old self with its practices",
+          "id": 34727
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "and have put on the new self, which is being renewed in knowledge according to the image of its Creator.",
+          "id": 34728
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Here there is no distinction between Greek and Jew, circumcised and uncircumcised, barbarian, Scythian, slave and free, but Christ is all and in all.",
+          "id": 34729
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Therefore, as God''s chosen people, holy and beloved, put on tenderhearted mercy, kindness, humility, gentleness, and patience,",
+          "id": 34730
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "bearing with one another and forgiving one other if any one of you has a complaint against another; just as Christ forgave you, so you also must forgive.",
+          "id": 34731
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Above all, put on love, which is the bond of perfection.",
+          "id": 34732
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Let the peace of God rule in your hearts, since as members of one body you were called to peace. And be thankful.",
+          "id": 34733
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Let the word of Christ dwell in you richly, teaching and admonishing one another with all wisdom as you sing psalms, hymns, and spiritual songs to the Lord with gratitude in your hearts.",
+          "id": 34734
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "And whatever you do, in word or in deed, do it all in the name of the Lord Jesus, giving thanks to our God and Father through him.",
+          "id": 34735
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Wives, submit to your husbands, as is fitting in the Lord.",
+          "id": 34736
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "Husbands, love your wives, and do not be embittered against them.",
+          "id": 34737
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "Children, obey your parents in everything, for this pleases the Lord.",
+          "id": 34738
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "Fathers, do not provoke your children, lest they become discouraged.",
+          "id": 34739
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "Slaves, obey your earthly masters in everything. Do not try to please them only when they are watching you, but obey with sincerity of heart, fearing God.",
+          "id": 34740
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "Whatever you do, work at it with all your heart, as working for the Lord and not for men,",
+          "id": 34741
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "knowing that you will receive an inheritance from the Lord as your reward; for you serve the Lord Christ.",
+          "id": 34742
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "But he who does wrong will be paid back the wrong that he has done, and there is no partiality.",
+          "id": 34743
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Masters, treat your slaves with justice and equity, knowing that you also have a Master in heaven.",
+          "id": 34744
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Devote yourselves to prayer, being watchful in it with thanksgiving.",
+          "id": 34745
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "At the same time pray for us as well, that God may open a door to us for the word so that we may speak the mystery of Christ, for which I am in chains.",
+          "id": 34746
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Pray that I may make it known in the way that I ought to speak.",
+          "id": 34747
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Walk in wisdom toward outsiders, making the best use of the time.",
+          "id": 34748
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Let your speech always be with grace, seasoned with salt, so that you may know how to answer each person.",
+          "id": 34749
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Tychicus will tell you all the news about me. He is our beloved brother, a faithful minister and fellow servant in the Lord.",
+          "id": 34750
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "I have sent him to you for this very purpose, that he may know how you are doing and encourage your hearts.",
+          "id": 34751
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "With him I have sent Onesimus, our faithful and beloved brother, who is one of you. They will tell you everything that is happening here.",
+          "id": 34752
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Aristarchus, my fellow prisoner, greets you, and so does Mark the cousin of Barnabas (about whom you have received instructions: if he comes to you, welcome him).",
+          "id": 34753
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Jesus who is called Justus also greets you. These men are my only fellow workers for the kingdom of God who are of the circumcision, and they have been a comfort to me.",
+          "id": 34754
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Epaphras, who is one of you and a servant of Christ, greets you, always striving for you in his prayers, so that you may stand mature and complete in all the will of God.",
+          "id": 34755
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "For I testify about him that he has much zeal for you and for those in Laodicea and Hierapolis.",
+          "id": 34756
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Luke, the beloved physician, greets you, and so does Demas.",
+          "id": 34757
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Give my greetings to the brothers in Laodicea, and to Nymphas and the church that meets in his house.",
+          "id": 34758
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "After this letter has been read among you, have it read in the church of the Laodiceans as well, and see to it that you also read the letter from Laodicea.",
+          "id": 34759
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Tell Archippus, \"See to it that you complete the ministry you have received in the Lord.\"",
+          "id": 34760
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "I, Paul, write this greeting with my own hand. Remember my chains. Grace be with you. Amen.",
+          "id": 34761
+        }
+      ]
+    }
+  ]
+}

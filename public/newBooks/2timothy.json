@@ -1,0 +1,523 @@
+{
+  "book": "II Timothy",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Paul, an apostle of Jesus Christ by the will of God according to the promise of life that is in Christ Jesus,",
+          "id": 35011
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "to Timothy, my beloved child: Grace, mercy, and peace from God the Father and Christ Jesus our Lord.",
+          "id": 35012
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "I thank God, whom I serve with a clear conscience as my forefathers did, as night and day I constantly remember you in my prayers.",
+          "id": 35013
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "Recalling your tears, I long to see you so that I may be filled with joy.",
+          "id": 35014
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "I am reminded of the sincere faith that is in you, which dwelt first in your grandmother Lois and in your mother Eunice, and now, I am sure, dwells in you also.",
+          "id": 35015
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Therefore I remind you to rekindle the gift of God that is in you through the laying on of my hands.",
+          "id": 35016
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "For God did not give us a spirit of timidity, but a spirit of power, love, and sound judgment.",
+          "id": 35017
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Therefore do not be ashamed of the testimony of our Lord or of me his prisoner. Rather, join with me in suffering for the gospel as you rely on the power of God.",
+          "id": 35018
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "He saved us and called us with a holy calling, not according to our works, but according to his own purpose and grace. This grace was given to us in Christ Jesus before time began,",
+          "id": 35019
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "but has now been revealed through the appearing of our Savior Jesus Christ, who abolished death and brought life and immortality to light through the gospel.",
+          "id": 35020
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "For this gospel I was appointed to be a preacher, an apostle, and a teacher of the Gentiles.",
+          "id": 35021
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "That is why I am suffering these things. But I am not ashamed, for I know whom I have believed, and I am persuaded that he is able to guard what has been entrusted to me until that day.",
+          "id": 35022
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Hold to the pattern of sound teaching that you have heard from me, in the faith and love that are in Christ Jesus.",
+          "id": 35023
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "By the Holy Spirit who dwells within us, guard the good deposit that has been entrusted to you.",
+          "id": 35024
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "You know that everyone in Asia has turned away from me, including Phygelus and Hermogenes.",
+          "id": 35025
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "May the Lord give mercy to the household of Onesiphorus, because he often refreshed me and was not ashamed of my chains.",
+          "id": 35026
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "On the contrary, when he arrived in Rome, he sought me out very diligently and found me.",
+          "id": 35027
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "May the Lord grant him to find mercy from the Lord on that day! You know very well all the ways he helped me in Ephesus.",
+          "id": 35028
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "You then, my child, be strong in the grace that is in Christ Jesus.",
+          "id": 35029
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Entrust what you have heard from me in the presence of many witnesses to faithful men who will be competent to teach others also.",
+          "id": 35030
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Endure hardship as a good soldier of Jesus Christ.",
+          "id": 35031
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "No one serving as a soldier entangles himself in the affairs of civilian life, since he seeks to please the one who enlisted him.",
+          "id": 35032
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Similarly, an athlete is not crowned unless he competes according to the rules.",
+          "id": 35033
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "The hardworking farmer ought to receive the first share of the crops.",
+          "id": 35034
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Think about what I am saying. May the Lord give you understanding in everything.",
+          "id": 35035
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Remember Jesus Christ, the offspring of David, who was raised from the dead according to my gospel.",
+          "id": 35036
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "For this gospel I suffer to the point of being chained like a criminal, but the word of God is not chained.",
+          "id": 35037
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Therefore I endure everything for the sake of the chosen, so that they too may obtain the salvation that is in Christ Jesus, with eternal glory.",
+          "id": 35038
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "This saying is trustworthy: If we died with him, we will also live with him;",
+          "id": 35039
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "if we endure, we will also reign with him; if we deny him, he will also deny us;",
+          "id": 35040
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "if we are unfaithful, he remains faithful; he cannot deny himself.",
+          "id": 35041
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Remind the people of these things, solemnly charging them before the Lord not to quarrel about words, which does no good but only leads to the ruin of those who are listening.",
+          "id": 35042
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Be diligent to present yourself to God as a proven worker who does not need to be ashamed and who correctly teaches the word of truth.",
+          "id": 35043
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Avoid profane chatter, for those who engage in such talk will stray further and further into ungodliness,",
+          "id": 35044
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "and their message will spread like gangrene. Among them are Hymenaeus and Philetus,",
+          "id": 35045
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "who have strayed from the truth, saying that the resurrection has already happened. They are undermining the faith of some.",
+          "id": 35046
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "Nevertheless, the foundation of God stands firm, having this seal: \"The Lord knows those who are his,\" and, \"Everyone who calls upon the name of the Lord must depart from unrighteousness.\"",
+          "id": 35047
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "Now in a large house there are not only vessels of gold and silver, but also of wood and clay; some are for honorable use and some for dishonorable use.",
+          "id": 35048
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "Therefore, if anyone cleanses himself from what is dishonorable, he will be a vessel for honorable use, set apart as holy, useful to the master, and prepared for every good work.",
+          "id": 35049
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "Flee youthful lusts and pursue righteousness, faithfulness, love, and peace, along with those who call upon the Lord from a pure heart.",
+          "id": 35050
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "Have nothing to do with foolish and ignorant controversies, knowing that they breed quarrels.",
+          "id": 35051
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "A servant of the Lord ought not to quarrel, but to be kind to everyone, able to teach, and patient,",
+          "id": 35052
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "instructing his opponents with gentleness. Perhaps God will grant them repentance leading to the knowledge of the truth,",
+          "id": 35053
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "and they will come to their senses and escape from the snare of the devil, who has taken them captive to do his will.",
+          "id": 35054
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "But know this: Hard times will come in the last days.",
+          "id": 35055
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "For people will be lovers of themselves, lovers of money, boasters, proud, blasphemous, disobedient to parents, ungrateful, unholy,",
+          "id": 35056
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "without natural affection, irreconcilable, slanderous, without self-control, brutal, having no love for what is good,",
+          "id": 35057
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "traitors, reckless, puffed up, and lovers of pleasure rather than lovers of God,",
+          "id": 35058
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "having a form of godliness but denying its power. Avoid such people.",
+          "id": 35059
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Among them are those who worm their way into houses and captivate vulnerable women who are overwhelmed with sins and swayed by various evil desires.",
+          "id": 35060
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Such women are always learning and never able to come to the knowledge of the truth.",
+          "id": 35061
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Just as Jannes and Jambres opposed Moses, so these men also oppose the truth. They are corrupted in mind and have been proven unqualified with respect to the faith.",
+          "id": 35062
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "But they will not make further progress, for their folly will become obvious to everyone, as was the folly of Jannes and Jambres.",
+          "id": 35063
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "You, however, have closely followed my teaching, conduct, purpose, faith, patience, love, and endurance.",
+          "id": 35064
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "You know how much persecution and suffering I endured in Antioch, Iconium, and Lystra. Yet the Lord rescued me from it all.",
+          "id": 35065
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Indeed, everyone who wants to live a godly life in Christ Jesus will be persecuted.",
+          "id": 35066
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "But evil people and imposters will become worse and worse, deceiving and being deceived.",
+          "id": 35067
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "But as for you, continue in what you have learned and firmly believed, knowing from whom you have learned it,",
+          "id": 35068
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "and how from childhood you have known the sacred writings, which are able to give you wisdom for salvation through faith in Christ Jesus.",
+          "id": 35069
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "All Scripture is inspired by God and beneficial for teaching, for reproof, for correction, and for instruction in righteousness,",
+          "id": 35070
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "so that the man of God may be complete, fully equipped for every good work.",
+          "id": 35071
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "I solemnly charge you therefore in the presence of God and the Lord Jesus Christ, who will judge the living and the dead when he appears along with his kingdom:",
+          "id": 35072
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Preach the word, be prepared whether the time is favorable or not, reprove, rebuke, and encourage, with complete patience and careful instruction.",
+          "id": 35073
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "For a time is coming when people will not tolerate sound doctrine, but having itching ears they will surround themselves with teachers to suit their own desires.",
+          "id": 35074
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "They will turn their ears away from the truth and be turned aside to myths.",
+          "id": 35075
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "But as for you, be sober-minded in all things, endure hardship, do the work of an evangelist, and fulfill your ministry.",
+          "id": 35076
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "For I am already being poured out like a drink offering, and the time of my departure is at hand.",
+          "id": 35077
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "I have fought the good fight, I have finished the race, I have kept the faith.",
+          "id": 35078
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "There is now laid up for me the crown of righteousness, which the Lord, the righteous Judge, will give to me on that day, and not only to me, but also to all who have longed for his appearing.",
+          "id": 35079
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Make every effort to come to me soon.",
+          "id": 35080
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "For Demas, who is in love with this present world, has deserted me and gone to Thessalonica. Crescens has gone to Galatia, and Titus to Dalmatia.",
+          "id": 35081
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Luke alone is with me. Get Mark and bring him with you, for he is useful to me for ministry.",
+          "id": 35082
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Tychicus I have sent to Ephesus.",
+          "id": 35083
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "When you come, bring the cloak that I left with Carpus in Troas, as well as my scrolls, especially the parchments.",
+          "id": 35084
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Alexander the coppersmith did me great harm. May the Lord repay him according to his works.",
+          "id": 35085
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "You yourself should be on guard against him, for he has vehemently opposed our message.",
+          "id": 35086
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "At my first defense no one came to stand by me; instead, they all deserted me. May it not be counted against them.",
+          "id": 35087
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "But the Lord stood by me and strengthened me, so that through me the proclamation might be fully made and all the Gentiles might hear. And I was rescued from the lion''s mouth.",
+          "id": 35088
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "And the Lord will rescue me from every evil deed and preserve me for his heavenly kingdom. To him be the glory forever and ever. Amen.",
+          "id": 35089
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "Greet Prisca and Aquila and the household of Onesiphorus.",
+          "id": 35090
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "Erastus stayed in Corinth, and Trophimus, who was sick, I left in Miletus.",
+          "id": 35091
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "Make every effort to come before winter. Eubulus greets you, and so do Pudens, Linus, Claudia, and all the brothers.",
+          "id": 35092
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "The Lord Jesus Christ be with your spirit. Grace be with you. Amen.",
+          "id": 35093
+        }
+      ]
+    }
+  ]
+}

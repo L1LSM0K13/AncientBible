@@ -1,0 +1,948 @@
+{
+  "book": "Lamentations",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "And it came to pass, after Israel was taken captive, and Jerusalem made desolate, that Jeremias sat weeping, and lamented with this lamentation over Jerusalem, and said, ALEPH. How does the city that was filled with people sit solitary! she is become as a widow: she that was magnified amongst the nations, and princess amongst the provinces, has become tributary.",
+          "id": 26189
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "BETH. She weeps sore in the night, and her tears are on her cheeks; and there is none of all her lovers to comfort her: all that were her friends have dealt deceitfully with her, they are become her enemies.",
+          "id": 26190
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "GIMEL. Judea is gone into captivity by reason of her affliction, and by reason of the abundance of her servitude: she dwells amongst the nations, she has not found rest: all her pursuers have overtaken her between her oppressors.",
+          "id": 26191
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "DALETH. The ways of Sion mourn, because there are none that come to the feast: all her gates are ruined: her priests groan, her virgins are led captive, and she is in bitterness in herself.",
+          "id": 26192
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "HE. Her oppressors are become the head, and her enemies have prospered; for the Lord has afflicted her because of the multitude of her sins: her young children are gone into captivity before the face of the oppressor.",
+          "id": 26193
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "VAU. And all her beauty has been taken away from the daughter of Sion: her princes were as rams finding no pasture, and are gone away in weakness before the face of the pursuer.",
+          "id": 26194
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "ZAIN. Jerusalem remembered the days of her affliction, and her rejection; she thought on all her desirable things which were from the days of old, when her people fell into the hands of the oppressor, and there was none to help her: when her enemies saw it they laughed at her habitation.",
+          "id": 26195
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "HETH. Jerusalem has sinned a great sin; therefore has she come into tribulation, all that used to honour her have afflicted her, for they have seen her shame: yes, she herself groaned, and turned backward.",
+          "id": 26196
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "TETH. Her uncleanness is before her feet; she remembered not her last end; she has lowered her boasting tone, there is none to comfort her. Behold, O Lord, my affliction: for the enemy has magnified himself.",
+          "id": 26197
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "JOD. The oppressor has stretched out his hand on all her desirable things: for she has seen the Gentiles entering into her sanctuary, concerning whom you did command that they should not enter into your congregation.",
+          "id": 26198
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "CHAPH. All her people groan, seeking bread: they have given their desirable things for meat, to restore their soul: behold, Lord, and look; for she is become dishonoured.",
+          "id": 26199
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "LAMED. All you that pass by the way, turn, and see if there is sorrow like to my sorrow, which has happened to me. The Lord who spoke by me has afflicted me in the day of his fierce anger.",
+          "id": 26200
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "MEM. He has sent fire from his lofty habitation, he has brought it into my bones: he has spread a net for my feet, he has turned me back: he has made me desolate and mourning all the day.",
+          "id": 26201
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "NUN. He has watched over my sins, they are twined about my hands, they have come up on my neck: my strength has failed; for the Lord has laid pains on my hands, I shall not be able to stand.",
+          "id": 26202
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "SAMECH. The Lord has cut off all my strong men from the midst of me: he has summoned against me a time for crushing my choice men: the Lord has trodden a wine-press for the virgin daughter of Juda: for these things I weep.",
+          "id": 26203
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "AIN. Mine eye has poured out water, because he that should comfort me, that should restore my soul, has been removed far from me: my sons have been destroyed, because the enemy has prevailed.",
+          "id": 26204
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "PHE. Sion has spread out her hand, and there is none to comfort her: the Lord has commanded concerning Jacob, his oppressors are round about him: Jerusalem has become amongst them as a removed woman.",
+          "id": 26205
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "TSADE. The Lord is righteous; for I have provoked his mouth: hear, I pray you, all people, and behold my grief: my virgins and my young men are gone into captivity.",
+          "id": 26206
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "KOPH. I called my lovers, but they deceived me: my priests and my elders failed in the city; for they sought meat that they might restore their souls, and found it not.",
+          "id": 26207
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "RHECHS. Behold, O Lord; for I am afflicted: my belly is troubled, and my heart is turned within me; for I have been grievously rebellious: abroad the sword has bereaved me, even as death at home.",
+          "id": 26208
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "CHSEN. Hear, I pray you, for I groan: there is none to comfort me: all mine enemies have heard of mine afflictions, and rejoice because you have done it: you have brought on the day, you have called the time: they are become like to me.",
+          "id": 26209
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "THAU. Let all their wickedness come before your face; and strip them, as they have made a gleaning for all my sins: for my groans are many, and my heart is grieved.",
+          "id": 26210
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "ALEPH. How has the Lord darkened in his wrath the daughter of Sion! he has cast down the glory of Israel from heaven to earth, and has not remembered his footstool.",
+          "id": 26211
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "BETH. In the day of his wrath the Lord has overwhelmed her as in the sea, and not spared: he has brought down in his fury all the beautiful things of Jacob; he has brought down to the ground the strongholds of the daughter of Juda; he has profaned her kings and her princes.",
+          "id": 26212
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "GIMEL. He has broken in his fierce anger all the horn of Israel: he has turned back his right hand from the face of the enemy, and has kindled a flame in Jacob as a fire, and it has devoured all things round about.",
+          "id": 26213
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "DALETH. He has bent his bow as an opposing enemy: he has strengthened his right hand as an adversary, and has destroyed all the desirable things of my eyes in the tabernacle of the daughter of Sion: he has poured forth his anger as fire.",
+          "id": 26214
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "HE. The Lord is become as an enemy: he has overwhelmed Israel as in the sea, he has overwhelmed her palaces: he has destroyed her strongholds, and has multiplied the afflicted and humbled ones to the daughter of Juda.",
+          "id": 26215
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "VAU. And he has scattered his tabernacle as a vine, he has marred his feast: the Lord has forgotten the feast and the sabbath which he appointed in Sion, and in the fury of his wrath has vexed the king, and priest, and prince.",
+          "id": 26216
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "ZAIN. The Lord has rejected his altar, he has cast off his sanctuary, he has broken by the hand of the enemy the wall of her palaces; they have uttered their voice in the house of the Lord as on a feast day.",
+          "id": 26217
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "HETH. And he has turned to destroy the wall of the daughter of Sion: he has stretched out the measuring line, he has not turned back his hand from afflicting her: therefore the bulwark mourned, and the wall was weakened with it.",
+          "id": 26218
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "TETH. Her gates are sunk into the ground: he has destroyed and broken to pieces her bars, and her king and her prince amongst the Gentiles: there is no law, nay, her prophets have seen no vision from the Lord.",
+          "id": 26219
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "JOD. The elders of the daughter of Sion have sat upon the ground, they have kept silence: they have cast up dust upon their heads; they have girded themselves with sackcloths: they have brought down to the ground the chief virgins in Jerusalem.",
+          "id": 26220
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "CHAPH. Mine eyes have failed with tears, my heart is troubled, my glory is cast down to the ground, for the destruction of the daughter of my people; while the infant and suckling swoon in the streets of the city.",
+          "id": 26221
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "LAMED. They said to their mothers, Where is corn and wine? while they fainted like wounded men in the streets of the city, while their souls were poured out into their mother''s bosom.",
+          "id": 26222
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "MEM. What shall I testify to you, or what shall I compare to you, O daughter of Jerusalem? who shall save and comfort you, O virgin daughter of Sion? for the cup of your destruction is enlarged: who shall heal you?",
+          "id": 26223
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "NUN. Your prophets have seen for you vanities and folly: and they have not discovered your iniquity, to turn back your captivity; but they have seen for you vain burdens, and worthless visions.",
+          "id": 26224
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "SAMECH. All that go by the way have clapped their hands at you; they have hissed and shaken their head at the daughter of Jerusalem. Is this the city, they say, the crown of joy of all the earth?",
+          "id": 26225
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "AIN. All your enemies have opened their mouth against you: they have hissed and gnashed their teeth, and said, We have swallowed her up: moreover this is the day which we looked for; we have found it, we have seen it.",
+          "id": 26226
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "PHE. The Lord has done that which he purposed; he has accomplished his word, even the things which he commanded from the ancient days: he has thrown down, and has not spared: and he has caused the enemy to rejoice over you, he has exalted the horn of him that afflicted you.",
+          "id": 26227
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "TSADE. Their heart cried to the Lord, You walls of Sion, pour down tears like torrents day and night: give yourself no rest; let not the apple of your eyes cease.",
+          "id": 26228
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "KOPH. Arise, rejoice in the night at the beginning of your watch: pour out your heart as water before the face of the Lord; lift up your hands to him for the life of your infants, who faint for hunger at the top of all the streets.",
+          "id": 26229
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "RHECHS. Behold, O Lord, and see for whom you have gathered thus. Shall the women eat the fruit of their womb? the cook has made a gathering: shall the infants sucking at the breasts be slain? will you kill the priest and prophet in the sanctuary of the Lord?",
+          "id": 26230
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "CHSEN. The child and old man have lain down in the street: my virgins and my young men are gone into captivity: you have slain them with the sword and with famine; in the day of your wrath you have mangled them, you have not spared.",
+          "id": 26231
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "THAU. He has called my sojourners round about to a solemn day, and there was not in the day of the wrath of the Lord any one that escaped or was left; whereas I have strengthened and multiplied all mine enemies.",
+          "id": 26232
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "ALEPH. I am the man that sees poverty, through the rod of his wrath upon me.",
+          "id": 26233
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "He has taken me, and led me away into darkness, and not into light.",
+          "id": 26234
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Nay, against me has he turned his hand all the day.",
+          "id": 26235
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "He has made old my flesh and my skin; he has broken my bones.",
+          "id": 26236
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "BETH. He has built against me, and compassed my head, and brought travail upon me.",
+          "id": 26237
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "He has set me in dark places, as them that have long been dead.",
+          "id": 26238
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "He has builded against me, and I can''t come forth: he has made my brazen chain heavy.",
+          "id": 26239
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "GIMEL. Yes, though I cry and shout, he shuts out my prayer.",
+          "id": 26240
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "DALETH. He has built up my ways, he has hedged my paths;",
+          "id": 26241
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "he has troubled me, as a she-bear lying in wait: he is to me as a lion in secret places.",
+          "id": 26242
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "He pursued me after I departed, and brought me to a stand: he has utterly ruined me.",
+          "id": 26243
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "HE. He has bent his bow, and set me as a mark for the arrow.",
+          "id": 26244
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "He has caused the arrows of his quiver to enter into my reins.",
+          "id": 26245
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "I became a laughing stock to all my people; and their song all the day.",
+          "id": 26246
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "VAU. He has filled me with bitterness, he has drenched me with gall.",
+          "id": 26247
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "And he has dashed out my teeth with gravel, he has fed me with ashes.",
+          "id": 26248
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "He has also removed my soul from peace: I forgot prosperity.",
+          "id": 26249
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Therefore my success has perished, and my hope from the Lord.",
+          "id": 26250
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "ZAIN. I remembered by reason of my poverty, and because of persecution my bitterness and gall shall be remembered;",
+          "id": 26251
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "and my soul shall meditate with me.",
+          "id": 26252
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "This will I lay up in my heart, therefore I will endure.",
+          "id": 26253
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "HETH. It is the mercies of the Lord, that he has not failed me, because his compassions are not exhausted. Pity us, O Lord, early every month: for we are not brought to an end, because his compassions are not exhausted.",
+          "id": 26254
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "They are new every morning: great is your faithfulness.",
+          "id": 26255
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "The Lord is my portion, says my soul; therefore will I wait for him.",
+          "id": 26256
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "TETH. The Lord is good to them that wait for him: the soul which shall seek him",
+          "id": 26257
+        },
+        {
+          "isRed": false,
+          "verse": 26,
+          "text": "is good, and shall wait for, and quietly expect salvation of the Lord.",
+          "id": 26258
+        },
+        {
+          "isRed": false,
+          "verse": 27,
+          "text": "TETH. It is good for a man when he bears a yoke in his youth.",
+          "id": 26259
+        },
+        {
+          "isRed": false,
+          "verse": 28,
+          "text": "He will sit alone, and be silent, because he has borne it upon him.",
+          "id": 26260
+        },
+        {
+          "isRed": false,
+          "verse": 29,
+          "text": "JOD. He will give his cheek to him that smites him: he will be filled full with reproaches.",
+          "id": 26261
+        },
+        {
+          "isRed": false,
+          "verse": 30,
+          "text": "For the Lord will not reject for ever.",
+          "id": 26262
+        },
+        {
+          "isRed": false,
+          "verse": 31,
+          "text": "CHAPH. For he that has brought down will pity, and that according to the abundance of his mercy.",
+          "id": 26263
+        },
+        {
+          "isRed": false,
+          "verse": 32,
+          "text": "He has not answered in anger from his heart, though he has brought low the children of a man.",
+          "id": 26264
+        },
+        {
+          "isRed": false,
+          "verse": 33,
+          "text": "LAMED. To bring down under his feet all the prisoners of the earth,",
+          "id": 26265
+        },
+        {
+          "isRed": false,
+          "verse": 34,
+          "text": "to turn aside the judgement of a man before the face of the Most High,",
+          "id": 26266
+        },
+        {
+          "isRed": false,
+          "verse": 35,
+          "text": "to condemn a man unjustly in his judgement, the Lord has not given commandment.",
+          "id": 26267
+        },
+        {
+          "isRed": false,
+          "verse": 36,
+          "text": "Who has thus spoken, and it has come to pass? the Lord has not commanded it.",
+          "id": 26268
+        },
+        {
+          "isRed": false,
+          "verse": 37,
+          "text": "Out of the mouth of the Most High there shall not come forth evil and good.",
+          "id": 26269
+        },
+        {
+          "isRed": false,
+          "verse": 38,
+          "text": "MEM. Why should a living man complain, a man concerning his sin?",
+          "id": 26270
+        },
+        {
+          "isRed": false,
+          "verse": 39,
+          "text": "NUN. Our way has been searched out and examined, and we will turn to the Lord.",
+          "id": 26271
+        },
+        {
+          "isRed": false,
+          "verse": 40,
+          "text": "Let us lift up our hearts with our hand to the lofty One in heaven.",
+          "id": 26272
+        },
+        {
+          "isRed": false,
+          "verse": 41,
+          "text": "We have sinned, we have transgressed; and you have not pardoned.",
+          "id": 26273
+        },
+        {
+          "isRed": false,
+          "verse": 42,
+          "text": "SAMECH. You has visited us in wrath, and driven us away: you have slain, you have not pitied.",
+          "id": 26274
+        },
+        {
+          "isRed": false,
+          "verse": 43,
+          "text": "You have veiled yourself with a cloud because of prayer, that I might be blind,",
+          "id": 26275
+        },
+        {
+          "isRed": false,
+          "verse": 44,
+          "text": "and be cast off. AIN. You have set us alone in the midst of the nations.",
+          "id": 26276
+        },
+        {
+          "isRed": false,
+          "verse": 45,
+          "text": "All our enemies have opened their mouth against us.",
+          "id": 26277
+        },
+        {
+          "isRed": false,
+          "verse": 46,
+          "text": "Fear and wrath are come upon us, suspense and destruction.",
+          "id": 26278
+        },
+        {
+          "isRed": false,
+          "verse": 47,
+          "text": "Mine eye shall pour down torrents of water, for the destruction of the daughter of my people.",
+          "id": 26279
+        },
+        {
+          "isRed": false,
+          "verse": 48,
+          "text": "PHE. Mine eye is drowned with tears, and I will not be silent, so that there shall be no rest,",
+          "id": 26280
+        },
+        {
+          "isRed": false,
+          "verse": 49,
+          "text": "until the Lord look down, and behold from heaven.",
+          "id": 26281
+        },
+        {
+          "isRed": false,
+          "verse": 50,
+          "text": "Mine eye shall prey upon my soul, because of all the daughters of the city.",
+          "id": 26282
+        },
+        {
+          "isRed": false,
+          "verse": 51,
+          "text": "TSADE. The fowlers chased me as a sparrow, all mine enemies destroyed my life in a pit without cause,",
+          "id": 26283
+        },
+        {
+          "isRed": false,
+          "verse": 52,
+          "text": "and laid a stone upon me.",
+          "id": 26284
+        },
+        {
+          "isRed": false,
+          "verse": 53,
+          "text": "Water flowed over my head: I said, I am cut off.",
+          "id": 26285
+        },
+        {
+          "isRed": false,
+          "verse": 54,
+          "text": "KOPH. I called upon your name, O Lord, out of the lowest dungeon.",
+          "id": 26286
+        },
+        {
+          "isRed": false,
+          "verse": 55,
+          "text": "You heard my voice: close not your ears to my supplication.",
+          "id": 26287
+        },
+        {
+          "isRed": false,
+          "verse": 56,
+          "text": "You drew near to my help: in the day wherein I called upon you you said to me, Fear not.",
+          "id": 26288
+        },
+        {
+          "isRed": false,
+          "verse": 57,
+          "text": "RECHS. O Lord, you have pleaded the causes of my soul; you have redeemed my life.",
+          "id": 26289
+        },
+        {
+          "isRed": false,
+          "verse": 58,
+          "text": "You have seen, O Lord, my troubles: you have judged my cause.",
+          "id": 26290
+        },
+        {
+          "isRed": false,
+          "verse": 59,
+          "text": "You have seen all their vengeance, you have looked on all their devices against me.",
+          "id": 26291
+        },
+        {
+          "isRed": false,
+          "verse": 60,
+          "text": "CHSEN. You have heard their reproach and all their devices against me;",
+          "id": 26292
+        },
+        {
+          "isRed": false,
+          "verse": 61,
+          "text": "the lips of them that rose up against me, and their plots against me all the day;",
+          "id": 26293
+        },
+        {
+          "isRed": false,
+          "verse": 62,
+          "text": "their sitting down and their rising up: look you upon their eyes.",
+          "id": 26294
+        },
+        {
+          "isRed": false,
+          "verse": 63,
+          "text": "You will render them a recompense, O Lord, according to the works of their hands.",
+          "id": 26295
+        },
+        {
+          "isRed": false,
+          "verse": 64,
+          "text": "THAU. You will give them as a covering, the grief of my heart.",
+          "id": 26296
+        },
+        {
+          "isRed": false,
+          "verse": 65,
+          "text": "You will persecute them in anger, and will consume them from under the heaven, O Lord.",
+          "id": 26297
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "ALEPH. How will the gold be tarnished, and the fine silver changed! the sacred stones have been poured forth at the top of all the streets.",
+          "id": 26298
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "BETH. The precious sons of Zion, who were equalled in value with gold, how are they counted as earthen vessels, the works of the hands of the potter!",
+          "id": 26299
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "GIMEL. Nay, serpents have drawn out the breasts, they give suck to their young, the daughters of my people are incurably cruel, as an ostrich in a desert.",
+          "id": 26300
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "DALETH. The tongue of the sucking child cleaves to the roof of its mouth for thirst: the little children ask for bread, and there is none to break it to them.",
+          "id": 26301
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "HE. They that feed on dainties are desolate in the streets: they that used to be nursed in scarlet have clothed themselves with dung.",
+          "id": 26302
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "VAU. And the iniquity of the daughter of my people has been increased beyond the iniquities of Sodoma, the city that was overthrown very suddenly, and none laboured against her with their hands.",
+          "id": 26303
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "ZAIN. Her Nazarites were made purer than snow, they were whiter than milk, they were purified as with fire, their polishing was superior to sapphire stone.",
+          "id": 26304
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "HETH. Their countenance is become blacker than smoke; they are not known in the streets: their skin has cleaved to their bones; they are withered, they are become as a stick.",
+          "id": 26305
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "TETH. The slain with the sword were better than they that were slain with hunger: they have departed, pierced through from lack of the fruits of the field.",
+          "id": 26306
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "JOD. The hands of tender-hearted women have sodden their own children: they became meat for them in the destruction of the daughter of my people.",
+          "id": 26307
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "CHAPH. The Lord has accomplished his wrath; he has poured out fierce anger, and has kindled a fire in Sion, and it has devoured her foundations.",
+          "id": 26308
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "LAMED. The kings of the earth, even all that dwell in the world, believed not that an enemy and oppressor would enter through the gates of Jerusalem.",
+          "id": 26309
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "MEM. For the sins of her prophets, and iniquities of her priests, who shed righteous blood in the midst of her,",
+          "id": 26310
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "NUN. her watchmen staggered in the streets, they were defiled with blood in their weakness, they touched their raiment with it.",
+          "id": 26311
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "SAMECH. Depart you from the unclean ones: call you them: depart, depart, touch them not: for they are on fire, yes, they stagger: say you amongst the nations, They shall no more sojourn there.",
+          "id": 26312
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "AIN. The presence of the Lord was their portion; but he will not again look upon them: they regarded not the person of the priests, they pitied not the prophets.",
+          "id": 26313
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "PHE. While we yet lived our eyes failed, while we looked in vain for our help. TSADE. We looked to a nation that could not save.",
+          "id": 26314
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "We have hunted for our little ones, that they should not walk in our streets. KOPH. Our time has drawn near, our days are fulfilled, our time is come.",
+          "id": 26315
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "Our pursuers were swifter than the eagles of the sky, they flew on the mountains, in the wilderness they laid wait for us.",
+          "id": 26316
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "RECHS. The breath of our nostrils, our anointed Lord, was taken in their destructive snares, of whom we said, In his shadow we shall live amongst the Gentiles.",
+          "id": 26317
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "CHSEN. Rejoice and be glad, O daughter of Idumea, that dwell in the land: yet the cup of the Lord shall pass through to you: you shall be drunken, and pour forth.",
+          "id": 26318
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "THAU. O daughter of Sion, your iniquity has come to an end; he shall no more carry you captive: he has visited your iniquities, O daughter of Edom; he has discovered your sins.",
+          "id": 26319
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Remember, O Lord, what has happened to us: behold, and look on our reproach.",
+          "id": 26320
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Our inheritance has been turned away to aliens, our houses to strangers:",
+          "id": 26321
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "we are become orphans, we have no father, our mothers are as widows.",
+          "id": 26322
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "We have drunk our water for money; our wood is sold to us for a burden on our neck:",
+          "id": 26323
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "we have been persecuted, we have laboured, we have had no rest.",
+          "id": 26324
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Egypt gave the hand to us, Assur to their own satisfaction.",
+          "id": 26325
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Our fathers sinned, and are not: we have borne their iniquities.",
+          "id": 26326
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Servants have ruled over us: there is none to ransom us out of their hand.",
+          "id": 26327
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "We shall bring in our bread with danger of our lives, because of the sword of the wilderness.",
+          "id": 26328
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "Our skin is blackened like an oven; they are convulsed, because of the storms of famine.",
+          "id": 26329
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "They humbled the women in Sion, the virgins in the cities of Juda.",
+          "id": 26330
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Princes were hanged up by their hands: the elders were not honoured.",
+          "id": 26331
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "The chosen men lifted up the voice in weeping, and the youths fainted under the wood.",
+          "id": 26332
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "And the elders ceased from the gate, the chosen men ceased from their music.",
+          "id": 26333
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "The joy of our heart has ceased; our dance is turned into mourning.",
+          "id": 26334
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "The crown has fallen from our head: yes, woe to us! for we have sinned.",
+          "id": 26335
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "For this has grief come; our heart is sorrowful: for this our eyes are darkened.",
+          "id": 26336
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Over the mountain of Sion, because it is made desolate, foxes have walked therein.",
+          "id": 26337
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "But you, O Lord, shall dwell for ever; your throne shall endure to generation and generation.",
+          "id": 26338
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "Therefore will you utterly forget us, and abandon us a long time?",
+          "id": 26339
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "Turn us, O Lord, to you, and we shall be turned; and renew our days as before.",
+          "id": 26340
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "For you have indeed rejected us; you have been very angry against us.",
+          "id": 26341
+        }
+      ]
+    }
+  ]
+}

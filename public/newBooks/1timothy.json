@@ -1,0 +1,713 @@
+{
+  "book": "I Timothy",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Paul, an apostle of Jesus Christ according to the command of God our Savior and of the Lord Jesus Christ our hope,",
+          "id": 34898
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "to Timothy, my true child in the faith: Grace, mercy, and peace from God our Father and Christ Jesus our Lord.",
+          "id": 34899
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Just as I urged you when I was going to Macedonia, remain in Ephesus so that you may charge certain people not to teach different doctrines",
+          "id": 34900
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "or to occupy themselves with myths and endless genealogies, which promote disputes rather than the plan of God that operates by faith.",
+          "id": 34901
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "The goal of our instruction is love from a pure heart, from a good conscience, and from sincere faith.",
+          "id": 34902
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "Some have strayed from these and turned aside to meaningless talk,",
+          "id": 34903
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "desiring to be teachers of the law, although they do not understand what they are talking about or what they so confidently affirm.",
+          "id": 34904
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Now we know that the law is good, if one uses it lawfully.",
+          "id": 34905
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "We know that the law is not laid down for the righteous, but for the lawless and rebellious, for the ungodly and sinners, for the unholy and profane, for those who kill their father or mother, for murderers,",
+          "id": 34906
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "for fornicators, for homosexuals, for slave traders, for liars, for perjurers, and for whatever else is opposed to the sound teaching",
+          "id": 34907
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "that conforms to the gospel of the glory of the blessed God, which has been entrusted to me.",
+          "id": 34908
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "I give thanks to Christ Jesus our Lord, who has given me strength, because he considered me to be faithful and appointed me to serve him,",
+          "id": 34909
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "even though I was formerly a blasphemer, persecutor, and insolent man. But I received mercy because I had ignorantly acted in unbelief,",
+          "id": 34910
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "and the grace of our Lord abounded to me greatly with the faith and love that are in Christ Jesus.",
+          "id": 34911
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "This saying is trustworthy and deserving of full acceptance: Christ Jesus came into the world to save sinners, of whom I am the foremost.",
+          "id": 34912
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "But I received mercy for this reason, that in me, as the foremost sinner, Jesus Christ might show complete patience, making me an example for those who would come to believe in him for eternal life.",
+          "id": 34913
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Now to the King of the ages, immortal, invisible, the only wise God, be honor and glory forever and ever. Amen.",
+          "id": 34914
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "This charge I entrust to you, Timothy, my child, according to the prophecies once made about you, so that by them you may fight the good fight,",
+          "id": 34915
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "having faith and a good conscience. By rejecting this, some have shipwrecked their faith.",
+          "id": 34916
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "Among them are Hymenaeus and Alexander, whom I have handed over to Satan so that they may learn not to blaspheme.",
+          "id": 34917
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "I urge then, first of all, that supplications, prayers, intercessions, and thanksgivings be made for all people,",
+          "id": 34918
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "for kings and all who are in authority, so that we may lead a quiet and peaceful life in all godliness and dignity.",
+          "id": 34919
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "For this is good and acceptable before God our Savior,",
+          "id": 34920
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "who wants all people to be saved and to come to the knowledge of the truth.",
+          "id": 34921
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "For there is one God and one mediator between God and men, the man Christ Jesus,",
+          "id": 34922
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "who gave himself as a ransom for all, which is the testimony given at the proper time.",
+          "id": 34923
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "For this testimony I was appointed to be a preacher, an apostle, and a teacher of the Gentiles in faith and truth. (I am speaking the truth in Christ; I am not lying.)",
+          "id": 34924
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Therefore I want the men in every place to pray, lifting up holy hands without anger or argument.",
+          "id": 34925
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "Likewise, I want the women to adorn themselves in respectable apparel, with modesty and discretion, not with elaborately braided hair, gold, pearls, or expensive clothing,",
+          "id": 34926
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "but with good works, which is proper for women who profess godly reverence.",
+          "id": 34927
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "A woman should learn quietly with full submission.",
+          "id": 34928
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "I do not permit a woman to teach or to have authority over a man; rather, she is to remain quiet.",
+          "id": 34929
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "For Adam was formed first, then Eve.",
+          "id": 34930
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "And Adam was not the one who was deceived; it was the woman who was deceived and fell into transgression.",
+          "id": 34931
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Nevertheless, women will be saved through childbearing, if they continue in faith, love, and holiness, with self-control.",
+          "id": 34932
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "This saying is trustworthy: If anyone aspires to the office of overseer, he desires a good work.",
+          "id": 34933
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Therefore the overseer must be above reproach, the husband of one wife, sober-minded, sensible, respectable, hospitable, able to teach,",
+          "id": 34934
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "not given to wine, not violent, not greedy for sordid gain, but gentle, not contentious, and not a lover of money.",
+          "id": 34935
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "He must lead his own household well, keeping his children in submission with all dignity.",
+          "id": 34936
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "(For if a man does not know how to lead his own household, how will he take care of God''s church?)",
+          "id": 34937
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "He must not be a new convert, or he might become puffed up and fall into the condemnation of the devil.",
+          "id": 34938
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "He must also have a good reputation among outsiders, so that he may not fall into the reproach and snare of the devil.",
+          "id": 34939
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "Deacons likewise must be dignified, not double-tongued, not given to much wine, and not greedy for sordid gain.",
+          "id": 34940
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "They must hold the mystery of the faith with a clear conscience.",
+          "id": 34941
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "They must first be tested; if they are above reproach, let them serve as deacons.",
+          "id": 34942
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Their wives likewise must be dignified, not slanderers, but sober-minded and faithful in all things.",
+          "id": 34943
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "A deacon must be the husband of one wife and must lead his children and his own household well.",
+          "id": 34944
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "For those who have served well as deacons obtain a good standing for themselves along with great boldness in the faith that is in Christ Jesus.",
+          "id": 34945
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "I am writing these things to you, hoping to come to you soon.",
+          "id": 34946
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "But if I delay, I am writing so that you may know how one ought to conduct himself in the household of God, which is the church of the living God, a pillar and foundation of the truth.",
+          "id": 34947
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Beyond all question, great is the mystery of godliness: God was revealed in the flesh, vindicated by the Spirit, seen by angels, preached among nations, believed on in the world, and taken up in glory.",
+          "id": 34948
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Now the Spirit expressly says that in latter times some will fall away from the faith and occupy themselves with deceitful spirits and the teachings of demons,",
+          "id": 34949
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "being influenced by the hypocrisy of liars who are seared in their own consciences.",
+          "id": 34950
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "They forbid marriage and demand abstinence from foods that God created to be received with thanksgiving by those who believe and know the truth.",
+          "id": 34951
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "For everything created by God is good, and nothing is to be rejected when it is received with thanksgiving,",
+          "id": 34952
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "since it is sanctified through the word of God and prayer.",
+          "id": 34953
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "If you point these things out to the brothers, you will be a good servant of Jesus Christ, nourished by the words of the faith and the sound doctrine that you have closely followed.",
+          "id": 34954
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Have nothing to do with profane myths and old wives'' tales. Rather train yourself for godliness.",
+          "id": 34955
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "For bodily training is beneficial to a certain extent, but godliness is beneficial in every way, since it holds promise for both the present life and the life to come.",
+          "id": 34956
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "This saying is trustworthy and deserving of full acceptance.",
+          "id": 34957
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "For this is why we labor and suffer reproach, because we have put our hope in the living God, who is the Savior of all people, and especially of those who believe.",
+          "id": 34958
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "Command and teach these things.",
+          "id": 34959
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Let no one despise you because you are young, but set an example for the believers in your speech, conduct, love, spirit, faith, and purity.",
+          "id": 34960
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "Until I come, give attention to the public reading of Scripture, to exhortation, and to teaching.",
+          "id": 34961
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "Do not neglect the gift that is in you, which was given to you through prophecy when the council of elders laid their hands on you.",
+          "id": 34962
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "Attend to these things and immerse yourself in them, so that your progress may be evident to all.",
+          "id": 34963
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "Watch your life and doctrine closely. Persevere in these things, for as you do this, you will save both yourself and those who listen to you.",
+          "id": 34964
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "Do not rebuke an older man, but appeal to him as you would to a father. Speak to younger men as brothers,",
+          "id": 34965
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "older women as mothers, and younger women as sisters, in all purity.",
+          "id": 34966
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "Honor widows who are truly widows.",
+          "id": 34967
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "But if any widow has children or grandchildren, they should first learn to show godliness toward their own household and to make some repayment to their parents, for this is acceptable in the sight of God.",
+          "id": 34968
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "Now a woman who is truly a widow and left all alone has put her hope in God and continues night and day in her supplications and prayers.",
+          "id": 34969
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "But she who lives in self-indulgence is dead even while she lives.",
+          "id": 34970
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "Give these commands as well, so that no one will be open to blame.",
+          "id": 34971
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "But if anyone does not provide for his own relatives, and especially for those of his own household, he has denied the faith and is worse than an unbeliever.",
+          "id": 34972
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "A widow may be put on the list to receive support if she is at least sixty years old, has been the wife of one husband,",
+          "id": 34973
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "and has a reputation for good works, that is, if she has brought up children, shown hospitality, washed the feet of the saints, helped the afflicted, and devoted herself to every good work.",
+          "id": 34974
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "But reject younger widows, for when their sensual desires draw them away from Christ, they wish to marry,",
+          "id": 34975
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "thus bringing judgment on themselves because they have broken their previous pledge.",
+          "id": 34976
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "At the same time, they learn to be idle, wandering about from house to house. And they are not only idle, but also gossips and busybodies, saying things they should not say.",
+          "id": 34977
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "So I advise the younger widows to marry, bear children, and manage their households, so as to give the adversary no opportunity to revile us.",
+          "id": 34978
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "For some have already turned away to follow Satan.",
+          "id": 34979
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "If any believing man or woman has relatives who are widows, they must help them; the church should not be burdened, so that it may help those who are truly widows.",
+          "id": 34980
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Elders who lead well should be considered worthy of double honor, especially those who labor in preaching and teaching.",
+          "id": 34981
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "For the Scripture says, \"You shall not muzzle an ox while it is threshing,\" and, \"The worker is worthy of his wages.\"",
+          "id": 34982
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "Do not accept an accusation against an elder unless it is confirmed by two or three witnesses.",
+          "id": 34983
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "As for those who sin, reprove them in the presence of all, so that the rest may stand in fear.",
+          "id": 34984
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "I solemnly charge you before God and the Lord Jesus Christ and the chosen angels to observe these things without partiality, doing nothing out of favoritism.",
+          "id": 34985
+        },
+        {
+          "isRed": false,
+          "verse": 22,
+          "text": "Do not lay hands on anyone hastily, and do not take part in the sins of others; keep yourself pure.",
+          "id": 34986
+        },
+        {
+          "isRed": false,
+          "verse": 23,
+          "text": "(No longer drink only water, but use a little wine for the sake of your stomach and your frequent illnesses.)",
+          "id": 34987
+        },
+        {
+          "isRed": false,
+          "verse": 24,
+          "text": "The sins of some are obvious, going before them to judgment, but the sins of others trail along behind.",
+          "id": 34988
+        },
+        {
+          "isRed": false,
+          "verse": 25,
+          "text": "In the same way, good works are obvious, and even those that are not obvious cannot remain hidden.",
+          "id": 34989
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "isRed": false,
+          "verse": 1,
+          "text": "All who are under the yoke of slavery must regard their own masters as worthy of all honor, so that no one will revile God''s name or his doctrine.",
+          "id": 34990
+        },
+        {
+          "isRed": false,
+          "verse": 2,
+          "text": "Slaves who have believing masters must not despise them, for they are brothers; rather they must serve them, because those who benefit from their good service are faithful and beloved. Teach and encourage these things.",
+          "id": 34991
+        },
+        {
+          "isRed": false,
+          "verse": 3,
+          "text": "If anyone teaches a different doctrine and does not agree with the sound words of our Lord Jesus Christ and the teaching that is in accordance with godliness,",
+          "id": 34992
+        },
+        {
+          "isRed": false,
+          "verse": 4,
+          "text": "he is puffed up and understands nothing. Moreover, he has an unhealthy desire for controversies and quarrels about words, from which come envy, strife, slanderous words, evil suspicions,",
+          "id": 34993
+        },
+        {
+          "isRed": false,
+          "verse": 5,
+          "text": "and constant disagreement among people who are depraved in mind and deprived of the truth, supposing that godliness is a means of gain. Keep away from such people.",
+          "id": 34994
+        },
+        {
+          "isRed": false,
+          "verse": 6,
+          "text": "But godliness with contentment is great gain.",
+          "id": 34995
+        },
+        {
+          "isRed": false,
+          "verse": 7,
+          "text": "For we brought nothing into the world, and it is clear that we cannot bring anything out either,",
+          "id": 34996
+        },
+        {
+          "isRed": false,
+          "verse": 8,
+          "text": "but if we have food and clothing, we will be content with that.",
+          "id": 34997
+        },
+        {
+          "isRed": false,
+          "verse": 9,
+          "text": "But those who wish to be rich fall into temptation and a snare, and into many senseless and harmful desires that sink people into ruin and destruction.",
+          "id": 34998
+        },
+        {
+          "isRed": false,
+          "verse": 10,
+          "text": "For the love of money is the root of all kinds of evil, and in their eagerness to become rich some have wandered away from the faith, piercing themselves with many sorrows.",
+          "id": 34999
+        },
+        {
+          "isRed": false,
+          "verse": 11,
+          "text": "But as for you, O man of God, flee from these things, and pursue righteousness, godliness, faithfulness, love, endurance, and gentleness.",
+          "id": 35000
+        },
+        {
+          "isRed": false,
+          "verse": 12,
+          "text": "Fight the good fight of faith. Take hold of the eternal life to which you were called and concerning which you made the good confession in the presence of many witnesses.",
+          "id": 35001
+        },
+        {
+          "isRed": false,
+          "verse": 13,
+          "text": "I charge you before God, who gives life to all things, and before Christ Jesus, who made the good confession in his testimony before Pontius Pilate,",
+          "id": 35002
+        },
+        {
+          "isRed": false,
+          "verse": 14,
+          "text": "that you keep the commandment unspotted and above reproach until the appearing of our Lord Jesus Christ,",
+          "id": 35003
+        },
+        {
+          "isRed": false,
+          "verse": 15,
+          "text": "which God will reveal in his own time. He is the blessed and only Sovereign, the King of kings and Lord of lords,",
+          "id": 35004
+        },
+        {
+          "isRed": false,
+          "verse": 16,
+          "text": "who alone has immortality, dwelling in unapproachable light, whom no man has ever seen or is able to see. To him be honor and eternal power. Amen.",
+          "id": 35005
+        },
+        {
+          "isRed": false,
+          "verse": 17,
+          "text": "Command those who are rich in this present age not to be haughty or to put their hope in the uncertainty of riches, but in the living God, who richly provides us with everything for our enjoyment.",
+          "id": 35006
+        },
+        {
+          "isRed": false,
+          "verse": 18,
+          "text": "Command them to do good, to be rich in good works, and to be generous and willing to share,",
+          "id": 35007
+        },
+        {
+          "isRed": false,
+          "verse": 19,
+          "text": "treasuring up for themselves a good foundation for the time to come, so that they may take hold of eternal life.",
+          "id": 35008
+        },
+        {
+          "isRed": false,
+          "verse": 20,
+          "text": "O Timothy, guard what has been entrusted to you and avoid the profane chatter and counterarguments of what is falsely called \"knowledge.\"",
+          "id": 35009
+        },
+        {
+          "isRed": false,
+          "verse": 21,
+          "text": "By professing it, some have strayed from the faith. Grace be with you. Amen.",
+          "id": 35010
+        }
+      ]
+    }
+  ]
+}
