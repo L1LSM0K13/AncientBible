@@ -1,8 +1,6 @@
 {
 	"dependencies": {
 		"bcrypt": "^5.1.1",
-		"db-migrate": "^0.11.14",
-		"db-migrate-pg": "^1.5.2",
 		"dotenv": "^16.4.5",
 		"ejs": "^3.1.9",
 		"express": "^4.18.2",
@@ -13,6 +11,7 @@
 		"passport": "^0.7.0",
 		"passport-local": "^1.0.0",
 		"pg": "^8.11.5",
+		"redis": "^4.7.0",
 		"tailwindcss": "^3.4.1"
 	},
 	"name": "ancient-bible",

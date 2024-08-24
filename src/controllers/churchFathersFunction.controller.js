@@ -1,5 +1,6 @@
 const { getBookTitles, getBookChapters, getBookText } = require('../models/churchFathersFunction.model')
 const { getUserNotesFathers, getUserHighlightsFathers} = require('../models/fetchNotesAndHighlights.model')
+const redisClient = require('../../config/redisClient')
 
 /**
  *
@@ -14,6 +15,15 @@ const fathersQueryController = async (req, res, pool) => {
     const defaultChapter = parseInt(req.query.chapter) || 1;
 
     const user_id = req.user ? req.user.id : null
+
+    const cacheKey = `fathers:${defaultBook}:${defaultChapter}:${user_id}`
+    const cachedData = await redisClient.get(cacheKey)
+
+    if (cachedData) {
+        const renderData = JSON.parse(cachedData)
+        await defaultRender(req, res, req.isAuthenticated(), '../public/views/fathers', renderData)
+        return renderData
+    }
 
     const [
         bookTitleRes,
@@ -74,11 +84,11 @@ const fathersQueryController = async (req, res, pool) => {
 
 
     // Rendering the page
-    if (isAuth) {
-        await defaultRender(req, res, true, '../public/views/fathers', renderData)
-    } else {
-        await defaultRender(req, res, false, '../public/views/fathers', renderData)
-    }
+    await redisClient.set(cacheKey, JSON.stringify(renderData), {
+        EX: 3600
+    })
+
+    await defaultRender(req, res, isAuth, '../public/views/fathers', renderData)
 
     return renderData;
 }
