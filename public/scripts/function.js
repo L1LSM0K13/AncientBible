@@ -3,6 +3,9 @@ const bList = document.getElementById('book-list')
 const cList = document.getElementById('chapter-list')
 const vCont = document.getElementById('vCont')
 const bTitle = document.getElementById('bookTitle')
+const redBtn = document.getElementById('redLetterBtn')
+
+let isRed = JSON.parse(sessionStorage.getItem('isRed')) || true
 /**
  *
  * @param filename {string}
@@ -44,9 +47,12 @@ function loadVerses(verses, container) {
         const verseText = document.createElement('span')
         const verseNumber = document.createElement('span')
 
+        if (!isRed && verse.isRed) {
+            verseText.classList.toggle('text-red-600'); // Remove the red class
+        }
 
         // Class list for the elements
-        verseText.classList.add('mx-2', 'my-1', 'p-1')
+        verseText.classList.add('mx-2', 'my-1', 'p-1', 'verse')
         verseNumber.classList.add('p-1')
 
         verseNumber.id = verse.id
@@ -89,7 +95,7 @@ async function loadBook(filename) {
 async function loadChapter(book, chapterIndex) {
     const filename = bList.value
     const chapter = book.chapters[chapterIndex]
-    bTitle.innerText = `Book of ${book.book} ${parseInt(chapterIndex) + 1}`
+    bTitle.innerText = `Book of ${book.book} - Chapter ${parseInt(chapterIndex) + 1}`
 
     loadVerses(chapter.verses, vCont)
 
@@ -104,6 +110,12 @@ async function loadChapter(book, chapterIndex) {
 async function main() {
 
     await loadBook(bList.value)
+
+    redBtn.addEventListener('click', async () => {
+        isRed = !isRed
+        sessionStorage.setItem('isRed', JSON.stringify(isRed))
+        await loadChapter(await fetchBook(bList.value), cList.value)
+    })
 
     bList.addEventListener('change', async () => {
         sessionStorage.removeItem(`selectedChapter_${bList.value}`)

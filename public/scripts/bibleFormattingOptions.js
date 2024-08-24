@@ -1,9 +1,8 @@
 const verseBtn = document.getElementById('verseBtn')
-
-
 const fontSizeElem = document.getElementById('fontSize')
 const fontTypeElem = document.getElementById('fontType')
 
+// let isRed = true
 let verseByVerse = false
 
 // Grid toggle
@@ -21,52 +20,6 @@ function loadSavedVerseByVerse() {
 	}
 }
 loadSavedVerseByVerse()
-
-// Red lettering toggle
-// redLetterBtn.addEventListener('click', () => {
-// 	isRed = !isRed
-// 	const verses = document.querySelectorAll('#vCont span')
-//
-// 	localStorage.setItem('is_red', JSON.stringify(isRed))
-//
-// 	verses.forEach((verse) => {
-// 		if (verse.classList.contains('text-red-600') && verse.classList.contains('dark:text-red-500')) {
-// 			if (isRed) {
-// 				if (!verse.classList.contains('text-red-600')) {
-// 					verse.classList.add('text-red-600', 'dark:text-red-500')
-// 				}
-// 			} else {
-// 				if (verse.classList.contains('text-red-600')) {
-// 					verse.classList.remove('text-red-600', 'dark:text-red-500');
-// 				}
-// 			}
-// 		}
-// 	})
-// console.log(isRed)
-// })
-// function loadSavedRedLettering() {
-// 	const savedRedLettering = JSON.parse(localStorage.getItem('is_red'))
-// 	const verses = document.querySelectorAll('#vCont span')
-//
-// 	if (savedRedLettering !== null) {
-// 		isRed = savedRedLettering
-//
-// 		verses.forEach((verse) => {
-// 			if (isRed) {
-// 				// Only add classes if they are not already present
-// 				if (!verse.classList.contains('text-red-600')) {
-// 					verse.classList.add('text-red-600', 'dark:text-red-500');
-// 				}
-// 			} else {
-// 				// Only remove classes if they are present
-// 				if (verse.classList.contains('text-red-600')) {
-// 					verse.classList.remove('text-red-600', 'dark:text-red-500');
-// 				}
-// 			}
-// 		})
-// 	}
-// }
-// loadSavedRedLettering()
 
 // Font type and size
 fontSizeElem.addEventListener('change', () => {
