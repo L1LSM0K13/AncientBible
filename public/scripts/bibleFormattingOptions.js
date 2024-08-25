@@ -1,8 +1,6 @@
 const verseBtn = document.getElementById('verseBtn')
 const fontSizeElem = document.getElementById('fontSize')
 const fontTypeElem = document.getElementById('fontType')
-
-// let isRed = true
 let verseByVerse = false
 
 // Grid toggle

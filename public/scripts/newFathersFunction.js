@@ -5,7 +5,7 @@ const vCont = document.getElementById('vCont')
 const bTitle = document.getElementById('bookTitle')
 const redBtn = document.getElementById('redLetterBtn')
 
-let isRed = JSON.parse(sessionStorage.getItem('isRed')) || true
+let isRed = JSON.parse(localStorage.getItem('isRed')) || false
 /**
  *
  * @param filename {string}
@@ -43,22 +43,11 @@ function generateChapterOptions(chapters) {
 // Loads verses into the container
 function loadVerses(verses, container) {
     container.innerText = '' // Clear existing content
-    verses.forEach(verse => {
+    verses.forEach((/** @type {{ isRed: any; id: string; verse: string; text: string; }} */ verse) => {
         const verseText = document.createElement('span')
-        const verseNumber = document.createElement('span')
-
-        if (!isRed && verse.isRed) {
-            verseText.classList.toggle('text-red-600'); // Remove the red class
-        }
 
         // Class list for the elements
         verseText.classList.add('mx-2', 'my-1', 'p-1', 'verse')
-        verseNumber.classList.add('p-1')
-
-        verseNumber.id = verse.id
-        verseNumber.innerText = verse.verse
-
-        verseText.appendChild(verseNumber)
         verseText.appendChild(document.createTextNode(verse.text))
 
         container.appendChild(verseText)
@@ -79,7 +68,7 @@ async function loadBook(filename) {
     chapterOptions.forEach(option => cList.appendChild(option))
 
     // @ts-ignore
-    const savedChapter = parseInt(sessionStorage.getItem(`selectedChapter_${filename}`), 10) || 0
+    const savedChapter = parseInt(localStorage.getItem(`selectedChapter_${filename}`), 10) || 0
     cList.value = savedChapter
 
     await loadChapter(book, savedChapter)
@@ -95,11 +84,11 @@ async function loadBook(filename) {
 async function loadChapter(book, chapterIndex) {
     const filename = bList.value
     const chapter = book.chapters[chapterIndex]
-    bTitle.innerText = `Book of ${book.book} - Chapter ${parseInt(chapterIndex) + 1}`
+    bTitle.innerText = `${book.book} - Chapter ${parseInt(chapterIndex) + 1}`
 
     loadVerses(chapter.verses, vCont)
 
-    sessionStorage.setItem(`selectedChapter_${filename}`, chapterIndex)
+    localStorage.setItem(`selectedChapter_${filename}`, chapterIndex)
 }
 
 /**
@@ -111,14 +100,8 @@ async function main() {
 
     await loadBook(bList.value)
 
-    redBtn.addEventListener('click', async () => {
-        isRed = !isRed
-        sessionStorage.setItem('isRed', JSON.stringify(isRed))
-        await loadChapter(await fetchBook(bList.value), cList.value)
-    })
-
     bList.addEventListener('change', async () => {
-        sessionStorage.removeItem(`selectedChapter_${bList.value}`)
+        localStorage.removeItem(`selectedChapter_${bList.value}`)
         await loadBook(bList.value)
     })
     cList.addEventListener('change', async () => {
