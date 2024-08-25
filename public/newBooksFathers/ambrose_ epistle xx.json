@@ -1,0 +1,734 @@
+{
+  "book": "Ambrose: Epistle XX",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "text": "Epistle XX.",
+          "id": 80754
+        },
+        {
+          "text": "St.",
+          "id": 80755
+        },
+        {
+          "text": "Ambrose relates to his sister the events at Milan connected with the demand of the Arians for a basilica, and how the people rose up in opposition.",
+          "id": 80756
+        },
+        {
+          "text": "Then that on the second day the basilica had been occupied by soldiers, who however fraternized with the Catholics.",
+          "id": 80757
+        },
+        {
+          "text": "He gives a sketch of his address, comparing their trials to those of Job, more particularly those caused by his wife, and other cases owing to women.",
+          "id": 80758
+        },
+        {
+          "text": "Though the basilica was surrendered, he himself had been threatened by a notary, but this did not trouble him.",
+          "id": 80759
+        },
+        {
+          "text": "He adapts the story of Jonah to the present circumstances, relates the joy of the people at recovering their church, Valentinian's words to his courtiers, and the behaviour of Calligonus to himself.",
+          "id": 80760
+        },
+        {
+          "text": "The date of the letter is Easter, a.",
+          "id": 80761
+        },
+        {
+          "text": "d.",
+          "id": 80762
+        },
+        {
+          "text": "385.",
+          "id": 80763
+        },
+        {
+          "text": "1.",
+          "id": 80764
+        },
+        {
+          "text": "Since in almost all your letters you enquire anxiously about the Church, you shall hear what is taking place.",
+          "id": 80765
+        },
+        {
+          "text": "The day after I received your letter, in which you said you were troubled by dreams, the pressure of heavy troubles began to be felt.",
+          "id": 80766
+        },
+        {
+          "text": "And this time it was not the Portian basilica, that is the one outside the walls, which was demanded, but the new basilica, that is the one within the walls, which is larger.",
+          "id": 80767
+        },
+        {
+          "text": "2.",
+          "id": 80768
+        },
+        {
+          "text": "First of all some great men, counsellors of state, begged of me to give up the basilica, and to manage that the people should make no disturbance.",
+          "id": 80769
+        },
+        {
+          "text": "I replied, of course, that the temple of God could not be surrendered by a Bishop.",
+          "id": 80770
+        },
+        {
+          "text": "3.",
+          "id": 80771
+        },
+        {
+          "text": "On the following day this answer was approved by the people in the Church; and  the Prefect came there, and began to persuade us to give up at least the Portian basilica, but the people clamoured against it.",
+          "id": 80772
+        },
+        {
+          "text": "He then went away implying that he should report to the Emperor.",
+          "id": 80773
+        },
+        {
+          "text": "4.",
+          "id": 80774
+        },
+        {
+          "text": "The day after, which was Sunday, after the lessons and the sermon, when the Catechumens were dismissed, I was teaching the creed to certain candidates in the baptistery of the basilica.",
+          "id": 80775
+        },
+        {
+          "text": "There it was reported to me that they had sent decani from the palace, and were putting up hangings, and that part of the people were going there.",
+          "id": 80776
+        },
+        {
+          "text": "I, however, remained at my ministrations, and began to celebrate mass.",
+          "id": 80777
+        },
+        {
+          "text": "5.",
+          "id": 80778
+        },
+        {
+          "text": "Whilst offering the oblation, I heard that a certain Castulus, who, the Arians said, was a priest, had been seized by the people.",
+          "id": 80779
+        },
+        {
+          "text": "Passers-by had come upon him in the streets.",
+          "id": 80780
+        },
+        {
+          "text": "I began to weep bitterly, and to implore God in the oblation that He would come to our aid, and that no one's blood be shed in the Church's cause, or at least that it might be my blood shed for the benefit not of my people only, but also for the unbelievers themselves.",
+          "id": 80781
+        },
+        {
+          "text": "Not to say more, I sent priests and deacons and rescued the man from violence.",
+          "id": 80782
+        },
+        {
+          "text": "6.",
+          "id": 80783
+        },
+        {
+          "text": "Thereupon the heaviest sentences were decreed, first upon the whole body of merchants.",
+          "id": 80784
+        },
+        {
+          "text": "And so during the holy days of the last week of Lent, when usually the bonds of debtors are loosed, chains were heard grating, were being placed on the necks of innocent persons, and two hundred pounds' weight of gold was required within three days' time.",
+          "id": 80785
+        },
+        {
+          "text": "They replied that they would give as much or twice as much, if demanded, so that only they might preserve their faith.",
+          "id": 80786
+        },
+        {
+          "text": "The prisons were full of trades-people.",
+          "id": 80787
+        },
+        {
+          "text": "7.",
+          "id": 80788
+        },
+        {
+          "text": "All the officials of the palace, that is the recorders, the commissioners, the apparitors of the different magistrates, were commanded to keep away from what was going on, on the pretence that they were forbidden to take part in any sedition; many very heavy penalties were threatened against men of position, if they did not surrender the basilica.",
+          "id": 80789
+        },
+        {
+          "text": "Persecution was raging, and had they but opened the floodgates, they seemed likely to break out into every kind of violence.",
+          "id": 80790
+        },
+        {
+          "text": "8.",
+          "id": 80791
+        },
+        {
+          "text": "The Counts and Tribunes came and urged me to cause the basilica to be quickly surrendered, saying that the Emperor was exercising his rights since everything was under his power.",
+          "id": 80792
+        },
+        {
+          "text": "I answered that if he asked of me what was mine, that is, my land, my money, or whatever of this kind was my own, I would not refuse it, although all that I have belonged to the poor, but that those things which are God's are not subject to the imperial power.",
+          "id": 80793
+        },
+        {
+          "text": "\"If my patrimony is required, enter upon it, if my body, I will go at once.",
+          "id": 80794
+        },
+        {
+          "text": "Do you wish to cast me into chains, or to give me to death? it will be a pleasure to me.",
+          "id": 80795
+        },
+        {
+          "text": "I will not defend myself with throngs of people, nor will I cling to the altars and entreat for my life, but will more gladly be slain myself for the altars\".",
+          "id": 80796
+        },
+        {
+          "text": "9.",
+          "id": 80797
+        },
+        {
+          "text": "I was indeed struck with horror when I learnt that armed men had been sent to take possession of the basilica, lest while the people were defending the basilica, there might be some slaughter which would tend to the injury of the whole city.",
+          "id": 80798
+        },
+        {
+          "text": "I prayed that I might not survive the destruction of so great a city, or it might be of the whole of Italy.",
+          "id": 80799
+        },
+        {
+          "text": "I feared the odium of shedding blood, I offered my own neck.",
+          "id": 80800
+        },
+        {
+          "text": "Some Gothic tribunes were present, whom I accosted, and said, \"Have you received the gift of Roman rights in order to make yourselves disturbers of the public peace? Whither will you go, if things here are destroyed?\"  10.",
+          "id": 80801
+        },
+        {
+          "text": "Then I was desired to restrain the people; I answered that it was in my power not to excite them; but in God's hands to quiet them.",
+          "id": 80802
+        },
+        {
+          "text": "And that if they thought that I was urging them on, they ought at once to punish me, or that I ought to be sent to any desert part of the earth they chose.",
+          "id": 80803
+        },
+        {
+          "text": "After I had said this, they departed, and I spent the whole day in the old basilica, and thence went home to sleep, that if any one wanted to carry me off he might find me ready.",
+          "id": 80804
+        },
+        {
+          "text": "11.",
+          "id": 80805
+        },
+        {
+          "text": "Before day when I left the house the basilica was surrounded by soldiers.",
+          "id": 80806
+        },
+        {
+          "text": "It is said that the soldiers had intimated to the Emperor that if he wished to go forth he could do so; that they would be in attendance, if they saw him go to join the Catholics; if not that they would go to the assembly which Ambrose had convened.",
+          "id": 80807
+        },
+        {
+          "text": "12.",
+          "id": 80808
+        },
+        {
+          "text": "None of the Arians dared to go forth, for there was not one among the citizens, only a few of the royal family, and some of the Goths.",
+          "id": 80809
+        },
+        {
+          "text": "And they as of old they made  use of their waggons as dwellings, now make the Church their waggon.",
+          "id": 80810
+        },
+        {
+          "text": "Wherever that woman goes, she carries with her all assemblage.",
+          "id": 80811
+        },
+        {
+          "text": "13.",
+          "id": 80812
+        },
+        {
+          "text": "I heard that the Basilica was surrounded by the groaning of the people, but whilst the lessons were being read, I was informed that the new Basilica also was full of people, that the crowd seemed greater than when they were all free, and that a Reader was being called for.",
+          "id": 80813
+        },
+        {
+          "text": "In short, the soldiers themselves who seemed to have occupied the Basilica, when they knew that I had ordered that the people should abstain from communion with them, began to come to our assembly.",
+          "id": 80814
+        },
+        {
+          "text": "When they saw this, the minds of the women were troubled, and one rushed forth.",
+          "id": 80815
+        },
+        {
+          "text": "But the soldiers themselves said that they had come for prayer not for fighting.",
+          "id": 80816
+        },
+        {
+          "text": "The people uttered some cries.",
+          "id": 80817
+        },
+        {
+          "text": "With great moderation, with great instancy, with great faithfulness they begged that we would go to that Basilica.",
+          "id": 80818
+        },
+        {
+          "text": "It was said, too, that the people in that Basilica were demanding my presence.",
+          "id": 80819
+        },
+        {
+          "text": "14.",
+          "id": 80820
+        },
+        {
+          "text": "I then commenced the following address.",
+          "id": 80821
+        },
+        {
+          "text": "You have heard, my children, the reading of the book of Job, which, according to the appointed order and season, is being gone through.",
+          "id": 80822
+        },
+        {
+          "text": "By experience the devil also knew that this book would be explained, in which all the power of his temptations is shown and made clear, and so to-day he roused himself with greater vigour.",
+          "id": 80823
+        },
+        {
+          "text": "But thanks be to our God, who has so established you with faith and patience.",
+          "id": 80824
+        },
+        {
+          "text": "I had mounted the pulpit to praise Job alone, and I have found in you all Jobs to praise.",
+          "id": 80825
+        },
+        {
+          "text": "In each of you Job lives again, in each the patience and valour of that saint has shone forth again.",
+          "id": 80826
+        },
+        {
+          "text": "For what more resolute could have been said by Christian men, than what the Holy Spirit has to-day spoken in you? We request, O Augustus, we do not fight, we do not fear, but we request.",
+          "id": 80827
+        },
+        {
+          "text": "This beseems Christians both to wish for peace and tranquillity, and not to suffer constancy of faith and truth to be checked by fear.",
+          "id": 80828
+        },
+        {
+          "text": "For the Lord is our Leader, \"Who is the Saviour of them that hope in Him\".",
+          "id": 80829
+        },
+        {
+          "text": "15.",
+          "id": 80830
+        },
+        {
+          "text": "But let us come to the lessons before us.",
+          "id": 80831
+        },
+        {
+          "text": "You see that permission is given to the devil, that the good may be tested.",
+          "id": 80832
+        },
+        {
+          "text": "The evil one envies all progress in good, he tempts us in divers way.",
+          "id": 80833
+        },
+        {
+          "text": "He tried holy Job in his possessions, in his children, in pain of body.",
+          "id": 80834
+        },
+        {
+          "text": "The stronger is tried in his own person, the weaker in that of another.",
+          "id": 80835
+        },
+        {
+          "text": "And he was desirous of carrying off my riches which I possess in you, and wished to dissipate this patrimony of your tranquillity.",
+          "id": 80836
+        },
+        {
+          "text": "And he strove to deprive me of yourselves also, my good children, for whom I daily renew the Sacrifice, you he endeavoured to involve in the ruin as it were of a public disturbance.",
+          "id": 80837
+        },
+        {
+          "text": "I have then already been assailed by two kinds of temptation.",
+          "id": 80838
+        },
+        {
+          "text": "And perhaps because the Lord our God knows me to be too weak, He has not yet given him power over my body.",
+          "id": 80839
+        },
+        {
+          "text": "Though myself may desire it, though I offer myself, He deems me yet it may be unequal to this conflict, and exercises me with divers labours.",
+          "id": 80840
+        },
+        {
+          "text": "And Job did not begin with that conflict but finished with it.",
+          "id": 80841
+        },
+        {
+          "text": "16.",
+          "id": 80842
+        },
+        {
+          "text": "But Job was tried by accumulated tidings of evils, he was also tried by his wife, who said, \"Speak a word against God and die\".",
+          "id": 80843
+        },
+        {
+          "text": "You see what terrible things are of a sudden stirred up, the Goths, armed men, the heathen, the fines of the merchants, the sufferings of the Saints.",
+          "id": 80844
+        },
+        {
+          "text": "You observe what was commanded, when the order was given \"surrender the Basilica;\" that is \"speak a word against God and die.",
+          "id": 80845
+        },
+        {
+          "text": "And not only, speak against God,\" but, Do something against Him.",
+          "id": 80846
+        },
+        {
+          "text": "For the command was, surrender the altars of God.",
+          "id": 80847
+        },
+        {
+          "text": "17.",
+          "id": 80848
+        },
+        {
+          "text": "So, then, we are prepared by the imperial commands, but are strengthened by the words of Scripture, which replies: \"Thou hast spoken as one of the foolish\".",
+          "id": 80849
+        },
+        {
+          "text": "That temptation then is no light one, for, we know that those temptations are more severe which arise through women.",
+          "id": 80850
+        },
+        {
+          "text": "For even Adam was overthrown by Eve, whereby it came to pass that he erred from the Divine commandments.",
+          "id": 80851
+        },
+        {
+          "text": "And when he recognized his error, feeling the reproach of a guilty conscience, he would fain have hidden himself, but he could not be hidden, and so God said to him: \"Adam, where art thou?\" that is, what wast thou before? where hast thou now begun to be? Where had I placed thee? Whither hast thou wandered? Thou ownest that thou art naked because thou hast lost the robe of a good faith.",
+          "id": 80852
+        },
+        {
+          "text": "Those are leaves with which thou now seekest to veil thyself.",
+          "id": 80853
+        },
+        {
+          "text": "Thou hast rejected the fruit, thou desired to hide under the leaves of the Law, but thou art betrayed.",
+          "id": 80854
+        },
+        {
+          "text": "Thou hast desired to depart from the Lord thy God for the sake of one woman, therefore thou fleest from Him Whom thou soughtest before to see.",
+          "id": 80855
+        },
+        {
+          "text": "Thou hast chosen  to hide thyself with one woman, to forsake the Mirror of the world, the abode in Paradise, the grace of Christ.",
+          "id": 80856
+        },
+        {
+          "text": "18.",
+          "id": 80857
+        },
+        {
+          "text": "Why should I relate that Jezebel, also persecuted Elisha after a bloodthirsty fashion? or that Herodias caused John the Baptist to be slain? Individuals persecuted individuals; but for me, whose merits are far inferior, the trials are all the harder.",
+          "id": 80858
+        },
+        {
+          "text": "My strength is less, but I have more danger.",
+          "id": 80859
+        },
+        {
+          "text": "Of women change follows on change, their hatreds alternate, their falsehoods vary, elders assemble together, wrong done to the Emperor is made a pretence.",
+          "id": 80860
+        },
+        {
+          "text": "What is then the reason of such severe temptation against me, a mere worm; except that they are attacking not me but the Church?  19.",
+          "id": 80861
+        },
+        {
+          "text": "At last the command was given: Surrender the Basilica.",
+          "id": 80862
+        },
+        {
+          "text": "My reply was, it is not lawful for me to surrender it, nor advantageous for you, O Emperor, to receive it.",
+          "id": 80863
+        },
+        {
+          "text": "By no right can you violate the house of a private person, and do you think that the House of God may be taken away? It is asserted that everything is lawful for the Emperor, that all things are his.",
+          "id": 80864
+        },
+        {
+          "text": "My answer is: Do not, O Emperor, lay on yourself the burden of such a thought as that you have any imperial power over those things which belong to God.",
+          "id": 80865
+        },
+        {
+          "text": "Exalt not yourself, but if you desire to reign long, submit yourself to God.",
+          "id": 80866
+        },
+        {
+          "text": "It is written: \"The things which are God's to God, those which are Caesar's to Caesar\".",
+          "id": 80867
+        },
+        {
+          "text": "The palaces belong to the Emperor, the churches to the Bishop.",
+          "id": 80868
+        },
+        {
+          "text": "Authority is committed to you over public, not over sacred buildings.",
+          "id": 80869
+        },
+        {
+          "text": "Again the Emperor was stated to have declared: I also ought to have one Basilica.",
+          "id": 80870
+        },
+        {
+          "text": "My answer was: It is not lawful for you to have it.",
+          "id": 80871
+        },
+        {
+          "text": "What have you to do with an adulteress? For she is an adulteress who is not joined to Christ in lawful wedlock.",
+          "id": 80872
+        },
+        {
+          "text": "20.",
+          "id": 80873
+        },
+        {
+          "text": "Whilst I was treating on this matter, tidings were brought me that the royal hangings were taken down, and the Basilica filled with people, who were calling for my presence, so I at once turned my discourse to this, and said: How high and how deep are the oracles of the Holy Spirit! We said at Matins, as you, brethren, remember, and made the response with the greatest grief of mind: \"O God, the heathen are come into Thine inheritance\".",
+          "id": 80874
+        },
+        {
+          "text": "And in very deed the heathen came, and even worse than the heathen came; for the Goths came, and men of different nations; they came with weapons and surrounded and occupied the Basilica.",
+          "id": 80875
+        },
+        {
+          "text": "We in our ignorance of Thy greatness mourned over this, but our want of foresight was in error.",
+          "id": 80876
+        },
+        {
+          "text": "21.",
+          "id": 80877
+        },
+        {
+          "text": "The heathen are come, and in very truth are come into Thine inheritance, for they who came as heathen have become Christians.",
+          "id": 80878
+        },
+        {
+          "text": "Those who came to invade Thine inheritance, have been made coheirs with God.",
+          "id": 80879
+        },
+        {
+          "text": "I have those as protectors whom I considered to be adversaries.",
+          "id": 80880
+        },
+        {
+          "text": "That is fulfilled which the Prophet sang of the Lord Jesus that \"His dwelling is in peace,\" and \"There brake He the horns of the bows, the shield, the sword and the battle\".",
+          "id": 80881
+        },
+        {
+          "text": "For whose gift is this, whose work is this but Thine, Lord Jesus? Thou sawest armed men coming to Thy temple; on the one hand the people wailing and coming in throngs so as not to seem to surrender the Basilica of God, on the other hand the soldiers ordered to use violence.",
+          "id": 80882
+        },
+        {
+          "text": "Death was before my eyes, lest madness should gain any footing whilst things were thus.",
+          "id": 80883
+        },
+        {
+          "text": "Thou, O Lord, didst come between, and madest of twain one.",
+          "id": 80884
+        },
+        {
+          "text": "Thou didst restrain the armed men, saying, If ye run together to arms, if those shut up in My temple are troubled, \"what profit is there in My blood\".",
+          "id": 80885
+        },
+        {
+          "text": "Thanks then be unto Thee, O Christ.",
+          "id": 80886
+        },
+        {
+          "text": "No ambassador, no messenger, but Thou, O Lord, hast saved Thy people, \"Thou hast put off my sackcloth and girded me with gladness\".",
+          "id": 80887
+        },
+        {
+          "text": "22.",
+          "id": 80888
+        },
+        {
+          "text": "I said these things, wondering that the Emperor's mind could be softened by the zeal of the soldiers, the entreaties of the Counts, and the supplication of the people.",
+          "id": 80889
+        },
+        {
+          "text": "Meanwhile I was told that a notary had been sent to me, to bring me orders.",
+          "id": 80890
+        },
+        {
+          "text": "I retired a little, and he intimated the order to me.",
+          "id": 80891
+        },
+        {
+          "text": "What were you thinking of, he said, in acting against the Emperor's decree? I replied: I do not know what has been decreed, and I have not been informed of what has been unadvisedly done.",
+          "id": 80892
+        },
+        {
+          "text": "He asked: Why did you send priests to the Basilica? If you are a tyrant I wish to know it, that I may know how to prepare against you.",
+          "id": 80893
+        },
+        {
+          "text": "I replied by saying that I had done nothing hastily regarding the Church.",
+          "id": 80894
+        },
+        {
+          "text": "That at the time when I heard that the Basilica was occupied by soldiers,  I only gave freer utterance to groans, and that when many were exhorting me to go thither, I said: I cannot surrender the basilica, but I may not fight.",
+          "id": 80895
+        },
+        {
+          "text": "But after I heard that the royal hangings had been taken away, when the people were urging me to go thither, I sent some priests; that I would not go myself, but said, I believe in Christ that the Emperor himself will treat with us.",
+          "id": 80896
+        },
+        {
+          "text": "23.",
+          "id": 80897
+        },
+        {
+          "text": "If these acts looked like tyranny, that I had arms, but only in the Name of Christ, that I had the power of offering my own body.",
+          "id": 80898
+        },
+        {
+          "text": "Why, I said, did he delay to strike, if he thought me a tyrant? That by ancient right imperial power had been given by bishops, never assumed, and it was commonly said that emperors had desired the priesthood, rather than priests the imperial power.",
+          "id": 80899
+        },
+        {
+          "text": "That Christ withdrew lest He should be made a king.",
+          "id": 80900
+        },
+        {
+          "text": "That we had our own power; for the power of a bishop was his weakness.",
+          "id": 80901
+        },
+        {
+          "text": "\"When I am weak,\" says the Apostle, \"then I become strong\".",
+          "id": 80902
+        },
+        {
+          "text": "But let him against whom God has not stirred up an adversary beware lest he make a tyrant for himself.",
+          "id": 80903
+        },
+        {
+          "text": "That Maximus did not say that I was the tyrant of Valentinian, he complained that by the intervention of my legation he had been unable to cross over into Italy.",
+          "id": 80904
+        },
+        {
+          "text": "And I added that priests had never been tyrants, but had often suffered from them.",
+          "id": 80905
+        },
+        {
+          "text": "24.",
+          "id": 80906
+        },
+        {
+          "text": "We passed that whole day in sadness, but the imperial hangings were cut by boys in derision.",
+          "id": 80907
+        },
+        {
+          "text": "I could not return home, because the soldiers who were guarding the basilica were all around.",
+          "id": 80908
+        },
+        {
+          "text": "We repeated Psalms with the brethren in the smaller basilica of the Church.",
+          "id": 80909
+        },
+        {
+          "text": "25.",
+          "id": 80910
+        },
+        {
+          "text": "On the following day the Book of Jonah was read according to custom, after the completion of which I began this discourse.",
+          "id": 80911
+        },
+        {
+          "text": "A book has been read, brethren, in which it is foretold that sinners shall be converted.",
+          "id": 80912
+        },
+        {
+          "text": "Their acceptance takes place because that which is to happen is looked forward to at present.",
+          "id": 80913
+        },
+        {
+          "text": "I added that the just man had been willing even to incur blame, in order not to see or denounce the destruction of the city.",
+          "id": 80914
+        },
+        {
+          "text": "And because the sentence was mournful he was also saddened that the gourd had withered up.",
+          "id": 80915
+        },
+        {
+          "text": "God too said to the prophet: \"Art thou sad because of the gourd?\" and Jonah answered: \"I am sad\".",
+          "id": 80916
+        },
+        {
+          "text": "And the Lord then said, that if he grieved that the gourd was withered, how much should He Himself care for the salvation of so many people.",
+          "id": 80917
+        },
+        {
+          "text": "And therefore that He had put away the destruction which had been prepared for the whole city.",
+          "id": 80918
+        },
+        {
+          "text": "26.",
+          "id": 80919
+        },
+        {
+          "text": "And without further delay, tidings are brought that the Emperor had commanded the soldiers to retire from the basilica, and that the sums which had been exacted of the merchants should be restored.",
+          "id": 80920
+        },
+        {
+          "text": "How great then was the joy of the whole people! how just their applause! and how abundant their thanks! And it was the day on which the Lord was delivered up for us, on which penance is relaxed in the Church.",
+          "id": 80921
+        },
+        {
+          "text": "The soldiers vied with each other in bringing in these tidings, rushing to the altars, giving kisses, the mark of peace.",
+          "id": 80922
+        },
+        {
+          "text": "Then I recognized that God had smitten the early worm that the whole city might be preserved.",
+          "id": 80923
+        },
+        {
+          "text": "27.",
+          "id": 80924
+        },
+        {
+          "text": "These things were done, and would that all was at an end! but the Emperor's words full of excitement foreshadow future and worse troubles.",
+          "id": 80925
+        },
+        {
+          "text": "I am called a tyrant, and even more than a tyrant.",
+          "id": 80926
+        },
+        {
+          "text": "For when the Counts were entreating the Emperor to go to the Church, and said that they were doing this at the request of the soldiers, he answered: If Ambrose bade you, you would deliver me up to him in chains.",
+          "id": 80927
+        },
+        {
+          "text": "You can think what may be coming after these words.",
+          "id": 80928
+        },
+        {
+          "text": "All shuddered when they heard them, but he has some by whom he is exasperated.",
+          "id": 80929
+        },
+        {
+          "text": "28.",
+          "id": 80930
+        },
+        {
+          "text": "Lastly, too, Calligonus, the chief chamberlain, ventured to address me in peculiar language.",
+          "id": 80931
+        },
+        {
+          "text": "Do you, said he, whilst I am alive treat Valentinian with contempt? I will take your head from you.",
+          "id": 80932
+        },
+        {
+          "text": "My reply was, God grant you to fulfil your threat; for then I shall suffer as bishops do, you will act as do eunuchs.",
+          "id": 80933
+        },
+        {
+          "text": "Would that God might turn them away from the Church, let them direct all their weapons against me, let them satisfy their thirst with my blood.",
+          "id": 80934
+        }
+      ]
+    }
+  ]
+}

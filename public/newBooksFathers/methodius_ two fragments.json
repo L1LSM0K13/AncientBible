@@ -1,0 +1,31 @@
+{
+  "book": "Methodius: Two Fragments",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "text": "Two Fragments, Uncertain: I.",
+          "id": 136587
+        },
+        {
+          "text": "The beginning of every good action has its foundation in our wills, but the conclusion is of God.",
+          "id": 136588
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "text": "II.",
+          "id": 136589
+        },
+        {
+          "text": "Perhaps these three persons of our ancestors, being in an image the consubstantial representatives of humanity, are, as also Methodius thinks, types of the Holy and Consubstantial Trinity, the innocent and unbegotten Adam being the type and resemblance of God the Father Almighty, who is uncaused, and the cause of all; his begotten son shadowing forth the image of the begotten Son and Word of God; whilst Eve, that proceedeth forth from Adam, signifies the person and procession of the Holy Spirit.",
+          "id": 136590
+        }
+      ]
+    }
+  ]
+}

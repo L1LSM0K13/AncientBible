@@ -1,0 +1,534 @@
+{
+  "book": "Tertullian: Apologetic II",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "text": "The arrangement I have adopted in editing these Edinburgh Translations of Tertullian is a practical one.",
+          "id": 402645
+        },
+        {
+          "text": "It will be found logical and helpful to the student, who is referred to the Prefatory pages of this volume for an Elucidation of the difficulties, with which any arrangement of these treatises is encumbered.",
+          "id": 402646
+        },
+        {
+          "text": "For, first, an attempt to place them in chronological order is out of the question; and, second, all efforts to separate precisely the Orthodox from the Montanistic or Montanist works of our author have hitherto defied the acumen of critics.",
+          "id": 402647
+        },
+        {
+          "text": "It would be mere empiricism for me to attempt an original classification in the face of questions which even experts have been unable to determine.",
+          "id": 402648
+        },
+        {
+          "text": "If we bear in mind, however, a few guiding facts, we shall see that difficulties are less than might appear, assuming our object to be a practical one.",
+          "id": 402649
+        },
+        {
+          "text": "Only four of these essays were written against Orthodoxy;  five more are reckoned as wholly uncertain, which amounts to saying that they are not positively heretical.",
+          "id": 402650
+        },
+        {
+          "text": "Again, five are colourless, as to Montanism, and hence should be reputed Orthodox.",
+          "id": 402651
+        },
+        {
+          "text": "Of others, written after the influences of Montanism had, more or less, tainted his doctrine, the whole are yet valuable and some are noble defences of the Catholic Faith.",
+          "id": 402652
+        },
+        {
+          "text": "Finally eight or ten of his treatises were written while he was a Catholic, and are precious contributions to the testimony of the Primitive Church.",
+          "id": 402653
+        },
+        {
+          "text": "From these facts, we may readily conclude that the mass of Tertullian's writings is Orthodox.",
+          "id": 402654
+        },
+        {
+          "text": "Some of them are to be read with caution; others, again, must be rejected for their heresy; but yet all are most instructive historically, and as defining even by errors \"the faith once delivered to the Saints\".",
+          "id": 402655
+        },
+        {
+          "text": "I propose to note those which require caution as we pass them in review.",
+          "id": 402656
+        },
+        {
+          "text": "Those written against the Church are classed by themselves, at the end of the list, and all the rest may be read with confidence.",
+          "id": 402657
+        },
+        {
+          "text": "A most interesting inquiry arises in connection with the quotations from Scripture to be found in our author.",
+          "id": 402658
+        },
+        {
+          "text": "Did a Latin version exist in his day, or does he translate from the Greek of the New Testament and the LXX? A paradoxical writer (Semler) contends that Tertullian \"never used a Greek ms\".",
+          "id": 402659
+        },
+        {
+          "text": "(see Kaye, p.",
+          "id": 402660
+        },
+        {
+          "text": ") But Tertullian's rugged Latin betrays everywhere his familiarity with Greek idioms and forms of thought.",
+          "id": 402661
+        },
+        {
+          "text": "He wrote, also, in Greek, and there is no reason to doubt that he knew the Greek Scriptures primarily, if he knew any Greek whatever.",
+          "id": 402662
+        },
+        {
+          "text": "Possibly we owe to Tertullian the primordia of the Old African Latin Versions, some of which seem to have contained the disputed text  John v.",
+          "id": 402663
+        },
+        {
+          "text": "; of which more when we come to the Praxeas.",
+          "id": 402664
+        },
+        {
+          "text": "For the present in the absence of definite evidence we must infer that Tertullian usually translated from the LXX, and from the originals of the New Testament.",
+          "id": 402665
+        },
+        {
+          "text": "But Mosheim thinks the progress of the Gospel in the West was now facilitated by the existence of Latin Versions.",
+          "id": 402666
+        },
+        {
+          "text": "Observe, also, Kaye's important note, p.",
+          "id": 402667
+        },
+        {
+          "text": ", and his reference to Lardner, Cred.",
+          "id": 402668
+        },
+        {
+          "text": "xxvii.",
+          "id": 402669
+        },
+        {
+          "text": "The Apology comes first in order, on logical grounds.",
+          "id": 402670
+        },
+        {
+          "text": "It is classed with our author's orthodox works by Neander, and pronounced colourless by Kaye.",
+          "id": 402671
+        },
+        {
+          "text": "It is the noblest of his productions in its purpose and spirit, and it falls in with the Primitive System of Apologetics.",
+          "id": 402672
+        },
+        {
+          "text": "I have placed next in order to it several treatises, mostly unblemished, which are of the same character; which defend the cause of Christians against Paganism, against Gentile Philosophy, and against Judaism; closing this portion by the two books Ad Nationes, which may be regarded as a recapitulation of the author's arguments, especially those to be found in the Apology.",
+          "id": 402673
+        },
+        {
+          "text": "In these successive works, as compared with those of Justin Martyr, we obtain a fair view of the progressive relations of the Church with the Roman Empire and with divers antagonistic systems in the East and West.",
+          "id": 402674
+        },
+        {
+          "text": "The following Chronological outline borrowed from the Benedictines and from Bishop Kaye, will prove serviceable here.",
+          "id": 402675
+        },
+        {
+          "text": "Tertullian born (circa) a.",
+          "id": 402676
+        },
+        {
+          "text": "d.",
+          "id": 402677
+        },
+        {
+          "text": "Tertullian converted (surmise).",
+          "id": 402678
+        },
+        {
+          "text": "Tertullian married (say).",
+          "id": 402679
+        },
+        {
+          "text": "Tertullian ordained presbyter (circa).",
+          "id": 402680
+        },
+        {
+          "text": "Tertullian lapsed (circa).",
+          "id": 402681
+        },
+        {
+          "text": "Tertullian deceased (extreme surmise).",
+          "id": 402682
+        },
+        {
+          "text": "The Imperial history of his period may be thus arranged:  Birth of Caracalla a.",
+          "id": 402683
+        },
+        {
+          "text": "d.",
+          "id": 402684
+        },
+        {
+          "text": "Birth of Geta.",
+          "id": 402685
+        },
+        {
+          "text": "Reign of Severus.",
+          "id": 402686
+        },
+        {
+          "text": "Defeat of Niger.",
+          "id": 402687
+        },
+        {
+          "text": "Caracalla made a Caesar.",
+          "id": 402688
+        },
+        {
+          "text": "Capture of Byzantium.",
+          "id": 402689
+        },
+        {
+          "text": "Defeat of Albinus.",
+          "id": 402690
+        },
+        {
+          "text": "Geta made a Caesar.",
+          "id": 402691
+        },
+        {
+          "text": "Caracalla called Augustus.",
+          "id": 402692
+        },
+        {
+          "text": "Caracalla associated in the Empire.",
+          "id": 402693
+        },
+        {
+          "text": "War against the Parthians.",
+          "id": 402694
+        },
+        {
+          "text": "Severus returns from the war.",
+          "id": 402695
+        },
+        {
+          "text": "Celebration of the Secular Games.",
+          "id": 402696
+        },
+        {
+          "text": "Plautianus put to death (circa).",
+          "id": 402697
+        },
+        {
+          "text": "Geta called Augustus.",
+          "id": 402698
+        },
+        {
+          "text": "War in Britain.",
+          "id": 402699
+        },
+        {
+          "text": "Wall of Severus.",
+          "id": 402700
+        },
+        {
+          "text": "Death of Severus.",
+          "id": 402701
+        },
+        {
+          "text": "A fair examination of what has been said on this subject, pro and con, may be found in Kaye's Tertullian, pp.",
+          "id": 402702
+        },
+        {
+          "text": "–.",
+          "id": 402703
+        },
+        {
+          "text": "In his abundant candour this author leans to the doubters, but in stating the case he seems to me to fortify the position of Lardner and Mosheim.",
+          "id": 402704
+        },
+        {
+          "text": "What the brutal Tiberius may have thought or done with respect to Pilate's report concerning the holy victim of his judicial injustice is of little importance to the believer.",
+          "id": 402705
+        },
+        {
+          "text": "Nevertheless, as matter of history it deserves attention.",
+          "id": 402706
+        },
+        {
+          "text": "Great stress is to be placed on the fact that Tertullian was probably a jurisconsult, familiar with the Roman archives, and influenced by them in his own acceptance of Divine Truth.",
+          "id": 402707
+        },
+        {
+          "text": "It is not supposable that such a man would have hazarded his bold appeal to the records, in remonstrating with the Senate and in the very faces of the Emperor and his colleagues, had he not known that the evidence was irrefragable.",
+          "id": 402708
+        },
+        {
+          "text": "Kaye disappoints us (p.",
+          "id": 402709
+        },
+        {
+          "text": ") in his slight notice of this most interesting subject.",
+          "id": 402710
+        },
+        {
+          "text": "Without attempting to discuss the story of Phlegon and other points which afford Gibbon an opportunity for misplaced sneering, such as even a Pilate would have rebuked, while it may be well to recall the exposition of Milman, at the close of Gibbon's fifteenth chapter, I must express my own preference for another view.",
+          "id": 402711
+        },
+        {
+          "text": "This will be found candidly summed up and stated, in the Speaker's Commentary, in the concise note on St.",
+          "id": 402712
+        },
+        {
+          "text": "Matt.",
+          "id": 402713
+        },
+        {
+          "text": "xxvii.",
+          "id": 402714
+        },
+        {
+          "text": "Kaye, as usual, gives this vexed question a candid survey.",
+          "id": 402715
+        },
+        {
+          "text": "Making all allowances, however, I accept the conjecture of some reputable authorities, that there were ,, of Christians, in the bounds of the Roman Empire at the close of the Second Century.",
+          "id": 402716
+        },
+        {
+          "text": "So mightily grew the testimony of Jesus and prevailed.",
+          "id": 402717
+        },
+        {
+          "text": "When we reflect that only a century intervened between the times of Tertullian and the conversion of the Roman Emperor, it is not easy to regard our author's language as merely that of fervid genius and of rhetorical hyperbole.",
+          "id": 402718
+        },
+        {
+          "text": "He could not have ventured upon exaggeration without courting scorn as well as defeat.",
+          "id": 402719
+        },
+        {
+          "text": "What he affirms is probable in the nature of the case.",
+          "id": 402720
+        },
+        {
+          "text": "Were it otherwise, then the conditions, which, in a single century rendered it possible for Constantine to effect the greatest revolution in mind and manners that has ever been known among men, would be a miracle compared with which that of his alleged Vision of the Cross sinks into insignificance.",
+          "id": 402721
+        },
+        {
+          "text": "To this subject it will be necessary to recur hereafter.",
+          "id": 402722
+        },
+        {
+          "text": "A candid review of the matters discussed in this chapter will be found in Kaye (pp.",
+          "id": 402723
+        },
+        {
+          "text": ",.",
+          "id": 402724
+        },
+        {
+          "text": ") The important fact is there clearly stated that \"the primitive Christians scrupulously complied with the decree pronounced by the Apostles at Jerusalem in abstaining from things strangled and from blood\" (Acts xv.",
+          "id": 402725
+        },
+        {
+          "text": ").",
+          "id": 402726
+        },
+        {
+          "text": "On this subject consult the references given in the Speaker's Commentary, ad locum.",
+          "id": 402727
+        },
+        {
+          "text": "The Greeks, to their honour, still maintain this prohibition, but St.",
+          "id": 402728
+        },
+        {
+          "text": "Augustine's great authority relaxed the Western scruples on this matter, for he regarded it as a decree of temporary obligation, while the Hebrew and Gentile Christians were in peril of misunderstanding and estrangement.",
+          "id": 402729
+        },
+        {
+          "text": "On the important question as to the cessation of miracles Kaye takes a somewhat original position.",
+          "id": 402730
+        },
+        {
+          "text": "But see his interesting discussion and that of the late Professor Hey, in Kaye's Tertullian, pp.",
+          "id": 402731
+        },
+        {
+          "text": "–, –.",
+          "id": 402732
+        },
+        {
+          "text": "I do not think writers on these subjects have sufficiently distinguished between miracles properly so called, and providences vouchsafed in answer to prayer.",
+          "id": 402733
+        },
+        {
+          "text": "There was no miracle in the case of the Thundering Legion, assuming the story to be true; and I dare to affirm that marked answers to prayer, by providential interpositions, but wholly distinct from miraculous agencies, have never ceased among those who \"ask in the Son's Name\".",
+          "id": 402734
+        },
+        {
+          "text": "Such interpositions are often preternatural only; that is, they economize certain powers which, though natural in themselves, lie outside of the System of Nature with which we happen to be familiar.",
+          "id": 402735
+        },
+        {
+          "text": "This distinction has been overlooked.",
+          "id": 402736
+        },
+        {
+          "text": "Note the words—\"multitudes to a single beast\".",
+          "id": 402737
+        },
+        {
+          "text": "Can it be possible that Tertullian would use such language to the magistrates, if he knew that such sentences were of rare occurrence? The disposition of our times to minimize the persecutions of our Christian forefathers calls upon us to note such references, all the more important because occurring obiter and mentioned as notorious.",
+          "id": 402738
+        },
+        {
+          "text": "Note also, the closing chapter of this Apology, and reference to the outcries of the populace, in Cap.",
+          "id": 402739
+        },
+        {
+          "text": "xxxv.",
+          "id": 402740
+        },
+        {
+          "text": "See admirable remarks on the benefits derived by the Church from the sufferings of Christian martyrs, with direct reference to Tertullian, Wordsworth, Church Hist.",
+          "id": 402741
+        },
+        {
+          "text": "to Council of Nicaea, cap.",
+          "id": 402742
+        },
+        {
+          "text": "xxiv.",
+          "id": 402743
+        },
+        {
+          "text": ", p.",
+          "id": 402744
+        },
+        {
+          "text": "A study of the manners of Christians, in the Ante-Nicene Age, as sketched by the unsparing hand of Tertullian, will convince any unprejudiced mind of the mighty power of the Holy Ghost, in framing such characters out of heathen originals.",
+          "id": 402745
+        },
+        {
+          "text": "When, under Montanistic influences our severely ascetic author complains of the Church's corruptions, and turns inside-out the whole estate of the faithful, we see all that can be pressed on the other side; but, this very important chapter must be borne in mind, together with the closing sentence of chap.",
+          "id": 402746
+        },
+        {
+          "text": "xliv.",
+          "id": 402747
+        },
+        {
+          "text": ", as evidence that whatever might be said by a rigid disciplinarian, the Church, as compared with our day, was still a living embodiment of Philippians iv.",
+          "id": 402748
+        },
+        {
+          "text": "See Kaye, p.",
+          "id": 402749
+        },
+        {
+          "text": "Our author seems not always consistent with himself in his references to the Places of departed spirits.",
+          "id": 402750
+        },
+        {
+          "text": "Kaye thinks he identifies Paradise with the Heaven of the Most High, in one place (the De Exhort.",
+          "id": 402751
+        },
+        {
+          "text": "Cast.",
+          "id": 402752
+        },
+        {
+          "text": ", xiii.",
+          "id": 402753
+        },
+        {
+          "text": ") where he probably confuses the Apostle's ideas, in Galatians v.",
+          "id": 402754
+        },
+        {
+          "text": ", and Ephesians v.",
+          "id": 402755
+        },
+        {
+          "text": "Commonly, however, though he is not consistent with himself, this would be his scheme:—   The Inferi, or Hades, where the soul of Dives was in one continent and that of Lazarus in another, with a gulf between.",
+          "id": 402756
+        },
+        {
+          "text": "Our author places \"Abraham's bosom\" in Hades.",
+          "id": 402757
+        },
+        {
+          "text": "Paradise.",
+          "id": 402758
+        },
+        {
+          "text": "In Hades, but in a superior and more glorious region.",
+          "id": 402759
+        },
+        {
+          "text": "This more blessed abode was opened to the souls of the martyrs and other greater saints, at our Lord's descent into the place of the dead.",
+          "id": 402760
+        },
+        {
+          "text": "After the General Resurrection and Judgment, there remain:   Gehenna, for the lost, prepared for the devil and his angels.",
+          "id": 402761
+        },
+        {
+          "text": "The Heaven of Heavens, the eternal abode of the righteous, in the vision of the Lord and His Eternal Joy.",
+          "id": 402762
+        },
+        {
+          "text": "Tertullian's variations on this subject will force us to recur to it hereafter; but, here it may be noted that the confusions of Latin Christianity received their character in this particular, from the genius of our author.",
+          "id": 402763
+        },
+        {
+          "text": "Augustine caught from him a certain indecision about the terms and places connected with the state of the departed which has continued, to this day, to perplex theologians in the West.",
+          "id": 402764
+        },
+        {
+          "text": "Taking advantage of such confusions, the stupendous Roman system of \"Purgatory\" was fabricated in the middle ages; but the Greeks never accepted it, and it differs fundamentally from what the earlier Latin Fathers, including Tertullian, have given us as speculations.",
+          "id": 402765
+        },
+        {
+          "text": "Here we find the alliterative and epigrammatic genius of Tertullian anticipating a similar poetic charm in Augustine.",
+          "id": 402766
+        },
+        {
+          "text": "The Christian maid or matron preferred the Leo to the leno; to be devoured rather than to be debauched.",
+          "id": 402767
+        },
+        {
+          "text": "Our author wrests a tribute to the chastity of Christian women from the cruelty of their judges, who recognizing this fact, were accustomed as a refinement of their injustice to give sentence against them, refusing the mercy of a horrible death, by committing them to the ravisher: \"damnando Christianam ad lenonem potius quam ad leonem\".",
+          "id": 402768
+        },
+        {
+          "text": "Kaye has devoted a number of his pages to the elucidation of this subject, not only showing the constancy of the martyrs, but illustrating the fact that Christians, like St.",
+          "id": 402769
+        },
+        {
+          "text": "Paul, were forced to \"die daily,\" even when they were not subjected to the fiery trial.",
+          "id": 402770
+        },
+        {
+          "text": "He who confessed himself a Christian made himself a social outcast.",
+          "id": 402771
+        },
+        {
+          "text": "All manner of outrages and wrongs could be committed against him with impunity.",
+          "id": 402772
+        },
+        {
+          "text": "Rich men, who had joined themselves to Christ, were forced to accept \"the spoiling of their goods\".",
+          "id": 402773
+        },
+        {
+          "text": "Brothers denounced brothers, and husbands their wives; \"a man's foes were they of his own household\".",
+          "id": 402774
+        },
+        {
+          "text": "But the Church triumphed through suffering, and \"out of weakness was made strong\".",
+          "id": 402775
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3034 @@
+{
+  "book": "Jerome: Against the Pelagians Book II",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "text": "Against the Pelagians:  Book II.",
+          "id": 316710
+        },
+        {
+          "text": "This book can hardly be said to form part of a dialogue.",
+          "id": 316711
+        },
+        {
+          "text": "It is rather an argument from Scripture to prove the point of the Augustinian arguer, Atticus.",
+          "id": 316712
+        },
+        {
+          "text": "From the fourth chapter onwards it consists, like the last five chapters of Book I.",
+          "id": 316713
+        },
+        {
+          "text": ", of a chain of Scripture texts, taken from the New Testament and the Prophets, to show the universality of sin, and thus to refute the Pelagian assertion that a man can be without sin if he wills.",
+          "id": 316714
+        },
+        {
+          "text": "We shall, therefore, give, as in the previous case, a list of the texts and the first words of them, only giving Jerome's words where he introduces some original remark of his own, or some noteworthy comment.",
+          "id": 316715
+        },
+        {
+          "text": "The Pelagian begins by reiterating the dilemma: If the commandments are given to be obeyed, then man can be without sin; if he is, by his creation, such that he must be a sinner, then God, not he, is the author of sin.",
+          "id": 316716
+        },
+        {
+          "text": "To the argument that sacrifices are enjoined for sins of ignorance, he replies by appealing from the Old Testament to the New, which leads to a discussion (2, 3) on St.",
+          "id": 316717
+        },
+        {
+          "text": "Paul's description of the conflict with sin, in Romans vii.",
+          "id": 316718
+        },
+        {
+          "text": "Paul, it is argued, speaks not as a sinner, but as a man, and thus confesses the sinfulness of humanity.",
+          "id": 316719
+        },
+        {
+          "text": "That men may be without ingrained vice is possible; that they can be without sin is not.",
+          "id": 316720
+        },
+        {
+          "text": "This leads the Augustinian, Atticus, resuming his list of testimonies, to the fact that, though men are found who are righteous as avoiding wickedness (κακία), yet none is without sin (ἀναμάρτητος ).",
+          "id": 316721
+        },
+        {
+          "text": "In Psalm xxxii.",
+          "id": 316722
+        },
+        {
+          "text": "5.",
+          "id": 316723
+        },
+        {
+          "text": "One who speaks of himself as \"holy,\" yet confesses his transgression.",
+          "id": 316724
+        },
+        {
+          "text": "Prov.",
+          "id": 316725
+        },
+        {
+          "text": "xxiv.",
+          "id": 316726
+        },
+        {
+          "text": "16.",
+          "id": 316727
+        },
+        {
+          "text": "Explains this, \"The righteous falls, but sins again\".",
+          "id": 316728
+        },
+        {
+          "text": "xviii.",
+          "id": 316729
+        },
+        {
+          "text": "17, LXX.",
+          "id": 316730
+        },
+        {
+          "text": "and Vulgate.",
+          "id": 316731
+        },
+        {
+          "text": "A righteous man accuses himself when he begins to speak.",
+          "id": 316732
+        },
+        {
+          "text": "Ps.",
+          "id": 316733
+        },
+        {
+          "text": "lviii.",
+          "id": 316734
+        },
+        {
+          "text": "3.",
+          "id": 316735
+        },
+        {
+          "text": "Sinners are estranged from the womb; that is, either, as St.",
+          "id": 316736
+        },
+        {
+          "text": "Paul says (Rom.",
+          "id": 316737
+        },
+        {
+          "text": "v.",
+          "id": 316738
+        },
+        {
+          "text": "14), they sin \"after the similitude of Adam\"; or, \"when Christ, as the firstborn, opened the virgin's womb\" (Exod.",
+          "id": 316739
+        },
+        {
+          "text": "xiii.",
+          "id": 316740
+        },
+        {
+          "text": "2).",
+          "id": 316741
+        },
+        {
+          "text": "The heretics refused to acknowledge the mystery, which was prefigured by the Eastern door of the Temple (Ezek.",
+          "id": 316742
+        },
+        {
+          "text": "xliv.",
+          "id": 316743
+        },
+        {
+          "text": "2), which closed again when once the High Priest had gone through it.",
+          "id": 316744
+        },
+        {
+          "text": "Job iv.",
+          "id": 316745
+        },
+        {
+          "text": "17–21.",
+          "id": 316746
+        },
+        {
+          "text": "Shall mortal man be just with God?  vii.",
+          "id": 316747
+        },
+        {
+          "text": "1.",
+          "id": 316748
+        },
+        {
+          "text": "The life of man is temptation.",
+          "id": 316749
+        },
+        {
+          "text": "20, 21.",
+          "id": 316750
+        },
+        {
+          "text": "If I have sinned, what can I do?  ix.",
+          "id": 316751
+        },
+        {
+          "text": "15, 16.",
+          "id": 316752
+        },
+        {
+          "text": "If I were righteous, he would not hear me.",
+          "id": 316753
+        },
+        {
+          "text": "29–31.",
+          "id": 316754
+        },
+        {
+          "text": "If I wash myself with snow water, etc.",
+          "id": 316755
+        },
+        {
+          "text": "x.",
+          "id": 316756
+        },
+        {
+          "text": "15.",
+          "id": 316757
+        },
+        {
+          "text": "If I be righteous, etc.",
+          "id": 316758
+        },
+        {
+          "text": "xiv.",
+          "id": 316759
+        },
+        {
+          "text": "4, 5.",
+          "id": 316760
+        },
+        {
+          "text": "Who will be free from uncleanliness? Not one.",
+          "id": 316761
+        },
+        {
+          "text": "Prov.",
+          "id": 316762
+        },
+        {
+          "text": "xvi.",
+          "id": 316763
+        },
+        {
+          "text": "26, LXX.",
+          "id": 316764
+        },
+        {
+          "text": "Man toileth in sorrow.",
+          "id": 316765
+        },
+        {
+          "text": "Job xl.",
+          "id": 316766
+        },
+        {
+          "text": "4.",
+          "id": 316767
+        },
+        {
+          "text": "What shall I answer thee?  Prov.",
+          "id": 316768
+        },
+        {
+          "text": "xx.",
+          "id": 316769
+        },
+        {
+          "text": "9.",
+          "id": 316770
+        },
+        {
+          "text": "\"Who will boast that he has a clean heart?\" which shows at least that the commandments are not easy, as Pelagius says they are.",
+          "id": 316771
+        },
+        {
+          "text": "1 John v.",
+          "id": 316772
+        },
+        {
+          "text": "3.",
+          "id": 316773
+        },
+        {
+          "text": "\"His commandments are not grievous,\" and  Matt.",
+          "id": 316774
+        },
+        {
+          "text": "xi.",
+          "id": 316775
+        },
+        {
+          "text": "30.",
+          "id": 316776
+        },
+        {
+          "text": "\"My yoke is easy,\" are true only in comparison with Judaism, and should be compared with  Acts xv.",
+          "id": 316777
+        },
+        {
+          "text": "10.",
+          "id": 316778
+        },
+        {
+          "text": "A yoke …which neither our fathers nor we are able to bear.",
+          "id": 316779
+        },
+        {
+          "text": "James iv.",
+          "id": 316780
+        },
+        {
+          "text": "11.",
+          "id": 316781
+        },
+        {
+          "text": "\"Thou judgest the law,\" that is, if you say that the condemnation of sins of ignorance is unreasonable.",
+          "id": 316782
+        },
+        {
+          "text": "That we all sin in such ways is evident from  James i.",
+          "id": 316783
+        },
+        {
+          "text": "20.",
+          "id": 316784
+        },
+        {
+          "text": "\"The wrath of man worketh not the righteousness of God\".",
+          "id": 316785
+        },
+        {
+          "text": "But anger is constantly condemned as in  Prov.",
+          "id": 316786
+        },
+        {
+          "text": "xv.",
+          "id": 316787
+        },
+        {
+          "text": "1, LXX.",
+          "id": 316788
+        },
+        {
+          "text": "\"Wrath destroys even wise men\".",
+          "id": 316789
+        },
+        {
+          "text": "Eph.",
+          "id": 316790
+        },
+        {
+          "text": "iv.",
+          "id": 316791
+        },
+        {
+          "text": "26.",
+          "id": 316792
+        },
+        {
+          "text": "Let not the sun go down upon your wrath.",
+          "id": 316793
+        },
+        {
+          "text": "Matt.",
+          "id": 316794
+        },
+        {
+          "text": "v.",
+          "id": 316795
+        },
+        {
+          "text": "22.",
+          "id": 316796
+        },
+        {
+          "text": "He who is angry…shall be in danger of council.",
+          "id": 316797
+        },
+        {
+          "text": "Eccles.",
+          "id": 316798
+        },
+        {
+          "text": "xi.",
+          "id": 316799
+        },
+        {
+          "text": "19.",
+          "id": 316800
+        },
+        {
+          "text": "\"I am the most foolish of all men\".",
+          "id": 316801
+        },
+        {
+          "text": "This is said by Christ in the person of humanity.",
+          "id": 316802
+        },
+        {
+          "text": "So  Ps.",
+          "id": 316803
+        },
+        {
+          "text": "lxix.",
+          "id": 316804
+        },
+        {
+          "text": "5.",
+          "id": 316805
+        },
+        {
+          "text": "\"God, Thou knowest my foolishness\".",
+          "id": 316806
+        },
+        {
+          "text": "But  1 Cor.",
+          "id": 316807
+        },
+        {
+          "text": "i.",
+          "id": 316808
+        },
+        {
+          "text": "25.",
+          "id": 316809
+        },
+        {
+          "text": "The foolishness of God is wiser than men.",
+          "id": 316810
+        },
+        {
+          "text": "Ecclus.",
+          "id": 316811
+        },
+        {
+          "text": "i.",
+          "id": 316812
+        },
+        {
+          "text": "18.",
+          "id": 316813
+        },
+        {
+          "text": "\"In much wisdom is much grief,\" shows the wise man's sense of imperfection.",
+          "id": 316814
+        },
+        {
+          "text": "So  viii.",
+          "id": 316815
+        },
+        {
+          "text": "7.",
+          "id": 316816
+        },
+        {
+          "text": "\"I hated my life,\" and  14.",
+          "id": 316817
+        },
+        {
+          "text": "\"There be righteous men unto whom it happeneth according to the work of the wicked;\" that is, God sees evil where we do not.",
+          "id": 316818
+        },
+        {
+          "text": "17.",
+          "id": 316819
+        },
+        {
+          "text": "\"However much a man may labor, yet he shall not find it;\" and  ix.",
+          "id": 316820
+        },
+        {
+          "text": "2, 3.",
+          "id": 316821
+        },
+        {
+          "text": "There is one event to all.",
+          "id": 316822
+        },
+        {
+          "text": "The heart…is full of evil.",
+          "id": 316823
+        },
+        {
+          "text": "x.",
+          "id": 316824
+        },
+        {
+          "text": "1.",
+          "id": 316825
+        },
+        {
+          "text": "\"Dead flies cause the ointment to stink;\" That is, almost everyone is defiled by heresy or other faults.",
+          "id": 316826
+        },
+        {
+          "text": "1 Pet.",
+          "id": 316827
+        },
+        {
+          "text": "ii.",
+          "id": 316828
+        },
+        {
+          "text": "17, 18.",
+          "id": 316829
+        },
+        {
+          "text": "Judgement must begin at the house of God.",
+          "id": 316830
+        },
+        {
+          "text": "6.",
+          "id": 316831
+        },
+        {
+          "text": "There are four emotions which agitate mankind, two relating to the present, two to the future; two to good, and two to evil.",
+          "id": 316832
+        },
+        {
+          "text": "There is sorrow, called in Greek λύπη, and joy, in Greek χαρά or ἡδονή, although many translate the latter word by voluptas, pleasure; the one of which is referred to evil, the other to good.",
+          "id": 316833
+        },
+        {
+          "text": "And we go too far if we rejoice over such things as we ought not, as, for example, riches, power, distinctions, the bad fortune of enemies, or their death; or, on the other hand, if we are tortured with grief on account of present evils, adversity, exile, poverty, weakness, and the death of kindred, all of which is forbidden by the Apostle.",
+          "id": 316834
+        },
+        {
+          "text": "And again, if we covet those things which we consider good, inheritance, distinctions, unvaried prosperity, bodily health, and the like, in the possession of which we rejoice and find enjoyment; or if we fear those things which we deem adverse.",
+          "id": 316835
+        },
+        {
+          "text": "Now, according to the Stoics, Zeno that is to say and Chrysippus, it is possible for a perfect man to be free from these emotions; according to the Peripatetics, it is difficult and even impossible, an opinion which has the constant support of all Scripture.",
+          "id": 316836
+        },
+        {
+          "text": "Hence Josephus, the historian of the Maccabees, said that the emotions can be subdued and governed, not extirpated, and Cicero's five books of \"Tusculan Disputations\" are full of these discussions.",
+          "id": 316837
+        },
+        {
+          "text": "According to the Apostle, the weakness of the body and spiritual hosts of wickedness in the heavenly places fight against us.",
+          "id": 316838
+        },
+        {
+          "text": "And the same writer tells us that the works of the flesh and the works of the spirit are manifest, and these are contrary the one to the other, so that we do not the things that we would.",
+          "id": 316839
+        },
+        {
+          "text": "If we do not what we would, but what we would not, how can you say that a man can be without sin if he chooses? You see that neither an Apostle, nor any believer can perform what he wishes\".",
+          "id": 316840
+        },
+        {
+          "text": "Love covereth a multitude of sins,\" not so much sins of the past as sins of the present, that we may not sin any more while the love of God abideth in us.",
+          "id": 316841
+        },
+        {
+          "text": "Wherefore it is said concerning the woman that was a sinner,\"Her sins which are many are forgiven her, for she loved much\".",
+          "id": 316842
+        },
+        {
+          "text": "And this shows us that the doing what we wish does not depend merely upon our own power, but upon the assistance which God in His mercy gives to our will.",
+          "id": 316843
+        },
+        {
+          "text": "7.",
+          "id": 316844
+        },
+        {
+          "text": "The quotations from Scripture are now continued:  In 1 John i.",
+          "id": 316845
+        },
+        {
+          "text": "5, John i.",
+          "id": 316846
+        },
+        {
+          "text": "7, 8, Matt.",
+          "id": 316847
+        },
+        {
+          "text": "v.",
+          "id": 316848
+        },
+        {
+          "text": "14, Christ and the Apostles are called the Light of the world.",
+          "id": 316849
+        },
+        {
+          "text": "The world therefore is darkness.",
+          "id": 316850
+        },
+        {
+          "text": "1 Tim.",
+          "id": 316851
+        },
+        {
+          "text": "vi.",
+          "id": 316852
+        },
+        {
+          "text": "16.",
+          "id": 316853
+        },
+        {
+          "text": "God only hath immortality and is \"only wise\"; yet others, like the Prince of Tyre (Ezek.",
+          "id": 316854
+        },
+        {
+          "text": "xxviii.",
+          "id": 316855
+        },
+        {
+          "text": "3), are wise derivatively.",
+          "id": 316856
+        },
+        {
+          "text": "So we are pure, but only by grace.",
+          "id": 316857
+        },
+        {
+          "text": "Thus  1 John i.",
+          "id": 316858
+        },
+        {
+          "text": "7.",
+          "id": 316859
+        },
+        {
+          "text": "The blood of Christ cleanses us.",
+          "id": 316860
+        },
+        {
+          "text": "Job xxv.",
+          "id": 316861
+        },
+        {
+          "text": "5, 6.",
+          "id": 316862
+        },
+        {
+          "text": "The stars are not pure in his sight.",
+          "id": 316863
+        },
+        {
+          "text": "Gal.",
+          "id": 316864
+        },
+        {
+          "text": "ii.",
+          "id": 316865
+        },
+        {
+          "text": "16.",
+          "id": 316866
+        },
+        {
+          "text": "\"By the law no flesh shall be justified;\" but  Rom.",
+          "id": 316867
+        },
+        {
+          "text": "iii.",
+          "id": 316868
+        },
+        {
+          "text": "1, 24, 28, 30.",
+          "id": 316869
+        },
+        {
+          "text": "Being justified freely through His grace, etc.",
+          "id": 316870
+        },
+        {
+          "text": "vi.",
+          "id": 316871
+        },
+        {
+          "text": "14.",
+          "id": 316872
+        },
+        {
+          "text": "Not under the law, but under grace.",
+          "id": 316873
+        },
+        {
+          "text": "ix.",
+          "id": 316874
+        },
+        {
+          "text": "16.",
+          "id": 316875
+        },
+        {
+          "text": "Not of him that willeth, but of God which showeth mercy.",
+          "id": 316876
+        },
+        {
+          "text": "ix.",
+          "id": 316877
+        },
+        {
+          "text": "30–32.",
+          "id": 316878
+        },
+        {
+          "text": "The Gentiles…attained to the righteousness by faith.",
+          "id": 316879
+        },
+        {
+          "text": "x.",
+          "id": 316880
+        },
+        {
+          "text": "2.",
+          "id": 316881
+        },
+        {
+          "text": "Christ is the end of the law to every one that believeth.",
+          "id": 316882
+        },
+        {
+          "text": "8.",
+          "id": 316883
+        },
+        {
+          "text": "The Apostle confesses his need of this grace for his work.",
+          "id": 316884
+        },
+        {
+          "text": "1 Cor.",
+          "id": 316885
+        },
+        {
+          "text": "i.",
+          "id": 316886
+        },
+        {
+          "text": "1–3.",
+          "id": 316887
+        },
+        {
+          "text": "Grace to you from God.",
+          "id": 316888
+        },
+        {
+          "text": "7, 8.",
+          "id": 316889
+        },
+        {
+          "text": "That ye come behind in no gift—that no flesh may glory in His sight.",
+          "id": 316890
+        },
+        {
+          "text": "1 Cor.",
+          "id": 316891
+        },
+        {
+          "text": "iii.",
+          "id": 316892
+        },
+        {
+          "text": "6–10.",
+          "id": 316893
+        },
+        {
+          "text": "Paul planted…but God gave the increase.",
+          "id": 316894
+        },
+        {
+          "text": "18, 19.",
+          "id": 316895
+        },
+        {
+          "text": "If any man thinketh himself to be wise, let him become a fool.",
+          "id": 316896
+        },
+        {
+          "text": "iv.",
+          "id": 316897
+        },
+        {
+          "text": "4.",
+          "id": 316898
+        },
+        {
+          "text": "I know nothing against myself, yet I am not hereby justified.",
+          "id": 316899
+        },
+        {
+          "text": "7.",
+          "id": 316900
+        },
+        {
+          "text": "What have ye that ye did not receive?  19.",
+          "id": 316901
+        },
+        {
+          "text": "I will come to you, if the Lord will.",
+          "id": 316902
+        },
+        {
+          "text": "9.",
+          "id": 316903
+        },
+        {
+          "text": "The Apostle shows also his need of grace himself.",
+          "id": 316904
+        },
+        {
+          "text": "1 Cor.",
+          "id": 316905
+        },
+        {
+          "text": "xv.",
+          "id": 316906
+        },
+        {
+          "text": "9, 10.",
+          "id": 316907
+        },
+        {
+          "text": "By the grace of God I am what I am, etc.",
+          "id": 316908
+        },
+        {
+          "text": "2 Cor.",
+          "id": 316909
+        },
+        {
+          "text": "iii.",
+          "id": 316910
+        },
+        {
+          "text": "4–6.",
+          "id": 316911
+        },
+        {
+          "text": "Our sufficiency is of God.",
+          "id": 316912
+        },
+        {
+          "text": "Gal.",
+          "id": 316913
+        },
+        {
+          "text": "ii.",
+          "id": 316914
+        },
+        {
+          "text": "16.",
+          "id": 316915
+        },
+        {
+          "text": "We have believed, that we might, be justified by faith.",
+          "id": 316916
+        },
+        {
+          "text": "ii.",
+          "id": 316917
+        },
+        {
+          "text": "21.",
+          "id": 316918
+        },
+        {
+          "text": "If righteousness come by the law, Christ is dead for nought.",
+          "id": 316919
+        },
+        {
+          "text": "iii.",
+          "id": 316920
+        },
+        {
+          "text": "10, 13.",
+          "id": 316921
+        },
+        {
+          "text": "Christ hath redeemed us from the curse of the law.",
+          "id": 316922
+        },
+        {
+          "text": "24.",
+          "id": 316923
+        },
+        {
+          "text": "The law our teacher to bring us to Christ.",
+          "id": 316924
+        },
+        {
+          "text": "v.",
+          "id": 316925
+        },
+        {
+          "text": "4.",
+          "id": 316926
+        },
+        {
+          "text": "Ye are severed from Christ, ye that would be justified by the law.",
+          "id": 316927
+        },
+        {
+          "text": "10.",
+          "id": 316928
+        },
+        {
+          "text": "Phil.",
+          "id": 316929
+        },
+        {
+          "text": "ii.",
+          "id": 316930
+        },
+        {
+          "text": "13.",
+          "id": 316931
+        },
+        {
+          "text": "It is God that worketh in you.",
+          "id": 316932
+        },
+        {
+          "text": "2 Thess.",
+          "id": 316933
+        },
+        {
+          "text": "iii.",
+          "id": 316934
+        },
+        {
+          "text": "3.",
+          "id": 316935
+        },
+        {
+          "text": "The Lord is faithful, He shall establish you.",
+          "id": 316936
+        },
+        {
+          "text": "1 Tim.",
+          "id": 316937
+        },
+        {
+          "text": "vi.",
+          "id": 316938
+        },
+        {
+          "text": "20, 21.",
+          "id": 316939
+        },
+        {
+          "text": "O Timothy, guard that which is committed unto thee.",
+          "id": 316940
+        },
+        {
+          "text": "Tit.",
+          "id": 316941
+        },
+        {
+          "text": "iii.",
+          "id": 316942
+        },
+        {
+          "text": "4–7.",
+          "id": 316943
+        },
+        {
+          "text": "The kindness and mercy of God our Saviour saved us.",
+          "id": 316944
+        },
+        {
+          "text": "11.",
+          "id": 316945
+        },
+        {
+          "text": "We now turn to the Gospels \"and supplement the flickering flame of the Apostolic light with the brightness of the lamp of Christ\".",
+          "id": 316946
+        },
+        {
+          "text": "Matt.",
+          "id": 316947
+        },
+        {
+          "text": "v.",
+          "id": 316948
+        },
+        {
+          "text": "22.",
+          "id": 316949
+        },
+        {
+          "text": "\"Every man who is angry…shall be in danger of the council\".",
+          "id": 316950
+        },
+        {
+          "text": "Which of us is not here condemned?  23, 24.",
+          "id": 316951
+        },
+        {
+          "text": "\"First be reconciled to thy brother\".",
+          "id": 316952
+        },
+        {
+          "text": "Who is there that finds this command easy?  37.",
+          "id": 316953
+        },
+        {
+          "text": "\"Let your speech be Yea, yea, Nay, nay\".",
+          "id": 316954
+        },
+        {
+          "text": "Who has ever kept this commandment? The Psalmist says Ps.",
+          "id": 316955
+        },
+        {
+          "text": "cxvi.",
+          "id": 316956
+        },
+        {
+          "text": "11.",
+          "id": 316957
+        },
+        {
+          "text": "All men are liars.",
+          "id": 316958
+        },
+        {
+          "text": "12.",
+          "id": 316959
+        },
+        {
+          "text": "Matt.",
+          "id": 316960
+        },
+        {
+          "text": "vi.",
+          "id": 316961
+        },
+        {
+          "text": "34.",
+          "id": 316962
+        },
+        {
+          "text": "\"Be not anxious for to-morrow\".",
+          "id": 316963
+        },
+        {
+          "text": "Do you fulfil this?  vii.",
+          "id": 316964
+        },
+        {
+          "text": "14.",
+          "id": 316965
+        },
+        {
+          "text": "\"Narrow is the gate which leadeth to life\".",
+          "id": 316966
+        },
+        {
+          "text": "How can you say that the commandments are easy?  Luke ix.",
+          "id": 316967
+        },
+        {
+          "text": "58.",
+          "id": 316968
+        },
+        {
+          "text": "\"The Son of Man hath not where to lay His head\".",
+          "id": 316969
+        },
+        {
+          "text": "This is interpreted by  Is.",
+          "id": 316970
+        },
+        {
+          "text": "xxviii.",
+          "id": 316971
+        },
+        {
+          "text": "12.",
+          "id": 316972
+        },
+        {
+          "text": "\"Receive him that is weary, and this is my rest;\" and  Is.",
+          "id": 316973
+        },
+        {
+          "text": "lxvi.",
+          "id": 316974
+        },
+        {
+          "text": "1, 2.",
+          "id": 316975
+        },
+        {
+          "text": "\"On whom shall I rest but on him that is humble?\" Christ finds few on whom to rest.",
+          "id": 316976
+        },
+        {
+          "text": "How then can His commands be said to be easy?  Matt.",
+          "id": 316977
+        },
+        {
+          "text": "ix.",
+          "id": 316978
+        },
+        {
+          "text": "12, 13.",
+          "id": 316979
+        },
+        {
+          "text": "\"I came not to call the righteous\".",
+          "id": 316980
+        },
+        {
+          "text": "\"They that are whole need not the physician\".",
+          "id": 316981
+        },
+        {
+          "text": "Had the world not been full of sin, Christ would not have come.",
+          "id": 316982
+        },
+        {
+          "text": "So  Ps.",
+          "id": 316983
+        },
+        {
+          "text": "xii.",
+          "id": 316984
+        },
+        {
+          "text": "1.",
+          "id": 316985
+        },
+        {
+          "text": "Help, Lord, for the godly man ceaseth.",
+          "id": 316986
+        },
+        {
+          "text": "xiv.",
+          "id": 316987
+        },
+        {
+          "text": "1, 3.",
+          "id": 316988
+        },
+        {
+          "text": "They are corrupt…none doeth good.",
+          "id": 316989
+        },
+        {
+          "text": "Matt.",
+          "id": 316990
+        },
+        {
+          "text": "x.",
+          "id": 316991
+        },
+        {
+          "text": "9.",
+          "id": 316992
+        },
+        {
+          "text": "\"Get you no gold…nor shoes\".",
+          "id": 316993
+        },
+        {
+          "text": "Who has fulfilled this? Not even the Apostles, for  Acts xii.",
+          "id": 316994
+        },
+        {
+          "text": "8.",
+          "id": 316995
+        },
+        {
+          "text": "The angel bids Peter to bind on his sandals.",
+          "id": 316996
+        },
+        {
+          "text": "13.",
+          "id": 316997
+        },
+        {
+          "text": "Matt.",
+          "id": 316998
+        },
+        {
+          "text": "x.",
+          "id": 316999
+        },
+        {
+          "text": "22–34.",
+          "id": 317000
+        },
+        {
+          "text": "Describes the persecutions of Christ's followers, and gives the command to take up the cross.",
+          "id": 317001
+        },
+        {
+          "text": "Are these easy?  xiv.",
+          "id": 317002
+        },
+        {
+          "text": "31.",
+          "id": 317003
+        },
+        {
+          "text": "Even Peter's faith fails, and he begins to sink.",
+          "id": 317004
+        },
+        {
+          "text": "xv.",
+          "id": 317005
+        },
+        {
+          "text": "19, 20.",
+          "id": 317006
+        },
+        {
+          "text": "Out of the heart came evil thoughts, etc.",
+          "id": 317007
+        },
+        {
+          "text": "xvi.",
+          "id": 317008
+        },
+        {
+          "text": "25.",
+          "id": 317009
+        },
+        {
+          "text": "Whosoever will lose his life will find it.",
+          "id": 317010
+        },
+        {
+          "text": "xviii.",
+          "id": 317011
+        },
+        {
+          "text": "7.",
+          "id": 317012
+        },
+        {
+          "text": "\"Woe to the man through whom stumbling cometh\".",
+          "id": 317013
+        },
+        {
+          "text": "But  James iii.",
+          "id": 317014
+        },
+        {
+          "text": "2.",
+          "id": 317015
+        },
+        {
+          "text": "In many things we all stumble or err.",
+          "id": 317016
+        },
+        {
+          "text": "Phil.",
+          "id": 317017
+        },
+        {
+          "text": "ii.",
+          "id": 317018
+        },
+        {
+          "text": "21.",
+          "id": 317019
+        },
+        {
+          "text": "All seek their own.",
+          "id": 317020
+        },
+        {
+          "text": "Matt.",
+          "id": 317021
+        },
+        {
+          "text": "xix.",
+          "id": 317022
+        },
+        {
+          "text": "21.",
+          "id": 317023
+        },
+        {
+          "text": "The young lawyer had kept all the law, yet failed.",
+          "id": 317024
+        },
+        {
+          "text": "xxiii.",
+          "id": 317025
+        },
+        {
+          "text": "26–28.",
+          "id": 317026
+        },
+        {
+          "text": "The woes on the Pharisees fall in their measure upon all.",
+          "id": 317027
+        },
+        {
+          "text": "14.",
+          "id": 317028
+        },
+        {
+          "text": "Matt.",
+          "id": 317029
+        },
+        {
+          "text": "xxvi.",
+          "id": 317030
+        },
+        {
+          "text": "39.",
+          "id": 317031
+        },
+        {
+          "text": "\"Not as I will, but as Thou wilt\".",
+          "id": 317032
+        },
+        {
+          "text": "Yet Critobulus says, by his own will he can do right.",
+          "id": 317033
+        },
+        {
+          "text": "Mark xiv.",
+          "id": 317034
+        },
+        {
+          "text": "37.",
+          "id": 317035
+        },
+        {
+          "text": "\"Could ye not watch with me one hour?\" They could not.",
+          "id": 317036
+        },
+        {
+          "text": "vi.",
+          "id": 317037
+        },
+        {
+          "text": "5.",
+          "id": 317038
+        },
+        {
+          "text": "He could do no mighty works because of their unbelief.",
+          "id": 317039
+        },
+        {
+          "text": "vii.",
+          "id": 317040
+        },
+        {
+          "text": "24.",
+          "id": 317041
+        },
+        {
+          "text": "\"He went into the borders of Tyre and Sidon\".",
+          "id": 317042
+        },
+        {
+          "text": "If Christ could not do as he wished, how can we?  ix.",
+          "id": 317043
+        },
+        {
+          "text": "5.",
+          "id": 317044
+        },
+        {
+          "text": "Peter's request at the Transfiguration shows his ignorance.",
+          "id": 317045
+        },
+        {
+          "text": "xiii.",
+          "id": 317046
+        },
+        {
+          "text": "32.",
+          "id": 317047
+        },
+        {
+          "text": "Even the Son knows not all things; how then can we?  xiv.",
+          "id": 317048
+        },
+        {
+          "text": "35.",
+          "id": 317049
+        },
+        {
+          "text": "If it be possible.",
+          "id": 317050
+        },
+        {
+          "text": "How can you say it is possible every hour to avoid sin?  15.",
+          "id": 317051
+        },
+        {
+          "text": "Mark xvi.",
+          "id": 317052
+        },
+        {
+          "text": "14.",
+          "id": 317053
+        },
+        {
+          "text": "Even the Apostles showed unbelief and hardness of heart.",
+          "id": 317054
+        },
+        {
+          "text": "1 John v.",
+          "id": 317055
+        },
+        {
+          "text": "19.",
+          "id": 317056
+        },
+        {
+          "text": "The world lieth in the evil one.",
+          "id": 317057
+        },
+        {
+          "text": "Luke i.",
+          "id": 317058
+        },
+        {
+          "text": "20.",
+          "id": 317059
+        },
+        {
+          "text": "Even Zacharias disbelieved God's message.",
+          "id": 317060
+        },
+        {
+          "text": "Matt.",
+          "id": 317061
+        },
+        {
+          "text": "xvii.",
+          "id": 317062
+        },
+        {
+          "text": "15.",
+          "id": 317063
+        },
+        {
+          "text": "The disciples could not relieve the lunatic, because of unbelief.",
+          "id": 317064
+        },
+        {
+          "text": "Mark iv.",
+          "id": 317065
+        },
+        {
+          "text": "34.",
+          "id": 317066
+        },
+        {
+          "text": "The disciple's dispute about precedence.",
+          "id": 317067
+        },
+        {
+          "text": "Luke ix.",
+          "id": 317068
+        },
+        {
+          "text": "54.",
+          "id": 317069
+        },
+        {
+          "text": "James and John show a vindictive spirit.",
+          "id": 317070
+        },
+        {
+          "text": "xiv.",
+          "id": 317071
+        },
+        {
+          "text": "26, 27.",
+          "id": 317072
+        },
+        {
+          "text": "The commands to forsake all and take up the cross are not easy.",
+          "id": 317073
+        },
+        {
+          "text": "xvi.",
+          "id": 317074
+        },
+        {
+          "text": "15.",
+          "id": 317075
+        },
+        {
+          "text": "That which is exalted among men is abomination in the sight of God.",
+          "id": 317076
+        },
+        {
+          "text": "xvii.",
+          "id": 317077
+        },
+        {
+          "text": "1.",
+          "id": 317078
+        },
+        {
+          "text": "It is impossible but that occasions of stumbling should come.",
+          "id": 317079
+        },
+        {
+          "text": "xvii.",
+          "id": 317080
+        },
+        {
+          "text": "6.",
+          "id": 317081
+        },
+        {
+          "text": "The Apostles' faith was not even like a grain of mustard seed.",
+          "id": 317082
+        },
+        {
+          "text": "James iii.",
+          "id": 317083
+        },
+        {
+          "text": "2.",
+          "id": 317084
+        },
+        {
+          "text": "Matt.",
+          "id": 317085
+        },
+        {
+          "text": "xvii.",
+          "id": 317086
+        },
+        {
+          "text": "19.",
+          "id": 317087
+        },
+        {
+          "text": "16.",
+          "id": 317088
+        },
+        {
+          "text": "Luke xviii.",
+          "id": 317089
+        },
+        {
+          "text": "1.",
+          "id": 317090
+        },
+        {
+          "text": "We are always to pray.",
+          "id": 317091
+        },
+        {
+          "text": "This shows our weakness.",
+          "id": 317092
+        },
+        {
+          "text": "27.",
+          "id": 317093
+        },
+        {
+          "text": "Who, then, can be saved? It is possible, but to God only.",
+          "id": 317094
+        },
+        {
+          "text": "xxii.",
+          "id": 317095
+        },
+        {
+          "text": "24.",
+          "id": 317096
+        },
+        {
+          "text": "The contest for precedence at the last supper.",
+          "id": 317097
+        },
+        {
+          "text": "31, 32.",
+          "id": 317098
+        },
+        {
+          "text": "Peter's faith almost overcome by Satan.",
+          "id": 317099
+        },
+        {
+          "text": "Luke xxii.",
+          "id": 317100
+        },
+        {
+          "text": "43.",
+          "id": 317101
+        },
+        {
+          "text": "Even Christ in his agony needs an angel to strengthen Him.",
+          "id": 317102
+        },
+        {
+          "text": "46.",
+          "id": 317103
+        },
+        {
+          "text": "Pray that ye enter not into temptation.",
+          "id": 317104
+        },
+        {
+          "text": "17.",
+          "id": 317105
+        },
+        {
+          "text": "John v.",
+          "id": 317106
+        },
+        {
+          "text": "30.",
+          "id": 317107
+        },
+        {
+          "text": "Even Christ says, \"I cannot do anything by myself\"; and  vii.",
+          "id": 317108
+        },
+        {
+          "text": "10.",
+          "id": 317109
+        },
+        {
+          "text": "Was irresolute about going up to the Feast of Tabernacles.",
+          "id": 317110
+        },
+        {
+          "text": "19.",
+          "id": 317111
+        },
+        {
+          "text": "None of you doeth the law.",
+          "id": 317112
+        },
+        {
+          "text": "viii.",
+          "id": 317113
+        },
+        {
+          "text": "3.",
+          "id": 317114
+        },
+        {
+          "text": "None of the accusers of the woman taken in adultery were without sin.",
+          "id": 317115
+        },
+        {
+          "text": "Christ wrote their names in the earth (Jerem.",
+          "id": 317116
+        },
+        {
+          "text": "xvii.",
+          "id": 317117
+        },
+        {
+          "text": "13).",
+          "id": 317118
+        },
+        {
+          "text": "x.",
+          "id": 317119
+        },
+        {
+          "text": "8.",
+          "id": 317120
+        },
+        {
+          "text": "All who came (not who were sent; Jerem.",
+          "id": 317121
+        },
+        {
+          "text": "xiv.",
+          "id": 317122
+        },
+        {
+          "text": "15) before Christ were robbers.",
+          "id": 317123
+        },
+        {
+          "text": "xvii.",
+          "id": 317124
+        },
+        {
+          "text": "12.",
+          "id": 317125
+        },
+        {
+          "text": "I kept them—they did not keep themselves.",
+          "id": 317126
+        },
+        {
+          "text": "Acts xv.",
+          "id": 317127
+        },
+        {
+          "text": "39.",
+          "id": 317128
+        },
+        {
+          "text": "Paul and Barnabas quarrelled.",
+          "id": 317129
+        },
+        {
+          "text": "xvi.",
+          "id": 317130
+        },
+        {
+          "text": "6, 7.",
+          "id": 317131
+        },
+        {
+          "text": "They were forbidden to preach where they chose.",
+          "id": 317132
+        },
+        {
+          "text": "18.",
+          "id": 317133
+        },
+        {
+          "text": "Even the Apostles, with their full light, show their dependence on grace.",
+          "id": 317134
+        },
+        {
+          "text": "Acts xvii.",
+          "id": 317135
+        },
+        {
+          "text": "30.",
+          "id": 317136
+        },
+        {
+          "text": "The times before Christ were times of ignorance.",
+          "id": 317137
+        },
+        {
+          "text": "1 Cor.",
+          "id": 317138
+        },
+        {
+          "text": "iv.",
+          "id": 317139
+        },
+        {
+          "text": "19.",
+          "id": 317140
+        },
+        {
+          "text": "I will come if the Lord will.",
+          "id": 317141
+        },
+        {
+          "text": "James ii.",
+          "id": 317142
+        },
+        {
+          "text": "10.",
+          "id": 317143
+        },
+        {
+          "text": "To stumble in one point is to be guilty of all.",
+          "id": 317144
+        },
+        {
+          "text": "iii.",
+          "id": 317145
+        },
+        {
+          "text": "2.",
+          "id": 317146
+        },
+        {
+          "text": "In many things we all stumble.",
+          "id": 317147
+        },
+        {
+          "text": "8.",
+          "id": 317148
+        },
+        {
+          "text": "The tongue is a deadly poison.",
+          "id": 317149
+        },
+        {
+          "text": "19.",
+          "id": 317150
+        },
+        {
+          "text": "James iv.",
+          "id": 317151
+        },
+        {
+          "text": "1.",
+          "id": 317152
+        },
+        {
+          "text": "Wars arise from our lust.",
+          "id": 317153
+        },
+        {
+          "text": "David indeed said,  Ps.",
+          "id": 317154
+        },
+        {
+          "text": "xxvi.",
+          "id": 317155
+        },
+        {
+          "text": "2.",
+          "id": 317156
+        },
+        {
+          "text": "\"Examine me and prove me,\" etc.",
+          "id": 317157
+        },
+        {
+          "text": "This self-confidence led to his fall.",
+          "id": 317158
+        },
+        {
+          "text": "li.",
+          "id": 317159
+        },
+        {
+          "text": "1.",
+          "id": 317160
+        },
+        {
+          "text": "Have mercy on me, O God.",
+          "id": 317161
+        },
+        {
+          "text": "lxxx.",
+          "id": 317162
+        },
+        {
+          "text": "5.",
+          "id": 317163
+        },
+        {
+          "text": "\"Thou feedest us with the bread of tears\".",
+          "id": 317164
+        },
+        {
+          "text": "Similarly  Ps.",
+          "id": 317165
+        },
+        {
+          "text": "xxx.",
+          "id": 317166
+        },
+        {
+          "text": "6, 7.",
+          "id": 317167
+        },
+        {
+          "text": "I said I shall never be moved…Thou didst hide Thy face.",
+          "id": 317168
+        },
+        {
+          "text": "xxxii.",
+          "id": 317169
+        },
+        {
+          "text": "5.",
+          "id": 317170
+        },
+        {
+          "text": "I said I will confess my sin,  xxxvii.",
+          "id": 317171
+        },
+        {
+          "text": "5, 6.",
+          "id": 317172
+        },
+        {
+          "text": "He shall make thy righteousness as the light.",
+          "id": 317173
+        },
+        {
+          "text": "39.",
+          "id": 317174
+        },
+        {
+          "text": "The salvation of the righteous is of the Lord.",
+          "id": 317175
+        },
+        {
+          "text": "xxxviii.",
+          "id": 317176
+        },
+        {
+          "text": "7.",
+          "id": 317177
+        },
+        {
+          "text": "There is no soundness in my flesh.",
+          "id": 317178
+        },
+        {
+          "text": "Rom.",
+          "id": 317179
+        },
+        {
+          "text": "vii.",
+          "id": 317180
+        },
+        {
+          "text": "18.",
+          "id": 317181
+        },
+        {
+          "text": "In my flesh dwelleth no good thing.",
+          "id": 317182
+        },
+        {
+          "text": "Ps.",
+          "id": 317183
+        },
+        {
+          "text": "xxxviii.",
+          "id": 317184
+        },
+        {
+          "text": "8.",
+          "id": 317185
+        },
+        {
+          "text": "Vulgate.",
+          "id": 317186
+        },
+        {
+          "text": "My loins are filled with deceits.",
+          "id": 317187
+        },
+        {
+          "text": "xxxix.",
+          "id": 317188
+        },
+        {
+          "text": "5.",
+          "id": 317189
+        },
+        {
+          "text": "He hath made our days as handbreadths.",
+          "id": 317190
+        },
+        {
+          "text": "lxix.",
+          "id": 317191
+        },
+        {
+          "text": "5.",
+          "id": 317192
+        },
+        {
+          "text": "My sins are not hid from thee.",
+          "id": 317193
+        },
+        {
+          "text": "lxxvii.",
+          "id": 317194
+        },
+        {
+          "text": "2.",
+          "id": 317195
+        },
+        {
+          "text": "My soul refused to be comforted.",
+          "id": 317196
+        },
+        {
+          "text": "10.",
+          "id": 317197
+        },
+        {
+          "text": "This is the changing of the right hand of the Most High.",
+          "id": 317198
+        },
+        {
+          "text": "20.",
+          "id": 317199
+        },
+        {
+          "text": "Ps.",
+          "id": 317200
+        },
+        {
+          "text": "lxxxix.",
+          "id": 317201
+        },
+        {
+          "text": "2.",
+          "id": 317202
+        },
+        {
+          "text": "Mercy shall be built up forever.",
+          "id": 317203
+        },
+        {
+          "text": "xci.",
+          "id": 317204
+        },
+        {
+          "text": "6.",
+          "id": 317205
+        },
+        {
+          "text": "From \"the thing that walketh in darkness\" who can be free? For  xi.",
+          "id": 317206
+        },
+        {
+          "text": "2.",
+          "id": 317207
+        },
+        {
+          "text": "\"The wicked bend their bow\"—an image of the heretics.",
+          "id": 317208
+        },
+        {
+          "text": "xcii.",
+          "id": 317209
+        },
+        {
+          "text": "14.",
+          "id": 317210
+        },
+        {
+          "text": "Those that are planted in the house of the Lord shall flourish.",
+          "id": 317211
+        },
+        {
+          "text": "ciii.",
+          "id": 317212
+        },
+        {
+          "text": "8, 10.",
+          "id": 317213
+        },
+        {
+          "text": "The Lord is full of compassion.",
+          "id": 317214
+        },
+        {
+          "text": "2 Sam.",
+          "id": 317215
+        },
+        {
+          "text": "viii.",
+          "id": 317216
+        },
+        {
+          "text": "13, 14.",
+          "id": 317217
+        },
+        {
+          "text": "David receives the promises with the humble confession of his weakness.",
+          "id": 317218
+        },
+        {
+          "text": "\"Is this the law of man, O God?\"  xvi.",
+          "id": 317219
+        },
+        {
+          "text": "10.",
+          "id": 317220
+        },
+        {
+          "text": "He humbles himself under Abishai's violence and Shimei's curse.",
+          "id": 317221
+        },
+        {
+          "text": "xvii.",
+          "id": 317222
+        },
+        {
+          "text": "14.",
+          "id": 317223
+        },
+        {
+          "text": "And is delivered only by God's confounding the counsel of Ahithophel.",
+          "id": 317224
+        },
+        {
+          "text": "1 Kings xiv.",
+          "id": 317225
+        },
+        {
+          "text": "8.",
+          "id": 317226
+        },
+        {
+          "text": "It was God who gave Jeroboam the kingdom.",
+          "id": 317227
+        },
+        {
+          "text": "21.",
+          "id": 317228
+        },
+        {
+          "text": "1 Kings xv.",
+          "id": 317229
+        },
+        {
+          "text": "11.",
+          "id": 317230
+        },
+        {
+          "text": "Asa, though a good man, was faulty.",
+          "id": 317231
+        },
+        {
+          "text": "xix.",
+          "id": 317232
+        },
+        {
+          "text": "4.",
+          "id": 317233
+        },
+        {
+          "text": "Elijah fled from Jezebel.",
+          "id": 317234
+        },
+        {
+          "text": "Ps.",
+          "id": 317235
+        },
+        {
+          "text": "cxviii.",
+          "id": 317236
+        },
+        {
+          "text": "6.",
+          "id": 317237
+        },
+        {
+          "text": "The Lord is my keeper.",
+          "id": 317238
+        },
+        {
+          "text": "2 Chron.",
+          "id": 317239
+        },
+        {
+          "text": "xvii.",
+          "id": 317240
+        },
+        {
+          "text": "3.",
+          "id": 317241
+        },
+        {
+          "text": "Jehoshaphat prospers because the Lord is with him.",
+          "id": 317242
+        },
+        {
+          "text": "Yet  xix.",
+          "id": 317243
+        },
+        {
+          "text": "2.",
+          "id": 317244
+        },
+        {
+          "text": "He is rebuked for joining with Ahab.",
+          "id": 317245
+        },
+        {
+          "text": "2 Chron.",
+          "id": 317246
+        },
+        {
+          "text": "xxii.",
+          "id": 317247
+        },
+        {
+          "text": "9.",
+          "id": 317248
+        },
+        {
+          "text": "Ahaziah received burial among kings because descended from righteous Jehoshaphat.",
+          "id": 317249
+        },
+        {
+          "text": "2 Kings xviii.",
+          "id": 317250
+        },
+        {
+          "text": "3, 4, 7.",
+          "id": 317251
+        },
+        {
+          "text": "Hezekiah did great things, but only through the Lord's help.",
+          "id": 317252
+        },
+        {
+          "text": "14.",
+          "id": 317253
+        },
+        {
+          "text": "He gave the consecrated gold to the king of Assyria.",
+          "id": 317254
+        },
+        {
+          "text": "22.",
+          "id": 317255
+        },
+        {
+          "text": "Even the best kings of Judah were imperfect.",
+          "id": 317256
+        },
+        {
+          "text": "2 Kings xx.",
+          "id": 317257
+        },
+        {
+          "text": "1, 5.",
+          "id": 317258
+        },
+        {
+          "text": "Hezekiah wept when death was at hand, and recovered through special mercy.",
+          "id": 317259
+        },
+        {
+          "text": "13, 17.",
+          "id": 317260
+        },
+        {
+          "text": "But he sinned in receiving the Babylonian envoys.",
+          "id": 317261
+        },
+        {
+          "text": "2 Chron.",
+          "id": 317262
+        },
+        {
+          "text": "xxxii.",
+          "id": 317263
+        },
+        {
+          "text": "26.",
+          "id": 317264
+        },
+        {
+          "text": "He fell by the lifting up of his heart.",
+          "id": 317265
+        },
+        {
+          "text": "xxxiv.",
+          "id": 317266
+        },
+        {
+          "text": "2.",
+          "id": 317267
+        },
+        {
+          "text": "Josiah was a righteous man; yet  22, 23.",
+          "id": 317268
+        },
+        {
+          "text": "He needed the aid of Huldah; and  xxxv.",
+          "id": 317269
+        },
+        {
+          "text": "22.",
+          "id": 317270
+        },
+        {
+          "text": "He was slain through not heeding God's warning; and  23.",
+          "id": 317271
+        },
+        {
+          "text": "The prophets also are weak and sinful.",
+          "id": 317272
+        },
+        {
+          "text": "Lam.",
+          "id": 317273
+        },
+        {
+          "text": "iv.",
+          "id": 317274
+        },
+        {
+          "text": "20.",
+          "id": 317275
+        },
+        {
+          "text": "Jeremiah lamented his fall.",
+          "id": 317276
+        },
+        {
+          "text": "Numb.",
+          "id": 317277
+        },
+        {
+          "text": "xx.",
+          "id": 317278
+        },
+        {
+          "text": "10, 12.",
+          "id": 317279
+        },
+        {
+          "text": "Moses is punished for his sin at Meribah.",
+          "id": 317280
+        },
+        {
+          "text": "This is the meaning of Ps.",
+          "id": 317281
+        },
+        {
+          "text": "cxli.",
+          "id": 317282
+        },
+        {
+          "text": "6.",
+          "id": 317283
+        },
+        {
+          "text": "Vulgate.",
+          "id": 317284
+        },
+        {
+          "text": "Their judges were swallowed up, joined to the Rock, etc.",
+          "id": 317285
+        },
+        {
+          "text": "Hosea ii.",
+          "id": 317286
+        },
+        {
+          "text": "19.",
+          "id": 317287
+        },
+        {
+          "text": "God in mercy forgives Israel's unfaithfulness.",
+          "id": 317288
+        },
+        {
+          "text": "xi.",
+          "id": 317289
+        },
+        {
+          "text": "9.",
+          "id": 317290
+        },
+        {
+          "text": "\"I will not enter into the city\".",
+          "id": 317291
+        },
+        {
+          "text": "Only the Holy One is not joined to the mass of ungodliness.",
+          "id": 317292
+        },
+        {
+          "text": "Amos vi.",
+          "id": 317293
+        },
+        {
+          "text": "13.",
+          "id": 317294
+        },
+        {
+          "text": "We turn righteousness into wormwood.",
+          "id": 317295
+        },
+        {
+          "text": "Jonah i.",
+          "id": 317296
+        },
+        {
+          "text": "14.",
+          "id": 317297
+        },
+        {
+          "text": "The sailors confess that God is just in raising the storm.",
+          "id": 317298
+        },
+        {
+          "text": "Micah vii.",
+          "id": 317299
+        },
+        {
+          "text": "2.",
+          "id": 317300
+        },
+        {
+          "text": "The godly man is perished from the earth, etc.",
+          "id": 317301
+        },
+        {
+          "text": "vi.",
+          "id": 317302
+        },
+        {
+          "text": "8.",
+          "id": 317303
+        },
+        {
+          "text": "The command of justice, mercy, and a humble walk with God is only possible to humble faith, for  Ps.",
+          "id": 317304
+        },
+        {
+          "text": "cxl.",
+          "id": 317305
+        },
+        {
+          "text": "6.",
+          "id": 317306
+        },
+        {
+          "text": "\"The wicked walk on every side,\" and  James iv.",
+          "id": 317307
+        },
+        {
+          "text": "6.",
+          "id": 317308
+        },
+        {
+          "text": "God giveth grace to the humble.",
+          "id": 317309
+        },
+        {
+          "text": "24.",
+          "id": 317310
+        },
+        {
+          "text": "Habakkuk iii.",
+          "id": 317311
+        },
+        {
+          "text": "16.",
+          "id": 317312
+        },
+        {
+          "text": "Let rottenness enter into my bones, if only I may rest, etc.",
+          "id": 317313
+        },
+        {
+          "text": "Zech.",
+          "id": 317314
+        },
+        {
+          "text": "iii.",
+          "id": 317315
+        },
+        {
+          "text": "1.",
+          "id": 317316
+        },
+        {
+          "text": "Joshua is represented as clothed in filthy garments, and is freed through God's mercy.",
+          "id": 317317
+        },
+        {
+          "text": "But Jovinian's heir says \"I am quite free from sin, I have no filthy garments, I am governed by my own will, I am greater than an Apostle.",
+          "id": 317318
+        },
+        {
+          "text": "The Apostle does what he would not, and what he would he does not; but I do what I will, and what I would not I do not: the kingdom of heaven has been prepared for me, or rather I have by my virtuous life prepared it for myself.",
+          "id": 317319
+        },
+        {
+          "text": "Adam was subject to punishment, and so are others who think themselves guilty after the similitude of Adam's transgressions; I and my crew alone have nothing to fear.",
+          "id": 317320
+        },
+        {
+          "text": "Other men shut up in their cells and who never see women, because, poor creatures! they do not listen to my words, are tormented with desire: crowds of women may surround me, I feel no stirring of concupiscence.",
+          "id": 317321
+        },
+        {
+          "text": "For to me may be applied thewords, 'Holy stones are rolled upon the ground,' and the reason why I am insensible to the attraction of sin is that in the power of free will I carry Christ's trophy about with me\".",
+          "id": 317322
+        },
+        {
+          "text": "But let us listen to God proclaiming by the mouth of Isaiah: \"O my people, they which call thee happy cause thee to err, and destroy the way of thy paths\".",
+          "id": 317323
+        },
+        {
+          "text": "Who is the greatest subverter of the people of God—he who, relying on the power of free choice, despises the help of the Creator, and is satisfied with following his own will, or he who dreads to be judged by the details of the Lord's commandments? To men of this sort, Godsays, \"Woe unto you that are wise in your own eyes, and prudent in your own sight\".",
+          "id": 317324
+        },
+        {
+          "text": "Isaiah, if we follow the Hebrew, lamentsand says, \"Woe is me because I have been silent, because I am a man of unclean lips: and I dwell in the midst of a people of unclean lips, for mine eyes have seen the Lord of Hosts\".",
+          "id": 317325
+        },
+        {
+          "text": "He for his meritorious and virtuous life enjoyed the sight of God, and conscious of his sins confessed that he had unclean lips.",
+          "id": 317326
+        },
+        {
+          "text": "Not that he had said anything repugnant to the will of God, but because, either from fear, or from a deep sense of shame, he had beensilent, and had not reproved the errors of the people so freely as a prophet should.",
+          "id": 317327
+        },
+        {
+          "text": "When do we sinners rebuke offenders, we who flatter wealth and accept the persons of sinners for the sake of filthy lucre? for we shall hardly say that we speak with perfect frankness to men of whose assistance we stand in need.",
+          "id": 317328
+        },
+        {
+          "text": "Suppose that we do not such things as they, suppose we keep ourselves from every form of sin; to refrain from speaking the truth is certainly sin.",
+          "id": 317329
+        },
+        {
+          "text": "In the Septuagint, however, we do not find the words \"because I have been silent,\" but \"because I was pricked,\" that is with the consciousness of sin; and thus the words of theprophet are fulfilled.",
+          "id": 317330
+        },
+        {
+          "text": "\"My life was turned into misery while I was pierced by the thorn\".",
+          "id": 317331
+        },
+        {
+          "text": "He was pricked by the thorn of sin: you are decked with the flowers of virtue\".",
+          "id": 317332
+        },
+        {
+          "text": "The moon shall be ashamed, and the sun confounded, when the Lord shall punish the host of heaven on high\".",
+          "id": 317333
+        },
+        {
+          "text": "This is explained by another passage\".",
+          "id": 317334
+        },
+        {
+          "text": "Even the stars are unclean in His sight,\" and again, \"He chargeth His angels with folly\".",
+          "id": 317335
+        },
+        {
+          "text": "The moon is ashamed, the sun is confounded, and the sky covered with sackcloth, and shall we fearlessly and joyously, as though we were free from all sin, face the majesty of the Judge, when the mountains shall melt away, that is, all who are lifted up by pride, and all the host of the heavens, whether they be stars, or angelic powers, when the heavens shall be rolled together as a scroll, and all their host shall fade away like leaves?  The argument is now carried on mostly by the quotation of passages from the prophets:  25.",
+          "id": 317336
+        },
+        {
+          "text": "Is.",
+          "id": 317337
+        },
+        {
+          "text": "xxxiv.",
+          "id": 317338
+        },
+        {
+          "text": "5.",
+          "id": 317339
+        },
+        {
+          "text": "\"My sword hath drunk its fill in the heavens.",
+          "id": 317340
+        },
+        {
+          "text": "It will come down in Edom\".",
+          "id": 317341
+        },
+        {
+          "text": "How much more is there wrath against sin on earth! Edom means blood, which cannot inherit the kingdom (1 Cor.",
+          "id": 317342
+        },
+        {
+          "text": "xv.",
+          "id": 317343
+        },
+        {
+          "text": "50).",
+          "id": 317344
+        },
+        {
+          "text": "xlv.",
+          "id": 317345
+        },
+        {
+          "text": "9.",
+          "id": 317346
+        },
+        {
+          "text": "Woe unto him who striveth with his Maker.",
+          "id": 317347
+        },
+        {
+          "text": "liii.",
+          "id": 317348
+        },
+        {
+          "text": "6.",
+          "id": 317349
+        },
+        {
+          "text": "We have all gone astray like sheep.",
+          "id": 317350
+        },
+        {
+          "text": "Ezek.",
+          "id": 317351
+        },
+        {
+          "text": "xvi.",
+          "id": 317352
+        },
+        {
+          "text": "14.",
+          "id": 317353
+        },
+        {
+          "text": "Jerusalem is perfect in beauty; yet  Ezek.",
+          "id": 317354
+        },
+        {
+          "text": "xvi.",
+          "id": 317355
+        },
+        {
+          "text": "60, 61.",
+          "id": 317356
+        },
+        {
+          "text": "Her salvation is not of merit but of mercy.",
+          "id": 317357
+        },
+        {
+          "text": "Nahum i.",
+          "id": 317358
+        },
+        {
+          "text": "3.",
+          "id": 317359
+        },
+        {
+          "text": "Though he cleanse, yet will he not make thee innocent.",
+          "id": 317360
+        },
+        {
+          "text": "1 Cor.",
+          "id": 317361
+        },
+        {
+          "text": "xv.",
+          "id": 317362
+        },
+        {
+          "text": "9.",
+          "id": 317363
+        },
+        {
+          "text": "I am not worthy—because I persecuted.",
+          "id": 317364
+        },
+        {
+          "text": "Ezek.",
+          "id": 317365
+        },
+        {
+          "text": "xx.",
+          "id": 317366
+        },
+        {
+          "text": "43, 44.",
+          "id": 317367
+        },
+        {
+          "text": "When pardoned, Jerusalem will still remember her sin.",
+          "id": 317368
+        },
+        {
+          "text": "Let us confess with shame that these are the utterances of men who have already won their reward; sinners upon earth, and still in our frail and mortal bodies let us adopt the language of the saints in heaven who have even been endowed with incorruption and immortality\".",
+          "id": 317369
+        },
+        {
+          "text": "And ye say the way of the Lord is not equal, when your ways are not equal\".",
+          "id": 317370
+        },
+        {
+          "text": "It is Pharisaic pride to attribute to the injustice of the Creator sins which are due to our own will, and to slander His righteousness.",
+          "id": 317371
+        },
+        {
+          "text": "The sons of Zadok, the priests of the spiritual temple, that is the Church,go not out to the people in their ministerial robes, lest by human intercourse they may lose their holiness and be defiled.",
+          "id": 317372
+        },
+        {
+          "text": "And do you suppose that you, in the thick of the throng, and an ordinary individual, are pure?  26.",
+          "id": 317373
+        },
+        {
+          "text": "Let us hastily run through the prophet Jeremiah:  Jerem.",
+          "id": 317374
+        },
+        {
+          "text": "v.",
+          "id": 317375
+        },
+        {
+          "text": "1, 2.",
+          "id": 317376
+        },
+        {
+          "text": "Is there any that doeth justly, etc.",
+          "id": 317377
+        },
+        {
+          "text": "vii.",
+          "id": 317378
+        },
+        {
+          "text": "21, 22.",
+          "id": 317379
+        },
+        {
+          "text": "God rejects the sacrifices, because of the worshippers' evil lives.",
+          "id": 317380
+        },
+        {
+          "text": "xiii.",
+          "id": 317381
+        },
+        {
+          "text": "23.",
+          "id": 317382
+        },
+        {
+          "text": "Can the Ethiopian change his skin?  27.",
+          "id": 317383
+        },
+        {
+          "text": "Jerem.",
+          "id": 317384
+        },
+        {
+          "text": "xvii.",
+          "id": 317385
+        },
+        {
+          "text": "14.",
+          "id": 317386
+        },
+        {
+          "text": "\"Heal me, O Lord\".",
+          "id": 317387
+        },
+        {
+          "text": "Otherwise Jeremiah could only say, as in the text next quoted,  xx.",
+          "id": 317388
+        },
+        {
+          "text": "14, 17, 18.",
+          "id": 317389
+        },
+        {
+          "text": "Cursed be the day wherein I was born, etc.",
+          "id": 317390
+        },
+        {
+          "text": "xxiii.",
+          "id": 317391
+        },
+        {
+          "text": "23.",
+          "id": 317392
+        },
+        {
+          "text": "Am I a God at hand, etc.",
+          "id": 317393
+        },
+        {
+          "text": "So conscious is he of God's power.",
+          "id": 317394
+        },
+        {
+          "text": "xxiv.",
+          "id": 317395
+        },
+        {
+          "text": "6, 7.",
+          "id": 317396
+        },
+        {
+          "text": "God, not they themselves, will plant them, etc.",
+          "id": 317397
+        },
+        {
+          "text": "xxvi.",
+          "id": 317398
+        },
+        {
+          "text": "21–24.",
+          "id": 317399
+        },
+        {
+          "text": "Jeremiah needed the help of Ahikam.",
+          "id": 317400
+        },
+        {
+          "text": "How much more do we need that of God.",
+          "id": 317401
+        },
+        {
+          "text": "28.",
+          "id": 317402
+        },
+        {
+          "text": "Jerem.",
+          "id": 317403
+        },
+        {
+          "text": "xxxi.",
+          "id": 317404
+        },
+        {
+          "text": "34.",
+          "id": 317405
+        },
+        {
+          "text": "The promise of the new covenant.",
+          "id": 317406
+        },
+        {
+          "text": "xxxii.",
+          "id": 317407
+        },
+        {
+          "text": "30.",
+          "id": 317408
+        },
+        {
+          "text": "The children of Israel have perpetually done evil.",
+          "id": 317409
+        },
+        {
+          "text": "xxxvii.",
+          "id": 317410
+        },
+        {
+          "text": "18, 19.",
+          "id": 317411
+        },
+        {
+          "text": "Yet Jeremiah himself trembled before Zedekiah.",
+          "id": 317412
+        },
+        {
+          "text": "Jerem.",
+          "id": 317413
+        },
+        {
+          "text": "xxx.",
+          "id": 317414
+        },
+        {
+          "text": "10, 11.",
+          "id": 317415
+        },
+        {
+          "text": "Fear not, O Jacob, for I am with thee.",
+          "id": 317416
+        },
+        {
+          "text": "29.",
+          "id": 317417
+        },
+        {
+          "text": "Amos vi.",
+          "id": 317418
+        },
+        {
+          "text": "14.",
+          "id": 317419
+        },
+        {
+          "text": "\"We have taken us horns by our own strength\".",
+          "id": 317420
+        },
+        {
+          "text": "These are the boasts of heretics.",
+          "id": 317421
+        },
+        {
+          "text": "But  Is.",
+          "id": 317422
+        },
+        {
+          "text": "xvi.",
+          "id": 317423
+        },
+        {
+          "text": "6.",
+          "id": 317424
+        },
+        {
+          "text": "His strength (Moab's) is by no means according to his arrogance.",
+          "id": 317425
+        },
+        {
+          "text": "Jerem.",
+          "id": 317426
+        },
+        {
+          "text": "i.",
+          "id": 317427
+        },
+        {
+          "text": "7, 20.",
+          "id": 317428
+        },
+        {
+          "text": "Men's sin will only be abolished because God is gracious to them.",
+          "id": 317429
+        },
+        {
+          "text": "If you will abandon your assertions of natural ability, I will concede that your whole contention stands good, but only by the gift of God.",
+          "id": 317430
+        },
+        {
+          "text": "Lam.",
+          "id": 317431
+        },
+        {
+          "text": "iii.",
+          "id": 317432
+        },
+        {
+          "text": "26–42.",
+          "id": 317433
+        },
+        {
+          "text": "It is good that a man should quietly wait for the salvation of the Lord.",
+          "id": 317434
+        },
+        {
+          "text": "30.",
+          "id": 317435
+        },
+        {
+          "text": "Dan.",
+          "id": 317436
+        },
+        {
+          "text": "iv.",
+          "id": 317437
+        },
+        {
+          "text": "17.",
+          "id": 317438
+        },
+        {
+          "text": "The Most High ruleth in the kingdom of men.",
+          "id": 317439
+        },
+        {
+          "text": "Ps.",
+          "id": 317440
+        },
+        {
+          "text": "cxiii.",
+          "id": 317441
+        },
+        {
+          "text": "7, 8.",
+          "id": 317442
+        },
+        {
+          "text": "He raiseth up the poor out of the dust.",
+          "id": 317443
+        },
+        {
+          "text": "Is.",
+          "id": 317444
+        },
+        {
+          "text": "xl.",
+          "id": 317445
+        },
+        {
+          "text": "17.",
+          "id": 317446
+        },
+        {
+          "text": "He doeth what He will in heaven and in earth.",
+          "id": 317447
+        },
+        {
+          "text": "The words of 2 Maccabees v.",
+          "id": 317448
+        },
+        {
+          "text": "17, which say that Antiochus Epiphanes had power to overthrow the Temple, \"because of the multitude of sins,\" are quoted in connection with the confessions of Daniel.",
+          "id": 317449
+        },
+        {
+          "text": "Dan.",
+          "id": 317450
+        },
+        {
+          "text": "ix.",
+          "id": 317451
+        },
+        {
+          "text": "5.",
+          "id": 317452
+        },
+        {
+          "text": "\"We have sinned and dealt perversely,\" which is shown by  20.",
+          "id": 317453
+        },
+        {
+          "text": "\"While I was yet praying,\" etc.",
+          "id": 317454
+        },
+        {
+          "text": ", to be a personal, not only a national confession.",
+          "id": 317455
+        },
+        {
+          "text": "24.",
+          "id": 317456
+        },
+        {
+          "text": "The prophecy of the seventy weeks shows that the prophet looked to God alone for the establishment of righteousness.",
+          "id": 317457
+        },
+        {
+          "text": "So then, until that end shall come, and this corruptible and mortal shall put on incorruption and immortality, we must be liable to sin; not, as you falsely say, owing to the fault of our nature and creation, but through the frailty and fickleness of human will, which varies from moment to moment; because God alone changeth not.",
+          "id": 317458
+        },
+        {
+          "text": "You ask in what respects Abel, Enoch, Joshua the son of Nun, or Elisha, and the rest of the saints have sinned.",
+          "id": 317459
+        },
+        {
+          "text": "There is no need to look for a knot in a bulrush; I freely confess I do not know; and I only wish that, when sins are manifest, I might still be silent\".",
+          "id": 317460
+        },
+        {
+          "text": "I know nothing against myself,\" says St.",
+          "id": 317461
+        },
+        {
+          "text": "Paul, \"yet am I not hereby justified\".",
+          "id": 317462
+        },
+        {
+          "text": "\"Man looketh on the outward appearance, but the Lord looketh on the heart\".",
+          "id": 317463
+        },
+        {
+          "text": "Before Him no man is justified.",
+          "id": 317464
+        },
+        {
+          "text": "And so Paul says confidently,\"All have sinned, and come short of the glory of God\"; and\"God hath shut up all under sin that He may have mercy upon all\"; and similarly in other passages which we have repeated again and again.",
+          "id": 317465
+        }
+      ]
+    }
+  ]
+}

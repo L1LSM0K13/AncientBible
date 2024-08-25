@@ -1,0 +1,1170 @@
+{
+  "book": "Athanasius: Excursus A",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "text": "Excursus A.",
+          "id": 278237
+        },
+        {
+          "text": "On the meaning of the phrase ἐξ ἑτέρας ὑποστάσεως ἢ οὐσίας in the Nicene Anathema.",
+          "id": 278238
+        },
+        {
+          "text": "Bishop Bull has made it a question, whether these words in the Nicene Creed mean the same thing, or are to be considered distinct from each other, advocating himself the latter opinion against Petavius.",
+          "id": 278239
+        },
+        {
+          "text": "The history of the word ὑπόστασις is of too intricate a character to enter upon here; but a few words may be in place in illustration of its sense as it occurs in the Creed, and with reference to the view taken of it by the great divine, who has commented on it.",
+          "id": 278240
+        },
+        {
+          "text": "Bishop Bull, as I understood him (Defens.",
+          "id": 278241
+        },
+        {
+          "text": "F.",
+          "id": 278242
+        },
+        {
+          "text": "N.",
+          "id": 278243
+        },
+        {
+          "text": "ii.",
+          "id": 278244
+        },
+        {
+          "text": "9.",
+          "id": 278245
+        },
+        {
+          "text": "§11.",
+          "id": 278246
+        },
+        {
+          "text": "), considers that two distinct ideas are intended by the words οὐσία and ὑπόστασις, in the clause ἐξ ἑτέρας ὑποστάσεως ἢ οὐσίας; as if the Creed condemned those who said that the Son was not from the Father's essence, and those also who said that He was not from the Father's hypostasis or subsistence; as if a man might hold at least one of the two without holding the other.",
+          "id": 278247
+        },
+        {
+          "text": "And in matter of fact, he does profess to assign two parties of heretics, who denied this or that proposition respectively.",
+          "id": 278248
+        },
+        {
+          "text": "Petavius, on the other hand (de Trin.",
+          "id": 278249
+        },
+        {
+          "text": "iv.",
+          "id": 278250
+        },
+        {
+          "text": "I.",
+          "id": 278251
+        },
+        {
+          "text": "), considers that the word ὑπόστασις is but another term for οὐσία, and that not two but one proposition is contained in the clause in question; the word ὑπόστασις not being publicly recognised in its present meaning till the Council of Alexandria, in the year 362.",
+          "id": 278252
+        },
+        {
+          "text": "Coustant.",
+          "id": 278253
+        },
+        {
+          "text": "(Epist.",
+          "id": 278254
+        },
+        {
+          "text": "Pont.",
+          "id": 278255
+        },
+        {
+          "text": "Rom.",
+          "id": 278256
+        },
+        {
+          "text": "pp.",
+          "id": 278257
+        },
+        {
+          "text": "274.",
+          "id": 278258
+        },
+        {
+          "text": "290.",
+          "id": 278259
+        },
+        {
+          "text": "462.",
+          "id": 278260
+        },
+        {
+          "text": ") Tillemont (Memoires S.",
+          "id": 278261
+        },
+        {
+          "text": "Denys.",
+          "id": 278262
+        },
+        {
+          "text": "d'Alex.",
+          "id": 278263
+        },
+        {
+          "text": "§15.",
+          "id": 278264
+        },
+        {
+          "text": "), Huet (Origenian.",
+          "id": 278265
+        },
+        {
+          "text": "ii.",
+          "id": 278266
+        },
+        {
+          "text": "2.",
+          "id": 278267
+        },
+        {
+          "text": "n.",
+          "id": 278268
+        },
+        {
+          "text": "3.",
+          "id": 278269
+        },
+        {
+          "text": "), Thomassin (de Incarn.",
+          "id": 278270
+        },
+        {
+          "text": "iii.",
+          "id": 278271
+        },
+        {
+          "text": "1.",
+          "id": 278272
+        },
+        {
+          "text": "), and Morinus (de Sacr.",
+          "id": 278273
+        },
+        {
+          "text": "Ordin.",
+          "id": 278274
+        },
+        {
+          "text": "ii.",
+          "id": 278275
+        },
+        {
+          "text": "6.",
+          "id": 278276
+        },
+        {
+          "text": "), take substantially the same view; while Maranus (Praef.",
+          "id": 278277
+        },
+        {
+          "text": "ad S.",
+          "id": 278278
+        },
+        {
+          "text": "Basil.",
+          "id": 278279
+        },
+        {
+          "text": "§1.",
+          "id": 278280
+        },
+        {
+          "text": "tom.",
+          "id": 278281
+        },
+        {
+          "text": "3.",
+          "id": 278282
+        },
+        {
+          "text": "ed.",
+          "id": 278283
+        },
+        {
+          "text": "Bened.",
+          "id": 278284
+        },
+        {
+          "text": "), Natalis Alexander, Hist.",
+          "id": 278285
+        },
+        {
+          "text": "(Saec.",
+          "id": 278286
+        },
+        {
+          "text": "1.",
+          "id": 278287
+        },
+        {
+          "text": "Diss.",
+          "id": 278288
+        },
+        {
+          "text": "22.",
+          "id": 278289
+        },
+        {
+          "text": "circ.",
+          "id": 278290
+        },
+        {
+          "text": "fin.",
+          "id": 278291
+        },
+        {
+          "text": "), Burton (Testimonies to the Trinity, No.",
+          "id": 278292
+        },
+        {
+          "text": "71), and [Routh] (Reliqu.",
+          "id": 278293
+        },
+        {
+          "text": "Sacr.",
+          "id": 278294
+        },
+        {
+          "text": "vol.",
+          "id": 278295
+        },
+        {
+          "text": "iii.",
+          "id": 278296
+        },
+        {
+          "text": "p.",
+          "id": 278297
+        },
+        {
+          "text": "189.",
+          "id": 278298
+        },
+        {
+          "text": "), differ from Petavius, if they do not agree with Bull.",
+          "id": 278299
+        },
+        {
+          "text": "Bull's principal argument lies in the strong fact, that S.",
+          "id": 278300
+        },
+        {
+          "text": "Basil expressly asserts, that the Council did mean the two terms to be distinct, and this when he is answering the Sabellians, who grounded their assertion that there was but one ὑπόστασις, on the alleged fact that the Council had used οὐσία and ὑπόστασις indifferently.",
+          "id": 278301
+        },
+        {
+          "text": "Bull refers also to Anastasius Hodeg.",
+          "id": 278302
+        },
+        {
+          "text": "21.",
+          "id": 278303
+        },
+        {
+          "text": "(22.",
+          "id": 278304
+        },
+        {
+          "text": "p.",
+          "id": 278305
+        },
+        {
+          "text": "343.",
+          "id": 278306
+        },
+        {
+          "text": "?) who says, that the Nicene Fathers defined that there are three hypostases or Persons in the Holy Trinity.",
+          "id": 278307
+        },
+        {
+          "text": "Petavius considers that he derived this from Gelasius of Cyzicus, a writer of no great authority; but, as the passage occurs in Anastasius, they are the words of Andrew of Samosata.",
+          "id": 278308
+        },
+        {
+          "text": "But what is more important, elsewhere Anastasius quotes a passage from Amphilochius to something of the same effect.",
+          "id": 278309
+        },
+        {
+          "text": "c.",
+          "id": 278310
+        },
+        {
+          "text": "10.",
+          "id": 278311
+        },
+        {
+          "text": "p.",
+          "id": 278312
+        },
+        {
+          "text": "164.",
+          "id": 278313
+        },
+        {
+          "text": "He states it besides himself, c.",
+          "id": 278314
+        },
+        {
+          "text": "9.",
+          "id": 278315
+        },
+        {
+          "text": "p.",
+          "id": 278316
+        },
+        {
+          "text": "150.",
+          "id": 278317
+        },
+        {
+          "text": "and c.",
+          "id": 278318
+        },
+        {
+          "text": "24.",
+          "id": 278319
+        },
+        {
+          "text": "p.",
+          "id": 278320
+        },
+        {
+          "text": "364.",
+          "id": 278321
+        },
+        {
+          "text": "In addition, Bull quotes passages from S.",
+          "id": 278322
+        },
+        {
+          "text": "Dionysius of Alexandria, S.",
+          "id": 278323
+        },
+        {
+          "text": "Dionysius of Rome (vid.",
+          "id": 278324
+        },
+        {
+          "text": "below, de Decr.",
+          "id": 278325
+        },
+        {
+          "text": "25–27 and notes), Eusebius of Caesarea, and afterwards Origen; in all of which three hypostases being spoken of, whereas antiquity, early or late, never speaks in the same way of three οὐσίαι, it is plain that ὑπόστασις then conveyed an idea which οὐσία did not.",
+          "id": 278326
+        },
+        {
+          "text": "To these may be added a passage in Athanasius, in Illud, Omnia, §6.",
+          "id": 278327
+        },
+        {
+          "text": "Bishop Bull adds the following explanation of the two words as they occur in the Creed: he conceives that the one is intended to reach the Arians, and the other the Semi-arians; that the Semi-arians did actually make a distinction between οὐσία and ὑπόστασις, admitting in a certain sense that the Son was from the ὑπόστασις of the Father, while they denied that He was from His οὐσία.",
+          "id": 278328
+        },
+        {
+          "text": "They then are anathematized in the words ἐξ ἑτέρας οὐσίας; and, as he would seem to mean, the Arians in the ἐξ ἑτέρας ὑποστάσεως.",
+          "id": 278329
+        },
+        {
+          "text": "Now I hope it will not be considered any disrespect to so great an authority, if I differ from this view, and express my reasons for doing so.",
+          "id": 278330
+        },
+        {
+          "text": "1.",
+          "id": 278331
+        },
+        {
+          "text": "First then, supposing his account of the Semi-arian doctrine ever so free from objection, granting that they denied the ἐξ οὐσίας, and admitted the ἐξ ὑποστάσεως, yet who are they who, according to his view, denied the ἐξ ὑποστάσεως, or said that the Son was ἐξ ἑτέρας ὑποστάσεως? he does not assign any parties, though he implies the Arians.",
+          "id": 278332
+        },
+        {
+          "text": "Yet though, as is notorious, they denied the ἐξ οὐσίας, there is nothing to shew that they or any other party of Arians maintained specifically that the Son was not [from] the ὑπόστασις, or subsistence of the Father.",
+          "id": 278333
+        },
+        {
+          "text": "That is, the hypothesis supported by this eminent divine does not answer the very question which it raises.",
+          "id": 278334
+        },
+        {
+          "text": "It professes that those who denied the ἐξ ὑποστάσεως, were not the same as those who denied the ἐξ οὐσίας; yet it fails to tell us who did deny the ἐξ ὑποστάσεως, in a sense distinct from ἐξ οὐσίας.",
+          "id": 278335
+        },
+        {
+          "text": "2.",
+          "id": 278336
+        },
+        {
+          "text": "Next, his only proof that the Semi-arians did hold the ἐξ ὑποστάσεως as distinct from the ἐξ οὐσίας, lies in the circumstance, that the three (commonly called) Semi-arian confessions of a.",
+          "id": 278337
+        },
+        {
+          "text": "d.",
+          "id": 278338
+        },
+        {
+          "text": "341, 344, 351, known as Mark's of Arethusa [i-e: the 'fourth Antiochene'], the Macrostich, and the first Sirmian, anathematize those who say that the Son is ἐξ ἑτέρας ὑποστάσεως, not anathematizing the καὶ μὴ ἐκ τοῦ θεοῦ, which he thence infers was their own belief.",
+          "id": 278339
+        },
+        {
+          "text": "Another explanation of this passage will be offered presently; meanwhile, it is well to observe, that Hilary, in speaking of the confession of Philippopolis which was taken from Mark's, far from suspecting that the clause involved an omission, defends it on the ground of its retaining the Anathema (de Synod.",
+          "id": 278340
+        },
+        {
+          "text": "35.",
+          "id": 278341
+        },
+        {
+          "text": "), thus implying that ἐξ ἑτέρας ὑποστάσεως καὶ μὴ ἐκ τοῦ θεοῦ was equivalent to ἐξ ἑτέρας ὑποστάσεως ἢ οὐσίας.",
+          "id": 278342
+        },
+        {
+          "text": "And it may be added, that Athanasius in like manner, in his account of the Nicene Council (de Decret.",
+          "id": 278343
+        },
+        {
+          "text": "§20.",
+          "id": 278344
+        },
+        {
+          "text": "fin.",
+          "id": 278345
+        },
+        {
+          "text": "), when repeating its anathema, drops the ἐξ ὑποστάσεως altogether, and reads τοὺς δὲ λέγοντας ἐξ οὐκ ὄντων,.",
+          "id": 278346
+        },
+        {
+          "text": "…ἢ ποίημα, ἢ ἐξ ἑτέρας οὐσίας, τούτους ἀναθεματίζει κ.",
+          "id": 278347
+        },
+        {
+          "text": "τ.",
+          "id": 278348
+        },
+        {
+          "text": "λ.",
+          "id": 278349
+        },
+        {
+          "text": "3.",
+          "id": 278350
+        },
+        {
+          "text": "Further, Bull gives us no proof whatever that the Semi-arians did deny the ἐξ οὐσίας; while it is very clear, if it is right to contradict so great a writer, that most of them did not deny it.",
+          "id": 278351
+        },
+        {
+          "text": "He says that it is \"certissimum\" that the heretics who wrote the three confessions above noticed, that is, the Semi-arians, \"nunquam fassos, nunquam fassuros fuisse filium ἐξ οὐσίας, e substantia, Patris progenitum\".",
+          "id": 278352
+        },
+        {
+          "text": "His reason for not offering any proof for this naturally is, that Petavius, with whom he is in controversy, maintains it also, and he makes use of Petavius's admission against himself.",
+          "id": 278353
+        },
+        {
+          "text": "Now it may seem bold in a writer of this day to differ not only with Bull, but with Petavius; but the reason for doing so is simple; it is because Athanasius asserts the very thing which Petavius and Bull deny, and Petavius admits that he does; that is, he allows it by implication when he complains that Athanasius had not got to the bottom of the doctrine of the Semi-arians, and thought too favourably of them.",
+          "id": 278354
+        },
+        {
+          "text": "\"Horum Semi-arianorum, quorum antesignanus fuit Basilius Ancyrae episcopus, prorsus obscura fuit haeresis.",
+          "id": 278355
+        },
+        {
+          "text": "…ut ne ipse quidem Athanasius satis illam exploratam habuerit\".",
+          "id": 278356
+        },
+        {
+          "text": "de Trin.",
+          "id": 278357
+        },
+        {
+          "text": "i.",
+          "id": 278358
+        },
+        {
+          "text": "x.",
+          "id": 278359
+        },
+        {
+          "text": "§7.",
+          "id": 278360
+        },
+        {
+          "text": "Now S.",
+          "id": 278361
+        },
+        {
+          "text": "Athanasius's words are most distinct and express; \"As to those who receive all else that was defined at Nicaea, but dispute about the 'One in essence' only, we must not feel as towards enemies.",
+          "id": 278362
+        },
+        {
+          "text": "…for, as confessing that the Son is from the essence of the Father and not of other subsistence, ἐκ τῆς οὐσίας τοῦ πατρὸς εἶναι, καὶ μὴ ἐξ ἑτέρας ὑποστάσεως τὸν υἱον,…they are not far from receiving the phrase 'One in essence' also.",
+          "id": 278363
+        },
+        {
+          "text": "Such is Basil of Ancyra, in what he has written about the faith\" de Syn.",
+          "id": 278364
+        },
+        {
+          "text": "§41;—a passage, not only express for the matter in hand, but remarkable too, as apparently using ὑπόστασις and οὐσία as synonymous, which is the main point which Bull denies.",
+          "id": 278365
+        },
+        {
+          "text": "What follows in Athanasius is equally to the purpose: he urges the Semi-arians to accept the ὁμοούσιον, in consistency, because they maintain the ἐξ οὐσίας and the ὁμοιούσιον would not sufficiently secure it.",
+          "id": 278366
+        },
+        {
+          "text": "Moreover Hilary, while defending the Semi-arian decrees of Ancyra or Sirmium, says expressly, that according to them, among other truths, \"non creatura est Filius genitus, sed a natura Patris indiscreta substantia est\".",
+          "id": 278367
+        },
+        {
+          "text": "de Syn.",
+          "id": 278368
+        },
+        {
+          "text": "27.",
+          "id": 278369
+        },
+        {
+          "text": "Petavius, however, in the passage to which Bull appeals, refers in proof of this view of Semi-arianism, to those Ancyrene documents, which Epiphanius has preserved, Haer.",
+          "id": 278370
+        },
+        {
+          "text": "73.",
+          "id": 278371
+        },
+        {
+          "text": "and which he considers to shew, that according to the Semi-arians the Son was not ἐξ οὐσίας τοῦ πατρός.",
+          "id": 278372
+        },
+        {
+          "text": "He says, that it is plain from their own explanations that they considered our Lord to be, not ἐκ τῆς οὐσίας, but ἐκ τῆς ὁμοιότητος (he does not say ὑποστάσεως, as Bull wishes) τοῦ πατρὸς and that, ἐνεργεί& 139· γεννητικῇ, which was one of the divine ἐνέργειαι, as creation, ἡ κτιστικὴ, was another.",
+          "id": 278373
+        },
+        {
+          "text": "Yet surely Epiphanius does not bear out this representation better than Athanasius; since the Semi-arians, whose words he reports, speak of \"υἱ& 232·ν ὅμοιον καὶ κατ᾽ οὐσίαν ἐκ τοῦ πατρὸς, p.",
+          "id": 278374
+        },
+        {
+          "text": "825 b, ὡς ἡ σοφία τοῦ σοφοῦ υἱ& 232·ς, οὐσία οὐσίας, p.",
+          "id": 278375
+        },
+        {
+          "text": "853 c, κατ᾽ οὐσίαν υἱ& 232·ν τοῦ Θεοῦ καὶ πατρός, p.",
+          "id": 278376
+        },
+        {
+          "text": "854 c, ἐξουσί& 139· ὁμοῦ καὶ οὐσί& 139· πατρὸς μονογενοῦς υἱοῦ.",
+          "id": 278377
+        },
+        {
+          "text": "p.",
+          "id": 278378
+        },
+        {
+          "text": "858 d, besides the strong word γνήσιος, ibid.",
+          "id": 278379
+        },
+        {
+          "text": "and Athan.",
+          "id": 278380
+        },
+        {
+          "text": "de Syn.",
+          "id": 278381
+        },
+        {
+          "text": "§41.",
+          "id": 278382
+        },
+        {
+          "text": "not to insist on other of their statements.",
+          "id": 278383
+        },
+        {
+          "text": "The same fact is brought before us even in a more striking way in the conference at Constantinople, a.",
+          "id": 278384
+        },
+        {
+          "text": "d.",
+          "id": 278385
+        },
+        {
+          "text": "360, before Constantius, between the Anomoeans and Semi-arians, where the latter, according to Theodoret, shew no unwillingness to acknowledge even the ὁμοούσιον, because they acknowledge the ἐξ οὐσίας.",
+          "id": 278386
+        },
+        {
+          "text": "When the Anomoeans wished the former condemned, Silvanus of Tarsus said, \"If God the Word be not out of nothing, nor a creature, nor of other essence, οὐσίας, therefore is He one in essence, ὁμοούσιος, with God who begot Him, as God from God, and Light from Light, and He has the same nature with His Father\".",
+          "id": 278387
+        },
+        {
+          "text": "H.",
+          "id": 278388
+        },
+        {
+          "text": "E.",
+          "id": 278389
+        },
+        {
+          "text": "ii.",
+          "id": 278390
+        },
+        {
+          "text": "23.",
+          "id": 278391
+        },
+        {
+          "text": "Here again it is observable, as in the passage from Athanasius above, that, while apparently reciting the Nicene Anathema, he omits ἐξ ἑτέρας ὑποστάσεως, as if it were superfluous to mention a synonym.",
+          "id": 278392
+        },
+        {
+          "text": "At the same time there certainly is reason to suspect that the Semi-arians approximated towards orthodoxy as time went on; and perhaps it is hardly fair to determine what they held at Nicaea by their statements at Ancyra, though to the latter Petavius appeals.",
+          "id": 278393
+        },
+        {
+          "text": "Several of the most eminent among them, as Meletius, Cyril, and Eusebius of Samosata conformed soon after; on the other hand in Eusebius, who is their representative at Nicaea, it will perhaps be difficult to find a clear admission of the ἐξ οὐσίας.",
+          "id": 278394
+        },
+        {
+          "text": "But at any rate he does not maintain the ἐξ ὑποστάσεως, which Bull's theory requires.",
+          "id": 278395
+        },
+        {
+          "text": "On various grounds then, because the Semi-arians as a body did not deny the ἐξ οὐσίας, nor confess the ἐξ ὑποστάσεως, nor the Arians deny it, there is reason for declining Bishop Bull's explanation of these words as they occur in the Creed; and now let us turn to the consideration of the authorities on which that explanation rests.",
+          "id": 278396
+        },
+        {
+          "text": "As to Gelasius, Bull himself does not insist upon his testimony, and Anastasius [about 700 a.",
+          "id": 278397
+        },
+        {
+          "text": "d.",
+          "id": 278398
+        },
+        {
+          "text": "] is too late to be of authority.",
+          "id": 278399
+        },
+        {
+          "text": "The passage indeed which he quotes from Amphilochius is important, but as he was a friend of S.",
+          "id": 278400
+        },
+        {
+          "text": "Basil, perhaps it does not very much increase the weight of S.",
+          "id": 278401
+        },
+        {
+          "text": "Basil's more distinct and detailed testimony to the same point, and no one can say that that weight is inconsiderable.",
+          "id": 278402
+        },
+        {
+          "text": "Yet there is evidence the other way which overbalances it.",
+          "id": 278403
+        },
+        {
+          "text": "Bull, who complains of Petavius's rejection of S.",
+          "id": 278404
+        },
+        {
+          "text": "Basil's testimony concerning a Council which was held before his birth, cannot maintain his own explanation of its Creed without rejecting Athanasius's testimony respecting the doctrine of his contemporaries, the Semi-arians; and moreover the more direct evidence, as we shall see, of the Council of Alexandria, a.",
+          "id": 278405
+        },
+        {
+          "text": "d.",
+          "id": 278406
+        },
+        {
+          "text": "362, S.",
+          "id": 278407
+        },
+        {
+          "text": "Jerome, Basil of Ancyra, and Socrates.",
+          "id": 278408
+        },
+        {
+          "text": "First, however, no better comment upon the sense of the Council can be required than the incidental language of Athanasius and others, who in a foregoing extract exchanges οὐσία for ὑπόστασις in a way which is natural only on the supposition that he used them as synonyms.",
+          "id": 278409
+        },
+        {
+          "text": "Elsewhere, as we have seen, he omits the word ἢ ὑποστάσεως in the Nicene Anathema, while Hilary considers the Anathema sufficient with that omission.",
+          "id": 278410
+        },
+        {
+          "text": "In like manner Hilary expressly translates the clause in the Creed by ex altera substantia vel essentia.",
+          "id": 278411
+        },
+        {
+          "text": "Fragm.",
+          "id": 278412
+        },
+        {
+          "text": "ii.",
+          "id": 278413
+        },
+        {
+          "text": "27.",
+          "id": 278414
+        },
+        {
+          "text": "And somewhat in the same way Eusebius says in his letter, ἐξ ἑτέρας τινὸς ὑποστάσεώς τε καὶ οὐσίας.",
+          "id": 278415
+        },
+        {
+          "text": "But further, Athanasius says expressly, ad Afros,—\"Hypostasis is essence, οὐσία, and means nothing else than simply being, which Jeremiah calls existence when he says,\" &c.",
+          "id": 278416
+        },
+        {
+          "text": "§4.",
+          "id": 278417
+        },
+        {
+          "text": "It is true, he elsewhere speaks of three Hypostases, but this only shews that he attached no fixed sense to the word.",
+          "id": 278418
+        },
+        {
+          "text": "[Rather, he abandons the latter usage in his middle and later writings.",
+          "id": 278419
+        },
+        {
+          "text": "] This is just what I would maintain; its sense must be determined by the context; and, whereas it always stands in all Catholic writers for the Una Res (as the 4th Lateran speaks), which οὐσία denotes, when Athanasius says, \"three hypostases,\" he takes the word to mean οὐσία in that particular sense in which it is three, and when he makes it synonymous with οὐσία, he uses it to signify Almighty God in that sense in which He is one.",
+          "id": 278420
+        },
+        {
+          "text": "Leaving Athanasius, we have the following evidence concerning the history of the word ὑπόστασις.",
+          "id": 278421
+        },
+        {
+          "text": "S.",
+          "id": 278422
+        },
+        {
+          "text": "Jerome says, \"The whole school of secular learning understanding nothing else by hypostasis than usia, essence,\" Ep.",
+          "id": 278423
+        },
+        {
+          "text": "xv.",
+          "id": 278424
+        },
+        {
+          "text": "4, where, speaking of the Three Hypostases he uses the strong language, \"If you desire it, then be a new faith framed after the Nicene, and let the orthodox confess in terms like the Arian\".",
+          "id": 278425
+        },
+        {
+          "text": "In like manner, Basil of Ancyra, George, and the other Semi-arians, say distinctly, \"This hypostasis our Fathers called essence,\" οὐσία.",
+          "id": 278426
+        },
+        {
+          "text": "Epiph.",
+          "id": 278427
+        },
+        {
+          "text": "Haer.",
+          "id": 278428
+        },
+        {
+          "text": "74.",
+          "id": 278429
+        },
+        {
+          "text": "12.",
+          "id": 278430
+        },
+        {
+          "text": "fin.",
+          "id": 278431
+        },
+        {
+          "text": "; in accordance with which is the unauthorized addition to the Sardican Epistle, \"ὑπόστασιν, ἣν αὐτοὶ οἱ αἱρετικοὶ οὐσίαν προσαγορεύουσι\".",
+          "id": 278432
+        },
+        {
+          "text": "Theod.",
+          "id": 278433
+        },
+        {
+          "text": "H.",
+          "id": 278434
+        },
+        {
+          "text": "E.",
+          "id": 278435
+        },
+        {
+          "text": "ii.",
+          "id": 278436
+        },
+        {
+          "text": "6.",
+          "id": 278437
+        },
+        {
+          "text": "If it be said that Jerome from his Roman connection, and Basil and George as Semi-arians, would be led by their respective theologies for distinct reasons thus to speak, it is true, and may have led them to too broad a statement of the fact; but then on the other hand it was in accordance also with the theology of S.",
+          "id": 278438
+        },
+        {
+          "text": "Basil, so strenuous a defender of the formula of the Three Hypostases, to suppose that the Nicene Fathers meant to distinguish ὑπόστασις from οὐσία in their anathema.",
+          "id": 278439
+        },
+        {
+          "text": "Again, Socrates informs us that, though there was some dispute about hypostasis at Alexandria shortly before the Nicene Council, yet the Council itself \"devoted not a word to the question,\" H.",
+          "id": 278440
+        },
+        {
+          "text": "E.",
+          "id": 278441
+        },
+        {
+          "text": "iii.",
+          "id": 278442
+        },
+        {
+          "text": "7.",
+          "id": 278443
+        },
+        {
+          "text": "; which hardly consists with its having intended to rule that ἐξ ἑτέρας ὑποστάσεως was distinct from ἐξ ἑτέρας οὐσίας.",
+          "id": 278444
+        },
+        {
+          "text": "And in like manner the Council of Alexandria, a.",
+          "id": 278445
+        },
+        {
+          "text": "d.",
+          "id": 278446
+        },
+        {
+          "text": "362, in deciding that the sense of Hypostasis was an open question, not only from the very nature of the case goes on the supposition that the Nicene Council had not closed it, but says so in words again and again in its Synodal Letter.",
+          "id": 278447
+        },
+        {
+          "text": "If the Nicene Council had already used \"hypostasis\" in its present sense, what remained to Athanasius at Alexandria but to submit to it?  Indeed the history of this Council is perhaps the strongest argument against the supposed discrimination of the two terms by the Council of Nicaea.",
+          "id": 278448
+        },
+        {
+          "text": "Bull can only meet it by considering that an innovation upon the \"veterem vocabuli usum\" began at the date of the Council of Sardica, though Socrates mentions the dispute as existing at Alexandria before the Nicene Council, H.",
+          "id": 278449
+        },
+        {
+          "text": "E.",
+          "id": 278450
+        },
+        {
+          "text": "iii.",
+          "id": 278451
+        },
+        {
+          "text": "4.",
+          "id": 278452
+        },
+        {
+          "text": "5.",
+          "id": 278453
+        },
+        {
+          "text": "while the supposititious confession of Sardica professes to have received the doctrine of the one hypostasis by tradition as Catholic.",
+          "id": 278454
+        },
+        {
+          "text": "Nor is the use of the word in earlier times inconsistent with these testimonies; though it occurs so seldom, in spite of its being a word of S.",
+          "id": 278455
+        },
+        {
+          "text": "Paul [i-e: Heb.",
+          "id": 278456
+        },
+        {
+          "text": "i.",
+          "id": 278457
+        },
+        {
+          "text": "3], that testimony is our principal evidence.",
+          "id": 278458
+        },
+        {
+          "text": "Socrates' remarks deserve to be quoted; \"Those among the Greeks who have treated of the Greek philosophy, have defined essence, οὐσία, in many ways, but they had made no mention at all of hypostasis.",
+          "id": 278459
+        },
+        {
+          "text": "Irenaeus the Grammarian, in his alphabetical Atticist, even calls the term barbarous; because it is not used by any of the ancients, and if anywhere found, it does not mean what it is now taken for.",
+          "id": 278460
+        },
+        {
+          "text": "Thus in the Phoenix of Sophocles it means an 'ambush;' but in Menander, 'preserves,' as if one were to call the wine-lees in a cask 'hypostasis.",
+          "id": 278461
+        },
+        {
+          "text": "' However it must be observed, that, in spite of the old philosophers being silent about the term, the more modern continually use it for essence, οὐσίας, H.",
+          "id": 278462
+        },
+        {
+          "text": "E.",
+          "id": 278463
+        },
+        {
+          "text": "iii.",
+          "id": 278464
+        },
+        {
+          "text": "7.",
+          "id": 278465
+        },
+        {
+          "text": "The word principally occurs in Origen among Ante-Nicene writers, and he, it must be confessed uses it, as far as the context decides its sense, to mean subsistence or person.",
+          "id": 278466
+        },
+        {
+          "text": "In other words, it was the word of a certain school in the Church, which afterwards was accepted by the Church; but this proves nothing about the sense in which it was used at Nicaea.",
+          "id": 278467
+        },
+        {
+          "text": "The three Hypostases are spoken of by Origen, his pupil Dionysius, as afterwards by Eusebius of Caesarea (though he may notwithstanding have considered hypostasis synonymous with essence), and Athanasius (Origen in Joan.",
+          "id": 278468
+        },
+        {
+          "text": "ii.",
+          "id": 278469
+        },
+        {
+          "text": "6.",
+          "id": 278470
+        },
+        {
+          "text": "Dionys.",
+          "id": 278471
+        },
+        {
+          "text": "ap.",
+          "id": 278472
+        },
+        {
+          "text": "Basil de Sp.",
+          "id": 278473
+        },
+        {
+          "text": "S.",
+          "id": 278474
+        },
+        {
+          "text": "n.",
+          "id": 278475
+        },
+        {
+          "text": "72.",
+          "id": 278476
+        },
+        {
+          "text": "Euseb.",
+          "id": 278477
+        },
+        {
+          "text": "ap.",
+          "id": 278478
+        },
+        {
+          "text": "Socr.",
+          "id": 278479
+        },
+        {
+          "text": "i.",
+          "id": 278480
+        },
+        {
+          "text": "23.",
+          "id": 278481
+        },
+        {
+          "text": "Athan.",
+          "id": 278482
+        },
+        {
+          "text": "in Illud Omnia, &c.",
+          "id": 278483
+        },
+        {
+          "text": "6); and the Two Hypostases of the Father and the Son, by Origen, Ammonius, and Alexander (Origen c.",
+          "id": 278484
+        },
+        {
+          "text": "Cels.",
+          "id": 278485
+        },
+        {
+          "text": "viii.",
+          "id": 278486
+        },
+        {
+          "text": "2.",
+          "id": 278487
+        },
+        {
+          "text": "Ammon.",
+          "id": 278488
+        },
+        {
+          "text": "ap.",
+          "id": 278489
+        },
+        {
+          "text": "Caten.",
+          "id": 278490
+        },
+        {
+          "text": "in Joan.",
+          "id": 278491
+        },
+        {
+          "text": "x.",
+          "id": 278492
+        },
+        {
+          "text": "30.",
+          "id": 278493
+        },
+        {
+          "text": "Alex.",
+          "id": 278494
+        },
+        {
+          "text": "ap.",
+          "id": 278495
+        },
+        {
+          "text": "Theod.",
+          "id": 278496
+        },
+        {
+          "text": "i.",
+          "id": 278497
+        },
+        {
+          "text": "3.",
+          "id": 278498
+        },
+        {
+          "text": "p.",
+          "id": 278499
+        },
+        {
+          "text": "740).",
+          "id": 278500
+        },
+        {
+          "text": "As to the passage in which two hypostases are spoken of in Dionysius' letter to Paul of Samosata, that letter certainly is not genuine, as might be shewn on a fitting occasion, though it is acknowledged by very great authorities.",
+          "id": 278501
+        },
+        {
+          "text": "I confess that to my mind there is an antecedent probability that the view which has here been followed is correct.",
+          "id": 278502
+        },
+        {
+          "text": "Judging by the general history of doctrine, one should not expect that the formal ecclesiastical meaning of the word should have obtained everywhere so early.",
+          "id": 278503
+        },
+        {
+          "text": "Nothing is more certain than that the doctrines themselves of the Holy Trinity and the Incarnation were developed, or, to speak more definitely, that the propositions containing them were acknowledged, from the earliest times; but the particular terms which now belong to them are most uniformly of a later date.",
+          "id": 278504
+        },
+        {
+          "text": "Ideas were brought out, but technical phrases did not obtain.",
+          "id": 278505
+        },
+        {
+          "text": "Not that these phrases did not exist, but either not as technical, or in use in a particular School or Church, or with a particular writer, or as ἅπαξ λεγόμενα, as words discussed, nay resisted, perhaps used by some local Council, and then at length accepted generally from their obvious propriety.",
+          "id": 278506
+        },
+        {
+          "text": "Thus the words of the Schools pass into the service of the Catholic Church.",
+          "id": 278507
+        },
+        {
+          "text": "Instead then of the word ὑπόστασις being, as Maran says, received in the East \"summo consensu,\" from the date of Noetus or at least Sabellius, or of Bull's opinion \"apud Catholicos Dionysii aetate ratum et fixum illud fuisse, tres esse in divinis hypostases,\" I would consider that the present use of the word was in the first instance Alexandrian, and that it was little more than Alexandrian till the middle of the fourth century.",
+          "id": 278508
+        },
+        {
+          "text": "Lastly, it comes to be considered how the two words are to be accounted for in the Creed, if they have not distinct senses.",
+          "id": 278509
+        },
+        {
+          "text": "Coustant supposes that ἐξ οὐσίας was added to explain ἐξ ὑποστάσεως, lest the latter should be taken in a Sabellian sense.",
+          "id": 278510
+        },
+        {
+          "text": "On which we may perhaps remark besides, that the reason why ὑπόστασις was selected as the principal term was, that it was agreeable to the Westerns as well as admitted by the Orientals.",
+          "id": 278511
+        },
+        {
+          "text": "Thus, by way of contrast, we find the Second General Council, at which there were no Latins, speaking of Three Hypostases, and Pope Damasus and the Roman Council speaking a few years sooner of the Holy Ghost as of the same hypostasis and usia with the Father and the Son.",
+          "id": 278512
+        },
+        {
+          "text": "Theod.",
+          "id": 278513
+        },
+        {
+          "text": "H.",
+          "id": 278514
+        },
+        {
+          "text": "E.",
+          "id": 278515
+        },
+        {
+          "text": "ii.",
+          "id": 278516
+        },
+        {
+          "text": "17.",
+          "id": 278517
+        },
+        {
+          "text": "Many things go to make this probable.",
+          "id": 278518
+        },
+        {
+          "text": "For instance, Coustant acutely points out, though Maran and the President of Magdalen [Routh, Rel.",
+          "id": 278519
+        },
+        {
+          "text": "Sac.",
+          "id": 278520
+        },
+        {
+          "text": "iii.",
+          "id": 278521
+        },
+        {
+          "text": "383] dissent, that this probably was a point of dispute between the two Dionysii; the Bishop of Alexandria asserting, as we know he did assert, Three Hypostases, the Bishop of Rome protesting in reply against \"Three partitive Hypostases,\" as involving tritheism, and his namesake rejoining, \"If because there are Three Hypostases, any say that they are partitive, three there are, though they like it not\".",
+          "id": 278522
+        },
+        {
+          "text": "Again, the influence of the West shews itself in the language of Athanasius, who, contrary to the custom of his Church, of Origen, Dionysius, and his own immediate patron and master Alexander, so varies his own use of the word, as to make his writings almost an example of that freedom which he vindicated in the Council of Alexandria.",
+          "id": 278523
+        },
+        {
+          "text": "Again, when Hosius went to Alexandria before the Nicene Council, and a dispute arose with reference to Sabellianism about the words ὑπόστασις and οὐσία, what is this too, but the collision of East and West? It should be remembered moreover that Hosius presided at Nicaea, a Latin in an Eastern city; and again at Sardica, where, though the decree in favour of the One Hypostasis was not passed, it seems clear from the history that he was resisting persons with whom in great measure he agreed.",
+          "id": 278524
+        },
+        {
+          "text": "Further, the same consideration accounts for the omission of the ἐξ οὐσίας from the Confession of Mark and the two which follow, on which Bull relies in proof that the Semi-arians rejected this formula.",
+          "id": 278525
+        },
+        {
+          "text": "These three Semi-arian Creeds, and these only, were addressed to the Latins, and therefore their compilers naturally select that synonym which was most pleasing to them, as the means of securing a hearing; just as Athanasius on the other hand in his de Decretis, writing to the Greeks, omits ὑποστάσεως and writes οὐσίας.",
+          "id": 278526
+        }
+      ]
+    }
+  ]
+}

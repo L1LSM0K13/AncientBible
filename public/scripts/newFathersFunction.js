@@ -3,7 +3,6 @@ const bList = document.getElementById('book-list')
 const cList = document.getElementById('chapter-list')
 const vCont = document.getElementById('vCont')
 const bTitle = document.getElementById('bookTitle')
-const redBtn = document.getElementById('redLetterBtn')
 
 let isRed = JSON.parse(localStorage.getItem('isRed')) || false
 /**
@@ -13,7 +12,7 @@ let isRed = JSON.parse(localStorage.getItem('isRed')) || false
  */
 // Fetches book from server
 async function fetchBook(filename) {
-    const resp = await fetch(`../newBooks/${filename}`)
+    const resp = await fetch(`../newBooksFathers/${filename}`)
     if (resp.status !== 200) {
         throw new Error('Failed to fetch book, got HTTP status ' + resp.status)
     }

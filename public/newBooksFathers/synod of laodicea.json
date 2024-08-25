@@ -1,0 +1,837 @@
+{
+  "book": "Synod of Laodicea",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "text": "Canonos of The Synod of Laodicea:  Canon I.",
+          "id": 3201
+        },
+        {
+          "text": "It is right, according to the ecclesiastical Canon, that the Communion should by indulgence be given to those who have freely and lawfully joined in second marriages, not having previously made a secret marriage; after a short space, which is to be spent by them in prayer and fasting.",
+          "id": 3202
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "text": "Canon II.",
+          "id": 3203
+        },
+        {
+          "text": "They who have sinned in divers particulars, if they have persevered in the prayer of confession and penance, and are wholly converted from their faults, shall be received again to communion, through the mercy and goodness of God, after a time of penance appointed to them, in proportion to the nature of their offence.",
+          "id": 3204
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "text": "Canon III.",
+          "id": 3205
+        },
+        {
+          "text": "He who has been recently baptized ought not to be promoted to the sacerdotal order.",
+          "id": 3206
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "text": "Canon IV.",
+          "id": 3207
+        },
+        {
+          "text": "They who are of the sacerdotal order ought not to lend and receive usury, nor what is called hemioliae.",
+          "id": 3208
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "text": "Canon V.",
+          "id": 3209
+        },
+        {
+          "text": "Ordinations are not to be held in the presence of hearers.",
+          "id": 3210
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "text": "Canon VI.",
+          "id": 3211
+        },
+        {
+          "text": "It is not permitted to heretics to enter the house of God while they continue in heresy.",
+          "id": 3212
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "verses": [
+        {
+          "text": "Canon VII.",
+          "id": 3213
+        },
+        {
+          "text": "Persons converted from heresies, that is, of the Novatians, Photinians, and Quartodecimans, whether they were catechumens or communicants among them, shall not be received until they shall have anathematized every heresy, and particularly that in which they were held; and afterwards those who among them were called communicants, having thoroughly learned the symbols of the faith, and having been anointed with the holy chrism, shall so communicate in the holy Mysteries.",
+          "id": 3214
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "verses": [
+        {
+          "text": "Canon VIII.",
+          "id": 3215
+        },
+        {
+          "text": "Persons converted from the heresy of those who are called Phrygians, even should they be among those reputed by them as clergymen, and even should they be called the very chiefest, are with all care to be both instructed and baptized by the bishops and presbyters of the Church.",
+          "id": 3216
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "verses": [
+        {
+          "text": "Canon IX.",
+          "id": 3217
+        },
+        {
+          "text": "The members of the Church are not allowed to meet in the cemeteries, nor attend the so-called martyries of any of the heretics, for prayer or service; but such as so do, if they be communicants, shall be excommunicated for a time; but if they repent and confess that they have sinned they shall be received.",
+          "id": 3218
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "verses": [
+        {
+          "text": "Canon X.",
+          "id": 3219
+        },
+        {
+          "text": "The members of the Church shall not indiscriminately marry their children to heretics.",
+          "id": 3220
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "verses": [
+        {
+          "text": "Canon XI.",
+          "id": 3221
+        },
+        {
+          "text": "Presbytides, as they are called, or female presidents, are not to be appointed in the Church.",
+          "id": 3222
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "verses": [
+        {
+          "text": "Canon XII.",
+          "id": 3223
+        },
+        {
+          "text": "Bishops are to be appointed to the ecclesiastical government by the judgment of the metropolitans and neighbouring bishops, after having been long proved both in the foundation of their faith and in the conversation of an honest life.",
+          "id": 3224
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "verses": [
+        {
+          "text": "Canon XIII.",
+          "id": 3225
+        },
+        {
+          "text": "The election of those who are to be appointed to the priesthood is not to be committed to the multitude.",
+          "id": 3226
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "verses": [
+        {
+          "text": "Canon XIV.",
+          "id": 3227
+        },
+        {
+          "text": "The holy things are not to be sent into other dioceses at the feast of Easter by way of eulogiae.",
+          "id": 3228
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "verses": [
+        {
+          "text": "Canon XV.",
+          "id": 3229
+        },
+        {
+          "text": "No others shall sing in the Church, save only the canonical singers, who go up into the ambo and sing from a book.",
+          "id": 3230
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "verses": [
+        {
+          "text": "Canon XVI.",
+          "id": 3231
+        },
+        {
+          "text": "The Gospels are to be read on the Sabbath [i-e: Saturday], with the other Scriptures.",
+          "id": 3232
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "verses": [
+        {
+          "text": "Canon XVII.",
+          "id": 3233
+        },
+        {
+          "text": "The Psalms are not to be joined together in the congregations, but a lesson shall intervene after every psalm.",
+          "id": 3234
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "verses": [
+        {
+          "text": "Canon XVIII.",
+          "id": 3235
+        },
+        {
+          "text": "The same service of prayers is to be said always both at nones and at vespers.",
+          "id": 3236
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "verses": [
+        {
+          "text": "Canon XIX.",
+          "id": 3237
+        },
+        {
+          "text": "After the sermons of the Bishops, the prayer for the catechumens is to be made first by itself; and after the catechumens have gone out, the prayer for those who are under penance; and, after these have passed under the hand [of the Bishop] and departed, there should then be offered the three prayers of the faithful, the first to be said entirely in silence, the second and third aloud, and then the [kiss of] peace is to be given.",
+          "id": 3238
+        },
+        {
+          "text": "And, after the presbyters have given the [kiss of] peace to the Bishop, then the laity are to give it [to one another], and so the Holy Oblation is to be completed.",
+          "id": 3239
+        },
+        {
+          "text": "And it is lawful to the priesthood alone to go to the Altar and [there] communicate.",
+          "id": 3240
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "verses": [
+        {
+          "text": "Canon XX.",
+          "id": 3241
+        },
+        {
+          "text": "It is not right for a deacon to sit in the presence of a presbyter, unless he be bidden by the presbyter to sit down.",
+          "id": 3242
+        },
+        {
+          "text": "Likewise the deacons shall have worship of the subdeacons and all the [inferior] clergy.",
+          "id": 3243
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "verses": [
+        {
+          "text": "Canon XXI.",
+          "id": 3244
+        },
+        {
+          "text": "The subdeacons have no right to a place in the Diaconicum, nor to touch the Lord's vessels.",
+          "id": 3245
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "verses": [
+        {
+          "text": "Canon XXII.",
+          "id": 3246
+        },
+        {
+          "text": "The subdeacon has no right to wear an orarium [i-e:, stole], nor to leave the doors.",
+          "id": 3247
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "verses": [
+        {
+          "text": "Canon XXIII.",
+          "id": 3248
+        },
+        {
+          "text": "The readers and singers have no right to wear an orarium, and to read or sing thus [habited].",
+          "id": 3249
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "verses": [
+        {
+          "text": "Canon XXIV.",
+          "id": 3250
+        },
+        {
+          "text": "No one of the priesthood, from presbyters to deacons, and so on in the ecclesiastical order to subdeacons, readers, singers, exorcists, door-keepers, or any of the class of the Ascetics, ought to enter a tavern.",
+          "id": 3251
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "verses": [
+        {
+          "text": "Canon XXV.",
+          "id": 3252
+        },
+        {
+          "text": "A subdeacon must not give the Bread, nor bless the Cup.",
+          "id": 3253
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "verses": [
+        {
+          "text": "Canon XXVI.",
+          "id": 3254
+        },
+        {
+          "text": "They who have not been promoted [to that office] by the bishop, ought not to adjure, either in churches or in private houses.",
+          "id": 3255
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "verses": [
+        {
+          "text": "Canon XXVII.",
+          "id": 3256
+        },
+        {
+          "text": "Neither they of the priesthood, nor clergymen, nor laymen, who are invited to a love feast, may take away their portions, for this is to cast reproach on the ecclesiastical order.",
+          "id": 3257
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "verses": [
+        {
+          "text": "Canon XXVIII.",
+          "id": 3258
+        },
+        {
+          "text": "It is not permitted to hold love feasts, as they are called, in the Lord's Houses, or Churches, nor to eat and to spread couches in the house of God.",
+          "id": 3259
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "verses": [
+        {
+          "text": "Canon XXIX.",
+          "id": 3260
+        },
+        {
+          "text": "Christians must not judaize by resting on the Sabbath, but must work on that day, rather honouring the Lord's Day; and, if they can, resting then as Christians.",
+          "id": 3261
+        },
+        {
+          "text": "But if any shall be found to be judaizers, let them be anathema from Christ.",
+          "id": 3262
+        }
+      ]
+    },
+    {
+      "chapter": 30,
+      "verses": [
+        {
+          "text": "Canon XXX.",
+          "id": 3263
+        },
+        {
+          "text": "None of the priesthood, nor clerics [of lower rank] nor ascetics, nor any Christian or layman, shall wash in a bath with women; for this is the greatest reproach among the heathen.",
+          "id": 3264
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "verses": [
+        {
+          "text": "Canon XXXI.",
+          "id": 3265
+        },
+        {
+          "text": "It is not lawful to make marriages with all [sorts of] heretics, nor to give our sons and daughters to them; but rather to take of them, if they promise to become Christians.",
+          "id": 3266
+        }
+      ]
+    },
+    {
+      "chapter": 32,
+      "verses": [
+        {
+          "text": "Canon XXXII.",
+          "id": 3267
+        },
+        {
+          "text": "It is unlawful to receive the eulogiae of heretics, for they are rather ἀλογίαι [i-e:, follies], than eulogiae [i-e:, blessings].",
+          "id": 3268
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "verses": [
+        {
+          "text": "Canon XXXIII.",
+          "id": 3269
+        },
+        {
+          "text": "No one shall join in prayers with heretics or schismatics.",
+          "id": 3270
+        }
+      ]
+    },
+    {
+      "chapter": 34,
+      "verses": [
+        {
+          "text": "Canon XXXIV.",
+          "id": 3271
+        },
+        {
+          "text": "No Christian shall forsake the martyrs of Christ, and turn to false martyrs, that is, to those of the heretics, or those who formerly were heretics; for they are aliens from God.",
+          "id": 3272
+        },
+        {
+          "text": "Let those, therefore, who go after them, be anathema.",
+          "id": 3273
+        }
+      ]
+    },
+    {
+      "chapter": 35,
+      "verses": [
+        {
+          "text": "Canon XXXV.",
+          "id": 3274
+        },
+        {
+          "text": "Christians must not forsake the Church of God, and go away and invoke angels and gather assemblies, which things are forbidden.",
+          "id": 3275
+        },
+        {
+          "text": "If, therefore, any one shall be found engaged in this covert idolatry, let him be anathema; for he has forsaken our Lord Jesus Christ, the Son of God, and has gone over to idolatry.",
+          "id": 3276
+        }
+      ]
+    },
+    {
+      "chapter": 36,
+      "verses": [
+        {
+          "text": "Canon XXXVI.",
+          "id": 3277
+        },
+        {
+          "text": "They who are of the priesthood, or of the clergy, shall not be magicians, enchanters, mathematicians, or astrologers; nor shall they make what are called amulets, which are chains for their own souls.",
+          "id": 3278
+        },
+        {
+          "text": "And those who wear such, we command to be cast out of the Church.",
+          "id": 3279
+        }
+      ]
+    },
+    {
+      "chapter": 37,
+      "verses": [
+        {
+          "text": "Canon XXXVII.",
+          "id": 3280
+        },
+        {
+          "text": "It is not lawful to receive portions sent from the feasts of Jews or heretics, nor to feast together with them.",
+          "id": 3281
+        }
+      ]
+    },
+    {
+      "chapter": 38,
+      "verses": [
+        {
+          "text": "Canon XXXVIII.",
+          "id": 3282
+        },
+        {
+          "text": "It is not lawful to receive unleavened bread from the Jews, nor to be partakers of their impiety.",
+          "id": 3283
+        }
+      ]
+    },
+    {
+      "chapter": 39,
+      "verses": [
+        {
+          "text": "Canon XXXIX.",
+          "id": 3284
+        },
+        {
+          "text": "It is not lawful to feast together with the heathen, and to be partakers of their godlessness.",
+          "id": 3285
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "verses": [
+        {
+          "text": "Canon XL.",
+          "id": 3286
+        },
+        {
+          "text": "Bishops called to a synod must not be guilty of contempt, but must attend, and either teach, or be taught, for the reformation of the Church and of others.",
+          "id": 3287
+        },
+        {
+          "text": "And if such an one shall be guilty of contempt, he will condemn himself, unless he be detained by ill health.",
+          "id": 3288
+        }
+      ]
+    },
+    {
+      "chapter": 41,
+      "verses": [
+        {
+          "text": "Canon XLI.",
+          "id": 3289
+        },
+        {
+          "text": "None of the priesthood nor of the clergy may go on a journey, without the bidding of the Bishop.",
+          "id": 3290
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "verses": [
+        {
+          "text": "Canon XLII.",
+          "id": 3291
+        },
+        {
+          "text": "None of the priesthood nor of the clergy may travel without letters canonical.",
+          "id": 3292
+        }
+      ]
+    },
+    {
+      "chapter": 43,
+      "verses": [
+        {
+          "text": "Canon XLIII.",
+          "id": 3293
+        },
+        {
+          "text": "The subdeacons may not leave the doors to engage in the prayer, even for a short time.",
+          "id": 3294
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "verses": [
+        {
+          "text": "Canon XLIV.",
+          "id": 3295
+        },
+        {
+          "text": "Women may not go to the altar.",
+          "id": 3296
+        }
+      ]
+    },
+    {
+      "chapter": 45,
+      "verses": [
+        {
+          "text": "Canon XLV.",
+          "id": 3297
+        },
+        {
+          "text": "[Candidates] for baptism are not to be received after the second week in Lent.",
+          "id": 3298
+        }
+      ]
+    },
+    {
+      "chapter": 46,
+      "verses": [
+        {
+          "text": "Canon XLVI.",
+          "id": 3299
+        },
+        {
+          "text": "They who are to be baptized must learn the faith [Creed] by heart, and recite it to the bishop, or to the presbyters, on the fifth day of the week.",
+          "id": 3300
+        }
+      ]
+    },
+    {
+      "chapter": 47,
+      "verses": [
+        {
+          "text": "Canon XLVII.",
+          "id": 3301
+        },
+        {
+          "text": "They who are baptized in sickness and afterwards recover, must learn the Creed by heart and know that the Divine gifts have been vouchsafed them.",
+          "id": 3302
+        }
+      ]
+    },
+    {
+      "chapter": 48,
+      "verses": [
+        {
+          "text": "Canon XLVIII.",
+          "id": 3303
+        },
+        {
+          "text": "They who are baptized must after Baptism be anointed with the heavenly chrism, and be partakers of the Kingdom of Christ.",
+          "id": 3304
+        }
+      ]
+    },
+    {
+      "chapter": 49,
+      "verses": [
+        {
+          "text": "Canon XLIX.",
+          "id": 3305
+        },
+        {
+          "text": "During Lent the Bread must not be offered except on the Sabbath Day and on the Lord's Day only.",
+          "id": 3306
+        }
+      ]
+    },
+    {
+      "chapter": 50,
+      "verses": [
+        {
+          "text": "Canon L.",
+          "id": 3307
+        },
+        {
+          "text": "The fast must not be broken on the fifth day of the last week in Lent [i-e:, on Maunday Thursday], and the whole of Lent be dishonoured; but it is necessary to fast during all the Lenten season by eating only dry meats.",
+          "id": 3308
+        }
+      ]
+    },
+    {
+      "chapter": 51,
+      "verses": [
+        {
+          "text": "Canon LI.",
+          "id": 3309
+        },
+        {
+          "text": "The nativities of Martyrs are not to be celebrated in Lent, but commemorations of the holy Martyrs are to be made on the Sabbaths and Lord's days.",
+          "id": 3310
+        }
+      ]
+    },
+    {
+      "chapter": 52,
+      "verses": [
+        {
+          "text": "Canon LII.",
+          "id": 3311
+        },
+        {
+          "text": "Marriages and birthday feasts are not to be celebrated in Lent.",
+          "id": 3312
+        }
+      ]
+    },
+    {
+      "chapter": 53,
+      "verses": [
+        {
+          "text": "Canon LIII.",
+          "id": 3313
+        },
+        {
+          "text": "Christians, when they attend weddings, must not join in wanton dances, but modestly dine or breakfast, as is becoming to Christians.",
+          "id": 3314
+        }
+      ]
+    },
+    {
+      "chapter": 54,
+      "verses": [
+        {
+          "text": "Canon LIV.",
+          "id": 3315
+        },
+        {
+          "text": "Members of the priesthood and of the clergy must not witness the plays at weddings or banquets; but, before the players enter, they must rise and depart.",
+          "id": 3316
+        }
+      ]
+    },
+    {
+      "chapter": 55,
+      "verses": [
+        {
+          "text": "Canon LV.",
+          "id": 3317
+        },
+        {
+          "text": "Neither members of the priesthood nor of the clergy, nor yet laymen, may club together for drinking entertainments.",
+          "id": 3318
+        }
+      ]
+    },
+    {
+      "chapter": 56,
+      "verses": [
+        {
+          "text": "Canon LVI.",
+          "id": 3319
+        },
+        {
+          "text": "Presbyters may not enter and take their seats in the bema before the entrance of the Bishop: but they must enter with the Bishop, unless he be at home sick, or absent.",
+          "id": 3320
+        }
+      ]
+    },
+    {
+      "chapter": 57,
+      "verses": [
+        {
+          "text": "Canon LVII.",
+          "id": 3321
+        },
+        {
+          "text": "Bishops must not be appointed in villages or country districts, but visitors; and those who have been already appointed must do nothing without the consent of the bishop of the city.",
+          "id": 3322
+        },
+        {
+          "text": "Presbyters, in like manner, must do nothing without the consent of the bishop.",
+          "id": 3323
+        }
+      ]
+    },
+    {
+      "chapter": 58,
+      "verses": [
+        {
+          "text": "Canon LVIII.",
+          "id": 3324
+        },
+        {
+          "text": "The Oblation must not be made by bishops or presbyters in any private houses.",
+          "id": 3325
+        }
+      ]
+    },
+    {
+      "chapter": 59,
+      "verses": [
+        {
+          "text": "Canon LIX.",
+          "id": 3326
+        },
+        {
+          "text": "No psalms composed by private individuals nor any uncanonical books may be read in the church, but only the Canonical Books of the Old and New Testaments.",
+          "id": 3327
+        }
+      ]
+    },
+    {
+      "chapter": 60,
+      "verses": [
+        {
+          "text": "Canon LX.",
+          "id": 3328
+        },
+        {
+          "text": "[N.",
+          "id": 3329
+        },
+        {
+          "text": "B.",
+          "id": 3330
+        },
+        {
+          "text": "—This Canon is of most questionable genuineness.",
+          "id": 3331
+        },
+        {
+          "text": "]  These are all the books of Old Testament appointed to be read: 1, Genesis of the world; 2, The Exodus from Egypt; 3, Leviticus; 4, Numbers; 5, Deuteronomy; 6, Joshua, the son of Nun; 7, Judges, Ruth; 8, Esther; 9, Of the Kings, First and Second; 10, Of the Kings, Third and Fourth; 11, Chronicles, First and Second; 12, Esdras, First and Second; 13, The Book of Psalms; 14, The Proverbs of Solomon; 15, Ecclesiastes; 16, The Song of Songs; 17, Job; 18, The Twelve Prophets; 19, Isaiah; 20, Jeremiah, and Baruch, the Lamentations, and the Epistle; 21, Ezekiel; 22, Daniel.",
+          "id": 3332
+        },
+        {
+          "text": "And these are the books of the New Testament: Four Gospels, according to Matthew, Mark, Luke and John; The Acts of the Apostles; Seven Catholic Epistles, to wit, one of James, two of Peter, three of John, one of Jude; Fourteen Epistles of Paul, one to the Romans, two to the Corinthians, one to the Galatians, one to the Ephesians, one to the Philippians, one to the Colossians, two to the Thessalonians, one to the Hebrews, two to Timothy, one to Titus, and one to Philemon.",
+          "id": 3333
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "book": "John Cassian: Confrences XXII",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "text": "XXII.",
+          "id": 225731
+        },
+        {
+          "text": "The Second Conference of Abbot Theonas.",
+          "id": 225732
+        },
+        {
+          "text": "On Nocturnal Illusions.",
+          "id": 225733
+        },
+        {
+          "text": "This Conference is omitted.",
+          "id": 225734
+        }
+      ]
+    }
+  ]
+}
