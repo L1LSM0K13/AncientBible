@@ -31,17 +31,6 @@ const deleteHighlight = async (user_id, verse_id, fathers_id) => {
      * Checks for highlight with a fathers id
      */
     let results;
-    // if (fathers_id === null) {
-    //     results = await pool.query(
-    //         `DELETE FROM user_highlights WHERE (user_id, verse_id) = ($1, $2) RETURNING id, user_id, verse_id, fathers_id, highlight_color`,
-    //         [user_id, verse_id]
-    //     )
-    // } else {
-    //     results = await pool.query(
-    //         `DELETE FROM user_highlights WHERE (user_id, fathers_id) = ($1, $2) RETURNING id, user_id, verse_id, fathers_id, highlight_color`,
-    //         [user_id, fathers_id]
-    //     )
-    // }
     if (fathers_id != null) {
         results = await pool.query(
             `DELETE FROM user_highlights WHERE (user_id, fathers_id) = ($1, $2) RETURNING id, user_id, verse_id, fathers_id, highlight_color`,
