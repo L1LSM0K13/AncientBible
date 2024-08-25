@@ -29,22 +29,27 @@
 			<div class="xl:col-start-2 col-span-full row-start-2 col-start-1 xl:col-span-3 xl:row-start-1">
 
 				<div class="nodeTitleH1 flex justify-center items-center gap-5">
-					<div class="cursor-pointer text-3xl NextChapterBtn">&#x21e6;</div>
+					<div class="cursor-pointer text-3xl" id="prevChapterBtn1">&#x21e6;</div>
 					<h1 id="bookTitle"></h1>
-					<div class="cursor-pointer text-3xl PrevChapterBtn">&#x21e8;</div>
+					<div class="cursor-pointer text-3xl" id="nextChapterBtn1">&#x21e8;</div>
 				</div>
 
 				<div class="text-lg">
-					<div id="vCont" class="nodeInsideDivReading px-5"></div>
+
+					<% if (loggedIn)  { %>
+						<div id="vCont" class="nodeInsideDivReading px-5"></div>
+					<% } else { %>
+						<div id="vCont" class="nodeInsideDivReading px-5"></div>
+					<% } %>
 
 					<div class="flex justify-around gap-5 items-center nodeTitleH1Bottom mb-10">
-						<div class="flex flex-row gap-5 items-center NextChapterBtn">
-							<div class="cursor-pointer text-3xl">&#x21e6;</div>
+						<div class="flex flex-row gap-5 items-center cursor-pointer" id="prevChapterBtn2">
+							<div class="text-3xl" >&#x21e6;</div>
 							<span>Prev</span>
 						</div>
-						<div class="flex flex-row gap-5 items-center PrevChapterBtn">
+						<div class="flex flex-row gap-5 items-center cursor-pointer" id="nextChapterBtn2">
 							<span>Next</span>
-							<div class="cursor-pointer text-3xl">&#x21e8;</div>
+							<div class="text-3xl">&#x21e8;</div>
 						</div>
 					</div>
 				</div>
