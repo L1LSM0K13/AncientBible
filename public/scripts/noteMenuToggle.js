@@ -11,7 +11,8 @@ const toggleNoteMenu = (noteMenuId) => {
 	}
 
 	// Toggle the selected menu
-	const noteMenu = document.getElementById(noteMenuId);
+
+const noteMenu = document.getElementById(noteMenuId);
 	if (noteMenu) {
 		noteMenu.classList.toggle("hidden");
 		noteMenu.classList.toggle("flex");
@@ -26,3 +27,6 @@ const toggleNoteMenu = (noteMenuId) => {
 		console.error("Note menu not found for ID:", noteMenuId);
 	}
 };
+
+
+module.exports = {toggleNoteMenu}

@@ -1,4 +1,5 @@
 // Function declarations
+// const {toggleNoteMenu} = require("./noteMenuToggle");
 const bList = document.getElementById('book-list')
 const cList = document.getElementById('chapter-list')
 const vCont = document.getElementById('vCont')
@@ -57,15 +58,17 @@ function loadVerses(verses, container) {
             verseText.classList.toggle("text-red-600")
         }
 
-        // Class list for the elements
-        verseText.classList.add('mx-2', 'my-1', 'p-1', 'verse')
         verseNumber.classList.add('p-1')
-
-        verseNumber.id = verse.id
         verseNumber.innerText = verse.verse
 
+        verseText.id = verse.id
+        verseText.classList.add('mx-2', 'my-1', 'p-1', 'verse')
         verseText.appendChild(verseNumber)
         verseText.appendChild(document.createTextNode(verse.text))
+
+        // verseText.addEventListener('click', () => {
+        //     toggleNoteMenu(noteMenuId)
+        // })
 
         container.appendChild(verseText)
     })

@@ -14,9 +14,10 @@
 		<script src="/scripts/hamburgerMenu.js" defer></script>
 		<script src="/scripts/newBibleFunction.js" defer></script>
 		<script src="/scripts/bibleFormattingOptions.js" defer></script>
+		<script src="/scripts/noteMenuToggle.js" defer></script>
+
 	</head>
-	<body
-		class="bg-[#e9eef1] text-lg dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
+	<body class="bg-[#e9eef1] text-lg dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
 	<%- include('partials/navBar')  %>
 
 		<main class="grid grid-cols-4 grid-rows-1 gap-5 nodeMargins">
@@ -25,9 +26,8 @@
 				<%- include('./partials/bookAndChapter') %>
 				<%- include('./partials/formatter') %>
 			</article>
-			<!-- Book Text -->
-			<div class="xl:col-start-2 col-span-full row-start-2 col-start-1 xl:col-span-3 xl:row-start-1">
 
+			<div class="xl:col-start-2 col-span-full row-start-2 col-start-1 xl:col-span-3 xl:row-start-1">
 				<div class="nodeTitleH1 flex justify-center items-center gap-5">
 					<div class="cursor-pointer text-3xl" id="prevChapterBtn1">&#x21e6;</div>
 					<h1 id="bookTitle"></h1>
@@ -35,6 +35,8 @@
 				</div>
 
 				<div class="text-lg">
+
+					<% const noteMenuId = `createNoteMenu-${index}` %>
 
 					<% if (loggedIn)  { %>
 						<div id="vCont" class="nodeInsideDivReading px-5"></div>
@@ -53,7 +55,6 @@
 						</div>
 					</div>
 				</div>
-
 			</div>
 
 			<div class="hidden">
