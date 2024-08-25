@@ -12,7 +12,11 @@
 
 		<script src="/scripts/darkModeToggle.js" defer></script>
 		<script src="/scripts/hamburgerMenu.js" defer></script>
-		<script src="/scripts/newBibleFunction.js" defer></script>
+		<% if(loggedIn) { %>
+		<script src="/scripts/newBibleFunctionLoggedInTrue.js" defer></script>
+		<% } else{ %>
+			<script src="/scripts/newBibleFunctionLoggedInFalse.js" defer></script>
+		<% } %>
 		<script src="/scripts/bibleFormattingOptions.js" defer></script>
 		<script src="/scripts/noteMenuToggle.js" defer></script>
 
@@ -36,8 +40,6 @@
 
 				<div class="text-lg">
 
-					<% const noteMenuId = `createNoteMenu-${index}` %>
-
 					<% if (loggedIn)  { %>
 						<div id="vCont" class="nodeInsideDivReading px-5"></div>
 					<% } else { %>
@@ -57,16 +59,16 @@
 				</div>
 			</div>
 
-			<div class="hidden">
-				<img
-						class="sunDisabled cursor-pointer justify-center"
-						src="../images/svgs/brightness-high.svg"
-						alt="BrightModeDisabled" />
-				<img
-						class="sunEnabled cursor-pointer justify-center"
-						src="../images/svgs/brightness-high-fill.svg"
-						alt="BrightModeEnabled" />
-			</div>
+<!--			<div class="hidden">-->
+<!--				<img-->
+<!--						class="sunDisabled cursor-pointer justify-center"-->
+<!--						src="../images/svgs/brightness-high.svg"-->
+<!--						alt="BrightModeDisabled" />-->
+<!--				<img-->
+<!--						class="sunEnabled cursor-pointer justify-center"-->
+<!--						src="../images/svgs/brightness-high-fill.svg"-->
+<!--						alt="BrightModeEnabled" />-->
+<!--			</div>-->
 		</main>
 	</body>
 </html>
