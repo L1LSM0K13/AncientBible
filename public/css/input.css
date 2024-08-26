@@ -41,7 +41,7 @@
 		@apply py-1 px-3 bg-yellow-200 text-yellow-600 border border-yellow-600 block text-center;
 	}
 	.noteNodeInsideDiv {
-		@apply bg-yellow-100 py-1 px-3 mb-5 border-x border-b border-yellow-600 block shadow-xl;
+		@apply bg-yellow-100 py-1 px-3 border-x border-b border-yellow-600 block shadow-xl;
 	}
 	.noteDiv {
 		@apply bg-yellow-100 py-1 px-3 mb-5 border border-yellow-600 block shadow-xl;

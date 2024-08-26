@@ -71,8 +71,7 @@ function loadVerses(verses, container) {
         verseText.appendChild(document.createTextNode(verse.text))
         verseText.appendChild(noteTakingModal)
 
-        noteTakingModal.classList.add('bg-transparent')
-        noteTakingModal.innerHTML = `<div class="nodeMargins mt-2 relative">
+        noteTakingModal.innerHTML = `<div>
  <div>
   <div class="noteNodeTitleH1">
    <div class="flex justify-between align-middle gap-1">
