@@ -1,9 +1,9 @@
 // Function declarations
-// const {toggleNoteMenu} = require("./noteMenuToggle");
 const bList = document.getElementById('book-list')
 const cList = document.getElementById('chapter-list')
 const vCont = document.getElementById('vCont')
 const bTitle = document.getElementById('bookTitle')
+const bTitle2 = document.getElementById('bookTitle2')
 const redBtn = document.getElementById('redLetterBtn')
 const nextChapterBtn = document.getElementById('nextChapterBtn1')
 const prevChapterBtn = document.getElementById('prevChapterBtn1')
@@ -191,6 +191,7 @@ async function loadChapter(book, chapterIndex) {
     const filename = bList.value
     const chapter = book.chapters[chapterIndex]
     bTitle.innerText = `Book of ${book.book} - Chapter ${parseInt(chapterIndex) + 1}`
+    bTitle2.innerText = `Book of ${book.book} - Chapter ${parseInt(chapterIndex) + 1}`
 
     loadVerses(chapter.verses, vCont)
 
