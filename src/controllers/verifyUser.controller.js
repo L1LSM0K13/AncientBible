@@ -14,7 +14,7 @@ const verifyUser = async (req, res) => {
 
         const { token } = req.query;
 
-        const results = await pool.query(`SELECT * FROM users WHERE email_token = $1`, [token]);
+        const results = await pool.query(`SELECT id, is_verified, email_token FROM users WHERE email_token = $1`, [token]);
         const user = await results.rows[0]
 
         if (!user) {

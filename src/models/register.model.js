@@ -8,7 +8,7 @@ const crypto = require('crypto');
  * @returns {Promise<any[]>}
  */
 const checkEmailAvailability = async (email) => {
-    const results = await pool.query(`SELECT * FROM users WHERE email = $1`,
+    const results = await pool.query(`SELECT id, email FROM users WHERE email = $1`,
         [email]);
     return results.rows
 }

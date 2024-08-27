@@ -10,28 +10,38 @@ const { getUserNotesFathers, getUserHighlightsFathers} = require('../models/fetc
 const fathersQueryController = async (req, res, pool) => {
     const { defaultRender } = require('../../src/utils/defaultValues');
 
-    // const [
-    //     userNotesRes,
-    //     userHighlightsRes,
-    // ] = await Promise.all([
-    //     getUserNotesFathers(pool, user_id),
-    //     getUserHighlightsFathers(pool, user_id),
-    // ]);
-    //
-    // const userNotes = userNotesRes;
-    // const userHighlights = userHighlightsRes;
-
-    // Rendering the data
+    const user_id = req.user ? req.user.id : null
     const isAuth = req.isAuthenticated();
-    const renderData = {
-        // userNotesFathers: userNotes,
-        // userHighlightsFathers: userHighlights,
-        isAuth: isAuth
-    };
+
+    if (isAuth) {
+        const [
+            userNotesRes,
+            userHighlightsRes,
+        ] = await Promise.all([
+            getUserNotesFathers(pool, user_id),
+            getUserHighlightsFathers(pool, user_id),
+        ]);
+
+        const userNotes = userNotesRes;
+        const userHighlights = userHighlightsRes;
+
+        // Rendering the data
+        const renderData = {
+            userNotesFathers: userNotes,
+            userHighlightsFathers: userHighlights,
+            isAuth: isAuth
+        };
+
+        await defaultRender(req, res, true, '../public/views/fathers', renderData)
+    } else {
+        const renderData = {
+            isAuth: isAuth
+        };
+        await defaultRender(req, res, false, '../public/views/fathers', renderData)
+        return renderData;
+    }
 
 
-    await defaultRender(req, res, isAuth, '../public/views/fathers', renderData)
-    return renderData;
 }
 
 module.exports = { fathersQueryController };
