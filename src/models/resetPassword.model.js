@@ -1,5 +1,5 @@
 const { pool } = require("../../config/dbConfig");
-const nodemailer = require("nodemailer");
+const sgMail = require('@sendgrid/mail')
 const bcrypt = require("bcrypt");
 
 /**
@@ -38,30 +38,15 @@ const sendPasswordResetEmail = async (email, generatedToken) => {
     // let verificationLink = `http://localhost:4000/users/enterNewPassword?token=${generatedToken}&email=${encodedEmail}`;
     let verificationLink = `https://${process.env.APP_DOMAIN}/users/enterNewPassword?token=${generatedToken}&email=${encodedEmail}`;
 
-    console.log({message: '1 CREATING TRANSPORTER...'})
-
-    const transporter = nodemailer.createTransport({
-        // @ts-ignore
-        host: process.env.EMAIL_HOST,
-        port: process.env.EMAIL_PORT,
-        secure: true,
-        auth: {
-            user: process.env.EMAIL_USER,
-            pass: process.env.EMAIL_PASS,
-        }
-    })
-
-    console.log({message: '2 TRANSPORTER CREATED...'})
-
-    const info = await transporter.sendMail({
-        from: `"Nico M ☦️" <${process.env.EMAIL_USER}>`,
+    sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+    const msg = {
         to: email,
-        subject: "AncientBible: reset your password",
+        from: 'nico@ancientbible.org',
+        subject: "Ancientbible: reset your password",
         text: `To reset your password, click this link: ${verificationLink}`
-    })
+    }
+    sgMail.send(msg).then(() => {console.log('Email Sent')}).catch((err) => {console.error(err)})
 
-    console.log({message: '3 EMAIL SENT...'})
-    console.log(info.messageId)
 }
 
 module.exports = {
