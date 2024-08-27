@@ -12,12 +12,17 @@ const handleNoteAction = (page) => async (/** @type {any} */ req, /** @type {any
 
     try {
         if (noteText) {
+
+            console.log({message:'CREATING NOTE'})
             const queryString = new URLSearchParams(bibleLocationParams).toString()
 
+            console.table([noteText, user_id, verse_id, fathers_id, book_title, chapter_number, verse_number])
             const results = await createNote(noteText, user_id, verse_id, fathers_id, book_title, chapter_number, verse_number);
+            console.log({message:'NOTE CREATED'})
             console.table(results);
             res.redirect(`${page}?${queryString}`);
             return;
+
         }
 
         if (note_id) {
@@ -31,7 +36,8 @@ const handleNoteAction = (page) => async (/** @type {any} */ req, /** @type {any
 
         res.status(404).send("No note text nor note id were specified");
     } catch (err) {
-        res.status(500).send("could not send request");
+        console.log({message: err})
+        res.status(500).send(`could not send request ${err}`);
     }
 }
 

@@ -33,6 +33,7 @@ const fathersQueryController = async (req, res, pool) => {
         };
 
         await defaultRender(req, res, true, '../public/views/fathers', renderData)
+        return renderData;
     } else {
         const renderData = {
             isAuth: isAuth

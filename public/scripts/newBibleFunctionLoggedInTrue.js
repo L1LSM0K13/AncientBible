@@ -69,64 +69,16 @@ function loadVerses(verses, container) {
         verseText.classList.add('mx-2', 'my-1', 'p-1', 'verse')
         verseText.appendChild(verseNumber)
         verseText.appendChild(document.createTextNode(verse.text))
-        verseText.appendChild(noteTakingModal)
 
         noteTakingModal.innerHTML = `<div>
  <div>
   <div class="noteNodeTitleH1">
    <div class="flex justify-between align-middle gap-1">
     <span>Create Note on ${capitalizedFilename} ${parseInt(cList.value) + 1}:${verse.verse}</span>
-    <button>X</button>
+    <button><a href="javascript:location.reload()">X</a></button>
    </div>
   </div>
  <div class="noteNodeInsideDiv">
-
-  <% if (hasHighlight) { %>
-   <span class="text-yellow-600 flex justify-center">Change Highlight</span>
-
-   <div class="flex justify-center">
-    <form action="/users/bible/action/highlight" method="POST">
-     <input type="hidden" name="verse_id" value="${verseText.id}" />
-     <input type="hidden" name="hasHighlight" value="<%= hasHighlight %>">
-
-     <button type="submit" class="p-1 bg-gray-100 border border-gray-300 rounded-md active:bg-red-300 hover:bg-red-400 dark:text-black text-sm">Remove Highlight</button>
-    </form>
-   </div>
-  <% } else { %>
-   <span class="text-yellow-600 flex justify-center">Highlight Verse</span>
-   <div class="m-2 grid gap-2 grid-cols-6">
-    <form id="highlightForm" action="/users/bible/action/highlight" method="POST">
-     <input type="hidden" name="verse_id" value="${verseText.id}" />
-     <input type="hidden" name="highlight_color" value="bg-yellow-400 dark:text-black"/>
-     <button type="submit" class="bg-yellow-400 p-4 border border-yellow-500"></button>
-    </form>
-    <form id="highlightForm" action="/users/bible/action/highlight" method="POST">
-     <input type="hidden" name="verse_id" value="${verseText.id}" />
-     <input type="hidden" name="highlight_color" value="bg-blue-400 dark:text-black"/>
-     <button type="submit" class="bg-blue-400 p-4 border border-blue-500"></button>
-    </form>
-    <form id="highlightForm" action="/users/bible/action/highlight" method="POST">
-     <input type="hidden" name="verse_id" value="${verseText.id}" />
-     <input type="hidden" name="highlight_color" value="bg-red-400 dark:text-black"/>
-     <button type="submit" class="bg-red-400 p-4 border border-red-500"></button>
-    </form>
-    <form id="highlightForm" action="/users/bible/action/highlight" method="POST">
-     <input type="hidden" name="verse_id" value="${verseText.id}" />
-     <input type="hidden" name="highlight_color" value="bg-green-400 dark:text-black"/>
-     <button type="submit" class="bg-green-400 p-4 border border-green-500"></button>
-    </form>
-    <form id="highlightForm" action="/users/bible/action/highlight" method="POST">
-     <input type="hidden" name="verse_id" value="${verseText.id}" />
-     <input type="hidden" name="highlight_color" value="bg-purple-400 dark:text-black"/>
-     <button type="submit" class="bg-purple-400 p-4 border border-purple-500"></button>
-    </form>
-    <form id="highlightForm" action="/users/bible/action/highlight" method="POST">
-     <input type="hidden" name="verse_id" value="${verseText.id}" />
-     <input type="hidden" name="highlight_color" value="bg-orange-400 dark:text-black"/>
-     <button type="submit" class="bg-orange-400 p-4 border border-orange-500"></button>
-    </form>
-   </div>
-   <% } %>
 
    <form action="/users/bible/action/note" method="POST" class="grid gap-4">
     <label for="noteText"></label>
@@ -155,6 +107,8 @@ function loadVerses(verses, container) {
         verseText.addEventListener('click', () => {
             noteTakingModal.showModal()
         })
+
+        verseText.appendChild(noteTakingModal)
 
         container.appendChild(verseText)
     })

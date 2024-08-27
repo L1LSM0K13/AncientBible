@@ -13,12 +13,14 @@ const { pool } = require('../../config/dbConfig');
  */
 // Inserts note into DB
 const createNote = async (noteText, user_id, verse_id, fathers_id, book_title, chapter_number, verse_number) => {
+
     const results = await pool.query(
         `INSERT INTO user_notes (text, user_id, verse_id, fathers_id, book_title, chapter_number, verse_number) VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING id, text, user_id, verse_id, fathers_id, book_title, chapter_number, verse_number`,
         [noteText, user_id, verse_id, fathers_id, book_title, chapter_number, verse_number]
     );
 
     return results.rows;
+
 }
 
 /**
