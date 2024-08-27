@@ -18,6 +18,12 @@ const sendVerificationEmail = async (email, verificationToken) => {
         from: 'nico@ancientbible.org',
         subject: "AncientBible: Verify your email",
         text: `Thank you for signing up with us! Verify your email by clicking this link: ${verificationLink}`,
+        trackingSettings: {
+            clickTracking: {
+                enable: false,
+                enableText: false
+            }
+        }
     }
     sgMail.send(msg).then(() => {console.log('Email Sent')}).catch((err) => {console.error(err)})
 }
