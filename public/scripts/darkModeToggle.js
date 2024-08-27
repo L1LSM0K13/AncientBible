@@ -1,5 +1,3 @@
-"use strict";
-
 // Dark mode toggle declarations
 const sunEnabledIcon = document.querySelector(".sunEnabled");
 const sunDisabledIcon = document.querySelector(".sunDisabled");

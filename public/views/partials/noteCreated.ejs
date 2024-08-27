@@ -1,9 +1,18 @@
 <div class="flex">
 	<div class="noteDiv p-5">
-		<span class="dark:text-black"
-			><strong>On <%= book.book %> <%= book.chapter_number %>:<%= book.verse_number %> - </strong><%= note.text %></span>
+
+		<%
+		// Check if note.book_title exists and is a string before manipulating it
+		let capitalizedFilename = '';
+		if (note.book_title && typeof note.book_title === 'string') {
+			const filename = note.book_title.replace('.json', '');
+			capitalizedFilename = filename.charAt(0).toUpperCase() + filename.slice(1);
+		}
+		%>
+
+		<span class="dark:text-black"><strong>On <%= capitalizedFilename %> <%= note.book_%> <%= note.chapter_number + 1 %>:<%= note.verse_number %> </strong><%= note.text %></span>
 		<div class="flex justify-end">
-			<form action="/users/bible/action/note?<%= new URLSearchParams({book: selectedBook, chapter: selectedChapter}).toString()%>" method="POST">
+			<form action="/users/bible/action/note" method="POST">
 				<button
 						type="submit"
 						class="align-middle p-1 m-1 bg-gray-100 border border-gray-300 rounded-md active:bg-red-300 hover:bg-red-400 dark:text-black">

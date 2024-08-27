@@ -139,6 +139,9 @@ function loadVerses(verses, container) {
      required></textarea>
 
     <input type="hidden" name="verse_id" value="${verseText.id}" />
+    <input type="hidden" name="book_title" value="${bList.value}" />
+    <input type="hidden" name="chapter_number" value="${cList.value}" />
+    <input type="hidden" name="verse_number" value="${parseInt(verseNumber.innerText)}" />
 
     <input
      type="submit"
@@ -147,8 +150,7 @@ function loadVerses(verses, container) {
    </form>
   </div>
  </div>
-</div>
-`
+</div>`
 
         verseText.addEventListener('click', () => {
             noteTakingModal.showModal()
