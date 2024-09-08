@@ -12,12 +12,14 @@ async function defaultRender(req, res, isAuth, template, data) {
 	/**
      * @type {string[]}
      */
-	let errors = [];
+	let errors = data.errors || [];
 	const loggedIn = isAuth;
 	try {
 		res.render(template, {
 			loggedIn,
 			errors,
+			name: data.name || '',
+			email: data.email || '',
 			...data,
 		});
 	} catch (err) {
