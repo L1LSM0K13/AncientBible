@@ -24,7 +24,6 @@ node migration create my-migration
  * @param {string} fileName
  */
 async function createMigration(fileName) {
-
     const formattedDate = new Date().toISOString().replace(/[-T:.Z]/g, '').slice(0, 14);
     const template = `module.exports = {
   name: '${fileName}',
@@ -50,42 +49,46 @@ async function createMigration(fileName) {
   }
 }`
 
+    const migrationsDir = pathUtil.join(__dirname, '..', '..', 'migrations')
     try {
-        await fs.writeFile(`./migrations/${fileName + '_' + formattedDate}.js`, template)
+        await fs.mkdir(migrationsDir, { recursive: true })
+        await fs.writeFile(pathUtil.join(migrationsDir, `${fileName}_${formattedDate}.js`), template)
     } catch (err) {
         console.error(err, 'could not write migrations')
     }
 }
 
 async function fetchMigrations() {
-    /**
-     * @typedef Migration
-     * @property {string} name
-     * @property {(dbConn: any) => Promise<void>} apply
-     * @property {(dbConn: any) => Promise<void>} revert
-     */
-
-    /**
-     * All migrations
-     * @type {Migration[]}
-     */
     const migrations = []
 
-    const migrationsDir = pathUtil.join(__dirname, 'migrations')
+    const migrationsDir = pathUtil.join(__dirname, '..', '..', 'migrations')
+    console.log(`Looking for migrations in: ${migrationsDir}`)
     const fetchedMigrations = await fs.readdir(migrationsDir)
     fetchedMigrations.sort()
+    console.log(`Found ${fetchedMigrations.length} migration files`)
 
     for (const migrationFilename of fetchedMigrations) {
         const migrationPath = pathUtil.resolve(migrationsDir, migrationFilename)
+        console.log(`Processing migration file: ${migrationFilename}`)
 
         if (!migrationPath.endsWith('.js')) {
+            console.log(`Skipping non-JS file: ${migrationFilename}`)
             continue
         }
 
-        const migrationModule = await import('file://' + migrationPath)
-
-        migrations.push(migrationModule.default)
+        try {
+            const migrationModule = await import('file://' + migrationPath)
+            if (migrationModule.default && typeof migrationModule.default.apply === 'function') {
+                migrations.push(migrationModule.default)
+                console.log(`Successfully loaded migration: ${migrationModule.default.name}`)
+            } else {
+                console.error(`Invalid migration format in ${migrationFilename}`)
+            }
+        } catch (error) {
+            console.error(`Error loading migration ${migrationFilename}:`, error)
+        }
     }
+    console.log(`Total migrations loaded: ${migrations.length}`)
     return migrations;
 }
 
@@ -151,22 +154,31 @@ async function main(args) {
 
             for (const migration of migrations) {
                 if (appliedMigrations.includes(migration.name)) {
+                    console.log(`Skipping already applied migration: ${migration.name}`);
                     continue;
                 }
 
-                await migration.apply(pool)
-                await pool.query(
-                    `INSERT INTO migrations (name, created_ts) VALUES ($1, NOW())`,
-                    [migration.name]);
+                console.log(`Applying migration: ${migration.name}`);
+                try {
+                    await migration.apply(pool)
+                    await pool.query(
+                        `INSERT INTO migrations (name, created_ts) VALUES ($1, NOW())`,
+                        [migration.name]);
+                    console.log(`Successfully applied migration: ${migration.name}`);
 
-                appliedMigrations.push(migration.name);
-                appliedCount++;
+                    appliedMigrations.push(migration.name);
+                    appliedCount++;
+                } catch (error) {
+                    console.error(`Error applying migration ${migration.name}:`, error);
+                    break;  // Stop applying further migrations if one fails
+                }
 
                 if (numToApply !== 0 && appliedCount >= numToApply) {
+                    console.log(`Reached specified number of migrations to apply: ${numToApply}`);
                     break
                 }
             }
-            console.log(`${appliedCount} applied`)
+            console.log(`Total migrations applied: ${appliedCount}`);
 
             break
 

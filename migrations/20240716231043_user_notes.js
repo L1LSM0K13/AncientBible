@@ -7,7 +7,7 @@ module.exports = {
    */
   apply: async function (pool) {
     await pool.query(`
-    
+
     CREATE TABLE public.user_notes (
       id bigserial NOT NULL,
       "text" text NOT NULL,
@@ -31,4 +31,3 @@ module.exports = {
     await pool.query(`DROP TABLE public.user_notes`)
   }
 }
-

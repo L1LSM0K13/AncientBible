@@ -6,8 +6,15 @@ package-lock.json
 tailwind.config.js
 
 # dotenv enviroment variable file
+.env
 config/.env
 
 # IDE
 .idea/
 .vscode/
+
+# Aider files
+.aider*
+
+# Docker
+postgres_data/
