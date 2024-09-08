@@ -1,10 +1,119 @@
 # Bible and Early Church Fathers Resource
 
-Welcome to my comprehensive Bible and Early Church Fathers resource website! This site is dedicated to providing access to the Septuigant and the complete works of the Early Church Fathers, translated by Philip Schaff.
+## Introduction
+
+This project is a comprehensive Bible and Early Church Fathers resource website. It provides access to the Septuagint and the complete works of the Early Church Fathers, translated by Philip Schaff. The site includes features for reading, note-taking, and highlighting, making it a valuable tool for biblical and patristic studies.
+
+## Features
+
+- Full text of the Orthodox Canon of Scripture
+- Complete works of the Early Church Fathers
+- User authentication and account management
+- Note-taking and highlighting functionality
+- Customizable reading experience (font size, type, dark mode)
+- Mobile-responsive design
+
+## Technologies Used
+
+- Backend: Node.js, Express.js
+- Database: PostgreSQL
+- Frontend: EJS templates, Tailwind CSS
+- Authentication: Passport.js
+- Email: SendGrid
+
+## Installation and Setup
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/L1LSM0K13/AncientBible.git
+   cd AncientBible
+   ```
+
+2. Install dependencies:
+
+   ```
+   npm install
+   ```
+
+3. Set up environment variables:
+   Create a `.env` file in the project root directory with the following variables:
+
+   ```
+   DB_USER=devuser
+   DB_PASSWORD=devpassword
+   DB_HOST=localhost
+   DB_PORT=5432
+   DB_DATABASE=ancientbible
+   SESSION_SECRET=your_session_secret
+   SENDGRID_API_KEY=your_sendgrid_api_key
+   APP_DOMAIN=localhost:4000
+   ```
+
+4. Start the PostgreSQL database using Docker:
+
+   ```
+   docker-compose up -d
+   ```
+
+5. Set up the database:
+   - The database will be automatically created by Docker
+   - Run the migrations to get the database tables setup:
+
+     ```
+     npm run migratedb
+     ```
+
+6. Start the development server:
+
+   ```
+   npm run start:dev
+   ```
+
+   This will run the node server and the Tailwind CSS watcher together.  If you prefer to run them in separate terminals you can run these commands separately:
+
+   ```
+   npm run nodemon
+   npm run tailwind
+   ```
+
+7. Access the application in your browser at `http://localhost:4000`
+
+## Usage
+
+Our website is user-friendly and designed for easy navigation. You can:
+
+- **Read Scripture**: Access the full text of the Orthodox Canon of Scripture, organized by book, chapter, and verse.
+- **Explore Church Fathers**: Browse through the works of the Early Church Fathers, organized by volume and author. Each work includes detailed introductions and footnotes provided by Philip Schaff.
+
+## Contributing
+
+Contributions to this project are welcome. Please follow these steps:
+
+1. Fork the repository
+2. Create a new branch for your feature
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Philip Schaff for his translations of the Early Church Fathers
+- [Christian Classics Ethereal Library](https://ccel.org/) for providing public domain texts
+
+## Contact Me
+
+If you have any questions, feedback, or suggestions, feel free to reach out to me @ <nico@ancientbible.org>.
+
+---
 
 Our website includes the Orthodox Canon of Scripture, which consists of:
 
-#### Old Testament
+### Old Testament
 
 1. Genesis
 2. Exodus
@@ -55,7 +164,7 @@ Our website includes the Orthodox Canon of Scripture, which consists of:
 47. Zechariah
 48. Malachi
 
-#### New Testament
+### New Testament
 
 1. Matthew
 2. Mark
@@ -85,23 +194,4 @@ Our website includes the Orthodox Canon of Scripture, which consists of:
 26. Jude
 27. Revelation
 
-## Usage
-
-Our website is user-friendly and designed for easy navigation. You can:
-
-- **Read Scripture**: Access the full text of the Orthodox Canon of Scripture, organized by book, chapter, and verse.
-- **Explore Church Fathers**: Browse through the works of the Early Church Fathers, organized by volume and author. Each work includes detailed introductions and footnotes provided by Philip Schaff.
-
-## Contact Me
-
-If you have any questions, feedback, or suggestions, feel free to reach out to me @ nico@ancientbible.org.
-
-## License
-
-This project is licensed under the terms of the [MIT License](LICENSE).
-
 We hope this resource enriches your study and understanding of the Bible and the Early Church Fathers. Happy reading!
-
----
-
-**Note**: This project utilizes public domain translations by Philip Schaff. For more information on these works, please visit [Christian Classics Ethereal Library](https://ccel.org/).
