@@ -15,6 +15,7 @@ module.exports = {
       "password" varchar(200) NOT NULL,
       is_verified bool DEFAULT false NULL,
       email_token text NULL,
+      passwordreset_token text NULL,
       CONSTRAINT users_email_key UNIQUE (email),
       CONSTRAINT users_pkey PRIMARY KEY (id)
     );`)

@@ -16,10 +16,7 @@ module.exports = {
       highlight_color text NOT NULL,
       CONSTRAINT user_highlights_pkey PRIMARY KEY (id)
 );
-
-    ALTER TABLE public.user_highlights ADD CONSTRAINT user_highlights_fathers_id_fkey FOREIGN KEY (fathers_id) REFERENCES public.fathersandwritings(id);
     ALTER TABLE public.user_highlights ADD CONSTRAINT user_highlights_user_id_fkey FOREIGN KEY (user_id) REFERENCES public.users(id);
-    ALTER TABLE public.user_highlights ADD CONSTRAINT user_highlights_verse_id_fkey FOREIGN KEY (verse_id) REFERENCES public.bible_eng(id);
     `)
   },
 
