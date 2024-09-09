@@ -6,7 +6,7 @@ package-lock.json
 tailwind.config.js
 
 # dotenv enviroment variable file
-.env
+config/.env
 config/.env
 
 # IDE

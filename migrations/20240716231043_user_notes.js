@@ -14,12 +14,12 @@ module.exports = {
       user_id int4 NOT NULL,
       verse_id int4 NULL,
       fathers_id int4 NULL,
+      book_title text NOT NULL,
+      chapter_number int2 NOT NULL,
+      verse_number int2 NOT NULL,
       CONSTRAINT user_notes_pkey PRIMARY KEY (id)
 );
-
-    ALTER TABLE public.user_notes ADD CONSTRAINT user_notes_fathers_id_fkey FOREIGN KEY (fathers_id) REFERENCES public.fathersandwritings(id);
     ALTER TABLE public.user_notes ADD CONSTRAINT user_notes_user_id_fkey FOREIGN KEY (user_id) REFERENCES public.users(id);
-    ALTER TABLE public.user_notes ADD CONSTRAINT user_notes_verse_id_fkey FOREIGN KEY (verse_id) REFERENCES public.bible_eng(id);
     `)
   },
 
