@@ -26,14 +26,14 @@ const registerUser = async (req, res) => {
         errors.push({ message: "passwords must match." });
     }
     if (errors.length > 0) {
-        await defaultRender(req, res, false, "../public/views/register", { errors });
+        return await defaultRender(req, res, false, "../public/views/register", { errors, name, email });
     } else {
         try {
             // Checks if user already exists
             const users = await checkEmailAvailability(email);
             if (users.length > 0) {
                 errors.push({ message: "User with this email already exists" });
-                return await defaultRender(req, res, false, "../public/views/register", { errors });
+                return await defaultRender(req, res, false, "../public/views/register", { errors, name, email });
             }
 
             // Creates user
