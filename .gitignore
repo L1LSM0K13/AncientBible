@@ -2,9 +2,6 @@
 node_modules/
 package-lock.json
 
-# Tailwind Config
-tailwind.config.js
-
 # dotenv enviroment variable file
 config/.env
 config/.env
