@@ -59,6 +59,12 @@ app.use((req, res, next) => {
 	next();
 });
 
+let visitors = 0
+app.use((req, res, next) => {
+	visitors++
+	next()
+})
+
 
 app.use('/', homeRoutes);
 app.use('/', verifyRoutes);
