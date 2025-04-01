@@ -63,7 +63,7 @@ function loadVerses(verses, container) {
         verseNumber.innerText = verse.verse
 
         verseText.id = verse.id
-        verseText.classList.add('my-2', 'verse', 'break-word')
+        verseText.classList.add('my-2', 'mx-2', 'verse', 'break-word')
         verseText.appendChild(verseNumber)
         verseText.appendChild(document.createTextNode(verse.text))
 

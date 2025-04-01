@@ -1132,9 +1132,14 @@ video {
   background-color: rgb(233 238 241 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[\#ffffff\] {
+.bg-\[\#ffd7a9\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  background-color: rgb(255 215 169 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#ffebc4\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 235 196 / var(--tw-bg-opacity, 1));
 }
 
 .bg-blue-400 {
@@ -1192,11 +1197,6 @@ video {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[\#ffebc4\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 235 196 / var(--tw-bg-opacity, 1));
-}
-
 .p-0 {
   padding: 0px;
 }
@@ -1229,6 +1229,26 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .pb-5 {
@@ -1278,6 +1298,11 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.text-\[\#161616\] {
+  --tw-text-opacity: 1;
+  color: rgb(22 22 22 / var(--tw-text-opacity, 1));
 }
 
 .text-\[\#962930\] {
@@ -1387,9 +1412,9 @@ video {
   background-color: rgb(36 56 88 / var(--tw-bg-opacity, 1));
 }
 
-.hover\:bg-\[\#e0dacc\]:hover {
+.hover\:bg-\[\#d4ba97\]:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(224 218 204 / var(--tw-bg-opacity, 1));
+  background-color: rgb(212 186 151 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:bg-blue-600:hover {
@@ -1400,11 +1425,6 @@ video {
 .hover\:bg-red-400:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(248 113 113 / var(--tw-bg-opacity, 1));
-}
-
-.hover\:bg-\[\#d4ba97\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(212 186 151 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:text-white:hover {
@@ -1524,6 +1544,11 @@ video {
     align-items: center;
   }
 
+  .sm\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -1533,6 +1558,16 @@ video {
 @media (min-width: 768px) {
   .md\:w-72 {
     width: 18rem;
+  }
+
+  .md\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .md\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 }
 

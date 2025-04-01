@@ -11,7 +11,7 @@
 		@apply bg-[#ffebc4] py-1 px-3 text-[#962930] border-x-2 border-t-2 border-[#962930] block text-center dark:bg-[#202124] dark:border-[#474747] dark:text-[#d9dde0];
 	}
 	.nodeInsideDiv {
-		@apply bg-[#ffebc4] py-1 px-3 mb-5 border-x-2 border-b-2 border-[#962930] block dark:bg-[#303134] dark:border-[#474747] shadow-xl;
+		@apply bg-[#ffebc4]  py-1 px-3 mb-5 border-x-2 border-b-2 border-[#962930] block dark:bg-[#303134] dark:border-[#474747] shadow-xl;
 	}
 	.nodeInsideDivReading {
 		@apply bg-[#ffebc4] py-1 px-3 border-x-2 border-[#962930] block dark:bg-[#303134] dark:border-[#474747] shadow-xl;

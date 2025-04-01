@@ -22,7 +22,7 @@
 		<script src="/scripts/bibleFormattingOptions.js" defer></script>
 
 	</head>
-	<body class="bg-[#ffffff] text-lg dark:bg-[#202124] dark:text-[#d9dde0] text-black">
+	<body class="bg-[#ffd7a9] text-lg dark:bg-[#202124] dark:text-[#d9dde0] text-[#161616]">
 	<%- include('partials/navBar')  %>
 
 		<main class="grid grid-cols-4 grid-rows-1 gap-5 nodeMargins">
@@ -42,7 +42,7 @@
 				<div class="text-lg">
 
 					<% if (loggedIn)  { %>
-						<div id="vCont" class="nodeInsideDivReading px-5"></div>
+						<div id="vCont" class="nodeInsideDivReading md:px-14 px-8"></div>
 
 						<div class="flex justify-center gap-5 items-center nodeTitleH1Bottom mb-10">
 							<div class="flex flex-row gap-5 items-center cursor-pointer" id="prevChapterBtn2">
@@ -62,7 +62,7 @@
 						<% } %>
 
 					<% } else { %>
-						<div id="vCont" class="nodeInsideDivReading px-5"></div>
+						<div id="vCont" class="nodeInsideDivReading md:px-14 px-8"></div>
 
 							<div class="flex justify-center gap-5 items-center nodeTitleH1Bottom mb-10">
 								<div class="flex flex-row gap-5 items-center cursor-pointer" id="prevChapterBtn2">
