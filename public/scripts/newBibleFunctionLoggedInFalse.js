@@ -63,7 +63,7 @@ function loadVerses(verses, container) {
         verseNumber.innerText = verse.verse
 
         verseText.id = verse.id
-        verseText.classList.add('mx-2', 'my-1', 'p-1', 'verse')
+        verseText.classList.add('my-2', 'verse', 'break-word')
         verseText.appendChild(verseNumber)
         verseText.appendChild(document.createTextNode(verse.text))
 
@@ -143,6 +143,11 @@ async function main() {
                 await loadBook(bList.value)
             }
         }
+
+    setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 1);
+
     })
     prevChapterBtn.addEventListener('click', async () => {
         const currentChapter = parseInt(cList.value)
@@ -177,6 +182,11 @@ async function main() {
             // Load the last chapter of the previous book
             await loadChapter(prevBook, lastChapterIndex)
         }
+
+    setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 1);
+
     })
     nextChapterBtn2.addEventListener('click', async () => {
         const currentChapter = parseInt(cList.value)
@@ -196,6 +206,11 @@ async function main() {
                 await loadBook(bList.value)
             }
         }
+
+    setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 1);
+
     })
     prevChapterBtn2.addEventListener('click', async () => {
         const currentChapter = parseInt(cList.value)
@@ -230,6 +245,11 @@ async function main() {
             // Load the last chapter of the previous book
             await loadChapter(prevBook, lastChapterIndex)
         }
+
+    setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 1);
+
     })
 
     await loadBook(bList.value)

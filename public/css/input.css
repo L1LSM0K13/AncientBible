@@ -5,19 +5,19 @@
 @layer components {
 	/* Node Class Set */
 	.nodeTitleH1Bottom {
-		@apply bg-[#51688e] py-1 px-3 text-white border border-[#355488] rounded-b-md block text-center dark:bg-[#202124] dark:border-[#474747] dark:text-[#d9dde0];
+		@apply bg-[#ffebc4] py-1 px-3 text-[#962930] border-x-2 border-b-2 border-[#962930] block text-center dark:bg-[#202124] dark:border-[#474747] dark:text-[#d9dde0];
 	}
 	.nodeTitleH1 {
-		@apply bg-[#51688e] py-1 px-3 text-white border border-[#355488] rounded-t-md block text-center dark:bg-[#202124] dark:border-[#474747] dark:text-[#d9dde0];
+		@apply bg-[#ffebc4] py-1 px-3 text-[#962930] border-x-2 border-t-2 border-[#962930] block text-center dark:bg-[#202124] dark:border-[#474747] dark:text-[#d9dde0];
 	}
 	.nodeInsideDiv {
-		@apply bg-white py-1 px-3 mb-5 border-x border-b border-[#355488] block rounded-b-md dark:bg-[#303134] dark:border-[#474747] shadow-xl;
+		@apply bg-[#ffebc4] py-1 px-3 mb-5 border-x-2 border-b-2 border-[#962930] block dark:bg-[#303134] dark:border-[#474747] shadow-xl;
 	}
 	.nodeInsideDivReading {
-		@apply bg-white py-1 px-3 border-x border-[#355488] block dark:bg-[#303134] dark:border-[#474747] shadow-xl;
+		@apply bg-[#ffebc4] py-1 px-3 border-x-2 border-[#962930] block dark:bg-[#303134] dark:border-[#474747] shadow-xl;
 	}
 	.navBar {
-		@apply p-2 bg-[#51688e] text-white text-sm border border-[#355488] dark:border-[#474747] dark:bg-[#303134];
+		@apply bg-[#ffebc4] p-2 text-[#962930] text-sm border-2 border-[#962930] dark:border-[#474747] dark:bg-[#303134];
 	}
 
 	/* Message Class Set */
@@ -30,10 +30,10 @@
 
 	/* Button Class Set */
 	.input {
-		@apply rounded-sm border border-gray-500 bg-gray-200 px-2 py-1 dark:bg-[#202124] dark:border-[#474747] dark:text-[#d9dde0];
+		@apply rounded-sm border border-[#962930] bg-gray-200 px-2 py-1 dark:bg-[#202124] dark:border-[#474747] dark:text-[#d9dde0];
 	}
 	.inputHamburgerMenu {
-		@apply rounded-md border border-gray-500 bg-gray-200 pt-1 px-2 dark:bg-[#202124] dark:border-[#474747] dark:text-[#d9dde0];
+		@apply rounded-md border border-[#962930] bg-gray-200 pt-1 px-2 dark:bg-[#202124] dark:border-[#474747] dark:text-[#d9dde0];
 	}
 
 	/* Notes node class set */
