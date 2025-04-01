@@ -21,7 +21,7 @@
 	<% } %>
 	<script src="/scripts/churchFathersFormattingOptions.js" defer></script>
 </head>
-<body class="bg-[#e9eef1] text-lg dark:bg-[#202124] dark:text-[#d9dde0] text-gray-800">
+<body class="bg-[#ffd7a9] text-lg dark:bg-[#202124] dark:text-[#d9dde0] text-[#161616]">
 <%- include('partials/navBar')  %>
 
 <main class="grid grid-cols-4 grid-rows-1 gap-5 nodeMargins">
@@ -35,20 +35,20 @@
 	<div class="xl:col-start-2 col-span-full row-start-2 col-start-1 xl:col-span-3 xl:row-start-1">
 		<div class="nodeTitleH1 flex justify-center items-center gap-5">
 			<div class="cursor-pointer text-3xl" id="prevChapterBtn1">&#x21e6;</div>
-			<h1 id="bookTitle"></h1>
+			<h1 id="bookTitle" class="font-semibold"></h1>
 			<div class="cursor-pointer text-3xl" id="nextChapterBtn1">&#x21e8;</div>
 		</div>
 
 		<div class="text-lg">
 
 			<% if (loggedIn) { %>
-				<div id="vCont" class="nodeInsideDivReading px-5"></div>
+				<div id="vCont" class="nodeInsideDivReading md:px-14 px-8"></div>
 
 				<div class="flex justify-center gap-5 items-center nodeTitleH1Bottom mb-10">
 					<div class="flex flex-row gap-5 items-center cursor-pointer" id="prevChapterBtn2">
 						<div class="text-3xl" >&#x21e6;</div>
 					</div>
-					<h1 id="bookTitle2"></h1>
+					<h1 id="bookTitle2" class="font-semibold"></h1>
 					<div class="flex flex-row gap-5 items-center cursor-pointer" id="nextChapterBtn2">
 						<div class="text-3xl">&#x21e8;</div>
 					</div>
@@ -62,13 +62,13 @@
 				<% } %>
 
 			<% } else { %>
-					<div id="vCont" class="nodeInsideDivReading px-5"></div>
+					<div id="vCont" class="nodeInsideDivReading md:px-14 px-8"></div>
 
 					<div class="flex justify-center gap-5 items-center nodeTitleH1Bottom mb-10">
 						<div class="flex flex-row gap-5 items-center cursor-pointer" id="prevChapterBtn2">
 							<div class="text-3xl" >&#x21e6;</div>
 						</div>
-						<h1 id="bookTitle2"></h1>
+						<h1 id="bookTitle2" class="font-semibold"></h1>
 						<div class="flex flex-row gap-5 items-center cursor-pointer" id="nextChapterBtn2">
 							<div class="text-3xl">&#x21e8;</div>
 						</div>
