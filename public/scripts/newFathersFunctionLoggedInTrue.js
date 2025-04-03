@@ -173,6 +173,10 @@ async function main() {
                 await loadBook(bList.value)
             }
         }
+
+        setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 1);
     })
     prevChapterBtn.addEventListener('click', async () => {
         const currentChapter = parseInt(cList.value)
@@ -207,6 +211,10 @@ async function main() {
             // Load the last chapter of the previous book
             await loadChapter(prevBook, lastChapterIndex)
         }
+
+        setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 1);
     })
     nextChapterBtn2.addEventListener('click', async () => {
         const currentChapter = parseInt(cList.value)
@@ -226,6 +234,10 @@ async function main() {
                 await loadBook(bList.value)
             }
         }
+
+        setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 1);
     })
     prevChapterBtn2.addEventListener('click', async () => {
         const currentChapter = parseInt(cList.value)
@@ -260,6 +272,10 @@ async function main() {
             // Load the last chapter of the previous book
             await loadChapter(prevBook, lastChapterIndex)
         }
+
+        setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 1);
     })
 
     await loadBook(bList.value)

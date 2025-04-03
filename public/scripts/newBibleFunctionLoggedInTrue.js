@@ -1,18 +1,17 @@
 // Function declarations
-const bList = document.getElementById('book-list')
-const cList = document.getElementById('chapter-list')
-const vCont = document.getElementById('vCont')
-const bTitle = document.getElementById('bookTitle')
-const bTitle2 = document.getElementById('bookTitle2')
-const redBtn = document.getElementById('redLetterBtn')
-const nextChapterBtn = document.getElementById('nextChapterBtn1')
-const prevChapterBtn = document.getElementById('prevChapterBtn1')
+const bList = document.getElementById("book-list");
+const cList = document.getElementById("chapter-list");
+const vCont = document.getElementById("vCont");
+const bTitle = document.getElementById("bookTitle");
+const bTitle2 = document.getElementById("bookTitle2");
+const redBtn = document.getElementById("redLetterBtn");
+const nextChapterBtn = document.getElementById("nextChapterBtn1");
+const prevChapterBtn = document.getElementById("prevChapterBtn1");
 
-const nextChapterBtn2 = document.getElementById('nextChapterBtn2')
-const prevChapterBtn2 = document.getElementById('prevChapterBtn2')
+const nextChapterBtn2 = document.getElementById("nextChapterBtn2");
+const prevChapterBtn2 = document.getElementById("prevChapterBtn2");
 
-
-let isRed = JSON.parse(localStorage.getItem('isRed')) || false
+let isRed = JSON.parse(localStorage.getItem("isRed")) || false;
 /**
  *
  * @param filename {string}
@@ -20,11 +19,11 @@ let isRed = JSON.parse(localStorage.getItem('isRed')) || false
  */
 // Fetches book from server
 async function fetchBook(filename) {
-    const resp = await fetch(`../newBooks/${filename}`)
-    if (resp.status !== 200) {
-        throw new Error('Failed to fetch book, got HTTP status ' + resp.status)
-    }
-    return await resp.json()
+  const resp = await fetch(`../newBooks/${filename}`);
+  if (resp.status !== 200) {
+    throw new Error("Failed to fetch book, got HTTP status " + resp.status);
+  }
+  return await resp.json();
 }
 
 /**
@@ -34,12 +33,14 @@ async function fetchBook(filename) {
  */
 // Generates chapter options
 function generateChapterOptions(chapters) {
-    return chapters.map(/** @param chapter {number} @param index {number}  */(chapter, index) => {
-        const chapterOption = document.createElement('option')
-        chapterOption.innerText = chapter.chapter
-        chapterOption.value = index
-        return chapterOption
-    })
+  return chapters.map(
+    /** @param chapter {number} @param index {number}  */ (chapter, index) => {
+      const chapterOption = document.createElement("option");
+      chapterOption.innerText = chapter.chapter;
+      chapterOption.value = index;
+      return chapterOption;
+    }
+  );
 }
 
 /**
@@ -49,32 +50,38 @@ function generateChapterOptions(chapters) {
  */
 // Loads verses into the container
 function loadVerses(verses, container) {
-    container.innerText = '' // Clear existing content
-    verses.forEach((/** @type {{ isRed: any; id: string; verse: string; text: string; }} */ verse) => {
-        const verseText = document.createElement('span')
-        const verseNumber = document.createElement('strong')
-        const noteTakingModal = document.createElement("dialog")
+  container.innerText = ""; // Clear existing content
+  verses.forEach(
+    (
+      /** @type {{ isRed: any; id: string; verse: string; text: string; }} */ verse
+    ) => {
+      const verseText = document.createElement("span");
+      const verseNumber = document.createElement("strong");
+      const noteTakingModal = document.createElement("dialog");
 
-        let fileName = bList.value.replace('.json', '')
-        let capitalizedFilename = fileName.charAt(0).toUpperCase() + fileName.slice(1)
+      let fileName = bList.value.replace(".json", "");
+      let capitalizedFilename =
+        fileName.charAt(0).toUpperCase() + fileName.slice(1);
 
-        if (!isRed && verse.isRed) {
-            verseText.classList.toggle("text-red-600")
-        }
+      if (!isRed && verse.isRed) {
+        verseText.classList.toggle("text-red-600");
+      }
 
-        verseNumber.classList.add('p-1')
-        verseNumber.innerText = verse.verse
+      verseNumber.classList.add("p-1");
+      verseNumber.innerText = verse.verse;
 
-        verseText.id = verse.id
-        verseText.classList.add('mx-2', 'my-1', 'p-1', 'verse')
-        verseText.appendChild(verseNumber)
-        verseText.appendChild(document.createTextNode(verse.text))
+      verseText.id = verse.id;
+      verseText.classList.add("mx-2", "my-1", "p-1", "verse");
+      verseText.appendChild(verseNumber);
+      verseText.appendChild(document.createTextNode(verse.text));
 
-        noteTakingModal.innerHTML = `<div>
+      noteTakingModal.innerHTML = `<div>
  <div>
   <div class="noteNodeTitleH1">
    <div class="flex justify-between align-middle gap-1">
-    <span>Create Note on ${capitalizedFilename} ${parseInt(cList.value) + 1}:${verse.verse}</span>
+    <span>Create Note on ${capitalizedFilename} ${parseInt(cList.value) + 1}:${
+        verse.verse
+      }</span>
     <button><a href="javascript:location.reload()">X</a></button>
    </div>
   </div>
@@ -93,7 +100,9 @@ function loadVerses(verses, container) {
     <input type="hidden" name="verse_id" value="${verseText.id}" />
     <input type="hidden" name="book_title" value="${bList.value}" />
     <input type="hidden" name="chapter_number" value="${cList.value}" />
-    <input type="hidden" name="verse_number" value="${parseInt(verseNumber.innerText)}" />
+    <input type="hidden" name="verse_number" value="${parseInt(
+      verseNumber.innerText
+    )}" />
 
     <input
      type="submit"
@@ -102,16 +111,17 @@ function loadVerses(verses, container) {
    </form>
   </div>
  </div>
-</div>`
+</div>`;
 
-        verseText.addEventListener('click', () => {
-            noteTakingModal.showModal()
-        })
+      verseText.addEventListener("click", () => {
+        noteTakingModal.showModal();
+      });
 
-        verseText.appendChild(noteTakingModal)
+      verseText.appendChild(noteTakingModal);
 
-        container.appendChild(verseText)
-    })
+      container.appendChild(verseText);
+    }
+  );
 }
 
 /**
@@ -121,17 +131,18 @@ function loadVerses(verses, container) {
  */
 // Loads book and sets up chapters
 async function loadBook(filename) {
-    const book = await fetchBook(filename)
-    const chapterOptions = generateChapterOptions(book.chapters)
+  const book = await fetchBook(filename);
+  const chapterOptions = generateChapterOptions(book.chapters);
 
-    cList.innerText = '' // Clear existing options
-    chapterOptions.forEach(option => cList.appendChild(option))
+  cList.innerText = ""; // Clear existing options
+  chapterOptions.forEach((option) => cList.appendChild(option));
 
-    // @ts-ignore
-    const savedChapter = parseInt(localStorage.getItem(`selectedChapter_${filename}`), 10) || 0
-    cList.value = savedChapter
+  // @ts-ignore
+  const savedChapter =
+    parseInt(localStorage.getItem(`selectedChapter_${filename}`), 10) || 0;
+  cList.value = savedChapter;
 
-    await loadChapter(book, savedChapter)
+  await loadChapter(book, savedChapter);
 }
 
 /**
@@ -142,16 +153,19 @@ async function loadBook(filename) {
  */
 // Loads chapter and stores chapter index
 async function loadChapter(book, chapterIndex) {
-    const filename = bList.value
-    const chapter = book.chapters[chapterIndex]
-    bTitle.innerText = `Book of ${book.book} - Chapter ${parseInt(chapterIndex) + 1}`
-    bTitle2.innerText = `Book of ${book.book} - Chapter ${parseInt(chapterIndex) + 1}`
+  const filename = bList.value;
+  const chapter = book.chapters[chapterIndex];
+  bTitle.innerText = `Book of ${book.book} - Chapter ${
+    parseInt(chapterIndex) + 1
+  }`;
+  bTitle2.innerText = `Book of ${book.book} - Chapter ${
+    parseInt(chapterIndex) + 1
+  }`;
 
-    loadVerses(chapter.verses, vCont)
+  loadVerses(chapter.verses, vCont);
 
-    localStorage.setItem(`selectedChapter_${filename}`, chapterIndex)
+  localStorage.setItem(`selectedChapter_${filename}`, chapterIndex);
 }
-
 
 /**
  *
@@ -159,137 +173,151 @@ async function loadChapter(book, chapterIndex) {
  */
 // Initializes the application
 async function main() {
+  function nextChapter(chapter, length) {
+    const next = parseInt(chapter) + 1;
+    return next < length ? next : null;
+  }
+  function prevChapter(chapter) {
+    const prev = parseInt(chapter) - 1;
+    return prev >= 0 ? prev : null; // Return null if it's the first chapter
+  }
+  nextChapterBtn.addEventListener("click", async () => {
+    const currentChapter = parseInt(cList.value);
+    const book = await fetchBook(bList.value);
 
-    function nextChapter(chapter, length) {
-        const next = parseInt(chapter) + 1
-        return next < length ? next : null
+    const newChapter = nextChapter(currentChapter, book.chapters.length);
+
+    if (newChapter !== null) {
+      cList.value = newChapter;
+      await loadChapter(book, newChapter);
+    } else {
+      const currentBook = parseInt(bList.selectedIndex);
+      const nextBook = currentBook + 1;
+
+      if (nextBook < bList.options.length) {
+        bList.selectedIndex = nextBook;
+        await loadBook(bList.value);
+      }
     }
-    function prevChapter(chapter) {
-        const prev = parseInt(chapter) - 1
-        return prev >= 0 ? prev : null // Return null if it's the first chapter
+
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 1);
+  });
+  prevChapterBtn.addEventListener("click", async () => {
+    const currentChapter = parseInt(cList.value);
+    const currentBookIndex = bList.selectedIndex;
+
+    // Get the current book
+    const book = await fetchBook(bList.value);
+
+    const prevChap = prevChapter(currentChapter);
+
+    if (prevChap !== null) {
+      // If it's not the first chapter, load the previous chapter
+      cList.value = prevChap; // Update the selected option in the dropdown
+      await loadChapter(book, prevChap);
+    } else if (currentBookIndex > 0) {
+      // If it's the first chapter, go to the previous book
+      const prevBookIndex = currentBookIndex - 1;
+      bList.selectedIndex = prevBookIndex;
+
+      // Load the previous book
+      const prevBook = await fetchBook(bList.value);
+      const lastChapterIndex = prevBook.chapters.length - 1; // Get the last chapter of the previous book
+
+      // Clear and reload the chapter list for the new book
+      cList.innerText = ""; // Clear old chapter options
+      const chapterOptions = generateChapterOptions(prevBook.chapters);
+      chapterOptions.forEach((option) => cList.appendChild(option));
+
+      // Set the last chapter as the current chapter in the dropdown
+      cList.value = lastChapterIndex;
+
+      // Load the last chapter of the previous book
+      await loadChapter(prevBook, lastChapterIndex);
     }
-    nextChapterBtn.addEventListener('click', async () => {
-        const currentChapter = parseInt(cList.value)
-        const book = await fetchBook(bList.value)
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 1);
+  });
 
-        const newChapter = nextChapter(currentChapter, book.chapters.length)
+  nextChapterBtn2.addEventListener("click", async () => {
+    const currentChapter = parseInt(cList.value);
+    const book = await fetchBook(bList.value);
 
-        if (newChapter !== null) {
-            cList.value = newChapter
-            await loadChapter(book, newChapter)
-        } else {
-            const currentBook = parseInt(bList.selectedIndex)
-            const nextBook = currentBook + 1
+    const newChapter = nextChapter(currentChapter, book.chapters.length);
 
-            if (nextBook < bList.options.length) {
-                bList.selectedIndex = nextBook
-                await loadBook(bList.value)
-            }
-        }
-    })
-    prevChapterBtn.addEventListener('click', async () => {
-        const currentChapter = parseInt(cList.value)
-        const currentBookIndex = bList.selectedIndex
+    if (newChapter !== null) {
+      cList.value = newChapter;
+      await loadChapter(book, newChapter);
+    } else {
+      const currentBook = parseInt(bList.selectedIndex);
+      const nextBook = currentBook + 1;
 
-        // Get the current book
-        const book = await fetchBook(bList.value)
+      if (nextBook < bList.options.length) {
+        bList.selectedIndex = nextBook;
+        await loadBook(bList.value);
+      }
+    }
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 1);
+  });
+  prevChapterBtn2.addEventListener("click", async () => {
+    const currentChapter = parseInt(cList.value);
+    const currentBookIndex = bList.selectedIndex;
 
-        const prevChap = prevChapter(currentChapter)
+    // Get the current book
+    const book = await fetchBook(bList.value);
 
-        if (prevChap !== null) {
-            // If it's not the first chapter, load the previous chapter
-            cList.value = prevChap // Update the selected option in the dropdown
-            await loadChapter(book, prevChap)
-        } else if (currentBookIndex > 0) {
-            // If it's the first chapter, go to the previous book
-            const prevBookIndex = currentBookIndex - 1
-            bList.selectedIndex = prevBookIndex
+    const prevChap = prevChapter(currentChapter);
 
-            // Load the previous book
-            const prevBook = await fetchBook(bList.value)
-            const lastChapterIndex = prevBook.chapters.length - 1 // Get the last chapter of the previous book
+    if (prevChap !== null) {
+      // If it's not the first chapter, load the previous chapter
+      cList.value = prevChap; // Update the selected option in the dropdown
+      await loadChapter(book, prevChap);
+    } else if (currentBookIndex > 0) {
+      // If it's the first chapter, go to the previous book
+      const prevBookIndex = currentBookIndex - 1;
+      bList.selectedIndex = prevBookIndex;
 
-            // Clear and reload the chapter list for the new book
-            cList.innerText = '' // Clear old chapter options
-            const chapterOptions = generateChapterOptions(prevBook.chapters)
-            chapterOptions.forEach(option => cList.appendChild(option))
+      // Load the previous book
+      const prevBook = await fetchBook(bList.value);
+      const lastChapterIndex = prevBook.chapters.length - 1; // Get the last chapter of the previous book
 
-            // Set the last chapter as the current chapter in the dropdown
-            cList.value = lastChapterIndex
+      // Clear and reload the chapter list for the new book
+      cList.innerText = ""; // Clear old chapter options
+      const chapterOptions = generateChapterOptions(prevBook.chapters);
+      chapterOptions.forEach((option) => cList.appendChild(option));
 
-            // Load the last chapter of the previous book
-            await loadChapter(prevBook, lastChapterIndex)
-        }
-    })
-    nextChapterBtn2.addEventListener('click', async () => {
-        const currentChapter = parseInt(cList.value)
-        const book = await fetchBook(bList.value)
+      // Set the last chapter as the current chapter in the dropdown
+      cList.value = lastChapterIndex;
 
-        const newChapter = nextChapter(currentChapter, book.chapters.length)
+      // Load the last chapter of the previous book
+      await loadChapter(prevBook, lastChapterIndex);
+    }
 
-        if (newChapter !== null) {
-            cList.value = newChapter
-            await loadChapter(book, newChapter)
-        } else {
-            const currentBook = parseInt(bList.selectedIndex)
-            const nextBook = currentBook + 1
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 1);
+  });
 
-            if (nextBook < bList.options.length) {
-                bList.selectedIndex = nextBook
-                await loadBook(bList.value)
-            }
-        }
-    })
-    prevChapterBtn2.addEventListener('click', async () => {
-        const currentChapter = parseInt(cList.value)
-        const currentBookIndex = bList.selectedIndex
+  await loadBook(bList.value);
 
-        // Get the current book
-        const book = await fetchBook(bList.value)
+  redBtn.addEventListener("click", async () => {
+    isRed = !isRed;
+    localStorage.setItem("isRed", JSON.stringify(isRed));
+    await loadChapter(await fetchBook(bList.value), cList.value);
+  });
 
-        const prevChap = prevChapter(currentChapter)
-
-        if (prevChap !== null) {
-            // If it's not the first chapter, load the previous chapter
-            cList.value = prevChap // Update the selected option in the dropdown
-            await loadChapter(book, prevChap)
-        } else if (currentBookIndex > 0) {
-            // If it's the first chapter, go to the previous book
-            const prevBookIndex = currentBookIndex - 1
-            bList.selectedIndex = prevBookIndex
-
-            // Load the previous book
-            const prevBook = await fetchBook(bList.value)
-            const lastChapterIndex = prevBook.chapters.length - 1 // Get the last chapter of the previous book
-
-            // Clear and reload the chapter list for the new book
-            cList.innerText = '' // Clear old chapter options
-            const chapterOptions = generateChapterOptions(prevBook.chapters)
-            chapterOptions.forEach(option => cList.appendChild(option))
-
-            // Set the last chapter as the current chapter in the dropdown
-            cList.value = lastChapterIndex
-
-            // Load the last chapter of the previous book
-            await loadChapter(prevBook, lastChapterIndex)
-        }
-    })
-
-    await loadBook(bList.value)
-
-    redBtn.addEventListener('click', async () => {
-        isRed = !isRed
-        localStorage.setItem('isRed', JSON.stringify(isRed))
-        await loadChapter(await fetchBook(bList.value), cList.value)
-    })
-
-    bList.addEventListener('change', async () => {
-        localStorage.removeItem(`selectedChapter_${bList.value}`)
-        await loadBook(bList.value)
-    })
-    cList.addEventListener('change', async () => {
-        await loadChapter(await fetchBook(bList.value), cList.value)
-    })
+  bList.addEventListener("change", async () => {
+    localStorage.removeItem(`selectedChapter_${bList.value}`);
+    await loadBook(bList.value);
+  });
+  cList.addEventListener("change", async () => {
+    await loadChapter(await fetchBook(bList.value), cList.value);
+  });
 }
 
-main()
+main();

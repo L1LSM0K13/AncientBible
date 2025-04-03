@@ -33,7 +33,7 @@
 		@apply rounded-sm border border-[#962930] bg-gray-200 px-2 py-1 dark:bg-[#202124] dark:border-[#474747] dark:text-[#d9dde0];
 	}
 	.inputHamburgerMenu {
-		@apply rounded-md border border-[#962930] bg-gray-200 pt-1 px-2 dark:bg-[#202124] dark:border-[#474747] dark:text-[#d9dde0];
+		@apply  border-2 border-[#243858] bg-[#bb6963] pt-1 px-2 dark:bg-[#202124] dark:border-[#474747] dark:text-[#d9dde0];
 	}
 
 	/* Notes node class set */
