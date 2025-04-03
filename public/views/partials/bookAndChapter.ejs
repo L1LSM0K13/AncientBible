@@ -308,4 +308,42 @@
         </option>
     </select>
     <select id="chapter-list" class="p-1 mx-2 dark:bg-[#202124] border-2 border-[#243858] bg-[#bb6963] col-start-2"></select>
+
+    <input type="text" id="search-bar" placeholder="Search, then hit enter" class="col-span-full p-1 mx-2 dark:bg-[#202124] border-2 border-[#243858] bg-[#bb6963] placeholder:text-[#41201d]">
 </div>
+
+<script>
+    const searchBar = document.getElementById('search-bar');
+    const bookList = document.getElementById('book-list');
+    const chapterList = document.getElementById('chapter-list');
+
+    // Filter books in the dropdown based on search input
+    searchBar.addEventListener('input', () => {
+        const filter = searchBar.value.toLowerCase();
+        for (const option of bookList.options) {
+            if (option.text.toLowerCase().includes(filter)) {
+                option.style.display = 'block';
+            } else {
+                option.style.display = 'none';
+            }
+        }
+    });
+
+    // Update chapters when a book is selected
+    bookList.addEventListener('change', () => {
+        const selectedBook = bookList.value;
+
+        // Clear current chapters
+        chapterList.innerHTML = '';
+
+        // Example: Dynamic chapter loading logic
+        // Simulate loading chapters based on the book's value
+        let numberOfChapters = parseInt(selectedBook.match(/\d/)[0], 10); // Extract number from filename
+        for (let i = 1; i <= numberOfChapters; i++) {
+            const option = document.createElement('option');
+            option.value = `Chapter ${i}`;
+            option.textContent = `Chapter ${i}`;
+            chapterList.appendChild(option);
+        }
+    });
+</script>
