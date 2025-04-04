@@ -6,6 +6,7 @@ const vCont = document.getElementById('vCont')
 const bTitle = document.getElementById('bookTitle')
 const bTitle2 = document.getElementById('bookTitle2')
 const redBtn = document.getElementById('redLetterBtn')
+const numberBtn = document.getElementById('numberBtn')
 const nextChapterBtn = document.getElementById('nextChapterBtn1')
 const prevChapterBtn = document.getElementById('prevChapterBtn1')
 
@@ -14,6 +15,8 @@ const prevChapterBtn2 = document.getElementById('prevChapterBtn2')
 
 
 let isRed = JSON.parse(localStorage.getItem('isRed')) || false
+let verseNumberShown = JSON.parse(localStorage.getItem('verseNumberShown')) || false
+
 /**
  *
  * @param filename {string}
@@ -57,6 +60,9 @@ function loadVerses(verses, container) {
 
         if (!isRed && verse.isRed) {
             verseText.classList.toggle("text-red-600")
+        }
+        if (!verseNumberShown) {
+            verseNumber.classList.toggle("hidden")
         }
 
         verseNumber.classList.add('p-1')
@@ -265,6 +271,12 @@ async function main() {
         await loadBook(bList.value)
     })
     cList.addEventListener('change', async () => {
+        await loadChapter(await fetchBook(bList.value), cList.value)
+    })
+
+    numberBtn.addEventListener('click', async () => {
+        verseNumberShown = !verseNumberShown
+        localStorage.setItem('verseNumberShown', JSON.stringify(verseNumberShown))
         await loadChapter(await fetchBook(bList.value), cList.value)
     })
 }
