@@ -5,15 +5,6 @@
       "chapter": 1,
       "verses": [
         {
-          "text": "The Instructor  Book 2.",
-          "id": 390392
-        }
-      ]
-    },
-    {
-      "chapter": 2,
-      "verses": [
-        {
           "text": "Chapter - 1—On Eating.",
           "id": 390393
         },
@@ -696,7 +687,7 @@
       ]
     },
     {
-      "chapter": 3,
+      "chapter": 2,
       "verses": [
         {
           "text": "Chapter 2—On Drinking.",
@@ -1249,7 +1240,7 @@
       ]
     },
     {
-      "chapter": 4,
+      "chapter": 3,
       "verses": [
         {
           "text": "Chapter 3—On Costly Vessels.",
@@ -1422,7 +1413,7 @@
       ]
     },
     {
-      "chapter": 5,
+      "chapter": 4,
       "verses": [
         {
           "text": "Chapter 4—How to Conduct Ourselves at Feasts.",
@@ -1643,7 +1634,7 @@
       ]
     },
     {
-      "chapter": 6,
+      "chapter": 5,
       "verses": [
         {
           "text": "Chapter 5—On Laughter.",
@@ -1780,7 +1771,7 @@
       ]
     },
     {
-      "chapter": 7,
+      "chapter": 6,
       "verses": [
         {
           "text": "Chapter 6—On Filthy Speaking.",
@@ -1913,7 +1904,7 @@
       ]
     },
     {
-      "chapter": 8,
+      "chapter": 7,
       "verses": [
         {
           "text": "Chapter 7—Directions for Those Who Live Together.",
@@ -2226,7 +2217,7 @@
       ]
     },
     {
-      "chapter": 9,
+      "chapter": 8,
       "verses": [
         {
           "text": "Chapter 8—On the Use of Ointments and Crowns.",
@@ -2791,7 +2782,7 @@
       ]
     },
     {
-      "chapter": 10,
+      "chapter": 9,
       "verses": [
         {
           "text": "Chapter - 9—On Sleep.",
@@ -3008,7 +2999,7 @@
       ]
     },
     {
-      "chapter": 11,
+      "chapter": 10,
       "verses": [
         {
           "text": "Chapter 10—Quaenam de Procreatione Liberorum Tractanda Sint.",
@@ -3577,7 +3568,7 @@
       ]
     },
     {
-      "chapter": 12,
+      "chapter": 11,
       "verses": [
         {
           "text": "Chapter 11—On Clothes.",
@@ -3994,7 +3985,7 @@
       ]
     },
     {
-      "chapter": 13,
+      "chapter": 12,
       "verses": [
         {
           "text": "Chapter - 12—On Shoes.",
@@ -4063,7 +4054,7 @@
       ]
     },
     {
-      "chapter": 14,
+      "chapter": 13,
       "verses": [
         {
           "text": "Chapter XIII—Against Excessive Fondness for Jewels and Gold Ornaments.",
